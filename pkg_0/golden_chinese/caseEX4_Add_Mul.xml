@@ -1,0 +1,15 @@
+<Unit ID="IIS-MR-MATH-GRADE01-164003">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(17片葉子(OP_Addition(14片葉子(OP_Multiplication(14/1|1片葉子))|3片葉子)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	14/1  1片葉子  就是   14/1 * 1 = 14片葉子
+	所以,  	14片葉子 + 3片葉子 = 17片葉子
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

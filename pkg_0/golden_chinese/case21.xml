@@ -1,0 +1,15 @@
+<Unit ID="">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(9塊(OP_FloorDiv(500公克黏土|52(公克黏土/塊黏土|OP_CommonDiv(52公克黏土|1塊黏土)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	1塊黏土切成52公克黏土就是52 ÷ 1 = 52(公克黏土/塊黏土)
+	所以,  	500公克黏土 最多可以 切成 	:	500 ÷ 52 = 9塊
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

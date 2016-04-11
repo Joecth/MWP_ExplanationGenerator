@@ -1,0 +1,16 @@
+<Unit ID="IIS-MR-MATH-GRADE01-173206">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(27300元(OP_Sum(20000元(OP_Multiplication(2疊|一萬元鈔票))|6000元(OP_Multiplication(6張|千元鈔票))|1300元(OP_Multiplication(13張|百元鈔票)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	2疊  一萬元鈔票  就是   2 * 10000 = 20000元
+	6張  千元鈔票  就是   6 * 1000 = 6000元
+	13張  百元鈔票  就是   13 * 100 = 1300元
+	所以,  共付	20000元 + 6000元 + 1300元 = 27300元
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

@@ -1,0 +1,15 @@
+<Unit ID="IIS-MR-MATH-GRADE01-164236">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(20個書套(OP_Addition(19個書套(OP_Multiplication(19/1|1個書套))|1個書套)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	19/1  1個書套  就是   19/1 * 1 = 19個書套
+	所以,  	19個書套 + 1個書套 = 20個書套
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

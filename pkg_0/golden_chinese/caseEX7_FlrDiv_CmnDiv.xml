@@ -1,0 +1,15 @@
+<Unit ID="IIS-MR-MATH-GRADE01-165312">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(15盒(OP_FloorDiv(75個甜甜圈|5(個甜甜圈/盒|OP_CommonDiv(10個甜甜圈|2盒)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	2盒有10個甜甜圈就是10 ÷ 2 = 5(個甜甜圈/盒)
+	所以,  	75個甜甜圈 最多可以 有 	:	75 ÷ 5 = 15盒
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

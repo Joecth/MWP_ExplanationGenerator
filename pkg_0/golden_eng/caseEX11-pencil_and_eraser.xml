@@ -1,0 +1,15 @@
+<Unit ID="">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(84 pencils(OP_TVQ_Addition(40 pencils|44 pencils(OP_TVQ_Addition(26 pencils|18 pencils)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	26 pencils + 18 pencils = 44 pencils
+	Thus,  	40 pencils + 44 pencils = 84 pencils
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

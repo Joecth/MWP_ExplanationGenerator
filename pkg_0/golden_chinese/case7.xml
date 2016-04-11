@@ -1,0 +1,13 @@
+<Unit ID="IIS-MR-MATH-GRADE01-173206">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(420朵康乃馨(OP_Sum(186朵康乃馨|234朵康乃馨)))
+			</Chain>
+			<Explanation>
+				Ans: 
+共賣出	186朵康乃馨 + 234朵康乃馨 = 420朵康乃馨
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

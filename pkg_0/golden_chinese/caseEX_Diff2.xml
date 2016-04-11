@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADE01-200219">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(2公分n1 <Warning> Warning :(Undecoded string from IE) </Warning>(OP_Subtraction(20公分n1 <Warning> Warning :(Undecoded string from IE) </Warning>|18公分n2 <Warning> Warning :(Undecoded string from IE) </Warning>)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	20公分n1 <Warning> Warning :(Undecoded string from IE) </Warning> - 18公分n2 <Warning> Warning :(Undecoded string from IE) </Warning> = 2公分n1 <Warning> Warning :(Undecoded string from IE) </Warning>
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

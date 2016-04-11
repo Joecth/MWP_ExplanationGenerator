@@ -1,0 +1,15 @@
+<Unit ID="">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(28336(OP_Multiplication(112區|253(人/區|OP_CommonDiv(253人|1區)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	1區有253人就是253 ÷ 1 = 253(人/區)
+	所以,  有	112區  253(人/區)  就是   112 * 253 = 28336
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

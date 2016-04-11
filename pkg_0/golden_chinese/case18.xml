@@ -1,0 +1,15 @@
+<Unit ID="">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(82992臺(OP_Multiplication(336天|247(臺電動玩具/天|OP_CommonDiv(247臺電動玩具|1天)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	1天生產247臺電動玩具就是247 ÷ 1 = 247(臺電動玩具/天)
+	所以,  生產	336天  247(臺電動玩具/天)  就是   336 * 247 = 82992臺
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

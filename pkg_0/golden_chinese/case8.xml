@@ -1,0 +1,13 @@
+<Unit ID="">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(3948枝筆(OP_Sum(2361枝紅筆|1587枝藍筆)))
+			</Chain>
+			<Explanation>
+				Ans: 
+共進貨	2361枝紅筆 + 1587枝藍筆 = 3948枝筆
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

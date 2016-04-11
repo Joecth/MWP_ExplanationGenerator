@@ -1,0 +1,15 @@
+<Unit ID="">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(46200碗(OP_Multiplication(350天|132(碗牛肉麵/天|OP_CommonDiv(132碗牛肉麵|1天)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	1天賣出132碗牛肉麵就是132 ÷ 1 = 132(碗牛肉麵/天)
+	所以,  賣出	350天  132(碗牛肉麵/天)  就是   350 * 132 = 46200碗
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

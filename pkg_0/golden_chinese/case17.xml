@@ -1,0 +1,15 @@
+<Unit ID="">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(54750元(OP_Multiplication(365天|150(元/天|OP_CommonDiv(150元|1天)))))
+			</Chain>
+			<Explanation>
+				Ans: 
+	1天存150元就是150 ÷ 1 = 150(元/天)
+	所以,  存	365天  150(元/天)  就是   365 * 150 = 54750元
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

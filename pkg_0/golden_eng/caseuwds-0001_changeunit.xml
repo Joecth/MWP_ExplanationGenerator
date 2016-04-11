@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(1 boy(OP_Subtraction(70 bodies|1 josh)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	70 bodies - 1 josh = 1 boy
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>
