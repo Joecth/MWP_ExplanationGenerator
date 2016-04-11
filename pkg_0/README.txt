@@ -6,6 +6,7 @@
     // log files: raw_tree.xml, build_tree.log.xml
  
 ### Regression:
-1. ./runreg.py
-2. vi ./reg_output_new/report.xml   
+1. ./runreg.py     
+    // script, run under Unix environment since popen2 cannot be found in PyCharm
+2. vi ./reg_output_new/report.xml
     // to see the diff of all cases in regression this run
