@@ -1,0 +1,58 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_72'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_72'>
+        <CHUNK>16070#UA</CHUNK>
+        <chk ID='ctx_72'>
+          <CHUNK>OP_Subtraction</CHUNK>
+          <chk ID='ctx_72'>
+            <CHUNK></CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_72'>
+            <CHUNK></CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_69'>
+    <ANS>16070 平方公尺</ANS>
+    <ctx ID='ctx_68'>
+      ( CLUE::Input ( ASK ANS ( Subtraction ( area o1 平方公尺 ) ( area o2 平方公尺 ) ) ( Suffix 平方公尺 ) ) )
+    </ctx>
+    <ctx ID='ctx_72'>
+      ( CLUE::Util ( Subtraction 16384 314 = 16070 ) )
+      ( CLUE::Util ( Val1 ( m_real 16384 ) ( m_fact ( area o1 #UA ) ( 16384 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 314 ) ( m_fact ( area o2 #UA ) ( 313.9999999999999 ) ) ) )
+      <ctx ID='ctx_56'>
+        ( CLUE::EVAL::LF2 ( = ( circumference o1 #UL ) 512 ) )
+        ( CLUE::EVAL::LF2 ( = ( circumference o1 #UL ) 512 ) )
+        ( CLUE::Create-Fact ( circumference o1 #UL ) ( 512 ) )
+        ( CLUE::Create-Fact::Outside ( side_length o1 #UL ) ( 128 ) )
+        ( CLUE::Create-Fact::Outside ( area o1 #UA ) ( 16384 ) )
+        <ctx ID='ctx_55'>
+          ( CLUE::Input ( = ( circumference o1 公尺 ) 512 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_67'>
+        ( CLUE::EVAL::LF2 ( = ( circumference o2 #UL ) 62.8 ) )
+        ( CLUE::EVAL::LF2 ( = ( circumference o2 #UL ) 62.8 ) )
+        ( CLUE::Create-Fact ( circumference o2 #UL ) ( 62.8 ) )
+        ( CLUE::Create-Fact::Outside ( diameter o2 #UL ) ( 20 ) )
+        ( CLUE::Create-Fact::Outside ( radius o2 #UL ) ( 9.999999999999998 ) )
+        ( CLUE::Create-Fact::Outside ( area o2 #UA ) ( 313.9999999999999 ) )
+        <ctx ID='ctx_66'>
+          ( CLUE::Input ( = ( circumference o2 公尺 ) 62.8 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

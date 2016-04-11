@@ -1,0 +1,423 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_195'>
+      <CHUNK>V.走</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_200'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_200'>
+        <CHUNK>甲</CHUNK>
+        <chk ID='ctx_200'>
+          <CHUNK>OP_ArgMax</CHUNK>
+          <chk ID='ctx_200'>
+            <CHUNK>甲: 3000(公尺/小時)</CHUNK>
+            <chk ID='ctx_97'>
+              <CHUNK>OP_CommonDiv</CHUNK>
+              <chk ID='ctx_97'>
+                <CHUNK>4800公尺</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_97'>
+                <CHUNK>1.6小時</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_200'>
+            <CHUNK>乙: 2880(公尺/小時)</CHUNK>
+            <chk ID='ctx_198'>
+              <CHUNK>OP_UnitTrans</CHUNK>
+              <chk ID='ctx_198'>
+                <CHUNK>48(公尺/分鐘)</CHUNK>
+                <chk ID='ctx_161'>
+                  <CHUNK>OP_CommonDiv</CHUNK>
+                  <chk ID='ctx_161'>
+                    <CHUNK>960公尺</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                  </chk>
+                  <chk ID='ctx_161'>
+                    <CHUNK>20分鐘</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                  </chk>
+                  <CHUNK>UPSCOPE</CHUNK>
+                </chk>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_201'>
+    <ctx ID='ctx_196'>
+      <ANS><Arg>甲</Arg></ANS>
+      <ctx ID='ctx_195'>
+        ( CLUE::Input ( ASK ANS ( ArgMax ?o ( u_map ?m s1w3 # s2w6 # ) ( COND ( member s1 ?o ) ( verb ?m s3w2 ) ( theme ?m ?o ) ) ) ) )
+      </ctx>
+    </ctx>
+    <ctx ID='ctx_200'>
+      ( CLUE::Util ( ArgMax = ( s1w1 ) ) )
+      ( CLUE::Args ( ( s1w1 ( u_map m1 _u_hour # _u_m # ) ( 3000 ) ) ( s2w1 ( u_map m2 _u_hour # _u_m # ) ( 2880 ) ) ) )
+      <ctx ID='ctx_197'>
+        ( CLUE::Bound-Facts ( u_map m1 _u_hour # _u_m # ) ( member s1 s1w1 ) ( verb m1 s1w4 ) ( theme m1 s1w1 ) )
+        <ctx ID='ctx_98'>
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 _u_hour # _u_m # ) ( / ( quan q2 _u_m # ) ( quan q1 _u_hour # ) ) ) )
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 _u_hour # _u_m # ) ( / 4800 1.6 ) ) )
+          ( CLUE::Create-Fact ( u_map m1 _u_hour # _u_m # ) ( 3000 ) )
+          <ctx ID='ctx_97'>
+            ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_4 ?_5 ?_6 ?_7 ) ( / ( quan ?_3 ?_6 ?_7 ) ( quan ?_2 ?_4 ?_5 ) ) ) ) )
+            ( CLUE::Bind ( ?_1 m1 ) ( ?_2 q1 ) ( ?_3 q2 ) ( ?_4 _u_hour ) ( ?_5 # ) ( ?_6 _u_m ) ( ?_7 # ) )
+            ( CLUE::Premise ( q_map m1 q1 q2 ) ( quan q1 _u_hour # ) ( quan q2 _u_m # ) )
+            ( CLUE::Conclusion ( = ( u_map m1 _u_hour # _u_m # ) ( / ( quan q2 _u_m # ) ( quan q1 _u_hour # ) ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 4800 ) ( $3 1.6 ) )
+            <ctx ID='ctx_96'>
+              ( CLUE::Create-Fact ( q_map m1 q1 q2 ) ( ) )
+              <ctx ID='ctx_94'>
+                ( CLUE::Input ( q_map m1 q1 q2 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_67'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+              ( CLUE::Create-Fact ( quan q1 _u_hour # ) ( 1.6 ) )
+              <ctx ID='ctx_66'>
+                ( CLUE::Input ( = ( quan q1 s1w3 # ) 1.6 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_81'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+              ( CLUE::Create-Fact ( quan q2 _u_m # ) ( 4800 ) )
+              <ctx ID='ctx_80'>
+                ( CLUE::Input ( = ( quan q2 s1w6 # ) 4800 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_81'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+            ( CLUE::Create-Fact ( quan q2 _u_m # ) ( 4800 ) )
+            <ctx ID='ctx_80'>
+              ( CLUE::Input ( = ( quan q2 s1w6 # ) 4800 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_67'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+            ( CLUE::Create-Fact ( quan q1 _u_hour # ) ( 1.6 ) )
+            <ctx ID='ctx_66'>
+              ( CLUE::Input ( = ( quan q1 s1w3 # ) 1.6 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_191'>
+          ( CLUE::Create-Fact ( member s1 s1w1 ) ( ) )
+          <ctx ID='ctx_189'>
+            ( CLUE::Input ( member s1 s1w1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_103'>
+          ( CLUE::Create-Fact ( verb m1 s1w4 ) ( ) )
+          <ctx ID='ctx_101'>
+            ( CLUE::Input ( verb m1 s1w4 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_106'>
+          ( CLUE::Create-Fact ( theme m1 s1w1 ) ( ) )
+          <ctx ID='ctx_104'>
+            ( CLUE::Input ( theme m1 s1w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_199'>
+        ( CLUE::Bound-Facts ( u_map m2 _u_hour # _u_m # ) ( member s1 s2w1 ) ( verb m2 s1w4 ) ( theme m2 s2w1 ) )
+        <ctx ID='ctx_198'>
+          ( CLUE::UnitTrans ( Old-Fact ( u_map m2 _u_min # _u_m # ) ( 48 ) ) ( New-Fact ( u_map m2 _u_hour # _u_m # ) ( 2880 ) ) )
+          <ctx ID='ctx_162'>
+            ( CLUE::EVAL::LF2 ( = ( u_map m2 _u_min # _u_m # ) ( / ( quan q4 _u_m # ) ( quan q3 _u_min # ) ) ) )
+            ( CLUE::EVAL::LF2 ( = ( u_map m2 _u_min # _u_m # ) ( / 960 20 ) ) )
+            ( CLUE::Create-Fact ( u_map m2 _u_min # _u_m # ) ( 48 ) )
+            <ctx ID='ctx_161'>
+              ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_4 ?_5 ?_6 ?_7 ) ( / ( quan ?_3 ?_6 ?_7 ) ( quan ?_2 ?_4 ?_5 ) ) ) ) )
+              ( CLUE::Bind ( ?_1 m2 ) ( ?_2 q3 ) ( ?_3 q4 ) ( ?_4 _u_min ) ( ?_5 # ) ( ?_6 _u_m ) ( ?_7 # ) )
+              ( CLUE::Premise ( q_map m2 q3 q4 ) ( quan q3 _u_min # ) ( quan q4 _u_m # ) )
+              ( CLUE::Conclusion ( = ( u_map m2 _u_min # _u_m # ) ( / ( quan q4 _u_m # ) ( quan q3 _u_min # ) ) ) )
+              ( CLUE::ExprVarMap ( $1 ) ( $2 960 ) ( $3 20 ) )
+              <ctx ID='ctx_160'>
+                ( CLUE::Create-Fact ( q_map m2 q3 q4 ) ( ) )
+                <ctx ID='ctx_158'>
+                  ( CLUE::Input ( q_map m2 q3 q4 ) )
+                </ctx>
+              </ctx>
+              <ctx ID='ctx_131'>
+                ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+                ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+                ( CLUE::Create-Fact ( quan q3 _u_min # ) ( 20 ) )
+                <ctx ID='ctx_130'>
+                  ( CLUE::Input ( = ( quan q3 s2w3 # ) 20 ) )
+                </ctx>
+              </ctx>
+              <ctx ID='ctx_145'>
+                ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+                ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+                ( CLUE::Create-Fact ( quan q4 _u_m # ) ( 960 ) )
+                <ctx ID='ctx_144'>
+                  ( CLUE::Input ( = ( quan q4 s2w6 # ) 960 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_145'>
+              ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+              ( CLUE::Create-Fact ( quan q4 _u_m # ) ( 960 ) )
+              <ctx ID='ctx_144'>
+                ( CLUE::Input ( = ( quan q4 s2w6 # ) 960 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_131'>
+              ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+              ( CLUE::Create-Fact ( quan q3 _u_min # ) ( 20 ) )
+              <ctx ID='ctx_130'>
+                ( CLUE::Input ( = ( quan q3 s2w3 # ) 20 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_194'>
+          ( CLUE::Create-Fact ( member s1 s2w1 ) ( ) )
+          <ctx ID='ctx_192'>
+            ( CLUE::Input ( member s1 s2w1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_167'>
+          ( CLUE::Create-Fact ( verb m2 s1w4 ) ( ) )
+          <ctx ID='ctx_165'>
+            ( CLUE::Input ( verb m2 s2w4 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_170'>
+          ( CLUE::Create-Fact ( theme m2 s2w1 ) ( ) )
+          <ctx ID='ctx_168'>
+            ( CLUE::Input ( theme m2 s2w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_217'>
+      <CHUNK>V.走</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_221'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_221'>
+        <CHUNK>120(公尺/小時)</CHUNK>
+        <chk ID='ctx_221'>
+          <CHUNK>OP_Subtraction</CHUNK>
+          <chk ID='ctx_221'>
+            <CHUNK>3000(公尺/小時)</CHUNK>
+            <chk ID='ctx_97'>
+              <CHUNK>OP_CommonDiv</CHUNK>
+              <chk ID='ctx_97'>
+                <CHUNK>4800公尺</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_97'>
+                <CHUNK>1.6小時</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_221'>
+            <CHUNK>2880(公尺/小時)</CHUNK>
+            <chk ID='ctx_198'>
+              <CHUNK>OP_UnitTrans</CHUNK>
+              <chk ID='ctx_198'>
+                <CHUNK>48(公尺/分鐘)</CHUNK>
+                <chk ID='ctx_161'>
+                  <CHUNK>OP_CommonDiv</CHUNK>
+                  <chk ID='ctx_161'>
+                    <CHUNK>960公尺</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                  </chk>
+                  <chk ID='ctx_161'>
+                    <CHUNK>20分鐘</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                  </chk>
+                  <CHUNK>UPSCOPE</CHUNK>
+                </chk>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_218'>
+    <ANS>120 公尺／時</ANS>
+    <ctx ID='ctx_217'>
+      ( CLUE::Input ( ASK ANS ( Difference ( Get ( u_map ?m s1w3 # s2w6 # ) ( COND ( verb ?m s3w2 ) ( theme ?m s1w1 ) ) ) ( Get ( u_map ?m s1w3 # s2w6 # ) ( COND ( verb ?m s3w2 ) ( theme ?m s2w1 ) ) ) ) ( Suffix s4w4 ) ) )
+    </ctx>
+    <ctx ID='ctx_221'>
+      ( CLUE::Util ( Subtraction 3000 2880 = 120 ) )
+      ( CLUE::Util ( Val1 ( m_real 3000 ) ( m_fact ( u_map m1 _u_hour # _u_m # ) ( 3000 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 2880 ) ( m_fact ( u_map m2 _u_hour # _u_m # ) ( 2880 ) ) ) )
+      <ctx ID='ctx_219'>
+        ( CLUE::Bound-Facts ( u_map m1 _u_hour # _u_m # ) ( verb m1 s1w4 ) ( theme m1 s1w1 ) )
+        <ctx ID='ctx_98'>
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 _u_hour # _u_m # ) ( / ( quan q2 _u_m # ) ( quan q1 _u_hour # ) ) ) )
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 _u_hour # _u_m # ) ( / 4800 1.6 ) ) )
+          ( CLUE::Create-Fact ( u_map m1 _u_hour # _u_m # ) ( 3000 ) )
+          <ctx ID='ctx_97'>
+            ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_4 ?_5 ?_6 ?_7 ) ( / ( quan ?_3 ?_6 ?_7 ) ( quan ?_2 ?_4 ?_5 ) ) ) ) )
+            ( CLUE::Bind ( ?_1 m1 ) ( ?_2 q1 ) ( ?_3 q2 ) ( ?_4 _u_hour ) ( ?_5 # ) ( ?_6 _u_m ) ( ?_7 # ) )
+            ( CLUE::Premise ( q_map m1 q1 q2 ) ( quan q1 _u_hour # ) ( quan q2 _u_m # ) )
+            ( CLUE::Conclusion ( = ( u_map m1 _u_hour # _u_m # ) ( / ( quan q2 _u_m # ) ( quan q1 _u_hour # ) ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 4800 ) ( $3 1.6 ) )
+            <ctx ID='ctx_96'>
+              ( CLUE::Create-Fact ( q_map m1 q1 q2 ) ( ) )
+              <ctx ID='ctx_94'>
+                ( CLUE::Input ( q_map m1 q1 q2 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_67'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+              ( CLUE::Create-Fact ( quan q1 _u_hour # ) ( 1.6 ) )
+              <ctx ID='ctx_66'>
+                ( CLUE::Input ( = ( quan q1 s1w3 # ) 1.6 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_81'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+              ( CLUE::Create-Fact ( quan q2 _u_m # ) ( 4800 ) )
+              <ctx ID='ctx_80'>
+                ( CLUE::Input ( = ( quan q2 s1w6 # ) 4800 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_81'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 _u_m # ) 4800 ) )
+            ( CLUE::Create-Fact ( quan q2 _u_m # ) ( 4800 ) )
+            <ctx ID='ctx_80'>
+              ( CLUE::Input ( = ( quan q2 s1w6 # ) 4800 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_67'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_hour # ) 1.6 ) )
+            ( CLUE::Create-Fact ( quan q1 _u_hour # ) ( 1.6 ) )
+            <ctx ID='ctx_66'>
+              ( CLUE::Input ( = ( quan q1 s1w3 # ) 1.6 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_103'>
+          ( CLUE::Create-Fact ( verb m1 s1w4 ) ( ) )
+          <ctx ID='ctx_101'>
+            ( CLUE::Input ( verb m1 s1w4 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_106'>
+          ( CLUE::Create-Fact ( theme m1 s1w1 ) ( ) )
+          <ctx ID='ctx_104'>
+            ( CLUE::Input ( theme m1 s1w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_220'>
+        ( CLUE::Bound-Facts ( u_map m2 _u_hour # _u_m # ) ( verb m2 s1w4 ) ( theme m2 s2w1 ) )
+        <ctx ID='ctx_198'>
+          ( CLUE::UnitTrans ( Old-Fact ( u_map m2 _u_min # _u_m # ) ( 48 ) ) ( New-Fact ( u_map m2 _u_hour # _u_m # ) ( 2880 ) ) )
+          <ctx ID='ctx_162'>
+            ( CLUE::EVAL::LF2 ( = ( u_map m2 _u_min # _u_m # ) ( / ( quan q4 _u_m # ) ( quan q3 _u_min # ) ) ) )
+            ( CLUE::EVAL::LF2 ( = ( u_map m2 _u_min # _u_m # ) ( / 960 20 ) ) )
+            ( CLUE::Create-Fact ( u_map m2 _u_min # _u_m # ) ( 48 ) )
+            <ctx ID='ctx_161'>
+              ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_4 ?_5 ?_6 ?_7 ) ( / ( quan ?_3 ?_6 ?_7 ) ( quan ?_2 ?_4 ?_5 ) ) ) ) )
+              ( CLUE::Bind ( ?_1 m2 ) ( ?_2 q3 ) ( ?_3 q4 ) ( ?_4 _u_min ) ( ?_5 # ) ( ?_6 _u_m ) ( ?_7 # ) )
+              ( CLUE::Premise ( q_map m2 q3 q4 ) ( quan q3 _u_min # ) ( quan q4 _u_m # ) )
+              ( CLUE::Conclusion ( = ( u_map m2 _u_min # _u_m # ) ( / ( quan q4 _u_m # ) ( quan q3 _u_min # ) ) ) )
+              ( CLUE::ExprVarMap ( $1 ) ( $2 960 ) ( $3 20 ) )
+              <ctx ID='ctx_160'>
+                ( CLUE::Create-Fact ( q_map m2 q3 q4 ) ( ) )
+                <ctx ID='ctx_158'>
+                  ( CLUE::Input ( q_map m2 q3 q4 ) )
+                </ctx>
+              </ctx>
+              <ctx ID='ctx_131'>
+                ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+                ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+                ( CLUE::Create-Fact ( quan q3 _u_min # ) ( 20 ) )
+                <ctx ID='ctx_130'>
+                  ( CLUE::Input ( = ( quan q3 s2w3 # ) 20 ) )
+                </ctx>
+              </ctx>
+              <ctx ID='ctx_145'>
+                ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+                ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+                ( CLUE::Create-Fact ( quan q4 _u_m # ) ( 960 ) )
+                <ctx ID='ctx_144'>
+                  ( CLUE::Input ( = ( quan q4 s2w6 # ) 960 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_145'>
+              ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q4 _u_m # ) 960 ) )
+              ( CLUE::Create-Fact ( quan q4 _u_m # ) ( 960 ) )
+              <ctx ID='ctx_144'>
+                ( CLUE::Input ( = ( quan q4 s2w6 # ) 960 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_131'>
+              ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q3 _u_min # ) 20 ) )
+              ( CLUE::Create-Fact ( quan q3 _u_min # ) ( 20 ) )
+              <ctx ID='ctx_130'>
+                ( CLUE::Input ( = ( quan q3 s2w3 # ) 20 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_167'>
+          ( CLUE::Create-Fact ( verb m2 s1w4 ) ( ) )
+          <ctx ID='ctx_165'>
+            ( CLUE::Input ( verb m2 s2w4 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_170'>
+          ( CLUE::Create-Fact ( theme m2 s2w1 ) ( ) )
+          <ctx ID='ctx_168'>
+            ( CLUE::Input ( theme m2 s2w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

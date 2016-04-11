@@ -1,0 +1,126 @@
+<Unit ID="IIS-MR-MATH-GRADE01-173206">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_138'>
+      <CHUNK>V.賣出</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_142'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_142'>
+        <CHUNK>420朵康乃馨</CHUNK>
+        <chk ID='ctx_142'>
+          <CHUNK>OP_Sum</CHUNK>
+          <chk ID='ctx_142'>
+            <CHUNK>186朵康乃馨</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_142'>
+            <CHUNK>234朵康乃馨</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_139'>
+    <ANS>420 朵</ANS>
+    <ctx ID='ctx_138'>
+      ( CLUE::Input ( ASK ANS ( Sum ( quan ?q s3w5 s3w6 ) ( COND ( verb ?q s3w3 ) ( TimePoint ?q s3w1 ) ) ) ( Suffix s3w5 ) ) )
+    </ctx>
+    <ctx ID='ctx_142'>
+      ( CLUE::AtomSeq ( quan ?q 朵 s1w6 ) ( verb ?q s1w3 ) ( TimePoint ?q _jin_tian ) )
+      ( CLUE::Util ( Sum 186 234 = 420 ) )
+      ( CLUE::Util ( Val ( m_real 186 ) ( m_fact ( quan q1 朵 s1w6 ) ( 186 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 234 ) ( m_fact ( quan q2 朵 s1w6 ) ( 234 ) ) ) )
+      <ctx ID='ctx_140'>
+        ( CLUE::Bound-Facts ( quan q1 朵 s1w6 ) ( verb q1 s1w3 ) ( TimePoint q1 _jin_tian ) )
+        <ctx ID='ctx_64'>
+          ( CLUE::EVAL::LF2 ( = ( quan q1 朵 s1w6 ) 186 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q1 朵 s1w6 ) 186 ) )
+          ( CLUE::Create-Fact ( quan q1 朵 s1w6 ) ( 186 ) )
+          <ctx ID='ctx_63'>
+            ( CLUE::Input ( = ( quan q1 s1w5 s1w6 ) 186 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_67'>
+          ( CLUE::Create-Fact ( verb q1 s1w3 ) ( ) )
+          <ctx ID='ctx_65'>
+            ( CLUE::Input ( verb q1 s1w3 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_76'>
+          ( CLUE::Create-Fact ( TimePoint q1 _jin_tian ) ( ) )
+          <ctx ID='ctx_74'>
+            ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( TimePoint ?_1 _shang_wu ) ) ( TimePoint ?_1 _jin_tian ) ) )
+            ( CLUE::Bind ( ?_1 q1 ) ( ?_2 朵 ) ( ?_3 s1w6 ) )
+            ( CLUE::Premise ( quan q1 朵 s1w6 ) ( TimePoint q1 _shang_wu ) )
+            ( CLUE::Conclusion ( TimePoint q1 _jin_tian ) )
+            ( CLUE::ExprVarMap  )
+            <ctx ID='ctx_64'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 朵 s1w6 ) 186 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 朵 s1w6 ) 186 ) )
+              ( CLUE::Create-Fact ( quan q1 朵 s1w6 ) ( 186 ) )
+              <ctx ID='ctx_63'>
+                ( CLUE::Input ( = ( quan q1 s1w5 s1w6 ) 186 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_73'>
+              ( CLUE::Create-Fact ( TimePoint q1 _shang_wu ) ( ) )
+              <ctx ID='ctx_71'>
+                ( CLUE::Input ( TimePoint q1 s1w2 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_141'>
+        ( CLUE::Bound-Facts ( quan q2 朵 s1w6 ) ( verb q2 s1w3 ) ( TimePoint q2 _jin_tian ) )
+        <ctx ID='ctx_100'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 朵 s1w6 ) 234 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 朵 s1w6 ) 234 ) )
+          ( CLUE::Create-Fact ( quan q2 朵 s1w6 ) ( 234 ) )
+          <ctx ID='ctx_99'>
+            ( CLUE::Input ( = ( quan q2 s2w4 s1w6 ) 234 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_103'>
+          ( CLUE::Create-Fact ( verb q2 s1w3 ) ( ) )
+          <ctx ID='ctx_101'>
+            ( CLUE::Input ( verb q2 s2w2 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_112'>
+          ( CLUE::Create-Fact ( TimePoint q2 _jin_tian ) ( ) )
+          <ctx ID='ctx_110'>
+            ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( TimePoint ?_1 _xia_wu ) ) ( TimePoint ?_1 _jin_tian ) ) )
+            ( CLUE::Bind ( ?_1 q2 ) ( ?_2 朵 ) ( ?_3 s1w6 ) )
+            ( CLUE::Premise ( quan q2 朵 s1w6 ) ( TimePoint q2 _xia_wu ) )
+            ( CLUE::Conclusion ( TimePoint q2 _jin_tian ) )
+            ( CLUE::ExprVarMap  )
+            <ctx ID='ctx_100'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 朵 s1w6 ) 234 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 朵 s1w6 ) 234 ) )
+              ( CLUE::Create-Fact ( quan q2 朵 s1w6 ) ( 234 ) )
+              <ctx ID='ctx_99'>
+                ( CLUE::Input ( = ( quan q2 s2w4 s1w6 ) 234 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_109'>
+              ( CLUE::Create-Fact ( TimePoint q2 _xia_wu ) ( ) )
+              <ctx ID='ctx_107'>
+                ( CLUE::Input ( TimePoint q2 s2w1 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

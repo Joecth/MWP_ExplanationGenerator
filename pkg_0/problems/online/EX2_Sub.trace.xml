@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADE01-173213">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_140'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_140'>
+        <CHUNK>4瓶果汁</CHUNK>
+        <chk ID='ctx_140'>
+          <CHUNK>OP_Subtraction</CHUNK>
+          <chk ID='ctx_140'>
+            <CHUNK>9瓶果汁</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_140'>
+            <CHUNK>5瓶果汁</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_137'>
+    <__is_xml_mode_ASK__ANS>4</__is_xml_mode_ASK__ANS>
+    <ctx ID='ctx_136'>
+      ( CLUE::Input ( ASK ANS ( Subtraction ( quan q1 s1w5 s1w6 ) ( quan q2 s2w4 s2w5 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_140'>
+      ( CLUE::Util ( Subtraction 9 5 = 4 ) )
+      ( CLUE::Util ( Val1 ( m_real 9 ) ( m_fact ( quan q1 瓶 s1w6 ) ( 9 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 5 ) ( m_fact ( quan q2 瓶 s1w6 ) ( 5 ) ) ) )
+      <ctx ID='ctx_70'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 瓶 s1w6 ) 9 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 瓶 s1w6 ) 9 ) )
+        ( CLUE::Create-Fact ( quan q1 瓶 s1w6 ) ( 9 ) )
+        <ctx ID='ctx_69'>
+          ( CLUE::Input ( = ( quan q1 s1w5 s1w6 ) 9 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_100'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 瓶 s1w6 ) 5 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 瓶 s1w6 ) 5 ) )
+        ( CLUE::Create-Fact ( quan q2 瓶 s1w6 ) ( 5 ) )
+        <ctx ID='ctx_99'>
+          ( CLUE::Input ( = ( quan q2 s2w4 s2w5 ) 5 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

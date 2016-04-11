@@ -1,0 +1,44 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+  </CHUNK_TREE>
+  <ctx ID='ctx_60'>
+    <ANS>100.48 公分</ANS>
+    <ctx ID='ctx_59'>
+      ( CLUE::Input ( ASK ANS ( circumference o1 #UL ) ( Suffix #UL ) ) )
+    </ctx>
+    <ctx ID='ctx_58'>
+      ( CLUE::EVAL::LF2 ( = ( diameter o1 #UL ) 32 ) )
+      ( CLUE::EVAL::LF2 ( = ( diameter o1 #UL ) 32 ) )
+      ( CLUE::Create-Fact ( diameter o1 #UL ) ( 32 ) )
+      ( CLUE::Create-Fact::Outside ( circumference o1 #UL ) ( 100.48 ) )
+      ( CLUE::Create-Fact::Outside ( radius o1 #UL ) ( 16 ) )
+      ( CLUE::Create-Fact::Outside ( area o1 #UA ) ( 803.84 ) )
+      <ctx ID='ctx_57'>
+        ( CLUE::Input ( = ( diameter o1 公分 ) 32 ) )
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+<Trace>
+  <CHUNK_TREE>
+  </CHUNK_TREE>
+  <ctx ID='ctx_64'>
+    <ANS>803.84 平方公分</ANS>
+    <ctx ID='ctx_63'>
+      ( CLUE::Input ( ASK ANS ( area o1 #UA ) ( Suffix #UA ) ) )
+    </ctx>
+    <ctx ID='ctx_58'>
+      ( CLUE::EVAL::LF2 ( = ( diameter o1 #UL ) 32 ) )
+      ( CLUE::EVAL::LF2 ( = ( diameter o1 #UL ) 32 ) )
+      ( CLUE::Create-Fact ( diameter o1 #UL ) ( 32 ) )
+      ( CLUE::Create-Fact::Outside ( circumference o1 #UL ) ( 100.48 ) )
+      ( CLUE::Create-Fact::Outside ( radius o1 #UL ) ( 16 ) )
+      ( CLUE::Create-Fact::Outside ( area o1 #UA ) ( 803.84 ) )
+      <ctx ID='ctx_57'>
+        ( CLUE::Input ( = ( diameter o1 公分 ) 32 ) )
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

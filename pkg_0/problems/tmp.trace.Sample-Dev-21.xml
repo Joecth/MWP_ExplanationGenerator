@@ -1,0 +1,29 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+  </CHUNK_TREE>
+  <ctx ID='ctx_54'>
+    <ANS>26 元</ANS>
+    <ctx ID='ctx_53'>
+      ( CLUE::Input ( ASK ANS ( tvq v1 元 # t0 ) ( Suffix 元 ) ) )
+    </ctx>
+    <ctx ID='ctx_52'>
+      ( CLUE::EVAL::LF2 ( = ( tvq v1 元 # t1 ) ( quan q2 元 # ) ) )
+      ( CLUE::EVAL::LF2 ( = ( tvq v1 元 # t1 ) 19 ) )
+      ( CLUE::Create-Fact ( tvq v1 元 # t1 ) ( 19 ) )
+      ( CLUE::Create-Fact::Outside ( tvq v1 元 # t0 ) ( 26 ) )
+      <ctx ID='ctx_51'>
+        ( CLUE::Input ( = ( tvq v1 元 # t1 ) ( quan q2 元 # ) ) )
+      </ctx>
+      <ctx ID='ctx_50'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 19 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 19 ) )
+        ( CLUE::Create-Fact ( quan q2 元 # ) ( 19 ) )
+        <ctx ID='ctx_49'>
+          ( CLUE::Input ( = ( quan q2 元 # ) 19 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

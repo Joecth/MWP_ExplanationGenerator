@@ -1,0 +1,120 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_158'>
+      <CHUNK>V.切成</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_162'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_162'>
+        <CHUNK>9塊</CHUNK>
+        <chk ID='ctx_162'>
+          <CHUNK>OP_FloorDiv</CHUNK>
+          <chk ID='ctx_162'>
+            <CHUNK>500公克黏土</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_162'>
+            <CHUNK>52(公克黏土/塊黏土)</CHUNK>
+            <chk ID='ctx_116'>
+              <CHUNK>OP_CommonDiv</CHUNK>
+              <chk ID='ctx_116'>
+                <CHUNK>52公克黏土</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_116'>
+                <CHUNK>1塊黏土</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_159'>
+    <ANS>9 塊</ANS>
+    <ctx ID='ctx_158'>
+      ( CLUE::Input ( ASK ANS ( FloorDiv ( quan q3 s3w2 s3w4 ) ( Get ( u_map ?m s3w8 s3w4 s3w2 s3w4 ) ( COND ( verb ?m s3w6 ) ) ) ) ( Suffix s3w8 ) ) )
+    </ctx>
+    <ctx ID='ctx_162'>
+      ( CLUE::Util ( FloorDiv 500 52 = 9 ) )
+      ( CLUE::Util ( Val1 ( m_real 500 ) ( m_fact ( quan q3 _u_g s1w3 ) ( 500 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 52 ) ( m_fact ( u_map m1 塊 s1w3 _u_g s1w3 ) ( 52 ) ) ) )
+      <ctx ID='ctx_148'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 _u_g s1w3 ) 500 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 _u_g s1w3 ) 500 ) )
+        ( CLUE::Create-Fact ( quan q3 _u_g s1w3 ) ( 500 ) )
+        <ctx ID='ctx_147'>
+          ( CLUE::Input ( = ( quan q3 s3w2 s3w4 ) 500 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_161'>
+        ( CLUE::Bound-Facts ( u_map m1 塊 s1w3 _u_g s1w3 ) ( verb m1 _qie ) )
+        <ctx ID='ctx_117'>
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 塊 s1w3 _u_g s1w3 ) ( / ( quan q1 _u_g s1w3 ) ( quan q2 塊 s1w3 ) ) ) )
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 塊 s1w3 _u_g s1w3 ) ( / 52 1 ) ) )
+          ( CLUE::Create-Fact ( u_map m1 塊 s1w3 _u_g s1w3 ) ( 52 ) )
+          <ctx ID='ctx_116'>
+            ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_6 ?_7 ?_4 ?_5 ) ( / ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ) ) )
+            ( CLUE::Bind ( ?_1 m1 ) ( ?_2 q1 ) ( ?_3 q2 ) ( ?_4 _u_g ) ( ?_5 s1w3 ) ( ?_6 塊 ) ( ?_7 s1w3 ) )
+            ( CLUE::Premise ( q_map m1 q1 q2 ) ( quan q1 _u_g s1w3 ) ( quan q2 塊 s1w3 ) )
+            ( CLUE::Conclusion ( = ( u_map m1 塊 s1w3 _u_g s1w3 ) ( / ( quan q1 _u_g s1w3 ) ( quan q2 塊 s1w3 ) ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 52 ) ( $3 1 ) )
+            <ctx ID='ctx_113'>
+              ( CLUE::Create-Fact ( q_map m1 q1 q2 ) ( ) )
+              <ctx ID='ctx_111'>
+                ( CLUE::Input ( q_map m1 q1 q2 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_84'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_g s1w3 ) 52 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_g s1w3 ) 52 ) )
+              ( CLUE::Create-Fact ( quan q1 _u_g s1w3 ) ( 52 ) )
+              <ctx ID='ctx_83'>
+                ( CLUE::Input ( = ( quan q1 s2w3 s1w3 ) 52 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_98'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 塊 s1w3 ) 1 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 塊 s1w3 ) 1 ) )
+              ( CLUE::Create-Fact ( quan q2 塊 s1w3 ) ( 1 ) )
+              <ctx ID='ctx_97'>
+                ( CLUE::Input ( = ( quan q2 s2w6 s1w3 ) 1 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_84'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_g s1w3 ) 52 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_g s1w3 ) 52 ) )
+            ( CLUE::Create-Fact ( quan q1 _u_g s1w3 ) ( 52 ) )
+            <ctx ID='ctx_83'>
+              ( CLUE::Input ( = ( quan q1 s2w3 s1w3 ) 52 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_98'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 塊 s1w3 ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 塊 s1w3 ) 1 ) )
+            ( CLUE::Create-Fact ( quan q2 塊 s1w3 ) ( 1 ) )
+            <ctx ID='ctx_97'>
+              ( CLUE::Input ( = ( quan q2 s2w6 s1w3 ) 1 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_120'>
+          ( CLUE::Create-Fact ( verb m1 _qie ) ( ) )
+          <ctx ID='ctx_118'>
+            ( CLUE::Input ( verb m1 s2w4 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

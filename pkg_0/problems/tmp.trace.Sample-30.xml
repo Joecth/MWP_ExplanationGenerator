@@ -1,0 +1,72 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_115'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_115'>
+        <CHUNK>果汁</CHUNK>
+        <chk ID='ctx_115'>
+          <CHUNK>OP_ArgMin</CHUNK>
+          <chk ID='ctx_115'>
+            <CHUNK>水: 2.32公升水</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_115'>
+            <CHUNK>果汁: 2.294公升果汁</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_116'>
+    <ctx ID='ctx_112'>
+      <ANS><Arg>果汁</Arg></ANS>
+      <ctx ID='ctx_111'>
+        ( CLUE::Input ( ASK ANS ( ArgMin ?o ( quan ?q ?u ?o ) ( COND ( member s1 ?o ) ) ) ) )
+      </ctx>
+    </ctx>
+    <ctx ID='ctx_115'>
+      ( CLUE::Util ( ArgMin = ( s1w9 ) ) )
+      ( CLUE::Args ( ( s1w4 ( quan q1 _u_dm3 s1w4 ) ( 2.32 ) ) ( s1w9 ( quan q2 _u_dm3 s1w9 ) ( 2.294 ) ) ) )
+      <ctx ID='ctx_113'>
+        ( CLUE::Bound-Facts ( quan q1 _u_dm3 s1w4 ) ( member s1 s1w4 ) )
+        <ctx ID='ctx_75'>
+          ( CLUE::EVAL::LF2 ( = ( quan q1 _u_dm3 s1w4 ) 2.32 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q1 _u_dm3 s1w4 ) 2.32 ) )
+          ( CLUE::Create-Fact ( quan q1 _u_dm3 s1w4 ) ( 2.32 ) )
+          <ctx ID='ctx_74'>
+            ( CLUE::Input ( = ( quan q1 s1w2 s1w4 ) 2.32 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_107'>
+          ( CLUE::Create-Fact ( member s1 s1w4 ) ( ) )
+          <ctx ID='ctx_105'>
+            ( CLUE::Input ( member s1 s1w4 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_114'>
+        ( CLUE::Bound-Facts ( quan q2 _u_dm3 s1w9 ) ( member s1 s1w9 ) )
+        <ctx ID='ctx_77'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 _u_dm3 s1w9 ) 2.294 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 _u_dm3 s1w9 ) 2.294 ) )
+          ( CLUE::Create-Fact ( quan q2 _u_dm3 s1w9 ) ( 2.294 ) )
+          <ctx ID='ctx_76'>
+            ( CLUE::Input ( = ( quan q2 s1w7 s1w9 ) 2.294 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_110'>
+          ( CLUE::Create-Fact ( member s1 s1w9 ) ( ) )
+          <ctx ID='ctx_108'>
+            ( CLUE::Input ( member s1 s1w9 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

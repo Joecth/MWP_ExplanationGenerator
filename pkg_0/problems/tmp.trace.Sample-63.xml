@@ -1,0 +1,55 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_66'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_66'>
+        <CHUNK>9#UL</CHUNK>
+        <chk ID='ctx_66'>
+          <CHUNK>OP_Subtraction</CHUNK>
+          <chk ID='ctx_66'>
+            <CHUNK></CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_66'>
+            <CHUNK></CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_63'>
+    <ANS>9 公分</ANS>
+    <ctx ID='ctx_62'>
+      ( CLUE::Input ( ASK ANS ( Difference ( circumference o1 公分 ) ( circumference o2 公分 ) ) ( Suffix 公分 ) ) )
+    </ctx>
+    <ctx ID='ctx_66'>
+      ( CLUE::Util ( Subtraction 39 30 = 9 ) )
+      ( CLUE::Util ( Val1 ( m_real 39 ) ( m_fact ( circumference o1 #UL ) ( 39 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 30 ) ( m_fact ( circumference o2 #UL ) ( 30 ) ) ) )
+      <ctx ID='ctx_54'>
+        ( CLUE::EVAL::LF2 ( = ( side_length o1 #UL ) 13 ) )
+        ( CLUE::EVAL::LF2 ( = ( side_length o1 #UL ) 13 ) )
+        ( CLUE::Create-Fact ( side_length o1 #UL ) ( 13 ) )
+        ( CLUE::Create-Fact::Outside ( circumference o1 #UL ) ( 39 ) )
+        <ctx ID='ctx_53'>
+          ( CLUE::Input ( = ( side_length o1 公分 ) 13 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_61'>
+        ( CLUE::EVAL::LF2 ( = ( side_length o2 #UL ) 10 ) )
+        ( CLUE::EVAL::LF2 ( = ( side_length o2 #UL ) 10 ) )
+        ( CLUE::Create-Fact ( side_length o2 #UL ) ( 10 ) )
+        ( CLUE::Create-Fact::Outside ( circumference o2 #UL ) ( 30 ) )
+        <ctx ID='ctx_60'>
+          ( CLUE::Input ( = ( side_length o2 公分 ) 10 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

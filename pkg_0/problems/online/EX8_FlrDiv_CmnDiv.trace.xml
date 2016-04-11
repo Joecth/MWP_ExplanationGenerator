@@ -1,0 +1,122 @@
+<Unit ID="IIS-MR-MATH-GRADE01-171621">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_171'>
+      <CHUNK>V.用掉</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_175'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_175'>
+        <CHUNK>8個</CHUNK>
+        <chk ID='ctx_175'>
+          <CHUNK>OP_FloorDiv</CHUNK>
+          <chk ID='ctx_175'>
+            <CHUNK>850公分包裝紙</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_175'>
+            <CHUNK>95(公分包裝紙/個禮物)</CHUNK>
+            <chk ID='ctx_113'>
+              <CHUNK>OP_CommonDiv</CHUNK>
+              <chk ID='ctx_113'>
+                <CHUNK>95公分包裝紙</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_113'>
+                <CHUNK>1個禮物</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_172'>
+    <__is_xml_mode_ASK__ANS>8</__is_xml_mode_ASK__ANS>
+    <ctx ID='ctx_171'>
+      ( CLUE::Input ( ASK ANS ( FloorDiv ( quan q3 s2w3 s2w5 ) ( Get ( u_map ?m s2w10 s2w11 s2w3 s2w5 ) ( COND ( verb ?m s1w6 ) ) ) ) ) )
+    </ctx>
+    <ctx ID='ctx_175'>
+      ( CLUE::Util ( FloorDiv 850 95 = 8 ) )
+      ( CLUE::Util ( Val1 ( m_real 850 ) ( m_fact ( quan q3 _u_cm s1w10 ) ( 850 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 95 ) ( m_fact ( u_map m1 個 s1w4 _u_cm s1w10 ) ( 95 ) ) ) )
+      <ctx ID='ctx_158'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 _u_cm s1w10 ) 850 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 _u_cm s1w10 ) 850 ) )
+        ( CLUE::Create-Fact ( quan q3 _u_cm s1w10 ) ( 850 ) )
+        <ctx ID='ctx_157'>
+          ( CLUE::Input ( = ( quan q3 s2w3 s2w5 ) 850 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_174'>
+        ( CLUE::Bound-Facts ( u_map m1 個 s1w4 _u_cm s1w10 ) ( verb m1 s1w6 ) )
+        <ctx ID='ctx_114'>
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 個 s1w4 _u_cm s1w10 ) ( / ( quan q2 _u_cm s1w10 ) ( quan q1 個 s1w4 ) ) ) )
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 個 s1w4 _u_cm s1w10 ) ( / 95 1 ) ) )
+          ( CLUE::Create-Fact ( u_map m1 個 s1w4 _u_cm s1w10 ) ( 95 ) )
+          <ctx ID='ctx_113'>
+            ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_4 ?_5 ?_6 ?_7 ) ( / ( quan ?_3 ?_6 ?_7 ) ( quan ?_2 ?_4 ?_5 ) ) ) ) )
+            ( CLUE::Bind ( ?_1 m1 ) ( ?_2 q1 ) ( ?_3 q2 ) ( ?_4 個 ) ( ?_5 s1w4 ) ( ?_6 _u_cm ) ( ?_7 s1w10 ) )
+            ( CLUE::Premise ( q_map m1 q1 q2 ) ( quan q1 個 s1w4 ) ( quan q2 _u_cm s1w10 ) )
+            ( CLUE::Conclusion ( = ( u_map m1 個 s1w4 _u_cm s1w10 ) ( / ( quan q2 _u_cm s1w10 ) ( quan q1 個 s1w4 ) ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 95 ) ( $3 1 ) )
+            <ctx ID='ctx_112'>
+              ( CLUE::Create-Fact ( q_map m1 q1 q2 ) ( ) )
+              <ctx ID='ctx_110'>
+                ( CLUE::Input ( q_map m1 q1 q2 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_79'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 個 s1w4 ) 1 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 個 s1w4 ) 1 ) )
+              ( CLUE::Create-Fact ( quan q1 個 s1w4 ) ( 1 ) )
+              <ctx ID='ctx_78'>
+                ( CLUE::Input ( = ( quan q1 s1w3 s1w4 ) 1 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_97'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 _u_cm s1w10 ) 95 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 _u_cm s1w10 ) 95 ) )
+              ( CLUE::Create-Fact ( quan q2 _u_cm s1w10 ) ( 95 ) )
+              <ctx ID='ctx_96'>
+                ( CLUE::Input ( = ( quan q2 s1w8 s1w10 ) 95 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_97'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 _u_cm s1w10 ) 95 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 _u_cm s1w10 ) 95 ) )
+            ( CLUE::Create-Fact ( quan q2 _u_cm s1w10 ) ( 95 ) )
+            <ctx ID='ctx_96'>
+              ( CLUE::Input ( = ( quan q2 s1w8 s1w10 ) 95 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_79'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 個 s1w4 ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 個 s1w4 ) 1 ) )
+            ( CLUE::Create-Fact ( quan q1 個 s1w4 ) ( 1 ) )
+            <ctx ID='ctx_78'>
+              ( CLUE::Input ( = ( quan q1 s1w3 s1w4 ) 1 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_119'>
+          ( CLUE::Create-Fact ( verb m1 s1w6 ) ( ) )
+          <ctx ID='ctx_117'>
+            ( CLUE::Input ( verb m1 s1w6 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

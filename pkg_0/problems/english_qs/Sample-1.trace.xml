@@ -1,0 +1,260 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_220'>
+      <CHUNK>V.付</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_225'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_225'>
+        <CHUNK>27300元</CHUNK>
+        <chk ID='ctx_225'>
+          <CHUNK>OP_Sum</CHUNK>
+          <chk ID='ctx_225'>
+            <CHUNK>20000元</CHUNK>
+            <chk ID='ctx_159'>
+              <CHUNK>OP_Multiplication</CHUNK>
+              <chk ID='ctx_159'>
+                <CHUNK>2疊</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_159'>
+                <CHUNK>一萬元鈔票</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_225'>
+            <CHUNK>6000元</CHUNK>
+            <chk ID='ctx_172'>
+              <CHUNK>OP_Multiplication</CHUNK>
+              <chk ID='ctx_172'>
+                <CHUNK>6張</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_172'>
+                <CHUNK>千元鈔票</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_225'>
+            <CHUNK>1300元</CHUNK>
+            <chk ID='ctx_185'>
+              <CHUNK>OP_Multiplication</CHUNK>
+              <chk ID='ctx_185'>
+                <CHUNK>13張</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_185'>
+                <CHUNK>百元鈔票</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_221'>
+    <ANS>27300 元</ANS>
+    <ctx ID='ctx_220'>
+      ( CLUE::Input ( ASK ANS ( Sum ( quan ?q s3w6 # ) ( COND ( verb ?q s3w3 ) ( agent ?q s3w1 ) ) ) ( Suffix s3w6 ) ) )
+    </ctx>
+    <ctx ID='ctx_225'>
+      ( CLUE::AtomSeq ( quan ?q 元 # ) ( verb ?q _fu ) ( agent ?q s1w1 ) )
+      ( CLUE::Util ( Sum 20000 6000 1300 = 27300 ) )
+      ( CLUE::Util ( Val ( m_real 20000 ) ( m_fact ( quan q3 元 # ) ( 20000 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 6000 ) ( m_fact ( quan q4 元 # ) ( 6000 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 1300 ) ( m_fact ( quan q5 元 # ) ( 1300 ) ) ) )
+      <ctx ID='ctx_222'>
+        ( CLUE::Bound-Facts ( quan q3 元 # ) ( verb q3 _fu ) ( agent q3 s1w1 ) )
+        <ctx ID='ctx_160'>
+          ( CLUE::EVAL::LF2 ( = ( quan q3 元 # ) ( * ( quan q3 疊 n3 ) 10000 ) ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q3 元 # ) ( * 2 10000 ) ) )
+          ( CLUE::Create-Fact ( quan q3 元 # ) ( 20000 ) )
+          <ctx ID='ctx_159'>
+            ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( head ?_3 _chao_piao ) ( price ?_3 ?_4 ) ) ( = ( quan ?_1 元 # ) ( * ( quan ?_1 ?_2 ?_3 ) ?_4 ) ) ) )
+            ( CLUE::Bind ( ?_1 q3 ) ( ?_2 疊 ) ( ?_3 n3 ) ( ?_4 10000 ) )
+            ( CLUE::Premise ( quan q3 疊 n3 ) ( head n3 _chao_piao ) ( price n3 10000 ) )
+            ( CLUE::Conclusion ( = ( quan q3 元 # ) ( * ( quan q3 疊 n3 ) 10000 ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 2 ) )
+            <ctx ID='ctx_158'>
+              ( CLUE::EVAL::LF2 ( = ( quan q3 疊 n3 ) 2 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q3 疊 n3 ) 2 ) )
+              ( CLUE::Create-Fact ( quan q3 疊 n3 ) ( 2 ) )
+              <ctx ID='ctx_157'>
+                ( CLUE::Input ( = ( quan q3 s2w3 n3 ) 2 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_123'>
+              ( CLUE::Create-Fact ( head n3 _chao_piao ) ( ) )
+              <ctx ID='ctx_122'>
+                <ctx ID='ctx_121'>
+                  ( CLUE::Input ( head n3 s2w6 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_132'>
+              ( CLUE::Create-Fact ( price n3 10000 ) ( ) )
+              <ctx ID='ctx_131'>
+                <ctx ID='ctx_130'>
+                  ( CLUE::Input ( price n3 10000 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_158'>
+            ( CLUE::EVAL::LF2 ( = ( quan q3 疊 n3 ) 2 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q3 疊 n3 ) 2 ) )
+            ( CLUE::Create-Fact ( quan q3 疊 n3 ) ( 2 ) )
+            <ctx ID='ctx_157'>
+              ( CLUE::Input ( = ( quan q3 s2w3 n3 ) 2 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_163'>
+          ( CLUE::Create-Fact ( verb q3 _fu ) ( ) )
+          <ctx ID='ctx_161'>
+            ( CLUE::Input ( verb q3 s2w1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_166'>
+          ( CLUE::Create-Fact ( agent q3 s1w1 ) ( ) )
+          <ctx ID='ctx_164'>
+            ( CLUE::Input ( agent q3 s1w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_223'>
+        ( CLUE::Bound-Facts ( quan q4 元 # ) ( verb q4 _fu ) ( agent q4 s1w1 ) )
+        <ctx ID='ctx_173'>
+          ( CLUE::EVAL::LF2 ( = ( quan q4 元 # ) ( * ( quan q4 張 n4 ) 1000 ) ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q4 元 # ) ( * 6 1000 ) ) )
+          ( CLUE::Create-Fact ( quan q4 元 # ) ( 6000 ) )
+          <ctx ID='ctx_172'>
+            ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( head ?_3 _chao_piao ) ( price ?_3 ?_4 ) ) ( = ( quan ?_1 元 # ) ( * ( quan ?_1 ?_2 ?_3 ) ?_4 ) ) ) )
+            ( CLUE::Bind ( ?_1 q4 ) ( ?_2 張 ) ( ?_3 n4 ) ( ?_4 1000 ) )
+            ( CLUE::Premise ( quan q4 張 n4 ) ( head n4 _chao_piao ) ( price n4 1000 ) )
+            ( CLUE::Conclusion ( = ( quan q4 元 # ) ( * ( quan q4 張 n4 ) 1000 ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 6 ) )
+            <ctx ID='ctx_171'>
+              ( CLUE::EVAL::LF2 ( = ( quan q4 張 n4 ) 6 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q4 張 n4 ) 6 ) )
+              ( CLUE::Create-Fact ( quan q4 張 n4 ) ( 6 ) )
+              <ctx ID='ctx_170'>
+                ( CLUE::Input ( = ( quan q4 s2w9 n4 ) 6 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_135'>
+              ( CLUE::Create-Fact ( head n4 _chao_piao ) ( ) )
+              <ctx ID='ctx_134'>
+                <ctx ID='ctx_133'>
+                  ( CLUE::Input ( head n4 s2w12 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_144'>
+              ( CLUE::Create-Fact ( price n4 1000 ) ( ) )
+              <ctx ID='ctx_143'>
+                <ctx ID='ctx_142'>
+                  ( CLUE::Input ( price n4 1000 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_171'>
+            ( CLUE::EVAL::LF2 ( = ( quan q4 張 n4 ) 6 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q4 張 n4 ) 6 ) )
+            ( CLUE::Create-Fact ( quan q4 張 n4 ) ( 6 ) )
+            <ctx ID='ctx_170'>
+              ( CLUE::Input ( = ( quan q4 s2w9 n4 ) 6 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_176'>
+          ( CLUE::Create-Fact ( verb q4 _fu ) ( ) )
+          <ctx ID='ctx_174'>
+            ( CLUE::Input ( verb q4 s2w1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_179'>
+          ( CLUE::Create-Fact ( agent q4 s1w1 ) ( ) )
+          <ctx ID='ctx_177'>
+            ( CLUE::Input ( agent q4 s1w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_224'>
+        ( CLUE::Bound-Facts ( quan q5 元 # ) ( verb q5 _fu ) ( agent q5 s1w1 ) )
+        <ctx ID='ctx_186'>
+          ( CLUE::EVAL::LF2 ( = ( quan q5 元 # ) ( * ( quan q5 張 n5 ) 100 ) ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q5 元 # ) ( * 13 100 ) ) )
+          ( CLUE::Create-Fact ( quan q5 元 # ) ( 1300 ) )
+          <ctx ID='ctx_185'>
+            ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( head ?_3 _chao_piao ) ( price ?_3 ?_4 ) ) ( = ( quan ?_1 元 # ) ( * ( quan ?_1 ?_2 ?_3 ) ?_4 ) ) ) )
+            ( CLUE::Bind ( ?_1 q5 ) ( ?_2 張 ) ( ?_3 n5 ) ( ?_4 100 ) )
+            ( CLUE::Premise ( quan q5 張 n5 ) ( head n5 _chao_piao ) ( price n5 100 ) )
+            ( CLUE::Conclusion ( = ( quan q5 元 # ) ( * ( quan q5 張 n5 ) 100 ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 13 ) )
+            <ctx ID='ctx_184'>
+              ( CLUE::EVAL::LF2 ( = ( quan q5 張 n5 ) 13 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q5 張 n5 ) 13 ) )
+              ( CLUE::Create-Fact ( quan q5 張 n5 ) ( 13 ) )
+              <ctx ID='ctx_183'>
+                ( CLUE::Input ( = ( quan q5 s2w15 n5 ) 13 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_147'>
+              ( CLUE::Create-Fact ( head n5 _chao_piao ) ( ) )
+              <ctx ID='ctx_146'>
+                <ctx ID='ctx_145'>
+                  ( CLUE::Input ( head n5 s2w18 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_156'>
+              ( CLUE::Create-Fact ( price n5 100 ) ( ) )
+              <ctx ID='ctx_155'>
+                <ctx ID='ctx_154'>
+                  ( CLUE::Input ( price n5 100 ) )
+                </ctx>
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_184'>
+            ( CLUE::EVAL::LF2 ( = ( quan q5 張 n5 ) 13 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q5 張 n5 ) 13 ) )
+            ( CLUE::Create-Fact ( quan q5 張 n5 ) ( 13 ) )
+            <ctx ID='ctx_183'>
+              ( CLUE::Input ( = ( quan q5 s2w15 n5 ) 13 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_189'>
+          ( CLUE::Create-Fact ( verb q5 _fu ) ( ) )
+          <ctx ID='ctx_187'>
+            ( CLUE::Input ( verb q5 s2w1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_192'>
+          ( CLUE::Create-Fact ( agent q5 s1w1 ) ( ) )
+          <ctx ID='ctx_190'>
+            ( CLUE::Input ( agent q5 s1w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

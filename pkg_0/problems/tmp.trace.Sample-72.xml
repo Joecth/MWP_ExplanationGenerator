@@ -1,0 +1,37 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+  </CHUNK_TREE>
+  <ctx ID='ctx_60'>
+    <ANS>144 平方公分</ANS>
+    <ctx ID='ctx_59'>
+      ( CLUE::Input ( ASK ANS ( area o1 平方公分 ) ( Suffix 平方公分 ) ) )
+    </ctx>
+    <ctx ID='ctx_58'>
+      ( CLUE::EVAL::LF2 ( = ( height o1 #UL ) ( - ( bottom_base o1 #UL ) 5 ) ) )
+      ( CLUE::EVAL::LF2 ( = ( height o1 #UL ) ( - 17 5 ) ) )
+      ( CLUE::Create-Fact ( height o1 #UL ) ( 12 ) )
+      ( CLUE::Create-Fact::Outside ( area o1 #UA ) ( 144 ) )
+      <ctx ID='ctx_57'>
+        ( CLUE::Input ( = ( height o1 公分 ) ( - ( bottom_base o1 公分 ) 5 ) ) )
+      </ctx>
+      <ctx ID='ctx_56'>
+        ( CLUE::EVAL::LF2 ( = ( bottom_base o1 #UL ) ( + ( top_base o1 #UL ) 10 ) ) )
+        ( CLUE::EVAL::LF2 ( = ( bottom_base o1 #UL ) ( + 7 10 ) ) )
+        ( CLUE::Create-Fact ( bottom_base o1 #UL ) ( 17 ) )
+        <ctx ID='ctx_55'>
+          ( CLUE::Input ( = ( bottom_base o1 公分 ) ( + ( top_base o1 公分 ) 10 ) ) )
+        </ctx>
+        <ctx ID='ctx_54'>
+          ( CLUE::EVAL::LF2 ( = ( top_base o1 #UL ) 7 ) )
+          ( CLUE::EVAL::LF2 ( = ( top_base o1 #UL ) 7 ) )
+          ( CLUE::Create-Fact ( top_base o1 #UL ) ( 7 ) )
+          <ctx ID='ctx_53'>
+            ( CLUE::Input ( = ( top_base o1 公分 ) 7 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

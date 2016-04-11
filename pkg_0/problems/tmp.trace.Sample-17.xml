@@ -1,0 +1,120 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_146'>
+      <CHUNK>V.存</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_150'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_150'>
+        <CHUNK>54750元</CHUNK>
+        <chk ID='ctx_150'>
+          <CHUNK>OP_Multiplication</CHUNK>
+          <chk ID='ctx_150'>
+            <CHUNK>365天</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_150'>
+            <CHUNK>150(元/天)</CHUNK>
+            <chk ID='ctx_97'>
+              <CHUNK>OP_CommonDiv</CHUNK>
+              <chk ID='ctx_97'>
+                <CHUNK>150元</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_97'>
+                <CHUNK>1天</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_147'>
+    <ANS>54750 元</ANS>
+    <ctx ID='ctx_146'>
+      ( CLUE::Input ( ASK ANS ( Multiplication ( quan q3 s2w2 # ) ( Get ( u_map ?m s2w2 # s2w7 # ) ( COND ( verb ?m s2w5 ) ) ) ) ( Suffix s2w7 ) ) )
+    </ctx>
+    <ctx ID='ctx_150'>
+      ( CLUE::Util ( Multiplication 365 150 = 54750 ) )
+      ( CLUE::Util ( Val1 ( m_real 365 ) ( m_fact ( quan q3 _u_day # ) ( 365 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 150 ) ( m_fact ( u_map m1 _u_day # 元 # ) ( 150 ) ) ) )
+      <ctx ID='ctx_133'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 _u_day # ) 365 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 _u_day # ) 365 ) )
+        ( CLUE::Create-Fact ( quan q3 _u_day # ) ( 365 ) )
+        <ctx ID='ctx_132'>
+          ( CLUE::Input ( = ( quan q3 s2w2 # ) 365 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_149'>
+        ( CLUE::Bound-Facts ( u_map m1 _u_day # 元 # ) ( verb m1 s1w4 ) )
+        <ctx ID='ctx_98'>
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 _u_day # 元 # ) ( / ( quan q2 元 # ) ( quan q1 _u_day # ) ) ) )
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 _u_day # 元 # ) ( / 150 1 ) ) )
+          ( CLUE::Create-Fact ( u_map m1 _u_day # 元 # ) ( 150 ) )
+          <ctx ID='ctx_97'>
+            ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_4 ?_5 ?_6 ?_7 ) ( / ( quan ?_3 ?_6 ?_7 ) ( quan ?_2 ?_4 ?_5 ) ) ) ) )
+            ( CLUE::Bind ( ?_1 m1 ) ( ?_2 q1 ) ( ?_3 q2 ) ( ?_4 _u_day ) ( ?_5 # ) ( ?_6 元 ) ( ?_7 # ) )
+            ( CLUE::Premise ( q_map m1 q1 q2 ) ( quan q1 _u_day # ) ( quan q2 元 # ) )
+            ( CLUE::Conclusion ( = ( u_map m1 _u_day # 元 # ) ( / ( quan q2 元 # ) ( quan q1 _u_day # ) ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 150 ) ( $3 1 ) )
+            <ctx ID='ctx_96'>
+              ( CLUE::Create-Fact ( q_map m1 q1 q2 ) ( ) )
+              <ctx ID='ctx_94'>
+                ( CLUE::Input ( q_map m1 q1 q2 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_67'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_day # ) 1 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 _u_day # ) 1 ) )
+              ( CLUE::Create-Fact ( quan q1 _u_day # ) ( 1 ) )
+              <ctx ID='ctx_66'>
+                ( CLUE::Input ( = ( quan q1 s1w3 # ) 1 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_81'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 150 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 150 ) )
+              ( CLUE::Create-Fact ( quan q2 元 # ) ( 150 ) )
+              <ctx ID='ctx_80'>
+                ( CLUE::Input ( = ( quan q2 s1w6 # ) 150 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_81'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 150 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 150 ) )
+            ( CLUE::Create-Fact ( quan q2 元 # ) ( 150 ) )
+            <ctx ID='ctx_80'>
+              ( CLUE::Input ( = ( quan q2 s1w6 # ) 150 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_67'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_day # ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 _u_day # ) 1 ) )
+            ( CLUE::Create-Fact ( quan q1 _u_day # ) ( 1 ) )
+            <ctx ID='ctx_66'>
+              ( CLUE::Input ( = ( quan q1 s1w3 # ) 1 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_103'>
+          ( CLUE::Create-Fact ( verb m1 s1w4 ) ( ) )
+          <ctx ID='ctx_101'>
+            ( CLUE::Input ( verb m1 s1w4 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

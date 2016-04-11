@@ -1,0 +1,181 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_66'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_66'>
+        <CHUNK>26個輪子</CHUNK>
+        <chk ID='ctx_66'>
+          <CHUNK>OP_Addition</CHUNK>
+          <chk ID='ctx_66'>
+            <CHUNK>6個輪子</CHUNK>
+            <chk ID='ctx_56'>
+              <CHUNK>OP_Multiplication</CHUNK>
+              <chk ID='ctx_56'>
+                <CHUNK>3/1</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_56'>
+                <CHUNK>2個輪子</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_66'>
+            <CHUNK>20個輪子</CHUNK>
+            <chk ID='ctx_60'>
+              <CHUNK>OP_Multiplication</CHUNK>
+              <chk ID='ctx_60'>
+                <CHUNK>2/1</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_60'>
+                <CHUNK>10個輪子</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_63'>
+    <ANS>26 個</ANS>
+    <ctx ID='ctx_62'>
+      ( CLUE::Input ( ASK ANS ( Addition ( quan q3::a1 個 輪子 ) ( quan q4::a1 個 輪子 ) ) ( Suffix 個 ) ) )
+    </ctx>
+    <ctx ID='ctx_66'>
+      ( CLUE::Util ( Addition 6 20 = 26 ) )
+      ( CLUE::Util ( Val1 ( m_real 6 ) ( m_fact ( quan q3::a1 個 輪子 ) ( 6 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 20 ) ( m_fact ( quan q4::a1 個 輪子 ) ( 20 ) ) ) )
+      <ctx ID='ctx_57'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3::a1 個 輪子 ) ( * ( / ( quan q3 輛 機車 ) ( quan q1 輛 機車 ) ) ( attrib a1 q1 個 輪子 ) ) ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3::a1 個 輪子 ) ( * ( / 3 1 ) 2 ) ) )
+        ( CLUE::Create-Fact ( quan q3::a1 個 輪子 ) ( 6 ) )
+        <ctx ID='ctx_56'>
+          ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ( quan ?_7 ?_2 ?_3 ) ) ( = ( quan ?_7::?_4 ?_5 ?_6 ) ( * ( / ( quan ?_7 ?_2 ?_3 ) ( quan ?_1 ?_2 ?_3 ) ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ) ) ) )
+          ( CLUE::Bind ( ?_1 q1 ) ( ?_2 輛 ) ( ?_3 機車 ) ( ?_4 a1 ) ( ?_5 個 ) ( ?_6 輪子 ) ( ?_7 q3 ) )
+          ( CLUE::Premise ( quan q1 輛 機車 ) ( attrib a1 q1 個 輪子 ) ( quan q3 輛 機車 ) )
+          ( CLUE::Conclusion ( = ( quan q3::a1 個 輪子 ) ( * ( / ( quan q3 輛 機車 ) ( quan q1 輛 機車 ) ) ( attrib a1 q1 個 輪子 ) ) ) )
+          ( CLUE::ExprVarMap ( $1 ) ( $2 3 ) ( $3 1 ) ( $4 2 ) )
+          <ctx ID='ctx_43'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 輛 機車 ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 輛 機車 ) 1 ) )
+            ( CLUE::Create-Fact ( quan q1 輛 機車 ) ( 1 ) )
+            <ctx ID='ctx_42'>
+              ( CLUE::Input ( = ( quan q1 輛 機車 ) 1 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_45'>
+            ( CLUE::EVAL::LF2 ( = ( attrib a1 q1 個 輪子 ) 2 ) )
+            ( CLUE::EVAL::LF2 ( = ( attrib a1 q1 個 輪子 ) 2 ) )
+            ( CLUE::Create-Fact ( attrib a1 q1 個 輪子 ) ( 2 ) )
+            <ctx ID='ctx_44'>
+              ( CLUE::Input ( = ( attrib a1 q1 個 輪子 ) 2 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_55'>
+            ( CLUE::EVAL::LF2 ( = ( quan q3 輛 機車 ) 3 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q3 輛 機車 ) 3 ) )
+            ( CLUE::Create-Fact ( quan q3 輛 機車 ) ( 3 ) )
+            <ctx ID='ctx_54'>
+              ( CLUE::Input ( = ( quan q3 輛 機車 ) 3 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_55'>
+          ( CLUE::EVAL::LF2 ( = ( quan q3 輛 機車 ) 3 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q3 輛 機車 ) 3 ) )
+          ( CLUE::Create-Fact ( quan q3 輛 機車 ) ( 3 ) )
+          <ctx ID='ctx_54'>
+            ( CLUE::Input ( = ( quan q3 輛 機車 ) 3 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_43'>
+          ( CLUE::EVAL::LF2 ( = ( quan q1 輛 機車 ) 1 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q1 輛 機車 ) 1 ) )
+          ( CLUE::Create-Fact ( quan q1 輛 機車 ) ( 1 ) )
+          <ctx ID='ctx_42'>
+            ( CLUE::Input ( = ( quan q1 輛 機車 ) 1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_45'>
+          ( CLUE::EVAL::LF2 ( = ( attrib a1 q1 個 輪子 ) 2 ) )
+          ( CLUE::EVAL::LF2 ( = ( attrib a1 q1 個 輪子 ) 2 ) )
+          ( CLUE::Create-Fact ( attrib a1 q1 個 輪子 ) ( 2 ) )
+          <ctx ID='ctx_44'>
+            ( CLUE::Input ( = ( attrib a1 q1 個 輪子 ) 2 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_61'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4::a1 個 輪子 ) ( * ( / ( quan q4 輛 卡車 ) ( quan q2 輛 卡車 ) ) ( attrib a1 q2 個 輪子 ) ) ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4::a1 個 輪子 ) ( * ( / 2 1 ) 10 ) ) )
+        ( CLUE::Create-Fact ( quan q4::a1 個 輪子 ) ( 20 ) )
+        <ctx ID='ctx_60'>
+          ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ( quan ?_7 ?_2 ?_3 ) ) ( = ( quan ?_7::?_4 ?_5 ?_6 ) ( * ( / ( quan ?_7 ?_2 ?_3 ) ( quan ?_1 ?_2 ?_3 ) ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ) ) ) )
+          ( CLUE::Bind ( ?_1 q2 ) ( ?_2 輛 ) ( ?_3 卡車 ) ( ?_4 a1 ) ( ?_5 個 ) ( ?_6 輪子 ) ( ?_7 q4 ) )
+          ( CLUE::Premise ( quan q2 輛 卡車 ) ( attrib a1 q2 個 輪子 ) ( quan q4 輛 卡車 ) )
+          ( CLUE::Conclusion ( = ( quan q4::a1 個 輪子 ) ( * ( / ( quan q4 輛 卡車 ) ( quan q2 輛 卡車 ) ) ( attrib a1 q2 個 輪子 ) ) ) )
+          ( CLUE::ExprVarMap ( $1 ) ( $2 2 ) ( $3 1 ) ( $4 10 ) )
+          <ctx ID='ctx_49'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 輛 卡車 ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 輛 卡車 ) 1 ) )
+            ( CLUE::Create-Fact ( quan q2 輛 卡車 ) ( 1 ) )
+            <ctx ID='ctx_48'>
+              ( CLUE::Input ( = ( quan q2 輛 卡車 ) 1 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_51'>
+            ( CLUE::EVAL::LF2 ( = ( attrib a1 q2 個 輪子 ) 10 ) )
+            ( CLUE::EVAL::LF2 ( = ( attrib a1 q2 個 輪子 ) 10 ) )
+            ( CLUE::Create-Fact ( attrib a1 q2 個 輪子 ) ( 10 ) )
+            <ctx ID='ctx_50'>
+              ( CLUE::Input ( = ( attrib a1 q2 個 輪子 ) 10 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_59'>
+            ( CLUE::EVAL::LF2 ( = ( quan q4 輛 卡車 ) 2 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q4 輛 卡車 ) 2 ) )
+            ( CLUE::Create-Fact ( quan q4 輛 卡車 ) ( 2 ) )
+            <ctx ID='ctx_58'>
+              ( CLUE::Input ( = ( quan q4 輛 卡車 ) 2 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_59'>
+          ( CLUE::EVAL::LF2 ( = ( quan q4 輛 卡車 ) 2 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q4 輛 卡車 ) 2 ) )
+          ( CLUE::Create-Fact ( quan q4 輛 卡車 ) ( 2 ) )
+          <ctx ID='ctx_58'>
+            ( CLUE::Input ( = ( quan q4 輛 卡車 ) 2 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_49'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 輛 卡車 ) 1 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 輛 卡車 ) 1 ) )
+          ( CLUE::Create-Fact ( quan q2 輛 卡車 ) ( 1 ) )
+          <ctx ID='ctx_48'>
+            ( CLUE::Input ( = ( quan q2 輛 卡車 ) 1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_51'>
+          ( CLUE::EVAL::LF2 ( = ( attrib a1 q2 個 輪子 ) 10 ) )
+          ( CLUE::EVAL::LF2 ( = ( attrib a1 q2 個 輪子 ) 10 ) )
+          ( CLUE::Create-Fact ( attrib a1 q2 個 輪子 ) ( 10 ) )
+          <ctx ID='ctx_50'>
+            ( CLUE::Input ( = ( attrib a1 q2 個 輪子 ) 10 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

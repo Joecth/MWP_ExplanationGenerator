@@ -1,0 +1,124 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_109'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_109'>
+        <CHUNK>10000000</CHUNK>
+        <chk ID='ctx_109'>
+          <CHUNK>OP_Sum</CHUNK>
+          <chk ID='ctx_109'>
+            <CHUNK>9000000</CHUNK>
+            <chk ID='ctx_72'>
+              <CHUNK>OP_Multiplication</CHUNK>
+              <chk ID='ctx_72'>
+                <CHUNK>9個</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_72'>
+                <CHUNK>百萬</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_109'>
+            <CHUNK>1000000</CHUNK>
+            <chk ID='ctx_85'>
+              <CHUNK>OP_Multiplication</CHUNK>
+              <chk ID='ctx_85'>
+                <CHUNK>1個</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <chk ID='ctx_85'>
+                <CHUNK>百萬</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              </chk>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_106'>
+    <ANS>10000000</ANS>
+    <ctx ID='ctx_105'>
+      ( CLUE::Input ( ASK ANS ( Sum ( quan ?q # # ) ) ) )
+    </ctx>
+    <ctx ID='ctx_109'>
+      ( CLUE::AtomSeq ( quan ?q # # ) )
+      ( CLUE::Util ( Sum 9000000 1000000 = 10000000 ) )
+      ( CLUE::Util ( Val ( m_real 9e+006 ) ( m_fact ( quan q1 # # ) ( 9000000 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 1e+006 ) ( m_fact ( quan q2 # # ) ( 1000000 ) ) ) )
+      <ctx ID='ctx_107'>
+        ( CLUE::Bound-Facts ( quan q1 # # ) )
+        <ctx ID='ctx_73'>
+          ( CLUE::EVAL::LF2 ( = ( quan q1 # # ) ( * ( quan q1 個 _bai_wan ) 1000000 ) ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q1 # # ) ( * 9 1000000 ) ) )
+          ( CLUE::Create-Fact ( quan q1 # # ) ( 9000000 ) )
+          <ctx ID='ctx_72'>
+            ( CLUE::Rule ( => ( quan ?_1 ?_2 _bai_wan ) ( = ( quan ?_1 # # ) ( * ( quan ?_1 ?_2 _bai_wan ) 1000000 ) ) ) )
+            ( CLUE::Bind ( ?_1 q1 ) ( ?_2 個 ) )
+            ( CLUE::Premise ( quan q1 個 _bai_wan ) )
+            ( CLUE::Conclusion ( = ( quan q1 # # ) ( * ( quan q1 個 _bai_wan ) 1000000 ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 9 ) )
+            <ctx ID='ctx_71'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 個 _bai_wan ) 9 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 個 _bai_wan ) 9 ) )
+              ( CLUE::Create-Fact ( quan q1 個 _bai_wan ) ( 9 ) )
+              <ctx ID='ctx_70'>
+                ( CLUE::Input ( = ( quan q1 s1w2 s1w3 ) 9 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_71'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 個 _bai_wan ) 9 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 個 _bai_wan ) 9 ) )
+            ( CLUE::Create-Fact ( quan q1 個 _bai_wan ) ( 9 ) )
+            <ctx ID='ctx_70'>
+              ( CLUE::Input ( = ( quan q1 s1w2 s1w3 ) 9 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_108'>
+        ( CLUE::Bound-Facts ( quan q2 # # ) )
+        <ctx ID='ctx_86'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 # # ) ( * ( quan q2 個 _bai_wan ) 1000000 ) ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 # # ) ( * 1 1000000 ) ) )
+          ( CLUE::Create-Fact ( quan q2 # # ) ( 1000000 ) )
+          <ctx ID='ctx_85'>
+            ( CLUE::Rule ( => ( quan ?_1 ?_2 _bai_wan ) ( = ( quan ?_1 # # ) ( * ( quan ?_1 ?_2 _bai_wan ) 1000000 ) ) ) )
+            ( CLUE::Bind ( ?_1 q2 ) ( ?_2 個 ) )
+            ( CLUE::Premise ( quan q2 個 _bai_wan ) )
+            ( CLUE::Conclusion ( = ( quan q2 # # ) ( * ( quan q2 個 _bai_wan ) 1000000 ) ) )
+            ( CLUE::ExprVarMap ( $1 ) ( $2 1 ) )
+            <ctx ID='ctx_84'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 個 _bai_wan ) 1 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 個 _bai_wan ) 1 ) )
+              ( CLUE::Create-Fact ( quan q2 個 _bai_wan ) ( 1 ) )
+              <ctx ID='ctx_83'>
+                ( CLUE::Input ( = ( quan q2 s1w7 s1w8 ) 1 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_84'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 個 _bai_wan ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 個 _bai_wan ) 1 ) )
+            ( CLUE::Create-Fact ( quan q2 個 _bai_wan ) ( 1 ) )
+            <ctx ID='ctx_83'>
+              ( CLUE::Input ( = ( quan q2 s1w7 s1w8 ) 1 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

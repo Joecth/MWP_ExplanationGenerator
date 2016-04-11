@@ -1,0 +1,206 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_215'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_215'>
+        <CHUNK>15(盒粉筆/個班)</CHUNK>
+        <chk ID='ctx_215'>
+          <CHUNK>OP_FloorDiv</CHUNK>
+          <chk ID='ctx_215'>
+            <CHUNK>15盒粉筆</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_215'>
+            <CHUNK>1個班</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_212'>
+    <ANS>15 盒</ANS>
+    <ctx ID='ctx_211'>
+      ( CLUE::Input ( ASK ANS ( FloorDiv ( quan q2 s3w2 s3w3 ) ( quan q3 s3w6 s3w7 ) ) ( Suffix s4w6 ) ) )
+    </ctx>
+    <ctx ID='ctx_215'>
+      ( CLUE::Util ( FloorDiv 15 1 = 15 ) )
+      ( CLUE::Util ( Val1 ( m_real 15 ) ( m_fact ( quan q2 盒 s1w6 ) ( 15 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 1 ) ( m_fact ( quan q3 個 _ban ) ( 1 ) ) ) )
+      <ctx ID='ctx_129'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 盒 s1w6 ) 15 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 盒 s1w6 ) 15 ) )
+        ( CLUE::Create-Fact ( quan q2 盒 s1w6 ) ( 15 ) )
+        <ctx ID='ctx_128'>
+          ( CLUE::Input ( = ( quan q2 s3w2 s3w3 ) 15 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_143'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 個 _ban ) 1 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 個 _ban ) 1 ) )
+        ( CLUE::Create-Fact ( quan q3 個 _ban ) ( 1 ) )
+        <ctx ID='ctx_142'>
+          ( CLUE::Input ( = ( quan q3 s3w6 s3w7 ) 1 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_317'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_317'>
+        <CHUNK>5(盒粉筆/個班)</CHUNK>
+        <chk ID='ctx_317'>
+          <CHUNK>OP_FloorDiv</CHUNK>
+          <chk ID='ctx_317'>
+            <CHUNK>15盒粉筆</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_317'>
+            <CHUNK>3個班</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_314'>
+    <ANS>5 盒</ANS>
+    <ctx ID='ctx_313'>
+      ( CLUE::Input ( ASK ANS ( FloorDiv ( quan q12 s5w2 s5w3 ) ( quan q13 s5w6 s5w7 ) ) ( Suffix s6w6 ) ) )
+    </ctx>
+    <ctx ID='ctx_317'>
+      ( CLUE::Util ( FloorDiv 15 3 = 5 ) )
+      ( CLUE::Util ( Val1 ( m_real 15 ) ( m_fact ( quan q12 盒 s1w6 ) ( 15 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 3 ) ( m_fact ( quan q13 個 _ban ) ( 3 ) ) ) )
+      <ctx ID='ctx_239'>
+        ( CLUE::EVAL::LF2 ( = ( quan q12 盒 s1w6 ) 15 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q12 盒 s1w6 ) 15 ) )
+        ( CLUE::Create-Fact ( quan q12 盒 s1w6 ) ( 15 ) )
+        <ctx ID='ctx_238'>
+          ( CLUE::Input ( = ( quan q12 s5w2 s5w3 ) 15 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_253'>
+        ( CLUE::EVAL::LF2 ( = ( quan q13 個 _ban ) 3 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q13 個 _ban ) 3 ) )
+        ( CLUE::Create-Fact ( quan q13 個 _ban ) ( 3 ) )
+        <ctx ID='ctx_252'>
+          ( CLUE::Input ( = ( quan q13 s5w6 s5w7 ) 3 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_419'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_419'>
+        <CHUNK>3(盒粉筆/個班)</CHUNK>
+        <chk ID='ctx_419'>
+          <CHUNK>OP_FloorDiv</CHUNK>
+          <chk ID='ctx_419'>
+            <CHUNK>15盒粉筆</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_419'>
+            <CHUNK>5個班</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_416'>
+    <ANS>3 盒</ANS>
+    <ctx ID='ctx_415'>
+      ( CLUE::Input ( ASK ANS ( FloorDiv ( quan q22 s7w2 s7w3 ) ( quan q23 s7w6 s7w7 ) ) ( Suffix s8w6 ) ) )
+    </ctx>
+    <ctx ID='ctx_419'>
+      ( CLUE::Util ( FloorDiv 15 5 = 3 ) )
+      ( CLUE::Util ( Val1 ( m_real 15 ) ( m_fact ( quan q22 盒 s1w6 ) ( 15 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 5 ) ( m_fact ( quan q23 個 _ban ) ( 5 ) ) ) )
+      <ctx ID='ctx_341'>
+        ( CLUE::EVAL::LF2 ( = ( quan q22 盒 s1w6 ) 15 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q22 盒 s1w6 ) 15 ) )
+        ( CLUE::Create-Fact ( quan q22 盒 s1w6 ) ( 15 ) )
+        <ctx ID='ctx_340'>
+          ( CLUE::Input ( = ( quan q22 s7w2 s7w3 ) 15 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_355'>
+        ( CLUE::EVAL::LF2 ( = ( quan q23 個 _ban ) 5 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q23 個 _ban ) 5 ) )
+        ( CLUE::Create-Fact ( quan q23 個 _ban ) ( 5 ) )
+        <ctx ID='ctx_354'>
+          ( CLUE::Input ( = ( quan q23 s7w6 s7w7 ) 5 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_522'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_522'>
+        <CHUNK>1(盒粉筆/個班)</CHUNK>
+        <chk ID='ctx_522'>
+          <CHUNK>OP_FloorDiv</CHUNK>
+          <chk ID='ctx_522'>
+            <CHUNK>15盒粉筆</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_522'>
+            <CHUNK>15個班</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_519'>
+    <ANS>1 盒</ANS>
+    <ctx ID='ctx_518'>
+      ( CLUE::Input ( ASK ANS ( FloorDiv ( quan q32 s9w2 s9w3 ) ( quan q33 s9w6 s9w7 ) ) ( Suffix s10w6 ) ) )
+    </ctx>
+    <ctx ID='ctx_522'>
+      ( CLUE::Util ( FloorDiv 15 15 = 1 ) )
+      ( CLUE::Util ( Val1 ( m_real 15 ) ( m_fact ( quan q32 盒 s1w6 ) ( 15 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 15 ) ( m_fact ( quan q33 個 _ban ) ( 15 ) ) ) )
+      <ctx ID='ctx_444'>
+        ( CLUE::EVAL::LF2 ( = ( quan q32 盒 s1w6 ) 15 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q32 盒 s1w6 ) 15 ) )
+        ( CLUE::Create-Fact ( quan q32 盒 s1w6 ) ( 15 ) )
+        <ctx ID='ctx_443'>
+          ( CLUE::Input ( = ( quan q32 s9w2 s9w3 ) 15 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_458'>
+        ( CLUE::EVAL::LF2 ( = ( quan q33 個 _ban ) 15 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q33 個 _ban ) 15 ) )
+        ( CLUE::Create-Fact ( quan q33 個 _ban ) ( 15 ) )
+        <ctx ID='ctx_457'>
+          ( CLUE::Input ( = ( quan q33 s9w6 s9w7 ) 15 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

@@ -1,0 +1,96 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+  </CHUNK_TREE>
+  <ctx ID='ctx_171'>
+    <__is_xml_mode_ASK__ANS>3</__is_xml_mode_ASK__ANS>
+    <ctx ID='ctx_170'>
+      ( CLUE::Input ( ASK ANS ( tvq v1 s4w3 s4w4 t2 ) ) )
+    </ctx>
+    <ctx ID='ctx_169'>
+      ( CLUE::EVAL::LF2 ( = ( tvq v1 隻 s1w7 t2 ) ( - ( tvq v1 隻 s1w7 t1 ) ( quan q3 隻 s1w7 ) ) ) )
+      ( CLUE::EVAL::LF2 ( = ( tvq v1 隻 s1w7 t2 ) ( - 5 2 ) ) )
+      ( CLUE::Create-Fact ( tvq v1 隻 s1w7 t2 ) ( 3 ) )
+      <ctx ID='ctx_168'>
+        ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 - ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( - ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+        ( CLUE::Bind ( ?_1 q3 ) ( ?_2 隻 ) ( ?_3 s1w7 ) ( ?_4 v1 ) ( ?_5 t1 ) ( ?_6 t2 ) )
+        ( CLUE::Premise ( quan q3 隻 s1w7 ) ( tvq_op v1 - q3 t1 t2 ) )
+        ( CLUE::Conclusion ( = ( tvq v1 隻 s1w7 t2 ) ( - ( tvq v1 隻 s1w7 t1 ) ( quan q3 隻 s1w7 ) ) ) )
+        ( CLUE::ExprVarMap ( $1 ) ( $2 5 ) ( $3 2 ) )
+        <ctx ID='ctx_126'>
+          ( CLUE::EVAL::LF2 ( = ( quan q3 隻 s1w7 ) 2 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q3 隻 s1w7 ) 2 ) )
+          ( CLUE::Create-Fact ( quan q3 隻 s1w7 ) ( 2 ) )
+          <ctx ID='ctx_125'>
+            ( CLUE::Input ( = ( quan q3 s3w4 s3w5 ) 2 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_167'>
+          ( CLUE::Create-Fact ( tvq_op v1 - q3 t1 t2 ) ( ) )
+          <ctx ID='ctx_165'>
+            ( CLUE::Input ( tvq_op v1 - q3 t1 t2 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_162'>
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 隻 s1w7 t1 ) ( - ( tvq v1 隻 s1w7 t0 ) ( quan q2 隻 s1w7 ) ) ) )
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 隻 s1w7 t1 ) ( - 7 2 ) ) )
+        ( CLUE::Create-Fact ( tvq v1 隻 s1w7 t1 ) ( 5 ) )
+        <ctx ID='ctx_161'>
+          ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 - ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( - ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+          ( CLUE::Bind ( ?_1 q2 ) ( ?_2 隻 ) ( ?_3 s1w7 ) ( ?_4 v1 ) ( ?_5 t0 ) ( ?_6 t1 ) )
+          ( CLUE::Premise ( quan q2 隻 s1w7 ) ( tvq_op v1 - q2 t0 t1 ) )
+          ( CLUE::Conclusion ( = ( tvq v1 隻 s1w7 t1 ) ( - ( tvq v1 隻 s1w7 t0 ) ( quan q2 隻 s1w7 ) ) ) )
+          ( CLUE::ExprVarMap ( $1 ) ( $2 7 ) ( $3 2 ) )
+          <ctx ID='ctx_100'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 隻 s1w7 ) 2 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 隻 s1w7 ) 2 ) )
+            ( CLUE::Create-Fact ( quan q2 隻 s1w7 ) ( 2 ) )
+            <ctx ID='ctx_99'>
+              ( CLUE::Input ( = ( quan q2 s2w3 s2w4 ) 2 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_160'>
+            ( CLUE::Create-Fact ( tvq_op v1 - q2 t0 t1 ) ( ) )
+            <ctx ID='ctx_158'>
+              ( CLUE::Input ( tvq_op v1 - q2 t0 t1 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_155'>
+          ( CLUE::EVAL::LF2 ( = ( tvq v1 隻 s1w7 t0 ) ( quan q1 隻 s1w7 ) ) )
+          ( CLUE::EVAL::LF2 ( = ( tvq v1 隻 s1w7 t0 ) 7 ) )
+          ( CLUE::Create-Fact ( tvq v1 隻 s1w7 t0 ) ( 7 ) )
+          <ctx ID='ctx_154'>
+            ( CLUE::Input ( = ( tvq v1 s1w6 s1w7 t0 ) ( quan q1 s1w6 s1w7 ) ) )
+          </ctx>
+          <ctx ID='ctx_70'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 隻 s1w7 ) 7 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 隻 s1w7 ) 7 ) )
+            ( CLUE::Create-Fact ( quan q1 隻 s1w7 ) ( 7 ) )
+            <ctx ID='ctx_69'>
+              ( CLUE::Input ( = ( quan q1 s1w6 s1w7 ) 7 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_100'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 隻 s1w7 ) 2 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 隻 s1w7 ) 2 ) )
+          ( CLUE::Create-Fact ( quan q2 隻 s1w7 ) ( 2 ) )
+          <ctx ID='ctx_99'>
+            ( CLUE::Input ( = ( quan q2 s2w3 s2w4 ) 2 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_126'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 隻 s1w7 ) 2 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 隻 s1w7 ) 2 ) )
+        ( CLUE::Create-Fact ( quan q3 隻 s1w7 ) ( 2 ) )
+        <ctx ID='ctx_125'>
+          ( CLUE::Input ( = ( quan q3 s3w4 s3w5 ) 2 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

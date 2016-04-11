@@ -1,0 +1,88 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_129'>
+      <CHUNK>V.進貨</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+    </chk>
+    <chk ID='ctx_133'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_133'>
+        <CHUNK>3948枝筆</CHUNK>
+        <chk ID='ctx_133'>
+          <CHUNK>OP_Sum</CHUNK>
+          <chk ID='ctx_133'>
+            <CHUNK>2361枝紅筆</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_133'>
+            <CHUNK>1587枝藍筆</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_130'>
+    <ANS>3948 枝</ANS>
+    <ctx ID='ctx_129'>
+      ( CLUE::Input ( ASK ANS ( Sum ( quan ?q s2w5 s2w6 ) ( COND ( verb ?q s2w3 ) ( agent ?q s2w1 ) ) ) ( Suffix s2w5 ) ) )
+    </ctx>
+    <ctx ID='ctx_133'>
+      ( CLUE::AtomSeq ( quan ?q 枝 s1w6 ) ( verb ?q s1w2 ) ( agent ?q s1w1 ) )
+      ( CLUE::Util ( Sum 2361 1587 = 3948 ) )
+      ( CLUE::Util ( Val ( m_real 2361 ) ( m_fact ( quan q1 枝 n1 ) ( 2361 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 1587 ) ( m_fact ( quan q2 枝 n2 ) ( 1587 ) ) ) )
+      <ctx ID='ctx_131'>
+        ( CLUE::Bound-Facts ( quan q1 枝 n1 ) ( verb q1 s1w2 ) ( agent q1 s1w1 ) )
+        <ctx ID='ctx_85'>
+          ( CLUE::EVAL::LF2 ( = ( quan q1 枝 n1 ) 2361 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q1 枝 n1 ) 2361 ) )
+          ( CLUE::Create-Fact ( quan q1 枝 n1 ) ( 2361 ) )
+          <ctx ID='ctx_84'>
+            ( CLUE::Input ( = ( quan q1 s1w4 n1 ) 2361 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_88'>
+          ( CLUE::Create-Fact ( verb q1 s1w2 ) ( ) )
+          <ctx ID='ctx_86'>
+            ( CLUE::Input ( verb q1 s1w2 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_91'>
+          ( CLUE::Create-Fact ( agent q1 s1w1 ) ( ) )
+          <ctx ID='ctx_89'>
+            ( CLUE::Input ( agent q1 s1w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_132'>
+        ( CLUE::Bound-Facts ( quan q2 枝 n2 ) ( verb q2 s1w2 ) ( agent q2 s1w1 ) )
+        <ctx ID='ctx_96'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 枝 n2 ) 1587 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 枝 n2 ) 1587 ) )
+          ( CLUE::Create-Fact ( quan q2 枝 n2 ) ( 1587 ) )
+          <ctx ID='ctx_95'>
+            ( CLUE::Input ( = ( quan q2 s1w9 n2 ) 1587 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_99'>
+          ( CLUE::Create-Fact ( verb q2 s1w2 ) ( ) )
+          <ctx ID='ctx_97'>
+            ( CLUE::Input ( verb q2 s1w2 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_102'>
+          ( CLUE::Create-Fact ( agent q2 s1w1 ) ( ) )
+          <ctx ID='ctx_100'>
+            ( CLUE::Input ( agent q2 s1w1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

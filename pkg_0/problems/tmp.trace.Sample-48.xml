@@ -1,0 +1,44 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+  </CHUNK_TREE>
+  <ctx ID='ctx_105'>
+    <ANS>8</ANS>
+    <ctx ID='ctx_104'>
+      ( CLUE::Input ( ASK ANS ( quan q1 # # ) ) )
+    </ctx>
+    <ctx ID='ctx_90'>
+      ( CLUE::EVAL::LF2 ( = ( / ( * ( quan q1 # # ) ( quan q2 # # ) ) ( quan q3 # # ) ) ( quan q4 # # ) ) )
+      ( CLUE::EVAL::LF2 ( = ( / ( * ( quan q1 # # ) 11 ) 4 ) 22 ) )
+      ( CLUE::Create-Fact ( quan q1 # # ) ( 8 ) )
+      <ctx ID='ctx_89'>
+        ( CLUE::Input ( = ( / ( * ( quan q1 # # ) ( quan q2 # # ) ) ( quan q3 # # ) ) ( quan q4 # # ) ) )
+      </ctx>
+      <ctx ID='ctx_60'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # # ) 11 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # # ) 11 ) )
+        ( CLUE::Create-Fact ( quan q2 # # ) ( 11 ) )
+        <ctx ID='ctx_59'>
+          ( CLUE::Input ( = ( quan q2 # # ) 11 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_86'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 # # ) 4 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 # # ) 4 ) )
+        ( CLUE::Create-Fact ( quan q3 # # ) ( 4 ) )
+        <ctx ID='ctx_85'>
+          ( CLUE::Input ( = ( quan q3 # # ) 4 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_88'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # # ) 22 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # # ) 22 ) )
+        ( CLUE::Create-Fact ( quan q4 # # ) ( 22 ) )
+        <ctx ID='ctx_87'>
+          ( CLUE::Input ( = ( quan q4 # # ) 22 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

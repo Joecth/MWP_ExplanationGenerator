@@ -1,0 +1,125 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_21'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_19'>
+        <CHUNK>42張貼紙</CHUNK>
+        <chk ID='ctx_19'>
+          <CHUNK>OP_TVQ_Addition</CHUNK>
+          <chk ID='ctx_19'>
+            <CHUNK>12張貼紙</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_19'>
+            <CHUNK>30張貼紙</CHUNK>
+          </chk>
+          <chk ID='ctx_12'>
+            <CHUNK>OP_TVQ_Addition</CHUNK>
+            <chk ID='ctx_12'>
+              <CHUNK>6張貼紙</CHUNK>
+              <CHUNK>UPSCOPE</CHUNK>
+            </chk>
+            <chk ID='ctx_12'>
+              <CHUNK>24張貼紙</CHUNK>
+            </chk>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_22'>
+    <ANS>42 張</ANS>
+    <ctx ID='ctx_21'>
+      ( CLUE::Input ( ASK ANS ( tvq v1 張 貼紙 t2 ) ( Suffix 張 ) ) )
+    </ctx>
+    <ctx ID='ctx_20'>
+      ( CLUE::EVAL::LF2 ( = ( tvq v1 張 貼紙 t2 ) ( + ( tvq v1 張 貼紙 t1 ) ( quan q3 張 貼紙 ) ) ) )
+      ( CLUE::EVAL::LF2 ( = ( tvq v1 張 貼紙 t2 ) ( + 30 12 ) ) )
+      ( CLUE::Create-Fact ( tvq v1 張 貼紙 t2 ) ( 42 ) )
+      <ctx ID='ctx_19'>
+        ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 + ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( + ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+        ( CLUE::Bind ( ?_1 q3 ) ( ?_2 張 ) ( ?_3 貼紙 ) ( ?_4 v1 ) ( ?_5 t1 ) ( ?_6 t2 ) )
+        ( CLUE::Premise ( quan q3 張 貼紙 ) ( tvq_op v1 + q3 t1 t2 ) )
+        ( CLUE::Conclusion ( = ( tvq v1 張 貼紙 t2 ) ( + ( tvq v1 張 貼紙 t1 ) ( quan q3 張 貼紙 ) ) ) )
+        ( CLUE::ExprVarMap ( $1 ) ( $2 30 ) ( $3 12 ) )
+        <ctx ID='ctx_15'>
+          ( CLUE::EVAL::LF2 ( = ( quan q3 張 貼紙 ) 12 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q3 張 貼紙 ) 12 ) )
+          ( CLUE::Create-Fact ( quan q3 張 貼紙 ) ( 12 ) )
+          <ctx ID='ctx_14'>
+            ( CLUE::Input ( = ( quan q3 張 貼紙 ) 12 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_18'>
+          ( CLUE::Create-Fact ( tvq_op v1 + q3 t1 t2 ) ( ) )
+          <ctx ID='ctx_16'>
+            ( CLUE::Input ( tvq_op v1 + q3 t1 t2 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_13'>
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 張 貼紙 t1 ) ( + ( tvq v1 張 貼紙 t0 ) ( quan q2 張 貼紙 ) ) ) )
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 張 貼紙 t1 ) ( + 24 6 ) ) )
+        ( CLUE::Create-Fact ( tvq v1 張 貼紙 t1 ) ( 30 ) )
+        <ctx ID='ctx_12'>
+          ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 + ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( + ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+          ( CLUE::Bind ( ?_1 q2 ) ( ?_2 張 ) ( ?_3 貼紙 ) ( ?_4 v1 ) ( ?_5 t0 ) ( ?_6 t1 ) )
+          ( CLUE::Premise ( quan q2 張 貼紙 ) ( tvq_op v1 + q2 t0 t1 ) )
+          ( CLUE::Conclusion ( = ( tvq v1 張 貼紙 t1 ) ( + ( tvq v1 張 貼紙 t0 ) ( quan q2 張 貼紙 ) ) ) )
+          ( CLUE::ExprVarMap ( $1 ) ( $2 24 ) ( $3 6 ) )
+          <ctx ID='ctx_8'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 張 貼紙 ) 6 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 張 貼紙 ) 6 ) )
+            ( CLUE::Create-Fact ( quan q2 張 貼紙 ) ( 6 ) )
+            <ctx ID='ctx_7'>
+              ( CLUE::Input ( = ( quan q2 張 貼紙 ) 6 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_11'>
+            ( CLUE::Create-Fact ( tvq_op v1 + q2 t0 t1 ) ( ) )
+            <ctx ID='ctx_9'>
+              ( CLUE::Input ( tvq_op v1 + q2 t0 t1 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_6'>
+          ( CLUE::EVAL::LF2 ( = ( tvq v1 張 貼紙 t0 ) ( quan q1 張 貼紙 ) ) )
+          ( CLUE::EVAL::LF2 ( = ( tvq v1 張 貼紙 t0 ) 24 ) )
+          ( CLUE::Create-Fact ( tvq v1 張 貼紙 t0 ) ( 24 ) )
+          <ctx ID='ctx_5'>
+            ( CLUE::Input ( = ( tvq v1 張 貼紙 t0 ) ( quan q1 張 貼紙 ) ) )
+          </ctx>
+          <ctx ID='ctx_4'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 張 貼紙 ) 24 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 張 貼紙 ) 24 ) )
+            ( CLUE::Create-Fact ( quan q1 張 貼紙 ) ( 24 ) )
+            <ctx ID='ctx_3'>
+              ( CLUE::Input ( = ( quan q1 張 貼紙 ) 24 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_8'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 張 貼紙 ) 6 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 張 貼紙 ) 6 ) )
+          ( CLUE::Create-Fact ( quan q2 張 貼紙 ) ( 6 ) )
+          <ctx ID='ctx_7'>
+            ( CLUE::Input ( = ( quan q2 張 貼紙 ) 6 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_15'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 張 貼紙 ) 12 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 張 貼紙 ) 12 ) )
+        ( CLUE::Create-Fact ( quan q3 張 貼紙 ) ( 12 ) )
+        <ctx ID='ctx_14'>
+          ( CLUE::Input ( = ( quan q3 張 貼紙 ) 12 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>

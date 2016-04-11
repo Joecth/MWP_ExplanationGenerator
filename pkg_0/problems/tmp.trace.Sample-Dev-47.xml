@@ -1,0 +1,62 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+  </CHUNK_TREE>
+  <ctx ID='ctx_58'>
+    <ANS>78 頁</ANS>
+    <ctx ID='ctx_57'>
+      ( CLUE::Input ( ASK ANS ( quan q3 頁 # ) ( Suffix 頁 ) ) )
+    </ctx>
+    <ctx ID='ctx_56'>
+      ( CLUE::EVAL::LF2 ( = ( tvq v1 頁 # t1 ) ( - ( tvq v1 頁 # t0 ) ( quan q3 頁 # ) ) ) )
+      ( CLUE::EVAL::LF2 ( = 15 ( - 93 ( quan q3 頁 # ) ) ) )
+      ( CLUE::Create-Fact ( quan q3 頁 # ) ( 78 ) )
+      <ctx ID='ctx_55'>
+        ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 - ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( - ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+        ( CLUE::Bind ( ?_1 q3 ) ( ?_2 頁 ) ( ?_3 # ) ( ?_4 v1 ) ( ?_5 t0 ) ( ?_6 t1 ) )
+        ( CLUE::Premise ( quan q3 頁 # ) ( tvq_op v1 - q3 t0 t1 ) )
+        ( CLUE::Conclusion ( = ( tvq v1 頁 # t1 ) ( - ( tvq v1 頁 # t0 ) ( quan q3 頁 # ) ) ) )
+        ( CLUE::ExprVarMap ( $1 15 ) ( $2 93 ) ( $3 %_3 ) )
+        <ctx ID='ctx_54'>
+          ( CLUE::Create-Fact ( tvq_op v1 - q3 t0 t1 ) ( ) )
+          <ctx ID='ctx_52'>
+            ( CLUE::Input ( tvq_op v1 - q3 t0 t1 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_49'>
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 頁 # t1 ) ( quan q2 頁 # ) ) )
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 頁 # t1 ) 15 ) )
+        ( CLUE::Create-Fact ( tvq v1 頁 # t1 ) ( 15 ) )
+        <ctx ID='ctx_48'>
+          ( CLUE::Input ( = ( tvq v1 頁 # t1 ) ( quan q2 頁 # ) ) )
+        </ctx>
+        <ctx ID='ctx_47'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 頁 # ) 15 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 頁 # ) 15 ) )
+          ( CLUE::Create-Fact ( quan q2 頁 # ) ( 15 ) )
+          <ctx ID='ctx_46'>
+            ( CLUE::Input ( = ( quan q2 頁 # ) 15 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_45'>
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 頁 # t0 ) ( quan q1 頁 # ) ) )
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 頁 # t0 ) 93 ) )
+        ( CLUE::Create-Fact ( tvq v1 頁 # t0 ) ( 93 ) )
+        <ctx ID='ctx_44'>
+          ( CLUE::Input ( = ( tvq v1 頁 # t0 ) ( quan q1 頁 # ) ) )
+        </ctx>
+        <ctx ID='ctx_43'>
+          ( CLUE::EVAL::LF2 ( = ( quan q1 頁 # ) 93 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q1 頁 # ) 93 ) )
+          ( CLUE::Create-Fact ( quan q1 頁 # ) ( 93 ) )
+          <ctx ID='ctx_42'>
+            ( CLUE::Input ( = ( quan q1 頁 # ) 93 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
