@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{price(4):nsubjpass={sandwich(2):det={a(1)}},auxpass={be(3)},nmod={0.75(7):case={at(5)},dep={USD(6)}},cc={and(8)},conj={price(12):nsubjpass={pudding(10):det={a(9)}},auxpass={be(11)},nmod={0.25(15):case={at(13)},dep={USD(14)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">sandwich(2,NN): {sandwich}</Word>
+		<Word idx="3">be(3,VBZ): {is}</Word>
+		<Word idx="4">price(4,VBN): {priced}</Word>
+		<Word idx="5">at(5,IN): {at}</Word>
+		<Word idx="6">USD(6,USD): {USD}</Word>
+		<Word idx="7">0.75(7,CD): {0.75}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">a(9,DT): {a}</Word>
+		<Word idx="10">pudding(10,NN): {pudding}</Word>
+		<Word idx="11">be(11,VBZ): {is}</Word>
+		<Word idx="12">price(12,VBN): {priced}</Word>
+		<Word idx="13">at(13,IN): {at}</Word>
+		<Word idx="14">USD(14,USD): {USD}</Word>
+		<Word idx="15">0.25(15,CD): {0.25}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(2):nsubj={[x1]Tim(1)},dobj={sandwich(4):nummod={2(3)},cc={and(5)},conj={pudding(7):nummod={3(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Tim(1,NNP): {Tim}</Word>
+		<Word idx="2">buy(2,VBD): {bought}</Word>
+		<Word idx="3">2(3,CD): {2}</Word>
+		<Word idx="4">sandwich(4,NNS): {sandwiches}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">3(6,CD): {3}</Word>
+		<Word idx="7">pudding(7,NNS): {puddings}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(6):dobj={money(3):amod={much(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Tim(5)},nmod={total(8):case={in(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">money(3,NN): {money}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Tim(5,NNP): {Tim}</Word>
+		<Word idx="6">spend(6,VB): {spend}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">total(8,NN): {total}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

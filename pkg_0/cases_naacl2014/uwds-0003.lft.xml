@@ -1,0 +1,116 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 bake)
+		(s1w1 Mary)
+		(s1w2 be)
+		(s1w5 cake)
+		(s1w4 a)
+	)
+
+	(LF1
+		(HEAD v1 s1w3)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(aux v1 s1w2)
+		(dobj v1 n5)
+		(head n5 s1w5)
+		(det n5 s1w4)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 want)
+		(s2w2 recipe)
+		(s2w1 the)
+		(s2w5 cup)
+		(s2w4 8)
+		(s2w7 flour)
+		(s2w6 of)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n6)
+		(head n6 s2w2)
+		(det n6 s2w1)
+		(dobj v2 n1)
+		(head n1 s2w5)
+		(nummod n1 s2w4)
+		(nmod n1 n8)
+		(head n8 s2w7)
+		(case n8 s2w6)
+	)
+
+	(LF2
+		(= (quan q1 # s2w5) 8)(verb q1 s2w3)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 put)
+		(s3w1 she)
+		(s3w2 already)
+		(s3w6 cup)
+		(s3w4 in)
+		(s3w5 2)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(nsubj v3 s3w1)
+		(advmod v3 s3w2)
+		(nmod v3 n2)
+		(head n2 s3w6)
+		(case n2 s3w4)
+		(nummod n2 s3w5)
+	)
+
+	(LF2
+		(= (quan q2 # s3w6) 2)(verb q2 s3w3)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 need)
+		(s4w3 cup)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 do)
+		(s4w5 she)
+		(s4w8 add)
+		(s4w7 to)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(dep v4 n3)
+		(head n3 s4w3)
+		(amod n3 s4w2)
+		(advmod n3 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 s4w5)
+		(xcomp v4 s4w8)
+		(mark v4 s4w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 # s2w5) (quan q2 # s3w6)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

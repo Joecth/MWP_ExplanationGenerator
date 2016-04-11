@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mary</word>
+            <lemma>Mary</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>18</word>
+            <lemma>18</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>18.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>baseball</word>
+            <lemma>baseball</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>cards</word>
+            <lemma>card</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>8</word>
+            <lemma>8</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>8.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>torn</word>
+            <lemma>tear</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT
+          (S
+          (S
+          (NP (NNP Mary))
+          (VP (VBD had)
+          (NP (CD 18) (NN baseball) (NNS cards))))
+          (, ,)
+          (CC and)
+          (S
+          (NP (CD 8))
+          (VP (VBD were)
+          (VP (VBN torn))))
+          (. .)))
+          
+          </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">cards</governor>
+            <dependent idx="3">18</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">cards</governor>
+            <dependent idx="4">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="5">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">had</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">had</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">torn</governor>
+            <dependent idx="8">8</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">torn</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">had</governor>
+            <dependent idx="10">torn</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">had</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">cards</governor>
+            <dependent idx="3">18</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">cards</governor>
+            <dependent idx="4">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="5">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">had</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">had</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">torn</governor>
+            <dependent idx="8">8</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">torn</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">had</governor>
+            <dependent idx="10">torn</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">had</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">cards</governor>
+            <dependent idx="3">18</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">cards</governor>
+            <dependent idx="4">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="5">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">had</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">had</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">torn</governor>
+            <dependent idx="8">8</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">torn</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">had</governor>
+            <dependent idx="10">torn</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">had</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Fred</word>
+            <lemma>Fred</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>gave</word>
+            <lemma>give</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Mary</word>
+            <lemma>Mary</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>26</word>
+            <lemma>26</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>26.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>new</word>
+            <lemma>new</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>baseball</word>
+            <lemma>baseball</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>cards</word>
+            <lemma>card</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT
+          (S
+          (NP (NNP Fred))
+          (VP (VBD gave)
+          (NP (NNP Mary))
+          (NP (CD 26) (JJ new) (NN baseball) (NNS cards)))
+          (. .)))
+          
+          </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Fred</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="3">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">cards</governor>
+            <dependent idx="4">26</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cards</governor>
+            <dependent idx="5">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">cards</governor>
+            <dependent idx="6">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="7">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Fred</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="3">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">cards</governor>
+            <dependent idx="4">26</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cards</governor>
+            <dependent idx="5">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">cards</governor>
+            <dependent idx="6">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="7">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Fred</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="3">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">cards</governor>
+            <dependent idx="4">26</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cards</governor>
+            <dependent idx="5">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">cards</governor>
+            <dependent idx="6">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="7">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Mary</word>
+            <lemma>Mary</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>bought</word>
+            <lemma>buy</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>40</word>
+            <lemma>40</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>40.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>baseball</word>
+            <lemma>baseball</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>cards</word>
+            <lemma>card</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT
+          (S
+          (NP (NNP Mary))
+          (VP (VBD bought)
+          (NP (CD 40) (NN baseball) (NNS cards)))
+          (. .)))
+          
+          </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bought</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">bought</governor>
+            <dependent idx="1">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">cards</governor>
+            <dependent idx="3">40</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">cards</governor>
+            <dependent idx="4">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">bought</governor>
+            <dependent idx="5">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bought</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bought</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">bought</governor>
+            <dependent idx="1">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">cards</governor>
+            <dependent idx="3">40</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">cards</governor>
+            <dependent idx="4">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">bought</governor>
+            <dependent idx="5">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bought</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bought</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">bought</governor>
+            <dependent idx="1">Mary</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">cards</governor>
+            <dependent idx="3">40</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">cards</governor>
+            <dependent idx="4">baseball</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">bought</governor>
+            <dependent idx="5">cards</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bought</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>baseball</word>
+            <lemma>baseball</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>cards</word>
+            <lemma>card</lemma>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>does</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Mary</word>
+            <lemma>Mary</lemma>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>now</word>
+            <lemma>now</lemma>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>PRESENT_REF</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">PRESENT_REF</Timex>
+          </token>
+          <token id="9">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT
+          (SBARQ
+          (WHNP
+          (WHADJP (WRB How) (JJ many))
+          (NN baseball) (NNS cards))
+          (SQ (VBZ does)
+          (NP (NNP Mary))
+          (VP (VB have)
+          (NP (RB now))))
+          (. ?)))
+          
+          </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">cards</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">cards</governor>
+            <dependent idx="3">baseball</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">have</governor>
+            <dependent idx="4">cards</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">have</governor>
+            <dependent idx="5">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">have</governor>
+            <dependent idx="6">Mary</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">have</governor>
+            <dependent idx="8">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">have</governor>
+            <dependent idx="9">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">cards</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">cards</governor>
+            <dependent idx="3">baseball</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">have</governor>
+            <dependent idx="4">cards</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">have</governor>
+            <dependent idx="5">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">have</governor>
+            <dependent idx="6">Mary</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">have</governor>
+            <dependent idx="8">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">have</governor>
+            <dependent idx="9">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">cards</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">cards</governor>
+            <dependent idx="3">baseball</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">have</governor>
+            <dependent idx="4">cards</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">have</governor>
+            <dependent idx="5">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">have</governor>
+            <dependent idx="6">Mary</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">have</governor>
+            <dependent idx="8">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">have</governor>
+            <dependent idx="9">?</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>4</start>
+          <end>8</end>
+          <head>7</head>
+          <text>26 new baseball cards</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>6</end>
+          <head>5</head>
+          <text>18 baseball cards</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>3</start>
+          <end>6</end>
+          <head>5</head>
+          <text>40 baseball cards</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Mary</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Mary</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Mary</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>Mary</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

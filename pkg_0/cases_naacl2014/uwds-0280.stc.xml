@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter version="0.x">
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase name="logical_from">
+		<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+			<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{grow(2):nsubj={Jason(1)},dobj={watermelon(4):nummod={32(3)},cc={and(5)},conj={cantelope(7):nummod={22(6)}}}}</SemRep>
+							<WordList>
+								<Word idx="1">Jason(1,NNP): {Jason}</Word>
+								<Word idx="2">grow(2,VBD): {grew}</Word>
+								<Word idx="3">32(3,CD): {32}</Word>
+								<Word idx="4">watermelon(4,NNS): {watermelons}</Word>
+								<Word idx="5">and(5,CC): {and}</Word>
+								<Word idx="6">22(6,CD): {22}</Word>
+								<Word idx="7">cantelope(7,NNS): {cantelopes}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{grow(2):nsubj={Dan(1)},dobj={watermelon(4):nummod={31(3)}}}</SemRep>
+							<WordList>
+								<Word idx="1">Dan(1,NNP): {Dan}</Word>
+								<Word idx="2">grow(2,VBD): {grew}</Word>
+								<Word idx="3">31(3,CD): {31}</Word>
+								<Word idx="4">watermelon(4,NNS): {watermelons}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{grow(6):advmod={how(1):dep={[x1]watermelon(3):amod={many(2)}}},aux={do(4)},nsubj={[x1]they(5)},nmod={total(8):case={in(7)}}}</SemRep>
+							<WordList>
+								<Word idx="1">how(1,WRB): {How}</Word>
+								<Word idx="2">many(2,JJ): {many}</Word>
+								<Word idx="3">watermelon(3,NNS): {watermelons}</Word>
+								<Word idx="4">do(4,VBD): {did}</Word>
+								<Word idx="5">they(5,PRP): {they}</Word>
+								<Word idx="6">grow(6,VB): {grow}</Word>
+								<Word idx="7">in(7,IN): {in}</Word>
+								<Word idx="8">total(8,NN): {total}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-0.06568" idx="1" localScore="-0.06568">Addition</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

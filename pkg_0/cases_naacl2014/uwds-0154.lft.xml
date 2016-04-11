@@ -1,0 +1,109 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w7 be)
+		(s1w5 boom)
+		(s1w1 before)
+		(s1w2 the)
+		(s1w3 recent)
+		(s1w4 housing)
+		(s1w6 there)
+		(s1w9 house)
+		(s1w8 1426)
+		(s1w12 County)
+		(s1w10 in)
+		(s1w11 Lawrence)
+	)
+
+	(LF1
+		(verb v1 s1w7)
+		(nmod v1 n4)
+		(head n4 s1w5)
+		(case n4 s1w1)
+		(det n4 s1w2)
+		(amod n4 s1w3)
+		(compound n4 n5)
+		(head n5 s1w4)
+		(expl v1 s1w6)
+		(nsubj v1 n1)
+		(head n1 s1w9)
+		(nummod n1 s1w8)
+		(nmod n1 n7)
+		(head n7 s1w12)
+		(case n7 s1w10)
+		(compound n7 n8)
+		(head n8 s1w11)
+	)
+
+	(LF2
+		(= (quan q1 # s1w9) 1426)(verb q1 s1w7)(role q1 nsubj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 be)
+		(s2w1 now)
+		(s2w2 there)
+		(s2w5 house)
+		(s2w4 2000)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(advmod v2 s2w1)
+		(expl v2 s2w2)
+		(nsubj v2 n2)
+		(head n2 s2w5)
+		(nummod n2 s2w4)
+	)
+
+	(LF2
+		(= (quan q2 # s2w5) 2000)(verb q2 s2w3)(role q2 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 build)
+		(s3w3 house)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 do)
+		(s3w5 developer)
+		(s3w10 boom)
+		(s3w7 during)
+		(s3w8 the)
+		(s3w9 housing)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dobj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n11)
+		(head n11 s3w5)
+		(nmod v3 n12)
+		(head n12 s3w10)
+		(case n12 s3w7)
+		(det n12 s3w8)
+		(compound n12 n13)
+		(head n13 s3w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s2w5) (quan q1 # s1w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

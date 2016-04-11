@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(3):nsubj={restaurant(2):det={a(1)}},dobj={hamburger(5):nummod={9(4)},cc={and(6)},conj={dog(9):nummod={4(7)},amod={hot(8)}}},xcomp={serve(11):mark={to(10)},nmod={lunch(13):case={during(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">restaurant(2,NN): {restaurant}</Word>
+		<Word idx="3">make(3,VBD): {made}</Word>
+		<Word idx="4">9(4,CD): {9}</Word>
+		<Word idx="5">hamburger(5,NNS): {hamburgers}</Word>
+		<Word idx="6">and(6,CC): {and}</Word>
+		<Word idx="7">4(7,CD): {4}</Word>
+		<Word idx="8">hot(8,JJ): {hot}</Word>
+		<Word idx="9">dog(9,NNS): {dogs}</Word>
+		<Word idx="10">to(10,TO): {to}</Word>
+		<Word idx="11">serve(11,VB): {serve}</Word>
+		<Word idx="12">during(12,IN): {during}</Word>
+		<Word idx="13">lunch(13,NN): {lunch}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(6):nsubjpass={hamburger(3):nummod={3(2):advmod={only(1)}}},auxpass={be(4)},advmod={actually(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">only(1,RB): {Only}</Word>
+		<Word idx="2">3(2,CD): {3}</Word>
+		<Word idx="3">hamburger(3,NNS): {hamburgers}</Word>
+		<Word idx="4">be(4,VBD): {were}</Word>
+		<Word idx="5">actually(5,RB): {actually}</Word>
+		<Word idx="6">serve(6,VBN): {served}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{over(5):dobj={hamburger(3):amod={many(2):advmod={how(1)}}},cop={be(4)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">hamburger(3,NNS): {hamburgers}</Word>
+		<Word idx="4">be(4,VBD): {were}</Word>
+		<Word idx="5">over(5,IN): {over}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

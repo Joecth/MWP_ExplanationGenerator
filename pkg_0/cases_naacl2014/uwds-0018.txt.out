@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Sally</word>
+            <lemma>Sally</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>found</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>9</word>
+            <lemma>9</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>9.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>seashells</word>
+            <lemma>seashell</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Tom</word>
+            <lemma>Tom</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>found</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>7</word>
+            <lemma>7</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>7.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>seashells</word>
+            <lemma>seashell</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Jessica</word>
+            <lemma>Jessica</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>found</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>5</word>
+            <lemma>5</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>5.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>seashells</word>
+            <lemma>seashell</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>beach</word>
+            <lemma>beach</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT
+          (S
+          (S
+          (NP (NNP Sally))
+          (VP (VBD found)
+          (NP (CD 9) (NNS seashells))))
+          (PRN (, ,)
+          (S
+          (NP (NNP Tom))
+          (VP (VBD found)
+          (NP (CD 7) (NNS seashells))))
+          (, ,))
+          (CC and)
+          (S
+          (NP (NNP Jessica))
+          (VP (VBD found)
+          (NP (CD 5) (NNS seashells))
+          (PP (IN on)
+          (NP (DT the) (NN beach)))))
+          (. .)))
+          
+          </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">found</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">found</governor>
+            <dependent idx="1">Sally</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">seashells</governor>
+            <dependent idx="3">9</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">found</governor>
+            <dependent idx="4">seashells</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">found</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">found</governor>
+            <dependent idx="6">Tom</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">found</governor>
+            <dependent idx="7">found</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">seashells</governor>
+            <dependent idx="8">7</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">found</governor>
+            <dependent idx="9">seashells</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">found</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">found</governor>
+            <dependent idx="12">Jessica</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">found</governor>
+            <dependent idx="13">found</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">seashells</governor>
+            <dependent idx="14">5</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">found</governor>
+            <dependent idx="15">seashells</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">beach</governor>
+            <dependent idx="16">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">beach</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">found</governor>
+            <dependent idx="18">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">found</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">found</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">found</governor>
+            <dependent idx="1">Sally</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">seashells</governor>
+            <dependent idx="3">9</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">found</governor>
+            <dependent idx="4">seashells</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">found</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">found</governor>
+            <dependent idx="6">Tom</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">found</governor>
+            <dependent idx="7">found</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">seashells</governor>
+            <dependent idx="8">7</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">found</governor>
+            <dependent idx="9">seashells</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">found</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">found</governor>
+            <dependent idx="12">Jessica</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">found</governor>
+            <dependent idx="13">found</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">seashells</governor>
+            <dependent idx="14">5</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">found</governor>
+            <dependent idx="15">seashells</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">beach</governor>
+            <dependent idx="16">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">beach</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">found</governor>
+            <dependent idx="18">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">found</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">found</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">found</governor>
+            <dependent idx="1">Sally</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">seashells</governor>
+            <dependent idx="3">9</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">found</governor>
+            <dependent idx="4">seashells</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">found</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">found</governor>
+            <dependent idx="6">Tom</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">found</governor>
+            <dependent idx="7">found</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">seashells</governor>
+            <dependent idx="8">7</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">found</governor>
+            <dependent idx="9">seashells</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">found</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">found</governor>
+            <dependent idx="12">Jessica</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">found</governor>
+            <dependent idx="13">found</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">seashells</governor>
+            <dependent idx="14">5</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">found</governor>
+            <dependent idx="15">seashells</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">beach</governor>
+            <dependent idx="16">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">beach</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">found</governor>
+            <dependent idx="18">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">found</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>seashells</word>
+            <lemma>seashell</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>did</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>they</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>together</word>
+            <lemma>together</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT
+          (SBARQ
+          (WHADJP (WRB How) (JJ many))
+          (SQ
+          (NP (NNS seashells))
+          (VP (VBD did)
+          (SBAR
+          (S
+          (NP (PRP they))
+          (VP (VBP find)
+          (ADVP (RB together)))))))
+          (. ?)))
+          
+          </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">did</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">did</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">did</governor>
+            <dependent idx="3">seashells</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">find</governor>
+            <dependent idx="5">they</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">did</governor>
+            <dependent idx="6">find</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">find</governor>
+            <dependent idx="7">together</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">did</governor>
+            <dependent idx="8">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">did</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">did</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">did</governor>
+            <dependent idx="3">seashells</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">find</governor>
+            <dependent idx="5">they</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">did</governor>
+            <dependent idx="6">find</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">find</governor>
+            <dependent idx="7">together</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">did</governor>
+            <dependent idx="8">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">did</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">did</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">did</governor>
+            <dependent idx="3">seashells</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">find</governor>
+            <dependent idx="5">they</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">did</governor>
+            <dependent idx="6">find</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">find</governor>
+            <dependent idx="7">together</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">did</governor>
+            <dependent idx="8">?</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>5</end>
+          <head>4</head>
+          <text>9 seashells</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>10</end>
+          <head>9</head>
+          <text>7 seashells</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>14</start>
+          <end>16</end>
+          <head>15</head>
+          <text>5 seashells</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>seashells</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

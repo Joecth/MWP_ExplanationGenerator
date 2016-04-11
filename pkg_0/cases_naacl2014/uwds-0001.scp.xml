@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(2):nsubj={[x2]Joan(1)},dobj={[x1]seashell(4):nummod={70(3)}},nmod={beach(7):case={on(5)},det={the(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joan(1,NNP): {Joan}</Word>
+		<Word idx="2">find(2,VBD): {found}</Word>
+		<Word idx="3">70(3,CD): {70}</Word>
+		<Word idx="4">seashell(4,NNS): {seashells}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">beach(7,NN): {beach}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(2):nsubj={[x2]she(1)},iobj={[x3]Sam(3)},dobj={some(4):nmod={[x1]seashell(7):case={of(5)},nmod_poss={[x2]she(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {she}</Word>
+		<Word idx="2">give(2,VBD): {gave}</Word>
+		<Word idx="3">Sam(3,NNP): {Sam}</Word>
+		<Word idx="4">some(4,DT): {some}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">she(6,PRPS): {her}</Word>
+		<Word idx="7">seashell(7,NNS): {seashells}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x2]she(1)},dobj={seashell(4):nummod={27(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">27(3,CD): {27}</Word>
+		<Word idx="4">seashell(4,NN): {seashell}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(6):advmod={how(1):dep={seashell(3):amod={many(2)}}},aux={do(4)},nsubj={[x2]she(5)},nmod={[x3]Sam(8):case={to(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">seashell(3,NNS): {seashells}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">give(6,VB): {give}</Word>
+		<Word idx="7">to(7,TO): {to}</Word>
+		<Word idx="8">Sam(8,NNP): {Sam}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

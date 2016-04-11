@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter version="0.x">
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase name="logical_from">
+		<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+			<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{bake(3):nsubj={[x1]Mary(1)},aux={be(2)},dobj={cake(5):det={a(4)}}}</SemRep>
+							<WordList>
+								<Word idx="1">Mary(1,NNP): {Mary}</Word>
+								<Word idx="2">be(2,VBZ): {is}</Word>
+								<Word idx="3">bake(3,VBG): {baking}</Word>
+								<Word idx="4">a(4,DT): {a}</Word>
+								<Word idx="5">cake(5,NN): {cake}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{want(3):nsubj={recipe(2):det={the(1)}},dobj={cup(5):nummod={8(4)},nmod={flour(7):case={of(6)}}}}</SemRep>
+							<WordList>
+								<Word idx="1">the(1,DT): {The}</Word>
+								<Word idx="2">recipe(2,NN): {recipe}</Word>
+								<Word idx="3">want(3,VBZ): {wants}</Word>
+								<Word idx="4">8(4,CD): {8}</Word>
+								<Word idx="5">cup(5,NNS): {cups}</Word>
+								<Word idx="6">of(6,IN): {of}</Word>
+								<Word idx="7">flour(7,NN): {flour}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="3">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{put(3):nsubj={[x1]she(1)},advmod={already(2)},nmod={cup(6):case={in(4)},nummod={2(5)}}}</SemRep>
+							<WordList>
+								<Word idx="1">she(1,PRP): {She}</Word>
+								<Word idx="2">already(2,RB): {already}</Word>
+								<Word idx="3">put(3,VBD): {put}</Word>
+								<Word idx="4">in(4,IN): {in}</Word>
+								<Word idx="5">2(5,CD): {2}</Word>
+								<Word idx="6">cup(6,NNS): {cups}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{need(6):dep={cup(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]she(5)},xcomp={add(8):mark={to(7)}}}</SemRep>
+							<WordList>
+								<Word idx="1">how(1,WRB): {How}</Word>
+								<Word idx="2">many(2,JJ): {many}</Word>
+								<Word idx="3">cup(3,NNS): {cups}</Word>
+								<Word idx="4">do(4,VBZ): {does}</Word>
+								<Word idx="5">she(5,PRP): {she}</Word>
+								<Word idx="6">need(6,VB): {need}</Word>
+								<Word idx="7">to(7,TO): {to}</Word>
+								<Word idx="8">add(8,VB): {add}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-0.178183" idx="1" localScore="-0.178183">Subtraction</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

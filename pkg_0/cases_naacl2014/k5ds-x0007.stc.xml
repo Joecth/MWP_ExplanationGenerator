@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter version="0.x">
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase name="logical_from">
+		<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+			<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{have(2):nsubj={[x1]Mary(1)},dobj={pencil(4):nummod={18(3)},cc={and(5)},conj={eraser(7):nummod={8(6)}}}}</SemRep>
+							<WordList>
+								<Word idx="1">Mary(1,NNP): {Mary}</Word>
+								<Word idx="2">have(2,VBD): {had}</Word>
+								<Word idx="3">18(3,CD): {18}</Word>
+								<Word idx="4">pencil(4,NNS): {pencils}</Word>
+								<Word idx="5">and(5,CC): {and}</Word>
+								<Word idx="6">8(6,CD): {8}</Word>
+								<Word idx="7">eraser(7,NNS): {erasers}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{give(2):nsubj={Fred(1)},iobj={[x1]Mary(3)},dobj={pencil(6):nummod={26(4)},amod={new(5)}}}</SemRep>
+							<WordList>
+								<Word idx="1">Fred(1,NNP): {Fred}</Word>
+								<Word idx="2">give(2,VBD): {gave}</Word>
+								<Word idx="3">Mary(3,NNP): {Mary}</Word>
+								<Word idx="4">26(4,CD): {26}</Word>
+								<Word idx="5">new(5,JJ): {new}</Word>
+								<Word idx="6">pencil(6,NNS): {pencils}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="3">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{buy(2):nsubj={[x1]Mary(1)},dobj={pencil(4):nummod={40(3)}}}</SemRep>
+							<WordList>
+								<Word idx="1">Mary(1,NNP): {Mary}</Word>
+								<Word idx="2">buy(2,VBD): {bought}</Word>
+								<Word idx="3">40(3,CD): {40}</Word>
+								<Word idx="4">pencil(4,NNS): {pencils}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{have(6):dep={pencil(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Mary(5)},dobj={now(7)}}</SemRep>
+							<WordList>
+								<Word idx="1">how(1,WRB): {How}</Word>
+								<Word idx="2">many(2,JJ): {many}</Word>
+								<Word idx="3">pencil(3,NNS): {pencils}</Word>
+								<Word idx="4">do(4,VBZ): {does}</Word>
+								<Word idx="5">Mary(5,NNP): {Mary}</Word>
+								<Word idx="6">have(6,VB): {have}</Word>
+								<Word idx="7">now(7,RB): {now}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-0.018004" idx="1" localScore="-0.018004">TimeVariantUnknownFinal</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>
