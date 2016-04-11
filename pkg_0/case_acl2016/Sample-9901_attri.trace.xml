@@ -1,0 +1,209 @@
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>40元</CHUNK>
+          <CHUNK>OP_Addition</CHUNK>
+            <CHUNK>20元</CHUNK>
+              <CHUNK>OP_Multiplication</CHUNK>
+                <CHUNK>1倍</CHUNK>
+                  <CHUNK>OP_CommonDiv</CHUNK>
+                    <CHUNK>1枝螢光筆</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                    <CHUNK>1枝螢光筆</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                  <CHUNK>UPSCOPE</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+                <CHUNK>20元</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>20元</CHUNK>
+              <CHUNK>OP_Multiplication</CHUNK>
+                <CHUNK>4倍</CHUNK>
+                  <CHUNK>OP_CommonDiv</CHUNK>
+                    <CHUNK>4枝原子筆</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                    <CHUNK>1枝原子筆</CHUNK>
+                    <CHUNK>UPSCOPE</CHUNK>
+                  <CHUNK>UPSCOPE</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+                <CHUNK>5元</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_66'>
+    40元
+    Addition
+    <math ID='ctx_57'>
+      20元
+      Multiplication
+      <math ID='ctx_57'>
+        1倍
+        CommonDiv
+        <math ID='NULL'>
+          1枝螢光筆
+        </math>
+        <math ID='NULL'>
+          1枝螢光筆
+        </math>
+      </math>
+      <math ID='NULL'>
+        20元
+      </math>
+    </math>
+    <math ID='ctx_61'>
+      20元
+      Multiplication
+      <math ID='ctx_61'>
+        4倍
+        CommonDiv
+        <math ID='NULL'>
+          4枝原子筆
+        </math>
+        <math ID='NULL'>
+          1枝原子筆
+        </math>
+      </math>
+      <math ID='NULL'>
+        5元
+      </math>
+    </math>
+  </math>
+  <ctx ID='ctx_63'>
+    <ANS>40 元</ANS>
+    <ctx ID='ctx_62'>
+      ( CLUE::Input ( ASK ANS ( Addition ( quan q3::price 元 # ) ( quan q4::price 元 # ) ) ( Suffix 元 ) ) )
+    </ctx>
+    <ctx ID='ctx_66'>
+      ( CLUE::Util ( Addition 20 20 = 40 ) )
+      ( CLUE::Util ( Val1 ( m_real 20 ) ( m_fact ( quan q3::price 元 # ) ( 20 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 20 ) ( m_fact ( quan q4::price 元 # ) ( 20 ) ) ) )
+      <ctx ID='ctx_57'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3::price 元 # ) ( * ( / ( quan q3 枝 螢光筆 ) ( quan q1 枝 螢光筆 ) ) ( attrib price q1 元 # ) ) ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3::price 元 # ) ( * ( / 1 1 ) 20 ) ) )
+        ( CLUE::Create-Fact ( quan q3::price 元 # ) ( 20 ) )
+        <ctx ID='ctx_56'>
+          ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ( quan ?_7 ?_2 ?_3 ) ) ( = ( quan ?_7::?_4 ?_5 ?_6 ) ( * ( / ( quan ?_7 ?_2 ?_3 ) ( quan ?_1 ?_2 ?_3 ) ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ) ) ) )
+          ( CLUE::Bind ( ?_1 q1 ) ( ?_2 枝 ) ( ?_3 螢光筆 ) ( ?_4 price ) ( ?_5 元 ) ( ?_6 # ) ( ?_7 q3 ) )
+          ( CLUE::Premise ( quan q1 枝 螢光筆 ) ( attrib price q1 元 # ) ( quan q3 枝 螢光筆 ) )
+          ( CLUE::Conclusion ( = ( quan q3::price 元 # ) ( * ( / ( quan q3 枝 螢光筆 ) ( quan q1 枝 螢光筆 ) ) ( attrib price q1 元 # ) ) ) )
+          ( CLUE::ExprVarMap ( $1_quan ) ( $2_quan 1 ) ( $3_quan 1 ) ( $4_attrib 20 ) )
+          <ctx ID='ctx_43'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 枝 螢光筆 ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 枝 螢光筆 ) 1 ) )
+            ( CLUE::Create-Fact ( quan q1 枝 螢光筆 ) ( 1 ) )
+            <ctx ID='ctx_42'>
+              ( CLUE::Input ( = ( quan q1 枝 螢光筆 ) 1 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_45'>
+            ( CLUE::EVAL::LF2 ( = ( attrib price q1 元 # ) 20 ) )
+            ( CLUE::EVAL::LF2 ( = ( attrib price q1 元 # ) 20 ) )
+            ( CLUE::Create-Fact ( attrib price q1 元 # ) ( 20 ) )
+            <ctx ID='ctx_44'>
+              ( CLUE::Input ( = ( attrib price q1 元 # ) 20 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_55'>
+            ( CLUE::EVAL::LF2 ( = ( quan q3 枝 螢光筆 ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q3 枝 螢光筆 ) 1 ) )
+            ( CLUE::Create-Fact ( quan q3 枝 螢光筆 ) ( 1 ) )
+            <ctx ID='ctx_54'>
+              ( CLUE::Input ( = ( quan q3 枝 螢光筆 ) 1 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_55'>
+          ( CLUE::EVAL::LF2 ( = ( quan q3 枝 螢光筆 ) 1 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q3 枝 螢光筆 ) 1 ) )
+          ( CLUE::Create-Fact ( quan q3 枝 螢光筆 ) ( 1 ) )
+          <ctx ID='ctx_54'>
+            ( CLUE::Input ( = ( quan q3 枝 螢光筆 ) 1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_43'>
+          ( CLUE::EVAL::LF2 ( = ( quan q1 枝 螢光筆 ) 1 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q1 枝 螢光筆 ) 1 ) )
+          ( CLUE::Create-Fact ( quan q1 枝 螢光筆 ) ( 1 ) )
+          <ctx ID='ctx_42'>
+            ( CLUE::Input ( = ( quan q1 枝 螢光筆 ) 1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_45'>
+          ( CLUE::EVAL::LF2 ( = ( attrib price q1 元 # ) 20 ) )
+          ( CLUE::EVAL::LF2 ( = ( attrib price q1 元 # ) 20 ) )
+          ( CLUE::Create-Fact ( attrib price q1 元 # ) ( 20 ) )
+          <ctx ID='ctx_44'>
+            ( CLUE::Input ( = ( attrib price q1 元 # ) 20 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_61'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4::price 元 # ) ( * ( / ( quan q4 枝 原子筆 ) ( quan q2 枝 原子筆 ) ) ( attrib price q2 元 # ) ) ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4::price 元 # ) ( * ( / 4 1 ) 5 ) ) )
+        ( CLUE::Create-Fact ( quan q4::price 元 # ) ( 20 ) )
+        <ctx ID='ctx_60'>
+          ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ( quan ?_7 ?_2 ?_3 ) ) ( = ( quan ?_7::?_4 ?_5 ?_6 ) ( * ( / ( quan ?_7 ?_2 ?_3 ) ( quan ?_1 ?_2 ?_3 ) ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ) ) ) )
+          ( CLUE::Bind ( ?_1 q2 ) ( ?_2 枝 ) ( ?_3 原子筆 ) ( ?_4 price ) ( ?_5 元 ) ( ?_6 # ) ( ?_7 q4 ) )
+          ( CLUE::Premise ( quan q2 枝 原子筆 ) ( attrib price q2 元 # ) ( quan q4 枝 原子筆 ) )
+          ( CLUE::Conclusion ( = ( quan q4::price 元 # ) ( * ( / ( quan q4 枝 原子筆 ) ( quan q2 枝 原子筆 ) ) ( attrib price q2 元 # ) ) ) )
+          ( CLUE::ExprVarMap ( $1_quan ) ( $2_quan 4 ) ( $3_quan 1 ) ( $4_attrib 5 ) )
+          <ctx ID='ctx_49'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 枝 原子筆 ) 1 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 枝 原子筆 ) 1 ) )
+            ( CLUE::Create-Fact ( quan q2 枝 原子筆 ) ( 1 ) )
+            <ctx ID='ctx_48'>
+              ( CLUE::Input ( = ( quan q2 枝 原子筆 ) 1 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_51'>
+            ( CLUE::EVAL::LF2 ( = ( attrib price q2 元 # ) 5 ) )
+            ( CLUE::EVAL::LF2 ( = ( attrib price q2 元 # ) 5 ) )
+            ( CLUE::Create-Fact ( attrib price q2 元 # ) ( 5 ) )
+            <ctx ID='ctx_50'>
+              ( CLUE::Input ( = ( attrib price q2 元 # ) 5 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_59'>
+            ( CLUE::EVAL::LF2 ( = ( quan q4 枝 原子筆 ) 4 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q4 枝 原子筆 ) 4 ) )
+            ( CLUE::Create-Fact ( quan q4 枝 原子筆 ) ( 4 ) )
+            <ctx ID='ctx_58'>
+              ( CLUE::Input ( = ( quan q4 枝 原子筆 ) 4 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_59'>
+          ( CLUE::EVAL::LF2 ( = ( quan q4 枝 原子筆 ) 4 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q4 枝 原子筆 ) 4 ) )
+          ( CLUE::Create-Fact ( quan q4 枝 原子筆 ) ( 4 ) )
+          <ctx ID='ctx_58'>
+            ( CLUE::Input ( = ( quan q4 枝 原子筆 ) 4 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_49'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 枝 原子筆 ) 1 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 枝 原子筆 ) 1 ) )
+          ( CLUE::Create-Fact ( quan q2 枝 原子筆 ) ( 1 ) )
+          <ctx ID='ctx_48'>
+            ( CLUE::Input ( = ( quan q2 枝 原子筆 ) 1 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_51'>
+          ( CLUE::EVAL::LF2 ( = ( attrib price q2 元 # ) 5 ) )
+          ( CLUE::EVAL::LF2 ( = ( attrib price q2 元 # ) 5 ) )
+          ( CLUE::Create-Fact ( attrib price q2 元 # ) ( 5 ) )
+          <ctx ID='ctx_50'>
+            ( CLUE::Input ( = ( attrib price q2 元 # ) 5 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
