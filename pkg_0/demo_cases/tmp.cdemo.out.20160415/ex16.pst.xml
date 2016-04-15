@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="parser" TopN="1" Weight="1.00" inCandType="sentence">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110643">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-26.851666" accScore="-26.851666">NP(property:NP(property:N‧的(head:Nac:長方形|Head:DE:的)|Head:Nab:兒童)|Head:Ncb:遊戲區)</Cand>
+				</Sent>
+				<Sent idx="2">
+					<Cand idx="1" inCandIdx="1" localScore="-40.671069" accScore="-40.671069">VP(DUMMY1:VP(Head:VH:長|range:DM:4公尺)|Head:Caa:、|DUMMY2:VP(Head:VH12:寬|range:DM:250公分))</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-18.291775" accScore="-18.291775">S(theme:NP(Head:Nad:面積)|Head:V_11:是|range:DM:幾平方公分)</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

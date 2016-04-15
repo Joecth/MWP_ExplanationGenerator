@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_role_labeling" TopN="1" Weight="1.00" inCandType="parser">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110506">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.239577516577" accScore="-20.4712795166">S(theme:DM:2盒|Head:V_2:有|range:NP(quantifier:DM:10個|Head:Nab:甜甜圈))</Cand>
+				</Sent>
+				<Sent idx="2">
+					<Cand idx="1" inCandIdx="1" localScore="-0.0543576623226" accScore="-24.3416956623">S(agent:NP(Head:Nb:勇志)|Head:VC31:買|aspect:Di:了|theme:NP(quantifier:DM:75個|Head:Nab:甜甜圈))</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.688623934177" accScore="-24.2399989342">VP(quantity:Daa:最多|deontics:Dbab:可以|Head:VG:裝成|range:DM:幾盒)</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

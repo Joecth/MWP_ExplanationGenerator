@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110410">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_98'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_98'>
+        <CHUNK>2公分n1</CHUNK>
+        <chk ID='ctx_98'>
+          <CHUNK>OP_Subtraction</CHUNK>
+          <chk ID='ctx_98'>
+            <CHUNK>20公分n1</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_98'>
+            <CHUNK>18公分n2</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_95'>
+    <__is_xml_mode_ASK__ANS>2</__is_xml_mode_ASK__ANS>
+    <ctx ID='ctx_94'>
+      ( CLUE::Input ( ASK ANS ( Difference ( quan q1 s1w4 n1 ) ( quan q2 s2w4 n2 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_98'>
+      ( CLUE::Util ( Subtraction 20 18 = 2 ) )
+      ( CLUE::Util ( Val1 ( m_real 20 ) ( m_fact ( quan q1 _u_cm n1 ) ( 20 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 18 ) ( m_fact ( quan q2 _u_cm n2 ) ( 18 ) ) ) )
+      <ctx ID='ctx_55'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 _u_cm n1 ) 20 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 _u_cm n1 ) 20 ) )
+        ( CLUE::Create-Fact ( quan q1 _u_cm n1 ) ( 20 ) )
+        <ctx ID='ctx_54'>
+          ( CLUE::Input ( = ( quan q1 s1w4 n1 ) 20 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_72'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 _u_cm n2 ) 18 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 _u_cm n2 ) 18 ) )
+        ( CLUE::Create-Fact ( quan q2 _u_cm n2 ) ( 18 ) )
+        <ctx ID='ctx_71'>
+          ( CLUE::Input ( = ( quan q2 s2w4 n2 ) 18 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

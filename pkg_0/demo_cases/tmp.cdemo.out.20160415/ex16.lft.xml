@@ -1,0 +1,76 @@
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110643">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 遊戲區)
+		(s1w3 兒童)
+		(s1w2 的)
+		(s1w1 長方形)
+	)
+
+	(LF1
+		(head n4 s1w4)
+		(property n4 n5)
+		(head n5 s1w3)
+		(property n5 s1w2)
+		(head n5 n6)
+		(head n6 s1w1)
+	)
+
+	(LF2
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 、)
+		(s2w1 長)
+		(s2w3 公尺)
+		(s2w2 4)
+		(s2w5 寬)
+		(s2w7 公分)
+		(s2w6 250)
+	)
+
+	(LF1
+		(verb x1 s2w4)
+		(verb x1 s2w1)
+		(range x1 n1)
+		(head n1 s2w3)
+		(quantity n1 s2w2)
+		(verb x1 s2w5)
+		(range x1 n2)
+		(head n2 s2w7)
+		(quantity n2 s2w6)
+	)
+
+	(LF2
+		(= (quan q1 s2w3 #) 4)(verb q1 s2w1)
+		(= (quan q2 s2w7 #) 250)(verb q2 s2w5)
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w2 是)
+		(s3w1 面積)
+		(s3w4 平方公分)
+		(s3w3 幾)
+	)
+
+	(LF1
+		(verb v1 s3w2)
+		(theme v1 s3w1)
+		(range v1 n3)
+		(head n3 s3w4)
+		(quantity n3 s3w3)
+	)
+
+	(LF2
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

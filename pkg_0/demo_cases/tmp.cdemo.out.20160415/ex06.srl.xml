@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_role_labeling" TopN="1" Weight="1.00" inCandType="parser">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110333">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.0559846778062" accScore="-22.7876206778">S(theme:NP(property:Nab:冰箱|Head:Ncda:裡)|Head:V_2:有|range:NP(quantifier:DM:9瓶|Head:Naa:果汁))</Cand>
+				</Sent>
+				<Sent idx="2">
+					<Cand idx="1" inCandIdx="1" localScore="-0.0915149811214" accScore="-16.9159009811">S(agent:NP(Head:Nab:媽媽)|Head:VC2:拿出|goal:DM:5瓶)</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.301029995664" accScore="-26.9756339957">VP(condition:GP(DUMMY:NP(Head:Nab:冰箱)|Head:Ng:裡)|evaluation:Dbb:還|Head:VJ3:剩下|range:DM:幾瓶)</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

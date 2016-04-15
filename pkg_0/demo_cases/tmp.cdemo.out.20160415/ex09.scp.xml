@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_composer" TopN="1" Weight="1.00" inCandType="semantic_role_labeling" version="1.3.2">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110428">
+    <UnitCand idx="1" inCandIdx="null" localScore="0" accScore="-92.2284">
+        <Body>
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-34.3512257177">
+                    <SemRep>{賣(3):agent={[x1]軟糖(2):quantifier={2顆(1)}},theme={:quantifier={5元(4)}},goal={[x]}}</SemRep>
+                    <WordList>
+                        <Word idx="1">2顆(1,DM): quantifier={顆.null|無義:quantity={2}}</Word>
+                        <Word idx="2">軟糖(2,Nab): {糖果|sweets}</Word>
+                        <Word idx="3">賣(3,VD1): {sell|賣}</Word>
+                        <Word idx="4">5元(4,DM): price={元.money|貨幣:quantity={5}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+            <Sent idx="2">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-22.1271536623">
+                    <SemRep>{買(2):agent={[x2]小英(1)},aspect={了(3)},theme={軟糖(4.1):quantifier={4顆(4)}}}</SemRep>
+                    <WordList>
+                        <Word idx="1">小英(1,Nba): {human|人:name={"小英"}}</Word>
+                        <Word idx="2">買(2,VC31): {buy|買}</Word>
+                        <Word idx="3">了(3,Di): aspect={Vachieve|達成}</Word>
+                        <Word idx="4">4顆(4,DM): quantifier={顆.null|無義:quantity={4}}</Word>
+                        <Word idx="5">軟糖(4.1,Nab): {糖果|sweets}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Body>
+        <Ques idx="1">
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-35.7500322932">
+                    <SemRep>{付(3):quantity={共(1)},deontics={要(2)},theme={:quantifier={多少元(4)}},agent={[x1,x2]},goal={[x]}}</SemRep>
+                    <WordList>
+                        <Word idx="1">共(1,Daa): {all|全}</Word>
+                        <Word idx="2">要(2,Dbab): necessity={extreme|極}</Word>
+                        <Word idx="3">付(3,VD1): {pay|付}</Word>
+                        <Word idx="4">多少元(4,DM): price={元.money|貨幣:多少.quantity={Ques|疑問}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Ques>
+    </UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

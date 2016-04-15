@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_role_labeling" TopN="1" Weight="1.00" inCandType="parser">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110605">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.0457574905607" accScore="-28.7002594906">VP(condition:GP(DUMMY:NP(Head:Na:草地)|Head:Ng:上)|evaluation:Dbb:原來|Head:V_2:有|range:NP(quantifier:DM:7隻|Head:Nab:小雞))</Cand>
+				</Sent>
+				<Sent idx="2">
+					<Cand idx="1" inCandIdx="1" localScore="-0.221848749616" accScore="-23.6454757496">GP(DUMMY:VP(Head:VA11:走掉|range:NP(quantifier:DM:2隻|Head:Nab:小雞))|Head:Ng:後)</Cand>
+				</Sent>
+				<Sent idx="3">
+					<Cand idx="1" inCandIdx="1" localScore="-0.965489148872" accScore="-27.4855681489">VP(time:Dd:又|Head:VA11:走掉|DUMMY1:GP(DUMMY:NP(quantifier:DM:2隻|Head:Nab:小雞)|Head:Ng:後))</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-13.554244">VP(Head:VJ3:剩下|range:NP(quantifier:DM:多少隻|Head:Nab:小雞))</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

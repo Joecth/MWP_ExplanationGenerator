@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110309">
+	<Body>
+		<Sent idx="1">王老先生養了5隻動物，2隻是公雞，其他的都是鴨子，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">鴨子有幾隻？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

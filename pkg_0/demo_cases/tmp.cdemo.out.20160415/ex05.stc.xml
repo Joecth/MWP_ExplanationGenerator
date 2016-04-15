@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110309">
+			<UnitCand accScore="-112.516" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-25.2543915663" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{養(3):agent={老先生(2):property={王(1)}},aspect={了(4)},goal={動物(6):quantifier={5隻(5)}}}</SemRep>
+							<WordList>
+								<Word idx="1">王(1,Nbc): {surname|姓}</Word>
+								<Word idx="2">老先生(2,Nab): {男性|man:age={aged|老年}}</Word>
+								<Word idx="3">養(3,VC2): {foster|飼養}</Word>
+								<Word idx="4">了(4,Di): aspect={Vachieve|達成}</Word>
+								<Word idx="5">5隻(5,DM): quantifier={隻.null|無義:quantity={5}}</Word>
+								<Word idx="6">動物(6,Nab): {animal|獸}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="-17.2127092142" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{是(2):theme={動物(1.1):quantifier={2隻(1)}},range={公雞(3)}}</SemRep>
+							<WordList>
+								<Word idx="1">2隻(1,DM): quantifier={隻.null|無義:quantity={2}}</Word>
+								<Word idx="2">動物(1.1,Nab): {animal|獸}</Word>
+								<Word idx="3">是(2,V_11): {be|是}</Word>
+								<Word idx="4">公雞(3,Nab): {雞|chicken:gender={male|男},telic={tell|告訴:content={time|時間},instrument={~}}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="3">
+						<Cand accScore="-52.2292664906" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{是(4):theme={的(2):head={:quantifier={其他(1)}}},quantity={都(3)},range={[x1]鴨子(5)}}</SemRep>
+							<WordList>
+								<Word idx="1">其他(1,Neqa): {other|另}</Word>
+								<Word idx="2">的(2,DE): relation({entity|事物})</Word>
+								<Word idx="3">都(3,Dab): quantity={all|全}</Word>
+								<Word idx="4">是(4,V_11): {be|是}</Word>
+								<Word idx="5">鴨子(5,Nab): {鴨子|duck}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-17.8200016778" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{有(2):theme={[x1]鴨子(1)},range={幾隻(3)}}</SemRep>
+							<WordList>
+								<Word idx="1">鴨子(1,Nab): {鴨子|duck}</Word>
+								<Word idx="2">有(2,V_2): {exist|存在}</Word>
+								<Word idx="3">幾隻(3,DM): quantifier={隻.null|無義:幾.quantity={Ques|疑問}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-112.654698" idx="1" localScore="-0.069349">Subtraction</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

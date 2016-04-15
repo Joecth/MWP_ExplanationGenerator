@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_role_labeling" TopN="1" Weight="1.00" inCandType="parser">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110410">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.160673400164" accScore="-20.3631244002">NP(Head:NP(property:VH13:大|Head:Na:圓周長)|quantifier:DM:20公分)</Cand>
+				</Sent>
+				<Sent idx="2">
+					<Cand idx="1" inCandIdx="1" localScore="-0.156726729401" accScore="-20.3591777294">NP(Head:NP(property:VH13:小|Head:Na:圓周長)|quantifier:DM:18公分)</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.834490327735" accScore="-25.7348733277">S(time:DM:大圓|theme:DM:小圓|Head:VJ3:相差|range:DM:多少公分)</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

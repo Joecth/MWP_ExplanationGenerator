@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110716">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_147'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_147'>
+        <CHUNK>8</CHUNK>
+        <chk ID='ctx_147'>
+          <CHUNK>OP_Multiplication</CHUNK>
+          <chk ID='ctx_147'>
+            <CHUNK>1包鐵蛋</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_147'>
+            <CHUNK>8個鐵蛋</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_144'>
+    <__is_xml_mode_ASK__ANS>8</__is_xml_mode_ASK__ANS>
+    <ctx ID='ctx_143'>
+      ( CLUE::Input ( ASK ANS ( Multiplication ( quan q1 s1w2 s1w3 ) ( quan q2 s1w6 s1w3 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_147'>
+      ( CLUE::Util ( Multiplication 1 8 = 8 ) )
+      ( CLUE::Util ( Val1 ( m_real 1 ) ( m_fact ( quan q1 包 s1w3 ) ( 1 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 8 ) ( m_fact ( quan q2 個 s1w3 ) ( 8 ) ) ) )
+      <ctx ID='ctx_64'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 包 s1w3 ) 1 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 包 s1w3 ) 1 ) )
+        ( CLUE::Create-Fact ( quan q1 包 s1w3 ) ( 1 ) )
+        <ctx ID='ctx_63'>
+          ( CLUE::Input ( = ( quan q1 s1w2 s1w3 ) 1 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_76'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 個 s1w3 ) 8 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 個 s1w3 ) 8 ) )
+        ( CLUE::Create-Fact ( quan q2 個 s1w3 ) ( 8 ) )
+        <ctx ID='ctx_75'>
+          ( CLUE::Input ( = ( quan q2 s1w6 s1w3 ) 8 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

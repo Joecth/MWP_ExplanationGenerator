@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_composer" TopN="1" Weight="1.00" inCandType="semantic_role_labeling" version="1.3.2">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110253">
+    <UnitCand idx="1" inCandIdx="null" localScore="0" accScore="-102.919">
+        <Body>
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-83.6816612627">
+                    <SemRep>{買(2):agent={[x1]小明(1)},aspect={了(3)},theme={和(13):DUMMY1={和(8):DUMMY1={糖果(7):quantifier={一顆(4)},quantifier={的(6):head={5元(5)}}},DUMMY2={巧克力(12):quantifier={一包(9)},quantifier={的(11):head={10元(10)}}}},DUMMY2={餅乾(17):quantifier={一盒(14)},quantifier={的(16):head={100元(15)}}}}}</SemRep>
+                    <WordList>
+                        <Word idx="1">小明(1,Nba): {human|人:name={"小明"}}</Word>
+                        <Word idx="2">買(2,VC31): {buy|買}</Word>
+                        <Word idx="3">了(3,Di): aspect={Vachieve|達成}</Word>
+                        <Word idx="4">一顆(4,DM): quantifier={顆.null|無義:一.quantity={1}}</Word>
+                        <Word idx="5">5元(5,DM): price={元.money|貨幣:quantity={5}}</Word>
+                        <Word idx="6">的(6,DE): relation({entity|事物})</Word>
+                        <Word idx="7">糖果(7,Nab): {糖果|sweets}</Word>
+                        <Word idx="8">和(8,Caa): {and()}</Word>
+                        <Word idx="9">一包(9,DM): 包.container={袋子|bag:一.quantity={1}}</Word>
+                        <Word idx="10">10元(10,DM): price={元.money|貨幣:quantity={10}}</Word>
+                        <Word idx="11">的(11,DE): relation({entity|事物})</Word>
+                        <Word idx="12">巧克力(12,Nab): {food|食品:material={可可|cocoa}}</Word>
+                        <Word idx="13">和(13,Caa): {and()}</Word>
+                        <Word idx="14">一盒(14,DM): 盒.container={盒子|box:一.quantity={1}}</Word>
+                        <Word idx="15">100元(15,DM): price={元.money|貨幣:quantity={100}}</Word>
+                        <Word idx="16">的(16,DE): relation({entity|事物})</Word>
+                        <Word idx="17">餅乾(17,Nab): {點心|refreshments}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Body>
+        <Ques idx="1">
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-19.2371354906">
+                    <SemRep>{花(2):quantity={共(1)},aspect={了(3)},theme={多少元(4)},agent={[x1]}}</SemRep>
+                    <WordList>
+                        <Word idx="1">共(1,Daa): {all|全}</Word>
+                        <Word idx="2">花(2,VC31): {spend|花費}</Word>
+                        <Word idx="3">了(3,Di): aspect={Vachieve|達成}</Word>
+                        <Word idx="4">多少元(4,DM): price={元.money|貨幣:多少.quantity={Ques|疑問}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Ques>
+    </UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

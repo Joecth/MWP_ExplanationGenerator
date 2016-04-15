@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110716">
+	<Body>
+		<Sent idx="1">1包鐵蛋有8個， 點點分8分之3包鐵蛋給妹妹，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1"> 妹妹可以分到幾個鐵蛋？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

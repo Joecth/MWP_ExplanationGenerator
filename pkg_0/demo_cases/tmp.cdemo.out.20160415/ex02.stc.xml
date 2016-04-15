@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110208">
+			<UnitCand accScore="-76.0185" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-13.576919" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{有(1):range={[x1]毛毛蟲(3):quantifier={14隻(2)}},theme={[x]}}</SemRep>
+							<WordList>
+								<Word idx="1">有(1,V_2): {exist|存在}</Word>
+								<Word idx="2">14隻(2,DM): quantifier={隻.null|無義:quantity={14}}</Word>
+								<Word idx="3">毛毛蟲(3,Nab): {InsectWorm|蟲:predication={fly|飛:theme={~}},age={child|少兒}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="-30.6549323895" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{[x1]毛毛蟲(2):quantifier={在(3):DUMMY={上(6):DUMMY={[x2]葉子(5):quantifier={一片(4)}}}},quantifier={一隻(1)}}</SemRep>
+							<WordList>
+								<Word idx="1">一隻(1,DM): quantifier={隻.null|無義:一.quantity={1}}</Word>
+								<Word idx="2">毛毛蟲(2,Nab): {InsectWorm|蟲:predication={fly|飛:theme={~}},age={child|少兒}}</Word>
+								<Word idx="3">在(3,P21): location={}</Word>
+								<Word idx="4">一片(4,DM): quantifier={片.null|無義:一.quantity={1}}</Word>
+								<Word idx="5">葉子(5,Nab): {葉子|leaf}</Word>
+								<Word idx="6">上(6,Ng): range={}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="3">
+						<Cand accScore="-13.9666571014" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{多出(1):goal={[x2]葉子(3):quantifier={3片(2)}}}</SemRep>
+							<WordList>
+								<Word idx="1">多出(1,VJ): {Unknown}</Word>
+								<Word idx="2">3片(2,DM): quantifier={片.null|無義:quantity={3}}</Word>
+								<Word idx="3">葉子(3,Nab): {葉子|leaf}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-17.8200016778" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{有(2):theme={[x2]葉子(1)},range={幾片(3)}}</SemRep>
+							<WordList>
+								<Word idx="1">葉子(1,Nab): {葉子|leaf}</Word>
+								<Word idx="2">有(2,V_2): {exist|存在}</Word>
+								<Word idx="3">幾片(3,DM): quantifier={片.null|無義:幾.quantity={Ques|疑問}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-76.909462" idx="1" localScore="-0.445481">Addition</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

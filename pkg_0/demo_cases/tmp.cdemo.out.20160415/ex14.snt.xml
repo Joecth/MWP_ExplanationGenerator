@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110605">
+	<Body>
+		<Sent idx="1">草地上原來有7隻小雞，走掉2隻小雞後，又走掉2隻小雞後，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">剩下多少隻小雞？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110410">
+			<UnitCand accScore="-66.4572" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-20.3631244002" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{[x1]圓周長(2):quantifier={20公分(3)},property={大(1)}}</SemRep>
+							<WordList>
+								<Word idx="1">大(1,VH13): {big|大}</Word>
+								<Word idx="2">圓周長(2,Na): {Unknown}</Word>
+								<Word idx="3">20公分(3,DM): 公分.length={公分:quantity={20}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="-20.3591777294" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{[x1]圓周長(2):quantifier={18公分(3)},property={小(1)}}</SemRep>
+							<WordList>
+								<Word idx="1">小(1,VH13): {small|小}</Word>
+								<Word idx="2">圓周長(2,Na): {Unknown}</Word>
+								<Word idx="3">18公分(3,DM): 公分.length={公分:quantity={18}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-25.7348733277" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{相差(3):time={大圓(1)},theme={小圓(2)},range={多少公分(4)}}</SemRep>
+							<WordList>
+								<Word idx="1">大圓(1,DM): {Unknown}</Word>
+								<Word idx="2">小圓(2,DM): {Unknown}</Word>
+								<Word idx="3">相差(3,VJ3): {different|異:range={}}</Word>
+								<Word idx="4">多少公分(4,DM): 公分.length={公分:多少.quantity={Ques|疑問}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-67.846072" idx="1" localScore="-0.694436">Difference</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

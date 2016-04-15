@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110208">
+	<Body>
+		<Sent idx="1">有14隻毛毛蟲，一隻毛毛蟲在一片葉子上，多出3片葉子，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">葉子有幾片？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_role_labeling" TopN="1" Weight="1.00" inCandType="parser">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110629">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-0.965489148872" accScore="-26.0599551489">S(theme:NP(DUMMY1:NP‧的(head:NP(quantifier:DM:一個|Head:Nac:圓)|Head:DE:的)|Head:Nad:直徑)|Head:V_11:是|range:DM:18公分)</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-18.291775">S(theme:NP(Head:Nac:半徑)|Head:V_11:是|range:DM:多少公分)</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

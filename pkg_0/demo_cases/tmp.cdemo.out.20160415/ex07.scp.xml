@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_composer" TopN="1" Weight="1.00" inCandType="semantic_role_labeling" version="1.3.2">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110353">
+    <UnitCand idx="1" inCandIdx="null" localScore="0" accScore="-73.0593">
+        <Body>
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-24.1872406821">
+                    <SemRep>{有(4):theme={[x2]零用錢(3):quantifier={的(2):head={[x1]小孫(1)}}},range={720元(5)}}</SemRep>
+                    <WordList>
+                        <Word idx="1">小孫(1,Nb): {human|人:name={"小孫"}}</Word>
+                        <Word idx="2">的(2,DE): relation({entity|事物})</Word>
+                        <Word idx="3">零用錢(3,Naeb): {money|貨幣:telic={give|給:agent={父母|parents},theme={~}},quantity={few|少}}</Word>
+                        <Word idx="4">有(4,V_2): {exist|存在}</Word>
+                        <Word idx="5">720元(5,DM): price={元.money|貨幣:quantity={720}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+            <Sent idx="2">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-24.1872406821">
+                    <SemRep>{有(4):theme={[x2]零用錢(3):quantifier={的(2):head={[x3]小婉(1)}}},range={480元(5)}}</SemRep>
+                    <WordList>
+                        <Word idx="1">小婉(1,Nb): {human|人:name={"小婉"}}</Word>
+                        <Word idx="2">的(2,DE): relation({entity|事物})</Word>
+                        <Word idx="3">零用錢(3,Naeb): {money|貨幣:telic={give|給:agent={父母|parents},theme={~}},quantity={few|少}}</Word>
+                        <Word idx="4">有(4,V_2): {exist|存在}</Word>
+                        <Word idx="5">480元(5,DM): price={元.money|貨幣:quantity={480}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Body>
+        <Ques idx="1">
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-24.6847712697">
+                    <SemRep>{相差(5):theme={[x2]零用錢(4):quantifier={的(3):head={[x1,x3]人(2):quantifier={兩(1)}}}},range={多少元(6)}}</SemRep>
+                    <WordList>
+                        <Word idx="1">兩(1,DM): 兩.quantity={2}</Word>
+                        <Word idx="2">人(2,Nab): {human|人}</Word>
+                        <Word idx="3">的(3,DE): relation({entity|事物})</Word>
+                        <Word idx="4">零用錢(4,Naeb): {money|貨幣:telic={give|給:agent={父母|parents},theme={~}},quantity={few|少}}</Word>
+                        <Word idx="5">相差(5,VJ3): {different|異:range={}}</Word>
+                        <Word idx="6">多少元(6,DM): price={元.money|貨幣:多少.quantity={Ques|疑問}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Ques>
+    </UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

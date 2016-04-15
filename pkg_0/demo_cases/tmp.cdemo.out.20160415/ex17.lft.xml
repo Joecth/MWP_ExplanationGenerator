@@ -1,0 +1,57 @@
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110702">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w9 長方形)
+		(s1w1 長)
+		(s1w8 的)
+		(s1w4 、)
+		(s1w3 公尺)
+		(s1w2 3)
+		(s1w5 寬)
+		(s1w7 公尺)
+		(s1w6 2)
+	)
+
+	(LF1
+		(head n1 s1w9)
+		(property n1 s1w1)
+		(DUMMY1 n1 s1w8)
+		(head n1 s1w4)
+		(DUMMY1 n1 s1w3)
+		(quantity n1 s1w2)
+		(verb n1 s1w5)
+		(range n1 s1w7)
+		(quantity n1 s1w6)
+	)
+
+	(LF2
+		(= (quan q1 s1w3 n1) 3)(property q1 s1w1)
+		(= (quan q2 s1w7 n1) 2)(verb q2 s1w5)
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w2 是)
+		(s2w1 面積)
+		(s2w4 平方公尺)
+		(s2w3 多少)
+	)
+
+	(LF1
+		(verb v1 s2w2)
+		(theme v1 s2w1)
+		(range v1 n2)
+		(head n2 s2w4)
+		(quantity n2 s2w3)
+	)
+
+	(LF2
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

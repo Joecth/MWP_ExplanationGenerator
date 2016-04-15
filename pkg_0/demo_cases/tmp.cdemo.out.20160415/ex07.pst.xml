@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="parser" TopN="1" Weight="1.00" inCandType="sentence">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110353">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-23.432286" accScore="-23.432286">S(theme:NP(property:N‧的(head:Nb:小孫|Head:DE:的)|Head:Naeb:零用錢)|Head:V_2:有|range:DM:720元)</Cand>
+				</Sent>
+				<Sent idx="2">
+					<Cand idx="1" inCandIdx="1" localScore="-23.432286" accScore="-23.432286">S(theme:NP(property:N‧的(head:Nb:小婉|Head:DE:的)|Head:Naeb:零用錢)|Head:V_2:有|range:DM:480元)</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-23.890759" accScore="-23.890759">S(theme:NP(property:NP‧的(head:NP(quantifier:DM:兩|Head:Nab:人)|Head:DE:的)|Head:Naeb:零用錢)|Head:VJ3:相差|range:DM:多少元)</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

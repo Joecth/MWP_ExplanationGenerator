@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_composer" TopN="1" Weight="1.00" inCandType="semantic_role_labeling" version="1.3.2">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110523">
+    <UnitCand idx="1" inCandIdx="null" localScore="0" accScore="-78.0245">
+        <Body>
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-36.3309758112">
+                    <SemRep>{包(1):theme={[x2]包裝紙(8):DUMMY1={的(7):head={用掉(5):agent={[x1]禮物(3):quantifier={1個(2)}},deontics={需(4)},theme={95公分(6)}}}},agent={[x]}}</SemRep>
+                    <WordList>
+                        <Word idx="1">包(1,VC31): {wrap|包紮}</Word>
+                        <Word idx="2">1個(2,DM): quantifier={個.null|無義:quantity={1}}</Word>
+                        <Word idx="3">禮物(3,Nab): {禮物|gift}</Word>
+                        <Word idx="4">需(4,Dbab): necessity={extreme|極}</Word>
+                        <Word idx="5">用掉(5,VC31): {exhaust|損耗:aspect={Vachieve|達成}}</Word>
+                        <Word idx="6">95公分(6,DM): 公分.length={公分:quantity={95}}</Word>
+                        <Word idx="7">的(7,DE): relation({entity|事物})</Word>
+                        <Word idx="8">包裝紙(8,Nab): {paper|紙張:telic={wrap|包紮:instrument={~}}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Body>
+        <Ques idx="1">
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-41.6935345846">
+                    <SemRep>{包(7):agent={[x2]包裝紙(4):DUMMY1={的(3):head={全長(1):quantifier={850公分(2)}}}},quantity={最多(5)},deontics={可以(6)},theme={[x1]禮物(9):quantifier={幾個(8)}}}</SemRep>
+                    <WordList>
+                        <Word idx="1">全長(1,Nad): {length([x2])}</Word>
+                        <Word idx="2">850公分(2,DM): 公分.length={公分:quantity={850}}</Word>
+                        <Word idx="3">的(3,DE): relation({entity|事物})</Word>
+                        <Word idx="4">包裝紙(4,Nab): {paper|紙張:telic={wrap|包紮:instrument={~}}}</Word>
+                        <Word idx="5">最多(5,Daa): range={extensive|泛:degree={extreme|極}}</Word>
+                        <Word idx="6">可以(6,Dbab): necessity={very|很}</Word>
+                        <Word idx="7">包(7,VC31): {wrap|包紮}</Word>
+                        <Word idx="8">幾個(8,DM): quantifier={個.null|無義:幾.quantity={Ques|疑問}}</Word>
+                        <Word idx="9">禮物(9,Nab): {禮物|gift}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Ques>
+    </UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

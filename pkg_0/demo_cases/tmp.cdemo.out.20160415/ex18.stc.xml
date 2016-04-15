@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110716">
+			<UnitCand accScore="-80.4897" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-18.4046095397" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{有(3):theme={[x1]鐵蛋(2):quantifier={1包(1)}},range={8個(4)}}</SemRep>
+							<WordList>
+								<Word idx="1">1包(1,DM): 包.container={袋子|bag:quantity={1}}</Word>
+								<Word idx="2">鐵蛋(2,Na): {Unknown}</Word>
+								<Word idx="3">有(3,V_2): {exist|存在}</Word>
+								<Word idx="4">8個(4,DM): quantifier={個.null|無義:quantity={8}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="-40.0499563726" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{分(2):agent={點點(1)},goal={[x1]鐵蛋(4):quantifier={8分之3包(3)}},complement={給(5):theme={[x2]妹妹(6)},agent={[x]},goal={[x]}}}</SemRep>
+							<WordList>
+								<Word idx="1">點點(1,Nb): {human|人:name={"點點"}}</Word>
+								<Word idx="2">分(2,VC2): {separate|分離}</Word>
+								<Word idx="3">8分之3包(3,DM): 包.container={袋子|bag:8分之3.quantity={8分之3}}</Word>
+								<Word idx="4">鐵蛋(4,Na): {Unknown}</Word>
+								<Word idx="5">給(5,VD1): {give|給}</Word>
+								<Word idx="6">妹妹(6,Nab): {妹妹|YoungerSister}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-22.0351356026" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{分到(3):agent={[x2]妹妹(1)},deontics={可以(2)},goal={[x1]鐵蛋(5):quantifier={幾個(4)}}}</SemRep>
+							<WordList>
+								<Word idx="1">妹妹(1,Nab): {妹妹|YoungerSister}</Word>
+								<Word idx="2">可以(2,Dbab): necessity={very|很}</Word>
+								<Word idx="3">分到(3,VC2): {Unknown}</Word>
+								<Word idx="4">幾個(4,DM): quantifier={個.null|無義:幾.quantity={Ques|疑問}}</Word>
+								<Word idx="5">鐵蛋(5,Na): {Unknown}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-81.035234" idx="1" localScore="-0.272767">Multiplication</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

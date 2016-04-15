@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_composer" TopN="1" Weight="1.00" inCandType="semantic_role_labeling" version="1.3.2">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110148">
+    <UnitCand idx="1" inCandIdx="null" localScore="0" accScore="-77.015">
+        <Body>
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-14.54459">
+                    <SemRep>{[x1]書(2):quantifier={19本(1)}}</SemRep>
+                    <WordList>
+                        <Word idx="1">19本(1,DM): quantifier={本.null|無義:quantity={19}}</Word>
+                        <Word idx="2">書(2,Nab): {publications|書刊}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+            <Sent idx="2">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-25.9174020141">
+                    <SemRep>{[x1]書(2):quantifier={用(3):DUMMY={[x2]書套(5):quantifier={一個(4)}}},quantifier={一本(1)}}</SemRep>
+                    <WordList>
+                        <Word idx="1">一本(1,DM): quantifier={本.null|無義:一.quantity={1}}</Word>
+                        <Word idx="2">書(2,Nab): {publications|書刊}</Word>
+                        <Word idx="3">用(3,P39): instrument={}</Word>
+                        <Word idx="4">一個(4,DM): quantifier={個.null|無義:一.quantity={1}}</Word>
+                        <Word idx="5">書套(5,Nab): {tool|用具:telic={protect|保護:instrument={~},patient={publications|書刊}}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+            <Sent idx="3">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-18.7330338026">
+                    <SemRep>{多(2):theme={[x2]書套(1)},range={一個(3)}}</SemRep>
+                    <WordList>
+                        <Word idx="1">書套(1,Nab): {tool|用具:telic={protect|保護:instrument={~},patient={publications|書刊}}}</Word>
+                        <Word idx="2">多(2,VH13): {many|多}</Word>
+                        <Word idx="3">一個(3,DM): quantifier={個.null|無義:一.quantity={1}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Body>
+        <Ques idx="1">
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-17.8200016778">
+                    <SemRep>{有(2):theme={[x2]書套(1)},range={幾個(3)}}</SemRep>
+                    <WordList>
+                        <Word idx="1">書套(1,Nab): {tool|用具:telic={protect|保護:instrument={~},patient={publications|書刊}}}</Word>
+                        <Word idx="2">有(2,V_2): {exist|存在}</Word>
+                        <Word idx="3">幾個(3,DM): quantifier={個.null|無義:幾.quantity={Ques|疑問}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Ques>
+    </UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110506">
+	<Body>
+		<Sent idx="1">2盒有10個甜甜圈。勇志買了75個甜甜圈，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">最多可以裝成幾盒？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110353">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_138'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_138'>
+        <CHUNK>240元</CHUNK>
+        <chk ID='ctx_138'>
+          <CHUNK>OP_Subtraction</CHUNK>
+          <chk ID='ctx_138'>
+            <CHUNK>720元</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_138'>
+            <CHUNK>480元</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_135'>
+    <__is_xml_mode_ASK__ANS>240</__is_xml_mode_ASK__ANS>
+    <ctx ID='ctx_134'>
+      ( CLUE::Input ( ASK ANS ( Difference ( quan q1 s1w6 # ) ( quan q2 s2w6 # ) ) ) )
+    </ctx>
+    <ctx ID='ctx_138'>
+      ( CLUE::Util ( Subtraction 720 480 = 240 ) )
+      ( CLUE::Util ( Val1 ( m_real 720 ) ( m_fact ( quan q1 元 # ) ( 720 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 480 ) ( m_fact ( quan q2 元 # ) ( 480 ) ) ) )
+      <ctx ID='ctx_70'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 元 # ) 720 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 元 # ) 720 ) )
+        ( CLUE::Create-Fact ( quan q1 元 # ) ( 720 ) )
+        <ctx ID='ctx_69'>
+          ( CLUE::Input ( = ( quan q1 s1w6 # ) 720 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_101'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 480 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 元 # ) 480 ) )
+        ( CLUE::Create-Fact ( quan q2 元 # ) ( 480 ) )
+        <ctx ID='ctx_100'>
+          ( CLUE::Input ( = ( quan q2 s2w6 # ) 480 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

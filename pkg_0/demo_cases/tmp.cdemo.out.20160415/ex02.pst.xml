@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="parser" TopN="1" Weight="1.00" inCandType="sentence">
+		
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110208">
+			<Body>
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-13.576919" accScore="-13.576919">VP(Head:V_2:有|range:NP(quantifier:DM:14隻|Head:Nab:毛毛蟲))</Cand>
+				</Sent>
+				<Sent idx="2">
+					<Cand idx="1" inCandIdx="1" localScore="-30.197725" accScore="-30.197725">NP(Head:NP(quantifier:DM:一隻|Head:Nab:毛毛蟲)|apposition:PP(Head:P21:在|DUMMY:GP(DUMMY:NP(quantifier:DM:一片|Head:Nab:葉子)|Head:Ng:上)))</Cand>
+				</Sent>
+				<Sent idx="3">
+					<Cand idx="1" inCandIdx="1" localScore="-13.554244" accScore="-13.554244">VP(Head:VJ:多出|range:NP(quantifier:DM:3片|Head:Nab:葉子))</Cand>
+				</Sent>
+			</Body>
+			<Ques idx="1">
+				<Sent idx="1">
+					<Cand idx="1" inCandIdx="1" localScore="-17.764017" accScore="-17.764017">S(theme:NP(Head:Nab:葉子)|Head:V_2:有|range:DM:幾片)</Cand>
+				</Sent>
+			</Ques>
+		
+</Unit>
+	
+</Phase>
+</MRconverter>

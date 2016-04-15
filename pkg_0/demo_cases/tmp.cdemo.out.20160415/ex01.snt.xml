@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110148">
+	<Body>
+		<Sent idx="1">19本書，一本書用一個書套，書套多一個，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">書套有幾個？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

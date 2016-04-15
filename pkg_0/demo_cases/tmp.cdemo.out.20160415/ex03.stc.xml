@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110233">
+			<UnitCand accScore="-102.016" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-82.7785712757" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{買(2):agent={[x1]安安(1)},aspect={了(3)},theme={和(13):DUMMY1={和(8):DUMMY1={衣服(7):quantifier={一件(4)},property={的(6):head={350元(5)}}},DUMMY2={褲子(12):quantifier={一件(9)},property={的(11):head={400元(10)}}}},DUMMY2={外套(17):quantifier={一件(14)},property={的(16):head={200元(15)}}}}}</SemRep>
+							<WordList>
+								<Word idx="1">安安(1,Nb): {human|人:name={"安安"}}</Word>
+								<Word idx="2">買(2,VC31): {buy|買}</Word>
+								<Word idx="3">了(3,Di): aspect={Vachieve|達成}</Word>
+								<Word idx="4">一件(4,DM): quantifier={件.null|無義:一.quantity={1}}</Word>
+								<Word idx="5">350元(5,DM): price={元.money|貨幣:quantity={350}}</Word>
+								<Word idx="6">的(6,DE): relation({entity|事物})</Word>
+								<Word idx="7">衣服(7,Nab): {clothing|衣物}</Word>
+								<Word idx="8">和(8,Caa): {and()}</Word>
+								<Word idx="9">一件(9,DM): quantifier={件.null|無義:一.quantity={1}}</Word>
+								<Word idx="10">400元(10,DM): price={元.money|貨幣:quantity={400}}</Word>
+								<Word idx="11">的(11,DE): relation({entity|事物})</Word>
+								<Word idx="12">褲子(12,Nab): {褲子|pants}</Word>
+								<Word idx="13">和(13,Caa): {and()}</Word>
+								<Word idx="14">一件(14,DM): quantifier={件.null|無義:一.quantity={1}}</Word>
+								<Word idx="15">200元(15,DM): price={元.money|貨幣:quantity={200}}</Word>
+								<Word idx="16">的(16,DE): relation({entity|事物})</Word>
+								<Word idx="17">外套(17,Nab): {外套|overcoat}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-19.2371354906" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{花(2):quantity={共(1)},aspect={了(3)},theme={多少元(4)},agent={[x1]}}</SemRep>
+							<WordList>
+								<Word idx="1">共(1,Daa): {all|全}</Word>
+								<Word idx="2">花(2,VC31): {spend|花費}</Word>
+								<Word idx="3">了(3,Di): aspect={Vachieve|達成}</Word>
+								<Word idx="4">多少元(4,DM): price={元.money|貨幣:多少.quantity={Ques|疑問}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-103.300042" idx="1" localScore="-0.642021">Sum</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

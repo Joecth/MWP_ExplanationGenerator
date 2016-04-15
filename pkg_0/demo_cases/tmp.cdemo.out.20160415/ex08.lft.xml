@@ -1,0 +1,69 @@
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110410">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 圓周長)
+		(s1w4 公分)
+		(s1w3 20)
+		(s1w1 大)
+	)
+
+	(LF1
+		(head n1 s1w2)
+		(unit n1 s1w4)
+		(quantity n1 s1w3)
+		(property n1 s1w1)
+	)
+
+	(LF2
+		(= (quan q1 s1w4 n1) 20)(property q1 s1w1)
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 圓周長)
+		(s2w4 公分)
+		(s2w3 18)
+		(s2w1 小)
+	)
+
+	(LF1
+		(head n2 s2w2)
+		(unit n2 s2w4)
+		(quantity n2 s2w3)
+		(property n2 s2w1)
+	)
+
+	(LF2
+		(= (quan q2 s2w4 n2) 18)(property q2 s2w1)
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w3 相差)
+		(s3w1 大圓)
+		(s3w2 小圓)
+		(s3w5 公分)
+		(s3w4 多少)
+	)
+
+	(LF1
+		(verb v1 s3w3)
+		(TimePoint v1 s3w1)
+		(theme v1 s3w2)
+		(range v1 n3)
+		(head n3 s3w5)
+		(quantity n3 s3w4)
+	)
+
+	(LF2
+		(ASK ANS (Difference (quan q1 s1w4 n1) (quan q2 s2w4 n2)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

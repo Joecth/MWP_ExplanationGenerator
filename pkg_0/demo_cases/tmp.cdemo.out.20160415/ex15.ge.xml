@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110629">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(18(OP_Multiplication(1個|18公分)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	1個  18公分  就是   1 * 18 = 18
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

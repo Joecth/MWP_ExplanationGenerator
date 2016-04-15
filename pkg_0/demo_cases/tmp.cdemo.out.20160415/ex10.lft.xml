@@ -1,0 +1,80 @@
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110447">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w1 有)
+		(s1w4 鴿籠)
+		(s1w3 個)
+		(s1w2 5)
+	)
+
+	(LF1
+		(verb v1 s1w1)
+		(range v1 n1)
+		(head n1 s1w4)
+		(unit n1 s1w3)
+		(quantity n1 s1w2)
+	)
+
+	(LF2
+		(= (quan q1 s1w3 s1w4) 5)(verb q1 s1w1)(role q1 range)
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 有)
+		(s2w3 裡)
+		(s2w2 鴿籠)
+		(s2w1 每個)
+		(s2w7 鴿子)
+		(s2w6 隻)
+		(s2w5 10)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(theme v2 n5)
+		(head n5 s2w3)
+		(property n5 n6)
+		(head n6 s2w2)
+		(unit n6 s2w1)
+		(range v2 n2)
+		(head n2 s2w7)
+		(unit n2 s2w6)
+		(quantity n2 s2w5)
+	)
+
+	(LF2
+		(= (quan q2 s2w6 s2w7) 10)(verb q2 s2w4)(theme q2 s2w3)(role q2 range)
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w2 有)
+		(s3w1 共)
+		(s3w5 鴿子)
+		(s3w4 隻)
+		(s3w3 幾)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(quantity v3 s3w1)
+		(range v3 n3)
+		(head n3 s3w5)
+		(unit n3 s3w4)
+		(quantity n3 s3w3)
+		(theme v3 s2w3)
+	)
+
+	(LF2
+		(ASK ANS (Multiplication (quan q1 s1w3 s1w4) (quan q2 s2w6 s2w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

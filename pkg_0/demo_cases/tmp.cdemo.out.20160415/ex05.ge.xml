@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110309">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(3隻動物(OP_Subtraction(5隻動物|2隻動物)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	5隻動物 - 2隻動物 = 3隻動物
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

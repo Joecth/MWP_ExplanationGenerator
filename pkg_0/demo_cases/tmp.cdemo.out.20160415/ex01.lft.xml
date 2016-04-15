@@ -1,0 +1,94 @@
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110148">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 書)
+		(s1w2 本)
+		(s1w1 19)
+	)
+
+	(LF1
+		(head n1 s1w3)
+		(unit n1 s1w2)
+		(quantity n1 s1w1)
+	)
+
+	(LF2
+		(= (quan q1 s1w2 s1w3) 19)
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 書)
+		(s2w4 用)
+		(s2w7 書套)
+		(s2w6 個)
+		(s2w5 一)
+		(s2w2 本)
+		(s2w1 一)
+	)
+
+	(LF1
+		(head n3 s2w3)
+		(unit n3 s2w4)
+		(DUMMY n3 n2)
+		(head n2 s2w7)
+		(unit n2 s2w6)
+		(quantity n2 s2w5)
+		(unit n3 s2w2)
+		(quantity n3 s2w1)
+	)
+
+	(LF2
+		(= (quan q2 s2w6 s2w7) 1)(role q2 DUMMY)
+		(= (quan q3 s2w2 s2w3) 1)(= (attrib have q3 s2w6 s2w7) 1)
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 多)
+		(s3w1 書套)
+		(s3w4 個)
+		(s3w3 一)
+	)
+
+	(LF1
+		(verb v1 s3w2)
+		(theme v1 n4)
+		(head n4 s3w1)
+		(range v1 s3w4)
+		(quantity v1 s3w3)
+	)
+
+	(LF2
+		(= (quan q4 s3w4 s3w1) 1)(verb q4 s3w2)(role q4 theme)
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w2 有)
+		(s4w1 書套)
+		(s4w4 個)
+		(s4w3 幾)
+	)
+
+	(LF1
+		(verb v2 s4w2)
+		(theme v2 n5)
+		(head n5 s4w1)
+		(range v2 s4w4)
+		(quantity v2 s4w3)
+	)
+
+	(LF2
+		(ASK ANS (Addition (quan q1::have s2w6 s2w7) (quan q4 s3w4 s3w1)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

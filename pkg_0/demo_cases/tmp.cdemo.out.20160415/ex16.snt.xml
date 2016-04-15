@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110643">
+	<Body>
+		<Sent idx="1">長方形的兒童遊戲區， 長4公尺、寬250公分，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1"> 面積是幾平方公分？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110629">
+			<UnitCand accScore="-44.3517" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-26.0599551489" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{是(5):theme={直徑(4):DUMMY1={的(3):head={[x1]圓(2):quantifier={一個(1)}}}},range={18公分(6)}}</SemRep>
+							<WordList>
+								<Word idx="1">一個(1,DM): quantifier={個.null|無義:一.quantity={1}}</Word>
+								<Word idx="2">圓(2,Nac): {image|圖像:shape={round|圓}}</Word>
+								<Word idx="3">的(3,DE): relation({entity|事物})</Word>
+								<Word idx="4">直徑(4,Nad): {length([x1])}</Word>
+								<Word idx="5">是(5,V_11): {be|是}</Word>
+								<Word idx="6">18公分(6,DM): 公分.length={公分:quantity={18}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-18.291775" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{是(2):theme={半徑(1)},range={多少公分(3)}}</SemRep>
+							<WordList>
+								<Word idx="1">半徑(1,Nac): {length([x1])}</Word>
+								<Word idx="2">是(2,V_11): {be|是}</Word>
+								<Word idx="3">多少公分(3,DM): 公分.length={公分:多少.quantity={Ques|疑問}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-44.897234" idx="1" localScore="-0.272767">Multiplication</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

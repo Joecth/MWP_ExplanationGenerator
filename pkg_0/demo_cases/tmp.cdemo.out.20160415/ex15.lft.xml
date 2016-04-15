@@ -1,0 +1,61 @@
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110629">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 是)
+		(s1w5 直徑)
+		(s1w4 的)
+		(s1w3 圓)
+		(s1w2 個)
+		(s1w1 一)
+		(s1w8 公分)
+		(s1w7 18)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(theme v1 s1w5)
+		(DUMMY1 v1 s1w4)
+		(head v1 n4)
+		(head n4 s1w3)
+		(quantifier n4 n1)
+		(head n1 s1w2)
+		(quantity n1 s1w1)
+		(range v1 n2)
+		(head n2 s1w8)
+		(quantity n2 s1w7)
+	)
+
+	(LF2
+		(= (quan q1 s1w2 #) 1)(verb q1 s1w6)(= (attrib length q1 s1w8 #) 18)
+		(= (quan q2 s1w8 #) 18)(verb q2 s1w6)
+		(q_map m1 q1 q2)(verb m1 s1w6)
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w2 是)
+		(s2w1 半徑)
+		(s2w4 公分)
+		(s2w3 多少)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(theme v2 n5)
+		(head n5 s2w1)
+		(range v2 n3)
+		(head n3 s2w4)
+		(quantity n3 s2w3)
+	)
+
+	(LF2
+		(ASK ANS (Multiplication (quan q1 s1w2 #) (quan q2 s1w8 #)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

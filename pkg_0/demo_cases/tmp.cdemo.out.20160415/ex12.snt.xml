@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110523">
+	<Body>
+		<Sent idx="1">包1個禮物需用掉95公分的包裝紙，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1"> 全長850公分的包裝紙最多可以包幾個禮物？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

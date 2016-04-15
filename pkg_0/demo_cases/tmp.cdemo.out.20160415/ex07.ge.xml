@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110353">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(240元(OP_Subtraction(720元|480元)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	720元 - 480元 = 240元
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

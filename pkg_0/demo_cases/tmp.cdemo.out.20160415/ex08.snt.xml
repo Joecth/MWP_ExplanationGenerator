@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110410">
+	<Body>
+		<Sent idx="1">大圓周長20公分，小圓周長18公分，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">大圓小圓相差多少公分？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

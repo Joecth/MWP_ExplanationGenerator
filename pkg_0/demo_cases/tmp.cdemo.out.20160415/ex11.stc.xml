@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110506">
+			<UnitCand accScore="-69.053" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-20.4712795166" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{有(2):theme={2盒(1)},range={[x1]甜甜圈(4):quantifier={10個(3)}}}</SemRep>
+							<WordList>
+								<Word idx="1">2盒(1,DM): 盒.container={盒子|box:quantity={2}}</Word>
+								<Word idx="2">有(2,V_2): {exist|存在}</Word>
+								<Word idx="3">10個(3,DM): quantifier={個.null|無義:quantity={10}}</Word>
+								<Word idx="4">甜甜圈(4,Nab): {food|食品:taste={sweet|甜}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="-24.3416956623" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{買(2):agent={勇志(1)},aspect={了(3)},theme={[x1]甜甜圈(5):quantifier={75個(4)}}}</SemRep>
+							<WordList>
+								<Word idx="1">勇志(1,Nb): {human|人:name={"勇志"}}</Word>
+								<Word idx="2">買(2,VC31): {buy|買}</Word>
+								<Word idx="3">了(3,Di): aspect={Vachieve|達成}</Word>
+								<Word idx="4">75個(4,DM): quantifier={個.null|無義:quantity={75}}</Word>
+								<Word idx="5">甜甜圈(5,Nab): {food|食品:taste={sweet|甜}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-24.2399989342" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{裝成(3):quantity={最多(1)},deontics={可以(2)},range={幾盒(4)}}</SemRep>
+							<WordList>
+								<Word idx="1">最多(1,Daa): range={extensive|泛:degree={extreme|極}}</Word>
+								<Word idx="2">可以(2,Dbab): necessity={very|很}</Word>
+								<Word idx="3">裝成(3,VG): {pretend|假裝}</Word>
+								<Word idx="4">幾盒(4,DM): 盒.container={盒子|box:幾.quantity={Ques|疑問}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-70.50376" idx="1" localScore="-0.72538">FloorDiv</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

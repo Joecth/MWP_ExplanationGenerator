@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110309">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+    <chk ID='ctx_152'>
+      <CHUNK>BeginTree</CHUNK>
+      <chk ID='ctx_152'>
+        <CHUNK>3隻動物</CHUNK>
+        <chk ID='ctx_152'>
+          <CHUNK>OP_Subtraction</CHUNK>
+          <chk ID='ctx_152'>
+            <CHUNK>5隻動物</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <chk ID='ctx_152'>
+            <CHUNK>2隻動物</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          </chk>
+          <CHUNK>UPSCOPE</CHUNK>
+        </chk>
+        <CHUNK>UPSCOPE</CHUNK>
+      </chk>
+      <CHUNK>EndTree</CHUNK>
+    </chk>
+  </CHUNK_TREE>
+  <ctx ID='ctx_149'>
+    <__is_xml_mode_ASK__ANS>3</__is_xml_mode_ASK__ANS>
+    <ctx ID='ctx_148'>
+      ( CLUE::Input ( ASK ANS ( Subtraction ( quan q1 s1w6 s1w7 ) ( quan q2 s2w2 s2w3 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_152'>
+      ( CLUE::Util ( Subtraction 5 2 = 3 ) )
+      ( CLUE::Util ( Val1 ( m_real 5 ) ( m_fact ( quan q1 隻 s1w7 ) ( 5 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 2 ) ( m_fact ( quan q2 隻 s1w7 ) ( 2 ) ) ) )
+      <ctx ID='ctx_73'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 隻 s1w7 ) 5 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 隻 s1w7 ) 5 ) )
+        ( CLUE::Create-Fact ( quan q1 隻 s1w7 ) ( 5 ) )
+        <ctx ID='ctx_72'>
+          ( CLUE::Input ( = ( quan q1 s1w6 s1w7 ) 5 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_103'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 隻 s1w7 ) 2 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 隻 s1w7 ) 2 ) )
+        ( CLUE::Create-Fact ( quan q2 隻 s1w7 ) ( 2 ) )
+        <ctx ID='ctx_102'>
+          ( CLUE::Input ( = ( quan q2 s2w2 s2w3 ) 2 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

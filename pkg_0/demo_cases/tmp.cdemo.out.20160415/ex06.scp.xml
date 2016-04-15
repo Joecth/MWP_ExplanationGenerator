@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.0" lang="zh_TW">
+<Authentication username="xxxxx" password="xxxx" />
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="semantic_composer" TopN="1" Weight="1.00" inCandType="semantic_role_labeling" version="1.3.2">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110333">
+    <UnitCand idx="1" inCandIdx="null" localScore="0" accScore="-66.6792">
+        <Body>
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-22.7876206778">
+                    <SemRep>{有(3):theme={[x2]裡(2):property={[x1]冰箱(1)}},range={果汁(5):quantifier={9瓶(4)}}}</SemRep>
+                    <WordList>
+                        <Word idx="1">冰箱(1,Nab): {箱子|box:telic={store|保存:theme={edible|食物},location={~},means={cool|製冷}}}</Word>
+                        <Word idx="2">裡(2,Ncda): {internal({x:object|物體})}</Word>
+                        <Word idx="3">有(3,V_2): {exist|存在}</Word>
+                        <Word idx="4">9瓶(4,DM): 瓶.container={瓶子|bottle:quantity={9}}</Word>
+                        <Word idx="5">果汁(5,Naa): {果汁|FruitJuice}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+            <Sent idx="2">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-16.9159009811">
+                    <SemRep>{拿出(2):agent={媽媽(1)},goal={果汁(3.1):quantifier={5瓶(3)}}}</SemRep>
+                    <WordList>
+                        <Word idx="1">媽媽(1,Nab): {母親|mother}</Word>
+                        <Word idx="2">拿出(2,VC2): {take|取}</Word>
+                        <Word idx="3">5瓶(3,DM): 瓶.container={瓶子|bottle:quantity={5}}</Word>
+                        <Word idx="4">果汁(3.1,Naa): {果汁|FruitJuice}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Body>
+        <Ques idx="1">
+            <Sent idx="1">
+                <Cand idx="1" inCandIdx="1" localScore="0.0" accScore="-26.9756339957">
+                    <SemRep>{剩下(4):condition={裡(2):DUMMY={[x1]冰箱(1)}},evaluation={還(3)},range={幾瓶(5)},theme={[x2]}}</SemRep>
+                    <WordList>
+                        <Word idx="1">冰箱(1,Nab): {箱子|box:telic={store|保存:theme={edible|食物},location={~},means={cool|製冷}}}</Word>
+                        <Word idx="2">裡(2,Ng): {internal({object|物體})}</Word>
+                        <Word idx="3">還(3,Dbb): aspect={Vgoingon|進展}</Word>
+                        <Word idx="4">剩下(4,VJ3): {surplus|剩餘}</Word>
+                        <Word idx="5">幾瓶(5,DM): 瓶.container={瓶子|bottle:幾.quantity={Ques|疑問}}</Word>
+                    </WordList>
+</Cand>
+            </Sent>
+        </Ques>
+    </UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

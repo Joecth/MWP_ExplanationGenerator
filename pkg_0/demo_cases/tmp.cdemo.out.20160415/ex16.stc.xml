@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MRconverter lang="zh_TW" version="0.0">
+	<Authentication password="xxxx" username="xxxxx" />
+	<ProcStatus code="0">Success</ProcStatus>
+	<Phase TopN="1" Weight="1.00" inCandType="semantic_role_labeling" name="semantic_composer" version="1.3.2">
+		<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110643">
+			<UnitCand accScore="-87.086" idx="1" inCandIdx="null" localScore="0">
+				<Body>
+					<Sent idx="1">
+						<Cand accScore="-27.654927971" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{遊戲區(4):property={兒童(3):property={的(2):head={[x1]長方形(1)}}}}</SemRep>
+							<WordList>
+								<Word idx="1">長方形(1,Nac): shape={square|方:length={LengthLong|長}}</Word>
+								<Word idx="2">的(2,DE): relation({entity|事物})</Word>
+								<Word idx="3">兒童(3,Nab): {小孩|child}</Word>
+								<Word idx="4">遊戲區(4,Ncb): {Unknown}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+					<Sent idx="2">
+						<Cand accScore="-41.1393346907" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{、(3):DUMMY1={長(1):range={4公尺(2)}},DUMMY2={寬(4):range={250公分(5)},theme={[x]}}}</SemRep>
+							<WordList>
+								<Word idx="1">長(1,VH): {grow|成長}</Word>
+								<Word idx="2">4公尺(2,DM): 公尺.length={公尺:quantity={4}}</Word>
+								<Word idx="3">、(3,Caa): {and()}</Word>
+								<Word idx="4">寬(4,VH12): {wide|闊}</Word>
+								<Word idx="5">250公分(5,DM): 公分.length={公分:quantity={250}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Body>
+				<Ques idx="1">
+					<Sent idx="1">
+						<Cand accScore="-18.291775" idx="1" inCandIdx="1" localScore="0.0">
+							<SemRep>{是(2):theme={面積(1)},range={幾平方公分(3)}}</SemRep>
+							<WordList>
+								<Word idx="1">面積(1,Nad): {area([x1])}</Word>
+								<Word idx="2">是(2,V_11): {be|是}</Word>
+								<Word idx="3">幾平方公分(3,DM): 平方公分.area={平方公分:幾.quantity={Ques|疑問}}</Word>
+							</WordList>
+						</Cand>
+					</Sent>
+				</Ques>
+				<SolType idx="1">
+					<Cand accScore="-88.161716" idx="1" localScore="-0.537858">Utility</Cand>
+				</SolType>
+			</UnitCand>
+		</Unit>
+	</Phase>
+</MRconverter>

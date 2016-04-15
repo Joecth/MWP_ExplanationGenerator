@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<Authentication username="xxxxx" password="xxxx" />
+<Phase name="sent">
+<Unit Code="Train-G1-000001" ID="IIS-MR-MATH-GRADE01-110233">
+	<Body>
+		<Sent idx="1">安安買了一件350元的衣服和一件400元的褲子和一件200元的外套，</Sent> 
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1"> 共花了多少元？</Sent>
+	</Ques>
+</Unit>
+</Phase>
+</MRconverter>

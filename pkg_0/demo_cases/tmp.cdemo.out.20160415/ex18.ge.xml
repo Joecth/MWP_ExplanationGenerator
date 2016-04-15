@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110716">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(8(OP_Multiplication(1包鐵蛋|8個鐵蛋)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	1包鐵蛋  8個鐵蛋  就是   1 * 8 = 8
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

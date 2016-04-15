@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADE01-110447">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(50(OP_Multiplication(5個鴿籠|10隻鴿子)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	5個鴿籠  10隻鴿子  就是   5 * 10 = 50
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>
