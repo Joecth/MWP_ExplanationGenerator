@@ -1,0 +1,15 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(84 pencils(OP_Addition(44 pencils(OP_Addition(18 pencils|26 pencils))|40 pencils)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	18 pencils + 26 pencils = 44 pencils
+	Thus,  	44 pencils + 40 pencils = 84 pencils
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>

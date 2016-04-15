@@ -1,0 +1,14 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Ques idx="1">
+		<ANS>
+			<Chain>
+				ROOT(6 cupflours(OP_Subtraction(8 cupflours|2 cupflours)))
+			</Chain>
+			<Explanation>
+				Ans: 
+	8 cupflours - 2 cupflours = 6 cupflours
+
+			</Explanation>
+		</ANS>
+	</Ques>
+</Unit>
