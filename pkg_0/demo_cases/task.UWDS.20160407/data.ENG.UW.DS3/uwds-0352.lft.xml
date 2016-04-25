@@ -1,0 +1,151 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 go)
+		(s1w1 Nancy)
+		(s1w6 game)
+		(s1w3 to)
+		(s1w4 9)
+		(s1w5 football)
+		(s1w8 month)
+		(s1w7 this)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n6)
+		(head n6 s1w1)
+		(nmod v1 n1)
+		(head n1 s1w6)
+		(case n1 s1w3)
+		(nummod n1 s1w4)
+		(compound n1 n8)
+		(head n8 s1w5)
+		(nmod_tmod v1 n9)
+		(head n9 s1w8)
+		(det n9 s1w7)
+	)
+
+	(LF2
+		(= (quan q2 # s1w6) 9)(verb q2 s1w2)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 go)
+		(s2w1 she)
+		(s2w5 game)
+		(s2w3 to)
+		(s2w4 8)
+		(s2w7 month)
+		(s2w6 last)
+		(s2w8 and)
+		(s2w9 plan)
+		(s2w11 go)
+		(s2w10 to)
+		(s2w14 game)
+		(s2w12 to)
+		(s2w13 7)
+		(s2w16 month)
+		(s2w15 next)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(nmod v2 n2)
+		(head n2 s2w5)
+		(case n2 s2w3)
+		(nummod n2 s2w4)
+		(nmod_tmod v2 n11)
+		(head n11 s2w7)
+		(amod n11 s2w6)
+		(cj_op j1 and)
+		(conj v2 s2w9)
+		(verb v2 s2w11)
+		(mark v2 s2w10)
+		(nmod v2 n3)
+		(head n3 s2w14)
+		(case n3 s2w12)
+		(nummod n3 s2w13)
+		(nmod_tmod v2 n13)
+		(head n13 s2w16)
+		(amod n13 s2w15)
+	)
+
+	(LF2
+		(= (quan q4 # s2w5) 8)(verb q4 s2w2)(role q4 nmod)
+		(= (quan q6 # s2w14) 7)(verb q6 s2w11)(role q6 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 pay)
+		(s3w1 she)
+		(s3w4 dollar)
+		(s3w3 3)
+		(s3w7 ticket)
+		(s3w5 for)
+		(s3w6 the)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(nsubj v3 s3w1)
+		(dobj v3 n4)
+		(head n4 s3w4)
+		(nummod n4 s3w3)
+		(nmod v3 n15)
+		(head n15 s3w7)
+		(case n15 s3w5)
+		(det n15 s3w6)
+	)
+
+	(LF2
+		(= (quan q8 # s3w4) 3)(verb q8 s3w2)(role q8 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 attend)
+		(s4w3 game)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 will)
+		(s4w5 she)
+		(s4w8 all)
+		(s4w7 in)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(dobj v4 n5)
+		(head n5 s4w3)
+		(amod n5 s4w2)
+		(advmod n5 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 s4w5)
+		(nmod v4 s4w8)
+		(case v4 s4w7)
+	)
+
+	(LF2
+		
+		(= (quan q2 # s1w6) 9) (= (tvq v1 # s1w6 t0) (quan q2 # s1w6))
+		(= (quan q4 # s2w5) 8) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 # s2w14) 7) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 # s4w3 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

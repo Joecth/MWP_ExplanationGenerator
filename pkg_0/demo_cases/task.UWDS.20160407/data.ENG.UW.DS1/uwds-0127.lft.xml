@@ -1,0 +1,110 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 get)
+		(s1w1 Sara)
+		(s1w4 food)
+		(s1w3 fast)
+		(s1w6 lunch)
+		(s1w5 for)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w4)
+		(amod n4 s1w3)
+		(nmod v1 n5)
+		(head n5 s1w6)
+		(case n5 s1w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 spend)
+		(s2w1 Sara)
+		(s2w4 5.36)
+		(s2w3 USD)
+		(s2w7 hotdog)
+		(s2w5 on)
+		(s2w6 a)
+		(s2w8 and)
+		(s2w10 5.10)
+		(s2w9 USD)
+		(s2w13 salad)
+		(s2w11 on)
+		(s2w12 a)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 n6)
+		(head n6 s2w1)
+		(dobj v2 s2w4)
+		(dep v2 n1)
+		(head n1 s2w3)
+		(nmod v2 n7)
+		(head n7 s2w7)
+		(case n7 s2w5)
+		(det n7 s2w6)
+		(cj_op j1 and)
+		(conj n7 s2w10)
+		(dep n7 n2)
+		(head n2 s2w9)
+		(nmod v2 n8)
+		(head n8 s2w13)
+		(case n8 s2w11)
+		(det n8 s2w12)
+	)
+
+	(LF2
+		(= (quan q2 # s2w3) 5.36)(verb q2 s2w2)(role q2 dep)
+		(= (quan q4 # s2w9) 5.10)(verb q4 s2w2)(role q4 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w1 what)
+		(s3w2 be)
+		(s3w4 total)
+		(s3w3 the)
+		(s3w8 bill)
+		(s3w5 of)
+		(s3w6 the)
+		(s3w7 lunch)
+	)
+
+	(LF1
+		(HEAD x3 s3w1)
+		(cop x3 s3w2)
+		(nsubj x3 n9)
+		(head n9 s3w4)
+		(det n9 s3w3)
+		(nmod n9 n10)
+		(head n10 s3w8)
+		(case n10 s3w5)
+		(det n10 s3w6)
+		(compound n10 n11)
+		(head n11 s3w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s2w3) (quan q4 # s2w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

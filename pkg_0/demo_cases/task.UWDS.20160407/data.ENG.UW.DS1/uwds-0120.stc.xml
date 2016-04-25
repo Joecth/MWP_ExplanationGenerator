@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{decide(2):nsubj={[x1]Joan(1)},xcomp={sell(4):mark={to(3)},dobj={all(5):nmod={book(9):case={of(6)},nmod_poss={she(7)},amod={old(8)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joan(1,NNP): {Joan}</Word>
+		<Word idx="2">decide(2,VBD): {decided}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">sell(4,VB): {sell}</Word>
+		<Word idx="5">all(5,DT): {all}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">she(7,PRPS): {her}</Word>
+		<Word idx="8">old(8,JJ): {old}</Word>
+		<Word idx="9">book(9,NNS): {books}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{gather(2):nsubj={[x1]she(1)},compound_prt={up(3)},dobj={book(5):nummod={33(4)}},advcl={sell(7):mark={to(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">gather(2,VBD): {gathered}</Word>
+		<Word idx="3">up(3,RP): {up}</Word>
+		<Word idx="4">33(4,CD): {33}</Word>
+		<Word idx="5">book(5,NNS): {books}</Word>
+		<Word idx="6">to(6,TO): {to}</Word>
+		<Word idx="7">sell(7,VB): {sell}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(2):nsubj={[x1]she(1)},dobj={book(4):nummod={26(3)}},nmod={sale(8):case={in(5)},det={a(6)},compound={yard(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">sell(2,VBD): {sold}</Word>
+		<Word idx="3">26(3,CD): {26}</Word>
+		<Word idx="4">book(4,NNS): {books}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">yard(7,NN): {yard}</Word>
+		<Word idx="8">sale(8,NN): {sale}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(7):dobj={book(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Joan(5)},advmod={now(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">book(3,NNS): {books}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">Joan(5,NNP): {Joan}</Word>
+		<Word idx="6">now(6,RB): {now}</Word>
+		<Word idx="7">have(7,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

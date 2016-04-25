@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{join(2):nsubj={[x1]Joan(1)},dobj={band(6):nmod_poss={school(4):nmod_poss={[x1]she(3)},case={'s(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joan(1,NNP): {Joan}</Word>
+		<Word idx="2">join(2,VBD): {joined}</Word>
+		<Word idx="3">she(3,PRPS): {her}</Word>
+		<Word idx="4">school(4,NN): {school}</Word>
+		<Word idx="5">'s(5,POS): {'s}</Word>
+		<Word idx="6">band(6,NN): {band}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(2):nsubj={[x1]she(1)},dobj={trumpet(4):det={a(3)},nmod={149.16(7):case={for(5)},dep={USD(6)}},conj={tool(11):det={a(9)},compound={music(10)},nmod={9.98(14):case={for(12)},dep={USD(13)}}},cc={and(16)},conj={book(19):det={a(17)},compound={song(18)},acl_relcl={4.14(23):nsubj={which(20)},cop={be(21)},dep={USD(22)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">buy(2,VBD): {bought}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">trumpet(4,NN): {trumpet}</Word>
+		<Word idx="5">for(5,IN): {for}</Word>
+		<Word idx="6">USD(6,USD): {USD}</Word>
+		<Word idx="7">149.16(7,CD): {149.16}</Word>
+		<Word idx="8">a(9,DT): {a}</Word>
+		<Word idx="9">music(10,NN): {music}</Word>
+		<Word idx="10">tool(11,NN): {tool}</Word>
+		<Word idx="11">for(12,IN): {for}</Word>
+		<Word idx="12">USD(13,USD): {USD}</Word>
+		<Word idx="13">9.98(14,CD): {9.98}</Word>
+		<Word idx="14">and(16,CC): {and}</Word>
+		<Word idx="15">a(17,DT): {a}</Word>
+		<Word idx="16">song(18,NN): {song}</Word>
+		<Word idx="17">book(19,NN): {book}</Word>
+		<Word idx="18">which(20,WDT): {which}</Word>
+		<Word idx="19">be(21,VBD): {was}</Word>
+		<Word idx="20">USD(22,USD): {USD}</Word>
+		<Word idx="21">4.14(23,CD): {4.14}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(2):nsubj={[x1]Joan(1)},dobj={8.65(4):dep={USD(3)},nmod={pocket(7):case={in(5)},nmod_poss={[x1]she(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joan(1,NNP): {Joan}</Word>
+		<Word idx="2">find(2,VBD): {found}</Word>
+		<Word idx="3">USD(3,USD): {USD}</Word>
+		<Word idx="4">8.65(4,CD): {8.65}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">she(6,PRPS): {her}</Word>
+		<Word idx="7">pocket(7,NN): {pocket}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(5):dep={much(2):advmod={how(1)}},aux={do(3)},nsubj={[x1]Joan(4)},nmod={store(9):case={at(6)},det={the(7)},compound={music(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">Joan(4,NNP): {Joan}</Word>
+		<Word idx="5">spend(5,VB): {spend}</Word>
+		<Word idx="6">at(6,IN): {at}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">music(8,NN): {music}</Word>
+		<Word idx="9">store(9,NN): {store}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

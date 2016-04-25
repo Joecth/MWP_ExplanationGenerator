@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{eat(5):nsubj={[x1,x2]Alec(1):cc={and(2)},conj={roommate(4):nmod_poss={[x1]he(3)}}},dobj={pint(7):nummod={3.25(6)},nmod={cream(10):case={of(8)},compound={ice(9)},nmod={Friday(12):case={on(11)}},nmod_tmod={night(13)}},cc={and(14)},conj={pint(16):nummod={0.25(15)},nmod={cream(19):case={of(17)},compound={ice(18)}}}},nmod={Saturday(21):case={on(20)}},nmod_tmod={night(22)}}</SemRep>
+	<WordList>
+		<Word idx="1">Alec(1,NNP): {Alec}</Word>
+		<Word idx="2">and(2,CC): {and}</Word>
+		<Word idx="3">he(3,PRPS): {his}</Word>
+		<Word idx="4">roommate(4,NNS): {roommates}</Word>
+		<Word idx="5">eat(5,VBD): {ate}</Word>
+		<Word idx="6">3.25(6,CD): {3.25}</Word>
+		<Word idx="7">pint(7,NNS): {pints}</Word>
+		<Word idx="8">of(8,IN): {of}</Word>
+		<Word idx="9">ice(9,NN): {ice}</Word>
+		<Word idx="10">cream(10,NN): {cream}</Word>
+		<Word idx="11">on(11,IN): {on}</Word>
+		<Word idx="12">Friday(12,NNP): {Friday}</Word>
+		<Word idx="13">night(13,NN): {night}</Word>
+		<Word idx="14">and(14,CC): {and}</Word>
+		<Word idx="15">0.25(15,CD): {0.25}</Word>
+		<Word idx="16">pint(16,NN): {pint}</Word>
+		<Word idx="17">of(17,IN): {of}</Word>
+		<Word idx="18">ice(18,NN): {ice}</Word>
+		<Word idx="19">cream(19,NN): {cream}</Word>
+		<Word idx="20">on(20,IN): {on}</Word>
+		<Word idx="21">Saturday(21,NNP): {Saturday}</Word>
+		<Word idx="22">night(22,NN): {night}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{eat(6):dobj={pint(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x2]they(5)},nmod={all(8):case={in(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pint(3,NNS): {pints}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">eat(6,VBP): {eat}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">all(8,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

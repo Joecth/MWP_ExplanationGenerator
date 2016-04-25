@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{score(8):advcl={play(2):mark={while(1)},dobj={game(5):det={a(3)},compound={video(4)}}},nsubj={[x1]Paul(7)},dobj={point(10):nummod={3103(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">while(1,IN): {While}</Word>
+		<Word idx="2">play(2,VBG): {playing}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">video(4,NN): {video}</Word>
+		<Word idx="5">game(5,NN): {game}</Word>
+		<Word idx="6">Paul(7,NNP): {Paul}</Word>
+		<Word idx="7">score(8,VBD): {scored}</Word>
+		<Word idx="8">3103(9,CD): {3103}</Word>
+		<Word idx="9">point(10,NNS): {points}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):nsubj={[x1]he(1):cc={and(2)},conj={[x1]cousin(4):nmod_poss={[x1]he(3)}}},advmod={together(5)},dobj={total(8):det={a(7)},nmod={point(11):case={of(9)},nummod={5816(10)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">he(1,PRP): {He}</Word>
+		<Word idx="2">and(2,CC): {and}</Word>
+		<Word idx="3">he(3,PRPS): {his}</Word>
+		<Word idx="4">cousin(4,NN): {cousin}</Word>
+		<Word idx="5">together(5,RB): {together}</Word>
+		<Word idx="6">have(6,VBP): {have}</Word>
+		<Word idx="7">a(7,DT): {a}</Word>
+		<Word idx="8">total(8,NN): {total}</Word>
+		<Word idx="9">of(9,IN): {of}</Word>
+		<Word idx="10">5816(10,CD): {5816}</Word>
+		<Word idx="11">point(11,NNS): {points}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(8):dobj={point(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]cousin(7):nmod_poss={[x1]Paul(5):case={'s(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">point(3,NNS): {points}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">Paul(5,NNP): {Paul}</Word>
+		<Word idx="6">'s(6,POS): {'s}</Word>
+		<Word idx="7">cousin(7,NN): {cousin}</Word>
+		<Word idx="8">have(8,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

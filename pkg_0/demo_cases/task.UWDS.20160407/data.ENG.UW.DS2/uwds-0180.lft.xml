@@ -1,0 +1,83 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 sprint)
+		(s1w1 Darnel)
+		(s1w4 lap)
+		(s1w3 0.875)
+		(s1w5 and)
+		(s1w7 take)
+		(s1w6 then)
+		(s1w9 break)
+		(s1w8 a)
+		(s1w13 lap)
+		(s1w10 by)
+		(s1w11 jogging)
+		(s1w12 0.75)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(cj_op j1 and)
+		(verb v1 s1w7)
+		(advmod v1 s1w6)
+		(dobj v1 n6)
+		(head n6 s1w9)
+		(det n6 s1w8)
+		(nmod v1 n2)
+		(head n2 s1w13)
+		(case n2 s1w10)
+		(compound n2 n8)
+		(head n8 s1w11)
+		(nummod n2 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 0.875)(verb q2 s1w2)(role q2 dobj)
+		(= (quan q4 # s1w13) 0.75)(verb q4 s1w7)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w4 do)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w3 farther)
+		(s2w6 sprint)
+		(s2w5 Darnel)
+		(s2w8 jog)
+		(s2w7 than)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nsubj v2 s2w2)
+		(advmod v2 s2w1)
+		(amod v2 s2w3)
+		(verb v2 n3)
+		(head n3 s2w6)
+		(compound n3 n10)
+		(head n10 s2w5)
+		(nmod v2 n11)
+		(head n11 s2w8)
+		(case n11 s2w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s1w4) (quan q4 # s1w13)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

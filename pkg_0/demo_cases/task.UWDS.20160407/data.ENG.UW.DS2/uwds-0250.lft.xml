@@ -1,0 +1,116 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 start)
+		(s1w2 farmer)
+		(s1w1 a)
+		(s1w5 day)
+		(s1w4 the)
+		(s1w8 bucket)
+		(s1w6 with)
+		(s1w7 8.75)
+		(s1w10 seed)
+		(s1w9 of)
+	)
+
+	(LF1
+		(verb v1 s1w3)
+		(nsubj v1 n3)
+		(head n3 s1w2)
+		(det n3 s1w1)
+		(nmod_tmod v1 n4)
+		(head n4 s1w5)
+		(det n4 s1w4)
+		(nmod v1 n5)
+		(head n5 s1w8)
+		(case n5 s1w6)
+		(nummod n5 s1w7)
+		(nmod n5 n1)
+		(head n1 s1w10)
+		(case n1 s1w9)
+	)
+
+	(LF2
+		(= (quan q2 s1w8 s1w10) 8.75)(verb q2 s1w3)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w9 have)
+		(s2w2 spend)
+		(s2w1 after)
+		(s2w6 seed)
+		(s2w3 the)
+		(s2w4 morning)
+		(s2w5 sowing)
+		(s2w7 she)
+		(s2w8 now)
+		(s2w11 bucket)
+		(s2w10 6)
+	)
+
+	(LF1
+		(verb v2 s2w9)
+		(advcl v2 s2w2)
+		(mark v2 s2w1)
+		(dobj v2 n7)
+		(head n7 s2w6)
+		(det n7 s2w3)
+		(compound n7 n8)
+		(head n8 s2w4)
+		(compound n7 n9)
+		(head n9 s2w5)
+		(nsubj v2 s2w7)
+		(advmod v2 s2w8)
+		(dobj v2 n10)
+		(head n10 s2w11)
+		(nummod n10 s2w10)
+	)
+
+	(LF2
+		(= (quan q4 s2w11 s1w10) 6)(verb q4 s2w9)(advcl q4 s2w2)(advmod q4 s2w8)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 sow)
+		(s3w3 bucket)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 seed)
+		(s3w4 of)
+		(s3w6 do)
+		(s3w8 farmer)
+		(s3w7 the)
+	)
+
+	(LF1
+		(verb v3 s3w9)
+		(dobj v3 n11)
+		(head n11 s3w3)
+		(amod n11 s3w2)
+		(advmod n11 s3w1)
+		(nmod n11 n2)
+		(head n2 s3w5)
+		(case n2 s3w4)
+		(aux v3 s3w6)
+		(nsubj v3 n13)
+		(head n13 s3w8)
+		(det n13 s3w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w8 s1w10) (quan q4 s2w11 s1w10)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

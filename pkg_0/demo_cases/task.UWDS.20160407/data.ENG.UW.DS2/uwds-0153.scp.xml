@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(5):nsubj={manufacturer(4):det={a(1)},compound={bathing(2)},compound={suit(3)}},dobj={[x1]supply(7):det={a(6)},nmod={suit(11):case={of(8)},nummod={14797(9)},compound={bathing(10)},nmod={man(13):case={for(12)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">bathing(2,NN): {bathing}</Word>
+		<Word idx="3">suit(3,NN): {suit}</Word>
+		<Word idx="4">manufacturer(4,NN): {manufacturer}</Word>
+		<Word idx="5">have(5,VBZ): {has}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">supply(7,NN): {supply}</Word>
+		<Word idx="8">of(8,IN): {of}</Word>
+		<Word idx="9">14797(9,CD): {14797}</Word>
+		<Word idx="10">bathing(10,NN): {bathing}</Word>
+		<Word idx="11">suit(11,NNS): {suits}</Word>
+		<Word idx="12">for(12,IN): {for}</Word>
+		<Word idx="13">man(13,NNS): {men}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(5):nmod={addition(2):case={in(1)}},nsubj={[x1]it(4)},dobj={suit(8):nummod={4969(6)},compound={bathing(7)},nmod={woman(10):case={for(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">addition(2,NN): {addition}</Word>
+		<Word idx="3">it(4,PRP): {it}</Word>
+		<Word idx="4">have(5,VBZ): {has}</Word>
+		<Word idx="5">4969(6,CD): {4969}</Word>
+		<Word idx="6">bathing(7,NN): {bathing}</Word>
+		<Word idx="7">suit(8,NNS): {suits}</Word>
+		<Word idx="8">for(9,IN): {for}</Word>
+		<Word idx="9">woman(10,NNS): {women}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{overall(7):dobj={bathing(3):amod={many(2):advmod={how(1)}},dep={suit(4)}},cop={be(5)},amod={available(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">bathing(3,NN): {bathing}</Word>
+		<Word idx="4">suit(4,NNS): {suits}</Word>
+		<Word idx="5">be(5,VBP): {are}</Word>
+		<Word idx="6">available(6,JJ): {available}</Word>
+		<Word idx="7">overall(7,JJ): {overall}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

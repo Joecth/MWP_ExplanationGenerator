@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sort(9):nmod={[x2]drive(5):case={during(1)},det={a(2)},amod={can(3)},compound={food(4)}},nsubjpass={item(7)},auxpass={be(8)},nmod={bin(11):case={into(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">during(1,IN): {During}</Word>
+		<Word idx="2">a(2,DT): {a}</Word>
+		<Word idx="3">can(3,VBN): {canned}</Word>
+		<Word idx="4">food(4,NN): {food}</Word>
+		<Word idx="5">drive(5,NN): {drive}</Word>
+		<Word idx="6">item(7,NNS): {items}</Word>
+		<Word idx="7">be(8,VBD): {were}</Word>
+		<Word idx="8">sort(9,VBN): {sorted}</Word>
+		<Word idx="9">into(10,IN): {into}</Word>
+		<Word idx="10">bin(11,NNS): {bins}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{result(3):nsubj={[x2]drive(2):det={the(1)}},nmod={bin(6):case={in(4)},nummod={[x1]0.125(5)},nmod={soup(8):case={of(7)}},conj={bin(11):nummod={[x1]0.125(10)},nmod={vegetable(13):case={of(12)}}},cc={and(15)},conj={bin(17):nummod={0.5(16)},nmod={pasta(19):case={of(18)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">drive(2,NN): {drive}</Word>
+		<Word idx="3">result(3,VBD): {resulted}</Word>
+		<Word idx="4">in(4,IN): {in}</Word>
+		<Word idx="5">0.125(5,CD): {0.125}</Word>
+		<Word idx="6">bin(6,NN): {bin}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">soup(8,NN): {soup}</Word>
+		<Word idx="9">0.125(10,CD): {0.125}</Word>
+		<Word idx="10">bin(11,NN): {bin}</Word>
+		<Word idx="11">of(12,IN): {of}</Word>
+		<Word idx="12">vegetable(13,NNS): {vegetables}</Word>
+		<Word idx="13">and(15,CC): {and}</Word>
+		<Word idx="14">0.5(16,CD): {0.5}</Word>
+		<Word idx="15">bin(17,NN): {bin}</Word>
+		<Word idx="16">of(18,IN): {of}</Word>
+		<Word idx="17">pasta(19,NN): {pasta}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(10):advmod={altogether(1)},csubj={would(6):dep={many(4):advmod={how(3)}},nsubj={bin(5)},xcomp={food(9):det={the(7)},amod={can(8)}}},compound_prt={up(11)}}</SemRep>
+	<WordList>
+		<Word idx="1">altogether(1,RB): {Altogether}</Word>
+		<Word idx="2">how(3,WRB): {how}</Word>
+		<Word idx="3">many(4,JJ): {many}</Word>
+		<Word idx="4">bin(5,NNS): {bins}</Word>
+		<Word idx="5">would(6,MD): {would}</Word>
+		<Word idx="6">the(7,DT): {the}</Word>
+		<Word idx="7">can(8,VBN): {canned}</Word>
+		<Word idx="8">food(9,NN): {food}</Word>
+		<Word idx="9">take(10,VB): {take}</Word>
+		<Word idx="10">up(11,RP): {up}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

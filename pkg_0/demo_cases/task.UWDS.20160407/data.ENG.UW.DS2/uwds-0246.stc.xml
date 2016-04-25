@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{call(11):advcl={hope(1):xcomp={name(4):mark={to(2)},auxpass={be(3)},dobj={salesperson(5):nmod={Month(8):case={of(6)},det={the(7)}}}}},nsubj={[x2]Rosa(10)},dobj={name(13):det={the(12)}},nmod={page(16):case={from(14)},nummod={10.2(15)},nmod={[x3]book(20):case={of(17)},det={the(18)},compound={phone(19)}}},nmod_tmod={[x1]week(22):amod={last(21)}}}</SemRep>
+	<WordList>
+		<Word idx="1">hope(1,VBG): {Hoping}</Word>
+		<Word idx="2">to(2,TO): {to}</Word>
+		<Word idx="3">be(3,VB): {be}</Word>
+		<Word idx="4">name(4,VBN): {named}</Word>
+		<Word idx="5">salesperson(5,NN): {Salesperson}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">Month(8,NNP): {Month}</Word>
+		<Word idx="9">Rosa(10,NNP): {Rosa}</Word>
+		<Word idx="10">call(11,VBD): {called}</Word>
+		<Word idx="11">the(12,DT): {the}</Word>
+		<Word idx="12">name(13,NNS): {names}</Word>
+		<Word idx="13">from(14,IN): {from}</Word>
+		<Word idx="14">10.2(15,CD): {10.2}</Word>
+		<Word idx="15">page(16,NNS): {pages}</Word>
+		<Word idx="16">of(17,IN): {of}</Word>
+		<Word idx="17">the(18,DT): {the}</Word>
+		<Word idx="18">phone(19,NN): {phone}</Word>
+		<Word idx="19">book(20,NN): {book}</Word>
+		<Word idx="20">last(21,JJ): {last}</Word>
+		<Word idx="21">week(22,NN): {week}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{call(5):nmod_tmod={[x1]week(2):det={this(1)}},nsubj={[x2]she(4)},dobj={people(7):det={the(6)},acl={list(8):nmod={page(12):case={on(9)},det={another(10)},nummod={8.6(11)},nmod={[x3]book(17):case={of(13)},det={the(14)},amod={same(15)},compound={phone(16)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">this(1,DT): {This}</Word>
+		<Word idx="2">week(2,NN): {week}</Word>
+		<Word idx="3">she(4,PRP): {she}</Word>
+		<Word idx="4">call(5,VBD): {called}</Word>
+		<Word idx="5">the(6,DT): {the}</Word>
+		<Word idx="6">people(7,NNS): {people}</Word>
+		<Word idx="7">list(8,VBN): {listed}</Word>
+		<Word idx="8">on(9,IN): {on}</Word>
+		<Word idx="9">another(10,DT): {another}</Word>
+		<Word idx="10">8.6(11,CD): {8.6}</Word>
+		<Word idx="11">page(12,NNS): {pages}</Word>
+		<Word idx="12">of(13,IN): {of}</Word>
+		<Word idx="13">the(14,DT): {the}</Word>
+		<Word idx="14">same(15,JJ): {same}</Word>
+		<Word idx="15">phone(16,NN): {phone}</Word>
+		<Word idx="16">book(17,NN): {book}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{call(9):dobj={page(3):amod={many(2):advmod={how(1)}},amod={worth(4):nmod={people(6):case={of(5)}}}},aux={do(7)},nsubj={[x2]Rosa(8)},nmod={all(11):case={in(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">page(3,NNS): {pages}</Word>
+		<Word idx="4">worth(4,NN): {worth}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">people(6,NNS): {people}</Word>
+		<Word idx="7">do(7,VBD): {did}</Word>
+		<Word idx="8">Rosa(8,NNP): {Rosa}</Word>
+		<Word idx="9">call(9,VB): {call}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">all(11,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

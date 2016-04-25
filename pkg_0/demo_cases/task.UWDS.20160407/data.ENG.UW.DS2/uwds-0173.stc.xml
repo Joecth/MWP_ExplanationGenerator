@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{blue(5):nsubj={[x1]Lake(2):compound={Milford(1)}},cop={be(3)},advmod={originally(4)},advcl={have(9):mark={because(6)},nsubj={[x1]it(7)},advmod={only(8)},dobj={plant(12):nummod={809(10)},compound={algae(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Milford(1,NNP): {Milford}</Word>
+		<Word idx="2">Lake(2,NNP): {Lake}</Word>
+		<Word idx="3">be(3,VBD): {was}</Word>
+		<Word idx="4">originally(4,RB): {originally}</Word>
+		<Word idx="5">blue(5,JJ): {blue}</Word>
+		<Word idx="6">because(6,IN): {because}</Word>
+		<Word idx="7">it(7,PRP): {it}</Word>
+		<Word idx="8">only(8,RB): {only}</Word>
+		<Word idx="9">have(9,VBD): {had}</Word>
+		<Word idx="10">809(10,CD): {809}</Word>
+		<Word idx="11">algae(11,NN): {algae}</Word>
+		<Word idx="12">plant(12,NNS): {plants}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(3):advmod={now(1)},expl={there(2)},nsubj={plant(6):nummod={3263(4)},compound={alga(5)}},cc={and(8)},conj={turn(12):nsubj={[x1]lake(10):det={the(9)}},aux={have(11)},xcomp={green(13)}}}</SemRep>
+	<WordList>
+		<Word idx="1">now(1,RB): {Now}</Word>
+		<Word idx="2">there(2,EX): {there}</Word>
+		<Word idx="3">be(3,VBP): {are}</Word>
+		<Word idx="4">3263(4,CD): {3263}</Word>
+		<Word idx="5">alga(5,NNS): {algae}</Word>
+		<Word idx="6">plant(6,NNS): {plants}</Word>
+		<Word idx="7">and(8,CC): {and}</Word>
+		<Word idx="8">the(9,DT): {the}</Word>
+		<Word idx="9">lake(10,NN): {lake}</Word>
+		<Word idx="10">have(11,VBZ): {has}</Word>
+		<Word idx="11">turn(12,VBN): {turned}</Word>
+		<Word idx="12">green(13,JJ): {green}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(6):nsubj={algae(4):amod={many(2):advmod={how(1)}},amod={more(3)},dep={plant(5)}},nmod={[x1]Lake(9):case={in(7)},compound={Milford(8)},advmod={now(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">more(3,JJR): {more}</Word>
+		<Word idx="4">algae(4,NN): {algae}</Word>
+		<Word idx="5">plant(5,NNS): {plants}</Word>
+		<Word idx="6">be(6,VBP): {are}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">Milford(8,NNP): {Milford}</Word>
+		<Word idx="9">Lake(9,NNP): {Lake}</Word>
+		<Word idx="10">now(10,RB): {now}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,425 @@
+::evaluate(data.gold.UW.DS2/uwds-0135.ie.xml,data.ENG.UW.DS2/uwds-0135.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0135.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0136.ie.xml,data.ENG.UW.DS2/uwds-0136.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0136.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0137.ie.xml,data.ENG.UW.DS2/uwds-0137.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0137.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0138.ie.xml,data.ENG.UW.DS2/uwds-0138.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0138.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0139.ie.xml,data.ENG.UW.DS2/uwds-0139.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0139.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0140.ie.xml,data.ENG.UW.DS2/uwds-0140.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0140.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0141.ie.xml,data.ENG.UW.DS2/uwds-0141.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0141.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0142.ie.xml,data.ENG.UW.DS2/uwds-0142.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0142.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0143.ie.xml,data.ENG.UW.DS2/uwds-0143.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0143.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0144.ie.xml,data.ENG.UW.DS2/uwds-0144.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0144.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0145.ie.xml,data.ENG.UW.DS2/uwds-0145.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0145.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0146.ie.xml,data.ENG.UW.DS2/uwds-0146.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0146.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0147.ie.xml,data.ENG.UW.DS2/uwds-0147.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0147.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0148.ie.xml,data.ENG.UW.DS2/uwds-0148.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0148.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0149.ie.xml,data.ENG.UW.DS2/uwds-0149.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0149.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0150.ie.xml,data.ENG.UW.DS2/uwds-0150.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0150.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0151.ie.xml,data.ENG.UW.DS2/uwds-0151.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0151.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0152.ie.xml,data.ENG.UW.DS2/uwds-0152.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0152.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0153.ie.xml,data.ENG.UW.DS2/uwds-0153.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0153.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0154.ie.xml,data.ENG.UW.DS2/uwds-0154.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0154.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0155.ie.xml,data.ENG.UW.DS2/uwds-0155.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0155.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0156.ie.xml,data.ENG.UW.DS2/uwds-0156.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0156.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0157.ie.xml,data.ENG.UW.DS2/uwds-0157.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0157.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0158.ie.xml,data.ENG.UW.DS2/uwds-0158.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0158.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0159.ie.xml,data.ENG.UW.DS2/uwds-0159.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0159.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0160.ie.xml,data.ENG.UW.DS2/uwds-0160.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0160.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0161.ie.xml,data.ENG.UW.DS2/uwds-0161.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0161.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0162.ie.xml,data.ENG.UW.DS2/uwds-0162.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0162.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0163.ie.xml,data.ENG.UW.DS2/uwds-0163.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0163.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0164.ie.xml,data.ENG.UW.DS2/uwds-0164.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0164.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0165.ie.xml,data.ENG.UW.DS2/uwds-0165.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0165.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0166.ie.xml,data.ENG.UW.DS2/uwds-0166.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0166.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0167.ie.xml,data.ENG.UW.DS2/uwds-0167.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0167.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0168.ie.xml,data.ENG.UW.DS2/uwds-0168.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0168.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0169.ie.xml,data.ENG.UW.DS2/uwds-0169.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0169.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0170.ie.xml,data.ENG.UW.DS2/uwds-0170.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0170.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0171.ie.xml,data.ENG.UW.DS2/uwds-0171.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0171.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0172.ie.xml,data.ENG.UW.DS2/uwds-0172.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0172.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0173.ie.xml,data.ENG.UW.DS2/uwds-0173.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0173.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0174.ie.xml,data.ENG.UW.DS2/uwds-0174.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0174.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0175.ie.xml,data.ENG.UW.DS2/uwds-0175.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0175.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0176.ie.xml,data.ENG.UW.DS2/uwds-0176.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0176.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0177.ie.xml,data.ENG.UW.DS2/uwds-0177.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0177.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0178.ie.xml,data.ENG.UW.DS2/uwds-0178.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0178.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0179.ie.xml,data.ENG.UW.DS2/uwds-0179.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0179.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0180.ie.xml,data.ENG.UW.DS2/uwds-0180.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0180.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0181.ie.xml,data.ENG.UW.DS2/uwds-0181.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0181.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0182.ie.xml,data.ENG.UW.DS2/uwds-0182.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0182.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0183.ie.xml,data.ENG.UW.DS2/uwds-0183.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0183.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0184.ie.xml,data.ENG.UW.DS2/uwds-0184.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0184.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0185.ie.xml,data.ENG.UW.DS2/uwds-0185.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0185.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0186.ie.xml,data.ENG.UW.DS2/uwds-0186.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0186.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0187.ie.xml,data.ENG.UW.DS2/uwds-0187.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0187.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0188.ie.xml,data.ENG.UW.DS2/uwds-0188.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0188.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0189.ie.xml,data.ENG.UW.DS2/uwds-0189.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0189.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0190.ie.xml,data.ENG.UW.DS2/uwds-0190.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0190.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0191.ie.xml,data.ENG.UW.DS2/uwds-0191.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0191.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0192.ie.xml,data.ENG.UW.DS2/uwds-0192.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0192.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0193.ie.xml,data.ENG.UW.DS2/uwds-0193.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0193.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0194.ie.xml,data.ENG.UW.DS2/uwds-0194.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0194.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0195.ie.xml,data.ENG.UW.DS2/uwds-0195.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0195.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0196.ie.xml,data.ENG.UW.DS2/uwds-0196.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0196.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0197.ie.xml,data.ENG.UW.DS2/uwds-0197.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0197.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0198.ie.xml,data.ENG.UW.DS2/uwds-0198.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0198.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0199.ie.xml,data.ENG.UW.DS2/uwds-0199.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0199.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0200.ie.xml,data.ENG.UW.DS2/uwds-0200.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0200.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0201.ie.xml,data.ENG.UW.DS2/uwds-0201.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0201.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0202.ie.xml,data.ENG.UW.DS2/uwds-0202.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0202.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0203.ie.xml,data.ENG.UW.DS2/uwds-0203.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0203.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0204.ie.xml,data.ENG.UW.DS2/uwds-0204.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0204.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0205.ie.xml,data.ENG.UW.DS2/uwds-0205.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0205.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0206.ie.xml,data.ENG.UW.DS2/uwds-0206.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0206.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0207.ie.xml,data.ENG.UW.DS2/uwds-0207.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0207.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0208.ie.xml,data.ENG.UW.DS2/uwds-0208.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0208.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0209.ie.xml,data.ENG.UW.DS2/uwds-0209.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0209.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0210.ie.xml,data.ENG.UW.DS2/uwds-0210.ie.xml)
+INCONSISTENT Q[0]  Gold: <ANS>0.4</ANS>  Eval: <ANS>0.1</ANS>
+::evaluate(data.gold.UW.DS2/uwds-0211.ie.xml,data.ENG.UW.DS2/uwds-0211.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0211.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0212.ie.xml,data.ENG.UW.DS2/uwds-0212.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0212.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0213.ie.xml,data.ENG.UW.DS2/uwds-0213.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0213.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0214.ie.xml,data.ENG.UW.DS2/uwds-0214.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0214.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0215.ie.xml,data.ENG.UW.DS2/uwds-0215.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0215.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0216.ie.xml,data.ENG.UW.DS2/uwds-0216.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0216.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0217.ie.xml,data.ENG.UW.DS2/uwds-0217.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0217.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0218.ie.xml,data.ENG.UW.DS2/uwds-0218.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0218.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0219.ie.xml,data.ENG.UW.DS2/uwds-0219.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0219.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0220.ie.xml,data.ENG.UW.DS2/uwds-0220.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0220.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0221.ie.xml,data.ENG.UW.DS2/uwds-0221.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0221.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0222.ie.xml,data.ENG.UW.DS2/uwds-0222.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0222.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0223.ie.xml,data.ENG.UW.DS2/uwds-0223.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0223.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0224.ie.xml,data.ENG.UW.DS2/uwds-0224.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0224.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0225.ie.xml,data.ENG.UW.DS2/uwds-0225.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0225.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0226.ie.xml,data.ENG.UW.DS2/uwds-0226.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0226.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0227.ie.xml,data.ENG.UW.DS2/uwds-0227.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0227.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0228.ie.xml,data.ENG.UW.DS2/uwds-0228.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0228.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0229.ie.xml,data.ENG.UW.DS2/uwds-0229.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0229.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0230.ie.xml,data.ENG.UW.DS2/uwds-0230.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0230.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0231.ie.xml,data.ENG.UW.DS2/uwds-0231.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0231.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0232.ie.xml,data.ENG.UW.DS2/uwds-0232.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0232.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0233.ie.xml,data.ENG.UW.DS2/uwds-0233.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0233.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0234.ie.xml,data.ENG.UW.DS2/uwds-0234.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0234.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0235.ie.xml,data.ENG.UW.DS2/uwds-0235.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0235.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0236.ie.xml,data.ENG.UW.DS2/uwds-0236.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0236.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0237.ie.xml,data.ENG.UW.DS2/uwds-0237.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0237.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0238.ie.xml,data.ENG.UW.DS2/uwds-0238.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0238.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0239.ie.xml,data.ENG.UW.DS2/uwds-0239.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0239.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0240.ie.xml,data.ENG.UW.DS2/uwds-0240.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0240.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0241.ie.xml,data.ENG.UW.DS2/uwds-0241.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0241.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0242.ie.xml,data.ENG.UW.DS2/uwds-0242.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0242.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0243.ie.xml,data.ENG.UW.DS2/uwds-0243.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0243.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0244.ie.xml,data.ENG.UW.DS2/uwds-0244.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0244.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0245.ie.xml,data.ENG.UW.DS2/uwds-0245.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0245.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0246.ie.xml,data.ENG.UW.DS2/uwds-0246.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0246.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0247.ie.xml,data.ENG.UW.DS2/uwds-0247.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0247.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0248.ie.xml,data.ENG.UW.DS2/uwds-0248.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0248.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0249.ie.xml,data.ENG.UW.DS2/uwds-0249.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0249.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0250.ie.xml,data.ENG.UW.DS2/uwds-0250.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0250.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0251.ie.xml,data.ENG.UW.DS2/uwds-0251.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0251.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0252.ie.xml,data.ENG.UW.DS2/uwds-0252.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0252.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0253.ie.xml,data.ENG.UW.DS2/uwds-0253.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0253.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0254.ie.xml,data.ENG.UW.DS2/uwds-0254.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0254.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0255.ie.xml,data.ENG.UW.DS2/uwds-0255.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0255.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0256.ie.xml,data.ENG.UW.DS2/uwds-0256.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0256.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0257.ie.xml,data.ENG.UW.DS2/uwds-0257.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0257.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0258.ie.xml,data.ENG.UW.DS2/uwds-0258.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0258.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0259.ie.xml,data.ENG.UW.DS2/uwds-0259.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0259.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0260.ie.xml,data.ENG.UW.DS2/uwds-0260.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0260.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0261.ie.xml,data.ENG.UW.DS2/uwds-0261.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0261.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0263.ie.xml,data.ENG.UW.DS2/uwds-0263.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0263.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0264.ie.xml,data.ENG.UW.DS2/uwds-0264.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0264.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0265.ie.xml,data.ENG.UW.DS2/uwds-0265.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0265.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0266.ie.xml,data.ENG.UW.DS2/uwds-0266.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0266.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0267.ie.xml,data.ENG.UW.DS2/uwds-0267.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0267.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0268.ie.xml,data.ENG.UW.DS2/uwds-0268.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0268.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0269.ie.xml,data.ENG.UW.DS2/uwds-0269.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0269.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0270.ie.xml,data.ENG.UW.DS2/uwds-0270.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0270.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0271.ie.xml,data.ENG.UW.DS2/uwds-0271.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0271.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0272.ie.xml,data.ENG.UW.DS2/uwds-0272.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0272.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0273.ie.xml,data.ENG.UW.DS2/uwds-0273.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0273.ie.xml
+::evaluate(data.gold.UW.DS2/uwds-0274.ie.xml,data.ENG.UW.DS2/uwds-0274.ie.xml)
+CORRECT
+____CORRECT MWP: data.ENG.UW.DS2/uwds-0274.ie.xml
+------------------------------------------------
+# of MWPs: 139
+  # of correct MWPs: 138 (99.28%)
+  # of incorrect MWPs: 1
+
+
+  topN statistic
+------------------------------------------------
+	top-1	138	138	99.28%

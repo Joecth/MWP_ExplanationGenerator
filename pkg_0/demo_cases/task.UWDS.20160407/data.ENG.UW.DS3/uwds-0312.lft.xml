@@ -1,0 +1,135 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 be)
+		(s1w1 there)
+		(s1w5 tree)
+		(s1w3 42)
+		(s1w4 walnut)
+		(s1w6 and)
+		(s1w9 tree)
+		(s1w7 12)
+		(s1w8 orange)
+		(s1w10 currently)
+		(s1w13 park)
+		(s1w11 in)
+		(s1w12 the)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(expl v1 s1w1)
+		(nsubj v1 n1)
+		(head n1 s1w5)
+		(nummod n1 s1w3)
+		(compound n1 n6)
+		(head n6 s1w4)
+		(cj_op j1 and)
+		(conj n1 n2)
+		(head n2 s1w9)
+		(nummod n2 s1w7)
+		(amod n2 s1w8)
+		(advmod v1 s1w10)
+		(nmod v1 n8)
+		(head n8 s1w13)
+		(case n8 s1w11)
+		(det n8 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w5) 42)(verb q2 s1w2)(role q2 nsubj)
+		(= (quan q4 # s1w9) 12)(verb q4 s1w2)(role q4 conj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 have)
+		(s2w2 worker)
+		(s2w1 Park)
+		(s2w5 cut)
+		(s2w4 to)
+		(s2w6 down)
+		(s2w9 tree)
+		(s2w7 13)
+		(s2w8 walnut)
+		(s2w12 damage)
+		(s2w10 that)
+		(s2w11 be)
+	)
+
+	(LF1
+		(HEAD v2 s2w3)
+		(nsubj v2 n9)
+		(head n9 s2w2)
+		(compound n9 n10)
+		(head n10 s2w1)
+		(verb v2 s2w5)
+		(mark v2 s2w4)
+		(compound_prt v2 s2w6)
+		(dobj v2 n3)
+		(head n3 s2w9)
+		(nummod n3 s2w7)
+		(compound n3 n12)
+		(head n12 s2w8)
+		(acl_relcl n3 s2w12)
+		(nsubjpass n3 s2w10)
+		(auxpass n3 s2w11)
+	)
+
+	(LF2
+		(= (quan q6 # s2w9) 13)(verb q6 s2w5)(role q6 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 park)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 tree)
+		(s3w3 walnut)
+		(s3w5 will)
+		(s3w6 be)
+		(s3w7 in)
+		(s3w8 the)
+		(s3w14 finish)
+		(s3w10 when)
+		(s3w12 worker)
+		(s3w11 the)
+		(s3w13 be)
+	)
+
+	(LF1
+		(head n13 s3w9)
+		(dep n13 s3w2)
+		(advmod n13 s3w1)
+		(nsubj n13 n4)
+		(head n4 s3w4)
+		(compound n4 n15)
+		(head n15 s3w3)
+		(aux n13 s3w5)
+		(verb n13 s3w6)
+		(case n13 s3w7)
+		(det n13 s3w8)
+		(advcl n13 s3w14)
+		(advmod n13 s3w10)
+		(nsubjpass n13 n16)
+		(head n16 s3w12)
+		(det n16 s3w11)
+		(auxpass n13 s3w13)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s1w5) (quan q6 # s2w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

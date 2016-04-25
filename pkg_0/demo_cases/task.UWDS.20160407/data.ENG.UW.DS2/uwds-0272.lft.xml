@@ -1,0 +1,114 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w14 lose)
+		(s1w2 truck)
+		(s1w1 a)
+		(s1w3 carry)
+		(s1w5 pound)
+		(s1w4 4.1)
+		(s1w8 travels)
+		(s1w6 of)
+		(s1w7 sand)
+		(s1w12 yard)
+		(s1w9 to)
+		(s1w10 a)
+		(s1w11 construction)
+		(s1w13 and)
+		(s1w16 pound)
+		(s1w15 2.4)
+		(s1w18 sand)
+		(s1w17 of)
+		(s1w21 way)
+		(s1w19 along)
+		(s1w20 the)
+	)
+
+	(LF1
+		(verb v1 s1w14)
+		(nsubj v1 n4)
+		(head n4 s1w2)
+		(det n4 s1w1)
+		(verb n4 s1w3)
+		(dobj n4 n5)
+		(head n5 s1w5)
+		(nummod n5 s1w4)
+		(nmod n5 n1)
+		(head n1 s1w8)
+		(case n1 s1w6)
+		(compound n1 n7)
+		(head n7 s1w7)
+		(nmod n1 n8)
+		(head n8 s1w12)
+		(case n8 s1w9)
+		(det n8 s1w10)
+		(compound n8 n9)
+		(head n9 s1w11)
+		(cj_op j1 and)
+		(dobj v1 n10)
+		(head n10 s1w16)
+		(nummod n10 s1w15)
+		(nmod n10 n2)
+		(head n2 s1w18)
+		(case n2 s1w17)
+		(nmod n2 n12)
+		(head n12 s1w21)
+		(case n12 s1w19)
+		(det n12 s1w20)
+	)
+
+	(LF2
+		(= (quan q2 s1w5 s1w8) 4.1)(verb q2 s1w3)(role q2 nmod)
+		(= (quan q4 s1w16 s1w18) 2.4)(verb q4 s1w14)(role q4 nmod)
+		(q_map m1 q2 q4)(verb m1 s1w14)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w7 have)
+		(s2w3 sand)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w4 do)
+		(s2w6 truck)
+		(s2w5 the)
+		(s2w10 arrive)
+		(s2w8 when)
+		(s2w9 it)
+		(s2w13 yard)
+		(s2w11 at)
+		(s2w12 the)
+	)
+
+	(LF1
+		(verb v2 s2w7)
+		(dobj v2 n3)
+		(head n3 s2w3)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(aux v2 s2w4)
+		(nsubj v2 n14)
+		(head n14 s2w6)
+		(det n14 s2w5)
+		(advcl v2 s2w10)
+		(advmod v2 s2w8)
+		(nsubj v2 s2w9)
+		(nmod v2 n15)
+		(head n15 s2w13)
+		(case n15 s2w11)
+		(det n15 s2w12)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w5 s1w8) (quan q4 s1w16 s1w18)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

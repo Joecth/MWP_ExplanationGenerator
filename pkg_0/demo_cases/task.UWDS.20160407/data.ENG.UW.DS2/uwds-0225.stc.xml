@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(5):nmod_tmod={Saturday(2):amod={last(1)}},nsubj={[x1]Spencer(4)},dobj={all(6):nmod={errand(10):case={over(7)},compound={town(8)},amod={run(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">last(1,JJ): {Last}</Word>
+		<Word idx="2">Saturday(2,NNP): {Saturday}</Word>
+		<Word idx="3">Spencer(4,NNP): {Spencer}</Word>
+		<Word idx="4">walk(5,VBD): {walked}</Word>
+		<Word idx="5">all(6,DT): {all}</Word>
+		<Word idx="6">over(7,IN): {over}</Word>
+		<Word idx="7">town(8,NN): {town}</Word>
+		<Word idx="8">run(9,VBG): {running}</Word>
+		<Word idx="9">errand(10,NNS): {errands}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(4):advmod={first(1)},nsubj={[x1]he(3)},dobj={mile(6):nummod={0.3(5)}},nmod={house(9):case={from(7)},nmod_poss={[x1]he(8)},nmod={library(12):case={to(10)},det={the(11)},cc={and(13)},conj={mile(15):nummod={0.1(14)}}}},nmod={library(18):case={from(16)},det={the(17)},nmod={[x2]office(22):case={to(19)},det={the(20)},compound={post(21)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">first(1,RB): {First}</Word>
+		<Word idx="2">he(3,PRP): {he}</Word>
+		<Word idx="3">walk(4,VBD): {walked}</Word>
+		<Word idx="4">0.3(5,CD): {0.3}</Word>
+		<Word idx="5">mile(6,NN): {mile}</Word>
+		<Word idx="6">from(7,IN): {from}</Word>
+		<Word idx="7">he(8,PRPS): {his}</Word>
+		<Word idx="8">house(9,NN): {house}</Word>
+		<Word idx="9">to(10,TO): {to}</Word>
+		<Word idx="10">the(11,DT): {the}</Word>
+		<Word idx="11">library(12,NN): {library}</Word>
+		<Word idx="12">and(13,CC): {and}</Word>
+		<Word idx="13">0.1(14,CD): {0.1}</Word>
+		<Word idx="14">mile(15,NN): {mile}</Word>
+		<Word idx="15">from(16,IN): {from}</Word>
+		<Word idx="16">the(17,DT): {the}</Word>
+		<Word idx="17">library(18,NN): {library}</Word>
+		<Word idx="18">to(19,TO): {to}</Word>
+		<Word idx="19">the(20,DT): {the}</Word>
+		<Word idx="20">post(21,NN): {post}</Word>
+		<Word idx="21">office(22,NN): {office}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(3):advmod={then(1)},nsubj={[x1]he(2)},dobj={mile(5):nummod={0.4(4)}},nmod={[x2]office(9):case={from(6)},det={the(7)},compound={post(8)}},advmod={back(10):dep={home(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">then(1,RB): {Then}</Word>
+		<Word idx="2">he(2,PRP): {he}</Word>
+		<Word idx="3">walk(3,VBD): {walked}</Word>
+		<Word idx="4">0.4(4,CD): {0.4}</Word>
+		<Word idx="5">mile(5,NN): {mile}</Word>
+		<Word idx="6">from(6,IN): {from}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">post(8,NN): {post}</Word>
+		<Word idx="9">office(9,NN): {office}</Word>
+		<Word idx="10">back(10,RB): {back}</Word>
+		<Word idx="11">home(11,NN): {home}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(6):dobj={mile(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Spencer(5)},nmod={all(8):case={in(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">mile(3,NNS): {miles}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Spencer(5,NNP): {Spencer}</Word>
+		<Word idx="6">walk(6,VB): {walk}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">all(8,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">TimeVariantUnknownFinal</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

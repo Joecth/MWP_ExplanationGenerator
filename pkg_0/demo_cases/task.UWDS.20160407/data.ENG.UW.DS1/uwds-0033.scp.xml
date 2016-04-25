@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(2):nsubj={Tom(1)},ccomp={find(7):nsubj={[x1]seashell(4):nummod={15(3)},cc={and(5)},conj={Fred(6)}},dobj={seashell(9):nummod={43(8)}},nmod={beach(12):case={on(10)},det={the(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Tom(1,NNP): {Tom}</Word>
+		<Word idx="2">find(2,VBD): {found}</Word>
+		<Word idx="3">15(3,CD): {15}</Word>
+		<Word idx="4">seashell(4,NNS): {seashells}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">Fred(6,NNP): {Fred}</Word>
+		<Word idx="7">find(7,VBD): {found}</Word>
+		<Word idx="8">43(8,CD): {43}</Word>
+		<Word idx="9">seashell(9,NNS): {seashells}</Word>
+		<Word idx="10">on(10,IN): {on}</Word>
+		<Word idx="11">the(11,DT): {the}</Word>
+		<Word idx="12">beach(12,NN): {beach}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{discover(7):advcl={clean(3):advmod={when(1)},nsubj={[x1]they(2)},dobj={[x1]they(4)}},nsubj={[x1]they(6)},ccomp={crack(11):mark={that(8)},nsubjpass={29(9)},auxpass={be(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">when(1,WRB): {When}</Word>
+		<Word idx="2">they(2,PRP): {they}</Word>
+		<Word idx="3">clean(3,VBD): {cleaned}</Word>
+		<Word idx="4">they(4,PRP): {them}</Word>
+		<Word idx="5">they(6,PRP): {they}</Word>
+		<Word idx="6">discover(7,VBD): {discovered}</Word>
+		<Word idx="7">that(8,IN): {that}</Word>
+		<Word idx="8">29(9,CD): {29}</Word>
+		<Word idx="9">be(10,VBD): {were}</Word>
+		<Word idx="10">crack(11,VBN): {cracked}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(4):dep={many(2):advmod={how(1)}},nsubj={seashell(3)},ccomp={find(6):nsubj={[x1]they(5)},advmod={together(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">seashell(3,NNS): {seashells}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">find(6,VBP): {find}</Word>
+		<Word idx="7">together(7,RB): {together}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

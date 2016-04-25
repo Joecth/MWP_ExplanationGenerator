@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pour(7):nmod={day(4):case={on(1)},det={a(2)},amod={hot(3)}},nsubj={[x1]Sam(6)},dobj={bucket(9):nummod={1(8)},nmod={water(11):case={of(10)}}},nmod={[x2]pool(16):case={into(12)},det={a(13)},compound={plastic(14)},amod={wade(15)}}}</SemRep>
+	<WordList>
+		<Word idx="1">on(1,IN): {On}</Word>
+		<Word idx="2">a(2,DT): {a}</Word>
+		<Word idx="3">hot(3,JJ): {hot}</Word>
+		<Word idx="4">day(4,NN): {day}</Word>
+		<Word idx="5">Sam(6,NNP): {Sam}</Word>
+		<Word idx="6">pour(7,VBD): {poured}</Word>
+		<Word idx="7">1(8,CD): {1}</Word>
+		<Word idx="8">bucket(9,NN): {bucket}</Word>
+		<Word idx="9">of(10,IN): {of}</Word>
+		<Word idx="10">water(11,NN): {water}</Word>
+		<Word idx="11">into(12,IN): {into}</Word>
+		<Word idx="12">a(13,DT): {a}</Word>
+		<Word idx="13">plastic(14,NN): {plastic}</Word>
+		<Word idx="14">wade(15,VBG): {wading}</Word>
+		<Word idx="15">pool(16,NN): {pool}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{add(6):advmod={later(4):nmod_npmod={minute(3):det={a(1)},amod={few(2)}}},nsubj={[x1]he(5)},dobj={bucket(9):nummod={8.8(8):advmod={another(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">few(2,JJ): {few}</Word>
+		<Word idx="3">minute(3,NNS): {minutes}</Word>
+		<Word idx="4">later(4,RB): {later}</Word>
+		<Word idx="5">he(5,PRP): {he}</Word>
+		<Word idx="6">add(6,VBD): {added}</Word>
+		<Word idx="7">another(7,DT): {another}</Word>
+		<Word idx="8">8.8(8,CD): {8.8}</Word>
+		<Word idx="9">bucket(9,NNS): {buckets}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pour(6):dobj={water(3):amod={much(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Sam(5)},nmod={[x2]pool(9):case={into(7)},det={the(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">water(3,NN): {water}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Sam(5,NNP): {Sam}</Word>
+		<Word idx="6">pour(6,VBP): {pour}</Word>
+		<Word idx="7">into(7,IN): {into}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">pool(9,NN): {pool}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

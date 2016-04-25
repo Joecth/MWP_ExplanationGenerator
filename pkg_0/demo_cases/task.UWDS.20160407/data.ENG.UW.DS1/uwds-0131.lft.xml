@@ -1,0 +1,127 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 go)
+		(s1w1 Sandy)
+		(s1w5 mall)
+		(s1w3 to)
+		(s1w4 the)
+		(s1w7 buy)
+		(s1w6 to)
+		(s1w8 clothes)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(nmod v1 n5)
+		(head n5 s1w5)
+		(case n5 s1w3)
+		(det n5 s1w4)
+		(xcomp v1 s1w7)
+		(mark v1 s1w6)
+		(dobj v1 n6)
+		(head n6 s1w8)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 spend)
+		(s2w1 she)
+		(s2w4 13.99)
+		(s2w3 USD)
+		(s2w6 shorts)
+		(s2w5 on)
+		(s2w8 12.14)
+		(s2w7 USD)
+		(s2w11 shirt)
+		(s2w9 on)
+		(s2w10 a)
+		(s2w12 and)
+		(s2w14 7.43)
+		(s2w13 USD)
+		(s2w17 jacket)
+		(s2w15 on)
+		(s2w16 a)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 s2w4)
+		(dep v2 n1)
+		(head n1 s2w3)
+		(nmod v2 n7)
+		(head n7 s2w6)
+		(case n7 s2w5)
+		(conj v2 s2w8)
+		(dep v2 n2)
+		(head n2 s2w7)
+		(nmod v2 n8)
+		(head n8 s2w11)
+		(case n8 s2w9)
+		(det n8 s2w10)
+		(cj_op j1 and)
+		(conj v2 s2w14)
+		(dep v2 n3)
+		(head n3 s2w13)
+		(nmod v2 n9)
+		(head n9 s2w17)
+		(case n9 s2w15)
+		(det n9 s2w16)
+	)
+
+	(LF2
+		(= (quan q2 # s2w3) 13.99)(verb q2 s2w2)(role q2 dep)
+		(= (quan q4 # s2w7) 12.14)(verb q4 s2w2)(role q4 dep)
+		(= (quan q6 # s2w13) 7.43)(verb q6 s2w2)(role q6 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 spend)
+		(s3w3 money)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w4 do)
+		(s3w5 Sandy)
+		(s3w8 clothes)
+		(s3w7 on)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dobj v3 n10)
+		(head n10 s3w3)
+		(amod n10 s3w2)
+		(advmod n10 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n11)
+		(head n11 s3w5)
+		(nmod v3 n12)
+		(head n12 s3w8)
+		(case n12 s3w7)
+	)
+
+	(LF2
+		
+		(= (quan q2 # s2w3) 13.99) (= (tvq v1 # s2w3 t0) (quan q2 # s2w3))
+		(= (quan q4 # s2w7) 12.14) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 # s2w13) 7.43) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 # s2w13 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pay(2):nsubj={[x1]Sally(1)},dobj={USD(3):compound={12.32(4)},dep={total(5)}},nmod={peach(7):case={for(6)}},nmod={coupon(13):case={after(9)},det={a(10)},amod={dollar(12):compound={3(11)}},cc={and(15)},conj={11.54(17):dep={USD(16)},nmod={cherry(19):case={for(18)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Sally(1,NNP): {Sally}</Word>
+		<Word idx="2">pay(2,VBD): {paid}</Word>
+		<Word idx="3">USD(3,USD): {USD}</Word>
+		<Word idx="4">12.32(4,CD): {12.32}</Word>
+		<Word idx="5">total(5,NN): {total}</Word>
+		<Word idx="6">for(6,IN): {for}</Word>
+		<Word idx="7">peach(7,NNS): {peaches}</Word>
+		<Word idx="8">after(9,IN): {after}</Word>
+		<Word idx="9">a(10,DT): {a}</Word>
+		<Word idx="10">3(11,CD): {3}</Word>
+		<Word idx="11">dollar(12,NN): {dollar}</Word>
+		<Word idx="12">coupon(13,NN): {coupon}</Word>
+		<Word idx="13">and(15,CC): {and}</Word>
+		<Word idx="14">USD(16,USD): {USD}</Word>
+		<Word idx="15">11.54(17,CD): {11.54}</Word>
+		<Word idx="16">for(18,IN): {for}</Word>
+		<Word idx="17">cherry(19,NNS): {cherries}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(9):nmod={total(2):case={in(1)}},dobj={money(6):amod={much(5):advmod={how(4)}}},aux={do(7)},nsubj={[x1]Sally(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">total(2,NN): {total}</Word>
+		<Word idx="3">how(4,WRB): {how}</Word>
+		<Word idx="4">much(5,JJ): {much}</Word>
+		<Word idx="5">money(6,NN): {money}</Word>
+		<Word idx="6">do(7,VBD): {did}</Word>
+		<Word idx="7">Sally(8,NNP): {Sally}</Word>
+		<Word idx="8">spend(9,VB): {spend}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

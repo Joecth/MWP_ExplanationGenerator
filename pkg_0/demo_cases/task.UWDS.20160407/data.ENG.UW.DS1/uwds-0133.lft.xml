@@ -1,0 +1,108 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 purchase)
+		(s1w1 Tom)
+		(s1w5 game)
+		(s1w3 a)
+		(s1w4 football)
+		(s1w8 14.02)
+		(s1w6 for)
+		(s1w7 USD)
+		(s1w11 game)
+		(s1w9 a)
+		(s1w10 strategy)
+		(s1w14 9.46)
+		(s1w12 for)
+		(s1w13 USD)
+		(s1w15 and)
+		(s1w18 game)
+		(s1w16 a)
+		(s1w17 Batman)
+		(s1w21 12.04)
+		(s1w19 for)
+		(s1w20 USD)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w5)
+		(det n5 s1w3)
+		(compound n5 n6)
+		(head n6 s1w4)
+		(nmod n5 s1w8)
+		(case n5 s1w6)
+		(dep n5 n1)
+		(head n1 s1w7)
+		(conj n5 n7)
+		(head n7 s1w11)
+		(det n7 s1w9)
+		(compound n7 n8)
+		(head n8 s1w10)
+		(nmod n7 s1w14)
+		(case n7 s1w12)
+		(dep n7 n2)
+		(head n2 s1w13)
+		(cj_op j1 and)
+		(conj n5 n9)
+		(head n9 s1w18)
+		(det n9 s1w16)
+		(compound n9 n10)
+		(head n10 s1w17)
+		(nmod n9 s1w21)
+		(case n9 s1w19)
+		(dep n9 n3)
+		(head n3 s1w20)
+	)
+
+	(LF2
+		(= (quan q2 # s1w7) 14.02)(verb q2 s1w2)(role q2 dep)
+		(= (quan q4 # s1w13) 9.46)(verb q4 s1w2)(role q4 dep)
+		(= (quan q6 # s1w20) 12.04)(verb q6 s1w2)(role q6 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w5 spend)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w3 do)
+		(s2w4 Tom)
+		(s2w8 game)
+		(s2w6 on)
+		(s2w7 video)
+	)
+
+	(LF1
+		(verb v2 s2w5)
+		(dep v2 s2w2)
+		(advmod v2 s2w1)
+		(aux v2 s2w3)
+		(nsubj v2 n11)
+		(head n11 s2w4)
+		(nmod v2 n12)
+		(head n12 s2w8)
+		(case n12 s2w6)
+		(compound n12 n13)
+		(head n13 s2w7)
+	)
+
+	(LF2
+		
+		(= (quan q2 # s1w7) 14.02) (= (tvq v1 # s1w7 t0) (quan q2 # s1w7))
+		(= (quan q4 # s1w13) 9.46) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 # s1w20) 12.04) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 # s1w20 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

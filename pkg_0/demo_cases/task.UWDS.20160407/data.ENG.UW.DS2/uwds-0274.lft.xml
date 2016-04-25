@@ -1,0 +1,109 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 buy)
+		(s1w2 carpenter)
+		(s1w1 a)
+		(s1w5 piece)
+		(s1w4 a)
+		(s1w7 wood)
+		(s1w6 of)
+		(s1w9 be)
+		(s1w8 that)
+		(s1w12 long)
+		(s1w11 centimeter)
+		(s1w10 8.9)
+	)
+
+	(LF1
+		(HEAD v1 s1w3)
+		(nsubj v1 n3)
+		(head n3 s1w2)
+		(det n3 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w5)
+		(det n4 s1w4)
+		(nmod n4 n5)
+		(head n5 s1w7)
+		(case n5 s1w6)
+		(verb n4 s1w9)
+		(nsubj n4 s1w8)
+		(advmod n4 s1w12)
+		(nmod_npmod n4 n1)
+		(head n1 s1w11)
+		(nummod n1 s1w10)
+	)
+
+	(LF2
+		(= (quan q2 # s1w11) 8.9)(verb q2 s1w9)(role q2 nmod_npmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 saw)
+		(s2w1 then)
+		(s2w2 he)
+		(s2w5 centimeter)
+		(s2w4 2.3)
+		(s2w8 end)
+		(s2w6 off)
+		(s2w7 the)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(advmod v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n2)
+		(head n2 s2w5)
+		(nummod n2 s2w4)
+		(nmod v2 n8)
+		(head n8 s2w8)
+		(case n8 s2w6)
+		(det n8 s2w7)
+	)
+
+	(LF2
+		(= (quan q4 # s2w5) 2.3)(verb q4 s2w3)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w3 be)
+		(s3w2 long)
+		(s3w1 how)
+		(s3w5 piece)
+		(s3w4 the)
+		(s3w7 wood)
+		(s3w6 of)
+		(s3w8 now)
+	)
+
+	(LF1
+		(HEAD v3 s3w3)
+		(dep v3 s3w2)
+		(advmod v3 s3w1)
+		(nsubj v3 n9)
+		(head n9 s3w5)
+		(det n9 s3w4)
+		(nmod n9 n10)
+		(head n10 s3w7)
+		(case n10 s3w6)
+		(advmod n10 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s1w11) (quan q4 # s2w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

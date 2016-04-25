@@ -1,0 +1,96 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 get)
+		(s1w4 contest)
+		(s1w1 at)
+		(s1w2 a)
+		(s1w3 pie-eating)
+		(s1w5 Erik)
+		(s1w9 pie)
+		(s1w7 through)
+		(s1w8 0.6666666666666666)
+		(s1w13 call)
+		(s1w10 before)
+		(s1w11 time)
+		(s1w12 be)
+		(s1w15 finish)
+		(s1w14 Frank)
+		(s1w18 pie)
+		(s1w16 just)
+		(s1w17 0.3333333333333333)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(nmod v1 n3)
+		(head n3 s1w4)
+		(case n3 s1w1)
+		(det n3 s1w2)
+		(amod n3 s1w3)
+		(nsubj v1 n4)
+		(head n4 s1w5)
+		(nmod v1 n1)
+		(head n1 s1w9)
+		(case n1 s1w7)
+		(nummod n1 s1w8)
+		(advcl v1 s1w13)
+		(mark v1 s1w10)
+		(nsubjpass v1 n6)
+		(head n6 s1w11)
+		(auxpass v1 s1w12)
+		(verb v1 s1w15)
+		(nsubj v1 n7)
+		(head n7 s1w14)
+		(dobj v1 n2)
+		(head n2 s1w18)
+		(advmod n2 s1w16)
+		(nummod n2 s1w17)
+	)
+
+	(LF2
+		(= (quan q2 # s1w9) 0.6666666666666666)(verb q2 s1w6)(role q2 nmod)
+		(= (quan q4 # s1w18) 0.3333333333333333)(verb q4 s1w15)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w7 eat)
+		(s2w3 more)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w4 pie)
+		(s2w5 do)
+		(s2w6 Erik)
+		(s2w9 Frank)
+		(s2w8 than)
+	)
+
+	(LF1
+		(verb v2 s2w7)
+		(dobj v2 s2w3)
+		(amod v2 s2w2)
+		(advmod v2 s2w1)
+		(dep v2 n9)
+		(head n9 s2w4)
+		(aux v2 s2w5)
+		(nsubj v2 n10)
+		(head n10 s2w6)
+		(nmod v2 n11)
+		(head n11 s2w9)
+		(case n11 s2w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s1w9) (quan q4 # s1w18)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

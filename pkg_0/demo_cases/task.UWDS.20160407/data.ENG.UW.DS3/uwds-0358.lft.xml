@@ -1,0 +1,107 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Tom)
+		(s1w4 penny)
+		(s1w3 27)
+		(s1w5 and)
+		(s1w7 dime)
+		(s1w6 15)
+		(s1w10 bank)
+		(s1w8 in)
+		(s1w9 he)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n6)
+		(head n6 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(cj_op j1 and)
+		(conj n1 n2)
+		(head n2 s1w7)
+		(nummod n2 s1w6)
+		(nmod v1 n9)
+		(head n9 s1w10)
+		(case n9 s1w8)
+		(nmod_poss n9 s1w9)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 27)(verb q2 s1w2)(role q2 dobj)
+		(= (quan q4 # s1w7) 15)(verb q4 s1w2)(role q4 conj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 give)
+		(s2w2 dad)
+		(s2w1 he)
+		(s2w4 he)
+		(s2w6 dime)
+		(s2w5 33)
+		(s2w7 and)
+		(s2w9 nickel)
+		(s2w8 49)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n10)
+		(head n10 s2w2)
+		(nmod_poss n10 s2w1)
+		(iobj v2 s2w4)
+		(dobj v2 n3)
+		(head n3 s2w6)
+		(nummod n3 s2w5)
+		(cj_op j2 and)
+		(conj n3 n4)
+		(head n4 s2w9)
+		(nummod n4 s2w8)
+	)
+
+	(LF2
+		(= (quan q6 # s2w6) 33)(verb q6 s2w3)(role q6 dobj)
+		(= (quan q8 # s2w9) 49)(verb q8 s2w3)(role q8 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 have)
+		(s3w3 dime)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 do)
+		(s3w5 he)
+		(s3w7 now)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dep v3 n5)
+		(head n5 s3w3)
+		(amod n5 s3w2)
+		(advmod n5 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 s3w5)
+		(dobj v3 s3w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q4 # s1w7) (quan q6 # s2w6)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

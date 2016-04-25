@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(13):advcl={start(2):mark={before(1)},dobj={shift(4):nmod_poss={[x1]she(3)}},dobj={check(8):det={a(6)},compound={waitress(7)}},advcl={make(10):mark={to(9)},xcomp={sure(11)}}},expl={there(12)},nsubj={mustard(15):amod={enough(14)},nmod={customer(18):case={for(16)},nmod_poss={[x1]she(17)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">before(1,IN): {Before}</Word>
+		<Word idx="2">start(2,VBG): {starting}</Word>
+		<Word idx="3">she(3,PRPS): {her}</Word>
+		<Word idx="4">shift(4,NN): {shift}</Word>
+		<Word idx="5">a(6,DT): {a}</Word>
+		<Word idx="6">waitress(7,NN): {waitress}</Word>
+		<Word idx="7">check(8,NNS): {checks}</Word>
+		<Word idx="8">to(9,TO): {to}</Word>
+		<Word idx="9">make(10,VB): {make}</Word>
+		<Word idx="10">sure(11,JJ): {sure}</Word>
+		<Word idx="11">there(12,EX): {there}</Word>
+		<Word idx="12">be(13,VBZ): {is}</Word>
+		<Word idx="13">enough(14,JJ): {enough}</Word>
+		<Word idx="14">mustard(15,NN): {mustard}</Word>
+		<Word idx="15">for(16,IN): {for}</Word>
+		<Word idx="16">she(17,PRPS): {her}</Word>
+		<Word idx="17">customer(18,NNS): {customers}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(2):nsubj={[x1]she(1)},dobj={bottle(4):nummod={[x2]0.25(3)},nmod={table(8):case={at(5)},det={the(6)},amod={first(7)}},conj={bottle(11):nummod={[x2]0.25(10)},nmod={table(15):case={at(12)},det={the(13)},amod={second(14)}}},cc={and(17)},conj={bottle(19):nummod={0.375(18)},nmod={table(23):case={at(20)},det={the(21)},amod={third(22)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">find(2,VBZ): {finds}</Word>
+		<Word idx="3">0.25(3,CD): {0.25}</Word>
+		<Word idx="4">bottle(4,NN): {bottle}</Word>
+		<Word idx="5">at(5,IN): {at}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">first(7,JJ): {first}</Word>
+		<Word idx="8">table(8,NN): {table}</Word>
+		<Word idx="9">0.25(10,CD): {0.25}</Word>
+		<Word idx="10">bottle(11,NN): {bottle}</Word>
+		<Word idx="11">at(12,IN): {at}</Word>
+		<Word idx="12">the(13,DT): {the}</Word>
+		<Word idx="13">second(14,JJ): {second}</Word>
+		<Word idx="14">table(15,NN): {table}</Word>
+		<Word idx="15">and(17,CC): {and}</Word>
+		<Word idx="16">0.375(18,CD): {0.375}</Word>
+		<Word idx="17">bottle(19,NN): {bottle}</Word>
+		<Word idx="18">at(20,IN): {at}</Word>
+		<Word idx="19">the(21,DT): {the}</Word>
+		<Word idx="20">third(22,JJ): {third}</Word>
+		<Word idx="21">table(23,NN): {table}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(11):dep={altogether(1)},dobj={bottle(5):amod={many(4):advmod={how(3)}},nmod={mustard(7):case={of(6)}}},aux={do(8)},nsubj={[x1]waitress(10):det={the(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">altogether(1,RB): {Altogether}</Word>
+		<Word idx="2">how(3,WRB): {how}</Word>
+		<Word idx="3">many(4,JJ): {many}</Word>
+		<Word idx="4">bottle(5,NNS): {bottles}</Word>
+		<Word idx="5">of(6,IN): {of}</Word>
+		<Word idx="6">mustard(7,NN): {mustard}</Word>
+		<Word idx="7">do(8,VBZ): {does}</Word>
+		<Word idx="8">the(9,DT): {the}</Word>
+		<Word idx="9">waitress(10,NN): {waitress}</Word>
+		<Word idx="10">find(11,VB): {find}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">TimeVariantUnknownFinal</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

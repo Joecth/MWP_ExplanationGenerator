@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(2):nsubj={[x1]Scarlett(1)},dobj={salad(5):det={a(3)},compound={fruit(4)}},nmod={pound(8):case={with(6)},nummod={0.25(7)},nmod={melon(10):case={of(9)}},cc={and(11)},conj={pound(13):nummod={0.375(12)},nmod={berry(15):case={of(14)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Scarlett(1,NNP): {Scarlett}</Word>
+		<Word idx="2">make(2,VBD): {made}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">fruit(4,NN): {fruit}</Word>
+		<Word idx="5">salad(5,NN): {salad}</Word>
+		<Word idx="6">with(6,IN): {with}</Word>
+		<Word idx="7">0.25(7,CD): {0.25}</Word>
+		<Word idx="8">pound(8,NN): {pound}</Word>
+		<Word idx="9">of(9,IN): {of}</Word>
+		<Word idx="10">melon(10,NN): {melon}</Word>
+		<Word idx="11">and(11,CC): {and}</Word>
+		<Word idx="12">0.375(12,CD): {0.375}</Word>
+		<Word idx="13">pound(13,NN): {pound}</Word>
+		<Word idx="14">of(14,IN): {of}</Word>
+		<Word idx="15">berry(15,NNS): {berries}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(8):dobj={pound(3):amod={many(2):advmod={how(1)}},nmod={fruit(5):case={of(4)}}},aux={do(6)},nsubj={[x1]Scarlett(7)},nmod={all(10):case={in(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pound(3,NNS): {pounds}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">fruit(5,NN): {fruit}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Scarlett(7,NNP): {Scarlett}</Word>
+		<Word idx="8">use(8,VB): {use}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">all(10,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

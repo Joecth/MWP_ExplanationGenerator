@@ -1,0 +1,113 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 buy)
+		(s1w2 December)
+		(s1w1 before)
+		(s1w3 customer)
+		(s1w7 muff)
+		(s1w5 1346)
+		(s1w6 ear)
+		(s1w10 mall)
+		(s1w8 from)
+		(s1w9 the)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nmod v1 n3)
+		(head n3 s1w2)
+		(case n3 s1w1)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(dobj v1 n1)
+		(head n1 s1w7)
+		(nummod n1 s1w5)
+		(compound n1 n6)
+		(head n6 s1w6)
+		(nmod v1 n7)
+		(head n7 s1w10)
+		(case n7 s1w8)
+		(det n7 s1w9)
+	)
+
+	(LF2
+		(= (quan q2 # s1w7) 1346)(verb q2 s1w4)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 buy)
+		(s2w2 December)
+		(s2w1 during)
+		(s2w3 they)
+		(s2w5 6444)
+		(s2w6 and)
+		(s2w8 be)
+		(s2w7 there)
+		(s2w9 none)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nmod v2 n8)
+		(head n8 s2w2)
+		(case n8 s2w1)
+		(nsubj v2 s2w3)
+		(dobj v2 s2w5)
+		(cj_op j1 and)
+		(conj v2 s2w8)
+		(expl v2 s2w7)
+		(nsubj v2 n9)
+		(head n9 s2w9)
+	)
+
+	(LF2
+		(= (quan q4 # s1w7) 6444)(verb q4 s2w4)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w10 buy)
+		(s3w2 all)
+		(s3w1 in)
+		(s3w6 muff)
+		(s3w4 many)
+		(s3w3 how)
+		(s3w5 ear)
+		(s3w7 do)
+		(s3w9 customer)
+		(s3w8 the)
+	)
+
+	(LF1
+		(verb v3 s3w10)
+		(nmod v3 s3w2)
+		(case v3 s3w1)
+		(dobj v3 n2)
+		(head n2 s3w6)
+		(amod n2 s3w4)
+		(advmod n2 s3w3)
+		(compound n2 n11)
+		(head n11 s3w5)
+		(aux v3 s3w7)
+		(nsubj v3 n12)
+		(head n12 s3w9)
+		(det n12 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w7) (quan q4 # s1w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

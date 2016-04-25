@@ -1,0 +1,116 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 have)
+		(s1w4 manufacturer)
+		(s1w1 a)
+		(s1w2 bathing)
+		(s1w3 suit)
+		(s1w7 supply)
+		(s1w6 a)
+		(s1w11 suit)
+		(s1w8 of)
+		(s1w9 14797)
+		(s1w10 bathing)
+		(s1w13 man)
+		(s1w12 for)
+	)
+
+	(LF1
+		(verb v1 s1w5)
+		(nsubj v1 n4)
+		(head n4 s1w4)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(compound n4 n6)
+		(head n6 s1w3)
+		(dobj v1 n7)
+		(head n7 s1w7)
+		(det n7 s1w6)
+		(nmod n7 n1)
+		(head n1 s1w11)
+		(case n1 s1w8)
+		(nummod n1 s1w9)
+		(compound n1 n9)
+		(head n9 s1w10)
+		(nmod n1 n10)
+		(head n10 s1w13)
+		(case n10 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w11) 14797)(verb q2 s1w5)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 have)
+		(s2w2 addition)
+		(s2w1 in)
+		(s2w3 it)
+		(s2w7 suit)
+		(s2w5 4969)
+		(s2w6 bathing)
+		(s2w9 woman)
+		(s2w8 for)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nmod v2 n11)
+		(head n11 s2w2)
+		(case n11 s2w1)
+		(nsubj v2 s2w3)
+		(dobj v2 n2)
+		(head n2 s2w7)
+		(nummod n2 s2w5)
+		(compound n2 n13)
+		(head n13 s2w6)
+		(nmod n2 n14)
+		(head n14 s2w9)
+		(case n14 s2w8)
+	)
+
+	(LF2
+		(= (quan q4 # s2w7) 4969)(verb q4 s2w4)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 overall)
+		(s3w3 bathing)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 suit)
+		(s3w5 be)
+		(s3w6 available)
+	)
+
+	(LF1
+		(HEAD x3 s3w7)
+		(dobj x3 n15)
+		(head n15 s3w3)
+		(amod n15 s3w2)
+		(advmod n15 s3w1)
+		(dep n15 n3)
+		(head n3 s3w4)
+		(verb x3 s3w5)
+		(amod x3 s3w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w11) (quan q4 # s2w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

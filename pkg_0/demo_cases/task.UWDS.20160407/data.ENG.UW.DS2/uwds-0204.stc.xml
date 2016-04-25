@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(2):nsubj={[x3]Craig(1)},dobj={mile(4):nummod={0.2(3)}},nmod={school(6):case={from(5)},nmod={[x1]house(10):case={to(7)},nmod_poss={[x2]David(8):case={'s(9)}}},cc={and(11)},conj={mile(13):nummod={0.7(12)},nmod={[x1]house(17):case={from(14)},nmod_poss={[x2]David(15):case={'s(16)}}}}},nmod={[x1]house(21):case={to(18)},nmod_poss={[x2]he(19)},amod={own(20)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Craig(1,NNP): {Craig}</Word>
+		<Word idx="2">walk(2,VBD): {walked}</Word>
+		<Word idx="3">0.2(3,CD): {0.2}</Word>
+		<Word idx="4">mile(4,NN): {mile}</Word>
+		<Word idx="5">from(5,IN): {from}</Word>
+		<Word idx="6">school(6,NN): {school}</Word>
+		<Word idx="7">to(7,TO): {to}</Word>
+		<Word idx="8">David(8,NNP): {David}</Word>
+		<Word idx="9">'s(9,POS): {'s}</Word>
+		<Word idx="10">house(10,NN): {house}</Word>
+		<Word idx="11">and(11,CC): {and}</Word>
+		<Word idx="12">0.7(12,CD): {0.7}</Word>
+		<Word idx="13">mile(13,NN): {mile}</Word>
+		<Word idx="14">from(14,IN): {from}</Word>
+		<Word idx="15">David(15,NNP): {David}</Word>
+		<Word idx="16">'s(16,POS): {'s}</Word>
+		<Word idx="17">house(17,NN): {house}</Word>
+		<Word idx="18">to(18,TO): {to}</Word>
+		<Word idx="19">he(19,PRPS): {his}</Word>
+		<Word idx="20">own(20,JJ): {own}</Word>
+		<Word idx="21">house(21,NN): {house}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(6):dobj={mile(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x3]Craig(5)},nmod={all(8):case={in(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">mile(3,NNS): {miles}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Craig(5,NNP): {Craig}</Word>
+		<Word idx="6">walk(6,VB): {walk}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">all(8,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

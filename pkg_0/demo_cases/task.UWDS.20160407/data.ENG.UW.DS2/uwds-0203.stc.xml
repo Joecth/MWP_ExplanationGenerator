@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{realize(10):advcl={take(2):mark={while(1)},dobj={inventory(3)},nmod={shop(7):case={at(4)},nmod_poss={[x1]she(5)},compound={pastry(6)}}},nsubj={[x1]Kelly(9)},ccomp={have(13):mark={that(11)},nsubj={[x1]she(12)},dobj={box(15):nummod={0.4(14)},nmod={yesterday(19):case={of(16)},amod={bake(17)},compound={powder(18)}}}},cc={but(21)},conj={box(29):nsubj={supply(23):det={the(22)}},cop={be(24)},advmod={down(26):advmod={now(25)}},case={to(27)},nummod={0.3(28)}}}</SemRep>
+	<WordList>
+		<Word idx="1">while(1,IN): {While}</Word>
+		<Word idx="2">take(2,VBG): {taking}</Word>
+		<Word idx="3">inventory(3,NN): {inventory}</Word>
+		<Word idx="4">at(4,IN): {at}</Word>
+		<Word idx="5">she(5,PRPS): {her}</Word>
+		<Word idx="6">pastry(6,NN): {pastry}</Word>
+		<Word idx="7">shop(7,NN): {shop}</Word>
+		<Word idx="8">Kelly(9,NNP): {Kelly}</Word>
+		<Word idx="9">realize(10,VBZ): {realizes}</Word>
+		<Word idx="10">that(11,IN): {that}</Word>
+		<Word idx="11">she(12,PRP): {she}</Word>
+		<Word idx="12">have(13,VBD): {had}</Word>
+		<Word idx="13">0.4(14,CD): {0.4}</Word>
+		<Word idx="14">box(15,NN): {box}</Word>
+		<Word idx="15">of(16,IN): {of}</Word>
+		<Word idx="16">bake(17,VBG): {baking}</Word>
+		<Word idx="17">powder(18,NN): {powder}</Word>
+		<Word idx="18">yesterday(19,NN): {yesterday}</Word>
+		<Word idx="19">but(21,CC): {but}</Word>
+		<Word idx="20">the(22,DT): {the}</Word>
+		<Word idx="21">supply(23,NN): {supply}</Word>
+		<Word idx="22">be(24,VBZ): {is}</Word>
+		<Word idx="23">now(25,RB): {now}</Word>
+		<Word idx="24">down(26,RB): {down}</Word>
+		<Word idx="25">to(27,TO): {to}</Word>
+		<Word idx="26">0.3(28,CD): {0.3}</Word>
+		<Word idx="27">box(29,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(8):dep={powder(5):dep={much(2):advmod={how(1)},amod={baking(4):advmod={more(3)}}}},aux={do(6)},nsubj={[x1]Kelly(7)},nmod_tmod={yesterday(9)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">more(3,RBR): {more}</Word>
+		<Word idx="4">baking(4,JJ): {baking}</Word>
+		<Word idx="5">powder(5,NN): {powder}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Kelly(7,NNP): {Kelly}</Word>
+		<Word idx="8">have(8,VB): {have}</Word>
+		<Word idx="9">yesterday(9,NN): {yesterday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

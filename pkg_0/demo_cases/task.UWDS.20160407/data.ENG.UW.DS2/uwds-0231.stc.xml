@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{staff(7):nmod={play(4):case={during(1)},det={a(2)},compound={school(3)}},nsubj={[x1]Jonah(6)},dobj={bar(10):det={the(8)},compound={snack(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">during(1,IN): {During}</Word>
+		<Word idx="2">a(2,DT): {a}</Word>
+		<Word idx="3">school(3,NN): {school}</Word>
+		<Word idx="4">play(4,NN): {play}</Word>
+		<Word idx="5">Jonah(6,NNP): {Jonah}</Word>
+		<Word idx="6">staff(7,VBD): {staffed}</Word>
+		<Word idx="7">the(8,DT): {the}</Word>
+		<Word idx="8">snack(9,NN): {snack}</Word>
+		<Word idx="9">bar(10,NN): {bar}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(2):nsubj={[x1]he(1)},dobj={pitcher(4):nummod={0.25(3)},nmod={lemonade(6):case={of(5)}}},nmod={intermission(10):case={during(7)},det={the(8)},amod={first(9)},conj={pitcher(13):nummod={0.4166666666666667(12)},nmod={second(16):case={during(14)},det={the(15)}}},cc={and(18)},conj={pitcher(20):nummod={0.25(19)}}},nmod={third(23):case={during(21)},det={the(22)}}}</SemRep>
+	<WordList>
+		<Word idx="1">he(1,PRP): {He}</Word>
+		<Word idx="2">serve(2,VBD): {served}</Word>
+		<Word idx="3">0.25(3,CD): {0.25}</Word>
+		<Word idx="4">pitcher(4,NN): {pitcher}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">lemonade(6,NN): {lemonade}</Word>
+		<Word idx="7">during(7,IN): {during}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">first(9,JJ): {first}</Word>
+		<Word idx="10">intermission(10,NN): {intermission}</Word>
+		<Word idx="11">0.4166666666666667(12,CD): {0.4166666666666667}</Word>
+		<Word idx="12">pitcher(13,NN): {pitcher}</Word>
+		<Word idx="13">during(14,IN): {during}</Word>
+		<Word idx="14">the(15,DT): {the}</Word>
+		<Word idx="15">second(16,JJ): {second}</Word>
+		<Word idx="16">and(18,CC): {and}</Word>
+		<Word idx="17">0.25(19,CD): {0.25}</Word>
+		<Word idx="18">pitcher(20,NN): {pitcher}</Word>
+		<Word idx="19">during(21,IN): {during}</Word>
+		<Word idx="20">the(22,DT): {the}</Word>
+		<Word idx="21">third(23,JJ): {third}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pour(8):dobj={pitcher(3):amod={many(2):advmod={how(1)}},nmod={lemonade(5):case={of(4)}}},aux={do(6)},nsubj={[x1]Jonah(7)},nmod={all(10):case={in(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pitcher(3,NNS): {pitchers}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">lemonade(5,NN): {lemonade}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Jonah(7,NNP): {Jonah}</Word>
+		<Word idx="8">pour(8,VBP): {pour}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">all(10,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">TimeVariantUnknownFinal</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

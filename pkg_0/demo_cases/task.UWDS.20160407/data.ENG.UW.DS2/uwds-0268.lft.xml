@@ -1,0 +1,76 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 buy)
+		(s1w1 Pamela)
+		(s1w4 ounce)
+		(s1w3 9.8)
+		(s1w6 sugar)
+		(s1w5 of)
+		(s1w7 and)
+		(s1w9 spill)
+		(s1w8 she)
+		(s1w11 ounce)
+		(s1w10 5.2)
+		(s1w13 it)
+		(s1w12 of)
+		(s1w16 floor)
+		(s1w14 on)
+		(s1w15 the)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n2)
+		(head n2 s1w1)
+		(dobj v1 n3)
+		(head n3 s1w4)
+		(nummod n3 s1w3)
+		(nmod n3 n1)
+		(head n1 s1w6)
+		(case n1 s1w5)
+		(cj_op j1 and)
+		(verb v1 s1w9)
+		(nsubj v1 s1w8)
+		(dobj v1 n5)
+		(head n5 s1w11)
+		(nummod n5 s1w10)
+		(nmod n5 s1w13)
+		(case n5 s1w12)
+		(nmod v1 n6)
+		(head n6 s1w16)
+		(case n6 s1w14)
+		(det n6 s1w15)
+	)
+
+	(LF2
+		(= (quan q2 s1w4 s1w6) 9.8)(verb q2 s1w2)(role q2 nmod)
+		(= (quan q4 s1w11 s1w6) 5.2)(verb q4 s1w9)(nmod q4 s1w16)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w3 be)
+		(s2w2 much)
+		(s2w1 how)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 s2w2)
+		(advmod v2 s2w1)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w4 s1w6) (quan q4 s1w11 s1w6)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

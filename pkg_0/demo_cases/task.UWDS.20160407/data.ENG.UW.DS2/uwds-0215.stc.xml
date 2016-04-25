@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(9):nmod={visit(3):case={during(1)},det={a(2)},nmod={orchard(6):case={to(4)},det={a(5)}}},nsubj={[x1]Charlie(8)},dobj={bag(11):nummod={0.16666666666666666(10)},nmod={apple(15):case={of(12)},compound={Golden(13)},compound={Delicious(14)}},conj={bag(18):nummod={0.16666666666666666(17)},nmod={apple(21):case={of(19)},compound={Macintosh(20)}}},cc={and(23)},conj={bag(25):nummod={0.3333333333333333(24)},nmod={apple(28):case={of(26)},compound={Cortland(27)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">during(1,IN): {During}</Word>
+		<Word idx="2">a(2,DT): {a}</Word>
+		<Word idx="3">visit(3,NN): {visit}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">a(5,DT): {an}</Word>
+		<Word idx="6">orchard(6,NN): {orchard}</Word>
+		<Word idx="7">Charlie(8,NNP): {Charlie}</Word>
+		<Word idx="8">pick(9,VBD): {picked}</Word>
+		<Word idx="9">0.16666666666666666(10,CD): {0.16666666666666666}</Word>
+		<Word idx="10">bag(11,NN): {bag}</Word>
+		<Word idx="11">of(12,IN): {of}</Word>
+		<Word idx="12">Golden(13,NNP): {Golden}</Word>
+		<Word idx="13">Delicious(14,NNP): {Delicious}</Word>
+		<Word idx="14">apple(15,NNS): {apples}</Word>
+		<Word idx="15">0.16666666666666666(17,CD): {0.16666666666666666}</Word>
+		<Word idx="16">bag(18,NN): {bag}</Word>
+		<Word idx="17">of(19,IN): {of}</Word>
+		<Word idx="18">Macintosh(20,NNP): {Macintosh}</Word>
+		<Word idx="19">apple(21,NNS): {apples}</Word>
+		<Word idx="20">and(23,CC): {and}</Word>
+		<Word idx="21">0.3333333333333333(24,CD): {0.3333333333333333}</Word>
+		<Word idx="22">bag(25,NN): {bag}</Word>
+		<Word idx="23">of(26,IN): {of}</Word>
+		<Word idx="24">Cortland(27,NNP): {Cortland}</Word>
+		<Word idx="25">apple(28,NNS): {apples}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(8):dobj={bag(3):amod={many(2):advmod={how(1)}},nmod={fruit(5):case={of(4)}}},aux={do(6)},nsubj={[x1]Charlie(7)},nmod={total(10):case={in(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">bag(3,NNS): {bags}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">fruit(5,NN): {fruit}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Charlie(7,NNP): {Charlie}</Word>
+		<Word idx="8">pick(8,VB): {pick}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">total(10,NN): {total}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Sum</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

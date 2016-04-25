@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(2):nsubj={[x2]Kevin(1)},dobj={watermelon(4):nummod={2(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Kevin(1,NNP): {Kevin}</Word>
+		<Word idx="2">buy(2,VBD): {bought}</Word>
+		<Word idx="3">2(3,CD): {2}</Word>
+		<Word idx="4">watermelon(4,NNS): {watermelons}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pound(6):nsubj={[x1]watermelon(3):det={the(1)},amod={first(2)}},cop={be(4)},nummod={9.91(5)},cc={and(8)},conj={pound(14):nsubj={[x1]watermelon(11):det={the(9)},amod={second(10)}},cop={be(12)},nummod={4.11(13)}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">first(2,JJ): {first}</Word>
+		<Word idx="3">watermelon(3,NN): {watermelon}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">9.91(5,CD): {9.91}</Word>
+		<Word idx="6">pound(6,NNS): {pounds}</Word>
+		<Word idx="7">and(8,CC): {and}</Word>
+		<Word idx="8">the(9,DT): {the}</Word>
+		<Word idx="9">second(10,JJ): {second}</Word>
+		<Word idx="10">watermelon(11,NN): {watermelon}</Word>
+		<Word idx="11">be(12,VBD): {was}</Word>
+		<Word idx="12">4.11(13,CD): {4.11}</Word>
+		<Word idx="13">pound(14,NNS): {pounds}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(8):dobj={pound(3):amod={many(2):advmod={how(1)}},nmod={watermelon(5):case={of(4)}}},aux={do(6)},nsubj={[x2]Kevin(7)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pound(3,NNS): {pounds}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">watermelon(5,NN): {watermelon}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Kevin(7,NNP): {Kevin}</Word>
+		<Word idx="8">buy(8,VB): {buy}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

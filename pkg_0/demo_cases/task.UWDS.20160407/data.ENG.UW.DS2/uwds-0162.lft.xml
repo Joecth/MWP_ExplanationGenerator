@@ -1,0 +1,105 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w10 black)
+		(s1w1 each)
+		(s1w7 lamb)
+		(s1w2 of)
+		(s1w4 Cunningham)
+		(s1w3 farmer)
+		(s1w5 's)
+		(s1w6 6048)
+		(s1w8 be)
+		(s1w9 either)
+		(s1w11 or)
+		(s1w12 white)
+	)
+
+	(LF1
+		(HEAD x1 s1w10)
+		(nsubj x1 s1w1)
+		(nmod x1 n2)
+		(head n2 s1w7)
+		(case n2 s1w2)
+		(nmod_poss n2 n6)
+		(head n6 s1w4)
+		(compound n6 n1)
+		(head n1 s1w3)
+		(case n6 s1w5)
+		(nummod n2 s1w6)
+		(verb x1 s1w8)
+		(advmod x1 s1w9)
+		(cc x1 s1w11)
+		(conj x1 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w3) 1)(verb q2 s1w8)(role q2 compound)
+		(= (quan q4 # s1w7) 6048)(verb q4 s1w8)(role q4 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 be)
+		(s2w1 there)
+		(s2w5 one)
+		(s2w3 193)
+		(s2w4 white)
+	)
+
+	(LF1
+		(verb v1 s2w2)
+		(expl v1 s2w1)
+		(nsubj v1 n3)
+		(head n3 s2w5)
+		(nummod n3 s2w3)
+		(amod n3 s2w4)
+	)
+
+	(LF2
+		(= (quan q6 # s2w5) 193)(verb q6 s2w2)(role q6 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 black)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w7 lamb)
+		(s3w3 of)
+		(s3w5 Cunningham)
+		(s3w4 Farmer)
+		(s3w6 's)
+		(s3w8 be)
+	)
+
+	(LF1
+		(HEAD x3 s3w9)
+		(nsubj x3 s3w2)
+		(advmod x3 s3w1)
+		(nmod x3 n4)
+		(head n4 s3w7)
+		(case n4 s3w3)
+		(nmod_poss n4 n10)
+		(head n10 s3w5)
+		(compound n10 n11)
+		(head n11 s3w4)
+		(case n10 s3w6)
+		(verb x3 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 # s1w7) (quan q6 # s2w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

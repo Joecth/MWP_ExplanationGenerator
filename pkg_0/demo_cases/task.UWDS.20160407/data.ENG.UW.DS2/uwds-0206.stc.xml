@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{4d(18):nmod={store(4):case={at(1)},det={the(2)},compound={hardware(3)}},nsubj={0.25(6):acl_relcl={2d(11):nsubj={[x1]nail(8):det={the(7)}},cop={be(9)},compound={size(10)},cc={and(12)},conj={0.5(13):dep={[x1]nail(15):det={the(14)}}}}},cop={be(16)},compound={size(17)}}</SemRep>
+	<WordList>
+		<Word idx="1">at(1,IN): {At}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">hardware(3,NN): {hardware}</Word>
+		<Word idx="4">store(4,NN): {store}</Word>
+		<Word idx="5">0.25(6,CD): {0.25}</Word>
+		<Word idx="6">the(7,DT): {the}</Word>
+		<Word idx="7">nail(8,NNS): {nails}</Word>
+		<Word idx="8">be(9,VBP): {are}</Word>
+		<Word idx="9">size(10,NN): {size}</Word>
+		<Word idx="10">2d(11,NN): {2d}</Word>
+		<Word idx="11">and(12,CC): {and}</Word>
+		<Word idx="12">0.5(13,CD): {0.5}</Word>
+		<Word idx="13">the(14,DT): {the}</Word>
+		<Word idx="14">nail(15,NNS): {nails}</Word>
+		<Word idx="15">be(16,VBP): {are}</Word>
+		<Word idx="16">size(17,NN): {size}</Word>
+		<Word idx="17">4d(18,NN): {4d}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(6):dobj={fraction(2):det={what(1)},nmod={[x1]nail(5):case={of(3)},det={the(4)}}},nsubj={2d(9):det={either(7)},compound={size(8)},cc={or(10)},conj={4d(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WDT): {What}</Word>
+		<Word idx="2">fraction(2,NN): {fraction}</Word>
+		<Word idx="3">of(3,IN): {of}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">nail(5,NNS): {nails}</Word>
+		<Word idx="6">be(6,VBP): {are}</Word>
+		<Word idx="7">either(7,DT): {either}</Word>
+		<Word idx="8">size(8,NN): {size}</Word>
+		<Word idx="9">2d(9,NN): {2d}</Word>
+		<Word idx="10">or(10,CC): {or}</Word>
+		<Word idx="11">4d(11,NN): {4d}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

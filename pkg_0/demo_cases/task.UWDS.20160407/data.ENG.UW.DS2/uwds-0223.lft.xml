@@ -1,0 +1,139 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 do)
+		(s1w1 Nina)
+		(s1w5 drill)
+		(s1w3 a)
+		(s1w4 run)
+		(s1w7 get)
+		(s1w6 to)
+		(s1w9 shape)
+		(s1w8 in)
+		(s1w12 season)
+		(s1w10 for)
+		(s1w11 soccer)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n5)
+		(head n5 s1w1)
+		(dobj v1 n6)
+		(head n6 s1w5)
+		(det n6 s1w3)
+		(amod n6 s1w4)
+		(acl n6 s1w7)
+		(mark n6 s1w6)
+		(nmod n6 n7)
+		(head n7 s1w9)
+		(case n7 s1w8)
+		(nmod n7 n8)
+		(head n8 s1w12)
+		(case n8 s1w10)
+		(compound n8 n9)
+		(head n9 s1w11)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 run)
+		(s2w1 first)
+		(s2w2 Nina)
+		(s2w5 mile)
+		(s2w4 0.08333333333333333)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(advmod v2 s2w1)
+		(nsubj v2 n10)
+		(head n10 s2w2)
+		(dobj v2 n1)
+		(head n1 s2w5)
+		(nummod n1 s2w4)
+	)
+
+	(LF2
+		(= (quan q2 s2w5 #) 0.08333333333333333)(verb q2 s2w3)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 run)
+		(s3w1 then)
+		(s3w2 she)
+		(s3w5 mile)
+		(s3w4 0.08333333333333333)
+		(s3w6 and)
+		(s3w8 mile)
+		(s3w7 0.6666666666666666)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(advmod v3 s3w1)
+		(nsubj v3 s3w2)
+		(dobj v3 n2)
+		(head n2 s3w5)
+		(nummod n2 s3w4)
+		(cj_op j1 and)
+		(conj n2 n3)
+		(head n3 s3w8)
+		(nummod n3 s3w7)
+	)
+
+	(LF2
+		(= (quan q4 s3w5 #) 0.08333333333333333)(verb q4 s3w3)
+		(= (quan q6 s3w8 #) 0.6666666666666666)(verb q6 s3w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 run)
+		(s4w3 mile)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 do)
+		(s4w5 Nina)
+		(s4w8 total)
+		(s4w7 in)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(dobj v4 n4)
+		(head n4 s4w3)
+		(amod n4 s4w2)
+		(advmod n4 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 n15)
+		(head n15 s4w5)
+		(nmod v4 n16)
+		(head n16 s4w8)
+		(case n16 s4w7)
+	)
+
+	(LF2
+		
+		(= (quan q2 s2w5 #) 0.08333333333333333) (= (tvq v1 s2w5 # t0) (quan q2 s2w5 #))
+		(= (quan q4 s3w5 #) 0.08333333333333333) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 s3w8 #) 0.6666666666666666) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 s4w3 # t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

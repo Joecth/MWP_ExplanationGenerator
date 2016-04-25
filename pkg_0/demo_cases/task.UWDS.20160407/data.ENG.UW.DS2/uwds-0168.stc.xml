@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{break(7):nsubj={[x2]pipe(3):det={a(1)},compound={oil(2)},nmod={sea(6):case={in(4)},det={the(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {An}</Word>
+		<Word idx="2">oil(2,NN): {oil}</Word>
+		<Word idx="3">pipe(3,NN): {pipe}</Word>
+		<Word idx="4">in(4,IN): {in}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">sea(6,NN): {sea}</Word>
+		<Word idx="7">break(7,VBD): {broke}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leak(13):advcl={start(3):mark={before(1)},nsubj={[x1]engineer(2)},xcomp={fix(5):mark={to(4)},dobj={[x2]pipe(7):det={the(6)}}}},nsubj={gallon(10):nummod={2475(9)},nmod={oil(12):case={of(11)}}},nmod={water(16):case={into(14)},det={the(15)}}}</SemRep>
+	<WordList>
+		<Word idx="1">before(1,IN): {Before}</Word>
+		<Word idx="2">engineer(2,NNS): {engineers}</Word>
+		<Word idx="3">start(3,VBD): {started}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">fix(5,VB): {fix}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">pipe(7,NN): {pipe}</Word>
+		<Word idx="8">2475(9,CD): {2475}</Word>
+		<Word idx="9">gallon(10,NNS): {gallons}</Word>
+		<Word idx="10">of(11,IN): {of}</Word>
+		<Word idx="11">oil(12,NN): {oil}</Word>
+		<Word idx="12">leak(13,VBN): {leaked}</Word>
+		<Word idx="13">into(14,IN): {into}</Word>
+		<Word idx="14">the(15,DT): {the}</Word>
+		<Word idx="15">water(16,NN): {water}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{fix(13):nsubjpass={total(2):det={a(1)},nmod={gallon(5):case={of(3)},nummod={6206(4)},nmod={oil(7):case={of(6)},acl={leak(8):nmod={[x2]pipe(11):case={before(9)},det={the(10)}}}}}},auxpass={be(12)}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">total(2,NN): {total}</Word>
+		<Word idx="3">of(3,IN): {of}</Word>
+		<Word idx="4">6206(4,CD): {6206}</Word>
+		<Word idx="5">gallon(5,NNS): {gallons}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">oil(7,NN): {oil}</Word>
+		<Word idx="8">leak(8,VBN): {leaked}</Word>
+		<Word idx="9">before(9,IN): {before}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">pipe(11,NN): {pipe}</Word>
+		<Word idx="12">be(12,VBD): {was}</Word>
+		<Word idx="13">fix(13,VBN): {fixed}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leak(6):nsubj={gallon(3):amod={many(2):advmod={how(1)}},nmod={oil(5):case={of(4)}}},advcl={fix(11):mark={while(7)},nsubj={[x1]engineer(9):det={the(8)}},aux={be(10)},dobj={[x2]pipe(13):det={the(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">gallon(3,NNS): {gallons}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">oil(5,NN): {oil}</Word>
+		<Word idx="6">leak(6,VBN): {leaked}</Word>
+		<Word idx="7">while(7,IN): {while}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">engineer(9,NNS): {engineers}</Word>
+		<Word idx="10">be(10,VBD): {were}</Word>
+		<Word idx="11">fix(11,VBG): {fixing}</Word>
+		<Word idx="12">the(12,DT): {the}</Word>
+		<Word idx="13">pipe(13,NN): {pipe}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

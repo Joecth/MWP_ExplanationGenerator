@@ -1,0 +1,124 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 add)
+		(s1w1 Karen)
+		(s1w4 cup)
+		(s1w3 0.25)
+		(s1w6 walnut)
+		(s1w5 of)
+		(s1w9 batch)
+		(s1w7 to)
+		(s1w8 a)
+		(s1w12 mix)
+		(s1w10 of)
+		(s1w11 trail)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w4)
+		(nummod n5 s1w3)
+		(nmod n5 n1)
+		(head n1 s1w6)
+		(case n1 s1w5)
+		(nmod v1 n7)
+		(head n7 s1w9)
+		(case n7 s1w7)
+		(det n7 s1w8)
+		(nmod n7 n8)
+		(head n8 s1w12)
+		(case n8 s1w10)
+		(compound n8 n9)
+		(head n9 s1w11)
+	)
+
+	(LF2
+		(= (quan q2 s1w4 s1w6) 0.25)(verb q2 s1w2)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 add)
+		(s2w1 later)
+		(s2w2 she)
+		(s2w5 cup)
+		(s2w4 0.25)
+		(s2w7 almond)
+		(s2w6 of)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(advmod v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n10)
+		(head n10 s2w5)
+		(nummod n10 s2w4)
+		(nmod n10 n2)
+		(head n2 s2w7)
+		(case n2 s2w6)
+	)
+
+	(LF2
+		(= (quan q4 s2w5 s2w7) 0.25)(verb q4 s2w3)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w8 put)
+		(s3w3 cup)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 nut)
+		(s3w4 of)
+		(s3w6 do)
+		(s3w7 Karen)
+		(s3w12 mix)
+		(s3w9 in)
+		(s3w10 the)
+		(s3w11 trail)
+		(s3w14 all)
+		(s3w13 in)
+	)
+
+	(LF1
+		(verb v3 s3w8)
+		(dobj v3 n12)
+		(head n12 s3w3)
+		(amod n12 s3w2)
+		(advmod n12 s3w1)
+		(nmod n12 n3)
+		(head n3 s3w5)
+		(case n3 s3w4)
+		(aux v3 s3w6)
+		(nsubj v3 n14)
+		(head n14 s3w7)
+		(nmod v3 n15)
+		(head n15 s3w12)
+		(case n15 s3w9)
+		(det n15 s3w10)
+		(compound n15 n16)
+		(head n16 s3w11)
+		(nmod n15 s3w14)
+		(case n15 s3w13)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w4 s1w6) (quan q4 s2w5 s2w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{beekeeper(4):nsubj={[x1]Diane(1)},cop={be(2)},det={a(3)}}</SemRep>
+	<WordList>
+		<Word idx="1">Diane(1,NNP): {Diane}</Word>
+		<Word idx="2">be(2,VBZ): {is}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">beekeeper(4,NN): {beekeeper}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{harvest(5):nmod_tmod={[x2]year(2):amod={last(1)}},nsubj={[x1]she(4)},dobj={pound(7):nummod={2479(6)},nmod={honey(9):case={of(8)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">last(1,JJ): {Last}</Word>
+		<Word idx="2">year(2,NN): {year}</Word>
+		<Word idx="3">she(4,PRP): {she}</Word>
+		<Word idx="4">harvest(5,VBD): {harvested}</Word>
+		<Word idx="5">2479(6,CD): {2479}</Word>
+		<Word idx="6">pound(7,NNS): {pounds}</Word>
+		<Word idx="7">of(8,IN): {of}</Word>
+		<Word idx="8">honey(9,NN): {honey}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(5):nmod_tmod={[x2]year(2):det={this(1)}},nsubj={[x1]she(4)},dobj={hive(8):det={some(6)},amod={new(7)}},cc={and(9)},conj={increase(10):dobj={harvest(13):nmod_poss={[x1]she(11)},compound={honey(12)}},nmod={pound(16):case={by(14)},nummod={6085(15)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">this(1,DT): {This}</Word>
+		<Word idx="2">year(2,NN): {year}</Word>
+		<Word idx="3">she(4,PRP): {she}</Word>
+		<Word idx="4">buy(5,VBD): {bought}</Word>
+		<Word idx="5">some(6,DT): {some}</Word>
+		<Word idx="6">new(7,JJ): {new}</Word>
+		<Word idx="7">hive(8,NNS): {hives}</Word>
+		<Word idx="8">and(9,CC): {and}</Word>
+		<Word idx="9">increase(10,VBD): {increased}</Word>
+		<Word idx="10">she(11,PRPS): {her}</Word>
+		<Word idx="11">honey(12,NN): {honey}</Word>
+		<Word idx="12">harvest(13,NN): {harvest}</Word>
+		<Word idx="13">by(14,IN): {by}</Word>
+		<Word idx="14">6085(15,CD): {6085}</Word>
+		<Word idx="15">pound(16,NNS): {pounds}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(6):nsubj={pound(3):amod={many(2):advmod={how(1)}},nmod={honey(5):case={of(4)}}},dobj={harvest(8):compound={[x1]Diane(7)}},nmod_tmod={[x2]year(10):det={this(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pound(3,NNS): {pounds}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">honey(5,NN): {honey}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Diane(7,NNP): {Diane}</Word>
+		<Word idx="8">harvest(8,NN): {harvest}</Word>
+		<Word idx="9">this(9,DT): {this}</Word>
+		<Word idx="10">year(10,NN): {year}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

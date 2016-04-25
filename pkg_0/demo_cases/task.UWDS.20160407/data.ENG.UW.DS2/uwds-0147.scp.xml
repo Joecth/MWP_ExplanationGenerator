@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{attack(5):nsubj={insect(2):det={some(1)},acl={call(3):dobj={aphid(4)}}},dobj={farm(8):det={a(6)},amod={large(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">some(1,DT): {Some}</Word>
+		<Word idx="2">insect(2,NNS): {insects}</Word>
+		<Word idx="3">call(3,VBN): {called}</Word>
+		<Word idx="4">aphid(4,NNS): {aphids}</Word>
+		<Word idx="5">attack(5,VBP): {attack}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">large(7,JJ): {large}</Word>
+		<Word idx="8">farm(8,NN): {farm}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{release(6):nmod={response(2):case={in(1)}},nsubj={farmer(5):det={the(4)}},dobj={ladybug(7)},nmod={field(10):case={onto(8)},det={the(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">response(2,NN): {response}</Word>
+		<Word idx="3">the(4,DT): {the}</Word>
+		<Word idx="4">farmer(5,NN): {farmer}</Word>
+		<Word idx="5">release(6,VBZ): {releases}</Word>
+		<Word idx="6">ladybug(7,NNS): {ladybugs}</Word>
+		<Word idx="7">onto(8,IN): {onto}</Word>
+		<Word idx="8">the(9,DT): {the}</Word>
+		<Word idx="9">field(10,NNS): {fields}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={ladybug(4):nummod={12170(3)},nmod={spot(6):case={with(5)},cc={and(7)},conj={ladybug(9):nummod={54912(8)}}}},nmod={spot(11):case={without(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">12170(3,CD): {12170}</Word>
+		<Word idx="4">ladybug(4,NNS): {ladybugs}</Word>
+		<Word idx="5">with(5,IN): {with}</Word>
+		<Word idx="6">spot(6,NNS): {spots}</Word>
+		<Word idx="7">and(7,CC): {and}</Word>
+		<Word idx="8">54912(8,CD): {54912}</Word>
+		<Word idx="9">ladybug(9,NNS): {ladybugs}</Word>
+		<Word idx="10">without(10,IN): {without}</Word>
+		<Word idx="11">spot(11,NNS): {spots}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={ladybug(3):amod={many(2):advmod={how(1)}}},expl={there(5)},nmod={all(7):case={in(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">ladybug(3,NNS): {ladybugs}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">there(5,EX): {there}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">all(7,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

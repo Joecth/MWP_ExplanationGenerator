@@ -1,0 +1,120 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 fill)
+		(s1w2 ship)
+		(s1w1 a)
+		(s1w3 be)
+		(s1w7 ton)
+		(s1w5 with)
+		(s1w6 5973)
+		(s1w9 cargo)
+		(s1w8 of)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubjpass v1 n4)
+		(head n4 s1w2)
+		(det n4 s1w1)
+		(auxpass v1 s1w3)
+		(nmod v1 n5)
+		(head n5 s1w7)
+		(case n5 s1w5)
+		(nummod n5 s1w6)
+		(nmod n5 n1)
+		(head n1 s1w9)
+		(case n1 s1w8)
+	)
+
+	(LF2
+		(= (quan q2 s1w7 s1w9) 5973)(verb q2 s1w4)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 stop)
+		(s2w1 it)
+		(s2w5 Bahamas)
+		(s2w3 in)
+		(s2w4 the)
+		(s2w8 load)
+		(s2w6 where)
+		(s2w7 sailor)
+		(s2w10 ton)
+		(s2w9 8723)
+		(s2w13 onboard)
+		(s2w11 of)
+		(s2w12 cargo)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 s2w1)
+		(nmod v2 n7)
+		(head n7 s2w5)
+		(case n7 s2w3)
+		(det n7 s2w4)
+		(verb v2 s2w8)
+		(advmod v2 s2w6)
+		(nsubj v2 n8)
+		(head n8 s2w7)
+		(dobj v2 n9)
+		(head n9 s2w10)
+		(nummod n9 s2w9)
+		(nmod n9 n2)
+		(head n2 s2w13)
+		(case n2 s2w11)
+		(compound n2 n11)
+		(head n11 s2w12)
+	)
+
+	(LF2
+		(= (quan q4 s2w10 s2w13) 8723)(verb q4 s2w8)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 hold)
+		(s3w3 ton)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 cargo)
+		(s3w4 of)
+		(s3w6 do)
+		(s3w8 ship)
+		(s3w7 the)
+		(s3w10 now)
+	)
+
+	(LF1
+		(verb v3 s3w9)
+		(dobj v3 n12)
+		(head n12 s3w3)
+		(amod n12 s3w2)
+		(advmod n12 s3w1)
+		(nmod n12 n3)
+		(head n3 s3w5)
+		(case n3 s3w4)
+		(aux v3 s3w6)
+		(nsubj v3 n14)
+		(head n14 s3w8)
+		(det n14 s3w7)
+		(advmod v3 s3w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w7 s1w9) (quan q4 s2w10 s2w13)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

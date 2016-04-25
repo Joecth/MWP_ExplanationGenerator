@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{purchase(2):nsubj={[x1]Tom(1)},dobj={game(5):det={a(3)},compound={football(4)},nmod={14.02(8):case={for(6)},dep={USD(7)}},conj={game(12):det={a(10)},compound={strategy(11)},nmod={9.46(15):case={for(13)},dep={USD(14)}}},cc={and(17)},conj={game(20):det={a(18)},compound={Batman(19)},nmod={12.04(23):case={for(21)},dep={USD(22)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Tom(1,NNP): {Tom}</Word>
+		<Word idx="2">purchase(2,VBD): {purchased}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">football(4,NN): {football}</Word>
+		<Word idx="5">game(5,NN): {game}</Word>
+		<Word idx="6">for(6,IN): {for}</Word>
+		<Word idx="7">USD(7,USD): {USD}</Word>
+		<Word idx="8">14.02(8,CD): {14.02}</Word>
+		<Word idx="9">a(10,DT): {a}</Word>
+		<Word idx="10">strategy(11,NN): {strategy}</Word>
+		<Word idx="11">game(12,NN): {game}</Word>
+		<Word idx="12">for(13,IN): {for}</Word>
+		<Word idx="13">USD(14,USD): {USD}</Word>
+		<Word idx="14">9.46(15,CD): {9.46}</Word>
+		<Word idx="15">and(17,CC): {and}</Word>
+		<Word idx="16">a(18,DT): {a}</Word>
+		<Word idx="17">Batman(19,NNP): {Batman}</Word>
+		<Word idx="18">game(20,NN): {game}</Word>
+		<Word idx="19">for(21,IN): {for}</Word>
+		<Word idx="20">USD(22,USD): {USD}</Word>
+		<Word idx="21">12.04(23,CD): {12.04}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(5):dep={much(2):advmod={how(1)}},aux={do(3)},nsubj={[x1]Tom(4)},nmod={game(8):case={on(6)},compound={video(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">Tom(4,NNP): {Tom}</Word>
+		<Word idx="5">spend(5,VB): {spend}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">video(7,NN): {video}</Word>
+		<Word idx="8">game(8,NNS): {games}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

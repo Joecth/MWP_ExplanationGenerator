@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(4):nsubj={cat(3):nmod_poss={[x2]Alyssa(1):case={'s(2)}}},dobj={kitten(6):nummod={[x1]8(5)}},cc={and(7)},conj={have(9):nsubj={[x1]8(8)},dobj={spot(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Alyssa(1,NNP): {Alyssa}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">cat(3,NN): {cat}</Word>
+		<Word idx="4">have(4,VBD): {had}</Word>
+		<Word idx="5">8(5,CD): {8}</Word>
+		<Word idx="6">kitten(6,NNS): {kittens}</Word>
+		<Word idx="7">and(7,CC): {and}</Word>
+		<Word idx="8">8(8,CD): {8}</Word>
+		<Word idx="9">have(9,VBD): {had}</Word>
+		<Word idx="10">spot(10,NNS): {spots}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(2):nsubj={[x2]she(1)},dobj={4(3)},nmod={friend(6):case={to(4)},nmod_poss={[x2]she(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">give(2,VBD): {gave}</Word>
+		<Word idx="3">4(3,CD): {4}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">she(5,PRPS): {her}</Word>
+		<Word idx="6">friend(6,NNS): {friends}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(4):dep={many(2):advmod={how(1)}},nsubj={kitten(3)},ccomp={have(7):nsubj={[x2]she(5)},advmod={now(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">kitten(3,NNS): {kittens}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">now(6,RB): {now}</Word>
+		<Word idx="7">have(7,VBP): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

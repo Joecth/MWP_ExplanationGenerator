@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(4):nsubj={[x1]Tigers(3):det={the(1)},compound={Richmond(2)}},dobj={total(6):det={a(5)},nmod={ticket(9):case={of(7)},nummod={9570(8)}}},nmod_tmod={season(11):amod={last(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">Richmond(2,NNP): {Richmond}</Word>
+		<Word idx="3">Tigers(3,NNP): {Tigers}</Word>
+		<Word idx="4">sell(4,VBD): {sold}</Word>
+		<Word idx="5">a(5,DT): {a}</Word>
+		<Word idx="6">total(6,NN): {total}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">9570(8,CD): {9570}</Word>
+		<Word idx="9">ticket(9,NNS): {tickets}</Word>
+		<Word idx="10">last(10,JJ): {last}</Word>
+		<Word idx="11">season(11,NN): {season}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(19):advcl={sell(3):mark={if(1)},nsubj={[x1]they(2)},dobj={ticket(5):nummod={3867(4)}},nmod={half(9):case={in(6)},det={the(7)},amod={first(8)},nmod={season(12):case={of(10)},det={the(11)}}}},dobj={ticket(16):amod={many(15):advmod={how(14)}}},aux={do(17)},nsubj={[x1]they(18)},nmod={half(23):case={in(20)},det={the(21)},amod={second(22)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">they(2,PRP): {they}</Word>
+		<Word idx="3">sell(3,VBD): {sold}</Word>
+		<Word idx="4">3867(4,CD): {3867}</Word>
+		<Word idx="5">ticket(5,NNS): {tickets}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">first(8,JJ): {first}</Word>
+		<Word idx="9">half(9,NN): {half}</Word>
+		<Word idx="10">of(10,IN): {of}</Word>
+		<Word idx="11">the(11,DT): {the}</Word>
+		<Word idx="12">season(12,NN): {season}</Word>
+		<Word idx="13">how(14,WRB): {how}</Word>
+		<Word idx="14">many(15,JJ): {many}</Word>
+		<Word idx="15">ticket(16,NNS): {tickets}</Word>
+		<Word idx="16">do(17,VBD): {did}</Word>
+		<Word idx="17">they(18,PRP): {they}</Word>
+		<Word idx="18">sell(19,VBP): {sell}</Word>
+		<Word idx="19">in(20,IN): {in}</Word>
+		<Word idx="20">the(21,DT): {the}</Word>
+		<Word idx="21">second(22,JJ): {second}</Word>
+		<Word idx="22">half(23,NN): {half}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

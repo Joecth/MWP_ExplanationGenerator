@@ -1,0 +1,125 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 make)
+		(s1w1 Ellen)
+		(s1w3 smoothie)
+		(s1w6 blender)
+		(s1w4 in)
+		(s1w5 the)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w3)
+		(nmod v1 n6)
+		(head n6 s1w6)
+		(case n6 s1w4)
+		(det n6 s1w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 use)
+		(s2w1 she)
+		(s2w4 cup)
+		(s2w3 0.2)
+		(s2w6 strawberry)
+		(s2w5 of)
+		(s2w8 cup)
+		(s2w7 0.1)
+		(s2w10 yogurt)
+		(s2w9 of)
+		(s2w11 and)
+		(s2w13 cup)
+		(s2w12 0.2)
+		(s2w16 juice)
+		(s2w14 of)
+		(s2w15 orange)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n7)
+		(head n7 s2w4)
+		(nummod n7 s2w3)
+		(nmod n7 n1)
+		(head n1 s2w6)
+		(case n1 s2w5)
+		(conj n7 n9)
+		(head n9 s2w8)
+		(nummod n9 s2w7)
+		(nmod n9 n2)
+		(head n2 s2w10)
+		(case n2 s2w9)
+		(cj_op j1 and)
+		(conj n7 n11)
+		(head n11 s2w13)
+		(nummod n11 s2w12)
+		(nmod n11 n12)
+		(head n12 s2w16)
+		(case n12 s2w14)
+		(amod n12 s2w15)
+	)
+
+	(LF2
+		(= (quan q2 s2w4 s2w6) 0.2)(verb q2 s2w2)(role q2 nmod)
+		(= (quan q4 s2w8 s2w10) 0.1)(verb q4 s2w2)(role q4 nmod)
+		(= (quan q6 s2w13 s2w6) 0.2)(verb q6 s2w2)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w8 use)
+		(s3w3 cup)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 ingredient)
+		(s3w4 of)
+		(s3w6 do)
+		(s3w7 Ellen)
+		(s3w11 smoothie)
+		(s3w9 for)
+		(s3w10 the)
+	)
+
+	(LF1
+		(verb v3 s3w8)
+		(dobj v3 n13)
+		(head n13 s3w3)
+		(amod n13 s3w2)
+		(advmod n13 s3w1)
+		(nmod n13 n3)
+		(head n3 s3w5)
+		(case n3 s3w4)
+		(aux v3 s3w6)
+		(nsubj v3 n15)
+		(head n15 s3w7)
+		(nmod v3 n16)
+		(head n16 s3w11)
+		(case n16 s3w9)
+		(det n16 s3w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Sum (quan ?q ?u ?o)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

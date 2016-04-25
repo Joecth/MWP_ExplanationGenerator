@@ -1,0 +1,74 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 have)
+		(s1w3 corporation)
+		(s1w1 a)
+		(s1w2 multi-national)
+		(s1w7 employee)
+		(s1w5 2041)
+		(s1w6 part-time)
+		(s1w8 and)
+		(s1w11 employee)
+		(s1w9 63093)
+		(s1w10 full-time)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(det n4 s1w1)
+		(amod n4 s1w2)
+		(dobj v1 n1)
+		(head n1 s1w7)
+		(nummod n1 s1w5)
+		(amod n1 s1w6)
+		(cj_op j1 and)
+		(conj n1 n2)
+		(head n2 s1w11)
+		(nummod n2 s1w9)
+		(amod n2 s1w10)
+	)
+
+	(LF2
+		(= (quan q2 # s1w7) 2041)(verb q2 s1w4)(role q2 dobj)
+		(= (quan q4 # s1w11) 63093)(verb q4 s1w4)(role q4 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w4 work)
+		(s2w3 employee)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w7 corporation)
+		(s2w5 for)
+		(s2w6 the)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nsubj v2 n3)
+		(head n3 s2w3)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(nmod v2 n8)
+		(head n8 s2w7)
+		(case n8 s2w5)
+		(det n8 s2w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w7) (quan q4 # s1w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

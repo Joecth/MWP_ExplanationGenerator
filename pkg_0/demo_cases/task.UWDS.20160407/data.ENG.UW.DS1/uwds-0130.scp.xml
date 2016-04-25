@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{love(2):nsubj={[x1]Mary(1)},xcomp={eat(3):dobj={fruit(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mary(1,NNP): {Mary}</Word>
+		<Word idx="2">love(2,VBZ): {loves}</Word>
+		<Word idx="3">eat(3,VBG): {eating}</Word>
+		<Word idx="4">fruit(4,NNS): {fruits}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pay(2):nsubj={[x1]Mary(1)},dobj={11.08(4):dep={USD(3)},nmod={berry(6):case={for(5)}},conj={14.33(9):dep={USD(8)},nmod={apple(11):case={for(10)}}},cc={and(13)},conj={9.31(15):dep={USD(14)},nmod={peach(17):case={for(16)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mary(1,NNP): {Mary}</Word>
+		<Word idx="2">pay(2,VBD): {paid}</Word>
+		<Word idx="3">USD(3,USD): {USD}</Word>
+		<Word idx="4">11.08(4,CD): {11.08}</Word>
+		<Word idx="5">for(5,IN): {for}</Word>
+		<Word idx="6">berry(6,NNS): {berries}</Word>
+		<Word idx="7">USD(8,USD): {USD}</Word>
+		<Word idx="8">14.33(9,CD): {14.33}</Word>
+		<Word idx="9">for(10,IN): {for}</Word>
+		<Word idx="10">apple(11,NNS): {apples}</Word>
+		<Word idx="11">and(13,CC): {and}</Word>
+		<Word idx="12">USD(14,USD): {USD}</Word>
+		<Word idx="13">9.31(15,CD): {9.31}</Word>
+		<Word idx="14">for(16,IN): {for}</Word>
+		<Word idx="15">peach(17,NNS): {peaches}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(9):nmod={total(2):case={in(1)}},dobj={money(6):amod={much(5):advmod={how(4)}}},aux={do(7)},nsubj={[x1]she(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">total(2,NN): {total}</Word>
+		<Word idx="3">how(4,WRB): {how}</Word>
+		<Word idx="4">much(5,JJ): {much}</Word>
+		<Word idx="5">money(6,NN): {money}</Word>
+		<Word idx="6">do(7,VBD): {did}</Word>
+		<Word idx="7">she(8,PRP): {she}</Word>
+		<Word idx="8">spend(9,VB): {spend}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

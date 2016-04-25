@@ -1,0 +1,100 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 make)
+		(s1w1 Dina)
+		(s1w3 cookie)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w3)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 use)
+		(s2w1 she)
+		(s2w4 cup)
+		(s2w3 0.625)
+		(s2w6 flour)
+		(s2w5 of)
+		(s2w7 and)
+		(s2w9 cup)
+		(s2w8 0.25)
+		(s2w11 sugar)
+		(s2w10 of)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n5)
+		(head n5 s2w4)
+		(nummod n5 s2w3)
+		(nmod n5 n1)
+		(head n1 s2w6)
+		(case n1 s2w5)
+		(cj_op j1 and)
+		(conj n5 n7)
+		(head n7 s2w9)
+		(nummod n7 s2w8)
+		(nmod n7 n2)
+		(head n2 s2w11)
+		(case n2 s2w10)
+	)
+
+	(LF2
+		(= (quan q2 s2w4 s2w6) 0.625)(verb q2 s2w2)(role q2 nmod)
+		(= (quan q4 s2w9 s2w11) 0.25)(verb q4 s2w2)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 use)
+		(s3w4 flour)
+		(s3w3 more)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w6 sugar)
+		(s3w5 than)
+		(s3w7 do)
+		(s3w8 Dina)
+	)
+
+	(LF1
+		(verb v3 s3w9)
+		(dobj v3 n9)
+		(head n9 s3w4)
+		(amod n9 s3w3)
+		(dep n9 s3w2)
+		(advmod n9 s3w1)
+		(nmod n9 n10)
+		(head n10 s3w6)
+		(case n10 s3w5)
+		(aux v3 s3w7)
+		(nsubj v3 n11)
+		(head n11 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s2w4 s2w6) (quan q4 s2w9 s2w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

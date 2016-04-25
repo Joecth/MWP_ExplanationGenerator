@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{join(2):nsubj={[x1]Jason(1)},dobj={band(6):nmod_poss={school(4):nmod_poss={[x1]he(3)},case={'s(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jason(1,NNP): {Jason}</Word>
+		<Word idx="2">join(2,VBD): {joined}</Word>
+		<Word idx="3">he(3,PRPS): {his}</Word>
+		<Word idx="4">school(4,NN): {school}</Word>
+		<Word idx="5">'s(5,POS): {'s}</Word>
+		<Word idx="6">band(6,NN): {band}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(2):nsubj={[x1]he(1)},dobj={flute(4):det={a(3)},nmod={142.46(7):case={for(5)},dep={USD(6)}},conj={tool(11):det={a(9)},compound={music(10)},nmod={8.89(14):case={for(12)},dep={USD(13)}}},cc={and(16)},conj={book(19):det={a(17)},compound={song(18)},nmod={7(22):case={for(20)},dep={USD(21)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">he(1,PRP): {He}</Word>
+		<Word idx="2">buy(2,VBD): {bought}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">flute(4,NN): {flute}</Word>
+		<Word idx="5">for(5,IN): {for}</Word>
+		<Word idx="6">USD(6,USD): {USD}</Word>
+		<Word idx="7">142.46(7,CD): {142.46}</Word>
+		<Word idx="8">a(9,DT): {a}</Word>
+		<Word idx="9">music(10,NN): {music}</Word>
+		<Word idx="10">tool(11,NN): {tool}</Word>
+		<Word idx="11">for(12,IN): {for}</Word>
+		<Word idx="12">USD(13,USD): {USD}</Word>
+		<Word idx="13">8.89(14,CD): {8.89}</Word>
+		<Word idx="14">and(16,CC): {and}</Word>
+		<Word idx="15">a(17,DT): {a}</Word>
+		<Word idx="16">song(18,NN): {song}</Word>
+		<Word idx="17">book(19,NN): {book}</Word>
+		<Word idx="18">for(20,IN): {for}</Word>
+		<Word idx="19">USD(21,USD): {USD}</Word>
+		<Word idx="20">7(22,CD): {7}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(5):dep={much(2):advmod={how(1)}},aux={do(3)},nsubj={[x1]Jason(4)},nmod={store(9):case={at(6)},det={the(7)},compound={music(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">Jason(4,NNP): {Jason}</Word>
+		<Word idx="5">spend(5,VB): {spend}</Word>
+		<Word idx="6">at(6,IN): {at}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">music(8,NN): {music}</Word>
+		<Word idx="9">store(9,NN): {store}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">TimeVariantUnknownFinal</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

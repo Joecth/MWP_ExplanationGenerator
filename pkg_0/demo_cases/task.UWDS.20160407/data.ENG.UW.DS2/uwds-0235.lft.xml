@@ -1,0 +1,94 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 use)
+		(s1w4 recipe)
+		(s1w1 carefully)
+		(s1w2 follow)
+		(s1w3 a)
+		(s1w5 Kenny)
+		(s1w9 cup)
+		(s1w7 exactly)
+		(s1w8 0.16666666666666666)
+		(s1w11 oil)
+		(s1w10 of)
+		(s1w12 and)
+		(s1w14 cup)
+		(s1w13 1.1666666666666667)
+		(s1w16 water)
+		(s1w15 of)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(nmod v1 n4)
+		(head n4 s1w4)
+		(advmod n4 s1w1)
+		(dep n4 s1w2)
+		(det n4 s1w3)
+		(nsubj v1 n5)
+		(head n5 s1w5)
+		(dobj v1 n6)
+		(head n6 s1w9)
+		(advmod n6 s1w7)
+		(nummod n6 s1w8)
+		(nmod n6 n1)
+		(head n1 s1w11)
+		(case n1 s1w10)
+		(cj_op j1 and)
+		(conj n6 n8)
+		(head n8 s1w14)
+		(nummod n8 s1w13)
+		(nmod n8 n2)
+		(head n2 s1w16)
+		(case n2 s1w15)
+	)
+
+	(LF2
+		(= (quan q2 s1w9 s1w11) 0.16666666666666666)(verb q2 s1w6)(role q2 nmod)
+		(= (quan q4 s1w14 s1w16) 1.1666666666666667)(verb q4 s1w6)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 use)
+		(s2w3 cup)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 liquid)
+		(s2w4 of)
+		(s2w6 do)
+		(s2w7 Kenny)
+		(s2w10 all)
+		(s2w9 in)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dobj v2 n10)
+		(head n10 s2w3)
+		(amod n10 s2w2)
+		(advmod n10 s2w1)
+		(nmod n10 n3)
+		(head n3 s2w5)
+		(case n3 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 n12)
+		(head n12 s2w7)
+		(nmod v2 s2w10)
+		(case v2 s2w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w9 s1w11) (quan q4 s1w14 s1w16)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

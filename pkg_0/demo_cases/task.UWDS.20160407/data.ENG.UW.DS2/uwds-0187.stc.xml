@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{receive(11):nmod={class(6):case={in(1)},nmod_poss={Olsen(3):compound={Mr.(2)},case={'s(4)}},compound={mathematics(5)}},nsubj={0.7(8):dep={[x1]student(10):det={the(9)}}},dobj={a(12)},xcomp={'s(13)},cc={and(14)},conj={0.2(15):acl={receive(16):advcl={b(17)},xcomp={'s(18)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">Mr.(2,NNP): {Mr.}</Word>
+		<Word idx="3">Olsen(3,NNP): {Olsen}</Word>
+		<Word idx="4">'s(4,POS): {'s}</Word>
+		<Word idx="5">mathematics(5,NN): {mathematics}</Word>
+		<Word idx="6">class(6,NN): {class}</Word>
+		<Word idx="7">0.7(8,CD): {0.7}</Word>
+		<Word idx="8">the(9,DT): {the}</Word>
+		<Word idx="9">student(10,NNS): {students}</Word>
+		<Word idx="10">receive(11,VBD): {received}</Word>
+		<Word idx="11">a(12,DT): {A}</Word>
+		<Word idx="12">'s(13,POS): {'s}</Word>
+		<Word idx="13">and(14,CC): {and}</Word>
+		<Word idx="14">0.2(15,CD): {0.2}</Word>
+		<Word idx="15">receive(16,VBN): {received}</Word>
+		<Word idx="16">b(17,NN): {B}</Word>
+		<Word idx="17">'s(18,POS): {'s}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{receive(6):nsubj={fraction(2):det={what(1)},nmod={[x1]student(5):case={of(3)},det={the(4)}}},nmod={a(8):case={either(7)},case={'s(9)},cc={or(10)},conj={b(11):case={'s(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WDT): {What}</Word>
+		<Word idx="2">fraction(2,NN): {fraction}</Word>
+		<Word idx="3">of(3,IN): {of}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">student(5,NNS): {students}</Word>
+		<Word idx="6">receive(6,VBD): {received}</Word>
+		<Word idx="7">either(7,CC): {either}</Word>
+		<Word idx="8">a(8,DT): {A}</Word>
+		<Word idx="9">'s(9,POS): {'s}</Word>
+		<Word idx="10">or(10,CC): {or}</Word>
+		<Word idx="11">b(11,NN): {B}</Word>
+		<Word idx="12">'s(12,POS): {'s}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

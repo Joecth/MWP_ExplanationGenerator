@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{contain(5):nsubj={dish(3):det={a(1)},amod={petri(2)}},advmod={originally(4)},dobj={[x1]bacterium(7):nummod={600(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">petri(2,JJ): {petri}</Word>
+		<Word idx="3">dish(3,NN): {dish}</Word>
+		<Word idx="4">originally(4,RB): {originally}</Word>
+		<Word idx="5">contain(5,VBD): {contained}</Word>
+		<Word idx="6">600(6,CD): {600}</Word>
+		<Word idx="7">bacterium(7,NNS): {bacteria}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{let(3):nsubj={scientist(2):det={a(1)}},ccomp={grow(6):nsubj={[x1]bacterium(5):det={the(4)}}},cc={and(7)},conj={be(10):advmod={now(8)},expl={there(9)},nsubj={8917(11):nmod={[x1]they(13):case={of(12)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">scientist(2,NN): {scientist}</Word>
+		<Word idx="3">let(3,VB): {let}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">bacterium(5,NNS): {bacteria}</Word>
+		<Word idx="6">grow(6,VBP): {grow}</Word>
+		<Word idx="7">and(7,CC): {and}</Word>
+		<Word idx="8">now(8,RB): {now}</Word>
+		<Word idx="9">there(9,EX): {there}</Word>
+		<Word idx="10">be(10,VBP): {are}</Word>
+		<Word idx="11">8917(11,CD): {8917}</Word>
+		<Word idx="12">of(12,IN): {of}</Word>
+		<Word idx="13">they(13,PRP): {them}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(5):nsubj={bacterium(4):amod={more(3):dep={many(2):advmod={how(1)}}}},expl={there(6)},nsubj={now(7)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">more(3,JJR): {more}</Word>
+		<Word idx="4">bacterium(4,NNS): {bacteria}</Word>
+		<Word idx="5">be(5,VBP): {are}</Word>
+		<Word idx="6">there(6,EX): {there}</Word>
+		<Word idx="7">now(7,RB): {now}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

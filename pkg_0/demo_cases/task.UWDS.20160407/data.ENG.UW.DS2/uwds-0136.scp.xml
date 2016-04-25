@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(5):nmod={[x1]December(2):case={before(1)}},nsubj={[x2]customer(4)},dobj={muff(8):nummod={1346(6)},compound={ear(7)}},nmod={mall(11):case={from(9)},det={the(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">before(1,IN): {Before}</Word>
+		<Word idx="2">December(2,NNP): {December}</Word>
+		<Word idx="3">customer(4,NNS): {customers}</Word>
+		<Word idx="4">buy(5,VBP): {buy}</Word>
+		<Word idx="5">1346(6,CD): {1346}</Word>
+		<Word idx="6">ear(7,NN): {ear}</Word>
+		<Word idx="7">muff(8,NNS): {muffs}</Word>
+		<Word idx="8">from(9,IN): {from}</Word>
+		<Word idx="9">the(10,DT): {the}</Word>
+		<Word idx="10">mall(11,NN): {mall}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(5):nmod={[x1]December(2):case={during(1)}},nsubj={[x2]they(4)},dobj={6444(6)},cc={and(8)},conj={be(10):expl={there(9)},nsubj={none(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">during(1,IN): {During}</Word>
+		<Word idx="2">December(2,NNP): {December}</Word>
+		<Word idx="3">they(4,PRP): {they}</Word>
+		<Word idx="4">buy(5,VBP): {buy}</Word>
+		<Word idx="5">6444(6,CD): {6444}</Word>
+		<Word idx="6">and(8,CC): {and}</Word>
+		<Word idx="7">there(9,EX): {there}</Word>
+		<Word idx="8">be(10,VBP): {are}</Word>
+		<Word idx="9">none(11,NN): {none}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(11):nmod={all(2):case={in(1)}},dobj={muff(7):amod={many(5):advmod={how(4)}},compound={ear(6)}},aux={do(8)},nsubj={[x2]customer(10):det={the(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">all(2,DT): {all}</Word>
+		<Word idx="3">how(4,WRB): {how}</Word>
+		<Word idx="4">many(5,JJ): {many}</Word>
+		<Word idx="5">ear(6,NN): {ear}</Word>
+		<Word idx="6">muff(7,NNS): {muffs}</Word>
+		<Word idx="7">do(8,VBP): {do}</Word>
+		<Word idx="8">the(9,DT): {the}</Word>
+		<Word idx="9">customer(10,NNS): {customers}</Word>
+		<Word idx="10">buy(11,VB): {buy}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

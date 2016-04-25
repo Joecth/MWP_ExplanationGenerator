@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{land(10):nmod_tmod={[x3]year(2):amod={last(1)}},nmod={airport(6):case={at(3)},nmod_poss={[x2]Newberg(4):case={'s(5)}}},nsubj={[x1]passenger(9):nummod={14507(8)}},nmod={time(12):case={on(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">last(1,JJ): {Last}</Word>
+		<Word idx="2">year(2,NN): {year}</Word>
+		<Word idx="3">at(3,IN): {at}</Word>
+		<Word idx="4">Newberg(4,NNP): {Newberg}</Word>
+		<Word idx="5">'s(5,POS): {'s}</Word>
+		<Word idx="6">airport(6,NN): {airport}</Word>
+		<Word idx="7">14507(8,CD): {14507}</Word>
+		<Word idx="8">passenger(9,NNS): {passengers}</Word>
+		<Word idx="9">land(10,VBD): {landed}</Word>
+		<Word idx="10">on(11,IN): {on}</Word>
+		<Word idx="11">time(12,NN): {time}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{land(5):advmod={unfortunately(1)},nsubj={[x1]passenger(4):nummod={213(3)}},advmod={late(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">unfortunately(1,RB): {Unfortunately}</Word>
+		<Word idx="2">213(3,CD): {213}</Word>
+		<Word idx="3">passenger(4,NNS): {passengers}</Word>
+		<Word idx="4">land(5,VBD): {landed}</Word>
+		<Word idx="5">late(6,RB): {late}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{land(7):nsubj={passenger(6):nmod={all(2):case={in(1)}},amod={many(5):advmod={how(4)}}},nmod={[x2]Newberg(9):case={in(8)}},nmod_tmod={[x3]year(11):amod={last(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">all(2,DT): {all}</Word>
+		<Word idx="3">how(4,WRB): {how}</Word>
+		<Word idx="4">many(5,JJ): {many}</Word>
+		<Word idx="5">passenger(6,NNS): {passengers}</Word>
+		<Word idx="6">land(7,VBD): {landed}</Word>
+		<Word idx="7">in(8,IN): {in}</Word>
+		<Word idx="8">Newberg(9,NNP): {Newberg}</Word>
+		<Word idx="9">last(10,JJ): {last}</Word>
+		<Word idx="10">year(11,NN): {year}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

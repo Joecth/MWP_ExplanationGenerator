@@ -1,0 +1,82 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 buy)
+		(s1w1 Kelly)
+		(s1w4 pound)
+		(s1w3 0.1)
+		(s1w6 peanut)
+		(s1w5 of)
+		(s1w7 and)
+		(s1w9 pound)
+		(s1w8 0.4)
+		(s1w11 raisin)
+		(s1w10 of)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w4)
+		(nummod n5 s1w3)
+		(nmod n5 n1)
+		(head n1 s1w6)
+		(case n1 s1w5)
+		(cj_op j1 and)
+		(conj n5 n7)
+		(head n7 s1w9)
+		(nummod n7 s1w8)
+		(nmod n7 n2)
+		(head n2 s1w11)
+		(case n2 s1w10)
+	)
+
+	(LF2
+		(= (quan q2 s1w4 s1w6) 0.1)(verb q2 s1w2)(role q2 nmod)
+		(= (quan q4 s1w9 s1w11) 0.4)(verb q4 s1w2)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 buy)
+		(s2w3 pound)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 snack)
+		(s2w4 of)
+		(s2w6 do)
+		(s2w7 she)
+		(s2w10 all)
+		(s2w9 in)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dobj v2 n9)
+		(head n9 s2w3)
+		(amod n9 s2w2)
+		(advmod n9 s2w1)
+		(nmod n9 n3)
+		(head n3 s2w5)
+		(case n3 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 s2w7)
+		(nmod v2 s2w10)
+		(case v2 s2w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w4 s1w6) (quan q4 s1w9 s1w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

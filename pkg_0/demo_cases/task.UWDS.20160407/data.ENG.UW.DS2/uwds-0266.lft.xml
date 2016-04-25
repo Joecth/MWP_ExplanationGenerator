@@ -1,0 +1,90 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 buy)
+		(s1w3 company)
+		(s1w1 a)
+		(s1w2 construction)
+		(s1w6 ton)
+		(s1w5 5.91)
+		(s1w8 gravel)
+		(s1w7 of)
+		(s1w9 and)
+		(s1w11 ton)
+		(s1w10 8.11)
+		(s1w13 sand)
+		(s1w12 of)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(dobj v1 n6)
+		(head n6 s1w6)
+		(nummod n6 s1w5)
+		(nmod n6 n1)
+		(head n1 s1w8)
+		(case n1 s1w7)
+		(cj_op j1 and)
+		(conj n6 n8)
+		(head n8 s1w11)
+		(nummod n8 s1w10)
+		(nmod n8 n2)
+		(head n2 s1w13)
+		(case n2 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 s1w6 s1w8) 5.91)(verb q2 s1w4)(role q2 nmod)
+		(= (quan q4 s1w11 s1w13) 8.11)(verb q4 s1w4)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w9 buy)
+		(s2w3 ton)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 material)
+		(s2w4 of)
+		(s2w6 do)
+		(s2w8 company)
+		(s2w7 the)
+		(s2w11 all)
+		(s2w10 in)
+	)
+
+	(LF1
+		(verb v2 s2w9)
+		(dobj v2 n10)
+		(head n10 s2w3)
+		(amod n10 s2w2)
+		(advmod n10 s2w1)
+		(nmod n10 n3)
+		(head n3 s2w5)
+		(case n3 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 n12)
+		(head n12 s2w8)
+		(det n12 s2w7)
+		(nmod v2 s2w11)
+		(case v2 s2w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w6 s1w8) (quan q4 s1w11 s1w13)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

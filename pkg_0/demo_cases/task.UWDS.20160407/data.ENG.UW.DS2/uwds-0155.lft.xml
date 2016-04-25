@@ -1,0 +1,142 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w8 study)
+		(s1w2 worker)
+		(s1w1 a)
+		(s1w6 lab)
+		(s1w3 at)
+		(s1w4 a)
+		(s1w5 medical)
+		(s1w7 be)
+		(s1w10 sample)
+		(s1w9 blood)
+	)
+
+	(LF1
+		(HEAD v1 s1w8)
+		(nsubj v1 n5)
+		(head n5 s1w2)
+		(det n5 s1w1)
+		(nmod n5 n6)
+		(head n6 s1w6)
+		(case n6 s1w3)
+		(det n6 s1w4)
+		(amod n6 s1w5)
+		(aux v1 s1w7)
+		(dobj v1 n7)
+		(head n7 s1w10)
+		(compound n7 n8)
+		(head n8 s1w9)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 contain)
+		(s2w2 sample)
+		(s2w1 2)
+		(s2w5 total)
+		(s2w4 a)
+		(s2w9 cell)
+		(s2w6 of)
+		(s2w7 7341)
+		(s2w8 blood)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n1)
+		(head n1 s2w2)
+		(nummod n1 s2w1)
+		(dobj v2 n10)
+		(head n10 s2w5)
+		(det n10 s2w4)
+		(nmod n10 n2)
+		(head n2 s2w9)
+		(case n2 s2w6)
+		(nummod n2 s2w7)
+		(compound n2 n12)
+		(head n12 s2w8)
+	)
+
+	(LF2
+		(= (quan q2 # s2w2) 2)(verb q2 s2w3)(role q2 nsubj)
+		(= (quan q4 # s2w9) 7341)(verb q4 s2w3)(role q4 nmod)
+		(q_map m1 q2 q4)(verb m1 s2w3)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w4 contain)
+		(s3w3 sample)
+		(s3w1 the)
+		(s3w2 first)
+		(s3w7 cell)
+		(s3w5 4221)
+		(s3w6 blood)
+	)
+
+	(LF1
+		(verb v3 s3w4)
+		(nsubj v3 n13)
+		(head n13 s3w3)
+		(det n13 s3w1)
+		(amod n13 s3w2)
+		(dobj v3 n3)
+		(head n3 s3w7)
+		(nummod n3 s3w5)
+		(compound n3 n15)
+		(head n15 s3w6)
+	)
+
+	(LF2
+		(= (quan q6 # s3w7) 4221)(verb q6 s3w4)(role q6 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w9 sample)
+		(s4w4 cell)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w3 blood)
+		(s4w5 be)
+		(s4w6 in)
+		(s4w7 the)
+		(s4w8 second)
+	)
+
+	(LF1
+		(head n16 s4w9)
+		(nsubj n16 n4)
+		(head n4 s4w4)
+		(amod n4 s4w2)
+		(advmod n4 s4w1)
+		(compound n4 n18)
+		(head n18 s4w3)
+		(verb n16 s4w5)
+		(case n16 s4w6)
+		(det n16 s4w7)
+		(amod n16 s4w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 # s2w9) (quan q6 # s3w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

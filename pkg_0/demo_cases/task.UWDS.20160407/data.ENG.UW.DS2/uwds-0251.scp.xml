@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(3):nsubj={[x1]Irene(1)},advmod={just(2)},dobj={[x2]lamp(6):det={a(4)},amod={new(5)}},nmod={table(10):case={for(7)},nmod_poss={[x1]she(8)},compound={bedside(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Irene(1,NNP): {Irene}</Word>
+		<Word idx="2">just(2,RB): {just}</Word>
+		<Word idx="3">buy(3,VBD): {bought}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">new(5,JJ): {new}</Word>
+		<Word idx="6">lamp(6,NN): {lamp}</Word>
+		<Word idx="7">for(7,IN): {for}</Word>
+		<Word idx="8">she(8,PRPS): {her}</Word>
+		<Word idx="9">bedside(9,NN): {bedside}</Word>
+		<Word idx="10">table(10,NN): {table}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{tall(7):nsubj={[x2]lamp(3):det={the(1)},amod={old(2)}},cop={be(4)},nmod_npmod={foot(6):nummod={1(5)}},cc={and(8)},conj={tall(15):nsubj={[x2]lamp(11):det={the(9)},amod={new(10)}},cop={be(12)},nmod_npmod={foot(14):nummod={2.3333333333333335(13)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">old(2,JJ): {old}</Word>
+		<Word idx="3">lamp(3,NN): {lamp}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">1(5,CD): {1}</Word>
+		<Word idx="6">foot(6,NN): {foot}</Word>
+		<Word idx="7">tall(7,JJ): {tall}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">new(10,JJ): {new}</Word>
+		<Word idx="11">lamp(11,NN): {lamp}</Word>
+		<Word idx="12">be(12,VBZ): {is}</Word>
+		<Word idx="13">2.3333333333333335(13,CD): {2.3333333333333335}</Word>
+		<Word idx="14">foot(14,NNS): {feet}</Word>
+		<Word idx="15">tall(15,JJ): {tall}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):dobj={much(2):advmod={how(1)},amod={taller(3)}},nsubj={lamp(7):det={the(5)},amod={new(6)},nmod={[x2]lamp(11):case={than(8)},det={the(9)},amod={old(10)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">taller(3,JJR): {taller}</Word>
+		<Word idx="4">be(4,VBZ): {is}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">new(6,JJ): {new}</Word>
+		<Word idx="7">lamp(7,NN): {lamp}</Word>
+		<Word idx="8">than(8,IN): {than}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">old(10,JJ): {old}</Word>
+		<Word idx="11">lamp(11,NN): {lamp}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

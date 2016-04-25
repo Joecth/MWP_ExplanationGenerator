@@ -1,0 +1,133 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 make)
+		(s1w1 Kendra)
+		(s1w3 punch)
+		(s1w9 party)
+		(s1w4 for)
+		(s1w6 friend)
+		(s1w5 she)
+		(s1w7 's)
+		(s1w8 birthday)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n5)
+		(head n5 s1w1)
+		(dobj v1 n6)
+		(head n6 s1w3)
+		(nmod v1 n7)
+		(head n7 s1w9)
+		(case n7 s1w4)
+		(nmod_poss n7 n8)
+		(head n8 s1w6)
+		(nmod_poss n8 s1w5)
+		(case n8 s1w7)
+		(compound n7 n9)
+		(head n9 s1w8)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 use)
+		(s2w1 she)
+		(s2w4 gallon)
+		(s2w3 0.25)
+		(s2w7 juice)
+		(s2w5 of)
+		(s2w6 grape)
+		(s2w9 gallon)
+		(s2w8 0.375)
+		(s2w12 juice)
+		(s2w10 of)
+		(s2w11 cranberry)
+		(s2w13 and)
+		(s2w15 gallon)
+		(s2w14 0.125)
+		(s2w18 soda)
+		(s2w16 of)
+		(s2w17 club)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n10)
+		(head n10 s2w4)
+		(nummod n10 s2w3)
+		(nmod n10 n1)
+		(head n1 s2w7)
+		(case n1 s2w5)
+		(compound n1 n12)
+		(head n12 s2w6)
+		(conj n10 n13)
+		(head n13 s2w9)
+		(nummod n13 s2w8)
+		(nmod n13 n2)
+		(head n2 s2w12)
+		(case n2 s2w10)
+		(compound n2 n15)
+		(head n15 s2w11)
+		(cj_op j1 and)
+		(conj n10 n16)
+		(head n16 s2w15)
+		(nummod n16 s2w14)
+		(nmod n16 n3)
+		(head n3 s2w18)
+		(case n3 s2w16)
+		(compound n3 n18)
+		(head n18 s2w17)
+	)
+
+	(LF2
+		(= (quan q2 s2w4 s2w7) 0.25)(verb q2 s2w2)(role q2 nmod)
+		(= (quan q4 s2w4 s2w12) 0.375)(verb q4 s2w2)(role q4 nmod)
+		(= (quan q6 s2w15 s2w18) 0.125)(verb q6 s2w2)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w8 make)
+		(s3w3 gallon)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 punch)
+		(s3w4 of)
+		(s3w6 do)
+		(s3w7 Kendra)
+	)
+
+	(LF1
+		(verb v3 s3w8)
+		(dobj v3 n19)
+		(head n19 s3w3)
+		(amod n19 s3w2)
+		(advmod n19 s3w1)
+		(nmod n19 n4)
+		(head n4 s3w5)
+		(case n4 s3w4)
+		(aux v3 s3w6)
+		(nsubj v3 n21)
+		(head n21 s3w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Sum (quan ?q ?u ?o)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

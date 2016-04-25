@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{grow(2):nsubj={[x2]Jessica(1)},dobj={[x1]watermelon(4):nummod={35(3)},cc={and(5)},conj={carrot(7):nummod={30(6)}}},cc={but(9)},conj={eat(12):nsubj={rabbit(11):det={the(10)}},dobj={[x1]watermelon(14):nummod={27(13)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jessica(1,NNP): {Jessica}</Word>
+		<Word idx="2">grow(2,VBD): {grew}</Word>
+		<Word idx="3">35(3,CD): {35}</Word>
+		<Word idx="4">watermelon(4,NNS): {watermelons}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">30(6,CD): {30}</Word>
+		<Word idx="7">carrot(7,NNS): {carrots}</Word>
+		<Word idx="8">but(9,CC): {but}</Word>
+		<Word idx="9">the(10,DT): {the}</Word>
+		<Word idx="10">rabbit(11,NNS): {rabbits}</Word>
+		<Word idx="11">eat(12,VBD): {ate}</Word>
+		<Word idx="12">27(13,CD): {27}</Word>
+		<Word idx="13">watermelon(14,NNS): {watermelons}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):advmod={how(1):dep={watermelon(3):amod={many(2)}}},aux={do(4)},nsubj={[x2]Jessica(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">watermelon(3,NNS): {watermelons}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">Jessica(5,NNP): {Jessica}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

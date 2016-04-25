@@ -1,0 +1,110 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 buy)
+		(s1w1 Tom)
+		(s1w4 skateboard)
+		(s1w3 a)
+		(s1w7 9.46)
+		(s1w5 for)
+		(s1w6 USD)
+		(s1w8 and)
+		(s1w9 spend)
+		(s1w11 9.56)
+		(s1w10 USD)
+		(s1w13 marble)
+		(s1w12 on)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w4)
+		(det n5 s1w3)
+		(nmod v1 s1w7)
+		(case v1 s1w5)
+		(dep v1 n1)
+		(head n1 s1w6)
+		(cj_op j1 and)
+		(verb v1 s1w9)
+		(dobj v1 s1w11)
+		(dep v1 n2)
+		(head n2 s1w10)
+		(nmod v1 n6)
+		(head n6 s1w13)
+		(case n6 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w6) 9.46)(verb q2 s1w2)(role q2 dep)
+		(= (quan q4 # s1w10) 9.56)(verb q4 s1w9)(role q4 dep)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 spend)
+		(s2w1 Tom)
+		(s2w2 also)
+		(s2w5 14.50)
+		(s2w4 USD)
+		(s2w7 shorts)
+		(s2w6 on)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n7)
+		(head n7 s2w1)
+		(advmod v2 s2w2)
+		(dobj v2 s2w5)
+		(dep v2 n3)
+		(head n3 s2w4)
+		(nmod v2 n8)
+		(head n8 s2w7)
+		(case n8 s2w6)
+	)
+
+	(LF2
+		(= (quan q6 # s2w4) 14.50)(verb q6 s2w3)(role q6 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 spend)
+		(s3w2 total)
+		(s3w1 in)
+		(s3w4 much)
+		(s3w3 how)
+		(s3w5 do)
+		(s3w6 Tom)
+		(s3w9 toy)
+		(s3w8 on)
+	)
+
+	(LF1
+		(verb v3 s3w7)
+		(nmod v3 n9)
+		(head n9 s3w2)
+		(case n9 s3w1)
+		(dep v3 s3w4)
+		(advmod v3 s3w3)
+		(aux v3 s3w5)
+		(nsubj v3 n10)
+		(head n10 s3w6)
+		(nmod v3 n11)
+		(head n11 s3w9)
+		(case n11 s3w8)
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

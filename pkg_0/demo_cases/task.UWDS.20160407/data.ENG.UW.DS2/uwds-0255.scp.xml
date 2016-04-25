@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{place(5):nsubj={[x1]Kenji(1):cc={and(2)},conj={classmate(4):nmod_poss={[x1]he(3)}}},dobj={block(7):amod={color(6)},nmod={scale(10):case={on(8)},det={a(9)},nmod={lab(14):case={during(11)},det={a(12)},compound={science(13)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Kenji(1,NNP): {Kenji}</Word>
+		<Word idx="2">and(2,CC): {and}</Word>
+		<Word idx="3">he(3,PRPS): {his}</Word>
+		<Word idx="4">classmate(4,NNS): {classmates}</Word>
+		<Word idx="5">place(5,VBD): {placed}</Word>
+		<Word idx="6">color(6,VBN): {colored}</Word>
+		<Word idx="7">block(7,NNS): {blocks}</Word>
+		<Word idx="8">on(8,IN): {on}</Word>
+		<Word idx="9">a(9,DT): {a}</Word>
+		<Word idx="10">scale(10,NN): {scale}</Word>
+		<Word idx="11">during(11,IN): {during}</Word>
+		<Word idx="12">a(12,DT): {a}</Word>
+		<Word idx="13">science(13,NN): {science}</Word>
+		<Word idx="14">lab(14,NN): {lab}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(4):nsubj={[x2]block(3):det={the(1)},amod={yellow(2)}},ccomp={weigh(11):nsubj={pound(6):nummod={0.6(5)},cc={and(7)},conj={[x2]block(10):det={the(8)},amod={green(9)}}},dobj={pound(13):nummod={0.4(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">yellow(2,JJ): {yellow}</Word>
+		<Word idx="3">block(3,NN): {block}</Word>
+		<Word idx="4">weigh(4,VBD): {weighed}</Word>
+		<Word idx="5">0.6(5,CD): {0.6}</Word>
+		<Word idx="6">pound(6,NNS): {pounds}</Word>
+		<Word idx="7">and(7,CC): {and}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">green(9,JJ): {green}</Word>
+		<Word idx="10">block(10,NN): {block}</Word>
+		<Word idx="11">weigh(11,VBD): {weighed}</Word>
+		<Word idx="12">0.4(12,CD): {0.4}</Word>
+		<Word idx="13">pound(13,NNS): {pounds}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(8):dobj={much(2):advmod={how(1)},amod={more(3)}},aux={do(4)},nsubj={[x2]block(7):det={the(5)},amod={yellow(6)}},nmod={[x2]block(12):case={than(9)},det={the(10)},amod={green(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">more(3,RBR): {more}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">yellow(6,JJ): {yellow}</Word>
+		<Word idx="7">block(7,NN): {block}</Word>
+		<Word idx="8">weigh(8,VB): {weigh}</Word>
+		<Word idx="9">than(9,IN): {than}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">green(11,JJ): {green}</Word>
+		<Word idx="12">block(12,NN): {block}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

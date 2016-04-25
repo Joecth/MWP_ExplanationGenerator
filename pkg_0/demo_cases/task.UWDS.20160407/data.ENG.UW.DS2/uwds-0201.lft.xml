@@ -1,0 +1,138 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w9 build)
+		(s1w3 beach)
+		(s1w1 at)
+		(s1w2 the)
+		(s1w4 Miki)
+		(s1w5 and)
+		(s1w7 sister)
+		(s1w6 she)
+		(s1w8 both)
+		(s1w10 sandcastle)
+		(s1w11 and)
+		(s1w13 measure)
+		(s1w12 then)
+		(s1w15 height)
+		(s1w14 they)
+	)
+
+	(LF1
+		(HEAD v1 s1w9)
+		(nmod v1 n3)
+		(head n3 s1w3)
+		(case n3 s1w1)
+		(det n3 s1w2)
+		(nsubj n3 n4)
+		(head n4 s1w4)
+		(cj_op j1 and)
+		(conj n4 n5)
+		(head n5 s1w7)
+		(nmod_poss n5 s1w6)
+		(advmod n3 s1w8)
+		(dobj n3 n6)
+		(head n6 s1w10)
+		(cj_op j2 and)
+		(conj n3 s1w13)
+		(advmod n3 s1w12)
+		(dobj n3 n7)
+		(head n7 s1w15)
+		(nmod_poss n7 s1w14)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w6 foot)
+		(s2w3 sandcastle)
+		(s2w1 Miki)
+		(s2w2 's)
+		(s2w4 be)
+		(s2w5 0.8333333333333334)
+		(s2w15 tall)
+		(s2w7 tall)
+		(s2w8 and)
+		(s2w10 sister)
+		(s2w9 she)
+		(s2w11 's)
+		(s2w12 be)
+		(s2w14 foot)
+		(s2w13 0.5)
+	)
+
+	(LF1
+		(head n8 s2w6)
+		(nsubj n8 n1)
+		(head n1 s2w3)
+		(nmod_poss n1 n10)
+		(head n10 s2w1)
+		(case n10 s2w2)
+		(verb n8 s2w4)
+		(nummod n8 s2w5)
+		(acl_relcl n8 s2w15)
+		(nsubj n8 s2w7)
+		(cj_op j3 and)
+		(conj n8 n11)
+		(head n11 s2w10)
+		(nmod_poss n11 s2w9)
+		(case n11 s2w11)
+		(verb n8 s2w12)
+		(nmod_npmod n8 n12)
+		(head n12 s2w14)
+		(nummod n12 s2w13)
+	)
+
+	(LF2
+		(= (quan q2 s2w6 s2w3) 0.8333333333333334)(verb q2 s2w4)(verb q2 s2w4)(acl_relcl q2 s2w15)(role q2 nsubj)
+		(= (quan q4 s2w14 s2w3) 0.5)(verb q4 s2w12)(verb q4 s2w4)(nummod q4 s2w5)(acl_relcl q4 s2w15)(role q4 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 sandcastle)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w3 taller)
+		(s3w4 be)
+		(s3w5 Miki)
+		(s3w6 's)
+		(s3w9 she)
+		(s3w8 than)
+		(s3w10 sister)
+		(s3w11 's)
+	)
+
+	(LF1
+		(head n2 s3w7)
+		(dep n2 s3w2)
+		(advmod n2 s3w1)
+		(nsubj n2 s3w3)
+		(verb n2 s3w4)
+		(nmod_poss n2 n14)
+		(head n14 s3w5)
+		(case n14 s3w6)
+		(nmod n2 s3w9)
+		(case n2 s3w8)
+		(nmod_poss n2 n15)
+		(head n15 s3w10)
+		(case n15 s3w11)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s2w6 s2w3) (quan q4 s2w14 s2w3)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

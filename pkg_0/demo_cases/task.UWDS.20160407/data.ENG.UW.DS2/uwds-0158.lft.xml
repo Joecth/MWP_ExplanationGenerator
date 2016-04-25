@@ -1,0 +1,109 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 sell)
+		(s1w3 Tigers)
+		(s1w1 the)
+		(s1w2 Richmond)
+		(s1w6 total)
+		(s1w5 a)
+		(s1w9 ticket)
+		(s1w7 of)
+		(s1w8 9570)
+		(s1w11 season)
+		(s1w10 last)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(dobj v1 n6)
+		(head n6 s1w6)
+		(det n6 s1w5)
+		(nmod n6 n1)
+		(head n1 s1w9)
+		(case n1 s1w7)
+		(nummod n1 s1w8)
+		(nmod_tmod v1 n8)
+		(head n8 s1w11)
+		(amod n8 s1w10)
+	)
+
+	(LF2
+		(= (quan q2 # s1w9) 9570)(verb q2 s1w4)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w18 sell)
+		(s2w3 sell)
+		(s2w1 if)
+		(s2w2 they)
+		(s2w5 ticket)
+		(s2w4 3867)
+		(s2w9 half)
+		(s2w6 in)
+		(s2w7 the)
+		(s2w8 first)
+		(s2w12 season)
+		(s2w10 of)
+		(s2w11 the)
+		(s2w15 ticket)
+		(s2w14 many)
+		(s2w13 how)
+		(s2w16 do)
+		(s2w17 they)
+		(s2w22 half)
+		(s2w19 in)
+		(s2w20 the)
+		(s2w21 second)
+	)
+
+	(LF1
+		(verb v2 s2w18)
+		(verb v2 s2w3)
+		(mark v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n2)
+		(head n2 s2w5)
+		(nummod n2 s2w4)
+		(nmod v2 n10)
+		(head n10 s2w9)
+		(case n10 s2w6)
+		(det n10 s2w7)
+		(amod n10 s2w8)
+		(nmod n10 n11)
+		(head n11 s2w12)
+		(case n11 s2w10)
+		(det n11 s2w11)
+		(dobj v2 n3)
+		(head n3 s2w15)
+		(amod n3 s2w14)
+		(advmod n3 s2w13)
+		(aux v2 s2w16)
+		(nsubj v2 s2w17)
+		(nmod v2 n13)
+		(head n13 s2w22)
+		(case n13 s2w19)
+		(det n13 s2w20)
+		(amod n13 s2w21)
+	)
+
+	(LF2
+		(= (quan q4 # s2w5) 3867)(verb q4 s2w3)(role q4 dobj)
+
+		(ASK ANS (Subtraction (quan q2 # s1w9) (quan q4 # s2w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{order(4):nsubj={company(3):det={a(1)},compound={construction(2)}},dobj={ton(6):nummod={[x1]0.16666666666666666(5)},nmod={concrete(8):case={of(7)}},conj={ton(11):nummod={[x1]0.16666666666666666(10)},nmod={brick(13):case={of(12)}}},cc={and(15)},conj={ton(17):nummod={0.5(16)},nmod={stone(19):case={of(18)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">construction(2,NN): {construction}</Word>
+		<Word idx="3">company(3,NN): {company}</Word>
+		<Word idx="4">order(4,VBD): {ordered}</Word>
+		<Word idx="5">0.16666666666666666(5,CD): {0.16666666666666666}</Word>
+		<Word idx="6">ton(6,NN): {ton}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">concrete(8,NN): {concrete}</Word>
+		<Word idx="9">0.16666666666666666(10,CD): {0.16666666666666666}</Word>
+		<Word idx="10">ton(11,NN): {ton}</Word>
+		<Word idx="11">of(12,IN): {of}</Word>
+		<Word idx="12">brick(13,NNS): {bricks}</Word>
+		<Word idx="13">and(15,CC): {and}</Word>
+		<Word idx="14">0.5(16,CD): {0.5}</Word>
+		<Word idx="15">ton(17,NN): {ton}</Word>
+		<Word idx="16">of(18,IN): {of}</Word>
+		<Word idx="17">stone(19,NN): {stone}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(6):nsubj={ton(3):amod={many(2):advmod={how(1)}},nmod={material(5):case={of(4)}}},dobj={order(9):det={the(7)},compound={company(8)}},nmod={all(11):case={in(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">ton(3,NNS): {tons}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">material(5,NN): {material}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">company(8,NN): {company}</Word>
+		<Word idx="9">order(9,NN): {order}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">all(11,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

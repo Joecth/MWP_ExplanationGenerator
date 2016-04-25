@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(2):nsubj={[x1]Mike(1)},ccomp={pick(7):nsubj={pear(4):nummod={8(3)},cc={and(5)},conj={Jason(6)}},dobj={pear(9):nummod={7(8)}},nmod={[x2]tree(13):case={from(10)},det={the(11)},compound={pear(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mike(1,NNP): {Mike}</Word>
+		<Word idx="2">pick(2,VBD): {picked}</Word>
+		<Word idx="3">8(3,CD): {8}</Word>
+		<Word idx="4">pear(4,NNS): {pears}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">Jason(6,NNP): {Jason}</Word>
+		<Word idx="7">pick(7,VBD): {picked}</Word>
+		<Word idx="8">7(8,CD): {7}</Word>
+		<Word idx="9">pear(9,NNS): {pears}</Word>
+		<Word idx="10">from(10,IN): {from}</Word>
+		<Word idx="11">the(11,DT): {the}</Word>
+		<Word idx="12">pear(12,NN): {pear}</Word>
+		<Word idx="13">tree(13,NN): {tree}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(2):nsubj={[x1]Fred(1)},dobj={apple(4):nummod={6(3)}},nmod={[x2]tree(8):case={from(5)},det={the(6)},compound={apple(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Fred(1,NNP): {Fred}</Word>
+		<Word idx="2">pick(2,VBD): {picked}</Word>
+		<Word idx="3">6(3,CD): {6}</Word>
+		<Word idx="4">apple(4,NNS): {apples}</Word>
+		<Word idx="5">from(5,IN): {from}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">apple(7,NN): {apple}</Word>
+		<Word idx="8">tree(8,NN): {tree}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(5):nsubjpass={pear(3):amod={many(2):advmod={how(1)}}},auxpass={be(4)},nmod={total(7):case={in(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pear(3,NNS): {pears}</Word>
+		<Word idx="4">be(4,VBD): {were}</Word>
+		<Word idx="5">pick(5,VBN): {picked}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">total(7,NN): {total}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

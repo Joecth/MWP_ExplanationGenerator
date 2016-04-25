@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={[x1]ruler(4):nummod={46(3)},nmod={[x2]drawer(7):case={in(5)},det={the(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">46(3,CD): {46}</Word>
+		<Word idx="4">ruler(4,NNS): {rulers}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">drawer(7,NN): {drawer}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={Tim(1)},dobj={[x1]ruler(4):nummod={25(3)}},nmod={[x2]drawer(7):case={from(5)},det={the(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Tim(1,NNP): {Tim}</Word>
+		<Word idx="2">take(2,VBD): {took}</Word>
+		<Word idx="3">25(3,CD): {25}</Word>
+		<Word idx="4">ruler(4,NNS): {rulers}</Word>
+		<Word idx="5">from(5,IN): {from}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">drawer(7,NN): {drawer}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={ruler(3):amod={many(2):advmod={how(1)}}},nmod={[x2]drawer(8):advmod={now(5)},case={in(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">ruler(3,NNS): {rulers}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">now(5,RB): {now}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">drawer(8,NN): {drawer}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

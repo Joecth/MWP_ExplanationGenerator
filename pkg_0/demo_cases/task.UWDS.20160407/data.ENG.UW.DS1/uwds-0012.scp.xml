@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(4):nsubj={dog(3):nmod_poss={[x1]Alyssa(1):case={'s(2)}}},dobj={puppy(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">Alyssa(1,NNP): {Alyssa}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">dog(3,NN): {dog}</Word>
+		<Word idx="4">have(4,VBD): {had}</Word>
+		<Word idx="5">puppy(5,NNS): {puppies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(2):nsubj={[x1]she(1)},dobj={7(3)},nmod={friend(6):case={to(4)},nmod_poss={[x1]she(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">give(2,VBD): {gave}</Word>
+		<Word idx="3">7(3,CD): {7}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">she(5,PRPS): {her}</Word>
+		<Word idx="6">friend(6,NNS): {friends}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(3):nsubj={[x1]she(1)},advmod={now(2)},dobj={puppy(5):nummod={5(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">now(2,RB): {now}</Word>
+		<Word idx="3">have(3,VBZ): {has}</Word>
+		<Word idx="4">5(4,CD): {5}</Word>
+		<Word idx="5">puppy(5,NNS): {puppies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dep={puppy(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]she(5)},xcomp={start(8):mark={to(7)},nmod={with(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">puppy(3,NNS): {puppies}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+		<Word idx="7">to(7,TO): {to}</Word>
+		<Word idx="8">start(8,VB): {start}</Word>
+		<Word idx="9">with(9,IN): {with}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

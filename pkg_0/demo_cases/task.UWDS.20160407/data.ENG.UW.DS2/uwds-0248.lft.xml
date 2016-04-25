@@ -1,0 +1,130 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 find)
+		(s1w1 Nicole)
+		(s1w5 caterpillar)
+		(s1w3 a)
+		(s1w4 orange)
+		(s1w6 and)
+		(s1w9 caterpillar)
+		(s1w7 a)
+		(s1w8 green)
+		(s1w12 backyard)
+		(s1w10 in)
+		(s1w11 she)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n2)
+		(head n2 s1w1)
+		(dobj v1 n3)
+		(head n3 s1w5)
+		(det n3 s1w3)
+		(amod n3 s1w4)
+		(cj_op j1 and)
+		(conj n3 n4)
+		(head n4 s1w9)
+		(det n4 s1w7)
+		(amod n4 s1w8)
+		(nmod v1 n5)
+		(head n5 s1w12)
+		(case n5 s1w10)
+		(nmod_poss n5 s1w11)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 be)
+		(s2w3 caterpillar)
+		(s2w1 the)
+		(s2w2 green)
+		(s2w7 long)
+		(s2w6 inch)
+		(s2w5 3)
+		(s2w8 and)
+		(s2w12 be)
+		(s2w11 caterpillar)
+		(s2w9 the)
+		(s2w10 orange)
+		(s2w15 long)
+		(s2w14 inch)
+		(s2w13 1.1666666666666667)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nsubj v2 n1)
+		(head n1 s2w3)
+		(det n1 s2w1)
+		(amod n1 s2w2)
+		(advmod v2 s2w7)
+		(nmod_npmod v2 n7)
+		(head n7 s2w6)
+		(nummod n7 s2w5)
+		(cj_op j2 and)
+		(verb v2 s2w12)
+		(nsubj v2 n8)
+		(head n8 s2w11)
+		(det n8 s2w9)
+		(amod n8 s2w10)
+		(advmod v2 s2w15)
+		(nmod_npmod v2 n9)
+		(head n9 s2w14)
+		(nummod n9 s2w13)
+	)
+
+	(LF2
+		(= (quan q2 s2w6 s2w3) 3)(verb q2 s2w4)(role q2 nsubj)
+		(= (quan q4 s2w14 s2w3) 1.1666666666666667)(verb q4 s2w12)(advmod q4 s2w15)(role q4 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 caterpillar)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w3 longer)
+		(s3w4 be)
+		(s3w5 the)
+		(s3w6 green)
+		(s3w11 caterpillar)
+		(s3w8 than)
+		(s3w9 the)
+		(s3w10 orange)
+	)
+
+	(LF1
+		(head n10 s3w7)
+		(nsubj n10 s3w2)
+		(advmod n10 s3w1)
+		(advmod n10 s3w3)
+		(verb n10 s3w4)
+		(det n10 s3w5)
+		(amod n10 s3w6)
+		(nmod n10 n11)
+		(head n11 s3w11)
+		(case n11 s3w8)
+		(det n11 s3w9)
+		(amod n11 s3w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s2w6 s2w3) (quan q4 s2w14 s2w3)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

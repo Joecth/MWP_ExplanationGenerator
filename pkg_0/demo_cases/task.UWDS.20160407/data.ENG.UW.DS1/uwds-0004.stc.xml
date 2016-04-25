@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{play(5):nsubj={school(4):nmod_poss={Sara(1):case={'s(2)}},amod={high(3)}},dobj={game(8):nummod={12(6)},compound={basketball(7)}},nmod_tmod={year(10):det={this(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Sara(1,NNP): {Sara}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">high(3,JJ): {high}</Word>
+		<Word idx="4">school(4,NN): {school}</Word>
+		<Word idx="5">play(5,VBD): {played}</Word>
+		<Word idx="6">12(6,CD): {12}</Word>
+		<Word idx="7">basketball(7,NN): {basketball}</Word>
+		<Word idx="8">game(8,NNS): {games}</Word>
+		<Word idx="9">this(9,DT): {this}</Word>
+		<Word idx="10">year(10,NN): {year}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{win(3):nsubj={[x1]team(2):det={the(1)}},dobj={most(4):nmod={game(7):case={of(5)},nmod_poss={[x1]they(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">team(2,NN): {team}</Word>
+		<Word idx="3">win(3,VBD): {won}</Word>
+		<Word idx="4">most(4,JJS): {most}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">they(6,PRPS): {their}</Word>
+		<Word idx="7">game(7,NNS): {games}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{defeat(3):nsubjpass={[x1]they(1)},auxpass={be(2)},nmod={game(6):case={during(4)},nummod={4(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">they(1,PRP): {They}</Word>
+		<Word idx="2">be(2,VBD): {were}</Word>
+		<Word idx="3">defeat(3,VBN): {defeated}</Word>
+		<Word idx="4">during(4,IN): {during}</Word>
+		<Word idx="5">4(5,CD): {4}</Word>
+		<Word idx="6">game(6,NNS): {games}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{win(6):dobj={game(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]they(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">game(3,NNS): {games}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">win(6,VB): {win}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

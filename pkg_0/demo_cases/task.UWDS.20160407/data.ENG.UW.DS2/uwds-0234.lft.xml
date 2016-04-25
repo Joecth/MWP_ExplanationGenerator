@@ -1,0 +1,142 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 weigh)
+		(s1w4 class)
+		(s1w1 Karin)
+		(s1w2 's)
+		(s1w3 science)
+		(s1w7 ring)
+		(s1w6 plastic)
+		(s1w10 experiment)
+		(s1w8 for)
+		(s1w9 a)
+	)
+
+	(LF1
+		(HEAD v1 s1w5)
+		(nsubj v1 n2)
+		(head n2 s1w4)
+		(nmod_poss n2 n3)
+		(head n3 s1w1)
+		(case n3 s1w2)
+		(compound n2 n4)
+		(head n4 s1w3)
+		(dobj v1 n5)
+		(head n5 s1w7)
+		(amod n5 s1w6)
+		(nmod v1 n6)
+		(head n6 s1w10)
+		(case n6 s1w8)
+		(det n6 s1w9)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 find)
+		(s2w1 they)
+		(s2w7 weigh)
+		(s2w3 that)
+		(s2w6 ring)
+		(s2w4 the)
+		(s2w5 orange)
+		(s2w9 ounce)
+		(s2w8 0.08333333333333333)
+		(s2w13 weigh)
+		(s2w12 ring)
+		(s2w10 the)
+		(s2w11 purple)
+		(s2w15 ounce)
+		(s2w14 0.3333333333333333)
+		(s2w16 and)
+		(s2w20 weigh)
+		(s2w19 ring)
+		(s2w17 the)
+		(s2w18 white)
+		(s2w22 ounce)
+		(s2w21 0.4166666666666667)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 s2w1)
+		(verb v2 s2w7)
+		(mark v2 s2w3)
+		(nsubj v2 n1)
+		(head n1 s2w6)
+		(det n1 s2w4)
+		(amod n1 s2w5)
+		(dobj v2 n8)
+		(head n8 s2w9)
+		(nummod n8 s2w8)
+		(verb v2 s2w13)
+		(nsubj v2 n9)
+		(head n9 s2w12)
+		(det n9 s2w10)
+		(amod n9 s2w11)
+		(dobj v2 n10)
+		(head n10 s2w15)
+		(nummod n10 s2w14)
+		(cj_op j1 and)
+		(verb v2 s2w20)
+		(nsubj v2 n11)
+		(head n11 s2w19)
+		(det n11 s2w17)
+		(amod n11 s2w18)
+		(dobj v2 n12)
+		(head n12 s2w22)
+		(nummod n12 s2w21)
+	)
+
+	(LF2
+		(= (quan q2 s2w9 s2w6) 0.08333333333333333)(verb q2 s2w7)(role q2 nsubj)
+		(= (quan q4 s2w15 s2w6) 0.3333333333333333)(verb q4 s2w13)(role q4 nsubj)
+		(= (quan q6 s2w22 s2w6) 0.4166666666666667)(verb q6 s2w20)(role q6 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w1 what)
+		(s3w2 be)
+		(s3w5 weight)
+		(s3w3 the)
+		(s3w4 total)
+		(s3w9 ring)
+		(s3w6 of)
+		(s3w7 the)
+		(s3w8 plastic)
+	)
+
+	(LF1
+		(HEAD x3 s3w1)
+		(cop x3 s3w2)
+		(nsubj x3 n13)
+		(head n13 s3w5)
+		(det n13 s3w3)
+		(amod n13 s3w4)
+		(nmod n13 n14)
+		(head n14 s3w9)
+		(case n14 s3w6)
+		(det n14 s3w7)
+		(compound n14 n15)
+		(head n15 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Sum (quan ?q ?u ?o)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

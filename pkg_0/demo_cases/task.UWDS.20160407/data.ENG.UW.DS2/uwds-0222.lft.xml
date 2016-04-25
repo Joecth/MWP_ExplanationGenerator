@@ -1,0 +1,143 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 purchase)
+		(s1w4 Company)
+		(s1w1 Paco)
+		(s1w2 's)
+		(s1w3 Countertop)
+		(s1w6 piece)
+		(s1w8 marble)
+		(s1w7 of)
+		(s1w11 quarry)
+		(s1w9 from)
+		(s1w10 a)
+	)
+
+	(LF1
+		(HEAD v1 s1w5)
+		(nsubj v1 n3)
+		(head n3 s1w4)
+		(nmod_poss n3 n4)
+		(head n4 s1w1)
+		(case n4 s1w2)
+		(compound n3 n5)
+		(head n5 s1w3)
+		(dobj v1 n6)
+		(head n6 s1w6)
+		(nmod n6 n7)
+		(head n7 s1w8)
+		(case n7 s1w7)
+		(nmod v1 n8)
+		(head n8 s1w11)
+		(case n8 s1w9)
+		(det n8 s1w10)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w10 ton)
+		(s2w2 weight)
+		(s2w1 the)
+		(s2w5 piece)
+		(s2w3 of)
+		(s2w4 the)
+		(s2w7 purchase)
+		(s2w6 they)
+		(s2w8 be)
+		(s2w9 0.3333333333333333)
+		(s2w12 ton)
+		(s2w11 0.3333333333333333)
+		(s2w13 and)
+		(s2w15 ton)
+		(s2w14 0.08333333333333333)
+	)
+
+	(LF1
+		(head n9 s2w10)
+		(nsubj n9 n10)
+		(head n10 s2w2)
+		(det n10 s2w1)
+		(nmod n10 n1)
+		(head n1 s2w5)
+		(case n1 s2w3)
+		(det n1 s2w4)
+		(acl_relcl n1 s2w7)
+		(nsubj n1 s2w6)
+		(verb n9 s2w8)
+		(nummod n9 s2w9)
+		(conj n9 n12)
+		(head n12 s2w12)
+		(nummod n12 s2w11)
+		(cj_op j1 and)
+		(conj n9 n13)
+		(head n13 s2w15)
+		(nummod n13 s2w14)
+	)
+
+	(LF2
+		(= (quan q2 s2w10 s2w5) 0.3333333333333333)(verb q2 s2w8)(nsubj q2 s2w2)(verb q2 s2w8)(role q2 nmod)
+		(= (quan q4 s2w12 s2w5) 0.3333333333333333)(verb q4 s2w8)(nsubj q4 s2w2)(verb q4 s2w8)(role q4 nmod)
+		(= (quan q6 s2w15 s2w5) 0.08333333333333333)(verb q6 s2w8)(nsubj q6 s2w2)(verb q6 s2w8)(nummod q6 s2w9)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 do)
+		(s3w3 ton)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 marble)
+		(s3w4 of)
+		(s3w11 purchase)
+		(s3w7 Paco)
+		(s3w8 's)
+		(s3w9 Countertop)
+		(s3w10 Company)
+		(s3w13 all)
+		(s3w12 in)
+	)
+
+	(LF1
+		(verb v2 s3w6)
+		(nsubj v2 n14)
+		(head n14 s3w3)
+		(amod n14 s3w2)
+		(advmod n14 s3w1)
+		(nmod n14 n2)
+		(head n2 s3w5)
+		(case n2 s3w4)
+		(dobj v2 n16)
+		(head n16 s3w11)
+		(nmod_poss n16 n17)
+		(head n17 s3w7)
+		(case n17 s3w8)
+		(compound n16 n18)
+		(head n18 s3w9)
+		(compound n16 n19)
+		(head n19 s3w10)
+		(nmod v2 s3w13)
+		(case v2 s3w12)
+	)
+
+	(LF2
+		
+		(= (quan q2 s2w10 s2w5) 0.3333333333333333) (= (tvq v1 s2w10 s2w5 t0) (quan q2 s2w10 s2w5))
+		(= (quan q4 s2w12 s2w5) 0.3333333333333333) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 s2w15 s2w5) 0.08333333333333333) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 s3w3 s2w5 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

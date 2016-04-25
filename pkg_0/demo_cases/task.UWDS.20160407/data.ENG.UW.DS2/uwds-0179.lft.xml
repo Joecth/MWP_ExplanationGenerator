@@ -1,0 +1,88 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w14 trunk)
+		(s1w4 vacation)
+		(s1w1 at)
+		(s1w2 Lindsey)
+		(s1w3 's)
+		(s1w5 wear)
+		(s1w6 0.375)
+		(s1w10 bikini)
+		(s1w8 garment)
+		(s1w7 the)
+		(s1w9 be)
+		(s1w11 and)
+		(s1w12 0.25)
+		(s1w13 be)
+	)
+
+	(LF1
+		(head n1 s1w14)
+		(nmod n1 n4)
+		(head n4 s1w4)
+		(case n4 s1w1)
+		(nmod_poss n4 n5)
+		(head n5 s1w2)
+		(case n5 s1w3)
+		(dep n4 s1w5)
+		(nsubj n1 s1w6)
+		(acl_relcl n1 n2)
+		(head n2 s1w10)
+		(nsubj n2 n7)
+		(head n7 s1w8)
+		(det n7 s1w7)
+		(verb n2 s1w9)
+		(cj_op j1 and)
+		(conj n2 s1w12)
+		(verb n1 s1w13)
+	)
+
+	(LF2
+		(= (quan q2 # s1w14) 0.375)(verb q2 s1w13)
+		(= (quan q4 # s1w10) 0.25)(verb q4 s1w9)(role q4 acl_relcl)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 be)
+		(s2w2 fraction)
+		(s2w1 what)
+		(s2w5 garment)
+		(s2w3 of)
+		(s2w4 the)
+		(s2w8 bikinis)
+		(s2w7 either)
+		(s2w9 or)
+		(s2w10 trunk)
+	)
+
+	(LF1
+		(HEAD v1 s2w6)
+		(dobj v1 n8)
+		(head n8 s2w2)
+		(det n8 s2w1)
+		(nmod n8 n9)
+		(head n9 s2w5)
+		(case n9 s2w3)
+		(det n9 s2w4)
+		(nsubj v1 s2w8)
+		(advmod v1 s2w7)
+		(cc v1 s2w9)
+		(conj v1 n10)
+		(head n10 s2w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w14) (quan q4 # s1w10)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

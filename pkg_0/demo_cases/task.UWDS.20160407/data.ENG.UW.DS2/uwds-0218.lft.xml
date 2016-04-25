@@ -1,0 +1,200 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w7 walk)
+		(s1w3 vacation)
+		(s1w1 on)
+		(s1w2 she)
+		(s1w5 summer)
+		(s1w4 last)
+		(s1w6 Trisha)
+		(s1w8 all)
+		(s1w12 City)
+		(s1w9 over)
+		(s1w10 New)
+		(s1w11 York)
+		(s1w14 buy)
+		(s1w13 to)
+		(s1w15 souvenir)
+	)
+
+	(LF1
+		(HEAD v1 s1w7)
+		(nmod v1 n2)
+		(head n2 s1w3)
+		(case n2 s1w1)
+		(nmod_poss n2 s1w2)
+		(nmod_tmod v1 n3)
+		(head n3 s1w5)
+		(amod n3 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w6)
+		(dobj v1 s1w8)
+		(nmod v1 n5)
+		(head n5 s1w12)
+		(case n5 s1w9)
+		(compound n5 n6)
+		(head n6 s1w10)
+		(compound n5 n7)
+		(head n7 s1w11)
+		(advcl v1 s1w14)
+		(mark v1 s1w13)
+		(dobj v1 n8)
+		(head n8 s1w15)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 walk)
+		(s2w1 first)
+		(s2w2 she)
+		(s2w5 mile)
+		(s2w4 0.1111111111111111)
+		(s2w8 hotel)
+		(s2w6 from)
+		(s2w7 she)
+		(s2w12 shop)
+		(s2w9 to)
+		(s2w10 a)
+		(s2w11 postcard)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(advmod v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n9)
+		(head n9 s2w5)
+		(nummod n9 s2w4)
+		(nmod v2 n1)
+		(head n1 s2w8)
+		(case n1 s2w6)
+		(nmod_poss n1 s2w7)
+		(nmod v2 n11)
+		(head n11 s2w12)
+		(case n11 s2w9)
+		(det n11 s2w10)
+		(compound n11 n12)
+		(head n12 s2w11)
+	)
+
+	(LF2
+		(= (quan q2 s2w5 s2w8) 0.1111111111111111)(verb q2 s2w3)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 walk)
+		(s3w1 then)
+		(s3w2 she)
+		(s3w5 mile)
+		(s3w4 0.1111111111111111)
+		(s3w9 shop)
+		(s3w6 from)
+		(s3w7 the)
+		(s3w8 postcard)
+		(s3w13 shop)
+		(s3w10 to)
+		(s3w11 a)
+		(s3w12 t-shirt)
+		(s3w14 and)
+		(s3w20 shop)
+		(s3w16 mile)
+		(s3w15 0.6666666666666666)
+		(s3w19 t-shirt)
+		(s3w17 from)
+		(s3w18 the)
+		(s3w21 back)
+		(s3w24 hotel)
+		(s3w22 to)
+		(s3w23 the)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(advmod v3 s3w1)
+		(nsubj v3 s3w2)
+		(dobj v3 n13)
+		(head n13 s3w5)
+		(nummod n13 s3w4)
+		(nmod v3 n14)
+		(head n14 s3w9)
+		(case n14 s3w6)
+		(det n14 s3w7)
+		(compound n14 n15)
+		(head n15 s3w8)
+		(nmod v3 n16)
+		(head n16 s3w13)
+		(case n16 s3w10)
+		(det n16 s3w11)
+		(compound n16 n17)
+		(head n17 s3w12)
+		(cj_op j1 and)
+		(verb v3 s3w20)
+		(nsubj v3 n18)
+		(head n18 s3w16)
+		(nummod n18 s3w15)
+		(nmod n18 n19)
+		(head n19 s3w19)
+		(case n19 s3w17)
+		(det n19 s3w18)
+		(advmod v3 s3w21)
+		(nmod v3 n20)
+		(head n20 s3w24)
+		(case n20 s3w22)
+		(det n20 s3w23)
+	)
+
+	(LF2
+		(= (quan q4 s3w5 s2w8) 0.1111111111111111)(verb q4 s3w3)(advmod q4 s3w1)(nmod q4 s3w9)(nmod q4 s3w13)(verb q4 s3w20)(role q4 nmod)
+		(= (quan q6 s3w16 s2w8) 0.6666666666666666)(verb q6 s3w20)(advmod q6 s3w21)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 walk)
+		(s4w3 mile)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 do)
+		(s4w5 Trisha)
+		(s4w8 all)
+		(s4w7 in)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(dobj v4 n21)
+		(head n21 s4w3)
+		(amod n21 s4w2)
+		(advmod n21 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 n22)
+		(head n22 s4w5)
+		(nmod v4 s4w8)
+		(case v4 s4w7)
+	)
+
+	(LF2
+		
+		(= (quan q2 s2w5 s2w8) 0.1111111111111111) (= (tvq v1 s2w5 s2w8 t0) (quan q2 s2w5 s2w8))
+		(= (quan q4 s3w5 s2w8) 0.1111111111111111) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 s3w16 s2w8) 0.6666666666666666) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 s4w3 s2w8 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

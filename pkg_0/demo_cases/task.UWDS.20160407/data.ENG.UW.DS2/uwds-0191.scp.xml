@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(2):nsubj={[x1]Dina(1)},dobj={cookie(3)}}</SemRep>
+	<WordList>
+		<Word idx="1">Dina(1,NNP): {Dina}</Word>
+		<Word idx="2">make(2,VBD): {made}</Word>
+		<Word idx="3">cookie(3,NNS): {cookies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(2):nsubj={[x1]she(1)},dobj={cup(4):nummod={0.625(3)},nmod={flour(6):case={of(5)}},cc={and(7)},conj={cup(9):nummod={0.25(8)},nmod={sugar(11):case={of(10)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">use(2,VBD): {used}</Word>
+		<Word idx="3">0.625(3,CD): {0.625}</Word>
+		<Word idx="4">cup(4,NN): {cup}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">flour(6,NN): {flour}</Word>
+		<Word idx="7">and(7,CC): {and}</Word>
+		<Word idx="8">0.25(8,CD): {0.25}</Word>
+		<Word idx="9">cup(9,NN): {cup}</Word>
+		<Word idx="10">of(10,IN): {of}</Word>
+		<Word idx="11">sugar(11,NN): {sugar}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(9):dobj={flour(4):amod={more(3):dep={much(2):advmod={how(1)}}},nmod={sugar(6):case={than(5)}}},aux={do(7)},nsubj={[x1]Dina(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">more(3,JJR): {more}</Word>
+		<Word idx="4">flour(4,NN): {flour}</Word>
+		<Word idx="5">than(5,IN): {than}</Word>
+		<Word idx="6">sugar(6,NN): {sugar}</Word>
+		<Word idx="7">do(7,VBD): {did}</Word>
+		<Word idx="8">Dina(8,NNP): {Dina}</Word>
+		<Word idx="9">use(9,VB): {use}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

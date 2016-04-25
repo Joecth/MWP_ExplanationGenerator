@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(2):nsubj={[x2]Keith(1)},dobj={136.01(4):dep={USD(3)},nmod={speaker(6):case={on(5)}},conj={139.38(9):dep={USD(8)},nmod={player(13):case={on(10)},det={a(11)},compound={CD(12)}}},cc={and(15)},conj={112.46(17):dep={USD(16)},nmod={tire(20):case={on(18)},amod={new(19)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Keith(1,NNP): {Keith}</Word>
+		<Word idx="2">spend(2,VBD): {spent}</Word>
+		<Word idx="3">USD(3,USD): {USD}</Word>
+		<Word idx="4">136.01(4,CD): {136.01}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">speaker(6,NNS): {speakers}</Word>
+		<Word idx="7">USD(8,USD): {USD}</Word>
+		<Word idx="8">139.38(9,CD): {139.38}</Word>
+		<Word idx="9">on(10,IN): {on}</Word>
+		<Word idx="10">a(11,DT): {a}</Word>
+		<Word idx="11">CD(12,NNP): {CD}</Word>
+		<Word idx="12">player(13,NN): {player}</Word>
+		<Word idx="13">and(15,CC): {and}</Word>
+		<Word idx="14">USD(16,USD): {USD}</Word>
+		<Word idx="15">112.46(17,CD): {112.46}</Word>
+		<Word idx="16">on(18,IN): {on}</Word>
+		<Word idx="17">new(19,JJ): {new}</Word>
+		<Word idx="18">tire(20,NNS): {tires}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{want(2):nsubj={[x2]he(1)},dobj={[x1]CD(4):nummod={3(3)},case={'s(5)}},nmod={6.16(8):case={for(6)},dep={USD(7)}},cc={but(10)},conj={buy(13):aux={do(11)},neg={not(12)},dobj={[x1]they(14)}}}</SemRep>
+	<WordList>
+		<Word idx="1">he(1,PRP): {He}</Word>
+		<Word idx="2">want(2,VBD): {wanted}</Word>
+		<Word idx="3">3(3,CD): {3}</Word>
+		<Word idx="4">CD(4,NNP): {CD}</Word>
+		<Word idx="5">'s(5,POS): {'s}</Word>
+		<Word idx="6">for(6,IN): {for}</Word>
+		<Word idx="7">USD(7,USD): {USD}</Word>
+		<Word idx="8">6.16(8,CD): {6.16}</Word>
+		<Word idx="9">but(10,CC): {but}</Word>
+		<Word idx="10">do(11,VBD): {did}</Word>
+		<Word idx="11">not(12,RB): {n't}</Word>
+		<Word idx="12">buy(13,VB): {buy}</Word>
+		<Word idx="13">they(14,PRP): {them}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(8):nmod={total(2):case={in(1)}},dep={much(5):advmod={how(4)}},aux={do(6)},nsubj={[x2]he(7)}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">total(2,NN): {total}</Word>
+		<Word idx="3">how(4,WRB): {how}</Word>
+		<Word idx="4">much(5,JJ): {much}</Word>
+		<Word idx="5">do(6,VBD): {did}</Word>
+		<Word idx="6">he(7,PRP): {he}</Word>
+		<Word idx="7">spend(8,VB): {spend}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

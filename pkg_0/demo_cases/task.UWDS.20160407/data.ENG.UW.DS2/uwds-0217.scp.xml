@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{put(3):nsubj={[x2]waitress(2):det={a(1)}},dobj={tart(5):amod={leftover(4)}},nmod={fridge(8):case={into(6)},det={the(7)}},nmod={Thursday(10):case={on(9)}},nmod_tmod={night(11)}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">waitress(2,NN): {waitress}</Word>
+		<Word idx="3">put(3,VBD): {put}</Word>
+		<Word idx="4">leftover(4,JJR): {leftover}</Word>
+		<Word idx="5">tart(5,NNS): {tarts}</Word>
+		<Word idx="6">into(6,IN): {into}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">fridge(8,NN): {fridge}</Word>
+		<Word idx="9">on(9,IN): {on}</Word>
+		<Word idx="10">Thursday(10,NNP): {Thursday}</Word>
+		<Word idx="11">night(11,NN): {night}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{notice(2):nsubj={[x2]she(1)},ccomp={have(6):mark={that(3)},nsubj={[x1]restaurant(5):det={the(4)}},dobj={0.08333333333333333(7):acl_relcl={fill(22):nsubj={tart(8):acl={fill(9):nmod={cherry(11):case={with(10)}}},conj={0.75(13):acl={fill(15):advmod={tart(14)},nmod={blueberry(17):case={with(16)}}}},cc={and(19)},conj={0.08333333333333333(20):dep={tart(21)}}},nmod={peach(24):case={with(23)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">notice(2,VBD): {noticed}</Word>
+		<Word idx="3">that(3,IN): {that}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">restaurant(5,NN): {restaurant}</Word>
+		<Word idx="6">have(6,VBD): {had}</Word>
+		<Word idx="7">0.08333333333333333(7,CD): {0.08333333333333333}</Word>
+		<Word idx="8">tart(8,JJ): {tart}</Word>
+		<Word idx="9">fill(9,VBN): {filled}</Word>
+		<Word idx="10">with(10,IN): {with}</Word>
+		<Word idx="11">cherry(11,NNS): {cherries}</Word>
+		<Word idx="12">0.75(13,CD): {0.75}</Word>
+		<Word idx="13">tart(14,JJ): {tart}</Word>
+		<Word idx="14">fill(15,VBN): {filled}</Word>
+		<Word idx="15">with(16,IN): {with}</Word>
+		<Word idx="16">blueberry(17,NNS): {blueberries}</Word>
+		<Word idx="17">and(19,CC): {and}</Word>
+		<Word idx="18">0.08333333333333333(20,CD): {0.08333333333333333}</Word>
+		<Word idx="19">tart(21,JJ): {tart}</Word>
+		<Word idx="20">fill(22,VBN): {filled}</Word>
+		<Word idx="21">with(23,IN): {with}</Word>
+		<Word idx="22">peach(24,NNS): {peaches}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(8):dobj={leftover(3):amod={many(2):advmod={how(1)}},dep={tart(4)}},aux={do(5)},nsubj={[x1]restaurant(7):det={the(6)}},nmod={all(10):case={in(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">leftover(3,JJR): {leftover}</Word>
+		<Word idx="4">tart(4,NNS): {tarts}</Word>
+		<Word idx="5">do(5,VBD): {did}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">restaurant(7,NN): {restaurant}</Word>
+		<Word idx="8">have(8,VBP): {have}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">all(10,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

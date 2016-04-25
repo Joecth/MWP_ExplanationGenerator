@@ -1,0 +1,81 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 tall)
+		(s1w1 Tori)
+		(s1w2 be)
+		(s1w4 foot)
+		(s1w3 4.4)
+	)
+
+	(LF1
+		(HEAD x1 s1w5)
+		(nsubj x1 n3)
+		(head n3 s1w1)
+		(verb x1 s1w2)
+		(nmod_npmod x1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q2 s1w4 #) 4.4)(verb q2 s1w2)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 grow)
+		(s2w1 then)
+		(s2w2 she)
+		(s2w6 taller)
+		(s2w5 foot)
+		(s2w4 2.86)
+	)
+
+	(LF1
+		(verb v1 s2w3)
+		(advmod v1 s2w1)
+		(nsubj v1 s2w2)
+		(dobj v1 s2w6)
+		(dep v1 n2)
+		(head n2 s2w5)
+		(nummod n2 s2w4)
+	)
+
+	(LF2
+		(= (quan q4 s2w5 #) 2.86)(verb q4 s2w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w3 be)
+		(s3w2 tall)
+		(s3w1 how)
+		(s3w4 Tori)
+		(s3w5 now)
+	)
+
+	(LF1
+		(HEAD v2 s3w3)
+		(dep v2 s3w2)
+		(advmod v2 s3w1)
+		(nsubj v2 n6)
+		(head n6 s3w4)
+		(advmod v2 s3w5)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w4 #) (quan q4 s2w5 #)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

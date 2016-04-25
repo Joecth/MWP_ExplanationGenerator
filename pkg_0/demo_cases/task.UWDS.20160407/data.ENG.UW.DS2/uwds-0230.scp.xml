@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(2):nsubj={[x2]Ellen(1)},dobj={[x3]smoothie(3)},nmod={blender(6):case={in(4)},det={the(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Ellen(1,NNP): {Ellen}</Word>
+		<Word idx="2">make(2,VBD): {made}</Word>
+		<Word idx="3">smoothie(3,NNS): {smoothies}</Word>
+		<Word idx="4">in(4,IN): {in}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">blender(6,NN): {blender}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(2):nsubj={[x2]she(1)},dobj={cup(4):nummod={[x1]0.2(3)},nmod={strawberry(6):case={of(5)}},conj={cup(9):nummod={0.1(8)},nmod={yogurt(11):case={of(10)}}},cc={and(13)},conj={cup(15):nummod={[x1]0.2(14)},nmod={juice(18):case={of(16)},amod={orange(17)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">use(2,VBD): {used}</Word>
+		<Word idx="3">0.2(3,CD): {0.2}</Word>
+		<Word idx="4">cup(4,NN): {cup}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">strawberry(6,NNS): {strawberries}</Word>
+		<Word idx="7">0.1(8,CD): {0.1}</Word>
+		<Word idx="8">cup(9,NN): {cup}</Word>
+		<Word idx="9">of(10,IN): {of}</Word>
+		<Word idx="10">yogurt(11,NN): {yogurt}</Word>
+		<Word idx="11">and(13,CC): {and}</Word>
+		<Word idx="12">0.2(14,CD): {0.2}</Word>
+		<Word idx="13">cup(15,NN): {cup}</Word>
+		<Word idx="14">of(16,IN): {of}</Word>
+		<Word idx="15">orange(17,JJ): {orange}</Word>
+		<Word idx="16">juice(18,NN): {juice}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(8):dobj={cup(3):amod={many(2):advmod={how(1)}},nmod={ingredient(5):case={of(4)}}},aux={do(6)},nsubj={[x2]Ellen(7)},nmod={[x3]smoothie(11):case={for(9)},det={the(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">cup(3,NNS): {cups}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">ingredient(5,NNS): {ingredients}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Ellen(7,NNP): {Ellen}</Word>
+		<Word idx="8">use(8,VB): {use}</Word>
+		<Word idx="9">for(9,IN): {for}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">smoothie(11,NNS): {smoothies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

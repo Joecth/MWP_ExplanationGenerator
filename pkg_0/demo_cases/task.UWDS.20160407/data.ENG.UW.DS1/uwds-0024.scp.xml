@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={tree(5):nummod={7(3)},compound={dogwood(4)}},advmod={currently(6)},nmod={[x1]park(9):case={in(7)},det={the(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">7(3,CD): {7}</Word>
+		<Word idx="4">dogwood(4,NN): {dogwood}</Word>
+		<Word idx="5">tree(5,NNS): {trees}</Word>
+		<Word idx="6">currently(6,RB): {currently}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">park(9,NN): {park}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{plant(4):nsubj={[x2]worker(2):compound={Park(1)}},aux={will(3)},dobj={tree(7):nummod={3(5)},compound={dogwood(6)},nmod_tmod={today(8)},cc={and(9)},conj={tree(12):nummod={2(10)},compound={dogwood(11)}}},nmod_tmod={tomorrow(13)}}</SemRep>
+	<WordList>
+		<Word idx="1">Park(1,NNP): {Park}</Word>
+		<Word idx="2">worker(2,NNS): {workers}</Word>
+		<Word idx="3">will(3,MD): {will}</Word>
+		<Word idx="4">plant(4,VB): {plant}</Word>
+		<Word idx="5">3(5,CD): {3}</Word>
+		<Word idx="6">dogwood(6,NN): {dogwood}</Word>
+		<Word idx="7">tree(7,NNS): {trees}</Word>
+		<Word idx="8">today(8,NN): {today}</Word>
+		<Word idx="9">and(9,CC): {and}</Word>
+		<Word idx="10">2(10,CD): {2}</Word>
+		<Word idx="11">dogwood(11,NN): {dogwood}</Word>
+		<Word idx="12">tree(12,NNS): {trees}</Word>
+		<Word idx="13">tomorrow(13,NN): {tomorrow}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(8):dobj={dogwood(3):amod={many(2):advmod={how(1)}},dep={tree(4)}},aux={will(5)},nsubj={[x1]park(7):det={the(6)}},advcl={finish(13):advmod={when(9)},nsubjpass={[x2]worker(11):det={the(10)}},auxpass={be(12)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">dogwood(3,NN): {dogwood}</Word>
+		<Word idx="4">tree(4,NNS): {trees}</Word>
+		<Word idx="5">will(5,MD): {will}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">park(7,NN): {park}</Word>
+		<Word idx="8">have(8,VBP): {have}</Word>
+		<Word idx="9">when(9,WRB): {when}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">worker(11,NNS): {workers}</Word>
+		<Word idx="12">be(12,VBP): {are}</Word>
+		<Word idx="13">finish(13,VBN): {finished}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

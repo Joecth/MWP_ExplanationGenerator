@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{grow(2):nsubj={Joan(1)},dobj={[x1]watermelon(4):nummod={8(3)},cc={and(5)},conj={turnip(7):nummod={4(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joan(1,NNP): {Joan}</Word>
+		<Word idx="2">grow(2,VBD): {grew}</Word>
+		<Word idx="3">8(3,CD): {8}</Word>
+		<Word idx="4">watermelon(4,NNS): {watermelons}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">4(6,CD): {4}</Word>
+		<Word idx="7">turnip(7,NNS): {turnips}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{grow(2):nsubj={Tom(1)},dobj={[x1]watermelon(4):nummod={9(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Tom(1,NNP): {Tom}</Word>
+		<Word idx="2">grow(2,VBD): {grew}</Word>
+		<Word idx="3">9(3,CD): {9}</Word>
+		<Word idx="4">watermelon(4,NNS): {watermelons}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{grow(6):advmod={how(1):dep={[x2]watermelon(3):amod={many(2)}}},aux={do(4)},nsubj={[x2]they(5)},nmod={total(8):case={in(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">watermelon(3,NNS): {watermelons}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">grow(6,VB): {grow}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">total(8,NN): {total}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

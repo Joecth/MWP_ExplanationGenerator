@@ -1,0 +1,116 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 use)
+		(s1w4 Library)
+		(s1w1 the)
+		(s1w2 Silvergrove)
+		(s1w3 Public)
+		(s1w7 grant)
+		(s1w6 a)
+		(s1w9 purchase)
+		(s1w8 to)
+		(s1w11 book)
+		(s1w10 2647)
+	)
+
+	(LF1
+		(HEAD v1 s1w5)
+		(nsubj v1 n4)
+		(head n4 s1w4)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(compound n4 n6)
+		(head n6 s1w3)
+		(dobj v1 n7)
+		(head n7 s1w7)
+		(det n7 s1w6)
+		(verb n7 s1w9)
+		(mark n7 s1w8)
+		(dobj n7 n1)
+		(head n1 s1w11)
+		(nummod n1 s1w10)
+	)
+
+	(LF2
+		(= (quan q2 # s1w11) 2647)(verb q2 s1w9)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 have)
+		(s2w1 now)
+		(s2w3 library)
+		(s2w2 the)
+		(s2w6 total)
+		(s2w5 a)
+		(s2w9 book)
+		(s2w7 of)
+		(s2w8 8582)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(advmod v2 s2w1)
+		(nsubj v2 n9)
+		(head n9 s2w3)
+		(det n9 s2w2)
+		(dobj v2 n10)
+		(head n10 s2w6)
+		(det n10 s2w5)
+		(nmod n10 n2)
+		(head n2 s2w9)
+		(case n2 s2w7)
+		(nummod n2 s2w8)
+	)
+
+	(LF2
+		(= (quan q4 # s2w9) 8582)(verb q4 s2w4)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 have)
+		(s3w3 book)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 do)
+		(s3w6 library)
+		(s3w5 the)
+		(s3w10 grant)
+		(s3w8 before)
+		(s3w9 the)
+	)
+
+	(LF1
+		(verb v3 s3w7)
+		(dobj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n13)
+		(head n13 s3w6)
+		(det n13 s3w5)
+		(nmod v3 n14)
+		(head n14 s3w10)
+		(case n14 s3w8)
+		(det n14 s3w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 # s2w9) (quan q2 # s1w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,103 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Brennan)
+		(s1w4 gram)
+		(s1w3 0.25)
+		(s1w6 pepper)
+		(s1w5 of)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w4)
+		(nummod n5 s1w3)
+		(nmod n5 n1)
+		(head n1 s1w6)
+		(case n1 s1w5)
+	)
+
+	(LF2
+		(= (quan q2 s1w4 s1w6) 0.25)(verb q2 s1w2)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 use)
+		(s2w1 then)
+		(s2w2 he)
+		(s2w5 gram)
+		(s2w4 0.16)
+		(s2w8 pepper)
+		(s2w6 of)
+		(s2w7 the)
+		(s2w10 make)
+		(s2w9 to)
+		(s2w12 scramble)
+		(s2w11 some)
+		(s2w13 egg)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(advmod v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n7)
+		(head n7 s2w5)
+		(nummod n7 s2w4)
+		(nmod n7 n2)
+		(head n2 s2w8)
+		(case n2 s2w6)
+		(det n2 s2w7)
+		(acl n2 s2w10)
+		(mark n2 s2w9)
+		(ccomp n2 s2w12)
+		(nsubj n2 s2w11)
+		(dobj n2 n9)
+		(head n9 s2w13)
+	)
+
+	(LF2
+		(= (quan q4 s1w4 s2w8) 0.16)(verb q4 s2w3)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 have)
+		(s3w3 pepper)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w4 do)
+		(s3w5 Brennan)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dobj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n11)
+		(head n11 s3w5)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w4 s1w6) (quan q4 s1w4 s2w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

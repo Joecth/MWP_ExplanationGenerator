@@ -1,0 +1,132 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 own)
+		(s1w1 Molly)
+		(s1w6 Company)
+		(s1w3 the)
+		(s1w4 Wafting)
+		(s1w5 Pie)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w6)
+		(det n5 s1w3)
+		(compound n5 n6)
+		(head n6 s1w4)
+		(compound n5 n7)
+		(head n7 s1w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w5 use)
+		(s2w2 morning)
+		(s2w1 this)
+		(s2w4 employee)
+		(s2w3 she)
+		(s2w7 egg)
+		(s2w6 816)
+		(s2w9 bake)
+		(s2w8 to)
+		(s2w11 pie)
+		(s2w10 pumpkin)
+	)
+
+	(LF1
+		(verb v2 s2w5)
+		(nmod_tmod v2 n8)
+		(head n8 s2w2)
+		(det n8 s2w1)
+		(nsubj v2 n9)
+		(head n9 s2w4)
+		(nmod_poss n9 s2w3)
+		(dobj v2 n1)
+		(head n1 s2w7)
+		(nummod n1 s2w6)
+		(advcl v2 s2w9)
+		(mark v2 s2w8)
+		(dobj v2 n11)
+		(head n11 s2w11)
+		(compound n11 n12)
+		(head n12 s2w10)
+	)
+
+	(LF2
+		(= (quan q2 # s2w7) 816)(verb q2 s2w5)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w16 use)
+		(s3w4 use)
+		(s3w1 if)
+		(s3w3 employee)
+		(s3w2 she)
+		(s3w6 total)
+		(s3w5 a)
+		(s3w9 egg)
+		(s3w7 of)
+		(s3w8 1339)
+		(s3w10 today)
+		(s3w13 egg)
+		(s3w12 many)
+		(s3w11 how)
+		(s3w14 do)
+		(s3w15 they)
+		(s3w19 afternoon)
+		(s3w17 in)
+		(s3w18 the)
+	)
+
+	(LF1
+		(verb v3 s3w16)
+		(verb v3 s3w4)
+		(mark v3 s3w1)
+		(nsubj v3 n13)
+		(head n13 s3w3)
+		(nmod_poss n13 s3w2)
+		(dobj v3 n14)
+		(head n14 s3w6)
+		(det n14 s3w5)
+		(nmod n14 n2)
+		(head n2 s3w9)
+		(case n2 s3w7)
+		(nummod n2 s3w8)
+		(nmod_tmod v3 n16)
+		(head n16 s3w10)
+		(dobj v3 n3)
+		(head n3 s3w13)
+		(amod n3 s3w12)
+		(advmod n3 s3w11)
+		(aux v3 s3w14)
+		(nsubj v3 s3w15)
+		(nmod v3 n18)
+		(head n18 s3w19)
+		(case n18 s3w17)
+		(det n18 s3w18)
+	)
+
+	(LF2
+		(= (quan q4 # s3w9) 1339)(verb q4 s3w4)(role q4 nmod)
+
+		(ASK ANS (Subtraction (quan q4 # s3w9) (quan q2 # s2w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,76 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 serve)
+		(s1w2 restaurant)
+		(s1w1 a)
+		(s1w5 cake)
+		(s1w4 6)
+		(s1w7 lunch)
+		(s1w6 during)
+		(s1w8 and)
+		(s1w9 9)
+		(s1w11 dinner)
+		(s1w10 during)
+		(s1w12 today)
+	)
+
+	(LF1
+		(verb v1 s1w3)
+		(nsubj v1 n3)
+		(head n3 s1w2)
+		(det n3 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w5)
+		(nummod n1 s1w4)
+		(nmod v1 n5)
+		(head n5 s1w7)
+		(case n5 s1w6)
+		(cj_op j1 and)
+		(conj n5 s1w9)
+		(nmod v1 n6)
+		(head n6 s1w11)
+		(case n6 s1w10)
+		(nmod_tmod v1 n7)
+		(head n7 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w5) 6)(verb q2 s1w3)(role q2 dobj)
+		(= (quan q4 # s1w5) 9)(verb q4 s1w3)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w5 serve)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w3 cake)
+		(s2w4 be)
+		(s2w6 today)
+	)
+
+	(LF1
+		(verb v2 s2w5)
+		(dep v2 s2w2)
+		(advmod v2 s2w1)
+		(nsubjpass v2 n2)
+		(head n2 s2w3)
+		(auxpass v2 s2w4)
+		(nmod_tmod v2 n9)
+		(head n9 s2w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w5) (quan q4 # s1w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

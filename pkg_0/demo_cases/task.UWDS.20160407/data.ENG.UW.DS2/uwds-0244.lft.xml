@@ -1,0 +1,139 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 weigh)
+		(s1w2 Ellison)
+		(s1w1 Professor)
+		(s1w5 piece)
+		(s1w4 2)
+		(s1w7 metal)
+		(s1w6 of)
+		(s1w10 experiment)
+		(s1w8 for)
+		(s1w9 a)
+	)
+
+	(LF1
+		(verb v1 s1w3)
+		(nsubj v1 n3)
+		(head n3 s1w2)
+		(compound n3 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w5)
+		(nummod n1 s1w4)
+		(nmod n1 n6)
+		(head n6 s1w7)
+		(case n6 s1w6)
+		(nmod v1 n7)
+		(head n7 s1w10)
+		(case n7 s1w8)
+		(det n7 s1w9)
+	)
+
+	(LF2
+		(= (quan q2 # s1w5) 2)(verb q2 s1w3)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w5 weigh)
+		(s2w2 piece)
+		(s2w1 the)
+		(s2w4 iron)
+		(s2w3 of)
+		(s2w13 weigh)
+		(s2w7 pound)
+		(s2w6 11.166666666666666)
+		(s2w8 and)
+		(s2w10 piece)
+		(s2w9 the)
+		(s2w12 aluminum)
+		(s2w11 of)
+		(s2w15 pound)
+		(s2w14 0.8333333333333334)
+	)
+
+	(LF1
+		(HEAD v2 s2w5)
+		(nsubj v2 n8)
+		(head n8 s2w2)
+		(det n8 s2w1)
+		(nmod n8 n2)
+		(head n2 s2w4)
+		(case n2 s2w3)
+		(verb v2 s2w13)
+		(nsubj v2 n10)
+		(head n10 s2w7)
+		(nummod n10 s2w6)
+		(cj_op j1 and)
+		(conj n10 n11)
+		(head n11 s2w10)
+		(det n11 s2w9)
+		(nmod n11 n12)
+		(head n12 s2w12)
+		(case n12 s2w11)
+		(dobj v2 n13)
+		(head n13 s2w15)
+		(nummod n13 s2w14)
+	)
+
+	(LF2
+		(= (quan q4 s2w7 s2w4) 11.166666666666666)(verb q4 s2w13)(role q4 nmod)
+		(= (quan q6 s2w15 s2w4) 0.8333333333333334)(verb q6 s2w13)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 do)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w3 more)
+		(s3w9 weigh)
+		(s3w6 piece)
+		(s3w5 the)
+		(s3w8 iron)
+		(s3w7 of)
+		(s3w12 piece)
+		(s3w10 than)
+		(s3w11 the)
+		(s3w14 aluminum)
+		(s3w13 of)
+	)
+
+	(LF1
+		(HEAD v3 s3w4)
+		(nsubj v3 s3w2)
+		(advmod v3 s3w1)
+		(advmod v3 s3w3)
+		(verb v3 s3w9)
+		(nsubj v3 n14)
+		(head n14 s3w6)
+		(det n14 s3w5)
+		(nmod n14 n15)
+		(head n15 s3w8)
+		(case n15 s3w7)
+		(nmod v3 n16)
+		(head n16 s3w12)
+		(case n16 s3w10)
+		(det n16 s3w11)
+		(nmod n16 n17)
+		(head n17 s3w14)
+		(case n17 s3w13)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 s2w7 s2w4) (quan q6 s2w15 s2w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

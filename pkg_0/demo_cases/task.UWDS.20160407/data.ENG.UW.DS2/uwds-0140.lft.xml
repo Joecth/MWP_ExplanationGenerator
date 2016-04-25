@@ -1,0 +1,135 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 move)
+		(s1w3 family)
+		(s1w1 Abe)
+		(s1w2 's)
+		(s1w7 Bahamas)
+		(s1w5 from)
+		(s1w6 the)
+		(s1w9 Japan)
+		(s1w8 to)
+		(s1w10 so)
+		(s1w12 have)
+		(s1w11 they)
+		(s1w13 convert)
+		(s1w15 money)
+		(s1w14 they)
+		(s1w18 yen)
+		(s1w16 into)
+		(s1w17 japanese)
+	)
+
+	(LF1
+		(HEAD v1 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(nmod_poss n4 n5)
+		(head n5 s1w1)
+		(case n5 s1w2)
+		(nmod v1 n6)
+		(head n6 s1w7)
+		(case n6 s1w5)
+		(det n6 s1w6)
+		(nmod v1 n7)
+		(head n7 s1w9)
+		(case n7 s1w8)
+		(dep v1 s1w10)
+		(parataxis v1 s1w12)
+		(nsubj v1 s1w11)
+		(ccomp v1 s1w13)
+		(dobj v1 n8)
+		(head n8 s1w15)
+		(nmod_poss n8 s1w14)
+		(nmod v1 n9)
+		(head n9 s1w18)
+		(case n9 s1w16)
+		(amod n9 s1w17)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w5 have)
+		(s2w3 account)
+		(s2w1 they)
+		(s2w2 checking)
+		(s2w4 now)
+		(s2w7 yen)
+		(s2w6 6359)
+		(s2w8 and)
+		(s2w11 account)
+		(s2w10 savings)
+		(s2w9 they)
+		(s2w13 have)
+		(s2w12 now)
+		(s2w15 yen)
+		(s2w14 3485)
+	)
+
+	(LF1
+		(verb v2 s2w5)
+		(nsubj v2 n10)
+		(head n10 s2w3)
+		(nmod_poss n10 s2w1)
+		(compound n10 n11)
+		(head n11 s2w2)
+		(advmod v2 s2w4)
+		(dobj v2 n1)
+		(head n1 s2w7)
+		(nummod n1 s2w6)
+		(cj_op j1 and)
+		(conj v2 s2w11)
+		(nsubj v2 n13)
+		(head n13 s2w10)
+		(nmod_poss n13 s2w9)
+		(verb v2 s2w13)
+		(nsubj v2 s2w12)
+		(dobj v2 n2)
+		(head n2 s2w15)
+		(nummod n2 s2w14)
+	)
+
+	(LF2
+		(= (quan q2 # s2w7) 6359)(verb q2 s2w5)(role q2 dobj)
+		(= (quan q4 # s2w15) 3485)(verb q4 s2w13)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 have)
+		(s3w1 how)
+		(s3w3 yen)
+		(s3w2 many)
+		(s3w4 do)
+		(s3w5 they)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(advmod v3 s3w1)
+		(dep v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(aux v3 s3w4)
+		(nsubj v3 s3w5)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s2w7) (quan q4 # s2w15)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

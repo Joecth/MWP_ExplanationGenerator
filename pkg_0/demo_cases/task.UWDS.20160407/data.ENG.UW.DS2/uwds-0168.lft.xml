@@ -1,0 +1,169 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w7 break)
+		(s1w3 pipe)
+		(s1w1 a)
+		(s1w2 oil)
+		(s1w6 sea)
+		(s1w4 in)
+		(s1w5 the)
+	)
+
+	(LF1
+		(HEAD v1 s1w7)
+		(nsubj v1 n3)
+		(head n3 s1w3)
+		(det n3 s1w1)
+		(compound n3 n4)
+		(head n4 s1w2)
+		(nmod n3 n5)
+		(head n5 s1w6)
+		(case n5 s1w4)
+		(det n5 s1w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w12 leak)
+		(s2w3 start)
+		(s2w1 before)
+		(s2w2 engineer)
+		(s2w5 fix)
+		(s2w4 to)
+		(s2w7 pipe)
+		(s2w6 the)
+		(s2w9 gallon)
+		(s2w8 2475)
+		(s2w11 oil)
+		(s2w10 of)
+		(s2w15 water)
+		(s2w13 into)
+		(s2w14 the)
+	)
+
+	(LF1
+		(verb v2 s2w12)
+		(advcl v2 s2w3)
+		(mark v2 s2w1)
+		(nsubj v2 n6)
+		(head n6 s2w2)
+		(xcomp v2 s2w5)
+		(mark v2 s2w4)
+		(dobj v2 n7)
+		(head n7 s2w7)
+		(det n7 s2w6)
+		(nsubj v2 n8)
+		(head n8 s2w9)
+		(nummod n8 s2w8)
+		(nmod n8 n1)
+		(head n1 s2w11)
+		(case n1 s2w10)
+		(nmod v2 n10)
+		(head n10 s2w15)
+		(case n10 s2w13)
+		(det n10 s2w14)
+	)
+
+	(LF2
+		(= (quan q2 s2w9 s2w11) 2475)(verb q2 s2w12)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w13 fix)
+		(s3w2 total)
+		(s3w1 a)
+		(s3w5 gallon)
+		(s3w3 of)
+		(s3w4 6206)
+		(s3w7 oil)
+		(s3w6 of)
+		(s3w8 leak)
+		(s3w11 pipe)
+		(s3w9 before)
+		(s3w10 the)
+		(s3w12 be)
+	)
+
+	(LF1
+		(verb v3 s3w13)
+		(nsubjpass v3 n11)
+		(head n11 s3w2)
+		(det n11 s3w1)
+		(nmod n11 n12)
+		(head n12 s3w5)
+		(case n12 s3w3)
+		(nummod n12 s3w4)
+		(nmod n12 n13)
+		(head n13 s3w7)
+		(case n13 s3w6)
+		(acl n13 s3w8)
+		(nmod n13 n14)
+		(head n14 s3w11)
+		(case n14 s3w9)
+		(det n14 s3w10)
+		(auxpass v3 s3w12)
+	)
+
+	(LF2
+		(= (quan q4 s3w5 s2w11) 6206)(verb q4 s3w13)(nsubjpass q4 s3w2)(auxpass q4 s3w12)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 leak)
+		(s4w3 gallon)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w5 oil)
+		(s4w4 of)
+		(s4w11 fix)
+		(s4w7 while)
+		(s4w9 engineer)
+		(s4w8 the)
+		(s4w10 be)
+		(s4w13 pipe)
+		(s4w12 the)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(nsubj v4 n15)
+		(head n15 s4w3)
+		(amod n15 s4w2)
+		(advmod n15 s4w1)
+		(nmod n15 n2)
+		(head n2 s4w5)
+		(case n2 s4w4)
+		(advcl v4 s4w11)
+		(mark v4 s4w7)
+		(nsubj v4 n17)
+		(head n17 s4w9)
+		(det n17 s4w8)
+		(aux v4 s4w10)
+		(dobj v4 n18)
+		(head n18 s4w13)
+		(det n18 s4w12)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 s3w5 s2w11) (quan q2 s2w9 s2w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{measure(4):nsubj={biologist(3):det={a(1)},amod={marine(2)}},dobj={fish(6):nummod={1(5)},acl_relcl={be(8):nsubj={that(7)},advmod={long(11):nmod_npmod={foot(10):nummod={0.3(9)}}}},cc={and(12)},conj={fish(15):det={a(13)},amod={second(14)},acl_relcl={be(17):nsubj={that(16)},advmod={long(20):nmod_npmod={foot(19):nummod={0.2(18)}}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">marine(2,JJ): {marine}</Word>
+		<Word idx="3">biologist(3,NN): {biologist}</Word>
+		<Word idx="4">measure(4,VBN): {measured}</Word>
+		<Word idx="5">1(5,CD): {1}</Word>
+		<Word idx="6">fish(6,NN): {fish}</Word>
+		<Word idx="7">that(7,WDT): {that}</Word>
+		<Word idx="8">be(8,VBD): {was}</Word>
+		<Word idx="9">0.3(9,CD): {0.3}</Word>
+		<Word idx="10">foot(10,NN): {foot}</Word>
+		<Word idx="11">long(11,RB): {long}</Word>
+		<Word idx="12">and(12,CC): {and}</Word>
+		<Word idx="13">a(13,DT): {a}</Word>
+		<Word idx="14">second(14,JJ): {second}</Word>
+		<Word idx="15">fish(15,NN): {fish}</Word>
+		<Word idx="16">that(16,WDT): {that}</Word>
+		<Word idx="17">be(17,VBD): {was}</Word>
+		<Word idx="18">0.2(18,CD): {0.2}</Word>
+		<Word idx="19">foot(19,NN): {foot}</Word>
+		<Word idx="20">long(20,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):dobj={much(2):advmod={how(1)},amod={longer(3)}},nsubj={fish(7):det={the(5)},amod={first(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">longer(3,RBR): {longer}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">first(6,JJ): {first}</Word>
+		<Word idx="7">fish(7,NN): {fish}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>
