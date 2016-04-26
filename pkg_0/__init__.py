@@ -9,16 +9,20 @@ from node import *
 from tree import *
 from data20 import *
 from surface_realizer import *
-
+from logicform_analyzer import *
+from stc_analyzer import *
 ## Define I/O file names as MACRO Vars
 # FILE_INPUT_0          = ''
 # FILE_INPUT_0        = 'input_0.xml'
 # FILE_INPUT_0        = 'problems/english_qs/uwds-0001_changeunit.trace.xl'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/english_qs/uwds-0001_changeunit.trace.xml'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/online/crashcase/20160218102935.trace.xml'
-# FILE_INPUT_0        = 'problems/tmp.trace.Sample-1.xml'  ## try to get all from disk from shell
+FILE_INPUT_0        = 'problems/tmp.trace.Sample-1.xml'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/tmp.trace.Sample-8.xml'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
+# FILE_INPUT_0        = 'demo_cases/tmp.edemo.out.20160413/ex01.trace.xml'  ## try to get all from disk from shell
+# FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
+# FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
 FILE_OUTPUT_0       = 'output.xml'
 FILE_OUTPUT_CORE    = 'out_core.xml'
 FILE_RAW_TREE       = 'raw_tree.xml'             ## index from FILE_INPUT_0
@@ -38,7 +42,7 @@ FILE_BUILD_TREE_LOG = 'build_tree.log.xml'
 fp_o = open(FILE_OUTPUT_0, encoding='utf-8', mode='w+')  ## THE GENERAL OUTPUT!!!
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:], "hi:o:")#, ["--help", "input=", "output="])
+    opts, args = getopt.getopt(sys.argv[1:], "hi:o:l:s:")#, ["--help", "input=", "output="])
     # print ("argv[1] : ", sys.argv[1])
 except getopt.GetoptError:  ## didn't get
     # print ('python3 __init__.py -i <inputfile> -o <outputfile>')
@@ -79,6 +83,16 @@ for opt, arg in opts:
         fp_o.close()   ###  use User-Defined name
         fp_o = open(FILE_OUTPUT_0, encoding='utf-8', mode='w+')  ## THE GENERAL OUTPUT!!!
         # print ("aaaaaaa", FILE_OUPUT_0, "bbbb")
+    elif opt in ("-l"):
+        FILE_INPUT_LFT_0 = arg
+        if not FILE_INPUT_LFT_0:
+            print("Please indicate LFT file name.")
+            sys.exit(2)
+    elif opt in ("-s"):
+        FILE_INPUT_STC_0 = arg
+        if not FILE_INPUT_STC_0:
+            print("Please indicate STC file name.")
+            sys.exit(2)
 
 if DBG_OUTPUT:
     print ('Input file is "', FILE_INPUT_0)
@@ -293,6 +307,22 @@ def morph(lama):
 
     return ret_str
 
+def answer_as_a_sentense(voice, explanation, subject, verb):
+    if "Active" == voice:
+        assert(subject)
+        explanation += subject.title() 
+            ## title() method : capitalized the 1st letter
+        explanation += "  "
+        explanation += verb
+    elif "ThereBe" == voice:
+        explanation += "There "
+        be_verb = "are "
+        explanation += be_verb
+    elif "Passive" == voice:
+        pass
+
+    return explanation
+
 '''    Main '''
 if ( __name__ == "__main__"):
     # OP_dict = {"OP_Sum":1, "OP_Multiplication":2, "OP_CommonDivision":3}
@@ -460,6 +490,13 @@ if ( __name__ == "__main__"):
     fp_o.flush()
     # fp_o.close()
 
+    '''get the final answer.
+    This method is not a good approach to get this info,
+    just a workaround to fasten the implementation'''
+    ans_pat = "\d+"
+    answer = re.search(ans_pat, tree_trans_str_final)
+    answer_final = answer.group()
+    # print("final_answer : ", answer_final.group())
 
     if DBG:
         print("DBG chunks of nodes into tree:   \n\t", dbg_chunk_list_of_nodes_into_tree, "\n end of DBG")  ### collectint
@@ -521,6 +558,47 @@ if ( __name__ == "__main__"):
         print ("discourse_trvs_op_list,\t", discourse_trvs_op_list)
 
     explanation = "Ans: \n"
+
+
+    '''Load STC file for Tense'''
+    stc_obj = None
+    try:
+        stc_obj = STCAnalyzer(FILE_INPUT_STC_0)
+    except NameError as e:
+        print("Warning: No STC file for Tense.\n") ## TODO direct to web
+    # print(stc_obj.get_info())
+    if None != stc_obj:
+        tense = stc_obj.get_info()
+
+    '''Load LFT file for Voice and Subject'''
+    lft_obj = None
+    try:
+        lft_obj = LogicFormAnalyzer(FILE_INPUT_LFT_0)
+    except NameError as e:
+        print("Warning: No LFT file for Subject and Voice.\n") ## TODO direct to web
+
+    if DBG_OUTPUT:
+        print(lft_obj.get_info())
+    voice = None
+    subject = None
+    verb = None
+    if None != lft_obj: ## means LFT file is also loaded
+        '''Add Voice and Subject infos'''
+        lft_info_dict = lft_obj.get_info()
+        assert(lft_info_dict)
+        # print("dict: ", lft_info_dict)
+        voice = lft_info_dict.get("Voice")
+        subject = lft_info_dict.get("Subject")
+        verb = lft_info_dict.get("Verb")
+        if tense == "VBZ": ## if verb in present single
+            verb = verb + "s"
+        elif tense == "VBP": ## verb in present plural
+            pass
+        elif tense == "VBD": ## verb in past tense
+            verb = verb + "ed" ## for Active voice as default
+        # print("Sub : ", lft_info_dict.get("Subject"))
+
+
     sr = None
     t_dict = {}
     last_idx = len(discourse_trvs_op_list) - 1
@@ -542,7 +620,7 @@ if ( __name__ == "__main__"):
             # else :
                 # explanation += "\t所以, 共"
             if 1 != len(discourse_trvs_op_list):
-                explanation += "\tThus,  "
+                explanation += "\n\tThus,  "
                 if IS_CHINESE_VERSION:
                     explanation += "\t所以,  " #, 共"
 
@@ -554,10 +632,13 @@ if ( __name__ == "__main__"):
 
             if 5 != which_op and 6 != which_op and 8 !=  which_op and 9 != which_op:
                 ### FloorDiv:5, Sub:6, CeilDiv:8, Surplus:9, don't need to add verb at beginning
-                if verb_list:
+                if verb_list and IS_CHINESE_VERSION:  ## verb in Chinese is not acquired from lft file now
                     explanation += verb_list[0]
+                    pass
                 else:
                     explanation += ""   ## 中文: 是
+
+            explanation = answer_as_a_sentense(voice, explanation, subject, verb)
 
         ### get the required function as template
         sr = OP_func_map.get(op_type)  ### OP_func_map is in data20.py
@@ -578,6 +659,25 @@ if ( __name__ == "__main__"):
 
             # explanation += sr(cdn_chunk, par_chunk, verb_list[0])
             explanation += sr(cdn_chunk, par_chunk, tmp_v)
+
+    if None != lft_obj:
+        verb = lft_info_dict.get("Verb")
+        if "Passive" == lft_info_dict.get("Voice"):
+            be_verb = None
+            if tense == "VBP":
+                be_verb = " were "
+            elif tense == "VBZ":
+                be_verb = " was "
+            elif tense == "VBD":
+                be_verb = " were "
+                if int(answer_final) == 1:
+                    be_verb = " was "
+
+            explanation += be_verb
+            explanation += verb
+            explanation += "ed"
+
+    explanation += "."
 
     print ("explanation : \n", explanation)
     fp_o.write(str('\t') + str('\t') + str('\t') + 

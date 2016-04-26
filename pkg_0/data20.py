@@ -4,11 +4,14 @@ stores the data structures
 """
 from enum import Enum
 from surface_realizer import *
+import os
 
 global ID ## in <Unit ID="">  tag
 DBG = False
 DBG_OUTPUT = False
 IS_CHINESE_VERSION = False
+if "EG_Chinese" in os.environ :
+    IS_CHINESE_VERSION = True
 
 verb_list = []
 global is_UnitID_defined

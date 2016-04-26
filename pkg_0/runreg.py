@@ -4,6 +4,7 @@ import os
 import shutil
 import difflib
 import popen2
+import sys
 
 IN_DIR = "./problems/"
 ONLINE_CHI_DIR = "./problems/online/"
@@ -97,6 +98,16 @@ def final_report():
     ret_str = "Pass: " + str(num_pass) + "\n" + "Fail: " + str(num_fail)
     print ret_str
 
+def set_to_Chinese_env():
+    os.environ["EG_Chinese"]="1" #os.system("export EG_Chinese=1")  on bash 
+    print("EG_Chinese env on, value: " + os.environ["EG_Chinese"] + "\n")
+    os.system("printenv |& grep EG_Chinese") #print(os.environ["EG_Chinese"])
+
+def unset_Chinese_env(): 
+    if os.environ["EG_Chinese"]:
+        del os.environ["EG_Chinese"]
+    print("EG_Chinese env off!")
+
 if __name__ == '__main__':
     #num_pat = "[\d]+"
     #match_num = re.search(num_pat, lama)
@@ -104,12 +115,14 @@ if __name__ == '__main__':
     os.system("rm " + OUT_DIR + "*")
     fp_o = open(OUT_DIR + "out_report.xml", "w")
 
-    cases = [1, 5, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22]
+    cases = [1, 5, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22] ## 75 Chinese cases
+    set_to_Chinese_env()
     for case in cases: 
         test_foo(case, IN_DIR)
    
     print "\n\n\n" + FILLER2 + FILLER + FILLER2 + "\n"
     print "\t\tOnline Chinese website\t\t"
+    set_to_Chinese_env()
     cases = ["EX_Diff1", "EX_Diff2", "EX1_Sub", "EX2_Sub", 
             "EX3_Add_Mul", "EX4_Add_Mul", "EX5_Mul_CmnDiv", 
             "EX6_Mul", "EX7_FlrDiv_CmnDiv", "EX8_FlrDiv_CmnDiv",
@@ -119,6 +132,8 @@ if __name__ == '__main__':
 
     print "\n\n\n" + FILLER2 + FILLER + FILLER2 + "\n"
     print "\t\tOnline English website\t\t"
+
+    unset_Chinese_env()
     cases = ["EX11-pencil_and_eraser", "Dev-49-2",  "Sample-student", 
             "uwds-0001", "uwds-0001_changeunit", #"uwds-0001_changeunit_plural", 
             "Sample-1" ]

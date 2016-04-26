@@ -134,7 +134,7 @@ def sr_Subtraction(children, parent):           ## 6
     ret_set += children[1]
     ret_set += " = "
     ret_set += parent
-    ret_set += "\n"
+    # ret_set += "\n"
     # ret_set +=
     return ret_set
 
@@ -159,7 +159,7 @@ def sr_Addition(children, parent):              ## 7
     ret_set += children[1]
     ret_set += " = "
     ret_set += parent
-    ret_set += "\n"
+    # ret_set += "\n"
 
     return ret_set
 
@@ -190,7 +190,7 @@ def sr_CeilDiv(children, parent, verb):       ## 8
             # ret_set += " 取商, 餘數不理, = "    remove, according to Prof. Su's suggestion
             ret_set += " + 1 = "    # remove, according to Prof. Su's suggestion
 
-    ret_set += parenut
+    ret_set += parent
     # ret_set += "\n"
     return ret_set
 
