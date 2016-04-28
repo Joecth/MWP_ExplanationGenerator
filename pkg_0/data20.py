@@ -60,6 +60,25 @@ OP_func_map = {"OP_Sum"             :sr_Sum,
 level2nodes_dict = {}  ## NOT used after last...
 vowels = {"a", "e", "i", "o", "u", "A", "E", "I", "O", "U"}
 
+
+### VBZ, VBP , VBD refers to Stanford's parsing rule
+# VBZ: present, 3rd, singular
+# VBP: present, non 3rd, plural
+# VBD: past
+# VBN: past participle
+###
+verb_morph_dict = {"give": {"VBZ":"gives", "VBP":"give", "VBD":"gave", "VBN":"given"},
+                   "win": {"VBZ":"wins", "VBP":"win", "VBD":"won", "VBN":"won"},
+                   "cut": {"VBZ":"cuts", "VBP":"cut", "VBD":"cut", "VBN":"cut"},
+                   "go": {"VBZ":"goes", "VBP":"go", "VBD":"went", "VBN":"gone"},
+                   "have": {"VBZ":"has", "VBP":"have", "VBD":"had", "VBN":"had"},
+                   "find": {"VBZ":"finds", "VBP":"find", "VBD":"found", "VBN":"found"},
+                   "buy": {"VBZ":"buys", "VBP":"buy", "VBD":"bought", "VBN":"bought"},
+                   "do": {"VBZ":"does", "VBP":"do", "VBD":"did", "VBN":"done"},
+                   "make": {"VBZ":"makes", "VBP":"make", "VBD":"made", "VBN":"made"},
+                   "spend": {"VBZ":"spends", "VBP":"spend", "VBD":"spent", "VBN":"spent"},
+                  }
+
 if (__name__ == "__main__"):
     print ("Hello data20.py")
 

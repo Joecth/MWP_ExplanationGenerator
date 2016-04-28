@@ -14,9 +14,6 @@ class STCAnalyzer:
         self.__input_file = input_file
         self.__log = FILE_PARSING_STC_LOG_0
 
-    # def validate(self):
-    #     print("Hello STC Analyzer")
-
     def get_info(self):
         try:
             tree = ET.ElementTree(file=self.__input_file)
@@ -24,19 +21,19 @@ class STCAnalyzer:
             print("STC file is not found => Tense Error") ## for Tense info
             sys.exit(2)
         root = tree.getroot()
-        print(root.tag, root.attrib)
-
-        # for child_of_root in root:
-        #     print(child_of_root.tag, child_of_root.attrib)
-
-        # for tmp in root.findall('Ques'):
-        #     print(tmp)
+        # print(root.tag, root.attrib)
 
         pat_present_p = "VBP" #present plural
         pat_present_z = "VBZ" #present single
         pat_past_     = "VBD" #past
+        pat_past_participle = "VBN" #past participle
 
-        ret_tense = "VBP"
+        ''' if can't get tense, we try to get modal'''
+        pat_future_lama = "will.*MD"
+        pat_get_modal = "{.*}"
+
+        ret_tense = None
+        ret_modal = None
         for child_of_root in root:
             for phase in child_of_root.iter('Phase'):
                 for unit in phase.iter('Unit'):
@@ -51,25 +48,20 @@ class STCAnalyzer:
                                                 ret_tense = "VBP"
                                             elif re.search(pat_present_z, word.text):
                                                 ret_tense = "VBZ"
+                                                break       ### as uwds-0076, VBZ higher priority than VBP
                                             elif re.search(pat_past_, word.text):
                                                 ret_tense = "VBD"
+                                                break       ### check UWDS1/uwds-0015, VBD should have higher priority
+                                            elif re.search(pat_past_participle, word.text):
+                                                ret_tense = "VBN" ## not tested yet, since we don't have such case
+                                                break
+                                            ### Modal: will, would, should ... ###
+                                            elif re.search(pat_future_lama, word.text):
+                                                match = re.search(pat_get_modal, word.text)
+                                                ret_modal = match.group()[1:-1]
                                             else:
                                                 pass
-        return ret_tense
-        # xmldoc = minidom.parse(FILE_INPUT_STC_LOCAL_0)
-        # ques = xmldoc.getElementsByTagName('Ques')
-        #
-        # print(len(ques))
-        # for sent in ques:
-        #     '''for now, sent is only 1'''
-        #     for cand in sent.childNodes:
-        #         if cand.nodeType == cand.ELEMENT_NODE:
-        #             for wordlist in cand.childNodes:
-    #                 if wordlist.nodeType == wordlist.ELEMENT_NODE:
-    #                     for word in wordlist.childNodes:
-    #                         if word.nodeType == word.ELEMENT_NODE:
-    #                             if word.localName == "WordList":
-    #                                 print(word)
+        return (ret_tense, ret_modal)
 
 if(__name__ == "__main__"):
     input_file = FILE_INPUT_STC_LOCAL_0

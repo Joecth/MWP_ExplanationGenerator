@@ -17,12 +17,19 @@ from stc_analyzer import *
 # FILE_INPUT_0        = 'problems/english_qs/uwds-0001_changeunit.trace.xl'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/english_qs/uwds-0001_changeunit.trace.xml'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/online/crashcase/20160218102935.trace.xml'
-FILE_INPUT_0        = 'problems/tmp.trace.Sample-1.xml'  ## try to get all from disk from shell
+# FILE_INPUT_0        = 'problems/tmp.trace.Sample-1.xml'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/tmp.trace.Sample-8.xml'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
-# FILE_INPUT_0        = 'demo_cases/tmp.edemo.out.20160413/ex01.trace.xml'  ## try to get all from disk from shell
-# FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
-# FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
+'''edemo case'''
+FILE_INPUT_0        = 'demo_cases/tmp.edemo.out.20160413/ex01.trace.xml'  ## try to get all from disk from shell
+FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
+FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
+'''uw cases'''
+IDX = '0126'
+FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS1.new/uwds-' + IDX + '.trace.xml'
+FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS1.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
+FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS1.new/uwds-' + IDX + '.stc.xml'
+
 FILE_OUTPUT_0       = 'output.xml'
 FILE_OUTPUT_CORE    = 'out_core.xml'
 FILE_RAW_TREE       = 'raw_tree.xml'             ## index from FILE_INPUT_0
@@ -196,7 +203,7 @@ class ExpGenTreeBuilder(xml.sax.ContentHandler):
         tmp = self.buffer         ### tmp: 43seashell
         afterlama = tmp
         # if IS_ENGLISH_VERSION:
-        afterlama = morph(tmp)    ### afterlama: 43 seashells
+        afterlama = morph_plural(tmp)    ### afterlama: 43 seashells
         # else:
         #     pass
         chunks.append(afterlama)
@@ -258,7 +265,7 @@ def morph_English(quan, lama):
 
     return ret_str
 
-def morph(lama):
+def morph_plural(lama):
     """ morphology check """
 
     ## Shouldn't be built-in values
@@ -307,9 +314,59 @@ def morph(lama):
 
     return ret_str
 
+def morph_active_verb(verb, tense, is_modal):
+    morph_verb = verb
+    if verb in verb_morph_dict:
+        if tense  in verb_morph_dict.get(verb):
+            morph_verb = verb_morph_dict.get(verb).get(tense)
+            if tense == "VBN":
+                morph_verb = " have/has " + morph_verb
+        else:
+            print("ERROR! check case!")
+            sys.exit(2)
+    else:
+        if tense == "VBZ": ## if verb in present single
+            morph_verb = verb + "s"
+        elif tense == "VBP": ## verb in present plural
+            morph_verb = verb
+        elif tense == "VBD": ## verb in past tense
+            if verb[-1] == "e": ## rules
+                morph_verb = verb + "d"
+            else:
+                morph_verb = verb + "ed" ## for Active voice as default
+        elif tense == "VBN":
+            ### we don't have such test cases now
+            if verb[-1] == "e": ## rules
+                morph_verb = verb + "d"
+            else:
+                morph_verb = verb + "ed" ## for Active voice as default
+            morph_verb = "have/has" + morph_verb
+        else:
+            if not modal:
+                print("Neither tense nor modal! Check case!\n")
+                assert(0)
+            else:
+                morph_verb = tense + " " + verb
+    return morph_verb
+    # print("Sub : ", lft_info_dict.get("Subject"))    
+
+def morph_passive_verb(verb):  ## could be merged with morph_active_verb when Refactor
+    tense = "VBN"
+    if verb in verb_morph_dict:
+        morph_verb = verb_morph_dict.get(verb).get(tense)
+    else:
+        if verb[-1] == "e":
+            morph_verb = verb + "d"
+        else:
+            morph_verb = verb + "ed"
+
+    return morph_verb
+
 def answer_as_a_sentense(voice, explanation, subject, verb):
     if "Active" == voice:
-        assert(subject)
+        if not subject:
+            print("Active w/o Subject : " + FILE_INPUT_LFT_0 )
+            assert(0)
         explanation += subject.title() 
             ## title() method : capitalized the 1st letter
         explanation += "  "
@@ -495,7 +552,7 @@ if ( __name__ == "__main__"):
     just a workaround to fasten the implementation'''
     ans_pat = "\d+"
     answer = re.search(ans_pat, tree_trans_str_final)
-    answer_final = answer.group()
+    quan_answer_final = answer.group()
     # print("final_answer : ", answer_final.group())
 
     if DBG:
@@ -567,8 +624,16 @@ if ( __name__ == "__main__"):
     except NameError as e:
         print("Warning: No STC file for Tense.\n") ## TODO direct to web
     # print(stc_obj.get_info())
+    is_modal = False
     if None != stc_obj:
-        tense = stc_obj.get_info()
+        (tense, modal) = stc_obj.get_info()
+        if not tense:
+            if not modal:
+                print("Error! no Tense! Check case!")
+                sys.exit(2)
+            else:
+                is_modal = True
+                tense = modal
 
     '''Load LFT file for Voice and Subject'''
     lft_obj = None
@@ -585,18 +650,15 @@ if ( __name__ == "__main__"):
     if None != lft_obj: ## means LFT file is also loaded
         '''Add Voice and Subject infos'''
         lft_info_dict = lft_obj.get_info()
-        assert(lft_info_dict)
+        if not lft_info_dict:
+            print("lft_info_dict is None , Check case!")
+            assert(lft_info_dict)
         # print("dict: ", lft_info_dict)
         voice = lft_info_dict.get("Voice")
         subject = lft_info_dict.get("Subject")
         verb = lft_info_dict.get("Verb")
-        if tense == "VBZ": ## if verb in present single
-            verb = verb + "s"
-        elif tense == "VBP": ## verb in present plural
-            pass
-        elif tense == "VBD": ## verb in past tense
-            verb = verb + "ed" ## for Active voice as default
-        # print("Sub : ", lft_info_dict.get("Subject"))
+        verb = morph_active_verb(verb, tense, is_modal)
+
 
 
     sr = None
@@ -663,23 +725,20 @@ if ( __name__ == "__main__"):
     if None != lft_obj:
         verb = lft_info_dict.get("Verb")
         if "Passive" == lft_info_dict.get("Voice"):
-            be_verb = None
-            if tense == "VBP":
-                be_verb = " were "
-            elif tense == "VBZ":
+            ### TENSE doesn't affect verb morph
+            ### for Passive form, verb are all VBN(p.p)
+            ### instead of "past tense"
+            be_verb = " were "
+            if int(quan_answer_final) == 1:
                 be_verb = " was "
-            elif tense == "VBD":
-                be_verb = " were "
-                if int(answer_final) == 1:
-                    be_verb = " was "
-
             explanation += be_verb
-            explanation += verb
-            explanation += "ed"
+
+            morph_verb = morph_passive_verb(verb)
+            explanation += morph_verb
 
     explanation += "."
 
-    print ("explanation : \n", explanation)
+    print ("Explanation : \n", explanation)
     fp_o.write(str('\t') + str('\t') + str('\t') + 
             str('<') + str('Explanation') + str(">") + str('\n'))
     fp_o.write(str('\t') + str('\t') + str('\t') + str('\t') + 

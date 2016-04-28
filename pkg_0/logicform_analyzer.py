@@ -61,8 +61,8 @@ class LogicFormAnalyzer:
         ret_subj = None
         '''checking Voice'''
         if "verb" not in self.__LF1_dict:  ## checking for "ThereBe" voice
-            # print("check case!")
-            sys.exit(2)
+            print("Verb is not in LF1_dict, check case!")
+            assert(0)
 
         if "be" == self.__LF0_dict.get(self.__LF1_dict.get("verb")):
             '''How many xxx "are" there ?'''
@@ -98,7 +98,7 @@ class LogicFormAnalyzer:
                     # thus, we need to check one more layer
                     # TODO Solve non-terminal node mapping
 
-                    print("LF1 maps to variable!")
+                    # print("LF1 maps to variable!")
                     re_mapping_key = self.__LF1_vm_dict.get(key_lf0)
                     if not re_mapping_key:
                         print("Remapping in LF1 failed, Check case!")
