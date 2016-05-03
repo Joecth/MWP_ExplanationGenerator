@@ -77,7 +77,10 @@ verb_morph_dict = {"give": {"VBZ":"gives", "VBP":"give", "VBD":"gave", "VBN":"gi
                    "do": {"VBZ":"does", "VBP":"do", "VBD":"did", "VBN":"done"},
                    "make": {"VBZ":"makes", "VBP":"make", "VBD":"made", "VBN":"made"},
                    "spend": {"VBZ":"spends", "VBP":"spend", "VBD":"spent", "VBN":"spent"},
+                   "sell": {"VBZ":"sells", "VBP":"sell", "VBD":"sold", "VBN":"sold"},
                   }
+
+conj_set = (['while', 'While', 'if', 'If', 'when', 'When'])
 
 if (__name__ == "__main__"):
     print ("Hello data20.py")

@@ -25,10 +25,11 @@ FILE_INPUT_0        = 'demo_cases/tmp.edemo.out.20160413/ex01.trace.xml'  ## try
 FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
 FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
 '''uw cases'''
-IDX = '0126'
-FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS1.new/uwds-' + IDX + '.trace.xml'
-FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS1.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
-FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS1.new/uwds-' + IDX + '.stc.xml'
+DIR = '2'
+IDX = '0168'
+FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.trace.xml'
+FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
+FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
 
 FILE_OUTPUT_0       = 'output.xml'
 FILE_OUTPUT_CORE    = 'out_core.xml'
@@ -314,6 +315,15 @@ def morph_plural(lama):
 
     return ret_str
 
+def morph_SJ(subject_lama, tense):
+    ret_subject = subject_lama
+    if tense == "VBP":
+        if subject_lama != "they":
+            ret_subject += "s"
+    return ret_subject
+
+
+
 def morph_active_verb(verb, tense, is_modal):
     morph_verb = verb
     if verb in verb_morph_dict:
@@ -322,9 +332,16 @@ def morph_active_verb(verb, tense, is_modal):
             if tense == "VBN":
                 morph_verb = " have/has " + morph_verb
         else:
-            print("ERROR! check case!")
-            sys.exit(2)
+            if not modal:
+                print("Neither tense nor modal! Check case!\n")
+                assert(0)
+            else:
+                morph_verb = tense + " " + verb
+            # print("ERROR! check case!")
+            # sys.exit(2)
     else:
+        if verb == 'was' or verb == 'were' or verb == 'is' or verb == 'are':
+            return morph_verb
         if tense == "VBZ": ## if verb in present single
             morph_verb = verb + "s"
         elif tense == "VBP": ## verb in present plural
@@ -340,7 +357,7 @@ def morph_active_verb(verb, tense, is_modal):
                 morph_verb = verb + "d"
             else:
                 morph_verb = verb + "ed" ## for Active voice as default
-            morph_verb = "have/has" + morph_verb
+            morph_verb = "have/has " + morph_verb
         else:
             if not modal:
                 print("Neither tense nor modal! Check case!\n")
@@ -362,12 +379,24 @@ def morph_passive_verb(verb):  ## could be merged with morph_active_verb when Re
 
     return morph_verb
 
+def capitalization(str):
+    ret_str = ""
+    if 1 == len(str):
+        ret_str =  str.title()
+    else:
+        word_list = str.split()
+        final =  [word_list[0].capitalize()]
+        for word in word_list[1:]:
+            final.append(word)
+        ret_str = " ".join(final)
+    return ret_str
+
 def answer_as_a_sentense(voice, explanation, subject, verb):
     if "Active" == voice:
         if not subject:
             print("Active w/o Subject : " + FILE_INPUT_LFT_0 )
             assert(0)
-        explanation += subject.title() 
+        explanation += capitalization(subject)
             ## title() method : capitalized the 1st letter
         explanation += "  "
         explanation += verb
@@ -617,7 +646,8 @@ if ( __name__ == "__main__"):
     explanation = "Ans: \n"
 
 
-    '''Load STC file for Tense'''
+    '''Load STC file for Tense and Verb'''
+    ##TODO after checking uwds-0126, verb_bakup should be from stc file when lft has no verb
     stc_obj = None
     try:
         stc_obj = STCAnalyzer(FILE_INPUT_STC_0)
@@ -626,7 +656,7 @@ if ( __name__ == "__main__"):
     # print(stc_obj.get_info())
     is_modal = False
     if None != stc_obj:
-        (tense, modal) = stc_obj.get_info()
+        (tense, modal, verb_bakup, how_pos) = stc_obj.get_info()
         if not tense:
             if not modal:
                 print("Error! no Tense! Check case!")
@@ -649,14 +679,27 @@ if ( __name__ == "__main__"):
     verb = None
     if None != lft_obj: ## means LFT file is also loaded
         '''Add Voice and Subject infos'''
-        lft_info_dict = lft_obj.get_info()
+        (lft_info_dict, pos_verb) = lft_obj.get_info()
         if not lft_info_dict:
             print("lft_info_dict is None , Check case!")
             assert(lft_info_dict)
         # print("dict: ", lft_info_dict)
         voice = lft_info_dict.get("Voice")
         subject = lft_info_dict.get("Subject")
+        if subject:
+            subject = morph_SJ(subject, tense) # Subject-Verb agreement, since the subjects we get are always in lama form
         verb = lft_info_dict.get("Verb")
+
+        ''' we use "how's position" to check whether this verb should be adopted'''
+        if verb:
+            verb_pos = re.findall("\d+", pos_verb)[1]
+            if  int(verb_pos) > int(how_pos):
+                pass
+            else:
+                verb = verb_bakup
+        else:
+            ### for uwds-126 and 127, we need to get verb_bakup
+            verb = verb_bakup
         verb = morph_active_verb(verb, tense, is_modal)
 
 

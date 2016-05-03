@@ -18,15 +18,35 @@ ID ::  IIS-MR-MATH-GRADE01-173206
 				 12__OP_Multiplication
 					 13__13張
 					 14__百元鈔票
+Warning: No STC file for Tense.
+
+Warning: No LFT file for Subject and Voice.
+
 explanation : 
  Ans: 
 	2疊  一萬元鈔票  就是   2 * 10000 = 20000元
 	6張  千元鈔票  就是   6 * 1000 = 6000元
 	13張  百元鈔票  就是   13 * 100 = 1300元
-	Thus,  Totally 付	20000元 + 6000元 + 1300元 = 27300元
+
+	Thus,  	所以,  Totally 共 付	20000元 + 6000元 + 1300元 = 27300元.
 ### end of EG Tree log 
 
-[Pass]
+@@@@@@@@@@@@@@@@@@ DIFF :
+--- ./golden_eng/case1.xml
++++ ./reg_output_new/case1.xml
+@@ -9,7 +9,8 @@
+ 	2疊  一萬元鈔票  就是   2 * 10000 = 20000元
+ 	6張  千元鈔票  就是   6 * 1000 = 6000元
+ 	13張  百元鈔票  就是   13 * 100 = 1300元
+-	Thus,  Totally 付	20000元 + 6000元 + 1300元 = 27300元
++
++	Thus,  	所以,  Totally 共 付	20000元 + 6000元 + 1300元 = 27300元.
+ 			</Explanation>
+ 		</ANS>
+ 	</Ques>
+###  end of err_log  
+
+[Fail]
 ^^^^^^^^^^^^^^^^^^^^	end of case1	^^^^^^^^^^^^^^^^^^^^
 
 ====================	case5	====================
@@ -44,611 +64,33 @@ explanation :
 				 8__OP_Multiplication
 					 9__1個
 					 10__百萬
+Warning: No STC file for Tense.
+
+Warning: No LFT file for Subject and Voice.
+
 explanation : 
  Ans: 
 	9個  百萬  就是   9 * 1000000 = 9000000
 	1個  百萬  就是   1 * 1000000 = 1000000
-	Thus,  Totally 	9000000 + 1000000 = 10000000
+
+	Thus,  	所以,  Totally 共 	9000000 + 1000000 = 10000000.
 ### end of EG Tree log 
 
-[Pass]
+@@@@@@@@@@@@@@@@@@ DIFF :
+--- ./golden_eng/case5.xml
++++ ./reg_output_new/case5.xml
+@@ -8,7 +8,8 @@
+ 				Ans: 
+ 	9個  百萬  就是   9 * 1000000 = 9000000
+ 	1個  百萬  就是   1 * 1000000 = 1000000
+-	Thus,  Totally 	9000000 + 1000000 = 10000000
++
++	Thus,  	所以,  Totally 共 	9000000 + 1000000 = 10000000.
+ 			</Explanation>
+ 		</ANS>
+ 	</Ques>
+###  end of err_log  
+
+[Fail]
 ^^^^^^^^^^^^^^^^^^^^	end of case5	^^^^^^^^^^^^^^^^^^^^
-
-====================	case6	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__794元
-		 2__OP_Sum
-			 3__329元
-				 4__OP_Multiplication
-					 5__1本
-					 6__329元的故事書
-			 7__465元
-				 8__OP_Multiplication
-					 9__1枝
-					 10__465元的鋼筆
-explanation : 
- Ans: 
-	1本  329元的故事書  就是   1 * 329 = 329元
-	1枝  465元的鋼筆  就是   1 * 465 = 465元
-	Thus,  Totally 花	329元 + 465元 = 794元
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case6	^^^^^^^^^^^^^^^^^^^^
-
-====================	case7	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-173206
-<Unit ID="IIS-MR-MATH-GRADE01-173206">
-
-0__ROOT
-	 1__420朵康乃馨
-		 2__OP_Sum
-			 3__186朵康乃馨
-			 4__234朵康乃馨
-explanation : 
- Ans: 
-Totally 賣出	186朵康乃馨 + 234朵康乃馨 = 420朵康乃馨
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case7	^^^^^^^^^^^^^^^^^^^^
-
-====================	case8	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__3948枝筆
-		 2__OP_Sum
-			 3__2361枝紅筆
-			 4__1587枝藍筆
-explanation : 
- Ans: 
-Totally 進貨	2361枝紅筆 + 1587枝藍筆 = 3948枝筆
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case8	^^^^^^^^^^^^^^^^^^^^
-
-====================	case9	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__1095天
-		 2__OP_Multiplication
-			 3__3個平年
-			 4__365(天/個平年)
-				 5__OP_CommonDiv
-					 6__365天
-					 7__1個平年
-explanation : 
- Ans: 
-	1個平年有365天就是365 ÷ 1 = 365(天/個平年)
-	Thus,  有	3個平年  365(天/個平年)  就是   3 * 365 = 1095天
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case9	^^^^^^^^^^^^^^^^^^^^
-
-====================	case17	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__54750元
-		 2__OP_Multiplication
-			 3__365天
-			 4__150(元/天)
-				 5__OP_CommonDiv
-					 6__150元
-					 7__1天
-explanation : 
- Ans: 
-	1天存150元就是150 ÷ 1 = 150(元/天)
-	Thus,  存	365天  150(元/天)  就是   365 * 150 = 54750元
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case17	^^^^^^^^^^^^^^^^^^^^
-
-====================	case18	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__82992臺
-		 2__OP_Multiplication
-			 3__336天
-			 4__247(臺電動玩具/天)
-				 5__OP_CommonDiv
-					 6__247臺電動玩具
-					 7__1天
-explanation : 
- Ans: 
-	1天生產247臺電動玩具就是247 ÷ 1 = 247(臺電動玩具/天)
-	Thus,  生產	336天  247(臺電動玩具/天)  就是   336 * 247 = 82992臺
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case18	^^^^^^^^^^^^^^^^^^^^
-
-====================	case19	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__28336
-		 2__OP_Multiplication
-			 3__112區
-			 4__253(人/區)
-				 5__OP_CommonDiv
-					 6__253人
-					 7__1區
-explanation : 
- Ans: 
-	1區有253人就是253 ÷ 1 = 253(人/區)
-	Thus,  有	112區  253(人/區)  就是   112 * 253 = 28336
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case19	^^^^^^^^^^^^^^^^^^^^
-
-====================	case20	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__46200碗
-		 2__OP_Multiplication
-			 3__350天
-			 4__132(碗牛肉麵/天)
-				 5__OP_CommonDiv
-					 6__132碗牛肉麵
-					 7__1天
-explanation : 
- Ans: 
-	1天賣出132碗牛肉麵就是132 ÷ 1 = 132(碗牛肉麵/天)
-	Thus,  賣出	350天  132(碗牛肉麵/天)  就是   350 * 132 = 46200碗
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case20	^^^^^^^^^^^^^^^^^^^^
-
-====================	case21	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__9塊
-		 2__OP_FloorDiv
-			 3__500公克黏土
-			 4__52(公克黏土/塊黏土)
-				 5__OP_CommonDiv
-					 6__52公克黏土
-					 7__1塊黏土
-in sr_FloorDiv func()!
-explanation : 
- Ans: 
-	1塊黏土切成52公克黏土就是52 ÷ 1 = 52(公克黏土/塊黏土)
-	Thus,  	500公克黏土 最多可以 切成 	:	500 ÷ 52 = 9塊
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case21	^^^^^^^^^^^^^^^^^^^^
-
-====================	case22	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__8個
-		 2__OP_FloorDiv
-			 3__850公分包裝紙
-			 4__95(公分包裝紙/個禮物)
-				 5__OP_CommonDiv
-					 6__95公分包裝紙
-					 7__1個禮物
-	 8__90公分
-		 9__OP_Surplus
-			 10__850公分包裝紙
-			 11__95(公分包裝紙/個禮物)
-				 12__OP_CommonDiv
-					 13__95公分包裝紙
-					 14__1個禮物
-in sr_FloorDiv func()!
-explanation : 
- Ans: 
-	1個禮物包95公分包裝紙就是95 ÷ 1 = 95(公分包裝紙/個禮物)
-	1個禮物包95公分包裝紙就是95 ÷ 1 = 95(公分包裝紙/個禮物)
-	850公分包裝紙 最多可以 包 	:	850 ÷ 95 = 8個
-	Thus,  	剩下 	:	850 ÷ 95 … 90公分
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of case22	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX_Diff1	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-200051
-<Unit ID="IIS-MR-MATH-GRADE01-200051">
-
-0__ROOT
-	 1__240元
-		 2__OP_Subtraction
-			 3__720元
-			 4__480元
-explanation : 
- Ans: 
-	720元 - 480元 = 240元
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX_Diff1	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX_Diff2	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-200219
-<Unit ID="IIS-MR-MATH-GRADE01-200219">
-
-0__ROOT
-	 1__2公分n1 Warning!! Un-decoded String from IE! 
-		 2__OP_Subtraction
-			 3__20公分n1 Warning!! Un-decoded String from IE! 
-			 4__18公分n2 Warning!! Un-decoded String from IE! 
-explanation : 
- Ans: 
-	20公分n1 Warning!! Un-decoded String from IE!  - 18公分n2 Warning!! Un-decoded String from IE!  = 2公分n1 Warning!! Un-decoded String from IE! 
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX_Diff2	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX1_Sub	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-155732
-<Unit ID="IIS-MR-MATH-GRADE01-155732">
-
-0__ROOT
-	 1__3隻動物
-		 2__OP_Subtraction
-			 3__5隻動物
-			 4__2隻動物
-explanation : 
- Ans: 
-	5隻動物 - 2隻動物 = 3隻動物
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX1_Sub	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX2_Sub	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-173213
-<Unit ID="IIS-MR-MATH-GRADE01-173213">
-
-0__ROOT
-	 1__4瓶果汁
-		 2__OP_Subtraction
-			 3__9瓶果汁
-			 4__5瓶果汁
-explanation : 
- Ans: 
-	9瓶果汁 - 5瓶果汁 = 4瓶果汁
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX2_Sub	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX3_Add_Mul	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-164236
-<Unit ID="IIS-MR-MATH-GRADE01-164236">
-
-0__ROOT
-	 1__20個書套
-		 2__OP_Addition
-			 3__19個書套
-				 4__OP_Multiplication
-					 5__19/1
-					 6__1個書套
-			 7__1個書套
-explanation : 
- Ans: 
-	19/1  1個書套  就是   19/1 * 1 = 19個書套
-	Thus,  	19個書套 + 1個書套 = 20個書套
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX3_Add_Mul	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX4_Add_Mul	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-164003
-<Unit ID="IIS-MR-MATH-GRADE01-164003">
-
-0__ROOT
-	 1__17片葉子
-		 2__OP_Addition
-			 3__14片葉子
-				 4__OP_Multiplication
-					 5__14/1
-					 6__1片葉子
-			 7__3片葉子
-explanation : 
- Ans: 
-	14/1  1片葉子  就是   14/1 * 1 = 14片葉子
-	Thus,  	14片葉子 + 3片葉子 = 17片葉子
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX4_Add_Mul	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX5_Mul_CmnDiv	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-164908
-<Unit ID="IIS-MR-MATH-GRADE01-164908">
-
-0__ROOT
-	 1__10元
-		 2__OP_Multiplication
-			 3__4顆軟糖
-			 4__2.5(元/顆軟糖)
-				 5__OP_CommonDiv
-					 6__5元
-					 7__2顆軟糖
-explanation : 
- Ans: 
-	2顆軟糖賣5元就是5 ÷ 2 = 2.5(元/顆軟糖)
-	Thus,  賣	4顆軟糖  2.5(元/顆軟糖)  就是   4 * 2.5 = 10元
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX5_Mul_CmnDiv	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX6_Mul	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-165116
-<Unit ID="IIS-MR-MATH-GRADE01-165116">
-
-0__ROOT
-	 1__50
-		 2__OP_Multiplication
-			 3__5個鴿籠
-			 4__10隻鴿子
-explanation : 
- Ans: 
-	5個鴿籠  10隻鴿子  就是   5 * 10 = 50
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX6_Mul	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX7_FlrDiv_CmnDiv	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-165312
-<Unit ID="IIS-MR-MATH-GRADE01-165312">
-
-0__ROOT
-	 1__15盒
-		 2__OP_FloorDiv
-			 3__75個甜甜圈
-			 4__5(個甜甜圈/盒)
-				 5__OP_CommonDiv
-					 6__10個甜甜圈
-					 7__2盒
-in sr_FloorDiv func()!
-explanation : 
- Ans: 
-	2盒有10個甜甜圈就是10 ÷ 2 = 5(個甜甜圈/盒)
-	Thus,  	75個甜甜圈 最多可以 有 	:	75 ÷ 5 = 15盒
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX7_FlrDiv_CmnDiv	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX8_FlrDiv_CmnDiv	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-171621
-<Unit ID="IIS-MR-MATH-GRADE01-171621">
-
-0__ROOT
-	 1__8個
-		 2__OP_FloorDiv
-			 3__850公分包裝紙
-			 4__95(公分包裝紙/個禮物)
-				 5__OP_CommonDiv
-					 6__95公分包裝紙
-					 7__1個禮物
-in sr_FloorDiv func()!
-explanation : 
- Ans: 
-	1個禮物用掉95公分包裝紙就是95 ÷ 1 = 95(公分包裝紙/個禮物)
-	Thus,  	850公分包裝紙 最多可以 用掉 	:	850 ÷ 95 = 8個
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX8_FlrDiv_CmnDiv	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX9_TVQ	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-170326
-<Unit ID="IIS-MR-MATH-GRADE01-170326">
-
-0__ROOT
-explanation : 
- Ans: 
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX9_TVQ	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX10_TVQ	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADE01-172222
-<Unit ID="IIS-MR-MATH-GRADE01-172222">
-
-0__ROOT
-explanation : 
- Ans: 
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX10_TVQ	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseEX11-pencil_and_eraser	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__84 pencils
-		 2__OP_TVQ_Addition
-			 3__40 pencils
-			 4__44 pencils
-				 5__OP_TVQ_Addition
-					 6__26 pencils
-					 7__18 pencils
-explanation : 
- Ans: 
-	26 pencils + 18 pencils = 44 pencils
-	Thus,  	40 pencils + 44 pencils = 84 pencils
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseEX11-pencil_and_eraser	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseDev-49-2	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__42張貼紙
-		 2__OP_TVQ_Addition
-			 3__12張貼紙
-			 4__30張貼紙
-				 5__OP_TVQ_Addition
-					 6__6張貼紙
-					 7__24張貼紙
-explanation : 
- Ans: 
-	6張貼紙 + 24張貼紙 = 30張貼紙
-	Thus,  	12張貼紙 + 30張貼紙 = 42張貼紙
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseDev-49-2	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseSample-student	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__9個小朋友
-		 2__OP_TVQ_Addition
-			 3__4個小朋友
-			 4__5個小朋友
-				 5__OP_TVQ_Subtraction
-					 6__3個小朋友
-					 7__8個小朋友
-explanation : 
- Ans: 
-	8個小朋友 - 3個小朋友 = 5個小朋友
-	Thus,  	4個小朋友 + 5個小朋友 = 9個小朋友
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseSample-student	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseuwds-0001	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
-<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
-
-0__ROOT
-	 1__43 boys
-		 2__OP_Subtraction
-			 3__70 bodies
-			 4__27 josves
-explanation : 
- Ans: 
-	70 bodies - 27 josves = 43 boys
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseuwds-0001	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseuwds-0001_changeunit	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
-<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
-
-0__ROOT
-	 1__1 boy
-		 2__OP_Subtraction
-			 3__70 bodies
-			 4__1 josh
-explanation : 
- Ans: 
-	70 bodies - 1 josh = 1 boy
-
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseuwds-0001_changeunit	^^^^^^^^^^^^^^^^^^^^
-
-====================	caseSample-1	====================
-@@@@@@@@@@@@@@@@@  EG TREE : 
-<Unit ID="">
-
-0__ROOT
-	 1__27300元
-		 2__OP_Sum
-			 3__20000元
-				 4__OP_Multiplication
-					 5__2疊
-					 6__一萬元鈔票
-			 7__6000元
-				 8__OP_Multiplication
-					 9__6張
-					 10__千元鈔票
-			 11__1300元
-				 12__OP_Multiplication
-					 13__13張
-					 14__百元鈔票
-explanation : 
- Ans: 
-	2疊  一萬元鈔票  就是   2 * 10000 = 20000元
-	6張  千元鈔票  就是   6 * 1000 = 6000元
-	13張  百元鈔票  就是   13 * 100 = 1300元
-	Thus,  Totally 付	20000元 + 6000元 + 1300元 = 27300元
-### end of EG Tree log 
-
-[Pass]
-^^^^^^^^^^^^^^^^^^^^	end of caseSample-1	^^^^^^^^^^^^^^^^^^^^
 
