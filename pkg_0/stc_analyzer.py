@@ -4,6 +4,7 @@ __author__ = 'JoeXPS13_AS'
 import xml.etree.ElementTree as ET
 import re
 import sys
+from data20 import *
 from xml.dom import minidom
 
 FILE_INPUT_STC_LOCAL_0 = 'stc_form/ex0.stc.xml'
@@ -29,8 +30,8 @@ class STCAnalyzer:
         pat_present_z = "VBZ" #present single
         pat_past_     = "VBD" #past
         pat_past_participle = "VBN" #past participle
-        pat_basic_form = "VB"
-
+        pat_basic_form = "VB\)"
+        pat_get_lama_token = "\w+\("
         ''' if can't get tense, we try to get modal'''
         pat_future_lama = "will.*MD"
         pat_get_orig_token = "{.*}"
@@ -40,6 +41,7 @@ class STCAnalyzer:
         ret_verb_bakup = None
         is_start_recording = False
         how_pos = -1
+        conj_pos = INF
         for child_of_root in root:
             for phase in child_of_root.iter('Phase'):
                 for unit in phase.iter('Unit'):
@@ -49,6 +51,20 @@ class STCAnalyzer:
                                 for cand in sent.iter('Cand'):
                                     for wordlist in cand.iter('WordList'):
                                         for word in wordlist.iter('Word'):
+                                            match = re.search(pat_get_lama_token, word.text)
+                                            basic = orig_word = None
+                                            if match:
+                                                basic = match.group()[0:-1]
+
+                                            match = re.search(pat_get_orig_token, word.text)
+                                            if match:
+                                                orig_word = match.group()[1:-1]
+
+                                            if not basic or not match:
+                                                print("Check the STC file")
+                                                assert(0)
+                                            basic2orig_dict[basic] = orig_word
+
                                             ## we don't start recording until find "how" or "How"
                                             ## to solve clause issue, check 76, 253
                                             if re.search(pat_how, word.text):
@@ -56,39 +72,45 @@ class STCAnalyzer:
                                                 how_token = re.search(pat_get_pos, word.text).group()[1:-1] ## position of "how"
                                                 infos = how_token.split(",")
                                                 how_pos = int(infos[0])
+
                                             if is_start_recording:
                                             # print(word.text)
+                                                if basic in conj_set:
+                                                    pos_token = re.search(pat_get_pos, word.text).group()[1:-1]
+                                                    infos = pos_token.split(',')
+                                                    conj_pos = int(infos[0])
+                                                    break     # prune conject clause's info
                                                 if re.search(pat_present_p, word.text):
                                                     if ret_tense == None:
                                                         ret_tense = "VBP"
-                                                    match = re.search(pat_get_orig_token, word.text)
-                                                    ret_verb_bakup = match.group()[1:-1]
+                                                    # match = re.search(pat_get_orig_token, word.text)
+                                                    ret_verb_bakup = orig_word #match.group()[1:-1]
                                                 elif re.search(pat_present_z, word.text):
                                                     ret_tense = "VBZ"
-                                                    match = re.search(pat_get_orig_token, word.text)
-                                                    ret_verb_bakup = match.group()[1:-1]
+                                                    # match = re.search(pat_get_orig_token, word.text)
+                                                    ret_verb_bakup = orig_word #match.group()[1:-1]
                                                     # break       ### as uwds-0076, VBZ higher priority than VBP
                                                 elif re.search(pat_past_, word.text):
                                                     ret_tense = "VBD"
-                                                    match = re.search(pat_get_orig_token, word.text)
-                                                    ret_verb_bakup = match.group()[1:-1]
+                                                    # match = re.search(pat_get_orig_token, word.text)
+                                                    ret_verb_bakup = orig_word #match.group()[1:-1]
                                                     # break       ### check UWDS1/uwds-0015, VBD should have higher priority
                                                 elif re.search(pat_past_participle, word.text):
                                                     ret_tense = "VBN" ## not tested yet, since we don't have such case
-                                                    match = re.search(pat_get_orig_token, word.text)
-                                                    ret_verb_bakup = match.group()[1:-1]
+                                                    # match = re.search(pat_get_orig_token, word.text)
+                                                    ret_verb_bakup = orig_word #match.group()[1:-1]
                                                     # break
                                                 ### Modal: will, would, should ... ###
                                                 elif re.search(pat_future_lama, word.text):
-                                                    match = re.search(pat_get_orig_token, word.text)
-                                                    ret_modal = match.group()[1:-1]
+                                                    # match = re.search(pat_get_orig_token, word.text)
+                                                    ret_modal = orig_word #match.group()[1:-1]
                                                 elif re.search(pat_basic_form, word.text):
                                                     # ret_tense = "VB" VB has no tense info
-                                                    match = re.search(pat_get_orig_token, word.text)
-                                                    ret_verb_bakup = match.group()[1:-1]
+                                                    # match = re.search(pat_get_orig_token, word.text)
+                                                    ret_verb_bakup = orig_word #match.group()[1:-1]
                                                 else:
                                                     pass
-        return (ret_tense, ret_modal, ret_verb_bakup, how_pos)
+        return (ret_tense, ret_modal, ret_verb_bakup, how_pos, conj_pos)
 
 if(__name__ == "__main__"):
     input_file = FILE_INPUT_STC_LOCAL_0

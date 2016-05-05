@@ -17,16 +17,27 @@ from stc_analyzer import *
 # FILE_INPUT_0        = 'problems/english_qs/uwds-0001_changeunit.trace.xl'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/english_qs/uwds-0001_changeunit.trace.xml'  ## try to get all from disk from shell
 # FILE_INPUT_0        = 'problems/online/crashcase/20160218102935.trace.xml'
-# FILE_INPUT_0        = 'problems/tmp.trace.Sample-1.xml'  ## try to get all from disk from shell
-# FILE_INPUT_0        = 'problems/tmp.trace.Sample-8.xml'  ## try to get all from disk from shell
-# FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
-'''edemo case'''
-FILE_INPUT_0        = 'demo_cases/tmp.edemo.out.20160413/ex01.trace.xml'  ## try to get all from disk from shell
-FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
-FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
+
+# '''Chinese case'''
+# IS_CHINESE_VERSION = True
+# IDX = '17'
+# FILE_INPUT_0        = 'problems/tmp.trace.Sample-' + IDX + '.xml'  ## try to get all from disk from shell
+# # FILE_INPUT_STC_0    = ''
+# # FILE_INPUT_LFT_0      = ''
+# # FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
+
+# '''online Chinese site'''
+# FNAME = 'EX9_TVQ'
+# FILE_INPUT_0        = 'problems/online/' + FNAME + '.trace.xml'
+
+# '''edemo case'''
+# FILE_INPUT_0        = 'demo_cases/tmp.edemo.out.20160413/ex01.trace.xml'  ## try to get all from disk from shell
+# FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
+# FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
+
 '''uw cases'''
-DIR = '2'
-IDX = '0168'
+DIR = '3'
+IDX = '0390'
 FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.trace.xml'
 FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
 FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
@@ -581,7 +592,13 @@ if ( __name__ == "__main__"):
     just a workaround to fasten the implementation'''
     ans_pat = "\d+"
     answer = re.search(ans_pat, tree_trans_str_final)
-    quan_answer_final = answer.group()
+    if answer:
+        quan_answer_final = answer.group()
+    else:
+        print("Case has no Answer from IE! Check case!\n")
+        fp_o.write("Case has no Answer from IE! Check the case!\n")
+        # fp_o.close()
+        # sys.exit(2)  # I don't exit it here since fp_o needs complete tags to show the warning on web's screen
     # print("final_answer : ", answer_final.group())
 
     if DBG:
@@ -653,25 +670,31 @@ if ( __name__ == "__main__"):
         stc_obj = STCAnalyzer(FILE_INPUT_STC_0)
     except NameError as e:
         print("Warning: No STC file for Tense.\n") ## TODO direct to web
+        fp_o.write("Warning: No STC file for Tense and Verb_backup!\n")
+
+
     # print(stc_obj.get_info())
     is_modal = False
     if None != stc_obj:
-        (tense, modal, verb_bakup, how_pos) = stc_obj.get_info()
+        (tense, modal, verb_bakup, how_pos, conj_pos) = stc_obj.get_info()
         if not tense:
             if not modal:
                 print("Error! no Tense! Check case!")
                 sys.exit(2)
-            else:
-                is_modal = True
-                tense = modal
+        if modal: ## uwds-395, VPB can't be used, since it's following "will"
+            is_modal = True
+            tense = modal
 
     '''Load LFT file for Voice and Subject'''
     lft_obj = None
     try:
-        lft_obj = LogicFormAnalyzer(FILE_INPUT_LFT_0)
+        lft_obj = LogicFormAnalyzer(FILE_INPUT_LFT_0, conj_pos)
     except NameError as e:
         print("Warning: No LFT file for Subject and Voice.\n") ## TODO direct to web
-
+        fp_o.write("Warning: No LFT file for Subject, Voice and Verb!\n")
+    except TypeError as e:
+        print("Case's Question sentence may have no LF2!!")
+        fp_o.write("Case's Question sentence may have no LF2!\n")
     if DBG_OUTPUT:
         print(lft_obj.get_info())
     voice = None
@@ -725,15 +748,19 @@ if ( __name__ == "__main__"):
             # else :
                 # explanation += "\t所以, 共"
             if 1 != len(discourse_trvs_op_list):
-                explanation += "\n\tThus,  "
                 if IS_CHINESE_VERSION:
                     explanation += "\t所以,  " #, 共"
+                else:
+                    explanation += "\n\tThus,  "
+
 
             ## TODO if Sum, append "共"
             if 1 == which_op: ##or 2 == which_op: 1::Sum, 2::Mul
-                explanation += "Totally "
                 if IS_CHINESE_VERSION:
                     explanation += "共 "
+                else:
+                    explanation += "Totally "
+
 
             if 5 != which_op and 6 != which_op and 8 !=  which_op and 9 != which_op:
                 ### FloorDiv:5, Sub:6, CeilDiv:8, Surplus:9, don't need to add verb at beginning
@@ -774,12 +801,20 @@ if ( __name__ == "__main__"):
             be_verb = " were "
             if int(quan_answer_final) == 1:
                 be_verb = " was "
+
+            if explanation[-1] == "\n":
+                explanation = explanation[:-1] # make "period sign" in the same line of last sentence
             explanation += be_verb
 
             morph_verb = morph_passive_verb(verb)
             explanation += morph_verb
 
-    explanation += "."
+    if explanation[-1] == "\n":
+        explanation = explanation[:-1] # make "period sign" in the same line of last sentence
+    if IS_CHINESE_VERSION:
+        explanation += "。"
+    else:
+        explanation += "."
 
     print ("Explanation : \n", explanation)
     fp_o.write(str('\t') + str('\t') + str('\t') + 

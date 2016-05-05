@@ -159,7 +159,7 @@ def sr_Addition(children, parent):              ## 7
     ret_set += children[1]
     ret_set += " = "
     ret_set += parent
-    # ret_set += "\n"
+    ret_set += "\n"
 
     return ret_set
 

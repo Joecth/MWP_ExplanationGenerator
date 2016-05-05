@@ -3,6 +3,7 @@
 __author__ = 'JoeXPS13_AS'
 
 from lft_parser import *
+from data20 import *
 
 FILE_INPUT_LFT_LOCAL_0        = 'logic_form/ex01.lft.xml'  ## try to get all from disk from shell
 FILE_INPUT_LFT_LOCAL_0        = 'logic_form/ex07.lft.xml'  ## case of non-terminal node mapping,
@@ -14,7 +15,7 @@ FILE_OUTPUT_0       = 'lft_analyzer.out.xml'
 FILE_PARSING_LOG_0  = 'log.txt'
 
 class LogicFormAnalyzer:
-    def __init__(self, input_file):
+    def __init__(self, input_file, conj_pos):
         # print("Hello World")
         self.__input_file = input_file
         self.__log  = FILE_PARSING_LOG_0
@@ -22,6 +23,7 @@ class LogicFormAnalyzer:
         self.__LF0_dict = None
         self.__LF1_dict = None
         self.__LF1_vm_dict = None #var mapping dictionary
+        self.__conj_pos = conj_pos
         if (False == self.validate()):
             # print("Invalid LF!!")
             sys.exit(2)
@@ -36,6 +38,9 @@ class LogicFormAnalyzer:
         # print(self.__input_file)
         parser = LogicFormParser(self.__input_file, self.__log)
         LF_lists = parser.parse() # return LF0 and LF1 tokens
+        for elem in LF_lists:
+            if not elem:
+                print("Case's Question sentence may have no LF2!")
         # try:
         #     opts, args = getopt.get
         # print("LF0 list: ", LF_lists[0])
@@ -122,7 +127,24 @@ class LogicFormAnalyzer:
                 str = match.group()
                 # print(str[match.start()-1: match.end()-3])
                 pair = str[match.start()-1: match.end()-3].split()
-                ret_dict[pair[0]] = pair[-1]
+                key = pair[0]
+                value = pair[-1]
+
+                match_lf1_value = re.search("s\d+w\d+", value)
+                if match_lf1_value:
+                    ### TODO TODO solve clause issue
+                    ## get the ith word of the Qsentence
+                    ## to prevent the info in adv-clause from covering the main-clause info
+                    word_ith = re.findall("\d", match_lf1_value.group())[1]
+                    if int(word_ith) >= int(self.__conj_pos):
+                        ## the Conjection is serving as 1st sentence, main clause's info hasn't be extracted
+                        if "verb" not in ret_dict and "nsubj" not in ret_dict:
+                            pass
+                            print("Check case!!!")
+                            assert(0)
+                        else:
+                            break
+                ret_dict[key] = value
                 # print(ret_dict)
         return ret_dict
                 ## TODO Same tag issue: e.g. 2 advmod
@@ -169,6 +191,8 @@ class LogicFormAnalyzer:
         ret_str = ""
         ret_1st_elem = key_lf0
         if key_lf0 in self.__LF0_dict:
+            # tmp_basic = self.__LF0_dict.get(key_lf0)
+            # ret_str = basic2orig_dict.get(tmp_basic)
             ret_str = self.__LF0_dict.get(key_lf0)
         else: ## key_lf0 should be still a variable or wordlist,
                                         # i.e, n14 or [s3w7, s3w8]

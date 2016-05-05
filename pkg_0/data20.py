@@ -78,9 +78,17 @@ verb_morph_dict = {"give": {"VBZ":"gives", "VBP":"give", "VBD":"gave", "VBN":"gi
                    "make": {"VBZ":"makes", "VBP":"make", "VBD":"made", "VBN":"made"},
                    "spend": {"VBZ":"spends", "VBP":"spend", "VBD":"spent", "VBN":"spent"},
                    "sell": {"VBZ":"sells", "VBP":"sell", "VBD":"sold", "VBN":"sold"},
+                   "drive": {"VBZ":"drives", "VBP":"drive", "VBD":"drove", "VBN":"driven"},
+                   "build": {"VBZ":"builds", "VBP":"build", "VBD":"built", "VBN":"built"},
+                   "put": {"VBZ":"puts", "VBP":"put", "VBD":"put", "VBN":"put"},
+                   "run": {"VBZ":"runs", "VBP":"run", "VBD":"ran", "VBN":"run"},
+                   "drink": {"VBZ":"drinks", "VBP":"drink", "VBD":"drank", "VBN":"drunk"},
                   }
 
-conj_set = (['while', 'While', 'if', 'If', 'when', 'When'])
+conj_set = ['while', 'While', 'if', 'If', 'when', 'When']
+global INF
+INF = 9999
+basic2orig_dict = {} #record question sentence's original words in STC, since LFT use basic form
 
 if (__name__ == "__main__"):
     print ("Hello data20.py")
