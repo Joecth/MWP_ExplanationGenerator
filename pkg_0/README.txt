@@ -1,10 +1,14 @@
 0. cd pkg_0
 
 ### Execute:
-1. python3 __init__.py -i [input.trace.xml] -o [out.xml] 
+1. python3 __init__.py -i [input.trace.xml] -l [input.lft.xml] -s [input.stc.xml] -o [out.xml] 
     // default output: output.xml,
     // log files: raw_tree.xml, build_tree.log.xml
- 
+    Example:
+        python3 __init__.py -i demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0275.trace.xml -l demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0275.lft.xml -s demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0275.stc.xml
+    
+    P.S. currently only demo_cases/ directory collects *lft.xml and *stc.xml 
+
 ### Regression:
 Reg 1)
     1. ./runreg.py     
