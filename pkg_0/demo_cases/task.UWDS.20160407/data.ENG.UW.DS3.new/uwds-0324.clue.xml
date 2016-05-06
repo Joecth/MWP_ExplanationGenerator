@@ -1,0 +1,1649 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+	ctx_267 : ctx_267
+</Traces>
+<LF0>
+	#UD	秒鐘
+	_bai_wan	百萬
+	_ban	班
+	_ban_ji	班級
+	_chao_piao	鈔票
+	_du	度
+	_fen_dao	分到
+	_fen_gei	分給
+	_fu	付
+	_hua	花
+	_jin_tian	今天
+	_mai	買
+	_qie	切
+	_qie_cheng	切成
+	_shang_wu	上午
+	_u_cm	公分
+	_u_cm2	平方公分
+	_u_cm3	毫升
+	_u_day	天
+	_u_degree	度
+	_u_dm	公寸
+	_u_dm2	平方公寸
+	_u_dm3	公升
+	_u_g	公克
+	_u_hour	小時
+	_u_kg	公斤
+	_u_km	公里
+	_u_km2	平方公里
+	_u_km3	立方公里
+	_u_m	公尺
+	_u_m2	平方公尺
+	_u_m3	立方公尺
+	_u_min	分鐘
+	_u_mm	公釐
+	_u_mm2	平方公釐
+	_u_mm3	立方公釐
+	_u_sec	秒鐘
+	_u_t	公噸
+	_xia_wu	下午
+	_yuan	元
+	_zih	隻
+	s1w1	Joan
+	s1w2	join
+	s1w3	she
+	s1w4	school
+	s1w5	's
+	s1w6	band
+	s2w1	she
+	s2w10	tool
+	s2w11	for
+	s2w12	USD
+	s2w13	9.98
+	s2w14	and
+	s2w15	a
+	s2w16	song
+	s2w17	book
+	s2w18	which
+	s2w19	be
+	s2w2	buy
+	s2w20	USD
+	s2w21	4.14
+	s2w3	a
+	s2w4	trumpet
+	s2w5	for
+	s2w6	USD
+	s2w7	149.16
+	s2w8	a
+	s2w9	music
+	s3w1	Joan
+	s3w2	find
+	s3w3	USD
+	s3w4	8.65
+	s3w5	in
+	s3w6	she
+	s3w7	pocket
+	s4w1	how
+	s4w2	much
+	s4w3	do
+	s4w4	Joan
+	s4w5	spend
+	s4w6	at
+	s4w7	the
+	s4w8	music
+	s4w9	store
+</LF0>
+<INF_Clue::_Id2Ctx>
+ctx_1
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E10138 <EXPR>( => ( and ( q_map ?m ?q1 ?q2 ) ( quan ?q1 ?u1 ?o1 ) ( quan ?q2 ?u2 ?o2 ) ) ( and ( = ( u_map ?m ?u1 ?o1 ?u2 ?o2 ) ( / ( quan ?q2 ?u2 ?o2 ) ( quan ?q1 ?u1 ?o1 ) ) ) ( = ( u_map ?m ?u2 ?o2 ?u1 ?o1 ) ( / ( quan ?q1 ?u1 ?o1 ) ( quan ?q2 ?u2 ?o2 ) ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( and ( = ( u_map ?_1 ?_4 ?_5 ?_6 ?_7 ) ( / ( quan ?_3 ?_6 ?_7 ) ( quan ?_2 ?_4 ?_5 ) ) ) ( = ( u_map ?_1 ?_6 ?_7 ?_4 ?_5 ) ( / ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ) ) )</EXPR>
+ctx_2
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00DEDFF8 <EXPR>( => ( and ( quan ?q ?u ?o ) ( head ?o _chao_piao ) ( price ?o ?p ) ) ( = ( quan ?q _yuan # ) ( * ( quan ?q ?u ?o ) ?p ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( quan ?_1 ?_2 ?_3 ) ( head ?_3 _chao_piao ) ( price ?_3 ?_4 ) ) ( = ( quan ?_1 元 # ) ( * ( quan ?_1 ?_2 ?_3 ) ?_4 ) ) )</EXPR>
+ctx_3
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00DEDE38 <EXPR>( => ( quan ?q ?u _bai_wan ) ( = ( quan ?q # # ) ( * ( quan ?q ?u _bai_wan ) 1000000 ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( quan ?_1 ?_2 _bai_wan ) ( = ( quan ?_1 # # ) ( * ( quan ?_1 ?_2 _bai_wan ) 1000000 ) ) )</EXPR>
+ctx_4
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _BUY _mai ) )
+ctx_5
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_4</Stack>
+	<INF_Clue::put_dep>ctx_5 depends on ctx_4</INF_Clue::put_dep>
+ctx_6
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_4 ctx_5</Stack>
+	<INF_Clue::put_dep>ctx_6 depends on ctx_5</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E2A134 depends on ctx_6</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _BUY _mai ) ( ) )
+ctx_7
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _PAY _fu ) )
+ctx_8
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_7</Stack>
+	<INF_Clue::put_dep>ctx_8 depends on ctx_7</INF_Clue::put_dep>
+ctx_9
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_7 ctx_8</Stack>
+	<INF_Clue::put_dep>ctx_9 depends on ctx_8</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E2A214 depends on ctx_9</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _PAY _fu ) ( ) )
+ctx_10
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _PAY _hua ) )
+ctx_11
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_10</Stack>
+	<INF_Clue::put_dep>ctx_11 depends on ctx_10</INF_Clue::put_dep>
+ctx_12
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_10 ctx_11</Stack>
+	<INF_Clue::put_dep>ctx_12 depends on ctx_11</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E2A3D4 depends on ctx_12</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _PAY _hua ) ( ) )
+ctx_13
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _QIE _qie ) )
+ctx_14
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_13</Stack>
+	<INF_Clue::put_dep>ctx_14 depends on ctx_13</INF_Clue::put_dep>
+ctx_15
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_13 ctx_14</Stack>
+	<INF_Clue::put_dep>ctx_15 depends on ctx_14</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E08774 depends on ctx_15</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _QIE _qie ) ( ) )
+ctx_16
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _QIE _qie_cheng ) )
+ctx_17
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_16</Stack>
+	<INF_Clue::put_dep>ctx_17 depends on ctx_16</INF_Clue::put_dep>
+ctx_18
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_16 ctx_17</Stack>
+	<INF_Clue::put_dep>ctx_18 depends on ctx_17</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E3F704 depends on ctx_18</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _QIE _qie_cheng ) ( ) )
+ctx_19
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _BAN _ban ) )
+ctx_20
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_19</Stack>
+	<INF_Clue::put_dep>ctx_20 depends on ctx_19</INF_Clue::put_dep>
+ctx_21
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_19 ctx_20</Stack>
+	<INF_Clue::put_dep>ctx_21 depends on ctx_20</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E3F624 depends on ctx_21</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _BAN _ban ) ( ) )
+ctx_22
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _BAN _ban_ji ) )
+ctx_23
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_22</Stack>
+	<INF_Clue::put_dep>ctx_23 depends on ctx_22</INF_Clue::put_dep>
+ctx_24
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_22 ctx_23</Stack>
+	<INF_Clue::put_dep>ctx_24 depends on ctx_23</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E3F154 depends on ctx_24</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _BAN _ban_ji ) ( ) )
+ctx_25
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _FEN _fen_dao ) )
+ctx_26
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_25</Stack>
+	<INF_Clue::put_dep>ctx_26 depends on ctx_25</INF_Clue::put_dep>
+ctx_27
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_25 ctx_26</Stack>
+	<INF_Clue::put_dep>ctx_27 depends on ctx_26</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E3F004 depends on ctx_27</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _FEN _fen_dao ) ( ) )
+ctx_28
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-UNDEF
+	<Stack></Stack>
+	( CLUE::Input ( synonym _FEN _fen_gei ) )
+ctx_29
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-UNDEF
+	<Stack>ctx_28</Stack>
+	<INF_Clue::put_dep>ctx_29 depends on ctx_28</INF_Clue::put_dep>
+ctx_30
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-UNDEF
+	<Stack>ctx_28 ctx_29</Stack>
+	<INF_Clue::put_dep>ctx_30 depends on ctx_29</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E3F854 depends on ctx_30</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( synonym _FEN _fen_gei ) ( ) )
+ctx_31
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E3AAB0 <EXPR>( => ( and ( quan ?q ?u ?o ) ( verb ?q _BUY ) ( agent ?q ?a ) ( price ?o ?p ) ( _NewID ?q ?qq ) ) ( and ( = ( quan ?qq _yuan # ) ( * ( quan ?q ?u ?o ) ?p ) ) ( verb ?qq _PAY ) ( agent ?qq ?a ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( quan ?_1 ?_2 ?_3 ) ( verb ?_1 _BUY ) ( agent ?_1 ?_4 ) ( price ?_3 ?_5 ) ( _NewID ?_1 ?_6 ) ) ( and ( = ( quan ?_6 元 # ) ( * ( quan ?_1 ?_2 ?_3 ) ?_5 ) ) ( verb ?_6 _PAY ) ( agent ?_6 ?_4 ) ) )</EXPR>
+ctx_32
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E3AAB0 <EXPR>( => ( and ( quan ?q ?u ?o ) ( TimePoint ?q _shang_wu ) ) ( TimePoint ?q _jin_tian ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( quan ?_1 ?_2 ?_3 ) ( TimePoint ?_1 _shang_wu ) ) ( TimePoint ?_1 _jin_tian ) )</EXPR>
+ctx_33
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E3AD50 <EXPR>( => ( and ( quan ?q ?u ?o ) ( TimePoint ?q _xia_wu ) ) ( TimePoint ?q _jin_tian ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( quan ?_1 ?_2 ?_3 ) ( TimePoint ?_1 _xia_wu ) ) ( TimePoint ?_1 _jin_tian ) )</EXPR>
+ctx_34
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E70598 <EXPR>( => ( circle ?o ) ( and ( = ( diameter ?o #UL ) ( * ( radius ?o #UL ) 2 ) ) ( = ( circumference ?o #UL ) ( * 2 ( * %_PI ( radius ?o #UL ) ) ) ) ( = ( area ?o #UA ) ( * %_PI ( ^ ( radius ?o #UL ) 2 ) ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( circle ?_1 ) ( and ( = ( diameter ?_1 #UL ) ( * ( radius ?_1 #UL ) 2 ) ) ( = ( circumference ?_1 #UL ) ( * 2 ( * 3.14 ( radius ?_1 #UL ) ) ) ) ( = ( area ?_1 #UA ) ( * 3.14 ( ^ ( radius ?_1 #UL ) 2 ) ) ) ) )</EXPR>
+ctx_35
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E70598 <EXPR>( => ( trapezoid ?o ) ( = ( area ?o #UA ) ( / ( * ( + ( top_base ?o #UL ) ( bottom_base ?o #UL ) ) ( height ?o #UL ) ) 2 ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( trapezoid ?_1 ) ( = ( area ?_1 #UA ) ( / ( * ( + ( top_base ?_1 #UL ) ( bottom_base ?_1 #UL ) ) ( height ?_1 #UL ) ) 2 ) ) )</EXPR>
+ctx_36
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E70598 <EXPR>( => ( regular_triangle ?o ) ( = ( circumference ?o #UL ) ( * 3 ( side_length ?o #UL ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( regular_triangle ?_1 ) ( = ( circumference ?_1 #UL ) ( * 3 ( side_length ?_1 #UL ) ) ) )</EXPR>
+ctx_37
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_00E709F8 <EXPR>( => ( circle_sector ?o ) ( and ( = ( diameter ?o #UL ) ( * ( radius ?o #UL ) 2 ) ) ( = ( circumference ?o #UL ) ( * 2 ( * ( radius ?o #UL ) ( + 1 ( * %_PI ( / ( central_angle ?o _du ) 360 ) ) ) ) ) ) ( = ( area ?o #UA ) ( * ( * %_PI ( ^ ( radius ?o #UL ) 2 ) ) ( / ( central_angle ?o _du ) 360 ) ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( circle_sector ?_1 ) ( and ( = ( diameter ?_1 #UL ) ( * ( radius ?_1 #UL ) 2 ) ) ( = ( circumference ?_1 #UL ) ( * 2 ( * ( radius ?_1 #UL ) ( + 1 ( * 3.14 ( / ( central_angle ?_1 _u_degree ) 360 ) ) ) ) ) ) ( = ( area ?_1 #UA ) ( * ( * 3.14 ( ^ ( radius ?_1 #UL ) 2 ) ) ( / ( central_angle ?_1 _u_degree ) 360 ) ) ) ) )</EXPR>
+ctx_38
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_012B6078 <EXPR>( => ( square ?o ) ( and ( = ( circumference ?o #UL ) ( * 4 ( side_length ?o #UL ) ) ) ( = ( area ?o #UA ) ( ^ ( side_length ?o #UL ) 2 ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( square ?_1 ) ( and ( = ( circumference ?_1 #UL ) ( * 4 ( side_length ?_1 #UL ) ) ) ( = ( area ?_1 #UA ) ( ^ ( side_length ?_1 #UL ) 2 ) ) ) )</EXPR>
+ctx_39
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_012B5E10 <EXPR>( => ( and ( quan ?q1 ?u ?o ) ( attrib ?a ?q1 ?au ?ao ) ( quan ?q2 ?u ?o ) ) ( = ( quan ?q2::?a ?au ?ao ) ( * ( / ( quan ?q2 ?u ?o ) ( quan ?q1 ?u ?o ) ) ( attrib ?a ?q1 ?au ?ao ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( quan ?_1 ?_2 ?_3 ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ( quan ?_7 ?_2 ?_3 ) ) ( = ( quan ?_7::?_4 ?_5 ?_6 ) ( * ( / ( quan ?_7 ?_2 ?_3 ) ( quan ?_1 ?_2 ?_3 ) ) ( attrib ?_4 ?_1 ?_5 ?_6 ) ) ) )</EXPR>
+ctx_40
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_012B5DD8 <EXPR>( => ( and ( quan ?q ?u ?o ) ( tvq_op ?v + ?q ?t1 ?t2 ) ) ( = ( tvq ?v ?u ?o ?t2 ) ( + ( tvq ?v ?u ?o ?t1 ) ( quan ?q ?u ?o ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 + ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( + ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) )</EXPR>
+ctx_41
+	INF_ReasonerMath::evaluate, inf_reasonermath.cpp(410), Sent-UNDEF
+	<Stack></Stack>
+	ptr_012B5FD0 <EXPR>( => ( and ( quan ?q ?u ?o ) ( tvq_op ?v - ?q ?t1 ?t2 ) ) ( = ( tvq ?v ?u ?o ?t2 ) ( - ( tvq ?v ?u ?o ?t1 ) ( quan ?q ?u ?o ) ) ) )</EXPR>
+	ptr_0018EFF4 <EXPR>( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 - ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( - ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) )</EXPR>
+ctx_42
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( HEAD v1 s1w2 ) )
+ctx_43
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_42</Stack>
+	<INF_Clue::put_dep>ctx_43 depends on ctx_42</INF_Clue::put_dep>
+ctx_44
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_42 ctx_43</Stack>
+	<INF_Clue::put_dep>ctx_44 depends on ctx_43</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012BFDAC depends on ctx_44</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( HEAD v1 s1w2 ) ( ) )
+ctx_45
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( nsubj v1 n5 ) )
+ctx_46
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_45</Stack>
+	<INF_Clue::put_dep>ctx_46 depends on ctx_45</INF_Clue::put_dep>
+ctx_47
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_45 ctx_46</Stack>
+	<INF_Clue::put_dep>ctx_47 depends on ctx_46</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012BC8BC depends on ctx_47</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nsubj v1 n5 ) ( ) )
+ctx_48
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( head n5 s1w1 ) )
+ctx_49
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_48</Stack>
+	<INF_Clue::put_dep>ctx_49 depends on ctx_48</INF_Clue::put_dep>
+ctx_50
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_48 ctx_49</Stack>
+	<INF_Clue::put_dep>ctx_50 depends on ctx_49</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012BC6FC depends on ctx_50</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n5 s1w1 ) ( ) )
+ctx_51
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( dobj v1 n6 ) )
+ctx_52
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_51</Stack>
+	<INF_Clue::put_dep>ctx_52 depends on ctx_51</INF_Clue::put_dep>
+ctx_53
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_51 ctx_52</Stack>
+	<INF_Clue::put_dep>ctx_53 depends on ctx_52</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012BCB5C depends on ctx_53</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dobj v1 n6 ) ( ) )
+ctx_54
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( head n6 s1w6 ) )
+ctx_55
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_54</Stack>
+	<INF_Clue::put_dep>ctx_55 depends on ctx_54</INF_Clue::put_dep>
+ctx_56
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_54 ctx_55</Stack>
+	<INF_Clue::put_dep>ctx_56 depends on ctx_55</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012BC14C depends on ctx_56</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n6 s1w6 ) ( ) )
+ctx_57
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( nmod_poss n6 n7 ) )
+ctx_58
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_57</Stack>
+	<INF_Clue::put_dep>ctx_58 depends on ctx_57</INF_Clue::put_dep>
+ctx_59
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_57 ctx_58</Stack>
+	<INF_Clue::put_dep>ctx_59 depends on ctx_58</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012BC4CC depends on ctx_59</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nmod_poss n6 n7 ) ( ) )
+ctx_60
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( head n7 s1w4 ) )
+ctx_61
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_60</Stack>
+	<INF_Clue::put_dep>ctx_61 depends on ctx_60</INF_Clue::put_dep>
+ctx_62
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_60 ctx_61</Stack>
+	<INF_Clue::put_dep>ctx_62 depends on ctx_61</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012A1AF4 depends on ctx_62</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n7 s1w4 ) ( ) )
+ctx_63
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( nmod_poss n7 s1w3 ) )
+ctx_64
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_63</Stack>
+	<INF_Clue::put_dep>ctx_64 depends on ctx_63</INF_Clue::put_dep>
+ctx_65
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_63 ctx_64</Stack>
+	<INF_Clue::put_dep>ctx_65 depends on ctx_64</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012A14D4 depends on ctx_65</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nmod_poss n7 s1w3 ) ( ) )
+ctx_66
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-1
+	<Stack></Stack>
+	( CLUE::Input ( case n7 s1w5 ) )
+ctx_67
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-1
+	<Stack>ctx_66</Stack>
+	<INF_Clue::put_dep>ctx_67 depends on ctx_66</INF_Clue::put_dep>
+ctx_68
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-1
+	<Stack>ctx_66 ctx_67</Stack>
+	<INF_Clue::put_dep>ctx_68 depends on ctx_67</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012A1544 depends on ctx_68</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( case n7 s1w5 ) ( ) )
+ctx_69
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( verb v2 s2w2 ) )
+ctx_70
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_69</Stack>
+	<INF_Clue::put_dep>ctx_70 depends on ctx_69</INF_Clue::put_dep>
+ctx_71
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_69 ctx_70</Stack>
+	<INF_Clue::put_dep>ctx_71 depends on ctx_70</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E7ABE4 depends on ctx_71</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( verb v2 s2w2 ) ( ) )
+ctx_72
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( nsubj v2 s2w1 ) )
+ctx_73
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_72</Stack>
+	<INF_Clue::put_dep>ctx_73 depends on ctx_72</INF_Clue::put_dep>
+ctx_74
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_72 ctx_73</Stack>
+	<INF_Clue::put_dep>ctx_74 depends on ctx_73</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00E4677C depends on ctx_74</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nsubj v2 s1w3 ) ( ) )
+ctx_75
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( dobj v2 n8 ) )
+ctx_76
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_75</Stack>
+	<INF_Clue::put_dep>ctx_76 depends on ctx_75</INF_Clue::put_dep>
+ctx_77
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_75 ctx_76</Stack>
+	<INF_Clue::put_dep>ctx_77 depends on ctx_76</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC1484 depends on ctx_77</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dobj v2 n8 ) ( ) )
+ctx_78
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n8 s2w4 ) )
+ctx_79
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_78</Stack>
+	<INF_Clue::put_dep>ctx_79 depends on ctx_78</INF_Clue::put_dep>
+ctx_80
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_78 ctx_79</Stack>
+	<INF_Clue::put_dep>ctx_80 depends on ctx_79</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC15D4 depends on ctx_80</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n8 s2w4 ) ( ) )
+ctx_81
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( det n8 s2w3 ) )
+ctx_82
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_81</Stack>
+	<INF_Clue::put_dep>ctx_82 depends on ctx_81</INF_Clue::put_dep>
+ctx_83
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_81 ctx_82</Stack>
+	<INF_Clue::put_dep>ctx_83 depends on ctx_82</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC1B14 depends on ctx_83</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( det n8 s2w3 ) ( ) )
+ctx_84
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( nmod n8 s2w7 ) )
+ctx_85
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_84</Stack>
+	<INF_Clue::put_dep>ctx_85 depends on ctx_84</INF_Clue::put_dep>
+ctx_86
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_84 ctx_85</Stack>
+	<INF_Clue::put_dep>ctx_86 depends on ctx_85</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC1564 depends on ctx_86</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nmod n8 s2w7 ) ( ) )
+ctx_87
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( case n8 s2w5 ) )
+ctx_88
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_87</Stack>
+	<INF_Clue::put_dep>ctx_88 depends on ctx_87</INF_Clue::put_dep>
+ctx_89
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_87 ctx_88</Stack>
+	<INF_Clue::put_dep>ctx_89 depends on ctx_88</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC1AA4 depends on ctx_89</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( case n8 s2w5 ) ( ) )
+ctx_90
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( dep n8 n1 ) )
+ctx_91
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_90</Stack>
+	<INF_Clue::put_dep>ctx_91 depends on ctx_90</INF_Clue::put_dep>
+ctx_92
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_90 ctx_91</Stack>
+	<INF_Clue::put_dep>ctx_92 depends on ctx_91</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC2594 depends on ctx_92</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dep n8 n1 ) ( ) )
+ctx_93
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n1 s2w6 ) )
+ctx_94
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_93</Stack>
+	<INF_Clue::put_dep>ctx_94 depends on ctx_93</INF_Clue::put_dep>
+ctx_95
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_93 ctx_94</Stack>
+	<INF_Clue::put_dep>ctx_95 depends on ctx_94</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC2604 depends on ctx_95</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n1 s2w6 ) ( ) )
+ctx_96
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( conj n8 n9 ) )
+ctx_97
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_96</Stack>
+	<INF_Clue::put_dep>ctx_97 depends on ctx_96</INF_Clue::put_dep>
+ctx_98
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_96 ctx_97</Stack>
+	<INF_Clue::put_dep>ctx_98 depends on ctx_97</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC22F4 depends on ctx_98</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( conj n8 n9 ) ( ) )
+ctx_99
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n9 s2w10 ) )
+ctx_100
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_99</Stack>
+	<INF_Clue::put_dep>ctx_100 depends on ctx_99</INF_Clue::put_dep>
+ctx_101
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_99 ctx_100</Stack>
+	<INF_Clue::put_dep>ctx_101 depends on ctx_100</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBF3B4 depends on ctx_101</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n9 s2w10 ) ( ) )
+ctx_102
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( det n9 s2w8 ) )
+ctx_103
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_102</Stack>
+	<INF_Clue::put_dep>ctx_103 depends on ctx_102</INF_Clue::put_dep>
+ctx_104
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_102 ctx_103</Stack>
+	<INF_Clue::put_dep>ctx_104 depends on ctx_103</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBF494 depends on ctx_104</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( det n9 s2w3 ) ( ) )
+ctx_105
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( compound n9 n10 ) )
+ctx_106
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_105</Stack>
+	<INF_Clue::put_dep>ctx_106 depends on ctx_105</INF_Clue::put_dep>
+ctx_107
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_105 ctx_106</Stack>
+	<INF_Clue::put_dep>ctx_107 depends on ctx_106</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBEBD4 depends on ctx_107</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( compound n9 n10 ) ( ) )
+ctx_108
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n10 s2w9 ) )
+ctx_109
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_108</Stack>
+	<INF_Clue::put_dep>ctx_109 depends on ctx_108</INF_Clue::put_dep>
+ctx_110
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_108 ctx_109</Stack>
+	<INF_Clue::put_dep>ctx_110 depends on ctx_109</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBEA84 depends on ctx_110</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n10 s2w9 ) ( ) )
+ctx_111
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( nmod n9 s2w13 ) )
+ctx_112
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_111</Stack>
+	<INF_Clue::put_dep>ctx_112 depends on ctx_111</INF_Clue::put_dep>
+ctx_113
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_111 ctx_112</Stack>
+	<INF_Clue::put_dep>ctx_113 depends on ctx_112</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBE9A4 depends on ctx_113</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nmod n9 s2w13 ) ( ) )
+ctx_114
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( case n9 s2w11 ) )
+ctx_115
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_114</Stack>
+	<INF_Clue::put_dep>ctx_115 depends on ctx_114</INF_Clue::put_dep>
+ctx_116
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_114 ctx_115</Stack>
+	<INF_Clue::put_dep>ctx_116 depends on ctx_115</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBED24 depends on ctx_116</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( case n9 s2w5 ) ( ) )
+ctx_117
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( dep n9 n2 ) )
+ctx_118
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_117</Stack>
+	<INF_Clue::put_dep>ctx_118 depends on ctx_117</INF_Clue::put_dep>
+ctx_119
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_117 ctx_118</Stack>
+	<INF_Clue::put_dep>ctx_119 depends on ctx_118</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBECB4 depends on ctx_119</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dep n9 n1 ) ( ) )
+ctx_120
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n2 s2w12 ) )
+ctx_121
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_120</Stack>
+	<INF_Clue::put_dep>ctx_121 depends on ctx_120</INF_Clue::put_dep>
+ctx_122
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( cj_op j1 and ) )
+ctx_123
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_122</Stack>
+	<INF_Clue::put_dep>ctx_123 depends on ctx_122</INF_Clue::put_dep>
+ctx_124
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_122 ctx_123</Stack>
+	<INF_Clue::put_dep>ctx_124 depends on ctx_123</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC01B4 depends on ctx_124</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( cj_op j1 and ) ( ) )
+ctx_125
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( conj n8 n11 ) )
+ctx_126
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_125</Stack>
+	<INF_Clue::put_dep>ctx_126 depends on ctx_125</INF_Clue::put_dep>
+ctx_127
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_125 ctx_126</Stack>
+	<INF_Clue::put_dep>ctx_127 depends on ctx_126</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBF964 depends on ctx_127</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( conj n8 n11 ) ( ) )
+ctx_128
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n11 s2w17 ) )
+ctx_129
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_128</Stack>
+	<INF_Clue::put_dep>ctx_129 depends on ctx_128</INF_Clue::put_dep>
+ctx_130
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_128 ctx_129</Stack>
+	<INF_Clue::put_dep>ctx_130 depends on ctx_129</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBF5E4 depends on ctx_130</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n11 s2w17 ) ( ) )
+ctx_131
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( det n11 s2w15 ) )
+ctx_132
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_131</Stack>
+	<INF_Clue::put_dep>ctx_132 depends on ctx_131</INF_Clue::put_dep>
+ctx_133
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_131 ctx_132</Stack>
+	<INF_Clue::put_dep>ctx_133 depends on ctx_132</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBF7A4 depends on ctx_133</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( det n11 s2w3 ) ( ) )
+ctx_134
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( compound n11 n12 ) )
+ctx_135
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_134</Stack>
+	<INF_Clue::put_dep>ctx_135 depends on ctx_134</INF_Clue::put_dep>
+ctx_136
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_134 ctx_135</Stack>
+	<INF_Clue::put_dep>ctx_136 depends on ctx_135</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBF814 depends on ctx_136</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( compound n11 n12 ) ( ) )
+ctx_137
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n12 s2w16 ) )
+ctx_138
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_137</Stack>
+	<INF_Clue::put_dep>ctx_138 depends on ctx_137</INF_Clue::put_dep>
+ctx_139
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_137 ctx_138</Stack>
+	<INF_Clue::put_dep>ctx_139 depends on ctx_138</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DBFDC4 depends on ctx_139</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n12 s2w16 ) ( ) )
+ctx_140
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( acl_relcl n11 s2w21 ) )
+ctx_141
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_140</Stack>
+	<INF_Clue::put_dep>ctx_141 depends on ctx_140</INF_Clue::put_dep>
+ctx_142
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_140 ctx_141</Stack>
+	<INF_Clue::put_dep>ctx_142 depends on ctx_141</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC06F4 depends on ctx_142</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( acl_relcl n11 s2w21 ) ( ) )
+ctx_143
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( nsubj n11 s2w18 ) )
+ctx_144
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_143</Stack>
+	<INF_Clue::put_dep>ctx_144 depends on ctx_143</INF_Clue::put_dep>
+ctx_145
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_143 ctx_144</Stack>
+	<INF_Clue::put_dep>ctx_145 depends on ctx_144</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC1024 depends on ctx_145</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nsubj n11 s2w18 ) ( ) )
+ctx_146
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( cop n11 s2w19 ) )
+ctx_147
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_146</Stack>
+	<INF_Clue::put_dep>ctx_147 depends on ctx_146</INF_Clue::put_dep>
+ctx_148
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_146 ctx_147</Stack>
+	<INF_Clue::put_dep>ctx_148 depends on ctx_147</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC0CA4 depends on ctx_148</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( cop n11 s2w19 ) ( ) )
+ctx_149
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( dep n11 n3 ) )
+ctx_150
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_149</Stack>
+	<INF_Clue::put_dep>ctx_150 depends on ctx_149</INF_Clue::put_dep>
+ctx_151
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_149 ctx_150</Stack>
+	<INF_Clue::put_dep>ctx_151 depends on ctx_150</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC0D84 depends on ctx_151</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dep n11 n1 ) ( ) )
+ctx_152
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( head n3 s2w20 ) )
+ctx_153
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-2
+	<Stack>ctx_152</Stack>
+	<INF_Clue::put_dep>ctx_153 depends on ctx_152</INF_Clue::put_dep>
+ctx_154
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( = ( quan q2 # s2w6 ) 149.16 ) )
+ctx_155
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_154</Stack>
+	<INF_Clue::put_dep>ctx_155 depends on ctx_154</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( quan q2 # s2w6 ) 149.16 ) )
+	( CLUE::EVAL::LF2 ( = ( quan q2 # s2w6 ) 149.16 ) )
+	( CLUE::Create-Fact ( quan q2 # s2w6 ) ( 149.16 ) )
+	<INF_Clue::put_dep>ptr_012A04A4 depends on ctx_155</INF_Clue::put_dep>
+ctx_156
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( verb q2 s2w2 ) )
+ctx_157
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_156</Stack>
+	<INF_Clue::put_dep>ctx_157 depends on ctx_156</INF_Clue::put_dep>
+ctx_158
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_156 ctx_157</Stack>
+	<INF_Clue::put_dep>ctx_158 depends on ctx_156</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012BDC6C depends on ctx_158</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( verb q2 s2w2 ) ( ) )
+ctx_159
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( role q2 dep ) )
+ctx_160
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_159</Stack>
+	<INF_Clue::put_dep>ctx_160 depends on ctx_159</INF_Clue::put_dep>
+ctx_161
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_159 ctx_160</Stack>
+	<INF_Clue::put_dep>ctx_161 depends on ctx_159</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012A0204 depends on ctx_161</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( role q2 dep ) ( ) )
+ctx_162
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( = ( quan q4 # s2w12 ) 9.98 ) )
+ctx_163
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_162</Stack>
+	<INF_Clue::put_dep>ctx_163 depends on ctx_162</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( quan q4 # s2w6 ) 9.98 ) )
+	( CLUE::EVAL::LF2 ( = ( quan q4 # s2w6 ) 9.98 ) )
+	( CLUE::Create-Fact ( quan q4 # s2w6 ) ( 9.98 ) )
+	<INF_Clue::put_dep>ptr_012BD5DC depends on ctx_163</INF_Clue::put_dep>
+ctx_164
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( verb q4 s2w2 ) )
+ctx_165
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_164</Stack>
+	<INF_Clue::put_dep>ctx_165 depends on ctx_164</INF_Clue::put_dep>
+ctx_166
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_164 ctx_165</Stack>
+	<INF_Clue::put_dep>ctx_166 depends on ctx_164</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E540C depends on ctx_166</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( verb q4 s2w2 ) ( ) )
+ctx_167
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( role q4 dep ) )
+ctx_168
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_167</Stack>
+	<INF_Clue::put_dep>ctx_168 depends on ctx_167</INF_Clue::put_dep>
+ctx_169
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_167 ctx_168</Stack>
+	<INF_Clue::put_dep>ctx_169 depends on ctx_167</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E555C depends on ctx_169</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( role q4 dep ) ( ) )
+ctx_170
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( = ( quan q6 # s2w20 ) 4.14 ) )
+ctx_171
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_170</Stack>
+	<INF_Clue::put_dep>ctx_171 depends on ctx_170</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( quan q6 # s2w6 ) 4.14 ) )
+	( CLUE::EVAL::LF2 ( = ( quan q6 # s2w6 ) 4.14 ) )
+	( CLUE::Create-Fact ( quan q6 # s2w6 ) ( 4.14 ) )
+	<INF_Clue::put_dep>ptr_012E571C depends on ctx_171</INF_Clue::put_dep>
+ctx_172
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( verb q6 s2w2 ) )
+ctx_173
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_172</Stack>
+	<INF_Clue::put_dep>ctx_173 depends on ctx_172</INF_Clue::put_dep>
+ctx_174
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_172 ctx_173</Stack>
+	<INF_Clue::put_dep>ctx_174 depends on ctx_172</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E586C depends on ctx_174</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( verb q6 s2w2 ) ( ) )
+ctx_175
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-2
+	<Stack></Stack>
+	( CLUE::Input ( role q6 dep ) )
+ctx_176
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-2
+	<Stack>ctx_175</Stack>
+	<INF_Clue::put_dep>ctx_176 depends on ctx_175</INF_Clue::put_dep>
+ctx_177
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-2
+	<Stack>ctx_175 ctx_176</Stack>
+	<INF_Clue::put_dep>ctx_177 depends on ctx_175</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E4B4C depends on ctx_177</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( role q6 dep ) ( ) )
+ctx_178
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( verb v3 s3w2 ) )
+ctx_179
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_178</Stack>
+	<INF_Clue::put_dep>ctx_179 depends on ctx_178</INF_Clue::put_dep>
+ctx_180
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_178 ctx_179</Stack>
+	<INF_Clue::put_dep>ctx_180 depends on ctx_179</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E60BC depends on ctx_180</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( verb v3 s3w2 ) ( ) )
+ctx_181
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( nsubj v3 n13 ) )
+ctx_182
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_181</Stack>
+	<INF_Clue::put_dep>ctx_182 depends on ctx_181</INF_Clue::put_dep>
+ctx_183
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_181 ctx_182</Stack>
+	<INF_Clue::put_dep>ctx_183 depends on ctx_182</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E635C depends on ctx_183</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nsubj v3 n5 ) ( ) )
+ctx_184
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( head n13 s3w1 ) )
+ctx_185
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_184</Stack>
+	<INF_Clue::put_dep>ctx_185 depends on ctx_184</INF_Clue::put_dep>
+ctx_186
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( dobj v3 s3w4 ) )
+ctx_187
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_186</Stack>
+	<INF_Clue::put_dep>ctx_187 depends on ctx_186</INF_Clue::put_dep>
+ctx_188
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_186 ctx_187</Stack>
+	<INF_Clue::put_dep>ctx_188 depends on ctx_187</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E651C depends on ctx_188</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dobj v3 s3w4 ) ( ) )
+ctx_189
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( dep v3 n4 ) )
+ctx_190
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_189</Stack>
+	<INF_Clue::put_dep>ctx_190 depends on ctx_189</INF_Clue::put_dep>
+ctx_191
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_189 ctx_190</Stack>
+	<INF_Clue::put_dep>ctx_191 depends on ctx_190</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E627C depends on ctx_191</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dep v3 n1 ) ( ) )
+ctx_192
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( head n4 s3w3 ) )
+ctx_193
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_192</Stack>
+	<INF_Clue::put_dep>ctx_193 depends on ctx_192</INF_Clue::put_dep>
+ctx_194
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( nmod v3 n14 ) )
+ctx_195
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_194</Stack>
+	<INF_Clue::put_dep>ctx_195 depends on ctx_194</INF_Clue::put_dep>
+ctx_196
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_194 ctx_195</Stack>
+	<INF_Clue::put_dep>ctx_196 depends on ctx_195</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E5C5C depends on ctx_196</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nmod v3 n14 ) ( ) )
+ctx_197
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( head n14 s3w7 ) )
+ctx_198
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_197</Stack>
+	<INF_Clue::put_dep>ctx_198 depends on ctx_197</INF_Clue::put_dep>
+ctx_199
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_197 ctx_198</Stack>
+	<INF_Clue::put_dep>ctx_199 depends on ctx_198</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E5E1C depends on ctx_199</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n14 s3w7 ) ( ) )
+ctx_200
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( case n14 s3w5 ) )
+ctx_201
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_200</Stack>
+	<INF_Clue::put_dep>ctx_201 depends on ctx_200</INF_Clue::put_dep>
+ctx_202
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_200 ctx_201</Stack>
+	<INF_Clue::put_dep>ctx_202 depends on ctx_201</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E6E4C depends on ctx_202</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( case n14 s3w5 ) ( ) )
+ctx_203
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( nmod_poss n14 s3w6 ) )
+ctx_204
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-3
+	<Stack>ctx_203</Stack>
+	<INF_Clue::put_dep>ctx_204 depends on ctx_203</INF_Clue::put_dep>
+ctx_205
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_203 ctx_204</Stack>
+	<INF_Clue::put_dep>ctx_205 depends on ctx_204</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E6CFC depends on ctx_205</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nmod_poss n14 s1w3 ) ( ) )
+ctx_206
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( = ( quan q8 # s3w3 ) 8.65 ) )
+ctx_207
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-3
+	<Stack>ctx_206</Stack>
+	<INF_Clue::put_dep>ctx_207 depends on ctx_206</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( quan q8 # s2w6 ) 8.65 ) )
+	( CLUE::EVAL::LF2 ( = ( quan q8 # s2w6 ) 8.65 ) )
+	( CLUE::Create-Fact ( quan q8 # s2w6 ) ( 8.65 ) )
+	<INF_Clue::put_dep>ptr_012E6F9C depends on ctx_207</INF_Clue::put_dep>
+ctx_208
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( verb q8 s3w2 ) )
+ctx_209
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-3
+	<Stack>ctx_208</Stack>
+	<INF_Clue::put_dep>ctx_209 depends on ctx_208</INF_Clue::put_dep>
+ctx_210
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_208 ctx_209</Stack>
+	<INF_Clue::put_dep>ctx_210 depends on ctx_208</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E4ADC depends on ctx_210</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( verb q8 s3w2 ) ( ) )
+ctx_211
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-3
+	<Stack></Stack>
+	( CLUE::Input ( role q8 dep ) )
+ctx_212
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-3
+	<Stack>ctx_211</Stack>
+	<INF_Clue::put_dep>ctx_212 depends on ctx_211</INF_Clue::put_dep>
+ctx_213
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-3
+	<Stack>ctx_211 ctx_212</Stack>
+	<INF_Clue::put_dep>ctx_213 depends on ctx_211</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E6C1C depends on ctx_213</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( role q8 dep ) ( ) )
+ctx_214
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( verb v4 s4w5 ) )
+ctx_215
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_214</Stack>
+	<INF_Clue::put_dep>ctx_215 depends on ctx_214</INF_Clue::put_dep>
+ctx_216
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_214 ctx_215</Stack>
+	<INF_Clue::put_dep>ctx_216 depends on ctx_215</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E74DC depends on ctx_216</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( verb v4 s4w5 ) ( ) )
+ctx_217
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( dep v4 s4w2 ) )
+ctx_218
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_217</Stack>
+	<INF_Clue::put_dep>ctx_218 depends on ctx_217</INF_Clue::put_dep>
+ctx_219
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_217 ctx_218</Stack>
+	<INF_Clue::put_dep>ctx_219 depends on ctx_218</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E81FC depends on ctx_219</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( dep v4 s4w2 ) ( ) )
+ctx_220
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( advmod v4 s4w1 ) )
+ctx_221
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_220</Stack>
+	<INF_Clue::put_dep>ctx_221 depends on ctx_220</INF_Clue::put_dep>
+ctx_222
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_220 ctx_221</Stack>
+	<INF_Clue::put_dep>ctx_222 depends on ctx_221</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E7B6C depends on ctx_222</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( advmod v4 s4w1 ) ( ) )
+ctx_223
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( aux v4 s4w3 ) )
+ctx_224
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_223</Stack>
+	<INF_Clue::put_dep>ctx_224 depends on ctx_223</INF_Clue::put_dep>
+ctx_225
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_223 ctx_224</Stack>
+	<INF_Clue::put_dep>ctx_225 depends on ctx_224</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E7D2C depends on ctx_225</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( aux v4 s4w3 ) ( ) )
+ctx_226
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( nsubj v4 n15 ) )
+ctx_227
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_226</Stack>
+	<INF_Clue::put_dep>ctx_227 depends on ctx_226</INF_Clue::put_dep>
+ctx_228
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_226 ctx_227</Stack>
+	<INF_Clue::put_dep>ctx_228 depends on ctx_227</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E793C depends on ctx_228</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nsubj v4 n5 ) ( ) )
+ctx_229
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( head n15 s4w4 ) )
+ctx_230
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_229</Stack>
+	<INF_Clue::put_dep>ctx_230 depends on ctx_229</INF_Clue::put_dep>
+ctx_231
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( nmod v4 n16 ) )
+ctx_232
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_231</Stack>
+	<INF_Clue::put_dep>ctx_232 depends on ctx_231</INF_Clue::put_dep>
+ctx_233
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_231 ctx_232</Stack>
+	<INF_Clue::put_dep>ctx_233 depends on ctx_232</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E82DC depends on ctx_233</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( nmod v4 n16 ) ( ) )
+ctx_234
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( head n16 s4w9 ) )
+ctx_235
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_234</Stack>
+	<INF_Clue::put_dep>ctx_235 depends on ctx_234</INF_Clue::put_dep>
+ctx_236
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_234 ctx_235</Stack>
+	<INF_Clue::put_dep>ctx_236 depends on ctx_235</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E89DC depends on ctx_236</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( head n16 s4w9 ) ( ) )
+ctx_237
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( case n16 s4w6 ) )
+ctx_238
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_237</Stack>
+	<INF_Clue::put_dep>ctx_238 depends on ctx_237</INF_Clue::put_dep>
+ctx_239
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_237 ctx_238</Stack>
+	<INF_Clue::put_dep>ctx_239 depends on ctx_238</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E86CC depends on ctx_239</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( case n16 s4w6 ) ( ) )
+ctx_240
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( det n16 s4w7 ) )
+ctx_241
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_240</Stack>
+	<INF_Clue::put_dep>ctx_241 depends on ctx_240</INF_Clue::put_dep>
+ctx_242
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_240 ctx_241</Stack>
+	<INF_Clue::put_dep>ctx_242 depends on ctx_241</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_012E57FC depends on ctx_242</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( det n16 s4w7 ) ( ) )
+ctx_243
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( compound n16 n17 ) )
+ctx_244
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_243</Stack>
+	<INF_Clue::put_dep>ctx_244 depends on ctx_243</INF_Clue::put_dep>
+ctx_245
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_243 ctx_244</Stack>
+	<INF_Clue::put_dep>ctx_245 depends on ctx_244</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_00DC0F44 depends on ctx_245</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( compound n16 n10 ) ( ) )
+ctx_246
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(676), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( head n17 s4w8 ) )
+ctx_247
+	INF_ReasonerMath::evaluate_LF1, inf_reasonermath.cpp(832), Sent-4
+	<Stack>ctx_246</Stack>
+	<INF_Clue::put_dep>ctx_247 depends on ctx_246</INF_Clue::put_dep>
+ctx_248
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( = ( quan q2 # s2w6 ) 149.16 ) )
+ctx_249
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_248</Stack>
+	<INF_Clue::put_dep>ctx_249 depends on ctx_248</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( quan q2 # s2w6 ) 149.16 ) )
+	( CLUE::EVAL::LF2 ( = 149.16 149.16 ) )
+	<INF_Clue::put_dep>ctx_249 depends on ptr_012A04A4</INF_Clue::put_dep>
+ctx_250
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( = ( tvq v1 # s2w6 t0 ) ( quan q2 # s2w6 ) ) )
+ctx_251
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_250</Stack>
+	<INF_Clue::put_dep>ctx_251 depends on ctx_250</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( tvq v1 # s2w6 t0 ) ( quan q2 # s2w6 ) ) )
+	( CLUE::EVAL::LF2 ( = ( tvq v1 # s2w6 t0 ) 149.16 ) )
+	<INF_Clue::put_dep>ctx_251 depends on ptr_012A04A4</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( tvq v1 # s2w6 t0 ) ( 149.16 ) )
+	<INF_Clue::put_dep>ptr_0130F6BC depends on ctx_251</INF_Clue::put_dep>
+ctx_252
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( = ( quan q4 # s2w12 ) 9.98 ) )
+ctx_253
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_252</Stack>
+	<INF_Clue::put_dep>ctx_253 depends on ctx_252</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( quan q4 # s2w6 ) 9.98 ) )
+	( CLUE::EVAL::LF2 ( = 9.98 9.98 ) )
+	<INF_Clue::put_dep>ctx_253 depends on ptr_012BD5DC</INF_Clue::put_dep>
+ctx_254
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( tvq_op v1 + q4 t0 t1 ) )
+ctx_255
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_254</Stack>
+	<INF_Clue::put_dep>ctx_255 depends on ctx_254</INF_Clue::put_dep>
+ctx_256
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_254 ctx_255</Stack>
+	<INF_Clue::put_dep>ctx_256 depends on ctx_254</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_0130F80C depends on ctx_256</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( tvq_op v1 + q4 t0 t1 ) ( ) )
+ctx_257
+	INF_ReasonerMath::forward_reasoning, inf_reasonermath.cpp(2340), Sent-4
+	<Stack>ctx_254</Stack>
+	( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 + ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( + ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+	( CLUE::Bind ( ?_1 q4 ) ( ?_2 # ) ( ?_3 s2w6 ) ( ?_4 v1 ) ( ?_5 t0 ) ( ?_6 t1 ) )
+	( CLUE::Premise ( quan q4 # s2w6 ) ( tvq_op v1 + q4 t0 t1 ) )
+	( CLUE::Conclusion ( = ( tvq v1 # s2w6 t1 ) ( + ( tvq v1 # s2w6 t0 ) ( quan q4 # s2w6 ) ) ) )
+	( CLUE::ExprVarMap ( $1_tvq ) ( $2_tvq 149.16 ) ( $3_quan 9.98 ) )
+	<INF_Clue::put_dep>ctx_257 depends on ptr_012BD5DC</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ctx_257 depends on ptr_0130F80C</INF_Clue::put_dep>
+ctx_258
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_254 ctx_257</Stack>
+	<INF_Clue::put_dep>ctx_258 depends on ctx_257</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( tvq v1 # s2w6 t1 ) ( + ( tvq v1 # s2w6 t0 ) ( quan q4 # s2w6 ) ) ) )
+	( CLUE::EVAL::LF2 ( = ( tvq v1 # s2w6 t1 ) ( + 149.16 9.98 ) ) )
+	<INF_Clue::put_dep>ctx_258 depends on ptr_0130F6BC</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ctx_258 depends on ptr_012BD5DC</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( tvq v1 # s2w6 t1 ) ( 159.14 ) )
+	<INF_Clue::put_dep>ptr_0130FCDC depends on ctx_258</INF_Clue::put_dep>
+ctx_259
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( = ( quan q6 # s2w20 ) 4.14 ) )
+ctx_260
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_259</Stack>
+	<INF_Clue::put_dep>ctx_260 depends on ctx_259</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( quan q6 # s2w6 ) 4.14 ) )
+	( CLUE::EVAL::LF2 ( = 4.14 4.14 ) )
+	<INF_Clue::put_dep>ctx_260 depends on ptr_012E571C</INF_Clue::put_dep>
+ctx_261
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( tvq_op v1 + q6 t1 t2 ) )
+ctx_262
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_261</Stack>
+	<INF_Clue::put_dep>ctx_262 depends on ctx_261</INF_Clue::put_dep>
+ctx_263
+	INF_ReasonerMath::eval_assert_relation, inf_reasonermath.cpp(1150), Sent-4
+	<Stack>ctx_261 ctx_262</Stack>
+	<INF_Clue::put_dep>ctx_263 depends on ctx_261</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ptr_0130F5DC depends on ctx_263</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( tvq_op v1 + q6 t1 t2 ) ( ) )
+ctx_264
+	INF_ReasonerMath::forward_reasoning, inf_reasonermath.cpp(2340), Sent-4
+	<Stack>ctx_261</Stack>
+	( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 + ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( + ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+	( CLUE::Bind ( ?_1 q6 ) ( ?_2 # ) ( ?_3 s2w6 ) ( ?_4 v1 ) ( ?_5 t1 ) ( ?_6 t2 ) )
+	( CLUE::Premise ( quan q6 # s2w6 ) ( tvq_op v1 + q6 t1 t2 ) )
+	( CLUE::Conclusion ( = ( tvq v1 # s2w6 t2 ) ( + ( tvq v1 # s2w6 t1 ) ( quan q6 # s2w6 ) ) ) )
+	( CLUE::ExprVarMap ( $1_tvq ) ( $2_tvq 159.14 ) ( $3_quan 4.14 ) )
+	<INF_Clue::put_dep>ctx_264 depends on ptr_012E571C</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ctx_264 depends on ptr_0130F5DC</INF_Clue::put_dep>
+ctx_265
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_261 ctx_264</Stack>
+	<INF_Clue::put_dep>ctx_265 depends on ctx_264</INF_Clue::put_dep>
+	( CLUE::EVAL::LF2 ( = ( tvq v1 # s2w6 t2 ) ( + ( tvq v1 # s2w6 t1 ) ( quan q6 # s2w6 ) ) ) )
+	( CLUE::EVAL::LF2 ( = ( tvq v1 # s2w6 t2 ) ( + 159.14 4.14 ) ) )
+	<INF_Clue::put_dep>ctx_265 depends on ptr_0130FCDC</INF_Clue::put_dep>
+	<INF_Clue::put_dep>ctx_265 depends on ptr_012E571C</INF_Clue::put_dep>
+	( CLUE::Create-Fact ( tvq v1 # s2w6 t2 ) ( 163.28 ) )
+	<INF_Clue::put_dep>ptr_0131059C depends on ctx_265</INF_Clue::put_dep>
+ctx_266
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(703), Sent-4
+	<Stack></Stack>
+	( CLUE::Input ( ASK ANS ( tvq v1 # s3w3 t2 ) ) )
+ctx_267
+	INF_ReasonerMath::evaluate_ASK, inf_reasonermath.cpp(975), Sent-4
+	<Stack>ctx_266</Stack>
+	<INF_Clue::put_dep>ctx_267 depends on ctx_266</INF_Clue::put_dep>
+	ptr_01301200 <EXPR>( ASK ANS ( tvq v1 # s3w3 t2 ) )</EXPR>
+	<INF_Clue::put_dep>ctx_267 depends on ptr_012E8E48</INF_Clue::put_dep>
+	<INF_Clue::add_trace>ctx_267</INF_Clue::add_trace>
+	<__one_line_xml_ASK__ANS>163.28</__one_line_xml_ASK__ANS>
+ctx_268
+	INF_ReasonerMath::fetch_values, inf_reasonermath.cpp(2178), Sent-4
+	<Stack>ctx_266 ctx_267</Stack>
+	<INF_Clue::put_dep>ptr_012E8FE0 depends on ptr_0131059C</INF_Clue::put_dep>
+ctx_269
+	INF_ReasonerMath::eval_Get, inf_reasonermath.cpp(1753), Sent-4
+	<Stack>ctx_266 ctx_267</Stack>
+	<INF_Clue::put_dep>ctx_269 depends on ptr_012E8FE0</INF_Clue::put_dep>
+	( CLUE::AtomSeq ( tvq v1 # s2w6 t2 ) )
+	( CLUE::Util ( Get ( m_real 163.28 ) ) )
+	( CLUE::Util ( Val ( m_real 163.28 ) ( m_fact ( tvq v1 # s2w6 t2 ) ( 163.28 ) ) ) )
+	<INF_Clue::put_dep>ptr_012E8E48 depends on ctx_269</INF_Clue::put_dep>
+ctx_270
+	INF_ReasonerMath::evaluate_LF2, inf_reasonermath.cpp(867), Sent-4
+	<Stack>ctx_266 ctx_267</Stack>
+	( CLUE::EVAL::LF2 ( = ( _ASK __one_line_xml_ASK__ANS ) 163.28 ) )
+	( CLUE::EVAL::LF2 ( = ( _ASK __one_line_xml_ASK__ANS ) 163.28 ) )
+	( CLUE::Create-Fact ( _ASK __one_line_xml_ASK__ANS ) ( 163.28 ) )
+	<INF_Clue::put_dep>ptr_01310ADC depends on ctx_270</INF_Clue::put_dep>
+</INF_Clue::_Id2Ctx>
+<INF_Clue::_Key2Dep>
+	ptr_00DBE9A4 : ctx_113
+	ptr_00DBEA84 : ctx_110
+	ptr_00DBEBD4 : ctx_107
+	ptr_00DBECB4 : ctx_119
+	ptr_00DBED24 : ctx_116
+	ptr_00DBF3B4 : ctx_101
+	ptr_00DBF494 : ctx_104
+	ptr_00DBF5E4 : ctx_130
+	ptr_00DBF7A4 : ctx_133
+	ptr_00DBF814 : ctx_136
+	ptr_00DBF964 : ctx_127
+	ptr_00DBFDC4 : ctx_139
+	ptr_00DC01B4 : ctx_124
+	ptr_00DC06F4 : ctx_142
+	ptr_00DC0CA4 : ctx_148
+	ptr_00DC0D84 : ctx_151
+	ptr_00DC0F44 : ctx_245
+	ptr_00DC1024 : ctx_145
+	ptr_00DC1484 : ctx_77
+	ptr_00DC1564 : ctx_86
+	ptr_00DC15D4 : ctx_80
+	ptr_00DC1AA4 : ctx_89
+	ptr_00DC1B14 : ctx_83
+	ptr_00DC22F4 : ctx_98
+	ptr_00DC2594 : ctx_92
+	ptr_00DC2604 : ctx_95
+	ptr_00E08774 : ctx_15
+	ptr_00E2A134 : ctx_6
+	ptr_00E2A214 : ctx_9
+	ptr_00E2A3D4 : ctx_12
+	ptr_00E3F004 : ctx_27
+	ptr_00E3F154 : ctx_24
+	ptr_00E3F624 : ctx_21
+	ptr_00E3F704 : ctx_18
+	ptr_00E3F854 : ctx_30
+	ptr_00E4677C : ctx_74
+	ptr_00E7ABE4 : ctx_71
+	ptr_012A0204 : ctx_161
+	ptr_012A04A4 : ctx_155
+	ptr_012A14D4 : ctx_65
+	ptr_012A1544 : ctx_68
+	ptr_012A1AF4 : ctx_62
+	ptr_012BC14C : ctx_56
+	ptr_012BC4CC : ctx_59
+	ptr_012BC6FC : ctx_50
+	ptr_012BC8BC : ctx_47
+	ptr_012BCB5C : ctx_53
+	ptr_012BD5DC : ctx_163
+	ptr_012BDC6C : ctx_158
+	ptr_012BFDAC : ctx_44
+	ptr_012E4ADC : ctx_210
+	ptr_012E4B4C : ctx_177
+	ptr_012E540C : ctx_166
+	ptr_012E555C : ctx_169
+	ptr_012E571C : ctx_171
+	ptr_012E57FC : ctx_242
+	ptr_012E586C : ctx_174
+	ptr_012E5C5C : ctx_196
+	ptr_012E5E1C : ctx_199
+	ptr_012E60BC : ctx_180
+	ptr_012E627C : ctx_191
+	ptr_012E635C : ctx_183
+	ptr_012E651C : ctx_188
+	ptr_012E6C1C : ctx_213
+	ptr_012E6CFC : ctx_205
+	ptr_012E6E4C : ctx_202
+	ptr_012E6F9C : ctx_207
+	ptr_012E74DC : ctx_216
+	ptr_012E793C : ctx_228
+	ptr_012E7B6C : ctx_222
+	ptr_012E7D2C : ctx_225
+	ptr_012E81FC : ctx_219
+	ptr_012E82DC : ctx_233
+	ptr_012E86CC : ctx_239
+	ptr_012E89DC : ctx_236
+	ptr_012E8E48 : ctx_269
+	ptr_012E8FE0 : ptr_0131059C
+	ptr_0130F5DC : ctx_263
+	ptr_0130F6BC : ctx_251
+	ptr_0130F80C : ctx_256
+	ptr_0130FCDC : ctx_258
+	ptr_0131059C : ctx_265
+	ptr_01310ADC : ctx_270
+	ctx_5 : ctx_4
+	ctx_6 : ctx_5
+	ctx_8 : ctx_7
+	ctx_9 : ctx_8
+	ctx_11 : ctx_10
+	ctx_12 : ctx_11
+	ctx_14 : ctx_13
+	ctx_15 : ctx_14
+	ctx_17 : ctx_16
+	ctx_18 : ctx_17
+	ctx_20 : ctx_19
+	ctx_21 : ctx_20
+	ctx_23 : ctx_22
+	ctx_24 : ctx_23
+	ctx_26 : ctx_25
+	ctx_27 : ctx_26
+	ctx_29 : ctx_28
+	ctx_30 : ctx_29
+	ctx_43 : ctx_42
+	ctx_44 : ctx_43
+	ctx_46 : ctx_45
+	ctx_47 : ctx_46
+	ctx_49 : ctx_48
+	ctx_50 : ctx_49
+	ctx_52 : ctx_51
+	ctx_53 : ctx_52
+	ctx_55 : ctx_54
+	ctx_56 : ctx_55
+	ctx_58 : ctx_57
+	ctx_59 : ctx_58
+	ctx_61 : ctx_60
+	ctx_62 : ctx_61
+	ctx_64 : ctx_63
+	ctx_65 : ctx_64
+	ctx_67 : ctx_66
+	ctx_68 : ctx_67
+	ctx_70 : ctx_69
+	ctx_71 : ctx_70
+	ctx_73 : ctx_72
+	ctx_74 : ctx_73
+	ctx_76 : ctx_75
+	ctx_77 : ctx_76
+	ctx_79 : ctx_78
+	ctx_80 : ctx_79
+	ctx_82 : ctx_81
+	ctx_83 : ctx_82
+	ctx_85 : ctx_84
+	ctx_86 : ctx_85
+	ctx_88 : ctx_87
+	ctx_89 : ctx_88
+	ctx_91 : ctx_90
+	ctx_92 : ctx_91
+	ctx_94 : ctx_93
+	ctx_95 : ctx_94
+	ctx_97 : ctx_96
+	ctx_98 : ctx_97
+	ctx_100 : ctx_99
+	ctx_101 : ctx_100
+	ctx_103 : ctx_102
+	ctx_104 : ctx_103
+	ctx_106 : ctx_105
+	ctx_107 : ctx_106
+	ctx_109 : ctx_108
+	ctx_110 : ctx_109
+	ctx_112 : ctx_111
+	ctx_113 : ctx_112
+	ctx_115 : ctx_114
+	ctx_116 : ctx_115
+	ctx_118 : ctx_117
+	ctx_119 : ctx_118
+	ctx_121 : ctx_120
+	ctx_123 : ctx_122
+	ctx_124 : ctx_123
+	ctx_126 : ctx_125
+	ctx_127 : ctx_126
+	ctx_129 : ctx_128
+	ctx_130 : ctx_129
+	ctx_132 : ctx_131
+	ctx_133 : ctx_132
+	ctx_135 : ctx_134
+	ctx_136 : ctx_135
+	ctx_138 : ctx_137
+	ctx_139 : ctx_138
+	ctx_141 : ctx_140
+	ctx_142 : ctx_141
+	ctx_144 : ctx_143
+	ctx_145 : ctx_144
+	ctx_147 : ctx_146
+	ctx_148 : ctx_147
+	ctx_150 : ctx_149
+	ctx_151 : ctx_150
+	ctx_153 : ctx_152
+	ctx_155 : ctx_154
+	ctx_157 : ctx_156
+	ctx_158 : ctx_156
+	ctx_160 : ctx_159
+	ctx_161 : ctx_159
+	ctx_163 : ctx_162
+	ctx_165 : ctx_164
+	ctx_166 : ctx_164
+	ctx_168 : ctx_167
+	ctx_169 : ctx_167
+	ctx_171 : ctx_170
+	ctx_173 : ctx_172
+	ctx_174 : ctx_172
+	ctx_176 : ctx_175
+	ctx_177 : ctx_175
+	ctx_179 : ctx_178
+	ctx_180 : ctx_179
+	ctx_182 : ctx_181
+	ctx_183 : ctx_182
+	ctx_185 : ctx_184
+	ctx_187 : ctx_186
+	ctx_188 : ctx_187
+	ctx_190 : ctx_189
+	ctx_191 : ctx_190
+	ctx_193 : ctx_192
+	ctx_195 : ctx_194
+	ctx_196 : ctx_195
+	ctx_198 : ctx_197
+	ctx_199 : ctx_198
+	ctx_201 : ctx_200
+	ctx_202 : ctx_201
+	ctx_204 : ctx_203
+	ctx_205 : ctx_204
+	ctx_207 : ctx_206
+	ctx_209 : ctx_208
+	ctx_210 : ctx_208
+	ctx_212 : ctx_211
+	ctx_213 : ctx_211
+	ctx_215 : ctx_214
+	ctx_216 : ctx_215
+	ctx_218 : ctx_217
+	ctx_219 : ctx_218
+	ctx_221 : ctx_220
+	ctx_222 : ctx_221
+	ctx_224 : ctx_223
+	ctx_225 : ctx_224
+	ctx_227 : ctx_226
+	ctx_228 : ctx_227
+	ctx_230 : ctx_229
+	ctx_232 : ctx_231
+	ctx_233 : ctx_232
+	ctx_235 : ctx_234
+	ctx_236 : ctx_235
+	ctx_238 : ctx_237
+	ctx_239 : ctx_238
+	ctx_241 : ctx_240
+	ctx_242 : ctx_241
+	ctx_244 : ctx_243
+	ctx_245 : ctx_244
+	ctx_247 : ctx_246
+	ctx_249 : ctx_248 ptr_012A04A4
+	ctx_251 : ctx_250 ptr_012A04A4
+	ctx_253 : ctx_252 ptr_012BD5DC
+	ctx_255 : ctx_254
+	ctx_256 : ctx_254
+	ctx_257 : ptr_012BD5DC ptr_0130F80C
+	ctx_258 : ctx_257 ptr_0130F6BC ptr_012BD5DC
+	ctx_260 : ctx_259 ptr_012E571C
+	ctx_262 : ctx_261
+	ctx_263 : ctx_261
+	ctx_264 : ptr_012E571C ptr_0130F5DC
+	ctx_265 : ctx_264 ptr_0130FCDC ptr_012E571C
+	ctx_267 : ctx_266 ptr_012E8E48
+	ctx_269 : ptr_012E8FE0
+</INF_Clue::_Key2Dep>
+</Unit>

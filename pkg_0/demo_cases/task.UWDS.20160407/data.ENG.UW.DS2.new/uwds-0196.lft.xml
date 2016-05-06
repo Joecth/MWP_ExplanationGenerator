@@ -1,0 +1,93 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 make)
+		(s1w1 Scarlett)
+		(s1w5 salad)
+		(s1w3 a)
+		(s1w4 fruit)
+		(s1w8 pound)
+		(s1w6 with)
+		(s1w7 0.25)
+		(s1w10 melon)
+		(s1w9 of)
+		(s1w11 and)
+		(s1w13 pound)
+		(s1w12 0.375)
+		(s1w15 berry)
+		(s1w14 of)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w5)
+		(det n5 s1w3)
+		(compound n5 n6)
+		(head n6 s1w4)
+		(nmod v1 n7)
+		(head n7 s1w8)
+		(case n7 s1w6)
+		(nummod n7 s1w7)
+		(nmod n7 n1)
+		(head n1 s1w10)
+		(case n1 s1w9)
+		(cj_op j1 and)
+		(conj n7 n9)
+		(head n9 s1w13)
+		(nummod n9 s1w12)
+		(nmod n9 n2)
+		(head n2 s1w15)
+		(case n2 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 s1w8 s1w10) 0.25)(verb q2 s1w2)(role q2 nmod)
+		(= (quan q4 s1w13 s1w15) 0.375)(verb q4 s1w2)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 use)
+		(s2w3 pound)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 fruit)
+		(s2w4 of)
+		(s2w6 do)
+		(s2w7 Scarlett)
+		(s2w10 all)
+		(s2w9 in)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dobj v2 n11)
+		(head n11 s2w3)
+		(amod n11 s2w2)
+		(advmod n11 s2w1)
+		(nmod n11 n3)
+		(head n3 s2w5)
+		(case n3 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 n13)
+		(head n13 s2w7)
+		(nmod v2 s2w10)
+		(case v2 s2w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w8 s1w10) (quan q4 s1w13 s1w15)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

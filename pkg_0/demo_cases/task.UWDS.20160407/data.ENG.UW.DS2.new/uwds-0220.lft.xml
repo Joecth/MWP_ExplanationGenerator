@@ -1,0 +1,159 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 count)
+		(s1w1 allie)
+		(s1w6 cream)
+		(s1w3 the)
+		(s1w4 leftover)
+		(s1w5 ice)
+		(s1w10 party)
+		(s1w7 after)
+		(s1w8 a)
+		(s1w9 sundae)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n5)
+		(head n5 s1w1)
+		(dobj v1 n6)
+		(head n6 s1w6)
+		(det n6 s1w3)
+		(amod n6 s1w4)
+		(compound n6 n7)
+		(head n7 s1w5)
+		(nmod v1 n8)
+		(head n8 s1w10)
+		(case n8 s1w7)
+		(det n8 s1w8)
+		(compound n8 n9)
+		(head n9 s1w9)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 have)
+		(s2w1 she)
+		(s2w4 carton)
+		(s2w3 0.3333333333333333)
+		(s2w9 cream)
+		(s2w5 of)
+		(s2w6 rocky)
+		(s2w7 road)
+		(s2w8 ice)
+		(s2w11 carton)
+		(s2w10 0.3333333333333333)
+		(s2w16 cream)
+		(s2w12 of)
+		(s2w13 cookie)
+		(s2w14 dough)
+		(s2w15 ice)
+		(s2w17 and)
+		(s2w19 carton)
+		(s2w18 0.16666666666666666)
+		(s2w24 cream)
+		(s2w20 of)
+		(s2w21 strawberry)
+		(s2w22 cheesecake)
+		(s2w23 ice)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n10)
+		(head n10 s2w4)
+		(nummod n10 s2w3)
+		(nmod n10 n11)
+		(head n11 s2w9)
+		(case n11 s2w5)
+		(amod n11 s2w6)
+		(compound n11 n1)
+		(head n1 s2w7)
+		(compound n11 n13)
+		(head n13 s2w8)
+		(conj n10 n14)
+		(head n14 s2w11)
+		(nummod n14 s2w10)
+		(nmod n14 n15)
+		(head n15 s2w16)
+		(case n15 s2w12)
+		(compound n15 n16)
+		(head n16 s2w13)
+		(compound n15 n2)
+		(head n2 s2w14)
+		(compound n15 n18)
+		(head n18 s2w15)
+		(cj_op j1 and)
+		(conj n10 n19)
+		(head n19 s2w19)
+		(nummod n19 s2w18)
+		(nmod n19 n20)
+		(head n20 s2w24)
+		(case n20 s2w20)
+		(compound n20 n21)
+		(head n21 s2w21)
+		(compound n20 n3)
+		(head n3 s2w22)
+		(compound n20 n23)
+		(head n23 s2w23)
+	)
+
+	(LF2
+		(= (quan q2 s2w4 s2w7) 0.3333333333333333)(verb q2 s2w2)(role q2 compound)
+		(= (quan q4 s2w11 s2w14) 0.3333333333333333)(verb q4 s2w2)(role q4 compound)
+		(= (quan q6 s2w19 s2w22) 0.16666666666666666)(verb q6 s2w2)(role q6 compound)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 have)
+		(s3w3 carton)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w6 cream)
+		(s3w4 of)
+		(s3w5 ice)
+		(s3w7 do)
+		(s3w8 Allie)
+		(s3w11 all)
+		(s3w10 in)
+	)
+
+	(LF1
+		(verb v3 s3w9)
+		(dobj v3 n24)
+		(head n24 s3w3)
+		(amod n24 s3w2)
+		(advmod n24 s3w1)
+		(nmod n24 n25)
+		(head n25 s3w6)
+		(case n25 s3w4)
+		(compound n25 n4)
+		(head n4 s3w5)
+		(aux v3 s3w7)
+		(nsubj v3 n27)
+		(head n27 s3w8)
+		(nmod v3 s3w11)
+		(case v3 s3w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Sum (quan ?q ?u ?o)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

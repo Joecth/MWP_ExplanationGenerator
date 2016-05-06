@@ -1,0 +1,121 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 go)
+		(s1w1 Jason)
+		(s1w5 mall)
+		(s1w3 to)
+		(s1w4 the)
+		(s1w7 Saturday)
+		(s1w6 on)
+		(s1w9 buy)
+		(s1w8 to)
+		(s1w10 clothes)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(nmod v1 n4)
+		(head n4 s1w5)
+		(case n4 s1w3)
+		(det n4 s1w4)
+		(nmod n4 n5)
+		(head n5 s1w7)
+		(case n5 s1w6)
+		(xcomp v1 s1w9)
+		(mark v1 s1w8)
+		(dobj v1 n6)
+		(head n6 s1w10)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 spend)
+		(s2w1 he)
+		(s2w4 14.28)
+		(s2w3 USD)
+		(s2w6 shorts)
+		(s2w5 on)
+		(s2w7 and)
+		(s2w9 4.74)
+		(s2w8 USD)
+		(s2w12 jacket)
+		(s2w10 on)
+		(s2w11 a)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 s2w4)
+		(dep v2 n1)
+		(head n1 s2w3)
+		(nmod v2 n7)
+		(head n7 s2w6)
+		(case n7 s2w5)
+		(cj_op j1 and)
+		(conj n7 s2w9)
+		(dep n7 n2)
+		(head n2 s2w8)
+		(nmod v2 n8)
+		(head n8 s2w12)
+		(case n8 s2w10)
+		(det n8 s2w11)
+	)
+
+	(LF2
+		(= (quan q2 # s2w3) 14.28)(verb q2 s2w2)(role q2 dep)
+		(= (quan q4 # s2w8) 4.74)(verb q4 s2w2)(role q4 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w8 spend)
+		(s3w2 total)
+		(s3w1 in)
+		(s3w5 money)
+		(s3w4 much)
+		(s3w3 how)
+		(s3w6 do)
+		(s3w7 Jason)
+		(s3w10 clothing)
+		(s3w9 on)
+	)
+
+	(LF1
+		(verb v3 s3w8)
+		(nmod v3 n9)
+		(head n9 s3w2)
+		(case n9 s3w1)
+		(dobj v3 n10)
+		(head n10 s3w5)
+		(amod n10 s3w4)
+		(advmod n10 s3w3)
+		(aux v3 s3w6)
+		(nsubj v3 n11)
+		(head n11 s3w7)
+		(nmod v3 n12)
+		(head n12 s3w10)
+		(case n12 s3w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s2w3) (quan q4 # s2w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(2):nsubj={[x1]Joan(1)},dobj={[x2]seashell(4):nummod={75(3)},cc={and(5)},conj={starfish(7):nummod={14(6)}}},nmod={beach(10):case={on(8)},det={the(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joan(1,NNP): {Joan}</Word>
+		<Word idx="2">find(2,VBD): {found}</Word>
+		<Word idx="3">75(3,CD): {75}</Word>
+		<Word idx="4">seashell(4,NNS): {seashells}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">14(6,CD): {14}</Word>
+		<Word idx="7">starfish(7,NNS): {starfishes}</Word>
+		<Word idx="8">on(8,IN): {on}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">beach(10,NN): {beach}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(2):nsubj={[x1]she(1)},iobj={[x3]Tim(3)},dobj={some(4):nmod={[x2]seashell(7):case={of(5)},nmod_poss={[x1]she(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">give(2,VBD): {gave}</Word>
+		<Word idx="3">Tim(3,NNP): {Tim}</Word>
+		<Word idx="4">some(4,DT): {some}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">she(6,PRPS): {her}</Word>
+		<Word idx="7">seashell(7,NNS): {seashells}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]she(1)},dobj={seashell(4):nummod={62(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">62(3,CD): {62}</Word>
+		<Word idx="4">seashell(4,NN): {seashell}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(6):advmod={how(1):dep={seashell(3):amod={many(2)}}},aux={do(4)},nsubj={[x1]she(5)},nmod={[x3]Tim(8):case={to(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">seashell(3,NNS): {seashells}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">give(6,VB): {give}</Word>
+		<Word idx="7">to(7,TO): {to}</Word>
+		<Word idx="8">Tim(8,NNP): {Tim}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

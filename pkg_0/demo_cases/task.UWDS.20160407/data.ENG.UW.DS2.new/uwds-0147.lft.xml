@@ -1,0 +1,139 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 attack)
+		(s1w2 insect)
+		(s1w1 some)
+		(s1w3 call)
+		(s1w4 aphid)
+		(s1w8 farm)
+		(s1w6 a)
+		(s1w7 large)
+	)
+
+	(LF1
+		(HEAD v1 s1w5)
+		(nsubj v1 n4)
+		(head n4 s1w2)
+		(det n4 s1w1)
+		(acl n4 s1w3)
+		(dobj n4 n5)
+		(head n5 s1w4)
+		(dobj v1 n6)
+		(head n6 s1w8)
+		(det n6 s1w6)
+		(amod n6 s1w7)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w5 release)
+		(s2w2 response)
+		(s2w1 in)
+		(s2w4 farmer)
+		(s2w3 the)
+		(s2w6 ladybug)
+		(s2w9 field)
+		(s2w7 onto)
+		(s2w8 the)
+	)
+
+	(LF1
+		(HEAD v2 s2w5)
+		(nmod v2 n7)
+		(head n7 s2w2)
+		(case n7 s2w1)
+		(nsubj v2 n8)
+		(head n8 s2w4)
+		(det n8 s2w3)
+		(dobj v2 n9)
+		(head n9 s2w6)
+		(nmod v2 n10)
+		(head n10 s2w9)
+		(case n10 s2w7)
+		(det n10 s2w8)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 be)
+		(s3w1 there)
+		(s3w4 ladybug)
+		(s3w3 12170)
+		(s3w6 spot)
+		(s3w5 with)
+		(s3w7 and)
+		(s3w9 ladybug)
+		(s3w8 54912)
+		(s3w11 spot)
+		(s3w10 without)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(expl v3 s3w1)
+		(nsubj v3 n1)
+		(head n1 s3w4)
+		(nummod n1 s3w3)
+		(nmod n1 n12)
+		(head n12 s3w6)
+		(case n12 s3w5)
+		(cj_op j1 and)
+		(conj n12 n2)
+		(head n2 s3w9)
+		(nummod n2 s3w8)
+		(nmod v3 n14)
+		(head n14 s3w11)
+		(case n14 s3w10)
+	)
+
+	(LF2
+		(= (quan q2 # s3w4) 12170)(verb q2 s3w2)(role q2 nsubj)
+		(= (quan q4 # s3w9) 54912)(verb q4 s3w2)(role q4 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w4 be)
+		(s4w3 ladybug)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w5 there)
+		(s4w7 all)
+		(s4w6 in)
+	)
+
+	(LF1
+		(verb v4 s4w4)
+		(nsubj v4 n3)
+		(head n3 s4w3)
+		(amod n3 s4w2)
+		(advmod n3 s4w1)
+		(expl v4 s4w5)
+		(nmod v4 s4w7)
+		(case v4 s4w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s3w4) (quan q4 # s3w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

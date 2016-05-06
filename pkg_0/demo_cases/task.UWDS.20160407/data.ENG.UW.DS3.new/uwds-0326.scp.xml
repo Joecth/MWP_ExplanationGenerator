@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(2):nsubj={[x1]Keith(1)},dobj={6.51(4):dep={USD(3)}},nmod={toy(8):case={on(5)},det={a(6)},compound={rabbit(7)},appos={5.79(11):dep={USD(10)}}},nmod={food(14):case={on(12)},compound={pet(13)}},cc={and(16)},conj={cost(19):nsubj={cage(18):det={a(17)}},iobj={[x1]he(20)},dobj={12.51(22):dep={USD(21)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Keith(1,NNP): {Keith}</Word>
+		<Word idx="2">spend(2,VBD): {spent}</Word>
+		<Word idx="3">USD(3,USD): {USD}</Word>
+		<Word idx="4">6.51(4,CD): {6.51}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">rabbit(7,NN): {rabbit}</Word>
+		<Word idx="8">toy(8,NN): {toy}</Word>
+		<Word idx="9">USD(10,USD): {USD}</Word>
+		<Word idx="10">5.79(11,CD): {5.79}</Word>
+		<Word idx="11">on(12,IN): {on}</Word>
+		<Word idx="12">pet(13,NN): {pet}</Word>
+		<Word idx="13">food(14,NN): {food}</Word>
+		<Word idx="14">and(16,CC): {and}</Word>
+		<Word idx="15">a(17,DT): {a}</Word>
+		<Word idx="16">cage(18,NN): {cage}</Word>
+		<Word idx="17">cost(19,VBD): {cost}</Word>
+		<Word idx="18">he(20,PRP): {him}</Word>
+		<Word idx="19">USD(21,USD): {USD}</Word>
+		<Word idx="20">12.51(22,CD): {12.51}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(2):nsubj={[x1]he(1)},dobj={bill(5):det={a(3)},compound={dollar(4)}},nmod={ground(8):case={on(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">he(1,PRP): {He}</Word>
+		<Word idx="2">find(2,VBD): {found}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">dollar(4,NN): {dollar}</Word>
+		<Word idx="5">bill(5,NN): {bill}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">ground(8,NN): {ground}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{what(1):cop={be(2)},nsubj={cost(5):det={the(3)},amod={total(4)},nmod={purchase(9):case={of(6)},nmod_poss={[x1]Keith(7):case={'s(8)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WP): {What}</Word>
+		<Word idx="2">be(2,VBD): {was}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">total(4,JJ): {total}</Word>
+		<Word idx="5">cost(5,NN): {cost}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">Keith(7,NNP): {Keith}</Word>
+		<Word idx="8">'s(8,POS): {'s}</Word>
+		<Word idx="9">purchase(9,NNS): {purchases}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

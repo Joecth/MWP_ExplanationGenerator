@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{bake(3):nsubj={[x1]Jessica(1)},aux={be(2)},dobj={cake(5):det={a(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jessica(1,NNP): {Jessica}</Word>
+		<Word idx="2">be(2,VBZ): {is}</Word>
+		<Word idx="3">bake(3,VBG): {baking}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">cake(5,NN): {cake}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{call(3):nsubj={recipe(2):det={the(1)}},nmod={cup(6):case={for(4)},nummod={8(5)},nmod={flour(8):case={of(7)}},cc={and(9)},conj={cup(11):nummod={2(10)},nmod={sugar(13):case={of(12)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">recipe(2,NN): {recipe}</Word>
+		<Word idx="3">call(3,VBZ): {calls}</Word>
+		<Word idx="4">for(4,IN): {for}</Word>
+		<Word idx="5">8(5,CD): {8}</Word>
+		<Word idx="6">cup(6,NNS): {cups}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">flour(8,NN): {flour}</Word>
+		<Word idx="9">and(9,CC): {and}</Word>
+		<Word idx="10">2(10,CD): {2}</Word>
+		<Word idx="11">cup(11,NNS): {cups}</Word>
+		<Word idx="12">of(12,IN): {of}</Word>
+		<Word idx="13">sugar(13,NN): {sugar}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{put(3):nsubj={[x1]she(1)},advmod={already(2)},nmod={cup(6):case={in(4)},nummod={4(5)},nmod={flour(8):case={of(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">already(2,RB): {already}</Word>
+		<Word idx="3">put(3,VBD): {put}</Word>
+		<Word idx="4">in(4,IN): {in}</Word>
+		<Word idx="5">4(5,CD): {4}</Word>
+		<Word idx="6">cup(6,NNS): {cups}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">flour(8,NN): {flour}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(8):dep={cup(3):amod={many(2):advmod={how(1)}},nmod={flour(5):case={of(4)}}},aux={do(6)},nsubj={[x1]she(7)},xcomp={add(10):mark={to(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">cup(3,NNS): {cups}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">flour(5,NN): {flour}</Word>
+		<Word idx="6">do(6,VBZ): {does}</Word>
+		<Word idx="7">she(7,PRP): {she}</Word>
+		<Word idx="8">need(8,VB): {need}</Word>
+		<Word idx="9">to(9,TO): {to}</Word>
+		<Word idx="10">add(10,VB): {add}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

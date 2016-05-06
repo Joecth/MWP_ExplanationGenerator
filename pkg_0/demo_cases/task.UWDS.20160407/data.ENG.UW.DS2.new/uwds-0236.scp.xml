@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(5):nsubj={Restaurant(4):nmod_poss={[x1]Dale(1):case={'s(2)}},amod={vegetarian(3)}},dobj={pound(7):nummod={2.8333333333333335(6)},nmod={pepper(10):case={of(8)},amod={green(9)}},cc={and(11)},conj={pound(13):nummod={2.8333333333333335(12)},nmod={pepper(16):case={of(14)},amod={red(15)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Dale(1,NNP): {Dale}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">vegetarian(3,JJ): {Vegetarian}</Word>
+		<Word idx="4">Restaurant(4,NNP): {Restaurant}</Word>
+		<Word idx="5">buy(5,VBD): {bought}</Word>
+		<Word idx="6">2.8333333333333335(6,CD): {2.8333333333333335}</Word>
+		<Word idx="7">pound(7,NNS): {pounds}</Word>
+		<Word idx="8">of(8,IN): {of}</Word>
+		<Word idx="9">green(9,JJ): {green}</Word>
+		<Word idx="10">pepper(10,NNS): {peppers}</Word>
+		<Word idx="11">and(11,CC): {and}</Word>
+		<Word idx="12">2.8333333333333335(12,CD): {2.8333333333333335}</Word>
+		<Word idx="13">pound(13,NNS): {pounds}</Word>
+		<Word idx="14">of(14,IN): {of}</Word>
+		<Word idx="15">red(15,JJ): {red}</Word>
+		<Word idx="16">pepper(16,NNS): {peppers}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(11):dobj={pound(3):amod={many(2):advmod={how(1)}},nmod={pepper(5):case={of(4)}}},aux={do(6)},nsubj={[x1]Dale(7):case={'s(8)},dep={Restaurant(10):compound={Vegetarian(9)}}},nmod={all(13):case={in(12)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pound(3,NNS): {pounds}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">pepper(5,NNS): {peppers}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Dale(7,NNP): {Dale}</Word>
+		<Word idx="8">'s(8,POS): {'s}</Word>
+		<Word idx="9">Vegetarian(9,NNP): {Vegetarian}</Word>
+		<Word idx="10">Restaurant(10,NNP): {Restaurant}</Word>
+		<Word idx="11">buy(11,VB): {buy}</Word>
+		<Word idx="12">in(12,IN): {in}</Word>
+		<Word idx="13">all(13,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

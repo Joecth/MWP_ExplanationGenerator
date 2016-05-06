@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{dye(8):advcl={fill(2):mark={to(1)},dobj={[x2]order(4):det={a(3)}}},nsubj={[x1]factory(7):det={the(6)}},dobj={pink(17):dep={yard(10):nummod={61921(9)},nmod={silk(12):case={of(11)},amod={green(13)}},cc={and(14)},conj={yard(16):nummod={49500(15)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">to(1,TO): {To}</Word>
+		<Word idx="2">fill(2,VB): {fill}</Word>
+		<Word idx="3">a(3,DT): {an}</Word>
+		<Word idx="4">order(4,NN): {order}</Word>
+		<Word idx="5">the(6,DT): {the}</Word>
+		<Word idx="6">factory(7,NN): {factory}</Word>
+		<Word idx="7">dye(8,VBD): {dyed}</Word>
+		<Word idx="8">61921(9,CD): {61921}</Word>
+		<Word idx="9">yard(10,NNS): {yards}</Word>
+		<Word idx="10">of(11,IN): {of}</Word>
+		<Word idx="11">silk(12,NN): {silk}</Word>
+		<Word idx="12">green(13,JJ): {green}</Word>
+		<Word idx="13">and(14,CC): {and}</Word>
+		<Word idx="14">49500(15,CD): {49500}</Word>
+		<Word idx="15">yard(16,NNS): {yards}</Word>
+		<Word idx="16">pink(17,NN): {pink}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{dye(8):dobj={yard(3):amod={many(2):advmod={how(1)}},nmod={silk(5):case={of(4)}}},aux={do(6)},nsubj={[x1]it(7)},nmod={[x2]order(11):case={for(9)},det={that(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">yard(3,NNS): {yards}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">silk(5,NN): {silk}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">it(7,PRP): {it}</Word>
+		<Word idx="8">dye(8,VB): {dye}</Word>
+		<Word idx="9">for(9,IN): {for}</Word>
+		<Word idx="10">that(10,DT): {that}</Word>
+		<Word idx="11">order(11,NN): {order}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

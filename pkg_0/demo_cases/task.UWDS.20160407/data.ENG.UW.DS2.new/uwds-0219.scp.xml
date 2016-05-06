@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(2):nsubj={brandy(1)},dobj={mix(4):compound={trail(3)}},nmod={trip(8):case={for(5)},det={a(6)},compound={backpacking(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">brandy(1,NN): {Brandy}</Word>
+		<Word idx="2">make(2,VBD): {made}</Word>
+		<Word idx="3">trail(3,NN): {trail}</Word>
+		<Word idx="4">mix(4,NN): {mix}</Word>
+		<Word idx="5">for(5,IN): {for}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">backpacking(7,NN): {backpacking}</Word>
+		<Word idx="8">trip(8,NN): {trip}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(2):nsubj={she(1)},dobj={pound(4):nummod={0.16666666666666666(3)},nmod={peanut(6):case={of(5)}},conj={pound(9):nummod={0.16666666666666666(8)},nmod={chip(12):case={of(10)},compound={chocolate(11)}}},cc={and(14)},conj={pound(16):nummod={0.08333333333333333(15)},nmod={raisin(18):case={of(17)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">use(2,VBD): {used}</Word>
+		<Word idx="3">0.16666666666666666(3,CD): {0.16666666666666666}</Word>
+		<Word idx="4">pound(4,NN): {pound}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">peanut(6,NNS): {peanuts}</Word>
+		<Word idx="7">0.16666666666666666(8,CD): {0.16666666666666666}</Word>
+		<Word idx="8">pound(9,NN): {pound}</Word>
+		<Word idx="9">of(10,IN): {of}</Word>
+		<Word idx="10">chocolate(11,NN): {chocolate}</Word>
+		<Word idx="11">chip(12,NNS): {chips}</Word>
+		<Word idx="12">and(14,CC): {and}</Word>
+		<Word idx="13">0.08333333333333333(15,CD): {0.08333333333333333}</Word>
+		<Word idx="14">pound(16,NN): {pound}</Word>
+		<Word idx="15">of(17,IN): {of}</Word>
+		<Word idx="16">raisin(18,NNS): {raisins}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(9):dobj={pound(3):amod={many(2):advmod={how(1)}},nmod={mix(6):case={of(4)},compound={trail(5)}}},aux={do(7)},nsubj={Brandy(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pound(3,NNS): {pounds}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">trail(5,NN): {trail}</Word>
+		<Word idx="6">mix(6,NN): {mix}</Word>
+		<Word idx="7">do(7,VBD): {did}</Word>
+		<Word idx="8">Brandy(8,NNP): {Brandy}</Word>
+		<Word idx="9">make(9,VB): {make}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

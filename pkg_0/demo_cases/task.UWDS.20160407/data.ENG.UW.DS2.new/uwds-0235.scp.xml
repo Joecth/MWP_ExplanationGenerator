@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(7):nmod={recipe(4):advmod={carefully(1)},dep={follow(2)},det={a(3)}},nsubj={[x1]Kenny(6)},dobj={cup(10):advmod={exactly(8)},nummod={0.16666666666666666(9)},nmod={oil(12):case={of(11)}},cc={and(13)},conj={cup(15):nummod={1.1666666666666667(14)},nmod={water(17):case={of(16)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">carefully(1,RB): {Carefully}</Word>
+		<Word idx="2">follow(2,VBG): {following}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">recipe(4,NN): {recipe}</Word>
+		<Word idx="5">Kenny(6,NNP): {Kenny}</Word>
+		<Word idx="6">use(7,VBD): {used}</Word>
+		<Word idx="7">exactly(8,RB): {exactly}</Word>
+		<Word idx="8">0.16666666666666666(9,CD): {0.16666666666666666}</Word>
+		<Word idx="9">cup(10,NN): {cup}</Word>
+		<Word idx="10">of(11,IN): {of}</Word>
+		<Word idx="11">oil(12,NN): {oil}</Word>
+		<Word idx="12">and(13,CC): {and}</Word>
+		<Word idx="13">1.1666666666666667(14,CD): {1.1666666666666667}</Word>
+		<Word idx="14">cup(15,NNS): {cups}</Word>
+		<Word idx="15">of(16,IN): {of}</Word>
+		<Word idx="16">water(17,NN): {water}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(8):dobj={cup(3):amod={many(2):advmod={how(1)}},nmod={liquid(5):case={of(4)}}},aux={do(6)},nsubj={[x1]Kenny(7)},nmod={all(10):case={in(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">cup(3,NNS): {cups}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">liquid(5,NN): {liquid}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Kenny(7,NNP): {Kenny}</Word>
+		<Word idx="8">use(8,VB): {use}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">all(10,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,111 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 sweep)
+		(s1w3 storm)
+		(s1w1 a)
+		(s1w2 dust)
+		(s1w7 prairie)
+		(s1w5 across)
+		(s1w6 the)
+	)
+
+	(LF1
+		(HEAD v1 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(nmod v1 n6)
+		(head n6 s1w7)
+		(case n6 s1w5)
+		(det n6 s1w6)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 cover)
+		(s2w1 it)
+		(s2w4 acre)
+		(s2w3 64535)
+		(s2w7 prairie)
+		(s2w5 of)
+		(s2w6 the)
+		(s2w9 dust)
+		(s2w8 in)
+		(s2w10 but)
+		(s2w11 leave)
+		(s2w14 untouched)
+		(s2w13 acre)
+		(s2w12 522)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n1)
+		(head n1 s2w4)
+		(nummod n1 s2w3)
+		(nmod n1 n8)
+		(head n8 s2w7)
+		(case n8 s2w5)
+		(det n8 s2w6)
+		(nmod n8 n9)
+		(head n9 s2w9)
+		(case n9 s2w8)
+		(cc v2 s2w10)
+		(verb v2 s2w11)
+		(xcomp v2 s2w14)
+		(nmod_npmod v2 n2)
+		(head n2 s2w13)
+		(nummod n2 s2w12)
+	)
+
+	(LF2
+		(= (quan q2 # s2w4) 64535)(verb q2 s2w2)(role q2 dobj)
+		(= (quan q4 # s2w13) 522)(verb q4 s2w11)(role q4 nmod_npmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 do)
+		(s3w3 acre)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w7 cover)
+		(s3w5 the)
+		(s3w6 prairie)
+	)
+
+	(LF1
+		(verb v3 s3w4)
+		(nsubj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+		(verb v3 n12)
+		(head n12 s3w7)
+		(det n12 s3w5)
+		(compound n12 n13)
+		(head n13 s3w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s2w4) (quan q4 # s2w13)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

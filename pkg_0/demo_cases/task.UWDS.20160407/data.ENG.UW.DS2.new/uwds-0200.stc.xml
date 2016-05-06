@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{apartment(17):nmod={complex(5):case={in(1)},nmod_poss={Shannon(2):case={'s(3)}},compound={apartment(4)}},nsubj={0.16666666666666666(7):acl_relcl={apartment(12):nsubj={[x1]apartment(9):det={the(8)}},cop={be(10)},amod={one-bedroom(11)},cc={and(13)},conj={0.3333333333333333(14)}}},cop={be(15)},amod={two-bedroom(16)}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">Shannon(2,NNP): {Shannon}</Word>
+		<Word idx="3">'s(3,POS): {'s}</Word>
+		<Word idx="4">apartment(4,NN): {apartment}</Word>
+		<Word idx="5">complex(5,NN): {complex}</Word>
+		<Word idx="6">0.16666666666666666(7,CD): {0.16666666666666666}</Word>
+		<Word idx="7">the(8,DT): {the}</Word>
+		<Word idx="8">apartment(9,NNS): {apartments}</Word>
+		<Word idx="9">be(10,VBP): {are}</Word>
+		<Word idx="10">one-bedroom(11,JJ): {one-bedroom}</Word>
+		<Word idx="11">apartment(12,NNS): {apartments}</Word>
+		<Word idx="12">and(13,CC): {and}</Word>
+		<Word idx="13">0.3333333333333333(14,CD): {0.3333333333333333}</Word>
+		<Word idx="14">be(15,VBP): {are}</Word>
+		<Word idx="15">two-bedroom(16,JJ): {two-bedroom}</Word>
+		<Word idx="16">apartment(17,NNS): {apartments}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{either(7):nsubj={fraction(2):det={what(1)},nmod={[x1]apartment(5):case={of(3)},det={the(4)}}},cop={be(6)},dep={1(8)},cc={or(10)},conj={apartment(12):amod={two-bedroom(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WDT): {What}</Word>
+		<Word idx="2">fraction(2,NN): {fraction}</Word>
+		<Word idx="3">of(3,IN): {of}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">apartment(5,NNS): {apartments}</Word>
+		<Word idx="6">be(6,VBP): {are}</Word>
+		<Word idx="7">either(7,RB): {either}</Word>
+		<Word idx="8">1(8,LS): {1}</Word>
+		<Word idx="9">or(10,CC): {or}</Word>
+		<Word idx="10">two-bedroom(11,JJ): {two-bedroom}</Word>
+		<Word idx="11">apartment(12,NNS): {apartments}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

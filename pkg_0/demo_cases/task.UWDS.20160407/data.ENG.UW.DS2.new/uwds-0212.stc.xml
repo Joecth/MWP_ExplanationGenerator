@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(7):advcl={make(2):mark={while(1)},dobj={pastry(3)}},nsubj={bakery(6):det={a(5)}},dobj={bag(9):nummod={0.2(8)},nmod={flour(12):case={of(10)},compound={wheat(11)}},cc={and(13)},conj={bag(15):nummod={0.1(14)},nmod={flour(18):case={of(16)},amod={white(17)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">while(1,IN): {While}</Word>
+		<Word idx="2">make(2,VBG): {making}</Word>
+		<Word idx="3">pastry(3,NNS): {pastries}</Word>
+		<Word idx="4">a(5,DT): {a}</Word>
+		<Word idx="5">bakery(6,NN): {bakery}</Word>
+		<Word idx="6">use(7,VBN): {used}</Word>
+		<Word idx="7">0.2(8,CD): {0.2}</Word>
+		<Word idx="8">bag(9,NN): {bag}</Word>
+		<Word idx="9">of(10,IN): {of}</Word>
+		<Word idx="10">wheat(11,NN): {wheat}</Word>
+		<Word idx="11">flour(12,NN): {flour}</Word>
+		<Word idx="12">and(13,CC): {and}</Word>
+		<Word idx="13">0.1(14,CD): {0.1}</Word>
+		<Word idx="14">bag(15,NN): {bag}</Word>
+		<Word idx="15">of(16,IN): {of}</Word>
+		<Word idx="16">white(17,JJ): {white}</Word>
+		<Word idx="17">flour(18,NN): {flour}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(6):nsubj={bag(3):amod={many(2):advmod={how(1)}},nmod={flour(5):case={of(4)}}},dobj={use(9):det={the(7)},compound={bakery(8)}},nmod={all(11):case={in(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">bag(3,NNS): {bags}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">flour(5,NN): {flour}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">bakery(8,NN): {bakery}</Word>
+		<Word idx="9">use(9,NN): {use}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">all(11,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

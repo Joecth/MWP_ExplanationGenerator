@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{go(4):nsubj={[x2]family(3):nmod_poss={[x5]Irwin(1):case={'s(2)}}},nmod={trip(8):case={on(5)},det={a(6)},compound={camping(7)}},nmod={mountain(11):case={in(9)},det={the(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Irwin(1,NNP): {Irwin}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">family(3,NN): {family}</Word>
+		<Word idx="4">go(4,VBD): {went}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">camping(7,NN): {camping}</Word>
+		<Word idx="8">trip(8,NN): {trip}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">mountain(11,NNS): {mountains}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{hike(7):nmod={day(4):case={on(1)},det={the(2)},amod={first(3)}},nsubj={[x2]they(6)},nmod={car(10):case={from(8)},nmod_poss={[x2]they(9)}},nmod={[x4]campsite(13):case={to(11)},det={the(12)}}}</SemRep>
+	<WordList>
+		<Word idx="1">on(1,IN): {On}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">first(3,JJ): {first}</Word>
+		<Word idx="4">day(4,NN): {day}</Word>
+		<Word idx="5">they(6,PRP): {they}</Word>
+		<Word idx="6">hike(7,VBD): {hiked}</Word>
+		<Word idx="7">from(8,IN): {from}</Word>
+		<Word idx="8">they(9,PRPS): {their}</Word>
+		<Word idx="9">car(10,NN): {car}</Word>
+		<Word idx="10">to(11,TO): {to}</Word>
+		<Word idx="11">the(12,DT): {the}</Word>
+		<Word idx="12">campsite(13,NN): {campsite}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{hike(4):advmod={first(1)},nsubj={[x2]they(3)},dobj={mile(6):nummod={0.2(5)}},nmod={car(9):case={from(7)},det={the(8)},nmod={[x1]stream(12):case={to(10)},det={a(11)}},cc={and(14)},conj={mile(16):nummod={0.4(15)},nmod={[x1]stream(19):case={from(17)},det={the(18)}}}},nmod={[x3]meadow(22):case={to(20)},det={a(21)}}}</SemRep>
+	<WordList>
+		<Word idx="1">first(1,RB): {First}</Word>
+		<Word idx="2">they(3,PRP): {they}</Word>
+		<Word idx="3">hike(4,VBD): {hiked}</Word>
+		<Word idx="4">0.2(5,CD): {0.2}</Word>
+		<Word idx="5">mile(6,NN): {mile}</Word>
+		<Word idx="6">from(7,IN): {from}</Word>
+		<Word idx="7">the(8,DT): {the}</Word>
+		<Word idx="8">car(9,NN): {car}</Word>
+		<Word idx="9">to(10,TO): {to}</Word>
+		<Word idx="10">a(11,DT): {a}</Word>
+		<Word idx="11">stream(12,NN): {stream}</Word>
+		<Word idx="12">and(14,CC): {and}</Word>
+		<Word idx="13">0.4(15,CD): {0.4}</Word>
+		<Word idx="14">mile(16,NN): {mile}</Word>
+		<Word idx="15">from(17,IN): {from}</Word>
+		<Word idx="16">the(18,DT): {the}</Word>
+		<Word idx="17">stream(19,NN): {stream}</Word>
+		<Word idx="18">to(20,TO): {to}</Word>
+		<Word idx="19">a(21,DT): {a}</Word>
+		<Word idx="20">meadow(22,NN): {meadow}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="4">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{hike(3):advmod={then(1)},nsubj={[x2]they(2)},dobj={mile(5):nummod={0.1(4)}},nmod={[x3]meadow(8):case={from(6)},det={the(7)}},nmod={[x4]campsite(11):case={to(9)},det={the(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">then(1,RB): {Then}</Word>
+		<Word idx="2">they(2,PRP): {they}</Word>
+		<Word idx="3">hike(3,VBD): {hiked}</Word>
+		<Word idx="4">0.1(4,CD): {0.1}</Word>
+		<Word idx="5">mile(5,NN): {mile}</Word>
+		<Word idx="6">from(6,IN): {from}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">meadow(8,NN): {meadow}</Word>
+		<Word idx="9">to(9,TO): {to}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">campsite(11,NN): {campsite}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(4):nsubj={mile(3):amod={many(2):advmod={how(1)}}},dobj={hike(8):nmod_poss={[x5]Irwin(5):case={'s(6)}},compound={family(7)}},nmod={all(10):case={in(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">mile(3,NNS): {miles}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Irwin(5,NNP): {Irwin}</Word>
+		<Word idx="6">'s(6,POS): {'s}</Word>
+		<Word idx="7">family(7,NN): {family}</Word>
+		<Word idx="8">hike(8,NN): {hike}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">all(10,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">TimeVariantUnknownFinal</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

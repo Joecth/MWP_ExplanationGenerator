@@ -1,0 +1,102 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w9 use)
+		(s1w2 make)
+		(s1w1 while)
+		(s1w3 dessert)
+		(s1w7 sale)
+		(s1w4 for)
+		(s1w5 a)
+		(s1w6 bake)
+		(s1w8 Victor)
+		(s1w11 scoop)
+		(s1w10 0.625)
+		(s1w14 sugar)
+		(s1w12 of)
+		(s1w13 brown)
+		(s1w15 as)
+		(s1w16 well)
+		(s1w17 as)
+		(s1w19 scoop)
+		(s1w18 0.25)
+		(s1w22 sugar)
+		(s1w20 of)
+		(s1w21 white)
+	)
+
+	(LF1
+		(verb v1 s1w9)
+		(advcl v1 s1w2)
+		(mark v1 s1w1)
+		(dobj v1 n2)
+		(head n2 s1w3)
+		(nmod v1 n3)
+		(head n3 s1w7)
+		(case n3 s1w4)
+		(det n3 s1w5)
+		(amod n3 s1w6)
+		(nsubj v1 n4)
+		(head n4 s1w8)
+		(dobj v1 n5)
+		(head n5 s1w11)
+		(nummod n5 s1w10)
+		(nmod n5 n1)
+		(head n1 s1w14)
+		(case n1 s1w12)
+		(amod n1 s1w13)
+		(cc n5 s1w15)
+		(mwe n5 s1w16)
+		(mwe n5 s1w17)
+		(conj n5 n7)
+		(head n7 s1w19)
+		(nummod n7 s1w18)
+		(nmod n7 n8)
+		(head n8 s1w22)
+		(case n8 s1w20)
+		(amod n8 s1w21)
+	)
+
+	(LF2
+		(= (quan q2 s1w11 s1w14) 0.625)(verb q2 s1w9)(role q2 nmod)
+		(= (quan q4 s1w19 s1w14) 0.25)(verb q4 s1w9)(advcl q4 s1w2)(nsubj q4 s1w8)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 use)
+		(s2w3 more)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w5 sugar)
+		(s2w4 brown)
+		(s2w6 do)
+		(s2w7 Victor)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dobj v2 s2w3)
+		(amod v2 s2w2)
+		(advmod v2 s2w1)
+		(dep v2 n9)
+		(head n9 s2w5)
+		(amod n9 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 n10)
+		(head n10 s2w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w11 s1w14) (quan q4 s1w19 s1w14)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

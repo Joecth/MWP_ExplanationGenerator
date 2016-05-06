@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(2):nsubj={[x1]Mary(1)},dobj={food(4):amod={fast(3)}},nmod={lunch(6):case={for(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mary(1,NNP): {Mary}</Word>
+		<Word idx="2">get(2,VBD): {got}</Word>
+		<Word idx="3">fast(3,JJ): {fast}</Word>
+		<Word idx="4">food(4,NN): {food}</Word>
+		<Word idx="5">for(5,IN): {for}</Word>
+		<Word idx="6">lunch(6,NN): {lunch}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(2):nsubj={[x1]Mary(1)},dobj={1.08(4):dep={USD(3)}},nmod={soup(6):case={on(5)},cc={and(7)},conj={4.80(9):dep={USD(8)}}},nmod={salad(12):case={on(10)},det={a(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mary(1,NNP): {Mary}</Word>
+		<Word idx="2">spend(2,VBD): {spent}</Word>
+		<Word idx="3">USD(3,USD): {USD}</Word>
+		<Word idx="4">1.08(4,CD): {1.08}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">soup(6,NN): {soup}</Word>
+		<Word idx="7">and(7,CC): {and}</Word>
+		<Word idx="8">USD(8,USD): {USD}</Word>
+		<Word idx="9">4.80(9,CD): {4.80}</Word>
+		<Word idx="10">on(10,IN): {on}</Word>
+		<Word idx="11">a(11,DT): {a}</Word>
+		<Word idx="12">salad(12,NN): {salad}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pay(2):nsubj={[x1]Mary(1)},nmod={bill(7):case={with(3)},det={a(4)},nummod={20(5)},compound={dollar(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mary(1,NNP): {Mary}</Word>
+		<Word idx="2">pay(2,VBD): {paid}</Word>
+		<Word idx="3">with(3,IN): {with}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">20(5,CD): {20}</Word>
+		<Word idx="6">dollar(6,NN): {dollar}</Word>
+		<Word idx="7">bill(7,NN): {bill}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{what(1):cop={be(2)},nsubj={total(4):det={the(3)},nmod={bill(8):case={of(5)},det={the(6)},compound={lunch(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WP): {What}</Word>
+		<Word idx="2">be(2,VBD): {was}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">total(4,NN): {total}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">lunch(7,NN): {lunch}</Word>
+		<Word idx="8">bill(8,NN): {bill}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,122 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 discover)
+		(s1w3 hunter)
+		(s1w1 a)
+		(s1w2 treasure)
+		(s1w8 chest)
+		(s1w5 a)
+		(s1w6 bury)
+		(s1w7 treasure)
+		(s1w9 fill)
+		(s1w12 total)
+		(s1w10 with)
+		(s1w11 a)
+		(s1w15 gem)
+		(s1w13 of)
+		(s1w14 5155)
+	)
+
+	(LF1
+		(HEAD v1 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(dobj v1 n6)
+		(head n6 s1w8)
+		(det n6 s1w5)
+		(amod n6 s1w6)
+		(compound n6 n7)
+		(head n7 s1w7)
+		(verb n6 s1w9)
+		(nmod n6 n8)
+		(head n8 s1w12)
+		(case n8 s1w10)
+		(det n8 s1w11)
+		(nmod n8 n1)
+		(head n1 s1w15)
+		(case n1 s1w13)
+		(nummod n1 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 # s1w15) 5155)(verb q2 s1w9)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w6 diamond)
+		(s2w1 45)
+		(s2w4 gem)
+		(s2w2 of)
+		(s2w3 the)
+		(s2w5 be)
+		(s2w7 and)
+		(s2w11 ruby)
+		(s2w9 rest)
+		(s2w8 the)
+		(s2w10 be)
+	)
+
+	(LF1
+		(head n10 s2w6)
+		(nsubj n10 s2w1)
+		(nmod n10 n2)
+		(head n2 s2w4)
+		(case n2 s2w2)
+		(det n2 s2w3)
+		(verb n10 s2w5)
+		(cj_op j1 and)
+		(conj n10 n12)
+		(head n12 s2w11)
+		(nsubj n12 n13)
+		(head n13 s2w9)
+		(det n13 s2w8)
+		(cop n12 s2w10)
+	)
+
+	(LF2
+		(= (quan q4 # s2w4) 45)(verb q4 s2w5)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 be)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 gem)
+		(s3w3 of)
+		(s3w4 the)
+		(s3w7 ruby)
+	)
+
+	(LF1
+		(verb v2 s3w6)
+		(dobj v2 s3w2)
+		(advmod v2 s3w1)
+		(nmod v2 n3)
+		(head n3 s3w5)
+		(case n3 s3w3)
+		(det n3 s3w4)
+		(nsubj v2 n15)
+		(head n15 s3w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s1w15) (quan q4 # s2w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

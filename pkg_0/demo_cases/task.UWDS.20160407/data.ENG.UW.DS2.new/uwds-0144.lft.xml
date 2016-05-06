@@ -1,0 +1,116 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 transfer)
+		(s1w1 Christina)
+		(s1w2 just)
+		(s1w5 69)
+		(s1w4 USD)
+		(s1w6 out)
+		(s1w10 account)
+		(s1w7 of)
+		(s1w8 she)
+		(s1w9 bank)
+	)
+
+	(LF1
+		(verb v1 s1w3)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(advmod v1 s1w2)
+		(advmod v1 s1w5)
+		(dep v1 n1)
+		(head n1 s1w4)
+		(case v1 s1w6)
+		(nmod v1 n4)
+		(head n4 s1w10)
+		(case n4 s1w7)
+		(nmod_poss n4 s1w8)
+		(compound n4 n5)
+		(head n5 s1w9)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 69)(verb q2 s1w3)(role q2 dep)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w7 have)
+		(s2w3 result)
+		(s2w1 as)
+		(s2w2 a)
+		(s2w5 account)
+		(s2w4 the)
+		(s2w6 now)
+		(s2w9 26935)
+		(s2w8 USD)
+		(s2w11 it)
+		(s2w10 in)
+	)
+
+	(LF1
+		(verb v2 s2w7)
+		(nmod v2 n6)
+		(head n6 s2w3)
+		(case n6 s2w1)
+		(det n6 s2w2)
+		(nsubj v2 n7)
+		(head n7 s2w5)
+		(det n7 s2w4)
+		(advmod v2 s2w6)
+		(dobj v2 s2w9)
+		(dep v2 n2)
+		(head n2 s2w8)
+		(nmod v2 s2w11)
+		(case v2 s2w10)
+	)
+
+	(LF2
+		(= (quan q4 # s2w8) 26935)(verb q4 s2w7)(role q4 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 account)
+		(s3w3 money)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w4 be)
+		(s3w5 in)
+		(s3w6 the)
+		(s3w10 transfer)
+		(s3w8 before)
+		(s3w9 the)
+	)
+
+	(LF1
+		(head n8 s3w7)
+		(nsubj n8 n9)
+		(head n9 s3w3)
+		(amod n9 s3w2)
+		(advmod n9 s3w1)
+		(verb n8 s3w4)
+		(case n8 s3w5)
+		(det n8 s3w6)
+		(nmod n8 n10)
+		(head n10 s3w10)
+		(case n10 s3w8)
+		(det n10 s3w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w4) (quan q4 # s2w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

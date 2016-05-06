@@ -1,0 +1,136 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>109bush</CHUNK>
+          <CHUNK>OP_Addition</CHUNK>
+            <CHUNK>84bush</CHUNK>
+              <CHUNK>OP_Addition</CHUNK>
+                <CHUNK>47bush</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+                <CHUNK>37bush</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>25bush</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_259'>
+    109bush
+    Addition
+    <math ID='ctx_252'>
+      84bush
+      Addition
+      <math ID='NULL'>
+        47bush
+      </math>
+      <math ID='NULL'>
+        37bush
+      </math>
+    </math>
+    <math ID='NULL'>
+      25bush
+    </math>
+  </math>
+  <ctx ID='ctx_261'>
+    <__one_line_xml_ASK__ANS>109</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_260'>
+      ( CLUE::Input ( ASK ANS ( tvq v1 # s4w4 t2 ) ) )
+    </ctx>
+    <ctx ID='ctx_263'>
+      ( CLUE::AtomSeq ( tvq v1 # s1w5 t2 ) )
+      ( CLUE::Util ( Get ( m_real 109 ) ) )
+      ( CLUE::Util ( Val ( m_real 109 ) ( m_fact ( tvq v1 # s1w5 t2 ) ( 109 ) ) ) )
+      <ctx ID='ctx_259'>
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 # s1w5 t2 ) ( + ( tvq v1 # s1w5 t1 ) ( quan q6 # s1w5 ) ) ) )
+        ( CLUE::EVAL::LF2 ( = ( tvq v1 # s1w5 t2 ) ( + 84 25 ) ) )
+        ( CLUE::Create-Fact ( tvq v1 # s1w5 t2 ) ( 109 ) )
+        <ctx ID='ctx_258'>
+          ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 + ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( + ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+          ( CLUE::Bind ( ?_1 q6 ) ( ?_2 # ) ( ?_3 s1w5 ) ( ?_4 v1 ) ( ?_5 t1 ) ( ?_6 t2 ) )
+          ( CLUE::Premise ( quan q6 # s1w5 ) ( tvq_op v1 + q6 t1 t2 ) )
+          ( CLUE::Conclusion ( = ( tvq v1 # s1w5 t2 ) ( + ( tvq v1 # s1w5 t1 ) ( quan q6 # s1w5 ) ) ) )
+          ( CLUE::ExprVarMap ( $1_tvq ) ( $2_tvq 84 ) ( $3_quan 25 ) )
+          <ctx ID='ctx_149'>
+            ( CLUE::EVAL::LF2 ( = ( quan q6 # s1w5 ) 25 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q6 # s1w5 ) 25 ) )
+            ( CLUE::Create-Fact ( quan q6 # s1w5 ) ( 25 ) )
+            <ctx ID='ctx_148'>
+              ( CLUE::Input ( = ( quan q6 # s2w12 ) 25 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_257'>
+            ( CLUE::Create-Fact ( tvq_op v1 + q6 t1 t2 ) ( ) )
+            <ctx ID='ctx_255'>
+              ( CLUE::Input ( tvq_op v1 + q6 t1 t2 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_252'>
+          ( CLUE::EVAL::LF2 ( = ( tvq v1 # s1w5 t1 ) ( + ( tvq v1 # s1w5 t0 ) ( quan q4 # s1w5 ) ) ) )
+          ( CLUE::EVAL::LF2 ( = ( tvq v1 # s1w5 t1 ) ( + 47 37 ) ) )
+          ( CLUE::Create-Fact ( tvq v1 # s1w5 t1 ) ( 84 ) )
+          <ctx ID='ctx_251'>
+            ( CLUE::Rule ( => ( and ( quan ?_1 ?_2 ?_3 ) ( tvq_op ?_4 + ?_1 ?_5 ?_6 ) ) ( = ( tvq ?_4 ?_2 ?_3 ?_6 ) ( + ( tvq ?_4 ?_2 ?_3 ?_5 ) ( quan ?_1 ?_2 ?_3 ) ) ) ) )
+            ( CLUE::Bind ( ?_1 q4 ) ( ?_2 # ) ( ?_3 s1w5 ) ( ?_4 v1 ) ( ?_5 t0 ) ( ?_6 t1 ) )
+            ( CLUE::Premise ( quan q4 # s1w5 ) ( tvq_op v1 + q4 t0 t1 ) )
+            ( CLUE::Conclusion ( = ( tvq v1 # s1w5 t1 ) ( + ( tvq v1 # s1w5 t0 ) ( quan q4 # s1w5 ) ) ) )
+            ( CLUE::ExprVarMap ( $1_tvq ) ( $2_tvq 47 ) ( $3_quan 37 ) )
+            <ctx ID='ctx_141'>
+              ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w5 ) 37 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w5 ) 37 ) )
+              ( CLUE::Create-Fact ( quan q4 # s1w5 ) ( 37 ) )
+              <ctx ID='ctx_140'>
+                ( CLUE::Input ( = ( quan q4 # s2w7 ) 37 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_250'>
+              ( CLUE::Create-Fact ( tvq_op v1 + q4 t0 t1 ) ( ) )
+              <ctx ID='ctx_248'>
+                ( CLUE::Input ( tvq_op v1 + q4 t0 t1 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_245'>
+            ( CLUE::EVAL::LF2 ( = ( tvq v1 # s1w5 t0 ) ( quan q2 # s1w5 ) ) )
+            ( CLUE::EVAL::LF2 ( = ( tvq v1 # s1w5 t0 ) 47 ) )
+            ( CLUE::Create-Fact ( tvq v1 # s1w5 t0 ) ( 47 ) )
+            <ctx ID='ctx_244'>
+              ( CLUE::Input ( = ( tvq v1 # s1w5 t0 ) ( quan q2 # s1w5 ) ) )
+            </ctx>
+            <ctx ID='ctx_76'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w5 ) 47 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w5 ) 47 ) )
+              ( CLUE::Create-Fact ( quan q2 # s1w5 ) ( 47 ) )
+              <ctx ID='ctx_75'>
+                ( CLUE::Input ( = ( quan q2 # s1w5 ) 47 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_141'>
+            ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w5 ) 37 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w5 ) 37 ) )
+            ( CLUE::Create-Fact ( quan q4 # s1w5 ) ( 37 ) )
+            <ctx ID='ctx_140'>
+              ( CLUE::Input ( = ( quan q4 # s2w7 ) 37 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_149'>
+          ( CLUE::EVAL::LF2 ( = ( quan q6 # s1w5 ) 25 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q6 # s1w5 ) 25 ) )
+          ( CLUE::Create-Fact ( quan q6 # s1w5 ) ( 25 ) )
+          <ctx ID='ctx_148'>
+            ( CLUE::Input ( = ( quan q6 # s2w12 ) 25 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

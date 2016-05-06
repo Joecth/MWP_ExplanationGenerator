@@ -1,0 +1,150 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 record)
+		(s1w4 class)
+		(s1w1 Bonnie)
+		(s1w2 's)
+		(s1w3 science)
+		(s1w7 rainfall)
+		(s1w6 the)
+		(s1w9 day)
+		(s1w8 each)
+	)
+
+	(LF1
+		(verb v1 s1w5)
+		(nsubj v1 n6)
+		(head n6 s1w4)
+		(nmod_poss n6 n7)
+		(head n7 s1w1)
+		(case n7 s1w2)
+		(compound n6 n8)
+		(head n8 s1w3)
+		(dobj v1 n1)
+		(head n1 s1w7)
+		(det n1 s1w6)
+		(nmod_tmod v1 n10)
+		(head n10 s1w9)
+		(det n10 s1w8)
+	)
+
+	(LF2
+		(= (quan q2 # s1w7) 1)(verb q2 s1w5)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 record)
+		(s2w1 they)
+		(s2w4 centimeter)
+		(s2w3 0.16666666666666666)
+		(s2w6 rain)
+		(s2w5 of)
+		(s2w8 Monday)
+		(s2w7 on)
+		(s2w10 centimeter)
+		(s2w9 0.4166666666666667)
+		(s2w12 rain)
+		(s2w11 of)
+		(s2w14 Tuesday)
+		(s2w13 on)
+		(s2w15 and)
+		(s2w17 centimeter)
+		(s2w16 0.08333333333333333)
+		(s2w19 rain)
+		(s2w18 of)
+		(s2w21 Wednesday)
+		(s2w20 on)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n2)
+		(head n2 s2w4)
+		(nummod n2 s2w3)
+		(nmod n2 n12)
+		(head n12 s2w6)
+		(case n12 s2w5)
+		(nmod n12 n13)
+		(head n13 s2w8)
+		(case n13 s2w7)
+		(conj n2 n3)
+		(head n3 s2w10)
+		(nummod n3 s2w9)
+		(nmod n3 n15)
+		(head n15 s2w12)
+		(case n15 s2w11)
+		(nmod n15 n16)
+		(head n16 s2w14)
+		(case n16 s2w13)
+		(cj_op j1 and)
+		(conj n2 n4)
+		(head n4 s2w17)
+		(nummod n4 s2w16)
+		(nmod n4 n18)
+		(head n18 s2w19)
+		(case n18 s2w18)
+		(nmod v2 n19)
+		(head n19 s2w21)
+		(case n19 s2w20)
+	)
+
+	(LF2
+		(= (quan q4 # s2w4) 0.16666666666666666)(verb q4 s2w2)(role q4 dobj)
+		(= (quan q6 # s2w10) 0.4166666666666667)(verb q6 s2w2)(role q6 conj)
+		(= (quan q8 # s2w17) 0.08333333333333333)(verb q8 s2w2)(role q8 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 do)
+		(s3w3 centimeter)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 rain)
+		(s3w4 of)
+		(s3w9 record)
+		(s3w7 the)
+		(s3w8 class)
+		(s3w11 all)
+		(s3w10 in)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(nsubj v3 n5)
+		(head n5 s3w3)
+		(amod n5 s3w2)
+		(advmod n5 s3w1)
+		(nmod n5 n21)
+		(head n21 s3w5)
+		(case n21 s3w4)
+		(verb v3 n22)
+		(head n22 s3w9)
+		(det n22 s3w7)
+		(compound n22 n23)
+		(head n23 s3w8)
+		(nmod v3 s3w11)
+		(case v3 s3w10)
+	)
+
+	(LF2
+		
+		(= (quan q4 # s2w4) 0.16666666666666666) (= (tvq v1 # s2w4 t0) (quan q4 # s2w4))
+		(= (quan q6 # s2w10) 0.4166666666666667) (tvq_op v1 + q6 t0 t1)
+		(= (quan q8 # s2w17) 0.08333333333333333) (tvq_op v1 + q8 t1 t2)
+		(ASK ANS (tvq v1 # s3w3 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,79 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>0.75bin</CHUNK>
+          <CHUNK>OP_Sum</CHUNK>
+            <CHUNK>0.125bin</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>0.125bin</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>0.5bin</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_221'>
+    0.75bin
+    Sum
+    <math ID='NULL'>
+      0.125bin
+    </math>
+    <math ID='NULL'>
+      0.125bin
+    </math>
+    <math ID='NULL'>
+      0.5bin
+    </math>
+  </math>
+  <ctx ID='ctx_217'>
+    <__one_line_xml_ASK__ANS>0.75</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_216'>
+      ( CLUE::Input ( ASK ANS ( Sum ( quan ?q # s3w4 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_221'>
+      ( CLUE::AtomSeq ( quan ?q # s1w10 ) )
+      ( CLUE::Util ( Sum 0.125 0.125 0.5 = 0.75 ) )
+      ( CLUE::Util ( Val ( m_real 0.125 ) ( m_fact ( quan q2 # s1w10 ) ( 0.125 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 0.125 ) ( m_fact ( quan q4 # s1w10 ) ( 0.125 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 0.5 ) ( m_fact ( quan q6 # s1w10 ) ( 0.5 ) ) ) )
+      <ctx ID='ctx_218'>
+        ( CLUE::Bound-Facts ( quan q2 # s1w10 ) )
+        <ctx ID='ctx_157'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w10 ) 0.125 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w10 ) 0.125 ) )
+          ( CLUE::Create-Fact ( quan q2 # s1w10 ) ( 0.125 ) )
+          <ctx ID='ctx_156'>
+            ( CLUE::Input ( = ( quan q2 # s2w6 ) 0.125 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_219'>
+        ( CLUE::Bound-Facts ( quan q4 # s1w10 ) )
+        <ctx ID='ctx_165'>
+          ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w10 ) 0.125 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w10 ) 0.125 ) )
+          ( CLUE::Create-Fact ( quan q4 # s1w10 ) ( 0.125 ) )
+          <ctx ID='ctx_164'>
+            ( CLUE::Input ( = ( quan q4 # s2w10 ) 0.125 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_220'>
+        ( CLUE::Bound-Facts ( quan q6 # s1w10 ) )
+        <ctx ID='ctx_173'>
+          ( CLUE::EVAL::LF2 ( = ( quan q6 # s1w10 ) 0.5 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q6 # s1w10 ) 0.5 ) )
+          ( CLUE::Create-Fact ( quan q6 # s1w10 ) ( 0.5 ) )
+          <ctx ID='ctx_172'>
+            ( CLUE::Input ( = ( quan q6 # s2w15 ) 0.5 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

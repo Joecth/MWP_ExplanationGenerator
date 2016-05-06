@@ -1,0 +1,98 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 buy)
+		(s1w1 Gordon)
+		(s1w4 pound)
+		(s1w3 3.42)
+		(s1w6 fruit)
+		(s1w5 of)
+		(s1w10 party)
+		(s1w7 for)
+		(s1w8 a)
+		(s1w9 class)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w4)
+		(nummod n5 s1w3)
+		(nmod n5 n1)
+		(head n1 s1w6)
+		(case n1 s1w5)
+		(nmod v1 n7)
+		(head n7 s1w10)
+		(case n7 s1w7)
+		(det n7 s1w8)
+		(compound n7 n8)
+		(head n8 s1w9)
+	)
+
+	(LF2
+		(= (quan q2 s1w4 s1w6) 3.42)(verb q2 s1w2)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 eat)
+		(s2w2 class)
+		(s2w1 the)
+		(s2w5 pound)
+		(s2w4 2.2)
+		(s2w8 fruit)
+		(s2w6 of)
+		(s2w7 the)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n9)
+		(head n9 s2w2)
+		(det n9 s2w1)
+		(dobj v2 n10)
+		(head n10 s2w5)
+		(nummod n10 s2w4)
+		(nmod n10 n2)
+		(head n2 s2w8)
+		(case n2 s2w6)
+		(det n2 s2w7)
+	)
+
+	(LF2
+		(= (quan q4 s1w4 s2w8) 2.2)(verb q4 s2w3)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 be)
+		(s3w3 fruit)
+		(s3w2 much)
+		(s3w1 how)
+	)
+
+	(LF1
+		(verb v3 s3w4)
+		(nsubj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w4 s1w6) (quan q4 s1w4 s2w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

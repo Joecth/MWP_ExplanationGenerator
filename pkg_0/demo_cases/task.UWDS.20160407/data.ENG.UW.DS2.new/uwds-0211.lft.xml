@@ -1,0 +1,84 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 snow)
+		(s1w2 Yardley)
+		(s1w1 in)
+		(s1w3 it)
+		(s1w6 inch)
+		(s1w5 0.125)
+		(s1w9 morning)
+		(s1w7 in)
+		(s1w8 the)
+		(s1w10 and)
+		(s1w12 inch)
+		(s1w11 0.5)
+		(s1w15 afternoon)
+		(s1w13 in)
+		(s1w14 the)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nmod v1 n2)
+		(head n2 s1w2)
+		(case n2 s1w1)
+		(nsubj v1 s1w3)
+		(dobj v1 n3)
+		(head n3 s1w6)
+		(nummod n3 s1w5)
+		(nmod v1 n1)
+		(head n1 s1w9)
+		(case n1 s1w7)
+		(det n1 s1w8)
+		(cj_op j1 and)
+		(conj n1 n5)
+		(head n5 s1w12)
+		(nummod n5 s1w11)
+		(nmod v1 n6)
+		(head n6 s1w15)
+		(case n6 s1w13)
+		(det n6 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 s1w6 s1w9) 0.125)(verb q2 s1w4)(role q2 nmod)
+		(= (quan q4 s1w12 s1w9) 0.5)(verb q4 s1w4)(nmod q4 s1w2)(nmod q4 s1w15)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w1 what)
+		(s2w2 be)
+		(s2w5 amount)
+		(s2w3 the)
+		(s2w4 total)
+		(s2w7 snowfall)
+		(s2w6 of)
+	)
+
+	(LF1
+		(HEAD x2 s2w1)
+		(cop x2 s2w2)
+		(nsubj x2 n7)
+		(head n7 s2w5)
+		(det n7 s2w3)
+		(amod n7 s2w4)
+		(nmod n7 n8)
+		(head n8 s2w7)
+		(case n8 s2w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w6 s1w9) (quan q4 s1w12 s1w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

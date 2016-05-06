@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{own(2):nsubj={[x1]Molly(1)},dobj={Company(6):det={the(3)},compound={Wafting(4)},compound={Pie(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Molly(1,NNP): {Molly}</Word>
+		<Word idx="2">own(2,VBZ): {owns}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">Wafting(4,NNP): {Wafting}</Word>
+		<Word idx="5">Pie(5,NNP): {Pie}</Word>
+		<Word idx="6">Company(6,NNP): {Company}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(6):nmod_tmod={morning(2):det={this(1)}},nsubj={[x2]employee(5):nmod_poss={[x1]she(4)}},dobj={egg(8):nummod={816(7)}},advcl={bake(10):mark={to(9)},dobj={pie(12):compound={pumpkin(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">this(1,DT): {This}</Word>
+		<Word idx="2">morning(2,NN): {morning}</Word>
+		<Word idx="3">she(4,PRPS): {her}</Word>
+		<Word idx="4">employee(5,NNS): {employees}</Word>
+		<Word idx="5">use(6,VBN): {used}</Word>
+		<Word idx="6">816(7,CD): {816}</Word>
+		<Word idx="7">egg(8,NNS): {eggs}</Word>
+		<Word idx="8">to(9,TO): {to}</Word>
+		<Word idx="9">bake(10,VB): {bake}</Word>
+		<Word idx="10">pumpkin(11,NN): {pumpkin}</Word>
+		<Word idx="11">pie(12,NNS): {pies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(17):advcl={use(4):mark={if(1)},nsubj={[x2]employee(3):nmod_poss={[x1]she(2)}},dobj={total(6):det={a(5)},nmod={egg(9):case={of(7)},nummod={1339(8)}}},nmod_tmod={today(10)}},dobj={egg(14):amod={many(13):advmod={how(12)}}},aux={do(15)},nsubj={[x2]they(16)},nmod={afternoon(20):case={in(18)},det={the(19)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">she(2,PRPS): {her}</Word>
+		<Word idx="3">employee(3,NNS): {employees}</Word>
+		<Word idx="4">use(4,VBD): {used}</Word>
+		<Word idx="5">a(5,DT): {a}</Word>
+		<Word idx="6">total(6,NN): {total}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">1339(8,CD): {1339}</Word>
+		<Word idx="9">egg(9,NNS): {eggs}</Word>
+		<Word idx="10">today(10,NN): {today}</Word>
+		<Word idx="11">how(12,WRB): {how}</Word>
+		<Word idx="12">many(13,JJ): {many}</Word>
+		<Word idx="13">egg(14,NNS): {eggs}</Word>
+		<Word idx="14">do(15,VBD): {did}</Word>
+		<Word idx="15">they(16,PRP): {they}</Word>
+		<Word idx="16">use(17,VBP): {use}</Word>
+		<Word idx="17">in(18,IN): {in}</Word>
+		<Word idx="18">the(19,DT): {the}</Word>
+		<Word idx="19">afternoon(20,NN): {afternoon}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

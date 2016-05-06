@@ -1,0 +1,108 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 have)
+		(s1w4 company)
+		(s1w1 a)
+		(s1w2 cell)
+		(s1w3 phone)
+		(s1w7 total)
+		(s1w6 a)
+		(s1w10 customer)
+		(s1w8 of)
+		(s1w9 7422)
+		(s1w13 world)
+		(s1w11 across)
+		(s1w12 the)
+	)
+
+	(LF1
+		(verb v1 s1w5)
+		(nsubj v1 n4)
+		(head n4 s1w4)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(compound n4 n6)
+		(head n6 s1w3)
+		(dobj v1 n7)
+		(head n7 s1w7)
+		(det n7 s1w6)
+		(nmod n7 n1)
+		(head n1 s1w10)
+		(case n1 s1w8)
+		(nummod n1 s1w9)
+		(nmod n1 n9)
+		(head n9 s1w13)
+		(case n9 s1w11)
+		(det n9 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w10) 7422)(verb q2 s1w5)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w16 live)
+		(s2w6 live)
+		(s2w1 if)
+		(s2w2 723)
+		(s2w5 customer)
+		(s2w3 of)
+		(s2w4 its)
+		(s2w10 States)
+		(s2w7 in)
+		(s2w8 the)
+		(s2w9 United)
+		(s2w12 many)
+		(s2w11 how)
+		(s2w15 customer)
+		(s2w13 of)
+		(s2w14 its)
+		(s2w19 country)
+		(s2w17 in)
+		(s2w18 other)
+	)
+
+	(LF1
+		(verb v2 s2w16)
+		(verb v2 s2w6)
+		(mark v2 s2w1)
+		(nsubj v2 s2w2)
+		(nmod v2 n2)
+		(head n2 s2w5)
+		(case n2 s2w3)
+		(nmod_poss n2 s2w4)
+		(nmod v2 n11)
+		(head n11 s2w10)
+		(case n11 s2w7)
+		(det n11 s2w8)
+		(compound n11 n12)
+		(head n12 s2w9)
+		(nsubj v2 s2w12)
+		(advmod v2 s2w11)
+		(nmod v2 n3)
+		(head n3 s2w15)
+		(case n3 s2w13)
+		(nmod_poss n3 s2w14)
+		(nmod v2 n14)
+		(head n14 s2w19)
+		(case n14 s2w17)
+		(amod n14 s2w18)
+	)
+
+	(LF2
+		(= (quan q4 # s2w5) 723)(verb q4 s2w6)(role q4 nmod)
+
+		(ASK ANS (Subtraction (quan q2 # s1w10) (quan q4 # s2w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

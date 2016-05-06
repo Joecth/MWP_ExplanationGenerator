@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(2):nsubj={Mary(1)},ccomp={pick(7):nsubj={orange(4):nummod={122(3)},cc={and(5)},conj={Jason(6)}},dobj={orange(9):nummod={105(8)}},nmod={tree(13):case={from(10)},det={the(11)},amod={orange(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mary(1,NNP): {Mary}</Word>
+		<Word idx="2">pick(2,VBD): {picked}</Word>
+		<Word idx="3">122(3,CD): {122}</Word>
+		<Word idx="4">orange(4,NNS): {oranges}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">Jason(6,NNP): {Jason}</Word>
+		<Word idx="7">pick(7,VBD): {picked}</Word>
+		<Word idx="8">105(8,CD): {105}</Word>
+		<Word idx="9">orange(9,NNS): {oranges}</Word>
+		<Word idx="10">from(10,IN): {from}</Word>
+		<Word idx="11">the(11,DT): {the}</Word>
+		<Word idx="12">orange(12,JJ): {orange}</Word>
+		<Word idx="13">tree(13,NN): {tree}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(5):nsubjpass={orange(3):amod={many(2):advmod={how(1)}}},auxpass={be(4)},nmod={total(7):case={in(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">orange(3,NNS): {oranges}</Word>
+		<Word idx="4">be(4,VBD): {were}</Word>
+		<Word idx="5">pick(5,VBN): {picked}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">total(7,NN): {total}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

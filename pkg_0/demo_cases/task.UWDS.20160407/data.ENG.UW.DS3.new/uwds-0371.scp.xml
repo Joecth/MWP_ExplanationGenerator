@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={bush(5):nummod={47(3)},amod={orchid(4)}},advmod={currently(6)},nmod={[x1]park(9):case={in(7)},det={the(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">47(3,CD): {47}</Word>
+		<Word idx="4">orchid(4,JJ): {orchid}</Word>
+		<Word idx="5">bush(5,NNS): {bushes}</Word>
+		<Word idx="6">currently(6,RB): {currently}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">park(9,NN): {park}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{plant(4):nsubj={[x2]worker(2):compound={Park(1)}},aux={will(3)},dobj={bush(7):nummod={37(5)},amod={orchid(6)},nmod_tmod={today(8)},cc={and(9)},conj={bush(12):nummod={25(10)},amod={orchid(11)}}},nmod_tmod={tomorrow(13)}}</SemRep>
+	<WordList>
+		<Word idx="1">Park(1,NNP): {Park}</Word>
+		<Word idx="2">worker(2,NNS): {workers}</Word>
+		<Word idx="3">will(3,MD): {will}</Word>
+		<Word idx="4">plant(4,VB): {plant}</Word>
+		<Word idx="5">37(5,CD): {37}</Word>
+		<Word idx="6">orchid(6,JJ): {orchid}</Word>
+		<Word idx="7">bush(7,NNS): {bushes}</Word>
+		<Word idx="8">today(8,NN): {today}</Word>
+		<Word idx="9">and(9,CC): {and}</Word>
+		<Word idx="10">25(10,CD): {25}</Word>
+		<Word idx="11">orchid(11,JJ): {orchid}</Word>
+		<Word idx="12">bush(12,NNS): {bushes}</Word>
+		<Word idx="13">tomorrow(13,NN): {tomorrow}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={it(1)},dobj={[x2]worker(4):nummod={35(3)}},advcl={finish(6):mark={to(5)},dobj={work(8):det={the(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">it(1,PRP): {It}</Word>
+		<Word idx="2">take(2,VBD): {took}</Word>
+		<Word idx="3">35(3,CD): {35}</Word>
+		<Word idx="4">worker(4,NNS): {workers}</Word>
+		<Word idx="5">to(5,TO): {to}</Word>
+		<Word idx="6">finish(6,VB): {finish}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">work(8,NN): {work}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(8):dobj={bush(4):amod={many(2):advmod={how(1)}},amod={orchid(3)}},aux={will(5)},nsubj={[x1]park(7):det={the(6)}},advcl={finish(13):advmod={when(9)},nsubjpass={[x2]worker(11):det={the(10)}},auxpass={be(12)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">orchid(3,JJ): {orchid}</Word>
+		<Word idx="4">bush(4,NNS): {bushes}</Word>
+		<Word idx="5">will(5,MD): {will}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">park(7,NN): {park}</Word>
+		<Word idx="8">have(8,VBP): {have}</Word>
+		<Word idx="9">when(9,WRB): {when}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">worker(11,NNS): {workers}</Word>
+		<Word idx="12">be(12,VBP): {are}</Word>
+		<Word idx="13">finish(13,VBN): {finished}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

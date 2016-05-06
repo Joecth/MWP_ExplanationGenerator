@@ -1,0 +1,159 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w12 be)
+		(s1w2 start)
+		(s1w1 before)
+		(s1w4 shift)
+		(s1w3 she)
+		(s1w7 check)
+		(s1w5 a)
+		(s1w6 waitress)
+		(s1w9 make)
+		(s1w8 to)
+		(s1w10 sure)
+		(s1w11 there)
+		(s1w14 mustard)
+		(s1w13 enough)
+		(s1w17 customer)
+		(s1w15 for)
+		(s1w16 she)
+	)
+
+	(LF1
+		(HEAD v1 s1w12)
+		(advcl v1 s1w2)
+		(mark v1 s1w1)
+		(dobj v1 n3)
+		(head n3 s1w4)
+		(nmod_poss n3 s1w3)
+		(dobj v1 n4)
+		(head n4 s1w7)
+		(det n4 s1w5)
+		(compound n4 n5)
+		(head n5 s1w6)
+		(advcl v1 s1w9)
+		(mark v1 s1w8)
+		(xcomp v1 s1w10)
+		(expl v1 s1w11)
+		(nsubj v1 n6)
+		(head n6 s1w14)
+		(amod n6 s1w13)
+		(nmod n6 n7)
+		(head n7 s1w17)
+		(case n7 s1w15)
+		(nmod_poss n7 s1w16)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 find)
+		(s2w1 she)
+		(s2w4 bottle)
+		(s2w3 0.25)
+		(s2w8 table)
+		(s2w5 at)
+		(s2w6 the)
+		(s2w7 first)
+		(s2w10 bottle)
+		(s2w9 0.25)
+		(s2w14 table)
+		(s2w11 at)
+		(s2w12 the)
+		(s2w13 second)
+		(s2w15 and)
+		(s2w17 bottle)
+		(s2w16 0.375)
+		(s2w21 table)
+		(s2w18 at)
+		(s2w19 the)
+		(s2w20 third)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n8)
+		(head n8 s2w4)
+		(nummod n8 s2w3)
+		(nmod n8 n1)
+		(head n1 s2w8)
+		(case n1 s2w5)
+		(det n1 s2w6)
+		(amod n1 s2w7)
+		(conj n8 n10)
+		(head n10 s2w10)
+		(nummod n10 s2w9)
+		(nmod n10 n11)
+		(head n11 s2w14)
+		(case n11 s2w11)
+		(det n11 s2w12)
+		(amod n11 s2w13)
+		(cj_op j1 and)
+		(conj n8 n12)
+		(head n12 s2w17)
+		(nummod n12 s2w16)
+		(nmod n12 n13)
+		(head n13 s2w21)
+		(case n13 s2w18)
+		(det n13 s2w19)
+		(amod n13 s2w20)
+	)
+
+	(LF2
+		(= (quan q2 s2w4 s2w8) 0.25)(verb q2 s2w2)(role q2 nmod)
+		(= (quan q4 s2w10 s2w8) 0.25)(verb q4 s2w2)(role q4 nmod)
+		(= (quan q6 s2w17 s2w8) 0.375)(verb q6 s2w2)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w10 find)
+		(s3w1 altogether)
+		(s3w4 bottle)
+		(s3w3 many)
+		(s3w2 how)
+		(s3w6 mustard)
+		(s3w5 of)
+		(s3w7 do)
+		(s3w9 waitress)
+		(s3w8 the)
+	)
+
+	(LF1
+		(verb v3 s3w10)
+		(dep v3 s3w1)
+		(dobj v3 n14)
+		(head n14 s3w4)
+		(amod n14 s3w3)
+		(advmod n14 s3w2)
+		(nmod n14 n2)
+		(head n2 s3w6)
+		(case n2 s3w5)
+		(aux v3 s3w7)
+		(nsubj v3 n16)
+		(head n16 s3w9)
+		(det n16 s3w8)
+	)
+
+	(LF2
+		
+		(= (quan q2 s2w4 s2w8) 0.25) (= (tvq v1 s2w4 s2w8 t0) (quan q2 s2w4 s2w8))
+		(= (quan q4 s2w10 s2w8) 0.25) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 s2w17 s2w8) 0.375) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 s3w4 s2w8 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,100 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 use)
+		(s1w2 make)
+		(s1w1 while)
+		(s1w3 pastry)
+		(s1w5 bakery)
+		(s1w4 a)
+		(s1w8 bag)
+		(s1w7 0.2)
+		(s1w11 flour)
+		(s1w9 of)
+		(s1w10 wheat)
+		(s1w12 and)
+		(s1w14 bag)
+		(s1w13 0.1)
+		(s1w17 flour)
+		(s1w15 of)
+		(s1w16 white)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(advcl v1 s1w2)
+		(mark v1 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w3)
+		(nsubj v1 n5)
+		(head n5 s1w5)
+		(det n5 s1w4)
+		(dobj v1 n1)
+		(head n1 s1w8)
+		(nummod n1 s1w7)
+		(nmod n1 n7)
+		(head n7 s1w11)
+		(case n7 s1w9)
+		(compound n7 n8)
+		(head n8 s1w10)
+		(cj_op j1 and)
+		(conj n1 n2)
+		(head n2 s1w14)
+		(nummod n2 s1w13)
+		(nmod n2 n10)
+		(head n10 s1w17)
+		(case n10 s1w15)
+		(amod n10 s1w16)
+	)
+
+	(LF2
+		(= (quan q2 # s1w8) 0.2)(verb q2 s1w6)(role q2 dobj)
+		(= (quan q4 # s1w14) 0.1)(verb q4 s1w6)(role q4 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 do)
+		(s2w3 bag)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 flour)
+		(s2w4 of)
+		(s2w9 use)
+		(s2w7 the)
+		(s2w8 bakery)
+		(s2w11 all)
+		(s2w10 in)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(nsubj v2 n3)
+		(head n3 s2w3)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(nmod n3 n12)
+		(head n12 s2w5)
+		(case n12 s2w4)
+		(verb v2 n13)
+		(head n13 s2w9)
+		(det n13 s2w7)
+		(compound n13 n14)
+		(head n14 s2w8)
+		(nmod v2 s2w11)
+		(case v2 s2w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w8) (quan q4 # s1w14)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,135 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 find)
+		(s1w1 Suzie)
+		(s1w4 worm)
+		(s1w3 2)
+		(s1w7 yard)
+		(s1w5 in)
+		(s1w6 the)
+		(s1w8 and)
+		(s1w9 measure)
+		(s1w10 they)
+		(s1w13 ruler)
+		(s1w11 with)
+		(s1w12 a)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(nmod v1 n5)
+		(head n5 s1w7)
+		(case n5 s1w5)
+		(det n5 s1w6)
+		(cj_op j1 and)
+		(conj v1 s1w9)
+		(dobj v1 s1w10)
+		(nmod v1 n6)
+		(head n6 s1w13)
+		(case n6 s1w11)
+		(det n6 s1w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 2)(verb q2 s1w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 be)
+		(s2w2 worm)
+		(s2w1 1)
+		(s2w6 long)
+		(s2w5 inch)
+		(s2w4 0.8)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n2)
+		(head n2 s2w2)
+		(nummod n2 s2w1)
+		(advmod v2 s2w6)
+		(nmod_npmod v2 n8)
+		(head n8 s2w5)
+		(nummod n8 s2w4)
+	)
+
+	(LF2
+		(= (quan q4 # s2w2) 1)(verb q4 s2w3)(role q4 nsubj)
+		(= (quan q6 s2w5 s2w2) 0.8)(verb q6 s2w3)(role q6 nsubj)
+		(q_map m1 q4 q6)(verb m1 s2w3)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w4 be)
+		(s3w3 worm)
+		(s3w1 the)
+		(s3w2 other)
+		(s3w7 long)
+		(s3w6 inch)
+		(s3w5 0.1)
+	)
+
+	(LF1
+		(verb v3 s3w4)
+		(nsubj v3 n9)
+		(head n9 s3w3)
+		(det n9 s3w1)
+		(amod n9 s3w2)
+		(advmod v3 s3w7)
+		(nmod_npmod v3 n10)
+		(head n10 s3w6)
+		(nummod n10 s3w5)
+	)
+
+	(LF2
+		(= (quan q8 s3w6 s2w2) 0.1)(verb q8 s3w4)(advmod q8 s3w7)(role q8 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w4 be)
+		(s4w2 much)
+		(s4w1 how)
+		(s4w3 longer)
+		(s4w7 worm)
+		(s4w5 the)
+		(s4w6 longer)
+	)
+
+	(LF1
+		(verb v4 s4w4)
+		(dobj v4 s4w2)
+		(advmod v4 s4w1)
+		(amod v4 s4w3)
+		(nsubj v4 n11)
+		(head n11 s4w7)
+		(det n11 s4w5)
+		(amod n11 s4w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q6 s2w5 s2w2) (quan q8 s3w6 s2w2)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

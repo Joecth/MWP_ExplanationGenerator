@@ -1,0 +1,92 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 bear)
+		(s1w2 year)
+		(s1w1 last)
+		(s1w4 people)
+		(s1w3 90171)
+		(s1w5 be)
+		(s1w9 country)
+		(s1w7 in)
+		(s1w8 a)
+		(s1w10 and)
+		(s1w13 immigrate)
+		(s1w12 people)
+		(s1w11 16320)
+		(s1w15 it)
+		(s1w14 to)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(nmod_tmod v1 n4)
+		(head n4 s1w2)
+		(amod n4 s1w1)
+		(nsubjpass v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(auxpass v1 s1w5)
+		(nmod v1 n6)
+		(head n6 s1w9)
+		(case n6 s1w7)
+		(det n6 s1w8)
+		(cj_op j1 and)
+		(verb v1 s1w13)
+		(nsubj v1 n2)
+		(head n2 s1w12)
+		(nummod n2 s1w11)
+		(nmod v1 s1w15)
+		(case v1 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 90171)(verb q2 s1w6)(role q2 nsubjpass)
+		(= (quan q4 # s1w12) 16320)(verb q4 s1w13)(role q4 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w5 begin)
+		(s2w4 people)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w3 new)
+		(s2w6 live)
+		(s2w9 country)
+		(s2w7 in)
+		(s2w8 the)
+		(s2w11 year)
+		(s2w10 last)
+	)
+
+	(LF1
+		(verb v2 s2w5)
+		(nsubj v2 n3)
+		(head n3 s2w4)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(amod n3 s2w3)
+		(xcomp v2 s2w6)
+		(nmod v2 n9)
+		(head n9 s2w9)
+		(case n9 s2w7)
+		(det n9 s2w8)
+		(nmod_tmod v2 n10)
+		(head n10 s2w11)
+		(amod n10 s2w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w4) (quan q4 # s1w12)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

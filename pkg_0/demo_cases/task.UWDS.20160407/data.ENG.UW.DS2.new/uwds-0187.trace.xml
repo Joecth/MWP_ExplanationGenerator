@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>0.9class</CHUNK>
+          <CHUNK>OP_Addition</CHUNK>
+            <CHUNK>0.7class</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>0.2class</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_175'>
+    0.9class
+    Addition
+    <math ID='NULL'>
+      0.7class
+    </math>
+    <math ID='NULL'>
+      0.2class
+    </math>
+  </math>
+  <ctx ID='ctx_172'>
+    <__one_line_xml_ASK__ANS>0.9</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_171'>
+      ( CLUE::Input ( ASK ANS ( Addition ( quan q2 # s1w6 ) ( quan q4 # s1w6 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_175'>
+      ( CLUE::Util ( Addition 0.7 0.2 = 0.9 ) )
+      ( CLUE::Util ( Val1 ( m_real 0.7 ) ( m_fact ( quan q2 # s1w6 ) ( 0.7 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 0.2 ) ( m_fact ( quan q4 # s1w6 ) ( 0.2 ) ) ) )
+      <ctx ID='ctx_111'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w6 ) 0.7 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w6 ) 0.7 ) )
+        ( CLUE::Create-Fact ( quan q2 # s1w6 ) ( 0.7 ) )
+        <ctx ID='ctx_110'>
+          ( CLUE::Input ( = ( quan q2 # s1w6 ) 0.7 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_119'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w6 ) 0.2 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w6 ) 0.2 ) )
+        ( CLUE::Create-Fact ( quan q4 # s1w6 ) ( 0.2 ) )
+        <ctx ID='ctx_118'>
+          ( CLUE::Input ( = ( quan q4 # s1w6 ) 0.2 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

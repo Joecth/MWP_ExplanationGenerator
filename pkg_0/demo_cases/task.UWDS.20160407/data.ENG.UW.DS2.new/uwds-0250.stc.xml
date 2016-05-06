@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{start(3):nsubj={[x2]farmer(2):det={a(1)}},nmod_tmod={day(5):det={the(4)}},nmod={bucket(8):case={with(6)},nummod={8.75(7)},nmod={[x1]seed(10):case={of(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">farmer(2,NN): {farmer}</Word>
+		<Word idx="3">start(3,VBD): {started}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">day(5,NN): {day}</Word>
+		<Word idx="6">with(6,IN): {with}</Word>
+		<Word idx="7">8.75(7,CD): {8.75}</Word>
+		<Word idx="8">bucket(8,NNS): {buckets}</Word>
+		<Word idx="9">of(9,IN): {of}</Word>
+		<Word idx="10">seed(10,NNS): {seeds}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(10):advcl={spend(2):mark={after(1)},dobj={[x1]seed(6):det={the(3)},compound={morning(4)},compound={sowing(5)}}},nsubj={[x2]she(8)},advmod={now(9)},dobj={bucket(12):nummod={6(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">after(1,IN): {After}</Word>
+		<Word idx="2">spend(2,VBG): {spending}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">morning(4,NN): {morning}</Word>
+		<Word idx="5">sowing(5,NN): {sowing}</Word>
+		<Word idx="6">seed(6,NNS): {seeds}</Word>
+		<Word idx="7">she(8,PRP): {she}</Word>
+		<Word idx="8">now(9,RB): {now}</Word>
+		<Word idx="9">have(10,VBZ): {has}</Word>
+		<Word idx="10">6(11,CD): {6}</Word>
+		<Word idx="11">bucket(12,NNS): {buckets}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sow(9):dobj={bucket(3):amod={many(2):advmod={how(1)}},nmod={seed(5):case={of(4)}}},aux={do(6)},nsubj={[x2]farmer(8):det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">bucket(3,NNS): {buckets}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">seed(5,NNS): {seeds}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">farmer(8,NN): {farmer}</Word>
+		<Word idx="9">sow(9,VB): {sow}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>1.333333footlamp</CHUNK>
+          <CHUNK>OP_Subtraction</CHUNK>
+            <CHUNK>2.3333333333333335footlamp</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>1footlamp</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_209'>
+    1.333333footlamp
+    Subtraction
+    <math ID='NULL'>
+      2.3333333333333335footlamp
+    </math>
+    <math ID='NULL'>
+      1footlamp
+    </math>
+  </math>
+  <ctx ID='ctx_206'>
+    <__one_line_xml_ASK__ANS>1.333333</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_205'>
+      ( CLUE::Input ( ASK ANS ( Subtraction ( quan q4 s2w14 s2w3 ) ( quan q2 s2w6 s2w3 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_209'>
+      ( CLUE::Util ( Subtraction 2.333333 1 = 1.333333 ) )
+      ( CLUE::Util ( Val1 ( m_real 2.33333 ) ( m_fact ( quan q4 foot s1w6 ) ( 2.3333333333333335 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 1 ) ( m_fact ( quan q2 foot s1w6 ) ( 1 ) ) ) )
+      <ctx ID='ctx_154'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 foot s1w6 ) 2.3333333333333335 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 foot s1w6 ) 2.3333333333333335 ) )
+        ( CLUE::Create-Fact ( quan q4 foot s1w6 ) ( 2.3333333333333335 ) )
+        <ctx ID='ctx_153'>
+          ( CLUE::Input ( = ( quan q4 s2w14 s2w3 ) 2.3333333333333335 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_141'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 foot s1w6 ) 1 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 foot s1w6 ) 1 ) )
+        ( CLUE::Create-Fact ( quan q2 foot s1w6 ) ( 1 ) )
+        <ctx ID='ctx_140'>
+          ( CLUE::Input ( = ( quan q2 s2w6 s2w3 ) 1 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

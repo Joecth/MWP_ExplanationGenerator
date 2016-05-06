@@ -1,0 +1,95 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w16 apartment)
+		(s1w5 complex)
+		(s1w1 in)
+		(s1w2 Shannon)
+		(s1w3 's)
+		(s1w4 apartment)
+		(s1w6 0.16666666666666666)
+		(s1w11 apartment)
+		(s1w8 apartment)
+		(s1w7 the)
+		(s1w9 be)
+		(s1w10 one-bedroom)
+		(s1w12 and)
+		(s1w13 0.3333333333333333)
+		(s1w14 be)
+		(s1w15 two-bedroom)
+	)
+
+	(LF1
+		(head n1 s1w16)
+		(nmod n1 n4)
+		(head n4 s1w5)
+		(case n4 s1w1)
+		(nmod_poss n4 n5)
+		(head n5 s1w2)
+		(case n5 s1w3)
+		(compound n4 n6)
+		(head n6 s1w4)
+		(nsubj n1 s1w6)
+		(acl_relcl n1 n2)
+		(head n2 s1w11)
+		(nsubj n2 n8)
+		(head n8 s1w8)
+		(det n8 s1w7)
+		(verb n2 s1w9)
+		(amod n2 s1w10)
+		(cj_op j1 and)
+		(conj n2 s1w13)
+		(verb n1 s1w14)
+		(amod n1 s1w15)
+	)
+
+	(LF2
+		(= (quan q2 # s1w16) 0.16666666666666666)(verb q2 s1w14)
+		(= (quan q4 # s1w11) 0.3333333333333333)(verb q4 s1w9)(role q4 acl_relcl)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w7 either)
+		(s2w2 fraction)
+		(s2w1 what)
+		(s2w5 apartment)
+		(s2w3 of)
+		(s2w4 the)
+		(s2w6 be)
+		(s2w8 1)
+		(s2w9 or)
+		(s2w11 apartment)
+		(s2w10 two-bedroom)
+	)
+
+	(LF1
+		(HEAD x1 s2w7)
+		(nsubj x1 n9)
+		(head n9 s2w2)
+		(det n9 s2w1)
+		(nmod n9 n10)
+		(head n10 s2w5)
+		(case n10 s2w3)
+		(det n10 s2w4)
+		(cop x1 s2w6)
+		(dep x1 s2w8)
+		(cc x1 s2w9)
+		(conj x1 n11)
+		(head n11 s2w11)
+		(amod n11 s2w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w16) (quan q4 # s1w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

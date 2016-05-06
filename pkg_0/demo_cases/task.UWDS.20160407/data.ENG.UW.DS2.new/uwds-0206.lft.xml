@@ -1,0 +1,101 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w17 4d)
+		(s1w4 store)
+		(s1w1 at)
+		(s1w2 the)
+		(s1w3 hardware)
+		(s1w5 0.25)
+		(s1w10 2d)
+		(s1w7 nail)
+		(s1w6 the)
+		(s1w8 be)
+		(s1w9 size)
+		(s1w11 and)
+		(s1w12 0.5)
+		(s1w14 nail)
+		(s1w13 the)
+		(s1w15 be)
+		(s1w16 size)
+	)
+
+	(LF1
+		(head n1 s1w17)
+		(nmod n1 n4)
+		(head n4 s1w4)
+		(case n4 s1w1)
+		(det n4 s1w2)
+		(compound n4 n5)
+		(head n5 s1w3)
+		(nsubj n1 s1w5)
+		(acl_relcl n1 n2)
+		(head n2 s1w10)
+		(nsubj n2 n7)
+		(head n7 s1w7)
+		(det n7 s1w6)
+		(verb n2 s1w8)
+		(compound n2 n8)
+		(head n8 s1w9)
+		(cj_op j1 and)
+		(conj n2 s1w12)
+		(dep n2 n9)
+		(head n9 s1w14)
+		(det n9 s1w13)
+		(verb n1 s1w15)
+		(compound n1 n10)
+		(head n10 s1w16)
+	)
+
+	(LF2
+		(= (quan q2 # s1w17) 0.25)(verb q2 s1w15)
+		(= (quan q4 # s1w10) 0.5)(verb q4 s1w8)(role q4 acl_relcl)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 be)
+		(s2w2 fraction)
+		(s2w1 what)
+		(s2w5 nail)
+		(s2w3 of)
+		(s2w4 the)
+		(s2w9 2d)
+		(s2w7 either)
+		(s2w8 size)
+		(s2w10 or)
+		(s2w11 4d)
+	)
+
+	(LF1
+		(HEAD v1 s2w6)
+		(dobj v1 n11)
+		(head n11 s2w2)
+		(det n11 s2w1)
+		(nmod n11 n12)
+		(head n12 s2w5)
+		(case n12 s2w3)
+		(det n12 s2w4)
+		(nsubj v1 n13)
+		(head n13 s2w9)
+		(det n13 s2w7)
+		(compound n13 n14)
+		(head n14 s2w8)
+		(cc n13 s2w10)
+		(conj n13 n15)
+		(head n15 s2w11)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w17) (quan q4 # s1w10)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

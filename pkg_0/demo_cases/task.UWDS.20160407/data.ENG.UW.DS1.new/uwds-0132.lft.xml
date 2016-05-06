@@ -1,0 +1,133 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 join)
+		(s1w1 Jason)
+		(s1w6 band)
+		(s1w4 school)
+		(s1w3 he)
+		(s1w5 's)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w6)
+		(nmod_poss n5 n6)
+		(head n6 s1w4)
+		(nmod_poss n6 s1w3)
+		(case n6 s1w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 buy)
+		(s2w1 he)
+		(s2w4 flute)
+		(s2w3 a)
+		(s2w7 142.46)
+		(s2w5 for)
+		(s2w6 USD)
+		(s2w10 tool)
+		(s2w8 a)
+		(s2w9 music)
+		(s2w13 8.89)
+		(s2w11 for)
+		(s2w12 USD)
+		(s2w14 and)
+		(s2w17 book)
+		(s2w15 a)
+		(s2w16 song)
+		(s2w20 7)
+		(s2w18 for)
+		(s2w19 USD)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n7)
+		(head n7 s2w4)
+		(det n7 s2w3)
+		(nmod n7 s2w7)
+		(case n7 s2w5)
+		(dep n7 n1)
+		(head n1 s2w6)
+		(conj n7 n8)
+		(head n8 s2w10)
+		(det n8 s2w8)
+		(compound n8 n9)
+		(head n9 s2w9)
+		(nmod n8 s2w13)
+		(case n8 s2w11)
+		(dep n8 n2)
+		(head n2 s2w12)
+		(cj_op j1 and)
+		(conj n7 n10)
+		(head n10 s2w17)
+		(det n10 s2w15)
+		(compound n10 n11)
+		(head n11 s2w16)
+		(nmod n10 s2w20)
+		(case n10 s2w18)
+		(dep n10 n3)
+		(head n3 s2w19)
+	)
+
+	(LF2
+		(= (quan q2 # s2w6) 142.46)(verb q2 s2w2)(role q2 dep)
+		(= (quan q4 # s2w12) 8.89)(verb q4 s2w2)(role q4 dep)
+		(= (quan q6 # s2w19) 7)(verb q6 s2w2)(role q6 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w5 spend)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w3 do)
+		(s3w4 Jason)
+		(s3w9 store)
+		(s3w6 at)
+		(s3w7 the)
+		(s3w8 music)
+	)
+
+	(LF1
+		(verb v3 s3w5)
+		(dep v3 s3w2)
+		(advmod v3 s3w1)
+		(aux v3 s3w3)
+		(nsubj v3 n12)
+		(head n12 s3w4)
+		(nmod v3 n13)
+		(head n13 s3w9)
+		(case n13 s3w6)
+		(det n13 s3w7)
+		(compound n13 n14)
+		(head n14 s3w8)
+	)
+
+	(LF2
+		
+		(= (quan q2 # s2w6) 142.46) (= (tvq v1 # s2w6 t0) (quan q2 # s2w6))
+		(= (quan q4 # s2w12) 8.89) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 # s2w19) 7) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 # s2w19 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

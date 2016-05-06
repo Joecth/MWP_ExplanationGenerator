@@ -1,0 +1,122 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 pour)
+		(s1w4 day)
+		(s1w1 on)
+		(s1w2 a)
+		(s1w3 hot)
+		(s1w5 Sam)
+		(s1w8 bucket)
+		(s1w7 1)
+		(s1w10 water)
+		(s1w9 of)
+		(s1w15 pool)
+		(s1w11 into)
+		(s1w12 a)
+		(s1w13 plastic)
+		(s1w14 wade)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(nmod v1 n3)
+		(head n3 s1w4)
+		(case n3 s1w1)
+		(det n3 s1w2)
+		(amod n3 s1w3)
+		(nsubj v1 n4)
+		(head n4 s1w5)
+		(dobj v1 n5)
+		(head n5 s1w8)
+		(nummod n5 s1w7)
+		(nmod n5 n1)
+		(head n1 s1w10)
+		(case n1 s1w9)
+		(nmod v1 n7)
+		(head n7 s1w15)
+		(case n7 s1w11)
+		(det n7 s1w12)
+		(compound n7 n8)
+		(head n8 s1w13)
+		(amod n7 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 s1w8 s1w10) 1)(verb q2 s1w6)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w6 add)
+		(s2w4 later)
+		(s2w3 minute)
+		(s2w1 a)
+		(s2w2 few)
+		(s2w5 he)
+		(s2w9 bucket)
+		(s2w8 8.8)
+		(s2w7 another)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(advmod v2 s2w4)
+		(nmod_npmod v2 n9)
+		(head n9 s2w3)
+		(det n9 s2w1)
+		(amod n9 s2w2)
+		(nsubj v2 s2w5)
+		(dobj v2 n10)
+		(head n10 s2w9)
+		(nummod n10 s2w8)
+		(advmod n10 s2w7)
+	)
+
+	(LF2
+		(= (quan q4 s2w9 s1w10) 8.8)(verb q4 s2w6)(advmod q4 s2w4)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 pour)
+		(s3w3 water)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w4 do)
+		(s3w5 Sam)
+		(s3w9 pool)
+		(s3w7 into)
+		(s3w8 the)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dobj v3 n2)
+		(head n2 s3w3)
+		(amod n2 s3w2)
+		(advmod n2 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n12)
+		(head n12 s3w5)
+		(nmod v3 n13)
+		(head n13 s3w9)
+		(case n13 s3w7)
+		(det n13 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w8 s1w10) (quan q4 s2w9 s1w10)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

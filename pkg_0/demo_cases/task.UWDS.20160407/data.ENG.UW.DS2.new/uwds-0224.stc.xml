@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{record(5):nsubj={[x1]class(4):nmod_poss={Bonnie(1):case={'s(2)}},compound={science(3)}},dobj={rainfall(7):det={the(6)}},nmod_tmod={day(9):det={each(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Bonnie(1,NNP): {Bonnie}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">science(3,NN): {science}</Word>
+		<Word idx="4">class(4,NN): {class}</Word>
+		<Word idx="5">record(5,VBD): {recorded}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">rainfall(7,NNS): {rainfall}</Word>
+		<Word idx="8">each(8,DT): {each}</Word>
+		<Word idx="9">day(9,NN): {day}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{record(2):nsubj={[x1]they(1)},dobj={centimeter(4):nummod={0.16666666666666666(3)},nmod={rain(6):case={of(5)},nmod={Monday(8):case={on(7)}}},conj={centimeter(11):nummod={0.4166666666666667(10)},nmod={rain(13):case={of(12)},nmod={Tuesday(15):case={on(14)}}}},cc={and(17)},conj={centimeter(19):nummod={0.08333333333333333(18)},nmod={rain(21):case={of(20)}}}},nmod={Wednesday(23):case={on(22)}}}</SemRep>
+	<WordList>
+		<Word idx="1">they(1,PRP): {They}</Word>
+		<Word idx="2">record(2,VBD): {recorded}</Word>
+		<Word idx="3">0.16666666666666666(3,CD): {0.16666666666666666}</Word>
+		<Word idx="4">centimeter(4,NN): {centimeter}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">rain(6,NN): {rain}</Word>
+		<Word idx="7">on(7,IN): {on}</Word>
+		<Word idx="8">Monday(8,NNP): {Monday}</Word>
+		<Word idx="9">0.4166666666666667(10,CD): {0.4166666666666667}</Word>
+		<Word idx="10">centimeter(11,NN): {centimeter}</Word>
+		<Word idx="11">of(12,IN): {of}</Word>
+		<Word idx="12">rain(13,NN): {rain}</Word>
+		<Word idx="13">on(14,IN): {on}</Word>
+		<Word idx="14">Tuesday(15,NNP): {Tuesday}</Word>
+		<Word idx="15">and(17,CC): {and}</Word>
+		<Word idx="16">0.08333333333333333(18,CD): {0.08333333333333333}</Word>
+		<Word idx="17">centimeter(19,NN): {centimeter}</Word>
+		<Word idx="18">of(20,IN): {of}</Word>
+		<Word idx="19">rain(21,NN): {rain}</Word>
+		<Word idx="20">on(22,IN): {on}</Word>
+		<Word idx="21">Wednesday(23,NNP): {Wednesday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(6):nsubj={centimeter(3):amod={many(2):advmod={how(1)}},nmod={rain(5):case={of(4)}}},dobj={record(9):det={the(7)},compound={class(8)}},nmod={all(11):case={in(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">centimeter(3,NNS): {centimeters}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">rain(5,NN): {rain}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">class(8,NN): {class}</Word>
+		<Word idx="9">record(9,NN): {record}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">all(11,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">TimeVariantUnknownFinal</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

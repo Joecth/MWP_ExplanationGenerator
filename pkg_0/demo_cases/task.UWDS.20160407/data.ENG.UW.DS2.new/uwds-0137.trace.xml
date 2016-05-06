@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>8564poundhoney</CHUNK>
+          <CHUNK>OP_Addition</CHUNK>
+            <CHUNK>2479poundhoney</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>6085poundhoney</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_213'>
+    8564poundhoney
+    Addition
+    <math ID='NULL'>
+      2479poundhoney
+    </math>
+    <math ID='NULL'>
+      6085poundhoney
+    </math>
+  </math>
+  <ctx ID='ctx_210'>
+    <__one_line_xml_ASK__ANS>8564</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_209'>
+      ( CLUE::Input ( ASK ANS ( Addition ( quan q2 s2w6 s2w8 ) ( quan q4 s3w15 s2w8 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_213'>
+      ( CLUE::Util ( Addition 2479 6085 = 8564 ) )
+      ( CLUE::Util ( Val1 ( m_real 2479 ) ( m_fact ( quan q2 pound s2w8 ) ( 2479 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 6085 ) ( m_fact ( quan q4 pound s2w8 ) ( 6085 ) ) ) )
+      <ctx ID='ctx_91'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 pound s2w8 ) 2479 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 pound s2w8 ) 2479 ) )
+        ( CLUE::Create-Fact ( quan q2 pound s2w8 ) ( 2479 ) )
+        <ctx ID='ctx_90'>
+          ( CLUE::Input ( = ( quan q2 s2w6 s2w8 ) 2479 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_159'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 pound s2w8 ) 6085 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 pound s2w8 ) 6085 ) )
+        ( CLUE::Create-Fact ( quan q4 pound s2w8 ) ( 6085 ) )
+        <ctx ID='ctx_158'>
+          ( CLUE::Input ( = ( quan q4 s3w15 s2w8 ) 6085 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

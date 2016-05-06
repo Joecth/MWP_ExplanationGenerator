@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{grow(2):nsubj={Keith(1)},dobj={[x1]turnip(4):nummod={6(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Keith(1,NNP): {Keith}</Word>
+		<Word idx="2">grow(2,VBD): {grew}</Word>
+		<Word idx="3">6(3,CD): {6}</Word>
+		<Word idx="4">turnip(4,NNS): {turnips}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{grow(2):nsubj={Alyssa(1)},dobj={[x1]turnip(4):nummod={9(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Alyssa(1,NNP): {Alyssa}</Word>
+		<Word idx="2">grow(2,VBD): {grew}</Word>
+		<Word idx="3">9(3,CD): {9}</Word>
+		<Word idx="4">turnip(4,NNS): {turnips}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{grow(6):advmod={how(1):dep={[x2]turnip(3):amod={many(2)}}},aux={do(4)},nsubj={[x2]they(5)},nmod={all(8):case={in(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">turnip(3,NNS): {turnips}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">grow(6,VB): {grow}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">all(8,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

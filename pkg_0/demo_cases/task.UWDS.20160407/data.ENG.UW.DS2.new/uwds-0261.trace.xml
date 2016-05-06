@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>9.12poundball</CHUNK>
+          <CHUNK>OP_Addition</CHUNK>
+            <CHUNK>6poundball</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>3.12poundball</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_234'>
+    9.12poundball
+    Addition
+    <math ID='NULL'>
+      6poundball
+    </math>
+    <math ID='NULL'>
+      3.12poundball
+    </math>
+  </math>
+  <ctx ID='ctx_231'>
+    <__one_line_xml_ASK__ANS>9.12</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_230'>
+      ( CLUE::Input ( ASK ANS ( Addition ( quan q4 s2w6 s2w3 ) ( quan q6 s2w13 s2w3 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_234'>
+      ( CLUE::Util ( Addition 6 3.12 = 9.12 ) )
+      ( CLUE::Util ( Val1 ( m_real 6 ) ( m_fact ( quan q4 pound s1w6 ) ( 6 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 3.12 ) ( m_fact ( quan q6 pound s1w6 ) ( 3.12 ) ) ) )
+      <ctx ID='ctx_147'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 pound s1w6 ) 6 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 pound s1w6 ) 6 ) )
+        ( CLUE::Create-Fact ( quan q4 pound s1w6 ) ( 6 ) )
+        <ctx ID='ctx_146'>
+          ( CLUE::Input ( = ( quan q4 s2w6 s2w3 ) 6 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_155'>
+        ( CLUE::EVAL::LF2 ( = ( quan q6 pound s1w6 ) 3.12 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q6 pound s1w6 ) 3.12 ) )
+        ( CLUE::Create-Fact ( quan q6 pound s1w6 ) ( 3.12 ) )
+        <ctx ID='ctx_154'>
+          ( CLUE::Input ( = ( quan q6 s2w13 s2w3 ) 3.12 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

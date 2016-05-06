@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{go(8):nsubj={year(2):det={each(1)},appos={travel(5):compound={salmon(4)},advmod={upstream(6)}}},nmod={ocean(11):case={from(9)},det={the(10)}},nmod={[x1]river(14):case={to(12)},det={the(13)},acl_relcl={bear(18):advmod={where(15)},nsubjpass={[x2]they(16)},auxpass={be(17)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">each(1,DT): {Each}</Word>
+		<Word idx="2">year(2,NN): {year}</Word>
+		<Word idx="3">salmon(4,NN): {salmon}</Word>
+		<Word idx="4">travel(5,NN): {travel}</Word>
+		<Word idx="5">upstream(6,RB): {upstream}</Word>
+		<Word idx="6">go(8,VBG): {going}</Word>
+		<Word idx="7">from(9,IN): {from}</Word>
+		<Word idx="8">the(10,DT): {the}</Word>
+		<Word idx="9">ocean(11,NN): {ocean}</Word>
+		<Word idx="10">to(12,TO): {to}</Word>
+		<Word idx="11">the(13,DT): {the}</Word>
+		<Word idx="12">river(14,NNS): {rivers}</Word>
+		<Word idx="13">where(15,WRB): {where}</Word>
+		<Word idx="14">they(16,PRP): {they}</Word>
+		<Word idx="15">be(17,VBD): {were}</Word>
+		<Word idx="16">bear(18,VBN): {born}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{return(10):nmod_tmod={year(2):det={this(1)}},nsubj={[x2]male(5):nummod={712261(4)},cc={and(6)},conj={salmon(9):nummod={259378(7)},amod={female(8)}}},nmod={[x1]river(13):case={to(11)},nmod_poss={[x2]they(12)}}}</SemRep>
+	<WordList>
+		<Word idx="1">this(1,DT): {This}</Word>
+		<Word idx="2">year(2,NN): {year}</Word>
+		<Word idx="3">712261(4,CD): {712261}</Word>
+		<Word idx="4">male(5,NN): {male}</Word>
+		<Word idx="5">and(6,CC): {and}</Word>
+		<Word idx="6">259378(7,CD): {259378}</Word>
+		<Word idx="7">female(8,JJ): {female}</Word>
+		<Word idx="8">salmon(9,NN): {salmon}</Word>
+		<Word idx="9">return(10,VBD): {returned}</Word>
+		<Word idx="10">to(11,TO): {to}</Word>
+		<Word idx="11">they(12,PRPS): {their}</Word>
+		<Word idx="12">river(13,NNS): {rivers}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(4):nsubj={salmon(3):amod={many(2):advmod={how(1)}}},dobj={trip(6):det={the(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">salmon(3,NN): {salmon}</Word>
+		<Word idx="4">make(4,VBD): {made}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">trip(6,NN): {trip}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

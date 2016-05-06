@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Brennan(1)},dobj={gram(4):nummod={0.25(3)},nmod={pepper(6):case={of(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Brennan(1,NNP): {Brennan}</Word>
+		<Word idx="2">have(2,VBD): {had}</Word>
+		<Word idx="3">0.25(3,CD): {0.25}</Word>
+		<Word idx="4">gram(4,NNS): {grams}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">pepper(6,NN): {pepper}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(3):advmod={then(1)},nsubj={[x1]he(2)},dobj={gram(5):nummod={0.16(4)},nmod={pepper(8):case={of(6)},det={the(7)},acl={make(10):mark={to(9)},ccomp={scramble(12):nsubj={some(11)},dobj={egg(13)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">then(1,RB): {Then}</Word>
+		<Word idx="2">he(2,PRP): {he}</Word>
+		<Word idx="3">use(3,VBD): {used}</Word>
+		<Word idx="4">0.16(4,CD): {0.16}</Word>
+		<Word idx="5">gram(5,NNS): {grams}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">pepper(8,NN): {pepper}</Word>
+		<Word idx="9">to(9,TO): {to}</Word>
+		<Word idx="10">make(10,VB): {make}</Word>
+		<Word idx="11">some(11,DT): {some}</Word>
+		<Word idx="12">scramble(12,VBD): {scrambled}</Word>
+		<Word idx="13">egg(13,NNS): {eggs}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dobj={pepper(3):amod={much(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Brennan(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">pepper(3,NN): {pepper}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">Brennan(5,NNP): {Brennan}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

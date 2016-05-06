@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>6029gallonpaint</CHUNK>
+          <CHUNK>OP_Subtraction</CHUNK>
+            <CHUNK>6689gallonpaint</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>660gallonpaint</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_211'>
+    6029gallonpaint
+    Subtraction
+    <math ID='NULL'>
+      6689gallonpaint
+    </math>
+    <math ID='NULL'>
+      660gallonpaint
+    </math>
+  </math>
+  <ctx ID='ctx_208'>
+    <__one_line_xml_ASK__ANS>6029</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_207'>
+      ( CLUE::Input ( ASK ANS ( Subtraction ( quan q2 s1w17 s1w19 ) ( quan q4 s2w5 s1w19 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_211'>
+      ( CLUE::Util ( Subtraction 6689 660 = 6029 ) )
+      ( CLUE::Util ( Val1 ( m_real 6689 ) ( m_fact ( quan q2 gallon s1w3 ) ( 6689 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 660 ) ( m_fact ( quan q4 gallon s1w3 ) ( 660 ) ) ) )
+      <ctx ID='ctx_121'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 gallon s1w3 ) 6689 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 gallon s1w3 ) 6689 ) )
+        ( CLUE::Create-Fact ( quan q2 gallon s1w3 ) ( 6689 ) )
+        <ctx ID='ctx_120'>
+          ( CLUE::Input ( = ( quan q2 s1w17 s1w19 ) 6689 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_197'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 gallon s1w3 ) 660 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 gallon s1w3 ) 660 ) )
+        ( CLUE::Create-Fact ( quan q4 gallon s1w3 ) ( 660 ) )
+        <ctx ID='ctx_196'>
+          ( CLUE::Input ( = ( quan q4 s2w5 s1w19 ) 660 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

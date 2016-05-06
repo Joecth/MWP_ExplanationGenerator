@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{draw(2):nsubj={[x1]Ezra(1)},dobj={line(5):det={a(3)},amod={white(4)},acl_relcl={be(7):nsubj={that(6)},advmod={long(10):nmod_npmod={inch(9):nummod={7.666666666666667(8)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Ezra(1,NNP): {Ezra}</Word>
+		<Word idx="2">draw(2,VBD): {drew}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">white(4,JJ): {white}</Word>
+		<Word idx="5">line(5,NN): {line}</Word>
+		<Word idx="6">that(6,WDT): {that}</Word>
+		<Word idx="7">be(7,VBD): {was}</Word>
+		<Word idx="8">7.666666666666667(8,CD): {7.666666666666667}</Word>
+		<Word idx="9">inch(9,NNS): {inches}</Word>
+		<Word idx="10">long(10,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{draw(3):advmod={then(1)},nsubj={[x1]he(2)},dobj={[x2]line(6):det={a(4)},amod={blue(5)},acl_relcl={be(8):nsubj={that(7)},advmod={long(11):nmod_npmod={inch(10):nummod={3.3333333333333335(9)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">then(1,RB): {Then}</Word>
+		<Word idx="2">he(2,PRP): {he}</Word>
+		<Word idx="3">draw(3,VBD): {drew}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">blue(5,JJ): {blue}</Word>
+		<Word idx="6">line(6,NN): {line}</Word>
+		<Word idx="7">that(7,WDT): {that}</Word>
+		<Word idx="8">be(8,VBD): {was}</Word>
+		<Word idx="9">3.3333333333333335(9,CD): {3.3333333333333335}</Word>
+		<Word idx="10">inch(10,NNS): {inches}</Word>
+		<Word idx="11">long(11,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{line(7):nsubj={much(2):advmod={how(1)}},advmod={longer(3)},cop={be(4)},det={the(5)},amod={white(6)},nmod={[x2]line(11):case={than(8)},det={the(9)},amod={blue(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">longer(3,RBR): {longer}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">white(6,JJ): {white}</Word>
+		<Word idx="7">line(7,NN): {line}</Word>
+		<Word idx="8">than(8,IN): {than}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">blue(10,JJ): {blue}</Word>
+		<Word idx="11">line(11,NN): {line}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

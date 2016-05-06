@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{learn(3):nsubj={[x1]Kendall(1)},aux={be(2)},xcomp={drive(5):mark={to(4)}},advmod={so(7)},parataxis={practice(11):nmod_tmod={weekend(9):det={this(8)}},nsubj={[x1]she(10)},xcomp={drive(12):dobj={mile(14):nummod={0.16666666666666666(13)},nmod={mother(17):case={with(15)},nmod_poss={[x1]she(16)}},cc={and(18)},conj={mile(21):det={another(19)},nummod={0.5(20)},nmod={father(24):case={with(22)},nmod_poss={[x1]she(23)}}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Kendall(1,NNP): {Kendall}</Word>
+		<Word idx="2">be(2,VBZ): {is}</Word>
+		<Word idx="3">learn(3,VBG): {learning}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">drive(5,VB): {drive}</Word>
+		<Word idx="6">so(7,RB): {so}</Word>
+		<Word idx="7">this(8,DT): {this}</Word>
+		<Word idx="8">weekend(9,NN): {weekend}</Word>
+		<Word idx="9">she(10,PRP): {she}</Word>
+		<Word idx="10">practice(11,VBD): {practiced}</Word>
+		<Word idx="11">drive(12,VBG): {driving}</Word>
+		<Word idx="12">0.16666666666666666(13,CD): {0.16666666666666666}</Word>
+		<Word idx="13">mile(14,NN): {mile}</Word>
+		<Word idx="14">with(15,IN): {with}</Word>
+		<Word idx="15">she(16,PRPS): {her}</Word>
+		<Word idx="16">mother(17,NN): {mother}</Word>
+		<Word idx="17">and(18,CC): {and}</Word>
+		<Word idx="18">another(19,DT): {another}</Word>
+		<Word idx="19">0.5(20,CD): {0.5}</Word>
+		<Word idx="20">mile(21,NN): {mile}</Word>
+		<Word idx="21">with(22,IN): {with}</Word>
+		<Word idx="22">she(23,PRPS): {her}</Word>
+		<Word idx="23">father(24,NN): {father}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{drive(5):advmod={far(2):advmod={how(1)}},aux={do(3)},nsubj={[x1]Kendall(4)},nmod={all(7):case={in(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">far(2,RB): {far}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">Kendall(4,NNP): {Kendall}</Word>
+		<Word idx="5">drive(5,VB): {drive}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">all(7,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

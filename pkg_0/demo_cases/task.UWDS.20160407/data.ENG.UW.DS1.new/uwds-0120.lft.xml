@@ -1,0 +1,127 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 decide)
+		(s1w1 Joan)
+		(s1w4 sell)
+		(s1w3 to)
+		(s1w5 all)
+		(s1w9 book)
+		(s1w6 of)
+		(s1w7 she)
+		(s1w8 old)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(xcomp v1 s1w4)
+		(mark v1 s1w3)
+		(dobj v1 s1w5)
+		(nmod v1 n5)
+		(head n5 s1w9)
+		(case n5 s1w6)
+		(nmod_poss n5 s1w7)
+		(amod n5 s1w8)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 gather)
+		(s2w1 she)
+		(s2w3 up)
+		(s2w5 book)
+		(s2w4 33)
+		(s2w7 sell)
+		(s2w6 to)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(compound_prt v2 s2w3)
+		(dobj v2 n1)
+		(head n1 s2w5)
+		(nummod n1 s2w4)
+		(advcl v2 s2w7)
+		(mark v2 s2w6)
+	)
+
+	(LF2
+		(= (quan q2 # s2w5) 33)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 sell)
+		(s3w1 she)
+		(s3w4 book)
+		(s3w3 26)
+		(s3w8 sale)
+		(s3w5 in)
+		(s3w6 a)
+		(s3w7 yard)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(nsubj v3 s3w1)
+		(dobj v3 n2)
+		(head n2 s3w4)
+		(nummod n2 s3w3)
+		(nmod v3 n8)
+		(head n8 s3w8)
+		(case n8 s3w5)
+		(det n8 s3w6)
+		(compound n8 n9)
+		(head n9 s3w7)
+	)
+
+	(LF2
+		(= (quan q4 # s3w4) 26)(verb q4 s3w2)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w7 have)
+		(s4w3 book)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 do)
+		(s4w5 Joan)
+		(s4w6 now)
+	)
+
+	(LF1
+		(verb v4 s4w7)
+		(dobj v4 n3)
+		(head n3 s4w3)
+		(amod n3 s4w2)
+		(advmod n3 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 n11)
+		(head n11 s4w5)
+		(advmod v4 s4w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s2w5) (quan q4 # s3w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

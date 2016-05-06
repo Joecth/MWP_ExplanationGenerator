@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{research(13):nmod={part(2):case={as(1)},nmod={lesson(5):case={of(3)},det={a(4)},nmod={earthquake(7):case={on(6)}}}},nsubj={class(11):det={a(9)},compound={science(10)}},aux={be(12)},dobj={movement(15):det={the(14)},nmod={[x1]line(20):case={of(16)},det={a(17)},amod={nearby(18)},compound={fault(19)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">as(1,IN): {As}</Word>
+		<Word idx="2">part(2,NN): {part}</Word>
+		<Word idx="3">of(3,IN): {of}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">lesson(5,NN): {lesson}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">earthquake(7,NNS): {earthquakes}</Word>
+		<Word idx="8">a(9,DT): {a}</Word>
+		<Word idx="9">science(10,NN): {science}</Word>
+		<Word idx="10">class(11,NN): {class}</Word>
+		<Word idx="11">be(12,VBZ): {is}</Word>
+		<Word idx="12">research(13,VBG): {researching}</Word>
+		<Word idx="13">the(14,DT): {the}</Word>
+		<Word idx="14">movement(15,NN): {movement}</Word>
+		<Word idx="15">of(16,IN): {of}</Word>
+		<Word idx="16">a(17,DT): {a}</Word>
+		<Word idx="17">nearby(18,JJ): {nearby}</Word>
+		<Word idx="18">fault(19,NN): {fault}</Word>
+		<Word idx="19">line(20,NN): {line}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{move(4):nsubj={[x1]line(3):det={the(1)},compound={fault(2)}},dobj={inch(6):nummod={1.25(5)}},nmod={year(10):case={during(7)},det={the(8)},amod={past(9)},cc={and(11)},conj={inch(13):nummod={5.25(12)},dep={year(15):det={the(14)}}},case={before(16)}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">fault(2,NN): {fault}</Word>
+		<Word idx="3">line(3,NN): {line}</Word>
+		<Word idx="4">move(4,VBD): {moved}</Word>
+		<Word idx="5">1.25(5,CD): {1.25}</Word>
+		<Word idx="6">inch(6,NNS): {inches}</Word>
+		<Word idx="7">during(7,IN): {during}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">past(9,JJ): {past}</Word>
+		<Word idx="10">year(10,NN): {year}</Word>
+		<Word idx="11">and(11,CC): {and}</Word>
+		<Word idx="12">5.25(12,CD): {5.25}</Word>
+		<Word idx="13">inch(13,NNS): {inches}</Word>
+		<Word idx="14">the(14,DT): {the}</Word>
+		<Word idx="15">year(15,NN): {year}</Word>
+		<Word idx="16">before(16,IN): {before}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(3):advmod={far(2):advmod={how(1)}},dobj={move(7):det={the(4)},compound={fault(5)},compound={line(6)}},nmod={all(9):case={in(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">far(2,RB): {far}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">fault(5,NN): {fault}</Word>
+		<Word idx="6">line(6,NN): {line}</Word>
+		<Word idx="7">move(7,NN): {move}</Word>
+		<Word idx="8">in(8,IN): {in}</Word>
+		<Word idx="9">all(9,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,160 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 use)
+		(s1w1 Shannon)
+		(s1w2 and)
+		(s1w4 family)
+		(s1w3 she)
+		(s1w6 up)
+		(s1w8 lot)
+		(s1w7 a)
+		(s1w13 jelly)
+		(s1w9 of)
+		(s1w10 strawberry)
+		(s1w11 and)
+		(s1w12 blueberry)
+		(s1w16 eat)
+		(s1w14 since)
+		(s1w15 they)
+		(s1w17 toast)
+		(s1w19 morning)
+		(s1w18 every)
+	)
+
+	(LF1
+		(HEAD v1 s1w5)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(cj_op j1 and)
+		(conj n3 n4)
+		(head n4 s1w4)
+		(nmod_poss n4 s1w3)
+		(compound_prt v1 s1w6)
+		(dobj v1 n5)
+		(head n5 s1w8)
+		(det n5 s1w7)
+		(nmod n5 n6)
+		(head n6 s1w13)
+		(case n6 s1w9)
+		(compound n6 n7)
+		(head n7 s1w10)
+		(cj_op j2 and)
+		(conj n7 n8)
+		(head n8 s1w12)
+		(acl n6 s1w16)
+		(mark n6 s1w14)
+		(nsubj n6 s1w15)
+		(dobj n6 n9)
+		(head n9 s1w17)
+		(nmod_tmod n6 n10)
+		(head n10 s1w19)
+		(det n10 s1w18)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w5 have)
+		(s2w3 moment)
+		(s2w1 at)
+		(s2w2 the)
+		(s2w4 they)
+		(s2w8 total)
+		(s2w6 a)
+		(s2w7 combined)
+		(s2w11 gram)
+		(s2w9 of)
+		(s2w10 6310)
+		(s2w13 jelly)
+		(s2w12 of)
+	)
+
+	(LF1
+		(verb v2 s2w5)
+		(nmod v2 n11)
+		(head n11 s2w3)
+		(case n11 s2w1)
+		(det n11 s2w2)
+		(nsubj v2 s2w4)
+		(dobj v2 n12)
+		(head n12 s2w8)
+		(det n12 s2w6)
+		(amod n12 s2w7)
+		(nmod n12 n13)
+		(head n13 s2w11)
+		(case n13 s2w9)
+		(nummod n13 s2w10)
+		(nmod n13 n1)
+		(head n1 s2w13)
+		(case n1 s2w12)
+	)
+
+	(LF2
+		(= (quan q2 s2w11 s2w13) 6310)(verb q2 s2w5)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w17 have)
+		(s3w3 have)
+		(s3w1 if)
+		(s3w2 they)
+		(s3w5 gram)
+		(s3w4 4518)
+		(s3w8 jelly)
+		(s3w6 of)
+		(s3w7 blueberry)
+		(s3w11 gram)
+		(s3w10 many)
+		(s3w9 how)
+		(s3w14 jelly)
+		(s3w12 of)
+		(s3w13 strawberry)
+		(s3w15 do)
+		(s3w16 they)
+	)
+
+	(LF1
+		(verb v3 s3w17)
+		(verb v3 s3w3)
+		(mark v3 s3w1)
+		(nsubj v3 s3w2)
+		(dobj v3 n15)
+		(head n15 s3w5)
+		(nummod n15 s3w4)
+		(nmod n15 n16)
+		(head n16 s3w8)
+		(case n16 s3w6)
+		(amod n16 s3w7)
+		(dobj v3 n17)
+		(head n17 s3w11)
+		(amod n17 s3w10)
+		(advmod n17 s3w9)
+		(nmod n17 n18)
+		(head n18 s3w14)
+		(case n18 s3w12)
+		(compound n18 n2)
+		(head n2 s3w13)
+		(aux v3 s3w15)
+		(nsubj v3 s3w16)
+	)
+
+	(LF2
+		(= (quan q4 s3w5 s2w13) 4518)(verb q4 s3w3)(mark q4 s3w1)(role q4 nmod)
+
+		(ASK ANS (Subtraction (quan q2 s2w11 s2w13) (quan q4 s3w5 s2w13)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(5):nsubj={[x1,x2]Shannon(1):cc={and(2)},conj={family(4):nmod_poss={[x2]she(3)}}},compound_prt={up(6)},dobj={lot(8):det={a(7)},nmod={jelly(13):case={of(9)},compound={strawberry(10):cc={and(11)},conj={blueberry(12)}},acl={eat(17):mark={since(15)},nsubj={[x1]they(16)},dobj={toast(18)},nmod_tmod={morning(20):det={every(19)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Shannon(1,NNP): {Shannon}</Word>
+		<Word idx="2">and(2,CC): {and}</Word>
+		<Word idx="3">she(3,PRPS): {her}</Word>
+		<Word idx="4">family(4,NN): {family}</Word>
+		<Word idx="5">use(5,VB): {use}</Word>
+		<Word idx="6">up(6,RP): {up}</Word>
+		<Word idx="7">a(7,DT): {a}</Word>
+		<Word idx="8">lot(8,NN): {lot}</Word>
+		<Word idx="9">of(9,IN): {of}</Word>
+		<Word idx="10">strawberry(10,NN): {strawberry}</Word>
+		<Word idx="11">and(11,CC): {and}</Word>
+		<Word idx="12">blueberry(12,NN): {blueberry}</Word>
+		<Word idx="13">jelly(13,NN): {jelly}</Word>
+		<Word idx="14">since(15,IN): {since}</Word>
+		<Word idx="15">they(16,PRP): {they}</Word>
+		<Word idx="16">eat(17,VBP): {eat}</Word>
+		<Word idx="17">toast(18,NN): {toast}</Word>
+		<Word idx="18">every(19,DT): {every}</Word>
+		<Word idx="19">morning(20,NN): {morning}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):nmod={moment(3):case={at(1)},det={the(2)}},nsubj={[x1]they(5)},dobj={total(9):det={a(7)},amod={combined(8)},nmod={gram(12):case={of(10)},nummod={6310(11)},nmod={jelly(14):case={of(13)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">at(1,IN): {At}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">moment(3,NN): {moment}</Word>
+		<Word idx="4">they(5,PRP): {they}</Word>
+		<Word idx="5">have(6,VBP): {have}</Word>
+		<Word idx="6">a(7,DT): {a}</Word>
+		<Word idx="7">combined(8,JJ): {combined}</Word>
+		<Word idx="8">total(9,NN): {total}</Word>
+		<Word idx="9">of(10,IN): {of}</Word>
+		<Word idx="10">6310(11,CD): {6310}</Word>
+		<Word idx="11">gram(12,NNS): {grams}</Word>
+		<Word idx="12">of(13,IN): {of}</Word>
+		<Word idx="13">jelly(14,NN): {jelly}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(18):advcl={have(3):mark={if(1)},nsubj={[x1]they(2)},dobj={gram(5):nummod={4518(4)},nmod={jelly(8):case={of(6)},amod={blueberry(7)}}}},dobj={gram(12):amod={many(11):advmod={how(10)}},nmod={jelly(15):case={of(13)},compound={strawberry(14)}}},aux={do(16)},nsubj={[x1]they(17)}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">they(2,PRP): {they}</Word>
+		<Word idx="3">have(3,VBP): {have}</Word>
+		<Word idx="4">4518(4,CD): {4518}</Word>
+		<Word idx="5">gram(5,NNS): {grams}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">blueberry(7,JJ): {blueberry}</Word>
+		<Word idx="8">jelly(8,NN): {jelly}</Word>
+		<Word idx="9">how(10,WRB): {how}</Word>
+		<Word idx="10">many(11,JJ): {many}</Word>
+		<Word idx="11">gram(12,NNS): {grams}</Word>
+		<Word idx="12">of(13,IN): {of}</Word>
+		<Word idx="13">strawberry(14,NN): {strawberry}</Word>
+		<Word idx="14">jelly(15,NN): {jelly}</Word>
+		<Word idx="15">do(16,VBP): {do}</Word>
+		<Word idx="16">they(17,PRP): {they}</Word>
+		<Word idx="17">have(18,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

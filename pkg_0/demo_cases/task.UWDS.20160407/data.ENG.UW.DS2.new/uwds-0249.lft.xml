@@ -1,0 +1,106 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 eat)
+		(s1w1 Alec)
+		(s1w2 and)
+		(s1w4 roommate)
+		(s1w3 he)
+		(s1w7 pint)
+		(s1w6 3.25)
+		(s1w10 cream)
+		(s1w8 of)
+		(s1w9 ice)
+		(s1w12 Friday)
+		(s1w11 on)
+		(s1w13 night)
+		(s1w14 and)
+		(s1w16 pint)
+		(s1w15 0.25)
+		(s1w19 cream)
+		(s1w17 of)
+		(s1w18 ice)
+		(s1w21 Saturday)
+		(s1w20 on)
+		(s1w22 night)
+	)
+
+	(LF1
+		(verb v1 s1w5)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(cj_op j1 and)
+		(conj n3 n4)
+		(head n4 s1w4)
+		(nmod_poss n4 s1w3)
+		(dobj v1 n5)
+		(head n5 s1w7)
+		(nummod n5 s1w6)
+		(nmod n5 n1)
+		(head n1 s1w10)
+		(case n1 s1w8)
+		(compound n1 n7)
+		(head n7 s1w9)
+		(nmod n1 n8)
+		(head n8 s1w12)
+		(case n8 s1w11)
+		(nmod_tmod n1 n9)
+		(head n9 s1w13)
+		(cj_op j2 and)
+		(conj n5 n10)
+		(head n10 s1w16)
+		(nummod n10 s1w15)
+		(nmod n10 n2)
+		(head n2 s1w19)
+		(case n2 s1w17)
+		(compound n2 n12)
+		(head n12 s1w18)
+		(nmod v1 n13)
+		(head n13 s1w21)
+		(case n13 s1w20)
+		(nmod_tmod v1 n14)
+		(head n14 s1w22)
+	)
+
+	(LF2
+		(= (quan q2 s1w7 s1w10) 3.25)(verb q2 s1w5)(role q2 nmod)
+		(= (quan q4 s1w7 s1w19) 0.25)(verb q4 s1w5)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 eat)
+		(s2w3 pint)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w4 do)
+		(s2w5 they)
+		(s2w8 all)
+		(s2w7 in)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(dobj v2 n15)
+		(head n15 s2w3)
+		(amod n15 s2w2)
+		(advmod n15 s2w1)
+		(aux v2 s2w4)
+		(nsubj v2 s2w5)
+		(nmod v2 s2w8)
+		(case v2 s2w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w7 s1w10) (quan q4 s1w7 s1w19)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

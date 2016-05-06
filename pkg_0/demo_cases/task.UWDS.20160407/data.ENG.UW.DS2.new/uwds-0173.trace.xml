@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>2454plant</CHUNK>
+          <CHUNK>OP_Subtraction</CHUNK>
+            <CHUNK>3263plant</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>809plant</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_196'>
+    2454plant
+    Subtraction
+    <math ID='NULL'>
+      3263plant
+    </math>
+    <math ID='NULL'>
+      809plant
+    </math>
+  </math>
+  <ctx ID='ctx_193'>
+    <__one_line_xml_ASK__ANS>2454</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_192'>
+      ( CLUE::Input ( ASK ANS ( Subtraction ( quan q4 # s2w6 ) ( quan q2 # s1w12 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_196'>
+      ( CLUE::Util ( Subtraction 3263 809 = 2454 ) )
+      ( CLUE::Util ( Val1 ( m_real 3263 ) ( m_fact ( quan q4 # s1w12 ) ( 3263 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 809 ) ( m_fact ( quan q2 # s1w12 ) ( 809 ) ) ) )
+      <ctx ID='ctx_144'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w12 ) 3263 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w12 ) 3263 ) )
+        ( CLUE::Create-Fact ( quan q4 # s1w12 ) ( 3263 ) )
+        <ctx ID='ctx_143'>
+          ( CLUE::Input ( = ( quan q4 # s2w6 ) 3263 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_91'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w12 ) 809 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w12 ) 809 ) )
+        ( CLUE::Create-Fact ( quan q2 # s1w12 ) ( 809 ) )
+        <ctx ID='ctx_90'>
+          ( CLUE::Input ( = ( quan q2 # s1w12 ) 809 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

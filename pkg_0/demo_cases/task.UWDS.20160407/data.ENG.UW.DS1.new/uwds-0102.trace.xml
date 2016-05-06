@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>12nickel</CHUNK>
+          <CHUNK>OP_Addition</CHUNK>
+            <CHUNK>7nickel</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>5nickel</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_142'>
+    12nickel
+    Addition
+    <math ID='NULL'>
+      7nickel
+    </math>
+    <math ID='NULL'>
+      5nickel
+    </math>
+  </math>
+  <ctx ID='ctx_139'>
+    <__one_line_xml_ASK__ANS>12</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_138'>
+      ( CLUE::Input ( ASK ANS ( Addition ( quan q2 # s1w4 ) ( quan q4 # s2w6 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_142'>
+      ( CLUE::Util ( Addition 7 5 = 12 ) )
+      ( CLUE::Util ( Val1 ( m_real 7 ) ( m_fact ( quan q2 # s1w4 ) ( 7 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 5 ) ( m_fact ( quan q4 # s1w4 ) ( 5 ) ) ) )
+      <ctx ID='ctx_73'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w4 ) 7 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w4 ) 7 ) )
+        ( CLUE::Create-Fact ( quan q2 # s1w4 ) ( 7 ) )
+        <ctx ID='ctx_72'>
+          ( CLUE::Input ( = ( quan q2 # s1w4 ) 7 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_105'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w4 ) 5 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w4 ) 5 ) )
+        ( CLUE::Create-Fact ( quan q4 # s1w4 ) ( 5 ) )
+        <ctx ID='ctx_104'>
+          ( CLUE::Input ( = ( quan q4 # s2w6 ) 5 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

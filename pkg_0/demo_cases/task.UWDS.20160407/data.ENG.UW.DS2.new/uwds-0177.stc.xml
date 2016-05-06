@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(7):nmod={contest(4):case={at(1)},det={a(2)},amod={pie-eating(3)}},nsubj={[x1]Erik(6)},nmod={pie(10):case={through(8)},nummod={0.6666666666666666(9)}},advcl={call(14):mark={before(11)},nsubjpass={time(12)},auxpass={be(13)}},parataxis={finish(17):nsubj={[x2]Frank(16)},dobj={pie(20):advmod={just(18)},nummod={0.3333333333333333(19)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">at(1,IN): {At}</Word>
+		<Word idx="2">a(2,DT): {a}</Word>
+		<Word idx="3">pie-eating(3,JJ): {pie-eating}</Word>
+		<Word idx="4">contest(4,NN): {contest}</Word>
+		<Word idx="5">Erik(6,NNP): {Erik}</Word>
+		<Word idx="6">get(7,VBD): {got}</Word>
+		<Word idx="7">through(8,IN): {through}</Word>
+		<Word idx="8">0.6666666666666666(9,CD): {0.6666666666666666}</Word>
+		<Word idx="9">pie(10,NN): {pie}</Word>
+		<Word idx="10">before(11,IN): {before}</Word>
+		<Word idx="11">time(12,NN): {time}</Word>
+		<Word idx="12">be(13,VBD): {was}</Word>
+		<Word idx="13">call(14,VBN): {called}</Word>
+		<Word idx="14">Frank(16,NNP): {Frank}</Word>
+		<Word idx="15">finish(17,VBD): {finished}</Word>
+		<Word idx="16">just(18,RB): {just}</Word>
+		<Word idx="17">0.3333333333333333(19,CD): {0.3333333333333333}</Word>
+		<Word idx="18">pie(20,NN): {pie}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{eat(7):dobj={more(3):amod={much(2):advmod={how(1)}},dep={pie(4)}},aux={do(5)},nsubj={[x1]Erik(6)},nmod={[x2]Frank(9):case={than(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">more(3,RBR): {more}</Word>
+		<Word idx="4">pie(4,NN): {pie}</Word>
+		<Word idx="5">do(5,VBD): {did}</Word>
+		<Word idx="6">Erik(6,NNP): {Erik}</Word>
+		<Word idx="7">eat(7,VB): {eat}</Word>
+		<Word idx="8">than(8,IN): {than}</Word>
+		<Word idx="9">Frank(9,NNP): {Frank}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

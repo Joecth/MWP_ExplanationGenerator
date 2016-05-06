@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(3):nsubj={[x1]restaurant(2):det={a(1)}},dobj={cake(5):nummod={5(4)}},nmod={lunch(7):case={during(6)},cc={and(8)},conj={6(9)}},nmod={dinner(11):case={during(10)}},nmod_tmod={today(12)}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">restaurant(2,NN): {restaurant}</Word>
+		<Word idx="3">serve(3,VBD): {served}</Word>
+		<Word idx="4">5(4,CD): {5}</Word>
+		<Word idx="5">cake(5,NNS): {cakes}</Word>
+		<Word idx="6">during(6,IN): {during}</Word>
+		<Word idx="7">lunch(7,NN): {lunch}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">6(9,CD): {6}</Word>
+		<Word idx="10">during(10,IN): {during}</Word>
+		<Word idx="11">dinner(11,NN): {dinner}</Word>
+		<Word idx="12">today(12,NN): {today}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(3):nsubj={[x1]restaurant(2):det={the(1)}},dobj={cake(5):nummod={3(4)}},nmod_tmod={yesterday(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">restaurant(2,NN): {restaurant}</Word>
+		<Word idx="3">serve(3,VBD): {served}</Word>
+		<Word idx="4">3(4,CD): {3}</Word>
+		<Word idx="5">cake(5,NNS): {cakes}</Word>
+		<Word idx="6">yesterday(6,NN): {yesterday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(5):dep={many(2):advmod={how(1)}},nsubjpass={cake(3)},auxpass={be(4)},nmod={total(7):case={in(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">cake(3,NNS): {cakes}</Word>
+		<Word idx="4">be(4,VBD): {were}</Word>
+		<Word idx="5">serve(5,VBN): {served}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">total(7,NN): {total}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

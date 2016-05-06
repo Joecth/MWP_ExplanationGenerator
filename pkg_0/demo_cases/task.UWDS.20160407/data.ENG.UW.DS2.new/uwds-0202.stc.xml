@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{begin(2):nsubj={[x1]Michelle(1)},dobj={[x2]route(6):nmod_poss={[x1]she(3)},compound={pizza(4)},compound={delivery(5)}},nmod={tank(9):case={with(7)},nummod={0.5(8)},nmod={gas(11):case={of(10)}}},nmod={car(14):case={in(12)},nmod_poss={[x1]she(13)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Michelle(1,NNP): {Michelle}</Word>
+		<Word idx="2">begin(2,VBD): {began}</Word>
+		<Word idx="3">she(3,PRPS): {her}</Word>
+		<Word idx="4">pizza(4,NN): {pizza}</Word>
+		<Word idx="5">delivery(5,NN): {delivery}</Word>
+		<Word idx="6">route(6,NN): {route}</Word>
+		<Word idx="7">with(7,IN): {with}</Word>
+		<Word idx="8">0.5(8,CD): {0.5}</Word>
+		<Word idx="9">tank(9,NN): {tank}</Word>
+		<Word idx="10">of(10,IN): {of}</Word>
+		<Word idx="11">gas(11,NN): {gas}</Word>
+		<Word idx="12">in(12,IN): {in}</Word>
+		<Word idx="13">she(13,PRPS): {her}</Word>
+		<Word idx="14">car(14,NN): {car}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(14):advcl={make(3):advmod={when(1)},nsubj={[x1]she(2)},dobj={[x2]it(4)},advmod={back(5)},nmod={pizzeria(8):case={to(6)},det={the(7)}}},nsubj={tank(11):nummod={0.16666666666666666(10)},nmod={gas(13):case={of(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">when(1,WRB): {When}</Word>
+		<Word idx="2">she(2,PRP): {she}</Word>
+		<Word idx="3">make(3,VBD): {made}</Word>
+		<Word idx="4">it(4,PRP): {it}</Word>
+		<Word idx="5">back(5,RB): {back}</Word>
+		<Word idx="6">to(6,TO): {to}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">pizzeria(8,NN): {pizzeria}</Word>
+		<Word idx="9">0.16666666666666666(10,CD): {0.16666666666666666}</Word>
+		<Word idx="10">tank(11,NN): {tank}</Word>
+		<Word idx="11">of(12,IN): {of}</Word>
+		<Word idx="12">gas(13,NN): {gas}</Word>
+		<Word idx="13">be(14,VBD): {was}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(6):dobj={gas(3):amod={much(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Michelle(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">gas(3,NN): {gas}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Michelle(5,NNP): {Michelle}</Word>
+		<Word idx="6">use(6,VB): {use}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

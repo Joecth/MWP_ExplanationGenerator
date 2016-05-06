@@ -1,0 +1,102 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 buy)
+		(s1w4 Restaurant)
+		(s1w1 Hannah)
+		(s1w2 's)
+		(s1w3 vegetarian)
+		(s1w7 pound)
+		(s1w6 0.3333333333333333)
+		(s1w10 pepper)
+		(s1w8 of)
+		(s1w9 green)
+		(s1w11 and)
+		(s1w13 pound)
+		(s1w12 0.3333333333333333)
+		(s1w16 pepper)
+		(s1w14 of)
+		(s1w15 red)
+	)
+
+	(LF1
+		(verb v1 s1w5)
+		(nsubj v1 n3)
+		(head n3 s1w4)
+		(nmod_poss n3 n4)
+		(head n4 s1w1)
+		(case n4 s1w2)
+		(amod n3 s1w3)
+		(dobj v1 n5)
+		(head n5 s1w7)
+		(nummod n5 s1w6)
+		(nmod n5 n1)
+		(head n1 s1w10)
+		(case n1 s1w8)
+		(amod n1 s1w9)
+		(cj_op j1 and)
+		(conj n5 n7)
+		(head n7 s1w13)
+		(nummod n7 s1w12)
+		(nmod n7 n8)
+		(head n8 s1w16)
+		(case n8 s1w14)
+		(amod n8 s1w15)
+	)
+
+	(LF2
+		(= (quan q2 s1w7 s1w10) 0.3333333333333333)(verb q2 s1w5)(role q2 nmod)
+		(= (quan q4 s1w13 s1w10) 0.3333333333333333)(verb q4 s1w5)(nsubj q4 s1w4)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w11 buy)
+		(s2w3 pound)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 pepper)
+		(s2w4 of)
+		(s2w6 do)
+		(s2w7 Hannah)
+		(s2w8 's)
+		(s2w10 Restaurant)
+		(s2w9 Vegetarian)
+		(s2w13 all)
+		(s2w12 in)
+	)
+
+	(LF1
+		(verb v2 s2w11)
+		(dobj v2 n9)
+		(head n9 s2w3)
+		(amod n9 s2w2)
+		(advmod n9 s2w1)
+		(nmod n9 n2)
+		(head n2 s2w5)
+		(case n2 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 n11)
+		(head n11 s2w7)
+		(case n11 s2w8)
+		(dep n11 n12)
+		(head n12 s2w10)
+		(compound n12 n13)
+		(head n13 s2w9)
+		(nmod v2 s2w13)
+		(case v2 s2w12)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w7 s1w10) (quan q4 s1w13 s1w10)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

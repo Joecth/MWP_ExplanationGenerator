@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{section(11):nsubj={0.5(1):dep={[x1]student(3):det={the(2)}},nmod={[x2]band(6):case={in(4)},det={the(5)}}},cop={be(7)},case={in(8)},det={the(9)},compound={trumpet(10)}}</SemRep>
+	<WordList>
+		<Word idx="1">0.5(1,CD): {0.5}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">student(3,NNS): {students}</Word>
+		<Word idx="4">in(4,IN): {in}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">band(6,NN): {band}</Word>
+		<Word idx="7">be(7,VBP): {are}</Word>
+		<Word idx="8">in(8,IN): {in}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">trumpet(10,NN): {trumpet}</Word>
+		<Word idx="11">section(11,NN): {section}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{section(11):nsubj={0.125(1):dep={[x1]student(3):det={the(2)}},nmod={[x2]band(6):case={in(4)},det={the(5)}}},cop={be(7)},case={in(8)},det={the(9)},compound={trombone(10)}}</SemRep>
+	<WordList>
+		<Word idx="1">0.125(1,CD): {0.125}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">student(3,NNS): {students}</Word>
+		<Word idx="4">in(4,IN): {in}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">band(6,NN): {band}</Word>
+		<Word idx="7">be(7,VBP): {are}</Word>
+		<Word idx="8">in(8,IN): {in}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">trombone(10,NN): {trombone}</Word>
+		<Word idx="11">section(11,NN): {section}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(9):nsubj={fraction(2):det={what(1)},nmod={[x1]student(5):case={of(3)},det={the(4)},nmod={[x2]band(8):case={in(6)},det={the(7)}}}},nmod={[x3]section(14):case={in(10)},cc_preconj={either(11)},det={the(12)},compound={trumpet(13)},cc={or(15)},conj={[x4]section(18):det={the(16)},compound={trombone(17)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WDT): {What}</Word>
+		<Word idx="2">fraction(2,NN): {fraction}</Word>
+		<Word idx="3">of(3,IN): {of}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">student(5,NNS): {students}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">band(8,NN): {band}</Word>
+		<Word idx="9">be(9,VBP): {are}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">either(11,CC): {either}</Word>
+		<Word idx="12">the(12,DT): {the}</Word>
+		<Word idx="13">trumpet(13,NN): {trumpet}</Word>
+		<Word idx="14">section(14,NN): {section}</Word>
+		<Word idx="15">or(15,CC): {or}</Word>
+		<Word idx="16">the(16,DT): {the}</Word>
+		<Word idx="17">trombone(17,NN): {trombone}</Word>
+		<Word idx="18">section(18,NN): {section}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

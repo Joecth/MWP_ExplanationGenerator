@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(3):nsubj={[x1]restaurant(2):det={a(1)}},dobj={[x2]slice(5):nummod={7(4)},nmod={pie(7):case={of(6)}}},nmod={lunch(9):case={during(8)},cc={and(10)},conj={5(11)}},nmod={dinner(13):case={during(12)}},nmod_tmod={today(14)}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">restaurant(2,NN): {restaurant}</Word>
+		<Word idx="3">serve(3,VBD): {served}</Word>
+		<Word idx="4">7(4,CD): {7}</Word>
+		<Word idx="5">slice(5,NNS): {slices}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">pie(7,NN): {pie}</Word>
+		<Word idx="8">during(8,IN): {during}</Word>
+		<Word idx="9">lunch(9,NN): {lunch}</Word>
+		<Word idx="10">and(10,CC): {and}</Word>
+		<Word idx="11">5(11,CD): {5}</Word>
+		<Word idx="12">during(12,IN): {during}</Word>
+		<Word idx="13">dinner(13,NN): {dinner}</Word>
+		<Word idx="14">today(14,NN): {today}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(2):nsubj={[x1]it(1)},dobj={8(3):nmod={they(5):case={of(4)}}},nmod_tmod={yesterday(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">it(1,PRP): {It}</Word>
+		<Word idx="2">serve(2,VBD): {served}</Word>
+		<Word idx="3">8(3,CD): {8}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">they(5,PRP): {them}</Word>
+		<Word idx="6">yesterday(6,NN): {yesterday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{serve(7):nsubjpass={[x2]slice(3):amod={many(2):advmod={how(1)}},nmod={pie(5):case={of(4)}}},auxpass={be(6)},nmod_tmod={today(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">slice(3,NNS): {slices}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">pie(5,NN): {pie}</Word>
+		<Word idx="6">be(6,VBD): {were}</Word>
+		<Word idx="7">serve(7,VBN): {served}</Word>
+		<Word idx="8">today(8,NN): {today}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

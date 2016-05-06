@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{snow(4):nmod={Yardley(2):case={in(1)}},nsubj={it(3)},dobj={inch(6):nummod={0.125(5)}},nmod={morning(9):case={in(7)},det={the(8)},cc={and(10)},conj={inch(12):nummod={0.5(11)}}},nmod={afternoon(15):case={in(13)},det={the(14)}}}</SemRep>
+	<WordList>
+		<Word idx="1">in(1,IN): {In}</Word>
+		<Word idx="2">Yardley(2,NNP): {Yardley}</Word>
+		<Word idx="3">it(3,PRP): {it}</Word>
+		<Word idx="4">snow(4,VBD): {snowed}</Word>
+		<Word idx="5">0.125(5,CD): {0.125}</Word>
+		<Word idx="6">inch(6,NN): {inch}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">morning(9,NN): {morning}</Word>
+		<Word idx="10">and(10,CC): {and}</Word>
+		<Word idx="11">0.5(11,CD): {0.5}</Word>
+		<Word idx="12">inch(12,NN): {inch}</Word>
+		<Word idx="13">in(13,IN): {in}</Word>
+		<Word idx="14">the(14,DT): {the}</Word>
+		<Word idx="15">afternoon(15,NN): {afternoon}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{what(1):cop={be(2)},nsubj={amount(5):det={the(3)},amod={total(4)},nmod={snowfall(7):case={of(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WP): {What}</Word>
+		<Word idx="2">be(2,VBD): {was}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">total(4,JJ): {total}</Word>
+		<Word idx="5">amount(5,NN): {amount}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">snowfall(7,NN): {snowfall}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

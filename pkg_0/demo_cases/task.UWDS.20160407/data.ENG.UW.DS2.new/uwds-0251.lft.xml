@@ -1,0 +1,127 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 buy)
+		(s1w1 Irene)
+		(s1w2 just)
+		(s1w6 lamp)
+		(s1w4 a)
+		(s1w5 new)
+		(s1w10 table)
+		(s1w7 for)
+		(s1w8 she)
+		(s1w9 bedside)
+	)
+
+	(LF1
+		(HEAD v1 s1w3)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(advmod v1 s1w2)
+		(dobj v1 n4)
+		(head n4 s1w6)
+		(det n4 s1w4)
+		(amod n4 s1w5)
+		(nmod v1 n5)
+		(head n5 s1w10)
+		(case n5 s1w7)
+		(nmod_poss n5 s1w8)
+		(compound n5 n6)
+		(head n6 s1w9)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w7 tall)
+		(s2w3 lamp)
+		(s2w1 the)
+		(s2w2 old)
+		(s2w4 be)
+		(s2w6 foot)
+		(s2w5 1)
+		(s2w8 and)
+		(s2w15 tall)
+		(s2w11 lamp)
+		(s2w9 the)
+		(s2w10 new)
+		(s2w12 be)
+		(s2w14 foot)
+		(s2w13 2.3333333333333335)
+	)
+
+	(LF1
+		(HEAD x2 s2w7)
+		(nsubj x2 n1)
+		(head n1 s2w3)
+		(det n1 s2w1)
+		(amod n1 s2w2)
+		(verb x2 s2w4)
+		(nmod_npmod x2 n8)
+		(head n8 s2w6)
+		(nummod n8 s2w5)
+		(cj_op j1 and)
+		(conj x2 s2w15)
+		(nsubj x2 n9)
+		(head n9 s2w11)
+		(det n9 s2w9)
+		(amod n9 s2w10)
+		(verb x2 s2w12)
+		(nmod_npmod x2 n10)
+		(head n10 s2w14)
+		(nummod n10 s2w13)
+	)
+
+	(LF2
+		(= (quan q2 s2w6 s2w3) 1)(verb q2 s2w4)(verb q2 s2w4)(conj q2 s2w15)(role q2 nsubj)
+		(= (quan q4 s2w14 s2w3) 2.3333333333333335)(verb q4 s2w12)(verb q4 s2w4)(conj q4 s2w15)(role q4 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 be)
+		(s3w2 much)
+		(s3w1 how)
+		(s3w3 taller)
+		(s3w7 lamp)
+		(s3w5 the)
+		(s3w6 new)
+		(s3w11 lamp)
+		(s3w8 than)
+		(s3w9 the)
+		(s3w10 old)
+	)
+
+	(LF1
+		(verb v2 s3w4)
+		(dobj v2 s3w2)
+		(advmod v2 s3w1)
+		(amod v2 s3w3)
+		(nsubj v2 n2)
+		(head n2 s3w7)
+		(det n2 s3w5)
+		(amod n2 s3w6)
+		(nmod n2 n12)
+		(head n12 s3w11)
+		(case n12 s3w8)
+		(det n12 s3w9)
+		(amod n12 s3w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 s2w14 s2w3) (quan q2 s2w6 s2w3)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

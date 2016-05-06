@@ -1,0 +1,96 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w7 dye)
+		(s1w2 fill)
+		(s1w1 to)
+		(s1w4 order)
+		(s1w3 a)
+		(s1w6 factory)
+		(s1w5 the)
+		(s1w16 pink)
+		(s1w9 yard)
+		(s1w8 61921)
+		(s1w11 silk)
+		(s1w10 of)
+		(s1w12 green)
+		(s1w13 and)
+		(s1w15 yard)
+		(s1w14 49500)
+	)
+
+	(LF1
+		(verb v1 s1w7)
+		(advcl v1 s1w2)
+		(mark v1 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w4)
+		(det n4 s1w3)
+		(nsubj v1 n5)
+		(head n5 s1w6)
+		(det n5 s1w5)
+		(dobj v1 n6)
+		(head n6 s1w16)
+		(dep n6 n1)
+		(head n1 s1w9)
+		(nummod n1 s1w8)
+		(nmod n1 n8)
+		(head n8 s1w11)
+		(case n8 s1w10)
+		(amod n8 s1w12)
+		(cj_op j1 and)
+		(conj n1 n2)
+		(head n2 s1w15)
+		(nummod n2 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 # s1w9) 61921)(verb q2 s1w7)(role q2 dep)
+		(= (quan q4 # s1w15) 49500)(verb q4 s1w7)(role q4 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 dye)
+		(s2w3 yard)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 silk)
+		(s2w4 of)
+		(s2w6 do)
+		(s2w7 it)
+		(s2w11 order)
+		(s2w9 for)
+		(s2w10 that)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dobj v2 n3)
+		(head n3 s2w3)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(nmod n3 n11)
+		(head n11 s2w5)
+		(case n11 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 s2w7)
+		(nmod v2 n12)
+		(head n12 s2w11)
+		(case n12 s2w9)
+		(det n12 s2w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w9) (quan q4 # s1w15)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

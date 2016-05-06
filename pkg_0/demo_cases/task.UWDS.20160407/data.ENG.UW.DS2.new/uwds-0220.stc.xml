@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{count(2):nsubj={allie(1)},dobj={[x2]cream(6):det={the(3)},amod={leftover(4)},compound={ice(5)}},nmod={party(10):case={after(7)},det={a(8)},compound={sundae(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">allie(1,NN): {Allie}</Word>
+		<Word idx="2">count(2,VBD): {counted}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">leftover(4,JJ): {leftover}</Word>
+		<Word idx="5">ice(5,NN): {ice}</Word>
+		<Word idx="6">cream(6,NN): {cream}</Word>
+		<Word idx="7">after(7,IN): {after}</Word>
+		<Word idx="8">a(8,DT): {a}</Word>
+		<Word idx="9">sundae(9,NN): {sundae}</Word>
+		<Word idx="10">party(10,NN): {party}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x2]she(1)},dobj={carton(4):nummod={[x1]0.3333333333333333(3)},nmod={cream(9):case={of(5)},amod={rocky(6)},compound={road(7)},compound={ice(8)}},conj={carton(12):nummod={[x1]0.3333333333333333(11)},nmod={cream(17):case={of(13)},compound={cookie(14)},compound={dough(15)},compound={ice(16)}}},cc={and(19)},conj={carton(21):nummod={0.16666666666666666(20)},nmod={cream(26):case={of(22)},compound={strawberry(23)},compound={cheesecake(24)},compound={ice(25)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">have(2,VBD): {had}</Word>
+		<Word idx="3">0.3333333333333333(3,CD): {0.3333333333333333}</Word>
+		<Word idx="4">carton(4,NN): {carton}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">rocky(6,JJ): {rocky}</Word>
+		<Word idx="7">road(7,NN): {road}</Word>
+		<Word idx="8">ice(8,NN): {ice}</Word>
+		<Word idx="9">cream(9,NN): {cream}</Word>
+		<Word idx="10">0.3333333333333333(11,CD): {0.3333333333333333}</Word>
+		<Word idx="11">carton(12,NN): {carton}</Word>
+		<Word idx="12">of(13,IN): {of}</Word>
+		<Word idx="13">cookie(14,NN): {cookie}</Word>
+		<Word idx="14">dough(15,NN): {dough}</Word>
+		<Word idx="15">ice(16,NN): {ice}</Word>
+		<Word idx="16">cream(17,NN): {cream}</Word>
+		<Word idx="17">and(19,CC): {and}</Word>
+		<Word idx="18">0.16666666666666666(20,CD): {0.16666666666666666}</Word>
+		<Word idx="19">carton(21,NN): {carton}</Word>
+		<Word idx="20">of(22,IN): {of}</Word>
+		<Word idx="21">strawberry(23,NN): {strawberry}</Word>
+		<Word idx="22">cheesecake(24,NN): {cheesecake}</Word>
+		<Word idx="23">ice(25,NN): {ice}</Word>
+		<Word idx="24">cream(26,NN): {cream}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(9):dobj={carton(3):amod={many(2):advmod={how(1)}},nmod={cream(6):case={of(4)},compound={ice(5)}}},aux={do(7)},nsubj={[x2]Allie(8)},nmod={all(11):case={in(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">carton(3,NNS): {cartons}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">ice(5,NN): {ice}</Word>
+		<Word idx="6">cream(6,NN): {cream}</Word>
+		<Word idx="7">do(7,VBD): {did}</Word>
+		<Word idx="8">Allie(8,NNP): {Allie}</Word>
+		<Word idx="9">have(9,VB): {have}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">all(11,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Sum</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,138 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w11 section)
+		(s1w1 0.5)
+		(s1w3 student)
+		(s1w2 the)
+		(s1w6 band)
+		(s1w4 in)
+		(s1w5 the)
+		(s1w7 be)
+		(s1w8 in)
+		(s1w9 the)
+		(s1w10 trumpet)
+	)
+
+	(LF1
+		(head n1 s1w11)
+		(nsubj n1 s1w1)
+		(dep n1 n4)
+		(head n4 s1w3)
+		(det n4 s1w2)
+		(nmod n1 n5)
+		(head n5 s1w6)
+		(case n5 s1w4)
+		(det n5 s1w5)
+		(verb n1 s1w7)
+		(case n1 s1w8)
+		(det n1 s1w9)
+		(compound n1 n6)
+		(head n6 s1w10)
+	)
+
+	(LF2
+		(= (quan q2 # s1w11) 0.5)(verb q2 s1w7)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w11 section)
+		(s2w1 0.125)
+		(s2w3 student)
+		(s2w2 the)
+		(s2w6 band)
+		(s2w4 in)
+		(s2w5 the)
+		(s2w7 be)
+		(s2w8 in)
+		(s2w9 the)
+		(s2w10 trombone)
+	)
+
+	(LF1
+		(head n2 s2w11)
+		(nsubj n2 s2w1)
+		(dep n2 n8)
+		(head n8 s2w3)
+		(det n8 s2w2)
+		(nmod n2 n9)
+		(head n9 s2w6)
+		(case n9 s2w4)
+		(det n9 s2w5)
+		(verb n2 s2w7)
+		(case n2 s2w8)
+		(det n2 s2w9)
+		(compound n2 n10)
+		(head n10 s2w10)
+	)
+
+	(LF2
+		(= (quan q4 # s2w11) 0.125)(verb q4 s2w7)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 be)
+		(s3w2 fraction)
+		(s3w1 what)
+		(s3w5 student)
+		(s3w3 of)
+		(s3w4 the)
+		(s3w8 band)
+		(s3w6 in)
+		(s3w7 the)
+		(s3w14 section)
+		(s3w10 in)
+		(s3w11 either)
+		(s3w12 the)
+		(s3w13 trumpet)
+		(s3w15 or)
+		(s3w18 section)
+		(s3w16 the)
+		(s3w17 trombone)
+	)
+
+	(LF1
+		(HEAD v1 s3w9)
+		(nsubj v1 n11)
+		(head n11 s3w2)
+		(det n11 s3w1)
+		(nmod n11 n12)
+		(head n12 s3w5)
+		(case n12 s3w3)
+		(det n12 s3w4)
+		(nmod n12 n13)
+		(head n13 s3w8)
+		(case n13 s3w6)
+		(det n13 s3w7)
+		(nmod v1 n14)
+		(head n14 s3w14)
+		(case n14 s3w10)
+		(cc_preconj n14 s3w11)
+		(det n14 s3w12)
+		(compound n14 n15)
+		(head n15 s3w13)
+		(cc n14 s3w15)
+		(conj n14 n16)
+		(head n16 s3w18)
+		(det n16 s3w16)
+		(compound n16 n17)
+		(head n17 s3w17)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w11) (quan q4 # s2w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

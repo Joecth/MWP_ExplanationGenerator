@@ -1,0 +1,99 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 cut)
+		(s1w1 a)
+		(s1w2 tailor)
+		(s1w5 inch)
+		(s1w4 0.75)
+		(s1w8 skirt)
+		(s1w6 off)
+		(s1w7 a)
+		(s1w9 and)
+		(s1w11 inch)
+		(s1w10 0.5)
+		(s1w12 off)
+		(s1w14 pair)
+		(s1w13 a)
+		(s1w16 pants)
+		(s1w15 of)
+	)
+
+	(LF1
+		(head n1 s1w3)
+		(det n1 s1w1)
+		(amod n1 s1w2)
+		(dep n1 n3)
+		(head n3 s1w5)
+		(nummod n3 s1w4)
+		(nmod n3 n4)
+		(head n4 s1w8)
+		(case n4 s1w6)
+		(det n4 s1w7)
+		(cj_op j1 and)
+		(advmod n3 n5)
+		(head n5 s1w11)
+		(nummod n5 s1w10)
+		(case n5 s1w12)
+		(conj n3 n6)
+		(head n6 s1w14)
+		(det n6 s1w13)
+		(nmod n6 n7)
+		(head n7 s1w16)
+		(case n7 s1w15)
+	)
+
+	(LF2
+		(= (quan q2 s1w5 s1w3) 0.75)(det q2 s1w1)(amod q2 s1w2)
+		(= (quan q4 s1w11 s1w3) 0.5)(det q4 s1w1)(amod q4 s1w2)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w7 cut)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w3 more)
+		(s2w4 do)
+		(s2w6 tailor)
+		(s2w5 the)
+		(s2w8 off)
+		(s2w10 skirt)
+		(s2w9 the)
+		(s2w13 pants)
+		(s2w11 than)
+		(s2w12 the)
+	)
+
+	(LF1
+		(verb v1 s2w7)
+		(dep v1 s2w2)
+		(advmod v1 s2w1)
+		(amod v1 s2w3)
+		(aux v1 s2w4)
+		(nsubj v1 n8)
+		(head n8 s2w6)
+		(det n8 s2w5)
+		(compound_prt v1 s2w8)
+		(dobj v1 n9)
+		(head n9 s2w10)
+		(det n9 s2w9)
+		(nmod n9 n10)
+		(head n10 s2w13)
+		(case n10 s2w11)
+		(det n10 s2w12)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w5 s1w3) (quan q4 s1w11 s1w3)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

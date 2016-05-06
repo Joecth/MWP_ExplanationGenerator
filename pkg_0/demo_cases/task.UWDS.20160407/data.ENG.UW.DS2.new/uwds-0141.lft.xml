@@ -1,0 +1,119 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 be)
+		(s1w1 there)
+		(s1w4 book)
+		(s1w3 1986)
+		(s1w10 library)
+		(s1w5 in)
+		(s1w7 Grove)
+		(s1w6 Oak)
+		(s1w8 's)
+		(s1w9 public)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(expl v1 s1w1)
+		(nsubj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(nmod n1 n5)
+		(head n5 s1w10)
+		(case n5 s1w5)
+		(nmod_poss n5 n6)
+		(head n6 s1w7)
+		(compound n6 n7)
+		(head n7 s1w6)
+		(case n6 s1w8)
+		(amod n5 s1w9)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 1986)(verb q2 s1w2)(role q2 nsubj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 be)
+		(s2w2 addition)
+		(s2w1 in)
+		(s2w3 there)
+		(s2w6 book)
+		(s2w5 5106)
+		(s2w10 library)
+		(s2w7 in)
+		(s2w8 its)
+		(s2w9 school)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nmod v2 n8)
+		(head n8 s2w2)
+		(case n8 s2w1)
+		(expl v2 s2w3)
+		(nsubj v2 n2)
+		(head n2 s2w6)
+		(nummod n2 s2w5)
+		(nmod n2 n10)
+		(head n10 s2w10)
+		(case n10 s2w7)
+		(nmod_poss n10 s2w8)
+		(compound n10 n11)
+		(head n11 s2w9)
+	)
+
+	(LF2
+		(= (quan q4 # s2w6) 5106)(verb q4 s2w4)(role q4 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 do)
+		(s3w3 book)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w10 have)
+		(s3w6 library)
+		(s3w5 the)
+		(s3w9 Grove)
+		(s3w7 in)
+		(s3w8 Oak)
+		(s3w11 overall)
+	)
+
+	(LF1
+		(HEAD v3 s3w4)
+		(nsubj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+		(verb v3 s3w10)
+		(nsubj v3 n13)
+		(head n13 s3w6)
+		(det n13 s3w5)
+		(nmod n13 n14)
+		(head n14 s3w9)
+		(case n14 s3w7)
+		(compound n14 n15)
+		(head n15 s3w8)
+		(dobj v3 s3w11)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w4) (quan q4 # s2w6)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,119 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 paint)
+		(s1w2 company)
+		(s1w1 a)
+		(s1w5 house)
+		(s1w4 some)
+		(s1w8 County)
+		(s1w6 in)
+		(s1w7 Hancock)
+		(s1w9 white)
+		(s1w10 and)
+		(s1w11 blue)
+		(s1w12 use)
+		(s1w14 total)
+		(s1w13 a)
+		(s1w17 gallon)
+		(s1w15 of)
+		(s1w16 6689)
+		(s1w19 paint)
+		(s1w18 of)
+	)
+
+	(LF1
+		(HEAD v1 s1w3)
+		(nsubj v1 n2)
+		(head n2 s1w2)
+		(det n2 s1w1)
+		(dobj v1 n3)
+		(head n3 s1w5)
+		(det n3 s1w4)
+		(nmod v1 n4)
+		(head n4 s1w8)
+		(case n4 s1w6)
+		(compound n4 n5)
+		(head n5 s1w7)
+		(amod n4 s1w9)
+		(cj_op j1 and)
+		(conj n4 s1w11)
+		(verb v1 s1w12)
+		(dobj v1 n6)
+		(head n6 s1w14)
+		(det n6 s1w13)
+		(nmod n6 n7)
+		(head n7 s1w17)
+		(case n7 s1w15)
+		(nummod n7 s1w16)
+		(nmod n7 n1)
+		(head n1 s1w19)
+		(case n1 s1w18)
+	)
+
+	(LF2
+		(= (quan q2 s1w17 s1w19) 6689)(verb q2 s1w12)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w18 use)
+		(s2w3 use)
+		(s2w1 if)
+		(s2w2 they)
+		(s2w5 gallon)
+		(s2w4 660)
+		(s2w8 paint)
+		(s2w6 of)
+		(s2w7 white)
+		(s2w11 gallon)
+		(s2w10 many)
+		(s2w9 how)
+		(s2w14 paint)
+		(s2w12 of)
+		(s2w13 blue)
+		(s2w15 do)
+		(s2w17 company)
+		(s2w16 the)
+	)
+
+	(LF1
+		(verb v2 s2w18)
+		(verb v2 s2w3)
+		(mark v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n9)
+		(head n9 s2w5)
+		(nummod n9 s2w4)
+		(nmod n9 n10)
+		(head n10 s2w8)
+		(case n10 s2w6)
+		(amod n10 s2w7)
+		(dobj v2 n11)
+		(head n11 s2w11)
+		(amod n11 s2w10)
+		(advmod n11 s2w9)
+		(nmod n11 n12)
+		(head n12 s2w14)
+		(case n12 s2w12)
+		(amod n12 s2w13)
+		(aux v2 s2w15)
+		(nsubj v2 n13)
+		(head n13 s2w17)
+		(det n13 s2w16)
+	)
+
+	(LF2
+		(= (quan q4 s2w5 s1w19) 660)(verb q4 s2w3)(mark q4 s2w1)(role q4 nmod)
+
+		(ASK ANS (Subtraction (quan q2 s1w17 s1w19) (quan q4 s2w5 s1w19)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

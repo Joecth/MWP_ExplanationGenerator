@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(2):nsubj={[x2]Ron(1)},dobj={ball(6):nummod={2(3)},amod={color(4)},compound={metal(5)},nmod={class(10):case={during(7)},det={a(8)},compound={science(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Ron(1,NNP): {Ron}</Word>
+		<Word idx="2">weigh(2,VBD): {weighed}</Word>
+		<Word idx="3">2(3,CD): {2}</Word>
+		<Word idx="4">color(4,VBN): {colored}</Word>
+		<Word idx="5">metal(5,NN): {metal}</Word>
+		<Word idx="6">ball(6,NNS): {balls}</Word>
+		<Word idx="7">during(7,IN): {during}</Word>
+		<Word idx="8">a(8,DT): {a}</Word>
+		<Word idx="9">science(9,NN): {science}</Word>
+		<Word idx="10">class(10,NN): {class}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(4):nsubj={[x1]ball(3):det={the(1)},amod={blue(2)}},ccomp={weigh(11):nsubj={pound(6):nummod={6(5)},cc={and(7)},conj={[x1]ball(10):det={the(8)},amod={brown(9)}}},dobj={pound(13):nummod={3.12(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">blue(2,JJ): {blue}</Word>
+		<Word idx="3">ball(3,NN): {ball}</Word>
+		<Word idx="4">weigh(4,VBD): {weighed}</Word>
+		<Word idx="5">6(5,CD): {6}</Word>
+		<Word idx="6">pound(6,NNS): {pounds}</Word>
+		<Word idx="7">and(7,CC): {and}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">brown(9,JJ): {brown}</Word>
+		<Word idx="10">ball(10,NN): {ball}</Word>
+		<Word idx="11">weigh(11,VBD): {weighed}</Word>
+		<Word idx="12">3.12(12,CD): {3.12}</Word>
+		<Word idx="13">pound(13,NNS): {pounds}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{read(18):nmod={place(3):case={if(1)},compound={[x2]Ron(2)},nmod={ball(5):case={both(4)},nmod={scale(8):case={on(6)},det={the(7)},nmod={time(12):case={at(9)},det={the(10)},amod={same(11)}}}}},dobj={what(14)},aux={will(15)},nsubj={scale(17):det={the(16)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">Ron(2,NNP): {Ron}</Word>
+		<Word idx="3">place(3,NNS): {places}</Word>
+		<Word idx="4">both(4,CC): {both}</Word>
+		<Word idx="5">ball(5,NNS): {balls}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">scale(8,NN): {scale}</Word>
+		<Word idx="9">at(9,IN): {at}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">same(11,JJ): {same}</Word>
+		<Word idx="12">time(12,NN): {time}</Word>
+		<Word idx="13">what(14,WP): {what}</Word>
+		<Word idx="14">will(15,MD): {will}</Word>
+		<Word idx="15">the(16,DT): {the}</Word>
+		<Word idx="16">scale(17,NN): {scale}</Word>
+		<Word idx="17">read(18,VB): {read}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

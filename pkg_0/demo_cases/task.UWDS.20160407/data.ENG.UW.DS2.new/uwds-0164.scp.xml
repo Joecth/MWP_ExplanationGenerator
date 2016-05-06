@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{paint(3):nsubj={[x1]company(2):det={a(1)}},dobj={house(5):det={some(4)}},nmod={County(8):case={in(6)},compound={Hancock(7)},amod={white(9):cc={and(10)},conj={blue(11)}}},xcomp={use(12):dobj={total(14):det={a(13)},nmod={gallon(17):case={of(15)},nummod={6689(16)},nmod={paint(19):case={of(18)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">company(2,NN): {company}</Word>
+		<Word idx="3">paint(3,VBD): {painted}</Word>
+		<Word idx="4">some(4,DT): {some}</Word>
+		<Word idx="5">house(5,NNS): {houses}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">Hancock(7,NNP): {Hancock}</Word>
+		<Word idx="8">County(8,NNP): {County}</Word>
+		<Word idx="9">white(9,JJ): {white}</Word>
+		<Word idx="10">and(10,CC): {and}</Word>
+		<Word idx="11">blue(11,JJ): {blue}</Word>
+		<Word idx="12">use(12,VBG): {using}</Word>
+		<Word idx="13">a(13,DT): {a}</Word>
+		<Word idx="14">total(14,NN): {total}</Word>
+		<Word idx="15">of(15,IN): {of}</Word>
+		<Word idx="16">6689(16,CD): {6689}</Word>
+		<Word idx="17">gallon(17,NNS): {gallons}</Word>
+		<Word idx="18">of(18,IN): {of}</Word>
+		<Word idx="19">paint(19,NN): {paint}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(19):advcl={use(3):mark={if(1)},nsubj={[x1]they(2)},dobj={gallon(5):nummod={660(4)},nmod={paint(8):case={of(6)},amod={white(7)}}}},dobj={gallon(12):amod={many(11):advmod={how(10)}},nmod={paint(15):case={of(13)},amod={blue(14)}}},aux={do(16)},nsubj={[x1]company(18):det={the(17)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">they(2,PRP): {they}</Word>
+		<Word idx="3">use(3,VBD): {used}</Word>
+		<Word idx="4">660(4,CD): {660}</Word>
+		<Word idx="5">gallon(5,NNS): {gallons}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">white(7,JJ): {white}</Word>
+		<Word idx="8">paint(8,NN): {paint}</Word>
+		<Word idx="9">how(10,WRB): {how}</Word>
+		<Word idx="10">many(11,JJ): {many}</Word>
+		<Word idx="11">gallon(12,NNS): {gallons}</Word>
+		<Word idx="12">of(13,IN): {of}</Word>
+		<Word idx="13">blue(14,JJ): {blue}</Word>
+		<Word idx="14">paint(15,NN): {paint}</Word>
+		<Word idx="15">do(16,VBD): {did}</Word>
+		<Word idx="16">the(17,DT): {the}</Word>
+		<Word idx="17">company(18,NN): {company}</Word>
+		<Word idx="18">use(19,VB): {use}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

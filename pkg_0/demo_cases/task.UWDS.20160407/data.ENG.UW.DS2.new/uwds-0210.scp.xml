@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(8):advcl={have(3):advmod={when(1)},nsubj={[x1]Jake(2)},dobj={[x3]cat(5):nummod={1(4)}}},nsubj={[x1]he(7)},xcomp={serve(10):mark={to(9)},dobj={0.5(11):acl_relcl={can(12)},nmod={food(15):case={of(13)},compound={cat(14)},dep={[x2]day(17):det={each(16)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">when(1,WRB): {When}</Word>
+		<Word idx="2">Jake(2,NNP): {Jake}</Word>
+		<Word idx="3">have(3,VBD): {had}</Word>
+		<Word idx="4">1(4,CD): {1}</Word>
+		<Word idx="5">cat(5,NN): {cat}</Word>
+		<Word idx="6">he(7,PRP): {he}</Word>
+		<Word idx="7">need(8,VBD): {needed}</Word>
+		<Word idx="8">to(9,TO): {to}</Word>
+		<Word idx="9">serve(10,VB): {serve}</Word>
+		<Word idx="10">0.5(11,CD): {0.5}</Word>
+		<Word idx="11">can(12,MD): {can}</Word>
+		<Word idx="12">of(13,IN): {of}</Word>
+		<Word idx="13">cat(14,NN): {cat}</Word>
+		<Word idx="14">food(15,NN): {food}</Word>
+		<Word idx="15">each(16,DT): {each}</Word>
+		<Word idx="16">day(17,NN): {day}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{can(18):dep={need(11):advcl={adopt(5):advmod={now(1)},mark={that(2)},nsubj={[x1]Jake(3)},aux={have(4)},dobj={[x3]cat(8):det={a(6)},amod={second(7)}}},nsubj={[x1]he(10)},xcomp={serve(13):mark={to(12)},dobj={total(15):det={a(14)},nmod={0.9(17):case={of(16)}}}}},nsubj={[x2]day(20):det={each(19)}}}</SemRep>
+	<WordList>
+		<Word idx="1">now(1,RB): {Now}</Word>
+		<Word idx="2">that(2,IN): {that}</Word>
+		<Word idx="3">Jake(3,NNP): {Jake}</Word>
+		<Word idx="4">have(4,VBZ): {has}</Word>
+		<Word idx="5">adopt(5,VBN): {adopted}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">second(7,JJ): {second}</Word>
+		<Word idx="8">cat(8,NN): {cat}</Word>
+		<Word idx="9">he(10,PRP): {he}</Word>
+		<Word idx="10">need(11,VBZ): {needs}</Word>
+		<Word idx="11">to(12,TO): {to}</Word>
+		<Word idx="12">serve(13,VB): {serve}</Word>
+		<Word idx="13">a(14,DT): {a}</Word>
+		<Word idx="14">total(15,NN): {total}</Word>
+		<Word idx="15">of(16,IN): {of}</Word>
+		<Word idx="16">0.9(17,CD): {0.9}</Word>
+		<Word idx="17">can(18,MD): {can}</Word>
+		<Word idx="18">each(19,DT): {each}</Word>
+		<Word idx="19">day(20,NN): {day}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(6):dep={much(2):advmod={how(1)}},nsubjpass={food(4):amod={extra(3)}},auxpass={be(5)},xcomp={feed(8):mark={to(7)},dobj={[x3]cat(11):det={the(9)},amod={second(10)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">extra(3,JJ): {extra}</Word>
+		<Word idx="4">food(4,NN): {food}</Word>
+		<Word idx="5">be(5,VBZ): {is}</Word>
+		<Word idx="6">need(6,VBN): {needed}</Word>
+		<Word idx="7">to(7,TO): {to}</Word>
+		<Word idx="8">feed(8,VB): {feed}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">second(10,JJ): {second}</Word>
+		<Word idx="11">cat(11,NN): {cat}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

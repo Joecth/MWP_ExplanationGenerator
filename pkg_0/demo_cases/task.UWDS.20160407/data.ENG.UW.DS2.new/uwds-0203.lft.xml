@@ -1,0 +1,117 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w9 realize)
+		(s1w2 take)
+		(s1w1 while)
+		(s1w3 inventory)
+		(s1w7 shop)
+		(s1w4 at)
+		(s1w5 she)
+		(s1w6 pastry)
+		(s1w8 Kelly)
+		(s1w12 have)
+		(s1w10 that)
+		(s1w11 she)
+		(s1w14 box)
+		(s1w13 0.4)
+		(s1w18 yesterday)
+		(s1w15 of)
+		(s1w16 bake)
+		(s1w17 powder)
+		(s1w19 but)
+		(s1w27 box)
+		(s1w21 supply)
+		(s1w20 the)
+		(s1w22 be)
+		(s1w24 down)
+		(s1w23 now)
+		(s1w25 to)
+		(s1w26 0.3)
+	)
+
+	(LF1
+		(verb v1 s1w9)
+		(advcl v1 s1w2)
+		(mark v1 s1w1)
+		(dobj v1 n3)
+		(head n3 s1w3)
+		(nmod v1 n4)
+		(head n4 s1w7)
+		(case n4 s1w4)
+		(nmod_poss n4 s1w5)
+		(compound n4 n5)
+		(head n5 s1w6)
+		(nsubj v1 n6)
+		(head n6 s1w8)
+		(verb v1 s1w12)
+		(mark v1 s1w10)
+		(nsubj v1 s1w11)
+		(dobj v1 n1)
+		(head n1 s1w14)
+		(nummod n1 s1w13)
+		(nmod n1 n8)
+		(head n8 s1w18)
+		(case n8 s1w15)
+		(amod n8 s1w16)
+		(compound n8 n9)
+		(head n9 s1w17)
+		(cc v1 s1w19)
+		(conj v1 n2)
+		(head n2 s1w27)
+		(nsubj n2 n11)
+		(head n11 s1w21)
+		(det n11 s1w20)
+		(cop n2 s1w22)
+		(advmod n2 s1w24)
+		(advmod n2 s1w23)
+		(case n2 s1w25)
+		(nummod n2 s1w26)
+	)
+
+	(LF2
+		(= (quan q2 # s1w14) 0.4)(verb q2 s1w12)(role q2 dobj)
+		(= (quan q4 # s1w27) 0.3)(verb q4 s1w9)(role q4 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 have)
+		(s2w5 powder)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w4 baking)
+		(s2w3 more)
+		(s2w6 do)
+		(s2w7 Kelly)
+		(s2w9 yesterday)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dep v2 n12)
+		(head n12 s2w5)
+		(dep n12 s2w2)
+		(advmod n12 s2w1)
+		(amod n12 s2w4)
+		(advmod n12 s2w3)
+		(aux v2 s2w6)
+		(nsubj v2 n13)
+		(head n13 s2w7)
+		(nmod_tmod v2 n14)
+		(head n14 s2w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s1w14) (quan q4 # s1w27)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

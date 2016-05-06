@@ -1,0 +1,142 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 staff)
+		(s1w4 play)
+		(s1w1 during)
+		(s1w2 a)
+		(s1w3 school)
+		(s1w5 Jonah)
+		(s1w9 bar)
+		(s1w7 the)
+		(s1w8 snack)
+	)
+
+	(LF1
+		(HEAD v1 s1w6)
+		(nmod v1 n3)
+		(head n3 s1w4)
+		(case n3 s1w1)
+		(det n3 s1w2)
+		(compound n3 n4)
+		(head n4 s1w3)
+		(nsubj v1 n5)
+		(head n5 s1w5)
+		(dobj v1 n6)
+		(head n6 s1w9)
+		(det n6 s1w7)
+		(compound n6 n7)
+		(head n7 s1w8)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 serve)
+		(s2w1 he)
+		(s2w4 pitcher)
+		(s2w3 0.25)
+		(s2w6 lemonade)
+		(s2w5 of)
+		(s2w10 intermission)
+		(s2w7 during)
+		(s2w8 the)
+		(s2w9 first)
+		(s2w12 pitcher)
+		(s2w11 0.4166666666666667)
+		(s2w15 second)
+		(s2w13 during)
+		(s2w14 the)
+		(s2w16 and)
+		(s2w18 pitcher)
+		(s2w17 0.25)
+		(s2w21 third)
+		(s2w19 during)
+		(s2w20 the)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n8)
+		(head n8 s2w4)
+		(nummod n8 s2w3)
+		(nmod n8 n1)
+		(head n1 s2w6)
+		(case n1 s2w5)
+		(nmod v2 n10)
+		(head n10 s2w10)
+		(case n10 s2w7)
+		(det n10 s2w8)
+		(amod n10 s2w9)
+		(conj n10 n11)
+		(head n11 s2w12)
+		(nummod n11 s2w11)
+		(nmod n11 s2w15)
+		(case n11 s2w13)
+		(det n11 s2w14)
+		(cj_op j1 and)
+		(conj n10 n12)
+		(head n12 s2w18)
+		(nummod n12 s2w17)
+		(nmod v2 s2w21)
+		(case v2 s2w19)
+		(det v2 s2w20)
+	)
+
+	(LF2
+		(= (quan q2 s2w4 s2w6) 0.25)(verb q2 s2w2)(role q2 nmod)
+		(= (quan q4 s2w12 s2w6) 0.4166666666666667)(verb q4 s2w2)(nmod q4 s2w10)(nmod q4 s2w21)(role q4 nmod)
+		(= (quan q6 s2w18 s2w6) 0.25)(verb q6 s2w2)(nmod q6 s2w10)(nmod q6 s2w21)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w8 pour)
+		(s3w3 pitcher)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 lemonade)
+		(s3w4 of)
+		(s3w6 do)
+		(s3w7 Jonah)
+		(s3w10 all)
+		(s3w9 in)
+	)
+
+	(LF1
+		(verb v3 s3w8)
+		(dobj v3 n13)
+		(head n13 s3w3)
+		(amod n13 s3w2)
+		(advmod n13 s3w1)
+		(nmod n13 n2)
+		(head n2 s3w5)
+		(case n2 s3w4)
+		(aux v3 s3w6)
+		(nsubj v3 n15)
+		(head n15 s3w7)
+		(nmod v3 s3w10)
+		(case v3 s3w9)
+	)
+
+	(LF2
+		
+		(= (quan q2 s2w4 s2w6) 0.25) (= (tvq v1 s2w4 s2w6 t0) (quan q2 s2w4 s2w6))
+		(= (quan q4 s2w12 s2w6) 0.4166666666666667) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 s2w18 s2w6) 0.25) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 s2w4 s3w5 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={pencil(4):nummod={9(3)},cc={and(5)},conj={ruler(7):nummod={[x1]4(6)},nmod={[x2]drawer(10):case={in(8)},det={the(9)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">9(3,CD): {9}</Word>
+		<Word idx="4">pencil(4,NNS): {pencils}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">4(6,CD): {4}</Word>
+		<Word idx="7">ruler(7,NNS): {rulers}</Word>
+		<Word idx="8">in(8,IN): {in}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">drawer(10,NN): {drawer}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={Sally(1)},advmod={pencil(4):nummod={[x1]4(3)},case={out(5)}},nmod={[x2]drawer(8):case={of(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Sally(1,NNP): {Sally}</Word>
+		<Word idx="2">take(2,VBD): {took}</Word>
+		<Word idx="3">4(3,CD): {4}</Word>
+		<Word idx="4">pencil(4,NNS): {pencils}</Word>
+		<Word idx="5">out(5,IN): {out}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">drawer(8,NN): {drawer}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={pencil(3):amod={many(2):advmod={how(1)}}},expl={there(5)},nsubj={now(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pencil(3,NNS): {pencils}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">there(5,EX): {there}</Word>
+		<Word idx="6">now(6,RB): {now}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

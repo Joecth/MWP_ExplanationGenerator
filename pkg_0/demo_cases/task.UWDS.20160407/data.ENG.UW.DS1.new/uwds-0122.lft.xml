@@ -1,0 +1,125 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 be)
+		(s1w1 there)
+		(s1w5 tree)
+		(s1w3 33)
+		(s1w4 oak)
+		(s1w6 currently)
+		(s1w9 park)
+		(s1w7 in)
+		(s1w8 the)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(expl v1 s1w1)
+		(nsubj v1 n1)
+		(head n1 s1w5)
+		(nummod n1 s1w3)
+		(compound n1 n5)
+		(head n5 s1w4)
+		(advmod v1 s1w6)
+		(nmod v1 n6)
+		(head n6 s1w9)
+		(case n6 s1w7)
+		(det n6 s1w8)
+	)
+
+	(LF2
+		(= (quan q2 # s1w5) 33)(verb q2 s1w2)(role q2 nsubj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 have)
+		(s2w2 worker)
+		(s2w1 Park)
+		(s2w5 cut)
+		(s2w4 to)
+		(s2w6 down)
+		(s2w9 tree)
+		(s2w7 18)
+		(s2w8 oak)
+		(s2w12 damage)
+		(s2w10 that)
+		(s2w11 be)
+	)
+
+	(LF1
+		(HEAD v2 s2w3)
+		(nsubj v2 n7)
+		(head n7 s2w2)
+		(compound n7 n8)
+		(head n8 s2w1)
+		(verb v2 s2w5)
+		(mark v2 s2w4)
+		(compound_prt v2 s2w6)
+		(dobj v2 n2)
+		(head n2 s2w9)
+		(nummod n2 s2w7)
+		(compound n2 n10)
+		(head n10 s2w8)
+		(acl_relcl n2 s2w12)
+		(nsubjpass n2 s2w10)
+		(auxpass n2 s2w11)
+	)
+
+	(LF2
+		(= (quan q4 # s2w9) 18)(verb q4 s2w5)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 park)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 tree)
+		(s3w3 oak)
+		(s3w5 will)
+		(s3w6 be)
+		(s3w7 in)
+		(s3w8 the)
+		(s3w14 finish)
+		(s3w10 when)
+		(s3w12 worker)
+		(s3w11 the)
+		(s3w13 be)
+	)
+
+	(LF1
+		(head n11 s3w9)
+		(dep n11 s3w2)
+		(advmod n11 s3w1)
+		(nsubj n11 n3)
+		(head n3 s3w4)
+		(compound n3 n13)
+		(head n13 s3w3)
+		(aux n11 s3w5)
+		(verb n11 s3w6)
+		(case n11 s3w7)
+		(det n11 s3w8)
+		(advcl n11 s3w14)
+		(advmod n11 s3w10)
+		(nsubjpass n11 n14)
+		(head n14 s3w12)
+		(det n14 s3w11)
+		(auxpass n11 s3w13)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 # s1w5) (quan q4 # s2w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

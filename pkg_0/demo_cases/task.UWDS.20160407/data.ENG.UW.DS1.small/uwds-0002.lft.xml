@@ -1,0 +1,139 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 be)
+		(s1w1 there)
+		(s1w4 bale)
+		(s1w3 28)
+		(s1w6 hay)
+		(s1w5 of)
+		(s1w9 barn)
+		(s1w7 in)
+		(s1w8 the)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(expl v1 s1w1)
+		(nsubj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(nmod n1 n5)
+		(head n5 s1w6)
+		(case n5 s1w5)
+		(nmod n5 n6)
+		(head n6 s1w9)
+		(case n6 s1w7)
+		(det n6 s1w8)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 28)(verb q2 s1w2)(role q2 nsubj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 stack)
+		(s2w1 Tim)
+		(s2w3 bale)
+		(s2w6 barn)
+		(s2w4 in)
+		(s2w5 the)
+		(s2w7 today)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 n7)
+		(head n7 s2w1)
+		(dobj v2 n8)
+		(head n8 s2w3)
+		(nmod v2 n9)
+		(head n9 s2w6)
+		(case n9 s2w4)
+		(det n9 s2w5)
+		(nmod_tmod v2 n10)
+		(head n10 s2w7)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 be)
+		(s3w1 there)
+		(s3w3 now)
+		(s3w5 bale)
+		(s3w4 54)
+		(s3w7 hay)
+		(s3w6 of)
+		(s3w10 barn)
+		(s3w8 in)
+		(s3w9 the)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(expl v3 s3w1)
+		(advmod v3 s3w3)
+		(nsubj v3 n2)
+		(head n2 s3w5)
+		(nummod n2 s3w4)
+		(nmod n2 n12)
+		(head n12 s3w7)
+		(case n12 s3w6)
+		(nmod n12 n13)
+		(head n13 s3w10)
+		(case n13 s3w8)
+		(det n13 s3w9)
+	)
+
+	(LF2
+		(= (quan q4 # s3w5) 54)(verb q4 s3w2)(role q4 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 store)
+		(s4w3 bale)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 do)
+		(s4w5 he)
+		(s4w9 barn)
+		(s4w7 in)
+		(s4w8 the)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(dobj v4 n3)
+		(head n3 s4w3)
+		(amod n3 s4w2)
+		(advmod n3 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 s4w5)
+		(nmod v4 n15)
+		(head n15 s4w9)
+		(case n15 s4w7)
+		(det n15 s4w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 # s3w5) (quan q2 # s1w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

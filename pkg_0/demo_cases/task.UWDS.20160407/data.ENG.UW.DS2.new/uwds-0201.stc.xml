@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{build(10):nmod={beach(3):case={at(1)},det={the(2)}},nsubj={[x3,x4]Miki(5):cc={and(6)},conj={[x2]sister(8):nmod_poss={[x3]she(7)}}},advmod={both(9)},dobj={sandcastle(11)},cc={and(12)},conj={measure(14):advmod={then(13)},dobj={height(16):nmod_poss={[x4]they(15)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">at(1,IN): {At}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">beach(3,NN): {beach}</Word>
+		<Word idx="4">Miki(5,NNP): {Miki}</Word>
+		<Word idx="5">and(6,CC): {and}</Word>
+		<Word idx="6">she(7,PRPS): {her}</Word>
+		<Word idx="7">sister(8,NN): {sister}</Word>
+		<Word idx="8">both(9,CC): {both}</Word>
+		<Word idx="9">build(10,VBN): {built}</Word>
+		<Word idx="10">sandcastle(11,NNS): {sandcastles}</Word>
+		<Word idx="11">and(12,CC): {and}</Word>
+		<Word idx="12">then(13,RB): {then}</Word>
+		<Word idx="13">measure(14,VBD): {measured}</Word>
+		<Word idx="14">they(15,PRPS): {their}</Word>
+		<Word idx="15">height(16,NNS): {heights}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{foot(6):nsubj={[x1]sandcastle(3):nmod_poss={[x3]Miki(1):case={'s(2)}}},cop={be(4)},nummod={0.8333333333333334(5)},acl_relcl={tall(15):nsubj={tall(7):cc={and(8)},conj={[x2]sister(10):nmod_poss={[x3]she(9)},case={'s(11)}}},cop={be(12)},nmod_npmod={foot(14):nummod={0.5(13)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Miki(1,NNP): {Miki}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">sandcastle(3,NN): {sandcastle}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">0.8333333333333334(5,CD): {0.8333333333333334}</Word>
+		<Word idx="6">foot(6,NN): {foot}</Word>
+		<Word idx="7">tall(7,JJ): {tall}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">she(9,PRPS): {her}</Word>
+		<Word idx="10">sister(10,NN): {sister}</Word>
+		<Word idx="11">'s(11,POS): {'s}</Word>
+		<Word idx="12">be(12,VBD): {was}</Word>
+		<Word idx="13">0.5(13,CD): {0.5}</Word>
+		<Word idx="14">foot(14,NN): {foot}</Word>
+		<Word idx="15">tall(15,JJ): {tall}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sandcastle(7):dep={much(2):advmod={how(1)}},nsubj={taller(3)},cop={be(4)},nmod_poss={[x3]Miki(5):case={'s(6)}},nmod={[x3]she(9):case={than(8)},nmod_poss={[x2]sister(10):case={'s(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">taller(3,JJR): {taller}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">Miki(5,NNP): {Miki}</Word>
+		<Word idx="6">'s(6,POS): {'s}</Word>
+		<Word idx="7">sandcastle(7,NN): {sandcastle}</Word>
+		<Word idx="8">than(8,IN): {than}</Word>
+		<Word idx="9">she(9,PRPS): {her}</Word>
+		<Word idx="10">sister(10,NN): {sister}</Word>
+		<Word idx="11">'s(11,POS): {'s}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

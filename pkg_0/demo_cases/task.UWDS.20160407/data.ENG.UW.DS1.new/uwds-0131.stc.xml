@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{go(2):nsubj={[x1]Sandy(1)},nmod={mall(5):case={to(3)},det={the(4)}},xcomp={buy(7):mark={to(6)},dobj={clothes(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Sandy(1,NNP): {Sandy}</Word>
+		<Word idx="2">go(2,VBD): {went}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">mall(5,NN): {mall}</Word>
+		<Word idx="6">to(6,TO): {to}</Word>
+		<Word idx="7">buy(7,VB): {buy}</Word>
+		<Word idx="8">clothes(8,NNS): {clothes}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(2):nsubj={[x1]she(1)},dobj={13.99(4):dep={USD(3)},nmod={shorts(6):case={on(5)}},conj={12.14(9):dep={USD(8)},nmod={shirt(12):case={on(10)},det={a(11)}}},cc={and(14)},conj={7.43(16):dep={USD(15)},nmod={jacket(19):case={on(17)},det={a(18)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">spend(2,VBD): {spent}</Word>
+		<Word idx="3">USD(3,USD): {USD}</Word>
+		<Word idx="4">13.99(4,CD): {13.99}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">shorts(6,NNS): {shorts}</Word>
+		<Word idx="7">USD(8,USD): {USD}</Word>
+		<Word idx="8">12.14(9,CD): {12.14}</Word>
+		<Word idx="9">on(10,IN): {on}</Word>
+		<Word idx="10">a(11,DT): {a}</Word>
+		<Word idx="11">shirt(12,NN): {shirt}</Word>
+		<Word idx="12">and(14,CC): {and}</Word>
+		<Word idx="13">USD(15,USD): {USD}</Word>
+		<Word idx="14">7.43(16,CD): {7.43}</Word>
+		<Word idx="15">on(17,IN): {on}</Word>
+		<Word idx="16">a(18,DT): {a}</Word>
+		<Word idx="17">jacket(19,NN): {jacket}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{spend(6):dobj={money(3):amod={much(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Sandy(5)},nmod={clothes(8):case={on(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">money(3,NN): {money}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Sandy(5,NNP): {Sandy}</Word>
+		<Word idx="6">spend(6,VB): {spend}</Word>
+		<Word idx="7">on(7,IN): {on}</Word>
+		<Word idx="8">clothes(8,NNS): {clothes}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">TimeVariantUnknownFinal</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

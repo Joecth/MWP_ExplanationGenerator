@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{find(2):nsubj={Suzie(1)},dobj={[x1]worm(4):nummod={2(3)}},nmod={yard(7):case={in(5)},det={the(6)}},cc={and(8)},conj={measure(9):dobj={[x1]they(10)},nmod={ruler(13):case={with(11)},det={a(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Suzie(1,NNP): {Suzie}</Word>
+		<Word idx="2">find(2,VBD): {found}</Word>
+		<Word idx="3">2(3,CD): {2}</Word>
+		<Word idx="4">worm(4,NNS): {worms}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">yard(7,NN): {yard}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">measure(9,VBD): {measured}</Word>
+		<Word idx="10">they(10,PRP): {them}</Word>
+		<Word idx="11">with(11,IN): {with}</Word>
+		<Word idx="12">a(12,DT): {a}</Word>
+		<Word idx="13">ruler(13,NN): {ruler}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(3):nsubj={[x2]worm(2):nummod={1(1)}},advmod={long(6):nmod_npmod={inch(5):nummod={0.8(4)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">1(1,CD): {1}</Word>
+		<Word idx="2">worm(2,NN): {worm}</Word>
+		<Word idx="3">be(3,VBD): {was}</Word>
+		<Word idx="4">0.8(4,CD): {0.8}</Word>
+		<Word idx="5">inch(5,NN): {inch}</Word>
+		<Word idx="6">long(6,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={[x2]worm(3):det={the(1)},amod={other(2)}},advmod={long(7):nmod_npmod={inch(6):nummod={0.1(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">other(2,JJ): {other}</Word>
+		<Word idx="3">worm(3,NN): {worm}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">0.1(5,CD): {0.1}</Word>
+		<Word idx="6">inch(6,NN): {inch}</Word>
+		<Word idx="7">long(7,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):dobj={much(2):advmod={how(1)},amod={longer(3)}},nsubj={[x2]worm(7):det={the(5)},amod={longer(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">longer(3,RBR): {longer}</Word>
+		<Word idx="4">be(4,VBD): {was}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">longer(6,RBR): {longer}</Word>
+		<Word idx="7">worm(7,NN): {worm}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

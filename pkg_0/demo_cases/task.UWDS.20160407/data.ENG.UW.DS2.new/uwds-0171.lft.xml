@@ -1,0 +1,111 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w7 score)
+		(s1w2 play)
+		(s1w1 while)
+		(s1w5 game)
+		(s1w3 a)
+		(s1w4 video)
+		(s1w6 Paul)
+		(s1w9 point)
+		(s1w8 3103)
+	)
+
+	(LF1
+		(verb v1 s1w7)
+		(advcl v1 s1w2)
+		(mark v1 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w5)
+		(det n4 s1w3)
+		(compound n4 n5)
+		(head n5 s1w4)
+		(nsubj v1 n6)
+		(head n6 s1w6)
+		(dobj v1 n1)
+		(head n1 s1w9)
+		(nummod n1 s1w8)
+	)
+
+	(LF2
+		(= (quan q2 # s1w9) 3103)(verb q2 s1w7)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w6 have)
+		(s2w1 he)
+		(s2w2 and)
+		(s2w4 cousin)
+		(s2w3 he)
+		(s2w5 together)
+		(s2w8 total)
+		(s2w7 a)
+		(s2w11 point)
+		(s2w9 of)
+		(s2w10 5816)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(nsubj v2 s2w1)
+		(cj_op j1 and)
+		(conj v2 n8)
+		(head n8 s2w4)
+		(nmod_poss n8 s2w3)
+		(advmod v2 s2w5)
+		(dobj v2 n9)
+		(head n9 s2w8)
+		(det n9 s2w7)
+		(nmod n9 n2)
+		(head n2 s2w11)
+		(case n2 s2w9)
+		(nummod n2 s2w10)
+	)
+
+	(LF2
+		(= (quan q4 # s2w11) 5816)(verb q4 s2w6)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w8 have)
+		(s3w3 point)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 do)
+		(s3w7 cousin)
+		(s3w5 Paul)
+		(s3w6 's)
+	)
+
+	(LF1
+		(verb v3 s3w8)
+		(dobj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n12)
+		(head n12 s3w7)
+		(nmod_poss n12 n13)
+		(head n13 s3w5)
+		(case n13 s3w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q4 # s2w11) (quan q2 # s1w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

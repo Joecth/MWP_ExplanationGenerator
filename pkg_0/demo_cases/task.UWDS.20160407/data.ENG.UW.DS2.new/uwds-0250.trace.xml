@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>2.75bucketseed</CHUNK>
+          <CHUNK>OP_Subtraction</CHUNK>
+            <CHUNK>8.75bucketseed</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>6bucketseed</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_189'>
+    2.75bucketseed
+    Subtraction
+    <math ID='NULL'>
+      8.75bucketseed
+    </math>
+    <math ID='NULL'>
+      6bucketseed
+    </math>
+  </math>
+  <ctx ID='ctx_186'>
+    <__one_line_xml_ASK__ANS>2.75</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_185'>
+      ( CLUE::Input ( ASK ANS ( Subtraction ( quan q2 s1w8 s1w10 ) ( quan q4 s2w11 s1w10 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_189'>
+      ( CLUE::Util ( Subtraction 8.75 6 = 2.75 ) )
+      ( CLUE::Util ( Val1 ( m_real 8.75 ) ( m_fact ( quan q2 bucket s1w10 ) ( 8.75 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 6 ) ( m_fact ( quan q4 bucket s1w10 ) ( 6 ) ) ) )
+      <ctx ID='ctx_85'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 bucket s1w10 ) 8.75 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 bucket s1w10 ) 8.75 ) )
+        ( CLUE::Create-Fact ( quan q2 bucket s1w10 ) ( 8.75 ) )
+        <ctx ID='ctx_84'>
+          ( CLUE::Input ( = ( quan q2 s1w8 s1w10 ) 8.75 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_138'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 bucket s1w10 ) 6 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 bucket s1w10 ) 6 ) )
+        ( CLUE::Create-Fact ( quan q4 bucket s1w10 ) ( 6 ) )
+        <ctx ID='ctx_137'>
+          ( CLUE::Input ( = ( quan q4 s2w11 s1w10 ) 6 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

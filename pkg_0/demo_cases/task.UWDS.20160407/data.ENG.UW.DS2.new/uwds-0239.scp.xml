@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(5):nsubj={Company(4):nmod_poss={[x2]Roadster(1):case={'s(2)}},compound={Paving(3)}},dobj={ton(7):nummod={10(6)},nmod={cement(9):case={of(8)}}},advcl={pave(11):mark={to(10)},dobj={street(14):nmod_poss={[x1]Lexi(12):case={'s(13)}},cc={and(15)},conj={ton(17):nummod={5.1(16)},nmod={cement(19):case={of(18)}}}},advcl={pave(21):mark={to(20)},dobj={street(24):nmod_poss={[x1]Tess(22):case={'s(23)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Roadster(1,NNP): {Roadster}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">Paving(3,NNP): {Paving}</Word>
+		<Word idx="4">Company(4,NNP): {Company}</Word>
+		<Word idx="5">use(5,VBD): {used}</Word>
+		<Word idx="6">10(6,CD): {10}</Word>
+		<Word idx="7">ton(7,NNS): {tons}</Word>
+		<Word idx="8">of(8,IN): {of}</Word>
+		<Word idx="9">cement(9,NN): {cement}</Word>
+		<Word idx="10">to(10,TO): {to}</Word>
+		<Word idx="11">pave(11,VB): {pave}</Word>
+		<Word idx="12">Lexi(12,NNP): {Lexi}</Word>
+		<Word idx="13">'s(13,POS): {'s}</Word>
+		<Word idx="14">street(14,NN): {street}</Word>
+		<Word idx="15">and(15,CC): {and}</Word>
+		<Word idx="16">5.1(16,CD): {5.1}</Word>
+		<Word idx="17">ton(17,NNS): {tons}</Word>
+		<Word idx="18">of(18,IN): {of}</Word>
+		<Word idx="19">cement(19,NN): {cement}</Word>
+		<Word idx="20">to(20,TO): {to}</Word>
+		<Word idx="21">pave(21,VB): {pave}</Word>
+		<Word idx="22">Tess(22,NNP): {Tess}</Word>
+		<Word idx="23">'s(23,POS): {'s}</Word>
+		<Word idx="24">street(24,NN): {street}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{use(9):dobj={cement(3):amod={much(2):advmod={how(1)}}},aux={do(4)},nsubj={[x2]Roadster(5):case={'s(6)},dep={Company(8):compound={Paving(7)}}},nmod={all(11):case={in(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">cement(3,NN): {cement}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Roadster(5,NNP): {Roadster}</Word>
+		<Word idx="6">'s(6,POS): {'s}</Word>
+		<Word idx="7">Paving(7,NNP): {Paving}</Word>
+		<Word idx="8">Company(8,NNP): {Company}</Word>
+		<Word idx="9">use(9,VB): {use}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">all(11,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,128 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 record)
+		(s1w1 Logan)
+		(s1w4 snowfall)
+		(s1w3 the)
+		(s1w6 day)
+		(s1w5 every)
+		(s1w9 snowstorm)
+		(s1w7 during)
+		(s1w8 a)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n5)
+		(head n5 s1w1)
+		(dobj v1 n6)
+		(head n6 s1w4)
+		(det n6 s1w3)
+		(dep n6 n7)
+		(head n7 s1w6)
+		(det n7 s1w5)
+		(nmod v1 n8)
+		(head n8 s1w9)
+		(case n8 s1w7)
+		(det n8 s1w8)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 record)
+		(s2w1 he)
+		(s2w4 centimeter)
+		(s2w3 0.3333333333333333)
+		(s2w6 Wednesday)
+		(s2w5 on)
+		(s2w8 centimeter)
+		(s2w7 0.3333333333333333)
+		(s2w10 Thursday)
+		(s2w9 on)
+		(s2w11 and)
+		(s2w13 centimeter)
+		(s2w12 0.2222222222222222)
+		(s2w15 Friday)
+		(s2w14 on)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n1)
+		(head n1 s2w4)
+		(nummod n1 s2w3)
+		(nmod n1 n10)
+		(head n10 s2w6)
+		(case n10 s2w5)
+		(conj n1 n2)
+		(head n2 s2w8)
+		(nummod n2 s2w7)
+		(nmod n2 n12)
+		(head n12 s2w10)
+		(case n12 s2w9)
+		(cj_op j1 and)
+		(conj n1 n3)
+		(head n3 s2w13)
+		(nummod n3 s2w12)
+		(nmod n3 n14)
+		(head n14 s2w15)
+		(case n14 s2w14)
+	)
+
+	(LF2
+		(= (quan q2 # s2w4) 0.3333333333333333)(verb q2 s2w2)(role q2 dobj)
+		(= (quan q4 # s2w8) 0.3333333333333333)(verb q4 s2w2)(role q4 conj)
+		(= (quan q6 # s2w13) 0.2222222222222222)(verb q6 s2w2)(role q6 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 record)
+		(s3w4 centimeter)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w3 total)
+		(s3w6 snow)
+		(s3w5 of)
+		(s3w7 do)
+		(s3w8 Logan)
+	)
+
+	(LF1
+		(verb v3 s3w9)
+		(dobj v3 n4)
+		(head n4 s3w4)
+		(amod n4 s3w2)
+		(advmod n4 s3w1)
+		(amod n4 s3w3)
+		(nmod n4 n16)
+		(head n16 s3w6)
+		(case n16 s3w5)
+		(aux v3 s3w7)
+		(nsubj v3 n17)
+		(head n17 s3w8)
+	)
+
+	(LF2
+		
+		(= (quan q2 # s2w4) 0.3333333333333333) (= (tvq v1 # s2w4 t0) (quan q2 # s2w4))
+		(= (quan q4 # s2w8) 0.3333333333333333) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 # s2w13) 0.2222222222222222) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 # s3w4 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

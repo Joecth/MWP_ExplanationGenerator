@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{purchase(5):nsubj={Company(4):nmod_poss={[x2]Paco(1):case={'s(2)}},compound={Countertop(3)}},dobj={[x1]piece(6):nmod={marble(8):case={of(7)}}},nmod={quarry(11):case={from(9)},det={a(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Paco(1,NNP): {Paco}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">Countertop(3,NNP): {Countertop}</Word>
+		<Word idx="4">Company(4,NNP): {Company}</Word>
+		<Word idx="5">purchase(5,VBD): {purchased}</Word>
+		<Word idx="6">piece(6,NNS): {pieces}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">marble(8,NN): {marble}</Word>
+		<Word idx="9">from(9,IN): {from}</Word>
+		<Word idx="10">a(10,DT): {a}</Word>
+		<Word idx="11">quarry(11,NN): {quarry}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{ton(10):nsubj={weight(2):det={the(1)},nmod={[x1]piece(5):case={of(3)},det={the(4)},acl_relcl={purchase(7):nsubj={they(6)}}}},cop={be(8)},nummod={0.3333333333333333(9)},conj={ton(13):nummod={0.3333333333333333(12)}},cc={and(15)},conj={ton(17):nummod={0.08333333333333333(16)}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">weight(2,NNS): {weights}</Word>
+		<Word idx="3">of(3,IN): {of}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">piece(5,NNS): {pieces}</Word>
+		<Word idx="6">they(6,PRP): {they}</Word>
+		<Word idx="7">purchase(7,VBD): {purchased}</Word>
+		<Word idx="8">be(8,VBD): {were}</Word>
+		<Word idx="9">0.3333333333333333(9,CD): {0.3333333333333333}</Word>
+		<Word idx="10">ton(10,NN): {ton}</Word>
+		<Word idx="11">0.3333333333333333(12,CD): {0.3333333333333333}</Word>
+		<Word idx="12">ton(13,NN): {ton}</Word>
+		<Word idx="13">and(15,CC): {and}</Word>
+		<Word idx="14">0.08333333333333333(16,CD): {0.08333333333333333}</Word>
+		<Word idx="15">ton(17,NN): {ton}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(6):nsubj={ton(3):amod={many(2):advmod={how(1)}},nmod={marble(5):case={of(4)}}},dobj={purchase(11):nmod_poss={[x2]Paco(7):case={'s(8)}},compound={Countertop(9)},compound={Company(10)}},nmod={all(13):case={in(12)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">ton(3,NNS): {tons}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">marble(5,NN): {marble}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Paco(7,NNP): {Paco}</Word>
+		<Word idx="8">'s(8,POS): {'s}</Word>
+		<Word idx="9">Countertop(9,NNP): {Countertop}</Word>
+		<Word idx="10">Company(10,NNP): {Company}</Word>
+		<Word idx="11">purchase(11,NN): {purchase}</Word>
+		<Word idx="12">in(12,IN): {in}</Word>
+		<Word idx="13">all(13,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

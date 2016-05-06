@@ -1,0 +1,90 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 spend)
+		(s1w1 Jessica)
+		(s1w4 10.22)
+		(s1w3 USD)
+		(s1w8 toy)
+		(s1w5 on)
+		(s1w6 a)
+		(s1w7 cat)
+		(s1w9 and)
+		(s1w12 cost)
+		(s1w11 cage)
+		(s1w10 a)
+		(s1w13 she)
+		(s1w15 11.73)
+		(s1w14 USD)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 s1w4)
+		(dep v1 n1)
+		(head n1 s1w3)
+		(nmod v1 n4)
+		(head n4 s1w8)
+		(case n4 s1w5)
+		(det n4 s1w6)
+		(compound n4 n5)
+		(head n5 s1w7)
+		(cj_op j1 and)
+		(verb v1 s1w12)
+		(nsubj v1 n6)
+		(head n6 s1w11)
+		(det n6 s1w10)
+		(dep v1 s1w13)
+		(dobj v1 s1w15)
+		(dep v1 n2)
+		(head n2 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 # s1w3) 10.22)(verb q2 s1w2)(role q2 dep)
+		(= (quan q4 # s1w14) 11.73)(verb q4 s1w12)(role q4 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w1 what)
+		(s2w2 be)
+		(s2w5 cost)
+		(s2w3 the)
+		(s2w4 total)
+		(s2w9 purchase)
+		(s2w6 of)
+		(s2w7 Jessica)
+		(s2w8 's)
+	)
+
+	(LF1
+		(HEAD x2 s2w1)
+		(cop x2 s2w2)
+		(nsubj x2 n7)
+		(head n7 s2w5)
+		(det n7 s2w3)
+		(amod n7 s2w4)
+		(nmod n7 n8)
+		(head n8 s2w9)
+		(case n8 s2w6)
+		(nmod_poss n8 n9)
+		(head n9 s2w7)
+		(case n9 s2w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w3) (quan q4 # s1w14)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,117 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Jason)
+		(s1w4 card)
+		(s1w3 pokemon)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(compound n1 n6)
+		(head n6 s1w3)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 give)
+		(s2w1 he)
+		(s2w3 9)
+		(s2w6 friend)
+		(s2w4 to)
+		(s2w5 he)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 s2w3)
+		(nmod v2 n7)
+		(head n7 s2w6)
+		(case n7 s2w4)
+		(nmod_poss n7 s2w5)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 9)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 have)
+		(s3w1 he)
+		(s3w2 now)
+		(s3w6 card)
+		(s3w4 4)
+		(s3w5 pokemon)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(nsubj v3 s3w1)
+		(advmod v3 s3w2)
+		(dobj v3 n2)
+		(head n2 s3w6)
+		(nummod n2 s3w4)
+		(compound n2 n9)
+		(head n9 s3w5)
+	)
+
+	(LF2
+		(= (quan q4 # s3w6) 4)(verb q4 s3w3)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w7 have)
+		(s4w4 card)
+		(s4w3 pokemon)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w5 do)
+		(s4w6 he)
+		(s4w9 start)
+		(s4w8 to)
+		(s4w10 with)
+	)
+
+	(LF1
+		(verb v4 s4w7)
+		(dep v4 n3)
+		(head n3 s4w4)
+		(dep n3 n11)
+		(head n11 s4w3)
+		(amod n11 s4w2)
+		(advmod n11 s4w1)
+		(aux v4 s4w5)
+		(nsubj v4 s4w6)
+		(xcomp v4 s4w9)
+		(mark v4 s4w8)
+		(nmod v4 s4w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 # s1w4) (quan q4 # s3w6)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

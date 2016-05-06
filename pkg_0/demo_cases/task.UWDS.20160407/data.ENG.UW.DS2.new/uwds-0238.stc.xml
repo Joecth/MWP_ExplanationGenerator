@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(5):nsubj={[x2]textbook(4):nmod_poss={[x1]Kelly(1):case={'s(2)}},compound={chemistry(3)}},ccomp={weigh(12):nsubj={pound(7):nummod={7.125(6)},cc={and(8)},conj={[x2]textbook(11):nmod_poss={[x1]she(9)},compound={geometry(10)}}},dobj={pound(14):nummod={0.625(13)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Kelly(1,NNP): {Kelly}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">chemistry(3,NN): {chemistry}</Word>
+		<Word idx="4">textbook(4,NN): {textbook}</Word>
+		<Word idx="5">weigh(5,VBZ): {weighs}</Word>
+		<Word idx="6">7.125(6,CD): {7.125}</Word>
+		<Word idx="7">pound(7,NNS): {pounds}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">she(9,PRPS): {her}</Word>
+		<Word idx="10">geometry(10,NN): {geometry}</Word>
+		<Word idx="11">textbook(11,NN): {textbook}</Word>
+		<Word idx="12">weigh(12,VBZ): {weighs}</Word>
+		<Word idx="13">0.625(13,CD): {0.625}</Word>
+		<Word idx="14">pound(14,NN): {pound}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(4):nsubj={much(2):advmod={how(1)}},advmod={more(3)},dobj={[x2]textbook(7):det={the(5)},compound={chemistry(6)},acl_relcl={weigh(8):nmod={[x2]textbook(12):case={than(9)},det={the(10)},compound={geometry(11)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">more(3,RBR): {more}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">the(5,DT): {the}</Word>
+		<Word idx="6">chemistry(6,NN): {chemistry}</Word>
+		<Word idx="7">textbook(7,NN): {textbook}</Word>
+		<Word idx="8">weigh(8,VBP): {weigh}</Word>
+		<Word idx="9">than(9,IN): {than}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">geometry(11,NN): {geometry}</Word>
+		<Word idx="12">textbook(12,NN): {textbook}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

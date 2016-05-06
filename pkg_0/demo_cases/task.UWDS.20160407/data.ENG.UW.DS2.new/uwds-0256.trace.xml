@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>9.8mile</CHUNK>
+          <CHUNK>OP_Addition</CHUNK>
+            <CHUNK>8.2mile</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>1.6mile</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_136'>
+    9.8mile
+    Addition
+    <math ID='NULL'>
+      8.2mile
+    </math>
+    <math ID='NULL'>
+      1.6mile
+    </math>
+  </math>
+  <ctx ID='ctx_133'>
+    <__one_line_xml_ASK__ANS>9.8</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_132'>
+      ( CLUE::Input ( ASK ANS ( Addition ( quan q2 s1w4 # ) ( quan q4 s2w8 # ) ) ) )
+    </ctx>
+    <ctx ID='ctx_136'>
+      ( CLUE::Util ( Addition 8.2 1.6 = 9.8 ) )
+      ( CLUE::Util ( Val1 ( m_real 8.2 ) ( m_fact ( quan q2 mile # ) ( 8.2 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 1.6 ) ( m_fact ( quan q4 mile # ) ( 1.6 ) ) ) )
+      <ctx ID='ctx_70'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 mile # ) 8.2 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 mile # ) 8.2 ) )
+        ( CLUE::Create-Fact ( quan q2 mile # ) ( 8.2 ) )
+        <ctx ID='ctx_69'>
+          ( CLUE::Input ( = ( quan q2 s1w4 # ) 8.2 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_105'>
+        ( CLUE::EVAL::LF2 ( = ( quan q4 mile # ) 1.6 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q4 mile # ) 1.6 ) )
+        ( CLUE::Create-Fact ( quan q4 mile # ) ( 1.6 ) )
+        <ctx ID='ctx_104'>
+          ( CLUE::Input ( = ( quan q4 s2w8 # ) 1.6 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

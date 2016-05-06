@@ -1,0 +1,120 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 sell)
+		(s1w2 far)
+		(s1w1 so)
+		(s1w4 orchard)
+		(s1w3 a)
+		(s1w5 have)
+		(s1w9 total)
+		(s1w7 a)
+		(s1w8 combined)
+		(s1w12 pound)
+		(s1w10 of)
+		(s1w11 9792)
+		(s1w17 fruit)
+		(s1w13 of)
+		(s1w14 fresh)
+		(s1w15 and)
+		(s1w16 frozen)
+		(s1w19 season)
+		(s1w18 this)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(advmod v1 s1w2)
+		(advmod v1 s1w1)
+		(nsubj v1 n2)
+		(head n2 s1w4)
+		(det n2 s1w3)
+		(aux v1 s1w5)
+		(dobj v1 n3)
+		(head n3 s1w9)
+		(det n3 s1w7)
+		(amod n3 s1w8)
+		(nmod n3 n4)
+		(head n4 s1w12)
+		(case n4 s1w10)
+		(nummod n4 s1w11)
+		(nmod n4 n1)
+		(head n1 s1w17)
+		(case n1 s1w13)
+		(amod n1 s1w14)
+		(cj_op j1 and)
+		(conj n1 s1w16)
+		(nmod_tmod n4 n6)
+		(head n6 s1w19)
+		(det n6 s1w18)
+	)
+
+	(LF2
+		(= (quan q2 s1w12 s1w17) 9792)(verb q2 s1w6)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w18 sell)
+		(s2w4 sell)
+		(s2w1 if)
+		(s2w2 they)
+		(s2w3 have)
+		(s2w6 pound)
+		(s2w5 3513)
+		(s2w9 fruit)
+		(s2w7 of)
+		(s2w8 frozen)
+		(s2w12 pound)
+		(s2w11 many)
+		(s2w10 how)
+		(s2w15 fruit)
+		(s2w13 of)
+		(s2w14 fresh)
+		(s2w16 have)
+		(s2w17 be)
+		(s2w20 far)
+		(s2w19 so)
+	)
+
+	(LF1
+		(verb v2 s2w18)
+		(verb v2 s2w4)
+		(mark v2 s2w1)
+		(nsubj v2 s2w2)
+		(aux v2 s2w3)
+		(dobj v2 n7)
+		(head n7 s2w6)
+		(nummod n7 s2w5)
+		(nmod n7 n8)
+		(head n8 s2w9)
+		(case n8 s2w7)
+		(amod n8 s2w8)
+		(nsubjpass v2 n9)
+		(head n9 s2w12)
+		(amod n9 s2w11)
+		(advmod n9 s2w10)
+		(nmod n9 n10)
+		(head n10 s2w15)
+		(case n10 s2w13)
+		(amod n10 s2w14)
+		(aux v2 s2w16)
+		(auxpass v2 s2w17)
+		(advmod v2 s2w20)
+		(advmod v2 s2w19)
+	)
+
+	(LF2
+		(= (quan q4 s2w6 s1w17) 3513)(verb q4 s2w4)(mark q4 s2w1)(aux q4 s2w3)(role q4 nmod)
+
+		(ASK ANS (Subtraction (quan q2 s1w12 s1w17) (quan q4 s2w6 s1w17)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

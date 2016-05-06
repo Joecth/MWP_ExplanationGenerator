@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{rain(2):nsubj={[x2]it(1)},dobj={inch(4):nummod={0.9(3)}},nmod={[x1]Monday(6):case={on(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">it(1,PRP): {It}</Word>
+		<Word idx="2">rain(2,VBD): {rained}</Word>
+		<Word idx="3">0.9(3,CD): {0.9}</Word>
+		<Word idx="4">inch(4,NNS): {inches}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">Monday(6,NNP): {Monday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{rain(5):nmod={[x3]Tuesday(2):case={on(1)}},nsubj={[x2]it(4)},nmod={[x1]Monday(11):advmod={less(8):nmod_npmod={inch(7):nummod={0.7(6)}}},case={than(9)},case={on(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">on(1,IN): {On}</Word>
+		<Word idx="2">Tuesday(2,NNP): {Tuesday}</Word>
+		<Word idx="3">it(4,PRP): {it}</Word>
+		<Word idx="4">rain(5,VBD): {rained}</Word>
+		<Word idx="5">0.7(6,CD): {0.7}</Word>
+		<Word idx="6">inch(7,NNS): {inches}</Word>
+		<Word idx="7">less(8,JJR): {less}</Word>
+		<Word idx="8">than(9,IN): {than}</Word>
+		<Word idx="9">on(10,IN): {on}</Word>
+		<Word idx="10">Monday(11,NNP): {Monday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{do(3):nsubj={much(2):advmod={how(1)}},xcomp={rain(5):nsubj={[x2]it(4)},nmod={[x3]Tuesday(7):case={on(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">it(4,PRP): {it}</Word>
+		<Word idx="5">rain(5,NN): {rain}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">Tuesday(7,NNP): {Tuesday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(8):nmod={[x1]boom(5):case={before(1)},det={the(2)},amod={recent(3)},compound={housing(4)}},expl={there(7)},nsubj={house(10):nummod={1426(9)},nmod={County(13):case={in(11)},compound={Lawrence(12)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">before(1,IN): {Before}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">recent(3,JJ): {recent}</Word>
+		<Word idx="4">housing(4,NN): {housing}</Word>
+		<Word idx="5">boom(5,NN): {boom}</Word>
+		<Word idx="6">there(7,EX): {there}</Word>
+		<Word idx="7">be(8,VBD): {were}</Word>
+		<Word idx="8">1426(9,CD): {1426}</Word>
+		<Word idx="9">house(10,NNS): {houses}</Word>
+		<Word idx="10">in(11,IN): {in}</Word>
+		<Word idx="11">Lawrence(12,NNP): {Lawrence}</Word>
+		<Word idx="12">County(13,NNP): {County}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):advmod={now(1)},expl={there(3)},nsubj={house(6):nummod={2000(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">now(1,RB): {Now}</Word>
+		<Word idx="2">there(3,EX): {there}</Word>
+		<Word idx="3">be(4,VBP): {are}</Word>
+		<Word idx="4">2000(5,CD): {2000}</Word>
+		<Word idx="5">house(6,NNS): {houses}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{build(6):dobj={house(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={developer(5)},nmod={[x1]boom(10):case={during(7)},det={the(8)},compound={housing(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">house(3,NNS): {houses}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">developer(5,NNS): {developers}</Word>
+		<Word idx="6">build(6,VB): {build}</Word>
+		<Word idx="7">during(7,IN): {during}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">housing(9,NN): {housing}</Word>
+		<Word idx="10">boom(10,NN): {boom}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

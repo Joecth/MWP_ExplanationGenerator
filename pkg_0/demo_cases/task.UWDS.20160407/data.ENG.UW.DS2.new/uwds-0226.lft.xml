@@ -1,0 +1,102 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 order)
+		(s1w3 company)
+		(s1w1 a)
+		(s1w2 construction)
+		(s1w6 ton)
+		(s1w5 0.16666666666666666)
+		(s1w8 concrete)
+		(s1w7 of)
+		(s1w10 ton)
+		(s1w9 0.16666666666666666)
+		(s1w12 brick)
+		(s1w11 of)
+		(s1w13 and)
+		(s1w15 ton)
+		(s1w14 0.5)
+		(s1w17 stone)
+		(s1w16 of)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubj v1 n5)
+		(head n5 s1w3)
+		(det n5 s1w1)
+		(compound n5 n6)
+		(head n6 s1w2)
+		(dobj v1 n7)
+		(head n7 s1w6)
+		(nummod n7 s1w5)
+		(nmod n7 n1)
+		(head n1 s1w8)
+		(case n1 s1w7)
+		(conj n7 n9)
+		(head n9 s1w10)
+		(nummod n9 s1w9)
+		(nmod n9 n2)
+		(head n2 s1w12)
+		(case n2 s1w11)
+		(cj_op j1 and)
+		(conj n7 n11)
+		(head n11 s1w15)
+		(nummod n11 s1w14)
+		(nmod n11 n3)
+		(head n3 s1w17)
+		(case n3 s1w16)
+	)
+
+	(LF2
+		(= (quan q2 s1w6 s1w8) 0.16666666666666666)(verb q2 s1w4)(role q2 nmod)
+		(= (quan q4 s1w10 s1w12) 0.16666666666666666)(verb q4 s1w4)(role q4 nmod)
+		(= (quan q6 s1w15 s1w17) 0.5)(verb q6 s1w4)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 do)
+		(s2w3 ton)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 material)
+		(s2w4 of)
+		(s2w9 order)
+		(s2w7 the)
+		(s2w8 company)
+		(s2w11 all)
+		(s2w10 in)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(nsubj v2 n13)
+		(head n13 s2w3)
+		(amod n13 s2w2)
+		(advmod n13 s2w1)
+		(nmod n13 n4)
+		(head n4 s2w5)
+		(case n4 s2w4)
+		(verb v2 n15)
+		(head n15 s2w9)
+		(det n15 s2w7)
+		(compound n15 n16)
+		(head n16 s2w8)
+		(nmod v2 s2w11)
+		(case v2 s2w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Sum (quan ?q ?u ?o)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

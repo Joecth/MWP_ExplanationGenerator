@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{move(4):nsubj={[x1]family(3):nmod_poss={Abe(1):case={'s(2)}}},nmod={Bahamas(7):case={from(5)},det={the(6)}},nmod={Japan(9):case={to(8)}},dep={so(11)},parataxis={have(13):nsubj={[x1]they(12)},ccomp={convert(14):dobj={money(16):nmod_poss={[x1]they(15)}},nmod={yen(19):case={into(17)},amod={japanese(18)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Abe(1,NNP): {Abe}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">family(3,NN): {family}</Word>
+		<Word idx="4">move(4,VBD): {moved}</Word>
+		<Word idx="5">from(5,IN): {from}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">Bahamas(7,NNPS): {Bahamas}</Word>
+		<Word idx="8">to(8,TO): {to}</Word>
+		<Word idx="9">Japan(9,NNP): {Japan}</Word>
+		<Word idx="10">so(11,IN): {so}</Word>
+		<Word idx="11">they(12,PRP): {they}</Word>
+		<Word idx="12">have(13,VBD): {had}</Word>
+		<Word idx="13">convert(14,VB): {convert}</Word>
+		<Word idx="14">they(15,PRPS): {their}</Word>
+		<Word idx="15">money(16,NN): {money}</Word>
+		<Word idx="16">into(17,IN): {into}</Word>
+		<Word idx="17">japanese(18,JJ): {Japanese}</Word>
+		<Word idx="18">yen(19,NNS): {yen}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(5):nsubj={account(3):nmod_poss={[x1]they(1)},compound={checking(2)}},advmod={now(4)},dobj={yen(7):nummod={6359(6)}},cc={and(8)},conj={account(11):nsubj={savings(10):nmod_poss={[x1]they(9)}},ccomp={have(13):nsubj={now(12)},dobj={yen(15):nummod={3485(14)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">they(1,PRPS): {Their}</Word>
+		<Word idx="2">checking(2,NN): {checking}</Word>
+		<Word idx="3">account(3,NN): {account}</Word>
+		<Word idx="4">now(4,RB): {now}</Word>
+		<Word idx="5">have(5,VBZ): {has}</Word>
+		<Word idx="6">6359(6,CD): {6359}</Word>
+		<Word idx="7">yen(7,NN): {yen}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">they(9,PRPS): {their}</Word>
+		<Word idx="10">savings(10,NNS): {savings}</Word>
+		<Word idx="11">account(11,VBP): {account}</Word>
+		<Word idx="12">now(12,RB): {now}</Word>
+		<Word idx="13">have(13,VBZ): {has}</Word>
+		<Word idx="14">3485(14,CD): {3485}</Word>
+		<Word idx="15">yen(15,NN): {yen}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):advmod={how(1):dep={yen(3):amod={many(2)}}},aux={do(4)},nsubj={[x1]they(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">yen(3,NNS): {yen}</Word>
+		<Word idx="4">do(4,VBP): {do}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

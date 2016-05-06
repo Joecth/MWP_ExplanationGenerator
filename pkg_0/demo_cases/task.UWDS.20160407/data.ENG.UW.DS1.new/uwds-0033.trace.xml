@@ -1,0 +1,76 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>V.find</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>58seashell</CHUNK>
+          <CHUNK>OP_Sum</CHUNK>
+            <CHUNK>15seashell</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>43seashell</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_174'>
+    58seashell
+    Sum
+    <math ID='NULL'>
+      15seashell
+    </math>
+    <math ID='NULL'>
+      43seashell
+    </math>
+  </math>
+  <ctx ID='ctx_171'>
+    <__one_line_xml_ASK__ANS>58</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_170'>
+      ( CLUE::Input ( ASK ANS ( Sum ( quan ?q # s3w3 ) ( COND ( verb ?q s3w6 ) ) ) ) )
+    </ctx>
+    <ctx ID='ctx_174'>
+      ( CLUE::AtomSeq ( quan ?q # s1w4 ) ( verb ?q s1w2 ) )
+      ( CLUE::Util ( Sum 15 43 = 58 ) )
+      ( CLUE::Util ( Val ( m_real 15 ) ( m_fact ( quan q2 # s1w4 ) ( 15 ) ) ) )
+      ( CLUE::Util ( Val ( m_real 43 ) ( m_fact ( quan q4 # s1w4 ) ( 43 ) ) ) )
+      <ctx ID='ctx_172'>
+        ( CLUE::Bound-Facts ( quan q2 # s1w4 ) ( verb q2 s1w2 ) )
+        <ctx ID='ctx_94'>
+          ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w4 ) 15 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w4 ) 15 ) )
+          ( CLUE::Create-Fact ( quan q2 # s1w4 ) ( 15 ) )
+          <ctx ID='ctx_93'>
+            ( CLUE::Input ( = ( quan q2 # s1w4 ) 15 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_97'>
+          ( CLUE::Create-Fact ( verb q2 s1w2 ) ( ) )
+          <ctx ID='ctx_95'>
+            ( CLUE::Input ( verb q2 s1w7 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_173'>
+        ( CLUE::Bound-Facts ( quan q4 # s1w4 ) ( verb q4 s1w2 ) )
+        <ctx ID='ctx_102'>
+          ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w4 ) 43 ) )
+          ( CLUE::EVAL::LF2 ( = ( quan q4 # s1w4 ) 43 ) )
+          ( CLUE::Create-Fact ( quan q4 # s1w4 ) ( 43 ) )
+          <ctx ID='ctx_101'>
+            ( CLUE::Input ( = ( quan q4 # s1w9 ) 43 ) )
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_105'>
+          ( CLUE::Create-Fact ( verb q4 s1w2 ) ( ) )
+          <ctx ID='ctx_103'>
+            ( CLUE::Input ( verb q4 s1w7 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

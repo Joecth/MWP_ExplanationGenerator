@@ -1,0 +1,96 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w9 drink)
+		(s1w4 party)
+		(s1w1 at)
+		(s1w2 a)
+		(s1w3 pizza)
+		(s1w5 Mason)
+		(s1w6 and)
+		(s1w8 friend)
+		(s1w7 he)
+		(s1w11 bottle)
+		(s1w10 2.6666666666666665)
+		(s1w14 soda)
+		(s1w12 of)
+		(s1w13 lemon-lime)
+		(s1w15 and)
+		(s1w17 bottle)
+		(s1w16 2.6666666666666665)
+		(s1w19 cola)
+		(s1w18 of)
+	)
+
+	(LF1
+		(verb v1 s1w9)
+		(nmod v1 n4)
+		(head n4 s1w4)
+		(case n4 s1w1)
+		(det n4 s1w2)
+		(compound n4 n5)
+		(head n5 s1w3)
+		(nsubj n4 n6)
+		(head n6 s1w5)
+		(cj_op j1 and)
+		(conj n6 n7)
+		(head n7 s1w8)
+		(nmod_poss n7 s1w7)
+		(dobj n4 n8)
+		(head n8 s1w11)
+		(nummod n8 s1w10)
+		(nmod n8 n1)
+		(head n1 s1w14)
+		(case n1 s1w12)
+		(amod n1 s1w13)
+		(cj_op j2 and)
+		(conj n8 n10)
+		(head n10 s1w17)
+		(nummod n10 s1w16)
+		(nmod n10 n2)
+		(head n2 s1w19)
+		(case n2 s1w18)
+	)
+
+	(LF2
+		(= (quan q2 s1w11 s1w14) 2.6666666666666665)(verb q2 s1w9)(role q2 nmod)
+		(= (quan q4 s1w17 s1w19) 2.6666666666666665)(verb q4 s1w9)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 drink)
+		(s2w3 soda)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w4 do)
+		(s2w5 they)
+		(s2w8 all)
+		(s2w7 in)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(dobj v2 n3)
+		(head n3 s2w3)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(aux v2 s2w4)
+		(nsubj v2 s2w5)
+		(nmod v2 s2w8)
+		(case v2 s2w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w11 s1w14) (quan q4 s1w17 s1w19)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

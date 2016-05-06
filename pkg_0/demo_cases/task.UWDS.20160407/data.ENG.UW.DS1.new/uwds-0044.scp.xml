@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={Joan(1)},dobj={[x1]balloon(5):nummod={40(3)},amod={blue(4)},acl_relcl={have(7):nsubj={Melanie(6)},dobj={balloon(10):nummod={41(8)},amod={blue(9)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joan(1,NNP): {Joan}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">40(3,CD): {40}</Word>
+		<Word idx="4">blue(4,JJ): {blue}</Word>
+		<Word idx="5">balloon(5,NNS): {balloons}</Word>
+		<Word idx="6">Melanie(6,NNP): {Melanie}</Word>
+		<Word idx="7">have(7,VBZ): {has}</Word>
+		<Word idx="8">41(8,CD): {41}</Word>
+		<Word idx="9">blue(9,JJ): {blue}</Word>
+		<Word idx="10">balloon(10,NNS): {balloons}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(7):dobj={balloon(4):amod={many(2):advmod={how(1)}},amod={blue(3)}},aux={do(5)},nsubj={[x1]they(6)},nmod={total(9):case={in(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">blue(3,JJ): {blue}</Word>
+		<Word idx="4">balloon(4,NNS): {balloons}</Word>
+		<Word idx="5">do(5,VBP): {do}</Word>
+		<Word idx="6">they(6,PRP): {they}</Word>
+		<Word idx="7">have(7,VBP): {have}</Word>
+		<Word idx="8">in(8,IN): {in}</Word>
+		<Word idx="9">total(9,NN): {total}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

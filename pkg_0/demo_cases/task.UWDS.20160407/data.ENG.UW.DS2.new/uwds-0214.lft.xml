@@ -1,0 +1,222 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 go)
+		(s1w3 family)
+		(s1w1 Irwin)
+		(s1w2 's)
+		(s1w8 trip)
+		(s1w5 on)
+		(s1w6 a)
+		(s1w7 camping)
+		(s1w11 mountain)
+		(s1w9 in)
+		(s1w10 the)
+	)
+
+	(LF1
+		(HEAD v1 s1w4)
+		(nsubj v1 n2)
+		(head n2 s1w3)
+		(nmod_poss n2 n3)
+		(head n3 s1w1)
+		(case n3 s1w2)
+		(nmod v1 n4)
+		(head n4 s1w8)
+		(case n4 s1w5)
+		(det n4 s1w6)
+		(compound n4 n5)
+		(head n5 s1w7)
+		(nmod v1 n6)
+		(head n6 s1w11)
+		(case n6 s1w9)
+		(det n6 s1w10)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w6 hike)
+		(s2w4 day)
+		(s2w1 on)
+		(s2w2 the)
+		(s2w3 first)
+		(s2w5 they)
+		(s2w9 car)
+		(s2w7 from)
+		(s2w8 they)
+		(s2w12 campsite)
+		(s2w10 to)
+		(s2w11 the)
+	)
+
+	(LF1
+		(HEAD v2 s2w6)
+		(nmod v2 n7)
+		(head n7 s2w4)
+		(case n7 s2w1)
+		(det n7 s2w2)
+		(amod n7 s2w3)
+		(nsubj v2 s2w5)
+		(nmod v2 n8)
+		(head n8 s2w9)
+		(case n8 s2w7)
+		(nmod_poss n8 s2w8)
+		(nmod v2 n9)
+		(head n9 s2w12)
+		(case n9 s2w10)
+		(det n9 s2w11)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 hike)
+		(s3w1 first)
+		(s3w2 they)
+		(s3w5 mile)
+		(s3w4 0.2)
+		(s3w8 car)
+		(s3w6 from)
+		(s3w7 the)
+		(s3w11 stream)
+		(s3w9 to)
+		(s3w10 a)
+		(s3w12 and)
+		(s3w14 mile)
+		(s3w13 0.4)
+		(s3w17 stream)
+		(s3w15 from)
+		(s3w16 the)
+		(s3w20 meadow)
+		(s3w18 to)
+		(s3w19 a)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(advmod v3 s3w1)
+		(nsubj v3 s3w2)
+		(dobj v3 n10)
+		(head n10 s3w5)
+		(nummod n10 s3w4)
+		(nmod v3 n1)
+		(head n1 s3w8)
+		(case n1 s3w6)
+		(det n1 s3w7)
+		(nmod n1 n12)
+		(head n12 s3w11)
+		(case n12 s3w9)
+		(det n12 s3w10)
+		(cj_op j1 and)
+		(conj n1 n13)
+		(head n13 s3w14)
+		(nummod n13 s3w13)
+		(nmod n13 n14)
+		(head n14 s3w17)
+		(case n14 s3w15)
+		(det n14 s3w16)
+		(nmod v3 n15)
+		(head n15 s3w20)
+		(case n15 s3w18)
+		(det n15 s3w19)
+	)
+
+	(LF2
+		(= (quan q2 s3w5 s3w8) 0.2)(verb q2 s3w3)(role q2 nmod)
+		(= (quan q4 s3w14 s3w8) 0.4)(verb q4 s3w3)(advmod q4 s3w1)(nmod q4 s3w20)(role q4 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="4">
+	(LF0
+		(s4w3 hike)
+		(s4w1 then)
+		(s4w2 they)
+		(s4w5 mile)
+		(s4w4 0.1)
+		(s4w8 meadow)
+		(s4w6 from)
+		(s4w7 the)
+		(s4w11 campsite)
+		(s4w9 to)
+		(s4w10 the)
+	)
+
+	(LF1
+		(verb v4 s4w3)
+		(advmod v4 s4w1)
+		(nsubj v4 s4w2)
+		(dobj v4 n16)
+		(head n16 s4w5)
+		(nummod n16 s4w4)
+		(nmod v4 n17)
+		(head n17 s4w8)
+		(case n17 s4w6)
+		(det n17 s4w7)
+		(nmod v4 n18)
+		(head n18 s4w11)
+		(case n18 s4w9)
+		(det n18 s4w10)
+	)
+
+	(LF2
+		(= (quan q6 s4w5 s3w8) 0.1)(verb q6 s4w3)(advmod q6 s4w1)(nmod q6 s4w8)(nmod q6 s4w11)(role q6 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s5w4 do)
+		(s5w3 mile)
+		(s5w2 many)
+		(s5w1 how)
+		(s5w8 hike)
+		(s5w5 Irwin)
+		(s5w6 's)
+		(s5w7 family)
+		(s5w10 all)
+		(s5w9 in)
+	)
+
+	(LF1
+		(verb v5 s5w4)
+		(nsubj v5 n19)
+		(head n19 s5w3)
+		(amod n19 s5w2)
+		(advmod n19 s5w1)
+		(verb v5 n20)
+		(head n20 s5w8)
+		(nmod_poss n20 n21)
+		(head n21 s5w5)
+		(case n21 s5w6)
+		(compound n20 n22)
+		(head n22 s5w7)
+		(nmod v5 s5w10)
+		(case v5 s5w9)
+	)
+
+	(LF2
+		
+		(= (quan q2 s3w5 s3w8) 0.2) (= (tvq v1 s3w5 s3w8 t0) (quan q2 s3w5 s3w8))
+		(= (quan q4 s3w14 s3w8) 0.4) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 s4w5 s3w8) 0.1) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 s5w3 s3w8 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

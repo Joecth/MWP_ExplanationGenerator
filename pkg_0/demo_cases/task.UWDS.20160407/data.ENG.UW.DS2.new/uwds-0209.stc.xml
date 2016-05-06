@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{add(2):nsubj={[x1]Jonah(1)},dobj={cup(4):nummod={0.3(3)},nmod={raisin(7):case={of(5)},amod={yellow(6)}},cc={and(8)},conj={cup(10):nummod={0.4(9)},nmod={raisin(13):case={of(11)},amod={black(12)}}}},nmod={batch(16):case={to(14)},det={a(15)},nmod={mix(19):case={of(17)},compound={trail(18)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jonah(1,NNP): {Jonah}</Word>
+		<Word idx="2">add(2,VBD): {added}</Word>
+		<Word idx="3">0.3(3,CD): {0.3}</Word>
+		<Word idx="4">cup(4,NN): {cup}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">yellow(6,JJ): {yellow}</Word>
+		<Word idx="7">raisin(7,NNS): {raisins}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">0.4(9,CD): {0.4}</Word>
+		<Word idx="10">cup(10,NN): {cup}</Word>
+		<Word idx="11">of(11,IN): {of}</Word>
+		<Word idx="12">black(12,JJ): {black}</Word>
+		<Word idx="13">raisin(13,NNS): {raisins}</Word>
+		<Word idx="14">to(14,TO): {to}</Word>
+		<Word idx="15">a(15,DT): {a}</Word>
+		<Word idx="16">batch(16,NN): {batch}</Word>
+		<Word idx="17">of(17,IN): {of}</Word>
+		<Word idx="18">trail(18,NN): {trail}</Word>
+		<Word idx="19">mix(19,NN): {mix}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{add(8):dobj={cup(3):amod={many(2):advmod={how(1)}},nmod={raisin(5):case={of(4)}}},aux={do(6)},nsubj={[x1]Jonah(7)},nmod={all(10):case={in(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">cup(3,NNS): {cups}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">raisin(5,NNS): {raisins}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Jonah(7,NNP): {Jonah}</Word>
+		<Word idx="8">add(8,VB): {add}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">all(10,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

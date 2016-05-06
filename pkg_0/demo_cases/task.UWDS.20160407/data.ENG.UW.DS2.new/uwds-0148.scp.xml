@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{bear(7):nmod_tmod={[x2]year(2):amod={last(1)}},nsubjpass={people(5):nummod={90171(4)}},auxpass={be(6)},nmod={[x1]country(10):case={in(8)},det={a(9)}},cc={and(12)},conj={immigrate(15):nsubj={people(14):nummod={16320(13)}},nmod={[x1]it(17):case={to(16)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">last(1,JJ): {Last}</Word>
+		<Word idx="2">year(2,NN): {year}</Word>
+		<Word idx="3">90171(4,CD): {90171}</Word>
+		<Word idx="4">people(5,NNS): {people}</Word>
+		<Word idx="5">be(6,VBD): {were}</Word>
+		<Word idx="6">bear(7,VBN): {born}</Word>
+		<Word idx="7">in(8,IN): {in}</Word>
+		<Word idx="8">a(9,DT): {a}</Word>
+		<Word idx="9">country(10,NN): {country}</Word>
+		<Word idx="10">and(12,CC): {and}</Word>
+		<Word idx="11">16320(13,CD): {16320}</Word>
+		<Word idx="12">people(14,NNS): {people}</Word>
+		<Word idx="13">immigrate(15,VBD): {immigrated}</Word>
+		<Word idx="14">to(16,TO): {to}</Word>
+		<Word idx="15">it(17,PRP): {it}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{begin(5):nsubj={people(4):amod={many(2):advmod={how(1)}},amod={new(3)}},xcomp={live(6):nmod={[x1]country(9):case={in(7)},det={the(8)}},nmod_tmod={[x2]year(11):amod={last(10)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">new(3,JJ): {new}</Word>
+		<Word idx="4">people(4,NNS): {people}</Word>
+		<Word idx="5">begin(5,VBD): {began}</Word>
+		<Word idx="6">live(6,VBG): {living}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">country(9,NN): {country}</Word>
+		<Word idx="10">last(10,JJ): {last}</Word>
+		<Word idx="11">year(11,NN): {year}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

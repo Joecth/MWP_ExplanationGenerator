@@ -1,0 +1,117 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Fred)
+		(s1w5 balloon)
+		(s1w3 5)
+		(s1w4 yellow)
+		(s1w7 have)
+		(s1w6 Sam)
+		(s1w10 balloon)
+		(s1w8 6)
+		(s1w9 yellow)
+		(s1w11 and)
+		(s1w13 have)
+		(s1w12 Mary)
+		(s1w16 balloon)
+		(s1w14 7)
+		(s1w15 yellow)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n6)
+		(head n6 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w5)
+		(nummod n1 s1w3)
+		(amod n1 s1w4)
+		(verb v1 s1w7)
+		(nsubj v1 n8)
+		(head n8 s1w6)
+		(dobj v1 n2)
+		(head n2 s1w10)
+		(nummod n2 s1w8)
+		(amod n2 s1w9)
+		(cj_op j1 and)
+		(verb v1 s1w13)
+		(nsubj v1 n10)
+		(head n10 s1w12)
+		(dobj v1 n3)
+		(head n3 s1w16)
+		(nummod n3 s1w14)
+		(amod n3 s1w15)
+	)
+
+	(LF2
+		(= (quan q2 # s1w5) 5)(verb q2 s1w2)(role q2 dobj)
+		(= (quan q4 # s1w10) 6)(verb q4 s1w7)(role q4 dobj)
+		(= (quan q6 # s1w16) 7)(verb q6 s1w13)(role q6 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 cost)
+		(s2w2 balloon)
+		(s2w1 the)
+		(s2w5 dollar)
+		(s2w4 5)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n12)
+		(head n12 s2w2)
+		(det n12 s2w1)
+		(dobj v2 n4)
+		(head n4 s2w5)
+		(nummod n4 s2w4)
+	)
+
+	(LF2
+		(= (quan q8 # s2w5) 5)(verb q8 s2w3)(role q8 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 have)
+		(s3w4 balloon)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w3 yellow)
+		(s3w5 do)
+		(s3w6 they)
+		(s3w9 total)
+		(s3w8 in)
+	)
+
+	(LF1
+		(verb v3 s3w7)
+		(dobj v3 n5)
+		(head n5 s3w4)
+		(amod n5 s3w2)
+		(advmod n5 s3w1)
+		(amod n5 s3w3)
+		(aux v3 s3w5)
+		(nsubj v3 s3w6)
+		(nmod v3 n15)
+		(head n15 s3w9)
+		(case n15 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Sum (quan ?q # s3w4) (COND (verb ?q s3w7))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

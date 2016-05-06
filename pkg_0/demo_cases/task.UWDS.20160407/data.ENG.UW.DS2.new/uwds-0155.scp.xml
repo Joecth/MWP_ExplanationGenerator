@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{study(8):nsubj={worker(2):det={a(1)},nmod={lab(6):case={at(3)},det={a(4)},amod={medical(5)}}},aux={be(7)},dobj={sample(10):compound={blood(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">worker(2,NN): {worker}</Word>
+		<Word idx="3">at(3,IN): {at}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">medical(5,JJ): {medical}</Word>
+		<Word idx="6">lab(6,NN): {lab}</Word>
+		<Word idx="7">be(7,VBZ): {is}</Word>
+		<Word idx="8">study(8,VBG): {studying}</Word>
+		<Word idx="9">blood(9,NN): {blood}</Word>
+		<Word idx="10">sample(10,NNS): {samples}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{contain(3):nsubj={sample(2):nummod={2(1)}},dobj={total(5):det={a(4)},nmod={cell(9):case={of(6)},nummod={7341(7)},compound={blood(8)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">2(1,CD): {2}</Word>
+		<Word idx="2">sample(2,NNS): {samples}</Word>
+		<Word idx="3">contain(3,VBD): {contained}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">total(5,NN): {total}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">7341(7,CD): {7341}</Word>
+		<Word idx="8">blood(8,NN): {blood}</Word>
+		<Word idx="9">cell(9,NNS): {cells}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{contain(4):nsubj={[x1]sample(3):det={the(1)},amod={first(2)}},dobj={cell(7):nummod={4221(5)},compound={blood(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">first(2,JJ): {first}</Word>
+		<Word idx="3">sample(3,NN): {sample}</Word>
+		<Word idx="4">contain(4,VBD): {contained}</Word>
+		<Word idx="5">4221(5,CD): {4221}</Word>
+		<Word idx="6">blood(6,NN): {blood}</Word>
+		<Word idx="7">cell(7,NNS): {cells}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sample(9):nsubj={cell(4):amod={many(2):advmod={how(1)}},compound={blood(3)}},cop={be(5)},case={in(6)},det={the(7)},amod={second(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">blood(3,NN): {blood}</Word>
+		<Word idx="4">cell(4,NNS): {cells}</Word>
+		<Word idx="5">be(5,VBD): {were}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">second(8,JJ): {second}</Word>
+		<Word idx="9">sample(9,NN): {sample}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

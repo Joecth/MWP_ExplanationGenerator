@@ -1,0 +1,94 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 leave)
+		(s1w2 afternoon)
+		(s1w1 this)
+		(s1w3 Craig)
+		(s1w5 school)
+		(s1w6 ride)
+		(s1w8 bus)
+		(s1w7 the)
+		(s1w10 mile)
+		(s1w9 3.8333333333333335)
+		(s1w11 and)
+		(s1w13 walk)
+		(s1w12 then)
+		(s1w15 mile)
+		(s1w14 0.16666666666666666)
+		(s1w17 get)
+		(s1w16 to)
+		(s1w18 home)
+	)
+
+	(LF1
+		(HEAD v1 s1w4)
+		(nmod_tmod v1 n3)
+		(head n3 s1w2)
+		(det n3 s1w1)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(dobj v1 n5)
+		(head n5 s1w5)
+		(verb v1 s1w6)
+		(dobj v1 n1)
+		(head n1 s1w8)
+		(det n1 s1w7)
+		(nmod_tmod v1 n7)
+		(head n7 s1w10)
+		(nummod n7 s1w9)
+		(cj_op j1 and)
+		(verb v1 s1w13)
+		(advmod v1 s1w12)
+		(dobj v1 n8)
+		(head n8 s1w15)
+		(nummod n8 s1w14)
+		(advcl v1 s1w17)
+		(mark v1 s1w16)
+		(dobj v1 n9)
+		(head n9 s1w18)
+	)
+
+	(LF2
+		(= (quan q2 s1w10 s1w8) 3.8333333333333335)(verb q2 s1w6)(role q2 dobj)
+		(= (quan q4 s1w15 s1w8) 0.16666666666666666)(verb q4 s1w13)(advmod q4 s1w12)(advcl q4 s1w17)(role q4 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 walk)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w3 farther)
+		(s2w4 do)
+		(s2w6 ride)
+		(s2w5 Craig)
+		(s2w7 than)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dobj v2 s2w2)
+		(advmod v2 s2w1)
+		(amod v2 s2w3)
+		(aux v2 s2w4)
+		(nsubj v2 n2)
+		(head n2 s2w6)
+		(compound n2 n11)
+		(head n11 s2w5)
+		(advmod v2 s2w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s1w10 s1w8) (quan q4 s1w15 s1w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

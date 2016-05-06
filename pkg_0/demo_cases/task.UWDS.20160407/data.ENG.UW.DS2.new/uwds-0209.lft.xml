@@ -1,0 +1,102 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 add)
+		(s1w1 Jonah)
+		(s1w4 cup)
+		(s1w3 0.3)
+		(s1w7 raisin)
+		(s1w5 of)
+		(s1w6 yellow)
+		(s1w8 and)
+		(s1w10 cup)
+		(s1w9 0.4)
+		(s1w13 raisin)
+		(s1w11 of)
+		(s1w12 black)
+		(s1w16 batch)
+		(s1w14 to)
+		(s1w15 a)
+		(s1w19 mix)
+		(s1w17 of)
+		(s1w18 trail)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w4)
+		(nummod n4 s1w3)
+		(nmod n4 n1)
+		(head n1 s1w7)
+		(case n1 s1w5)
+		(amod n1 s1w6)
+		(cj_op j1 and)
+		(conj n4 n6)
+		(head n6 s1w10)
+		(nummod n6 s1w9)
+		(nmod n6 n7)
+		(head n7 s1w13)
+		(case n7 s1w11)
+		(amod n7 s1w12)
+		(nmod v1 n8)
+		(head n8 s1w16)
+		(case n8 s1w14)
+		(det n8 s1w15)
+		(nmod n8 n9)
+		(head n9 s1w19)
+		(case n9 s1w17)
+		(compound n9 n10)
+		(head n10 s1w18)
+	)
+
+	(LF2
+		(= (quan q2 s1w4 s1w7) 0.3)(verb q2 s1w2)(role q2 nmod)
+		(= (quan q4 s1w10 s1w7) 0.4)(verb q4 s1w2)(nsubj q4 s1w1)(nmod q4 s1w16)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 add)
+		(s2w3 cup)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w5 raisin)
+		(s2w4 of)
+		(s2w6 do)
+		(s2w7 Jonah)
+		(s2w10 all)
+		(s2w9 in)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(dobj v2 n11)
+		(head n11 s2w3)
+		(amod n11 s2w2)
+		(advmod n11 s2w1)
+		(nmod n11 n2)
+		(head n2 s2w5)
+		(case n2 s2w4)
+		(aux v2 s2w6)
+		(nsubj v2 n13)
+		(head n13 s2w7)
+		(nmod v2 s2w10)
+		(case v2 s2w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s1w4 s1w7) (quan q4 s1w10 s1w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>
