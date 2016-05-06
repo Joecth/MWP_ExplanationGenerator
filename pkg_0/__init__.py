@@ -35,12 +35,12 @@ from stc_analyzer import *
 # FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
 # FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
 
-'''uw cases'''
-DIR = '3'
-IDX = '0390'
-FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.trace.xml'
-FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
-FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
+# '''uw cases'''
+# DIR = '2'
+# IDX = '0156'
+# FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.trace.xml'
+# FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
+# FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
 
 FILE_OUTPUT_0       = 'output.xml'
 FILE_OUTPUT_CORE    = 'out_core.xml'
