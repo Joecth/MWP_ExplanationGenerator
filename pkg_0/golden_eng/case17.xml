@@ -4,11 +4,12 @@
 			<Chain>
 				ROOT(54750元(OP_Multiplication(365天|150(元/天|OP_CommonDiv(150元|1天)))))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
 	1天存150元就是150 ÷ 1 = 150(元/天)
-	Thus,  存	365天  150(元/天)  就是   365 * 150 = 54750元
-
+	所以,  存	365天  150(元/天)  就是   365 * 150 = 54750元。
 			</Explanation>
 		</ANS>
 	</Ques>

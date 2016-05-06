@@ -4,10 +4,11 @@
 			<Chain>
 				ROOT(50(OP_Multiplication(5個鴿籠|10隻鴿子)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-	5個鴿籠  10隻鴿子  就是   5 * 10 = 50
-
+	5個鴿籠  10隻鴿子  就是   5 * 10 = 50。
 			</Explanation>
 		</ANS>
 	</Ques>

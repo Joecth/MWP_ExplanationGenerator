@@ -4,10 +4,11 @@
 			<Chain>
 				ROOT(4瓶果汁(OP_Subtraction(9瓶果汁|5瓶果汁)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-	9瓶果汁 - 5瓶果汁 = 4瓶果汁
-
+	9瓶果汁 - 5瓶果汁 = 4瓶果汁。
 			</Explanation>
 		</ANS>
 	</Ques>

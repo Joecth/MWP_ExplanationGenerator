@@ -4,11 +4,13 @@
 			<Chain>
 				ROOT(42張貼紙(OP_TVQ_Addition(12張貼紙|30張貼紙(OP_TVQ_Addition(6張貼紙|24張貼紙)))))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
 	6張貼紙 + 24張貼紙 = 30張貼紙
-	Thus,  	12張貼紙 + 30張貼紙 = 42張貼紙
 
+	Thus,  	12張貼紙 + 30張貼紙 = 42張貼紙.
 			</Explanation>
 		</ANS>
 	</Ques>

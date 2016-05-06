@@ -4,10 +4,11 @@
 			<Chain>
 				ROOT(43 boys(OP_Subtraction(70 bodies|27 josves)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-	70 bodies - 27 josves = 43 boys
-
+	70 bodies - 27 josves = 43 boys.
 			</Explanation>
 		</ANS>
 	</Ques>

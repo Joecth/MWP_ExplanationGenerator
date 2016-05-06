@@ -4,11 +4,12 @@
 			<Chain>
 				ROOT(10元(OP_Multiplication(4顆軟糖|2.5(元/顆軟糖|OP_CommonDiv(5元|2顆軟糖)))))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
 	2顆軟糖賣5元就是5 ÷ 2 = 2.5(元/顆軟糖)
-	Thus,  賣	4顆軟糖  2.5(元/顆軟糖)  就是   4 * 2.5 = 10元
-
+	所以,  賣	4顆軟糖  2.5(元/顆軟糖)  就是   4 * 2.5 = 10元。
 			</Explanation>
 		</ANS>
 	</Ques>

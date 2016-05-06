@@ -4,9 +4,11 @@
 			<Chain>
 				ROOT(3948枝筆(OP_Sum(2361枝紅筆|1587枝藍筆)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-Totally 進貨	2361枝紅筆 + 1587枝藍筆 = 3948枝筆
+共 進貨	2361枝紅筆 + 1587枝藍筆 = 3948枝筆。
 			</Explanation>
 		</ANS>
 	</Ques>

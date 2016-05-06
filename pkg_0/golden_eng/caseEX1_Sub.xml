@@ -4,10 +4,11 @@
 			<Chain>
 				ROOT(3隻動物(OP_Subtraction(5隻動物|2隻動物)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-	5隻動物 - 2隻動物 = 3隻動物
-
+	5隻動物 - 2隻動物 = 3隻動物。
 			</Explanation>
 		</ANS>
 	</Ques>

@@ -4,10 +4,11 @@
 			<Chain>
 				ROOT(240元(OP_Subtraction(720元|480元)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-	720元 - 480元 = 240元
-
+	720元 - 480元 = 240元。
 			</Explanation>
 		</ANS>
 	</Ques>

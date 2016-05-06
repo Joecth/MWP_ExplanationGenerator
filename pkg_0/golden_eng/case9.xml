@@ -4,11 +4,12 @@
 			<Chain>
 				ROOT(1095天(OP_Multiplication(3個平年|365(天/個平年|OP_CommonDiv(365天|1個平年)))))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
 	1個平年有365天就是365 ÷ 1 = 365(天/個平年)
-	Thus,  有	3個平年  365(天/個平年)  就是   3 * 365 = 1095天
-
+	所以,  有	3個平年  365(天/個平年)  就是   3 * 365 = 1095天。
 			</Explanation>
 		</ANS>
 	</Ques>

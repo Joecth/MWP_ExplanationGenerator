@@ -4,11 +4,12 @@
 			<Chain>
 				ROOT(8個(OP_FloorDiv(850公分包裝紙|95(公分包裝紙/個禮物|OP_CommonDiv(95公分包裝紙|1個禮物)))))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
 	1個禮物用掉95公分包裝紙就是95 ÷ 1 = 95(公分包裝紙/個禮物)
-	Thus,  	850公分包裝紙 最多可以 用掉 	:	850 ÷ 95 = 8個
-
+	所以,  	850公分包裝紙 最多可以 用掉 	:	850 ÷ 95 = 8個。
 			</Explanation>
 		</ANS>
 	</Ques>

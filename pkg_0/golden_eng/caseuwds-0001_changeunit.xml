@@ -4,10 +4,11 @@
 			<Chain>
 				ROOT(1 boy(OP_Subtraction(70 bodies|1 josh)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-	70 bodies - 1 josh = 1 boy
-
+	70 bodies - 1 josh = 1 boy.
 			</Explanation>
 		</ANS>
 	</Ques>

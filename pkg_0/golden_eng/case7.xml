@@ -4,9 +4,11 @@
 			<Chain>
 				ROOT(420朵康乃馨(OP_Sum(186朵康乃馨|234朵康乃馨)))
 			</Chain>
+Warning: No STC file for Tense and Verb_backup!
+Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-Totally 賣出	186朵康乃馨 + 234朵康乃馨 = 420朵康乃馨
+共 賣出	186朵康乃馨 + 234朵康乃馨 = 420朵康乃馨。
 			</Explanation>
 		</ANS>
 	</Ques>
