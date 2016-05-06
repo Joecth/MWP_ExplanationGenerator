@@ -10,7 +10,8 @@ def foo(idx):
     err_log = ""
 
     if is_differ:
-        print("Check Reg Fail!\n")
+        print("Check Reg Fail!")
+        print("Please diff uwds{}_0505_000.log uw{}.log\n".format(idx, idx))
     else:
         print("Reg%s Pass!\n" % idx)
 
