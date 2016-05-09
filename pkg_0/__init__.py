@@ -36,16 +36,16 @@ from stc_analyzer import *
 # FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
 
 # '''uw cases'''
-# DIR = '2'
-# IDX = '0156'
+# DIR = '3'
+# IDX = '0316'
 # FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.trace.xml'
 # FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
 # FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
-
-FILE_OUTPUT_0       = 'output.xml'
-FILE_OUTPUT_CORE    = 'out_core.xml'
-FILE_RAW_TREE       = 'raw_tree.xml'             ## index from FILE_INPUT_0
-FILE_BUILD_TREE_LOG = 'build_tree.log.xml'
+#
+# FILE_OUTPUT_0       = 'output.xml'
+# FILE_OUTPUT_CORE    = 'out_core.xml'
+# FILE_RAW_TREE       = 'raw_tree.xml'             ## index from FILE_INPUT_0
+# FILE_BUILD_TREE_LOG = 'build_tree.log.xml'
 
 # print("Print out all argvs for DBG: ")
 # for i, arg in enumerate(sys.argv):
@@ -302,21 +302,21 @@ def morph_plural(lama):
         if "n" == item:
             return lama + " Warning!! Un-decoded String from IE! "  ###TODO, Hard code is not a good solution for "n2" issue
 
-        num_pat = "[\d]+"
+        num_pat = "[\d]+(.[\d]+)?" ## Support Floating point
         match_num = re.search(num_pat, lama)
         num = match_num.group()
         if None == num:      ## we assume the "number" of English word problem should be Arabic
             print("INVALID STRING CHUNK!!!")
             assert(0)
 
-        if int(num) < 0:
+        if float(num) < 0: ## support floating
             print("INVALID VALUE for this MATH WORD PROBLEM!")
             assert(0)
 
         # item = match_item.group()
         # correct_lama = ""
         # if int(num) > 1:
-        correct_lama = morph_English(int(num), item)
+        correct_lama = morph_English(float(num), item) ## support floating
         # else:
         #     correct_lama = item
 
