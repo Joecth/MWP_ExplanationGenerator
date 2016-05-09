@@ -5,13 +5,13 @@ import popen2
 
 def foo(idx):
     os.system('./run_uwcases_{}.py >& uw{}.log'.format(idx, idx))
-    #print ("diff -q uwds{}_0505_000.log uw{}.log".format(idx, idx))
-    is_differ = os.system("diff -q uwds{}_0505_000.log uw{}.log".format(idx, idx))
+    #print ("diff -q uwds{}_golden_000.log uw{}.log".format(idx, idx))
+    is_differ = os.system("diff -q uwds{}_golden_000.log uw{}.log".format(idx, idx))
     err_log = ""
 
     if is_differ:
         print("Check Reg Fail!")
-        print("Please diff uwds{}_0505_000.log uw{}.log\n".format(idx, idx))
+        print("Please diff uwds{}_golden_000.log uw{}.log\n".format(idx, idx))
     else:
         print("Reg%s Pass!\n" % idx)
 

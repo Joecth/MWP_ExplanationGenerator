@@ -1,0 +1,2261 @@
+
+====================	start of case : uwds-0275	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0275.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0275.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0275.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__36 seashells
+		 2__OP_Subtraction
+			 3__49 seashells
+			 4__13 seashells
+Explanation : 
+ Ans: 
+Jason  has	49 seashells - 13 seashells = 36 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0275	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0276	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0276.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0276.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0276.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__40 carrots
+		 2__OP_Addition
+			 3__29 carrots
+			 4__11 carrots
+Explanation : 
+ Ans: 
+They  growed	29 carrots + 11 carrots = 40 carrots.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0276	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0277	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0277.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0277.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0277.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 cards
+		 2__OP_Subtraction
+			 3__39 cards
+			 4__24 cards
+Explanation : 
+ Ans: 
+Sally  has	39 cards - 24 cards = 15 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0277	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0278	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0278.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0278.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0278.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__9 marbles
+		 2__OP_Subtraction
+			 3__32 marbles
+			 4__23 marbles
+Explanation : 
+ Ans: 
+Dan  has	32 marbles - 23 marbles = 9 marbles.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0278	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0279	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0279.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0279.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0279.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__60 books
+		 2__OP_Addition
+			 3__18 books
+			 4__42 books
+Explanation : 
+ Ans: 
+They  have	18 books + 42 books = 60 books.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0279	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0280	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0280.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0280.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0280.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__63 watermelons
+		 2__OP_Addition
+			 3__32 watermelons
+			 4__31 watermelons
+Explanation : 
+ Ans: 
+They  growed	32 watermelons + 31 watermelons = 63 watermelons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0280	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0281	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0281.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0281.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0281.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 seashells
+		 2__OP_Subtraction
+			 3__66 seashells
+			 4__52 seashells
+Explanation : 
+ Ans: 
+Benny  has	66 seashells - 52 seashells = 14 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0281	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0282	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0282.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0282.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0282.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__53 crayons
+		 2__OP_Addition
+			 3__41 crayons
+			 4__12 crayons
+Explanation : 
+ Ans: 
+There are 	41 crayons + 12 crayons = 53 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0282	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0283	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0283.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0283.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0283.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 nickels
+		 2__OP_Subtraction
+			 3__87 nickels
+			 4__75 nickels
+Explanation : 
+ Ans: 
+He  has	87 nickels - 75 nickels = 12 nickels.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0283	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0284	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0284.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0284.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0284.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__61 marbles
+		 2__OP_Subtraction
+			 3__86 marbles
+			 4__25 marbles
+Explanation : 
+ Ans: 
+Sam  has	86 marbles - 25 marbles = 61 marbles.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0284	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0285	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0285.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0285.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0285.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__82 cards
+		 2__OP_Subtraction
+			 3__97 cards
+			 4__15 cards
+Explanation : 
+ Ans: 
+Dan  has	97 cards - 15 cards = 82 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0285	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0286	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0286.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0286.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0286.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__98 trees
+		 2__OP_Addition
+			 3__41 trees
+			 4__57 trees
+Explanation : 
+ Ans: 
+The park  will have	41 trees + 57 trees = 98 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0286	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0287	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0287.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0287.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0287.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__57 limes
+		 2__OP_Addition
+			 3__25 limes
+			 4__32 limes
+Explanation : 
+ Ans: 
+	25 limes + 32 limes = 57 limes were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0287	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0288	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0288.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0288.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0288.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__507 seashells
+		 2__OP_Subtraction
+			 3__679 seashells
+			 4__172 seashells
+Explanation : 
+ Ans: 
+Tim  has	679 seashells - 172 seashells = 507 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0288	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0289	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0289.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0289.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0289.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__270 erasers
+		 2__OP_Addition
+			 3__139 erasers
+			 4__131 erasers
+Explanation : 
+ Ans: 
+There are 	139 erasers + 131 erasers = 270 erasers.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0289	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0290	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0290.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0290.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0290.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__227 oranges
+		 2__OP_Addition
+			 3__123 oranges
+			 4__104 oranges
+Explanation : 
+ Ans: 
+	123 oranges + 104 oranges = 227 oranges were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0290	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0291	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0291.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0291.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0291.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__562 cards
+		 2__OP_Subtraction
+			 3__695 cards
+			 4__133 cards
+Explanation : 
+ Ans: 
+Joan  has	695 cards - 133 cards = 562 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0291	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0292	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0292.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0292.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0292.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__242 turnips
+		 2__OP_Addition
+			 3__113 turnips
+			 4__129 turnips
+Explanation : 
+ Ans: 
+They  growed	113 turnips + 129 turnips = 242 turnips.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0292	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0293	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0293.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0293.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0293.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__559 marbles
+		 2__OP_Subtraction
+			 3__792 marbles
+			 4__233 marbles
+Explanation : 
+ Ans: 
+Sara  has	792 marbles - 233 marbles = 559 marbles.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0293	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0294	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0294.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0294.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0294.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__469 games
+		 2__OP_Subtraction
+			 3__864 games
+			 4__395 games
+Explanation : 
+ Ans: 
+Joan  missed	864 games - 395 games = 469 games.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0294	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0295	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0295.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0295.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0295.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__217 trees
+		 2__OP_Addition
+			 3__112 trees
+			 4__105 trees
+Explanation : 
+ Ans: 
+The park  will have	112 trees + 105 trees = 217 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0295	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0296	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0296.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0296.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0296.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__512 quarters
+		 2__OP_Subtraction
+			 3__783 quarters
+			 4__271 quarters
+Explanation : 
+ Ans: 
+She  has	783 quarters - 271 quarters = 512 quarters.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0296	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0297	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0297.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0297.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0297.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__6 hamburgers
+		 2__OP_Subtraction
+			 3__9 hamburgers
+			 4__3 hamburgers
+Explanation : 
+ Ans: 
+There are 	9 hamburgers - 3 hamburgers = 6 hamburgers.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0297	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0298	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0298.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0298.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0298.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 plums
+		 2__OP_Subtraction
+			 3__7 plums
+			 4__3 plums
+Explanation : 
+ Ans: 
+She  has	7 plums - 3 plums = 4 plums.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0298	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0299	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0299.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0299.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0299.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 bushes
+		 2__OP_Subtraction
+			 3__6 bushes
+			 4__2 bushes
+Explanation : 
+ Ans: 
+The park  will have	6 bushes - 2 bushes = 4 bushes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0299	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0300	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0300.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0300.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0300.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 games
+		 2__OP_Subtraction
+			 3__8 games
+			 4__4 games
+Explanation : 
+ Ans: 
+Keith  went	8 games - 4 games = 4 games.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0300	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0301	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0301.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0301.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0301.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__5 pencils
+		 2__OP_Subtraction
+			 3__9 pencils
+			 4__4 pencils
+Explanation : 
+ Ans: 
+There are 	9 pencils - 4 pencils = 5 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0301	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0302	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0302.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0302.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0302.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 balloons
+		 2__OP_Subtraction
+			 3__7 balloons
+			 4__3 balloons
+Explanation : 
+ Ans: 
+Jason  has	7 balloons - 3 balloons = 4 balloons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0302	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0303	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0303.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0303.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0303.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__3 potatoes
+		 2__OP_Subtraction
+			 3__7 potatoes
+			 4__4 potatoes
+Explanation : 
+ Ans: 
+Dan  has	7 potatoes - 4 potatoes = 3 potatoes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0303	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0304	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0304.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0304.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0304.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 dimes
+		 2__OP_Subtraction
+			 3__8 dimes
+			 4__4 dimes
+Explanation : 
+ Ans: 
+Sara  has	8 dimes - 4 dimes = 4 dimes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0304	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0305	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0305.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0305.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0305.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 puppies
+		 2__OP_Subtraction
+			 3__8 puppies
+			 4__4 puppies
+Explanation : 
+ Ans: 
+She  has	8 puppies - 4 puppies = 4 puppies.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0305	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0306	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0306.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0306.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0306.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__2 seashells
+		 2__OP_Subtraction
+			 3__6 seashells
+			 4__4 seashells
+Explanation : 
+ Ans: 
+Mike  found	6 seashells - 4 seashells = 2 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0306	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0307	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0307.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0307.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0307.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 cards
+		 2__OP_Subtraction
+			 3__30 cards
+			 4__18 cards
+Explanation : 
+ Ans: 
+Melanie  has	30 cards - 18 cards = 12 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0307	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0308	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0308.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0308.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0308.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7 pears
+		 2__OP_Subtraction
+			 3__35 pears
+			 4__28 pears
+Explanation : 
+ Ans: 
+Sara  has	35 pears - 28 pears = 7 pears.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0308	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0309	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0309.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0309.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0309.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__8 watermelons
+		 2__OP_Subtraction
+			 3__35 watermelons
+			 4__27 watermelons
+Explanation : 
+ Ans: 
+Jessica  has	35 watermelons - 27 watermelons = 8 watermelons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0309	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0310	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0310.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0310.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0310.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 seashells
+		 2__OP_Subtraction
+			 3__35 seashells
+			 4__17 seashells
+Explanation : 
+ Ans: 
+Nancy  has	35 seashells - 17 seashells = 18 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0310	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0311	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0311.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0311.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0311.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__23 marbles
+		 2__OP_Subtraction
+			 3__47 marbles
+			 4__24 marbles
+Explanation : 
+ Ans: 
+Joan  has	47 marbles - 24 marbles = 23 marbles.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0311	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0312	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0312.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0312.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0312.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__29 trees
+		 2__OP_Subtraction
+			 3__42 trees
+			 4__13 trees
+Explanation : 
+ Ans: 
+There are 	42 trees - 13 trees = 29 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0312	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0313	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0313.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0313.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0313.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 nickels
+		 2__OP_Subtraction
+			 3__31 nickels
+			 4__20 nickels
+Explanation : 
+ Ans: 
+She  has	31 nickels - 20 nickels = 11 nickels.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0313	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0314	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0314.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0314.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0314.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 pencils
+		 2__OP_Subtraction
+			 3__34 pencils
+			 4__22 pencils
+Explanation : 
+ Ans: 
+There are 	34 pencils - 22 pencils = 12 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0314	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0315	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0315.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0315.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0315.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__23.86 USDs
+		 2__OP_Addition
+			 3__12.32 USDs
+			 4__11.54 USDs
+Explanation : 
+ Ans: 
+Sally  spent	12.32 USDs + 11.54 USDs = 23.86 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0315	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0316	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0316.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0316.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0316.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__26.3 USDs
+		 2__OP_Addition
+			 3__11.76 USDs
+			 4__14.54 USDs
+Explanation : 
+ Ans: 
+The total cost of Dan 's purchase  was	11.76 USDs + 14.54 USDs = 26.3 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0316	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0317	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0317.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0317.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0317.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__25.31 USDs
+		 2__OP_Addition
+			 3__13.04 USDs
+			 4__12.27 USDs
+Explanation : 
+ Ans: 
+Mary  spent	13.04 USDs + 12.27 USDs = 25.31 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0317	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0318	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0318.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0318.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0318.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__141.54 USDs
+		 2__OP_Addition
+			 3__130.30 USDs
+			 4__11.24 USDs
+Explanation : 
+ Ans: 
+Dan  spent	130.30 USDs + 11.24 USDs = 141.54 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0318	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0319	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0319.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0319.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0319.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+Case has no Answer from IE! Check case!
+
+Case's Question sentence may have no LF2!
+Case's Question sentence may have no LF2!
+Case's Question sentence may have no LF2!!
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0319	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0320	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0320.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0320.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0320.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__5.88 USDs
+		 2__OP_Addition
+			 3__1.08 USDs
+			 4__4.80 USDs
+Explanation : 
+ Ans: 
+The total of the lunch bill  was	1.08 USDs + 4.80 USDs = 5.88 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0320	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0321	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0321.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0321.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0321.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__224.87 USDs
+		 2__OP_Addition
+			 3__118.54 USDs
+			 4__106.33 USDs
+Explanation : 
+ Ans: 
+Mike  spent	118.54 USDs + 106.33 USDs = 224.87 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0321	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0322	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0322.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0322.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0322.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18.66 USDs
+		 2__OP_Addition
+			 3__13.60 USDs
+			 4__5.06 USDs
+Explanation : 
+ Ans: 
+Tom  spent	13.60 USDs + 5.06 USDs = 18.66 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0322	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0323	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0323.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0323.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0323.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__42.33 USDs
+		 2__OP_Addition
+			 3__29.82 USDs
+				 4__OP_Addition
+					 5__15 USDs
+					 6__14.82 USDs
+			 7__12.51 USDs
+Explanation : 
+ Ans: 
+	15 USDs + 14.82 USDs = 29.82 USDs
+
+	Thus,  Joan  spent	29.82 USDs + 12.51 USDs = 42.33 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0323	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0324	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0324.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0324.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0324.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__163.28 USDs
+		 2__OP_Addition
+			 3__159.14 USDs
+				 4__OP_Addition
+					 5__149.16 USDs
+					 6__9.98 USDs
+			 7__4.14 USDs
+Explanation : 
+ Ans: 
+	149.16 USDs + 9.98 USDs = 159.14 USDs
+
+	Thus,  Joan  spent	159.14 USDs + 4.14 USDs = 163.28 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0324	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0325	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0325.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0325.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0325.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__22.58 USDs
+		 2__OP_Addition
+			 3__14.85 USDs
+				 4__OP_Addition
+					 5__6.95 USDs
+					 6__7.90 USDs
+			 7__7.73 USDs
+Explanation : 
+ Ans: 
+	6.95 USDs + 7.90 USDs = 14.85 USDs
+
+	Thus,  Melanie  spent	14.85 USDs + 7.73 USDs = 22.58 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0325	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0326	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0326.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0326.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0326.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__24.81 USDs
+		 2__OP_Addition
+			 3__12.3 USDs
+				 4__OP_Addition
+					 5__6.51 USDs
+					 6__5.79 USDs
+			 7__12.51 USDs
+Explanation : 
+ Ans: 
+	6.51 USDs + 5.79 USDs = 12.3 USDs
+
+	Thus,  The total cost of Keith 's purchase  was	12.3 USDs + 12.51 USDs = 24.81 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0326	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0327	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0327.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0327.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0327.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__387.85 USDs
+		 2__OP_Addition
+			 3__275.39 USDs
+				 4__OP_Addition
+					 5__136.01 USDs
+					 6__139.38 USDs
+			 7__112.46 USDs
+Explanation : 
+ Ans: 
+	136.01 USDs + 139.38 USDs = 275.39 USDs
+
+	Thus,  He  spent	275.39 USDs + 112.46 USDs = 387.85 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0327	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0328	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0328.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0328.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0328.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__28.45 USDs
+		 2__OP_Addition
+			 3__13.9 USDs
+			 4__14.55 USDs
+Explanation : 
+ Ans: 
+Joan  spent	13.9 USDs + 14.55 USDs = 28.45 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0328	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0329	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0329.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0329.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0329.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__95 dollars
+		 2__OP_Addition
+			 3__52 dollars
+			 4__43 dollars
+Explanation : 
+ Ans: 
+She  had	52 dollars + 43 dollars = 95 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0329	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0330	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0330.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0330.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0330.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 bales
+		 2__OP_Subtraction
+			 3__60 bales
+			 4__46 bales
+Explanation : 
+ Ans: 
+He  stored	60 bales - 46 bales = 14 bales.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0330	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0331	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0331.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0331.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0331.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__5 cupflours
+		 2__OP_Subtraction
+			 3__7 cupflours
+			 4__2 cupflours
+Explanation : 
+ Ans: 
+She  needs	7 cupflours - 2 cupflours = 5 cupflours.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0331	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0332	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0332.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0332.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0332.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__63 dollars
+		 2__OP_Subtraction
+			 3__86 dollars
+			 4__23 dollars
+Explanation : 
+ Ans: 
+Fred  made	86 dollars - 23 dollars = 63 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0332	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0333	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0333.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0333.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0333.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__64 trees
+		 2__OP_Subtraction
+			 3__95 trees
+			 4__31 trees
+Explanation : 
+ Ans: 
+Short tree  did	95 trees - 31 trees = 64 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0333	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0334	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0334.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0334.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0334.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__6 orchids
+		 2__OP_Subtraction
+			 3__15 orchids
+			 4__9 orchids
+Explanation : 
+ Ans: 
+She  cut	15 orchids - 9 orchids = 6 orchids.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0334	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0335	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0335.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0335.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0335.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__37 peaches
+		 2__OP_Subtraction
+			 3__61 peaches
+			 4__24 peaches
+Explanation : 
+ Ans: 
+She  picked	61 peaches - 24 peaches = 37 peaches.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0335	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0336	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0336.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0336.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0336.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__44 seashells
+		 2__OP_Subtraction
+			 3__72 seashells
+			 4__28 seashells
+Explanation : 
+ Ans: 
+She  gave	72 seashells - 28 seashells = 44 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0336	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0337	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0337.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0337.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0337.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__9 pencils
+		 2__OP_Addition
+			 3__6 pencils
+			 4__3 pencils
+Explanation : 
+ Ans: 
+There are 	6 pencils + 3 pencils = 9 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0337	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0338	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0338.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0338.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0338.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7 marbles
+		 2__OP_Addition
+			 3__3 marbles
+			 4__4 marbles
+Explanation : 
+ Ans: 
+They  have	3 marbles + 4 marbles = 7 marbles.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0338	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0339	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0339.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0339.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0339.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__17 watermelons
+		 2__OP_Addition
+			 3__8 watermelons
+			 4__9 watermelons
+Explanation : 
+ Ans: 
+They  growed	8 watermelons + 9 watermelons = 17 watermelons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0339	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0340	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0340.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0340.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0340.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 trees
+		 2__OP_Addition
+			 3__2 trees
+			 4__9 trees
+Explanation : 
+ Ans: 
+The park  will have	2 trees + 9 trees = 11 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0340	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0341	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0341.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0341.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0341.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7 seashells
+		 2__OP_Addition
+			 3__2 seashells
+			 4__5 seashells
+Explanation : 
+ Ans: 
+They  found	2 seashells + 5 seashells = 7 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0341	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0342	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0342.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0342.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0342.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 pears
+		 2__OP_Addition
+			 3__8 pears
+			 4__7 pears
+Explanation : 
+ Ans: 
+	8 pears + 7 pears = 15 pears were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0342	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0343	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0343.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0343.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0343.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 nickels
+		 2__OP_Addition
+			 3__9 nickels
+			 4__3 nickels
+Explanation : 
+ Ans: 
+Tim  has	9 nickels + 3 nickels = 12 nickels.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0343	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0344	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0344.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0344.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0344.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 slices
+		 2__OP_Addition
+			 3__7 slices
+			 4__5 slices
+Explanation : 
+ Ans: 
+	7 slices + 5 slices = 12 slices were served.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0344	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0345	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0345.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0345.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0345.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__13 games
+		 2__OP_Addition
+			 3__4 games
+			 4__9 games
+Explanation : 
+ Ans: 
+Tom  went	4 games + 9 games = 13 games.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0345	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0346	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0346.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0346.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0346.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__8 puppies
+		 2__OP_Addition
+			 3__2 puppies
+			 4__6 puppies
+Explanation : 
+ Ans: 
+He  had	2 puppies + 6 puppies = 8 puppies.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0346	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0347	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0347.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0347.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0347.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__16 apples
+		 2__OP_Sum
+			 3__7 apples
+			 4__3 apples
+			 5__6 apples
+Explanation : 
+ Ans: 
+Totally 	7 apples + 3 apples + 6 apples = 16 apples were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0347	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0348	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0348.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0348.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0348.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__16 trees
+		 2__OP_Addition
+			 3__12 trees
+				 4__OP_Addition
+					 5__7 trees
+					 6__5 trees
+			 7__4 trees
+Explanation : 
+ Ans: 
+	7 trees + 5 trees = 12 trees
+
+	Thus,  The park  will have	12 trees + 4 trees = 16 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0348	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0349	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0349.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0349.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0349.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__10 kittens
+		 2__OP_Addition
+			 3__5 kittens
+			 4__5 kittens
+Explanation : 
+ Ans: 
+He  had	5 kittens + 5 kittens = 10 kittens.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0349	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0350	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0350.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0350.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0350.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__17 crayons
+		 2__OP_Addition
+			 3__13 crayons
+				 4__OP_Addition
+					 5__7 crayons
+					 6__6 crayons
+			 7__4 crayons
+Explanation : 
+ Ans: 
+	7 crayons + 6 crayons = 13 crayons
+
+	Thus,  There are 	13 crayons + 4 crayons = 17 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0350	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0351	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0351.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0351.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0351.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 nickels
+		 2__OP_Addition
+			 3__16 nickels
+				 4__OP_Addition
+					 5__7 nickels
+					 6__9 nickels
+			 7__2 nickels
+Explanation : 
+ Ans: 
+	7 nickels + 9 nickels = 16 nickels
+
+	Thus,  Sally  has	16 nickels + 2 nickels = 18 nickels.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0351	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0352	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0352.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0352.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0352.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__24 games
+		 2__OP_Addition
+			 3__17 games
+				 4__OP_Addition
+					 5__9 games
+					 6__8 games
+			 7__7 games
+Explanation : 
+ Ans: 
+	9 games + 8 games = 17 games
+
+	Thus,  She  will attend	17 games + 7 games = 24 games.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0352	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0353	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0353.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0353.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0353.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__21 seashells
+		 2__OP_Sum
+			 3__6 seashells
+			 4__8 seashells
+			 5__7 seashells
+Explanation : 
+ Ans: 
+Totally They  found	6 seashells + 8 seashells + 7 seashells = 21 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0353	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0354	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0354.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0354.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0354.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 onions
+		 2__OP_Sum
+			 3__2 onions
+			 4__9 onions
+			 5__4 onions
+Explanation : 
+ Ans: 
+Totally They  growed	2 onions + 9 onions + 4 onions = 15 onions.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0354	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0355	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0355.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0355.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0355.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 balloons
+		 2__OP_Sum
+			 3__5 balloons
+			 4__6 balloons
+			 5__7 balloons
+Explanation : 
+ Ans: 
+Totally They  have	5 balloons + 6 balloons + 7 balloons = 18 balloons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0355	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0356	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0356.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0356.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0356.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__20 pies
+		 2__OP_Addition
+			 3__13 pies
+				 4__OP_Addition
+					 5__4 pies
+					 6__9 pies
+			 7__7 pies
+Explanation : 
+ Ans: 
+	4 pies + 9 pies = 13 pies
+
+	Thus,  	13 pies + 7 pies = 20 pies were served.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0356	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0357	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0357.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0357.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0357.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__50 seashells
+		 2__OP_Addition
+			 3__37 seashells
+			 4__13 seashells
+Explanation : 
+ Ans: 
+They  found	37 seashells + 13 seashells = 50 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0357	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0358	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0358.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0358.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0358.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__48 dimes
+		 2__OP_Addition
+			 3__15 dimes
+			 4__33 dimes
+Explanation : 
+ Ans: 
+He  has	15 dimes + 33 dimes = 48 dimes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0358	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0359	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0359.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0359.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0359.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__52 scissorses
+		 2__OP_Addition
+			 3__39 scissorses
+			 4__13 scissorses
+Explanation : 
+ Ans: 
+There are 	39 scissorses + 13 scissorses = 52 scissorses.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0359	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0360	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0360.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0360.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0360.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__37 balloons
+		 2__OP_Addition
+			 3__16 balloons
+			 4__21 balloons
+Explanation : 
+ Ans: 
+They  have	16 balloons + 21 balloons = 37 balloons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0360	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0361	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0361.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0361.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0361.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__35 bushes
+		 2__OP_Addition
+			 3__22 bushes
+			 4__13 bushes
+Explanation : 
+ Ans: 
+The park  will have	22 bushes + 13 bushes = 35 bushes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0361	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0362	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0362.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0362.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0362.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__56 cards
+		 2__OP_Addition
+			 3__33 cards
+			 4__23 cards
+Explanation : 
+ Ans: 
+Mary  has	33 cards + 23 cards = 56 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0362	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0363	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0363.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0363.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0363.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__55 oranges
+		 2__OP_Addition
+			 3__14 oranges
+			 4__41 oranges
+Explanation : 
+ Ans: 
+	14 oranges + 41 oranges = 55 oranges were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0363	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0364	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0364.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0364.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0364.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__48 watermelons
+		 2__OP_Addition
+			 3__37 watermelons
+			 4__11 watermelons
+Explanation : 
+ Ans: 
+They  growed	37 watermelons + 11 watermelons = 48 watermelons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0364	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0365	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0365.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0365.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0365.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__54 games
+		 2__OP_Addition
+			 3__15 games
+			 4__39 games
+Explanation : 
+ Ans: 
+Mike  went	15 games + 39 games = 54 games.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0365	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0366	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0366.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0366.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0366.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__63 pennies
+		 2__OP_Addition
+			 3__44 pennies
+				 4__OP_Addition
+					 5__17 pennies
+					 6__27 pennies
+			 7__19 pennies
+Explanation : 
+ Ans: 
+	17 pennies + 27 pennies = 44 pennies
+
+	Thus,  Melanie  has	44 pennies + 19 pennies = 63 pennies.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0366	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0367	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0367.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0367.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0367.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__79 pumpkins
+		 2__OP_Sum
+			 3__24 pumpkins
+			 4__42 pumpkins
+			 5__13 pumpkins
+Explanation : 
+ Ans: 
+Totally They  growed	24 pumpkins + 42 pumpkins + 13 pumpkins = 79 pumpkins.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0367	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0368	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0368.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0368.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0368.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__84 cards
+		 2__OP_Addition
+			 3__44 cards
+				 4__OP_Addition
+					 5__18 cards
+					 6__26 cards
+			 7__40 cards
+Explanation : 
+ Ans: 
+	18 cards + 26 cards = 44 cards
+
+	Thus,  Mary  has	44 cards + 40 cards = 84 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0368	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0369	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0369.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0369.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0369.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__39 games
+		 2__OP_Addition
+			 3__24 games
+				 4__OP_Addition
+					 5__11 games
+					 6__13 games
+			 7__15 games
+Explanation : 
+ Ans: 
+	11 games + 13 games = 24 games
+
+	Thus,  Alyssa  will go	24 games + 15 games = 39 games.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0369	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0370	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0370.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0370.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0370.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__117 erasers
+		 2__OP_Addition
+			 3__78 erasers
+				 4__OP_Addition
+					 5__48 erasers
+					 6__30 erasers
+			 7__39 erasers
+Explanation : 
+ Ans: 
+	48 erasers + 30 erasers = 78 erasers
+
+	Thus,  There are 	78 erasers + 39 erasers = 117 erasers.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0370	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0371	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0371.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0371.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0371.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__109 bushes
+		 2__OP_Addition
+			 3__84 bushes
+				 4__OP_Addition
+					 5__47 bushes
+					 6__37 bushes
+			 7__25 bushes
+Explanation : 
+ Ans: 
+	47 bushes + 37 bushes = 84 bushes
+
+	Thus,  The park  will have	84 bushes + 25 bushes = 109 bushes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0371	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0372	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0372.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0372.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0372.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__72 balloons
+		 2__OP_Sum
+			 3__10 balloons
+			 4__46 balloons
+			 5__16 balloons
+Explanation : 
+ Ans: 
+Totally They  have	10 balloons + 46 balloons + 16 balloons = 72 balloons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0372	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0373	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0373.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0373.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0373.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__100 seashells
+		 2__OP_Sum
+			 3__45 seashells
+			 4__23 seashells
+			 5__32 seashells
+Explanation : 
+ Ans: 
+Totally They  found	45 seashells + 23 seashells + 32 seashells = 100 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0373	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0374	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0374.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0374.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0374.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__103 limes
+		 2__OP_Sum
+			 3__36 limes
+			 4__32 limes
+			 5__35 limes
+Explanation : 
+ Ans: 
+Totally 	36 limes + 32 limes + 35 limes = 103 limes were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0374	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0375	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0375.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0375.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0375.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__47 dollars
+		 2__OP_Subtraction
+			 3__79 dollars
+			 4__32 dollars
+Explanation : 
+ Ans: 
+He  spent	79 dollars - 32 dollars = 47 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0375	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0376	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0376.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0376.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0376.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 trees
+		 2__OP_Subtraction
+			 3__54 trees
+			 4__43 trees
+Explanation : 
+ Ans: 
+How many maple tree  did	54 trees - 43 trees = 11 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0376	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0377	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0377.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0377.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0377.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__71 peaches
+		 2__OP_Subtraction
+			 3__85 peaches
+			 4__14 peaches
+Explanation : 
+ Ans: 
+He  picked	85 peaches - 14 peaches = 71 peaches.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0377	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0378	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0378.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0378.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0378.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__46 books
+		 2__OP_Subtraction
+			 3__87 books
+			 4__41 books
+Explanation : 
+ Ans: 
+She  bought	87 books - 41 books = 46 books.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0378	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0379	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__16 orchids
+		 2__OP_Subtraction
+			 3__18 orchids
+			 4__2 orchids
+Explanation : 
+ Ans: 
+She  cut	18 orchids - 2 orchids = 16 orchids.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0379	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0380	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0380.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0380.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0380.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__63 dollars
+		 2__OP_Subtraction
+			 3__75 dollars
+			 4__12 dollars
+Explanation : 
+ Ans: 
+Tim  made	75 dollars - 12 dollars = 63 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0380	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0381	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0381.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0381.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0381.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__13 seashells
+		 2__OP_Subtraction
+			 3__75 seashells
+			 4__62 seashells
+Explanation : 
+ Ans: 
+She  gave	75 seashells - 62 seashells = 13 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0381	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0382	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0382.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0382.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0382.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__66 bales
+		 2__OP_Subtraction
+			 3__98 bales
+			 4__32 bales
+Explanation : 
+ Ans: 
+He  stored	98 bales - 32 bales = 66 bales.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0382	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0383	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0383.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0383.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0383.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 cupflours
+		 2__OP_Subtraction
+			 3__8 cupflours
+			 4__4 cupflours
+Explanation : 
+ Ans: 
+She  needs	8 cupflours - 4 cupflours = 4 cupflours.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0383	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0384	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0384.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0384.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0384.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__5 pears
+		 2__OP_Addition
+			 3__3 pears
+			 4__2 pears
+Explanation : 
+ Ans: 
+	3 pears + 2 pears = 5 pears were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0384	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0385	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0385.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0385.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0385.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7 balloons
+		 2__OP_Subtraction
+			 3__9 balloons
+			 4__2 balloons
+Explanation : 
+ Ans: 
+Sally  has	9 balloons - 2 balloons = 7 balloons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0385	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0386	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0386.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0386.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0386.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 carrots
+		 2__OP_Addition
+			 3__8 carrots
+			 4__6 carrots
+Explanation : 
+ Ans: 
+They  growed	8 carrots + 6 carrots = 14 carrots.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0386	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0387	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0387.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0387.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0387.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__9 scissorses
+		 2__OP_Addition
+			 3__5 scissorses
+			 4__4 scissorses
+Explanation : 
+ Ans: 
+There are 	5 scissorses + 4 scissorses = 9 scissorses.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0387	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0388	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0388.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0388.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0388.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0 kittens
+		 2__OP_Subtraction
+			 3__8 kittens
+			 4__8 kittens
+Explanation : 
+ Ans: 
+She  has	8 kittens - 8 kittens = 0 kittens.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0388	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0389	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0389.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0389.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0389.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 dimes
+		 2__OP_Subtraction
+			 3__8 dimes
+			 4__4 dimes
+Explanation : 
+ Ans: 
+Sam  has	8 dimes - 4 dimes = 4 dimes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0389	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0390	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0390.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0390.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0390.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+Case has no Answer from IE! Check case!
+
+Case's Question sentence may have no LF2!
+Case's Question sentence may have no LF2!
+Case's Question sentence may have no LF2!!
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0390	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0391	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0391.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0391.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0391.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 trees
+		 2__OP_Addition
+			 3__3 trees
+			 4__9 trees
+Explanation : 
+ Ans: 
+The park  will have	3 trees + 9 trees = 12 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0391	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0392	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0392.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0392.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0392.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__20 pennies
+		 2__OP_Subtraction
+			 3__38 pennies
+			 4__18 pennies
+Explanation : 
+ Ans: 
+She  has	38 pennies - 18 pennies = 20 pennies.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0392	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0393	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0393.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0393.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0393.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__27 plums
+		 2__OP_Addition
+			 3__17 plums
+			 4__10 plums
+Explanation : 
+ Ans: 
+	17 plums + 10 plums = 27 plums were picked.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0393	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0394	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0394.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0394.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0394.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__77 pencils
+		 2__OP_Addition
+			 3__48 pencils
+			 4__29 pencils
+Explanation : 
+ Ans: 
+There are 	48 pencils + 29 pencils = 77 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0394	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0395	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0395.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0395.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0395.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__57 bushes
+		 2__OP_Addition
+			 3__37 bushes
+			 4__20 bushes
+Explanation : 
+ Ans: 
+The park  will have	37 bushes + 20 bushes = 57 bushes.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0395	^^^^^^^^^^^^^^^^^^^^
+
+
+
