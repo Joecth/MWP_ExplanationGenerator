@@ -41,11 +41,12 @@ from stc_analyzer import *
 # FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.trace.xml'
 # FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
 # FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
-#
-# FILE_OUTPUT_0       = 'output.xml'
-# FILE_OUTPUT_CORE    = 'out_core.xml'
-# FILE_RAW_TREE       = 'raw_tree.xml'             ## index from FILE_INPUT_0
-# FILE_BUILD_TREE_LOG = 'build_tree.log.xml'
+
+### ''' DO NOT COMMENT following lines '''
+FILE_OUTPUT_0       = 'output.xml'
+FILE_OUTPUT_CORE    = 'out_core.xml'
+FILE_RAW_TREE       = 'raw_tree.xml'             ## index from FILE_INPUT_0
+FILE_BUILD_TREE_LOG = 'build_tree.log.xml'
 
 # print("Print out all argvs for DBG: ")
 # for i, arg in enumerate(sys.argv):
