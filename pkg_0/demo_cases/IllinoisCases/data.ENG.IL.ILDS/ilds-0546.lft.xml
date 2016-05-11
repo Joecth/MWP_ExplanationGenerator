@@ -1,0 +1,100 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 score)
+		(s1w1 Jorge)
+		(s1w4 goal)
+		(s1w3 156)
+		(s1w5 play)
+		(s1w6 soccer)
+		(s1w8 season)
+		(s1w7 last)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(acl n1 s1w5)
+		(dobj n1 n5)
+		(head n5 s1w6)
+		(nmod_tmod n1 n6)
+		(head n6 s1w8)
+		(amod n6 s1w7)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 156)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 score)
+		(s2w2 season)
+		(s2w1 this)
+		(s2w3 he)
+		(s2w6 goal)
+		(s2w5 187)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nmod_tmod v2 n7)
+		(head n7 s2w2)
+		(det n7 s2w1)
+		(nsubj v2 s2w3)
+		(dobj v2 n2)
+		(head n2 s2w6)
+		(nummod n2 s2w5)
+	)
+
+	(LF2
+		(= (quan q2 # s2w6) 187)(verb q2 s2w4)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w1 what)
+		(s3w2 be)
+		(s3w5 number)
+		(s3w3 the)
+		(s3w4 total)
+		(s3w7 goal)
+		(s3w6 of)
+		(s3w9 score)
+		(s3w8 Jorge)
+	)
+
+	(LF1
+		(HEAD x3 s3w1)
+		(cop x3 s3w2)
+		(nsubj x3 n9)
+		(head n9 s3w5)
+		(det n9 s3w3)
+		(amod n9 s3w4)
+		(nmod n9 n10)
+		(head n10 s3w7)
+		(case n10 s3w6)
+		(acl_relcl n10 s3w9)
+		(nsubj n10 n11)
+		(head n11 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 # s1w4) (quan q2 # s2w6)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

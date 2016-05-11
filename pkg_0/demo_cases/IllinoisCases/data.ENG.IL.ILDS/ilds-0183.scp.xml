@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(2):nsubj={[x1]Sarah(1)},dobj={[x2]box(4):nummod={24(3)},nmod={Cremes(8):case={of(5)},compound={Lemon(6)},compound={Chalet(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Sarah(1,NNP): {Sarah}</Word>
+		<Word idx="2">sell(2,VBD): {sold}</Word>
+		<Word idx="3">24(3,CD): {24}</Word>
+		<Word idx="4">box(4,NNS): {boxes}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">Lemon(6,NNP): {Lemon}</Word>
+		<Word idx="7">Chalet(7,NNP): {Chalet}</Word>
+		<Word idx="8">Cremes(8,NNP): {Cremes}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(13):dobj={case(3):amod={many(2):advmod={how(1)}},nmod={[x2]box(6):case={of(4)},nummod={12(5)},cc={plus(8)},conj={box(10):amod={extra(9)}}}},aux={do(11)},nsubj={[x1]Sarah(12)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">case(3,NNS): {cases}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">12(5,CD): {12}</Word>
+		<Word idx="6">box(6,NNS): {boxes}</Word>
+		<Word idx="7">plus(8,CC): {plus}</Word>
+		<Word idx="8">extra(9,JJ): {extra}</Word>
+		<Word idx="9">box(10,NNS): {boxes}</Word>
+		<Word idx="10">do(11,VBZ): {does}</Word>
+		<Word idx="11">Sarah(12,NNP): {Sarah}</Word>
+		<Word idx="12">need(13,VB): {need}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

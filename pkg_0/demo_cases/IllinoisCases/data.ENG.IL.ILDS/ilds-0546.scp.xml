@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{score(2):nsubj={[x1]Jorge(1)},dobj={goal(4):nummod={156(3)},acl={play(5):dobj={soccer(6)},nmod_tmod={season(8):amod={last(7)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jorge(1,NNP): {Jorge}</Word>
+		<Word idx="2">score(2,VBD): {scored}</Word>
+		<Word idx="3">156(3,CD): {156}</Word>
+		<Word idx="4">goal(4,NNS): {goals}</Word>
+		<Word idx="5">play(5,VBG): {playing}</Word>
+		<Word idx="6">soccer(6,NN): {soccer}</Word>
+		<Word idx="7">last(7,JJ): {last}</Word>
+		<Word idx="8">season(8,NN): {season}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{score(4):nmod_tmod={season(2):det={this(1)}},nsubj={[x1]he(3)},dobj={goal(6):nummod={187(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">this(1,DT): {This}</Word>
+		<Word idx="2">season(2,NN): {season}</Word>
+		<Word idx="3">he(3,PRP): {he}</Word>
+		<Word idx="4">score(4,VBD): {scored}</Word>
+		<Word idx="5">187(5,CD): {187}</Word>
+		<Word idx="6">goal(6,NNS): {goals}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{what(1):cop={be(2)},nsubj={number(5):det={the(3)},amod={total(4)},nmod={goal(7):case={of(6)},acl_relcl={score(9):nsubj={[x1]Jorge(8)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WP): {What}</Word>
+		<Word idx="2">be(2,VBZ): {is}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">total(4,JJ): {total}</Word>
+		<Word idx="5">number(5,NN): {number}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">goal(7,NNS): {goals}</Word>
+		<Word idx="8">Jorge(8,NNP): {Jorge}</Word>
+		<Word idx="9">score(9,VBD): {scored}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

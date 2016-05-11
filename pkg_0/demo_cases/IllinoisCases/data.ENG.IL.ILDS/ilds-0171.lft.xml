@@ -1,0 +1,80 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Albert)
+		(s1w4 orange)
+		(s1w3 35)
+		(s1w5 store)
+		(s1w7 box)
+		(s1w6 in)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n5)
+		(head n5 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(acl n1 s1w5)
+		(nmod n1 n7)
+		(head n7 s1w7)
+		(case n7 s1w6)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 35)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w10 go)
+		(s2w3 be)
+		(s2w1 if)
+		(s2w2 there)
+		(s2w5 box)
+		(s2w4 7)
+		(s2w8 orange)
+		(s2w7 many)
+		(s2w6 how)
+		(s2w9 must)
+		(s2w13 box)
+		(s2w11 in)
+		(s2w12 each)
+	)
+
+	(LF1
+		(verb v2 s2w10)
+		(verb v2 s2w3)
+		(mark v2 s2w1)
+		(expl v2 s2w2)
+		(nsubj v2 n2)
+		(head n2 s2w5)
+		(nummod n2 s2w4)
+		(nsubj v2 n3)
+		(head n3 s2w8)
+		(amod n3 s2w7)
+		(advmod n3 s2w6)
+		(aux v2 s2w9)
+		(nmod v2 n4)
+		(head n4 s2w13)
+		(case n4 s2w11)
+		(det n4 s2w12)
+	)
+
+	(LF2
+		(= (quan q2 # s2w5) 7)(verb q2 s2w3)(role q2 nsubj)
+(= (quan q4 # s2w13) 1)(verb q4 s2w10)(role q4 nmod)
+
+(ASK ANS (CommonDiv (quan q1 # s1w4) (quan q2 # s2w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

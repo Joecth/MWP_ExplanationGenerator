@@ -1,0 +1,86 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 I)
+		(s1w4 cent)
+		(s1w3 224)
+		(s1w6 buy)
+		(s1w5 to)
+		(s1w7 candy)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(acl n1 s1w6)
+		(mark n1 s1w5)
+		(dobj n1 n6)
+		(head n6 s1w7)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 224)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w15 buy)
+		(s2w3 piece)
+		(s2w1 if)
+		(s2w2 each)
+		(s2w7 cost)
+		(s2w4 of)
+		(s2w5 bulk)
+		(s2w6 candy)
+		(s2w9 cent)
+		(s2w8 8)
+		(s2w10 how)
+		(s2w12 gumdrop)
+		(s2w11 many)
+		(s2w13 can)
+		(s2w14 I)
+	)
+
+	(LF1
+		(verb v2 s2w15)
+		(advcl v2 n2)
+		(head n2 s2w3)
+		(mark n2 s2w1)
+		(det n2 s2w2)
+		(nmod n2 n8)
+		(head n8 s2w7)
+		(case n8 s2w4)
+		(compound n8 n9)
+		(head n9 s2w5)
+		(compound n8 n10)
+		(head n10 s2w6)
+		(dep n8 n3)
+		(head n3 s2w9)
+		(nummod n3 s2w8)
+		(advmod v2 s2w10)
+		(dep v2 n4)
+		(head n4 s2w12)
+		(amod n4 s2w11)
+		(aux v2 s2w13)
+		(nsubj v2 s2w14)
+	)
+
+	(LF2
+		(= (quan q2 # n2) 1)(verb q2 s2w15)(role q2 advcl)
+(= (quan q3 # s2w9) 8)(verb q3 s2w15)(role q3 dep)
+
+(ASK ANS (CommonDiv (quan q1 # s1w4) (quan q3 # s2w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

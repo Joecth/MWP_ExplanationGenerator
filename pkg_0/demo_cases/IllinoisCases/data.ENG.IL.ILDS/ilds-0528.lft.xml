@@ -1,0 +1,133 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 call)
+		(s1w5 recipe)
+		(s1w1 a)
+		(s1w2 chocolate)
+		(s1w3 chip)
+		(s1w4 cookie)
+		(s1w9 cup)
+		(s1w7 for)
+		(s1w8 2)
+		(s1w12 chip)
+		(s1w10 of)
+		(s1w11 chocolate)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(nsubj v1 n4)
+		(head n4 s1w5)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(compound n4 n6)
+		(head n6 s1w3)
+		(compound n4 n7)
+		(head n7 s1w4)
+		(nmod v1 n8)
+		(head n8 s1w9)
+		(case n8 s1w7)
+		(nummod n8 s1w8)
+		(nmod n8 n9)
+		(head n9 s1w12)
+		(case n9 s1w10)
+		(compound n9 n1)
+		(head n1 s1w11)
+	)
+
+	(LF2
+		(= (quan q1 s1w9 s1w11) 2)(verb q1 s1w6)(role q1 compound)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 want)
+		(s2w1 you)
+		(s2w4 make)
+		(s2w3 to)
+		(s2w6 recipe)
+		(s2w5 23)
+		(s2w10 sale)
+		(s2w7 for)
+		(s2w8 a)
+		(s2w9 bake)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 s2w1)
+		(verb v2 s2w4)
+		(mark v2 s2w3)
+		(dobj v2 n2)
+		(head n2 s2w6)
+		(nummod n2 s2w5)
+		(nmod n2 n12)
+		(head n12 s2w10)
+		(case n12 s2w7)
+		(det n12 s2w8)
+		(amod n12 s2w9)
+	)
+
+	(LF2
+		(= (quan q2 # s2w6) 23)(verb q2 s2w4)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w9 need)
+		(s3w3 cup)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w6 chip)
+		(s3w4 of)
+		(s3w5 chocolate)
+		(s3w7 will)
+		(s3w8 be)
+		(s3w11 make)
+		(s3w10 to)
+		(s3w15 recipe)
+		(s3w12 all)
+		(s3w13 the)
+		(s3w14 cookie)
+	)
+
+	(LF1
+		(verb v3 s3w9)
+		(nsubjpass v3 n13)
+		(head n13 s3w3)
+		(amod n13 s3w2)
+		(advmod n13 s3w1)
+		(nmod n13 n14)
+		(head n14 s3w6)
+		(case n14 s3w4)
+		(compound n14 n3)
+		(head n3 s3w5)
+		(aux v3 s3w7)
+		(auxpass v3 s3w8)
+		(xcomp v3 s3w11)
+		(mark v3 s3w10)
+		(dobj v3 n16)
+		(head n16 s3w15)
+		(det_predet n16 s3w12)
+		(det n16 s3w13)
+		(compound n16 n17)
+		(head n17 s3w14)
+	)
+
+	(LF2
+		
+(ASK ANS (Multiplication (quan q2 # s2w6) (quan q1 s1w9 s1w11)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

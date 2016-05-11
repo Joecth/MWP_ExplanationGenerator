@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{swim(4):nsubj={duck(2):nummod={13(1)}},aux={be(3)},nmod={[x1]lake(7):case={in(5)},det={a(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">13(1,CD): {13}</Word>
+		<Word idx="2">duck(2,NNS): {ducks}</Word>
+		<Word idx="3">be(3,VBP): {are}</Word>
+		<Word idx="4">swim(4,VBG): {swimming}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">lake(7,NN): {lake}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{come(4):nsubj={duck(3):nummod={20(1)},amod={more(2)}},xcomp={join(6):mark={to(5)},dobj={they(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">20(1,CD): {20}</Word>
+		<Word idx="2">more(2,JJR): {more}</Word>
+		<Word idx="3">duck(3,NNS): {ducks}</Word>
+		<Word idx="4">come(4,VBP): {come}</Word>
+		<Word idx="5">to(5,TO): {to}</Word>
+		<Word idx="6">join(6,VB): {join}</Word>
+		<Word idx="7">they(7,PRP): {them}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{swim(5):nsubj={duck(3):amod={many(2):advmod={how(1)}}},aux={be(4)},nmod={[x1]lake(8):case={in(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">duck(3,NNS): {ducks}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">swim(5,VBG): {swimming}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">lake(8,NN): {lake}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

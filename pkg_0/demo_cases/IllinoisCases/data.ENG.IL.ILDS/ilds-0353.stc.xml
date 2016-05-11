@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(3):nsubj={[x1]Franklin(2):compound={Mrs.(1)}},dobj={valentine(5):nummod={58(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mrs.(1,NNP): {Mrs.}</Word>
+		<Word idx="2">Franklin(2,NNP): {Franklin}</Word>
+		<Word idx="3">have(3,VBD): {had}</Word>
+		<Word idx="4">58(4,CD): {58}</Word>
+		<Word idx="5">valentine(5,NNS): {Valentines}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(3):nsubj={[x1]Franklin(2):compound={Mrs.(1)}},dobj={some(4)},nmod={[x2]student(7):case={to(5)},nmod_poss={[x1]she(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mrs.(1,NNP): {Mrs.}</Word>
+		<Word idx="2">Franklin(2,NNP): {Franklin}</Word>
+		<Word idx="3">give(3,VBD): {gave}</Word>
+		<Word idx="4">some(4,DT): {some}</Word>
+		<Word idx="5">to(5,TO): {to}</Word>
+		<Word idx="6">she(6,PRPS): {her}</Word>
+		<Word idx="7">student(7,NNS): {students}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(3):advmod={now(1)},nsubj={[x1]she(2)},dobj={16(4)}}</SemRep>
+	<WordList>
+		<Word idx="1">now(1,RB): {Now}</Word>
+		<Word idx="2">she(2,PRP): {she}</Word>
+		<Word idx="3">have(3,VBZ): {has}</Word>
+		<Word idx="4">16(4,CD): {16}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(7):advmod={how(1):dep={valentine(3):amod={many(2)}}},aux={do(4)},nsubj={[x1]Franklin(6):compound={Mrs.(5)}},nmod={[x2]student(10):case={to(8)},nmod_poss={[x1]she(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">valentine(3,NNS): {Valentines}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Mrs.(5,NNP): {Mrs.}</Word>
+		<Word idx="6">Franklin(6,NNP): {Franklin}</Word>
+		<Word idx="7">give(7,VB): {give}</Word>
+		<Word idx="8">to(8,TO): {to}</Word>
+		<Word idx="9">she(9,PRPS): {her}</Word>
+		<Word idx="10">student(10,NNS): {students}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

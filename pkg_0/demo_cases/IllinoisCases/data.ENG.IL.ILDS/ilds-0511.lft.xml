@@ -1,0 +1,125 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Albert)
+		(s1w4 snake)
+		(s1w3 two)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 2)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 be)
+		(s2w3 snake)
+		(s2w1 the)
+		(s2w2 garden)
+		(s2w7 long)
+		(s2w6 inch)
+		(s2w5 10)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nsubj v2 n6)
+		(head n6 s2w3)
+		(det n6 s2w1)
+		(compound n6 n7)
+		(head n7 s2w2)
+		(advmod v2 s2w7)
+		(nmod_npmod v2 n2)
+		(head n2 s2w6)
+		(nummod n2 s2w5)
+	)
+
+	(LF2
+		(= (quan q2 # s2w6) 10)(verb q2 s2w4)(role q2 nmod_npmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w7 longer)
+		(s3w3 constrictor)
+		(s3w1 the)
+		(s3w2 boa)
+		(s3w4 be)
+		(s3w6 time)
+		(s3w5 7)
+		(s3w11 snake)
+		(s3w8 than)
+		(s3w9 the)
+		(s3w10 garden)
+	)
+
+	(LF1
+		(HEAD x3 s3w7)
+		(nsubj x3 n9)
+		(head n9 s3w3)
+		(det n9 s3w1)
+		(compound n9 n10)
+		(head n10 s3w2)
+		(verb x3 s3w4)
+		(nmod_npmod x3 n3)
+		(head n3 s3w6)
+		(nummod n3 s3w5)
+		(nmod x3 n12)
+		(head n12 s3w11)
+		(case n12 s3w8)
+		(det n12 s3w9)
+		(compound n12 n13)
+		(head n13 s3w10)
+	)
+
+	(LF2
+		(= (quan q3 # s3w6) 7)(verb q3 s3w4)(role q3 nmod_npmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w3 be)
+		(s4w2 long)
+		(s4w1 how)
+		(s4w6 constrictor)
+		(s4w4 the)
+		(s4w5 boa)
+	)
+
+	(LF1
+		(HEAD v3 s4w3)
+		(dep v3 s4w2)
+		(advmod v3 s4w1)
+		(nsubj v3 n14)
+		(head n14 s4w6)
+		(det n14 s4w4)
+		(compound n14 n15)
+		(head n15 s4w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

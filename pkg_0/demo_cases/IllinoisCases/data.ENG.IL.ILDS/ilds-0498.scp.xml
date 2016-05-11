@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pie(4):compound={Mrs.(1)},compound={[x1]Hilt(2)},amod={baked(3)},nmod_tmod={weekend(6):amod={last(5)}},nmod={dinner(10):case={for(7)},det={a(8)},compound={holiday(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mrs.(1,NNP): {Mrs.}</Word>
+		<Word idx="2">Hilt(2,NNP): {Hilt}</Word>
+		<Word idx="3">baked(3,JJ): {baked}</Word>
+		<Word idx="4">pie(4,NNS): {pies}</Word>
+		<Word idx="5">last(5,JJ): {last}</Word>
+		<Word idx="6">weekend(6,NN): {weekend}</Word>
+		<Word idx="7">for(7,IN): {for}</Word>
+		<Word idx="8">a(8,DT): {a}</Word>
+		<Word idx="9">holiday(9,NN): {holiday}</Word>
+		<Word idx="10">dinner(10,NN): {dinner}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{she(1):dep={pie(5):amod={baked(2)},amod={pecan(4):compound={16(3)}},cc={and(6)},conj={[x2]apple(8):nummod={14(7)},dep={pie(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">baked(2,JJ): {baked}</Word>
+		<Word idx="3">16(3,CD): {16}</Word>
+		<Word idx="4">pecan(4,NN): {pecan}</Word>
+		<Word idx="5">pie(5,NNS): {pies}</Word>
+		<Word idx="6">and(6,CC): {and}</Word>
+		<Word idx="7">14(7,CD): {14}</Word>
+		<Word idx="8">apple(8,NNS): {apples}</Word>
+		<Word idx="9">pie(9,NNS): {pies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(22):advcl={want(3):mark={if(1)},nsubj={[x1]she(2)},xcomp={arrange(5):mark={to(4)},dobj={[x2]all(6):nmod={pie(9):case={of(7)},det={the(8)}}},nmod={row(11):case={in(10)},nmod={pie(14):case={of(12)},nummod={5(13)},dep={each(15)}}}}},dobj={row(19):amod={many(18):advmod={how(17)}}},aux={will(20)},nsubj={[x1]she(21)}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">she(2,PRP): {she}</Word>
+		<Word idx="3">want(3,VBZ): {wants}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">arrange(5,VB): {arrange}</Word>
+		<Word idx="6">all(6,DT): {all}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">pie(9,NNS): {pies}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">row(11,NNS): {rows}</Word>
+		<Word idx="12">of(12,IN): {of}</Word>
+		<Word idx="13">5(13,CD): {5}</Word>
+		<Word idx="14">pie(14,NNS): {pies}</Word>
+		<Word idx="15">each(15,DT): {each}</Word>
+		<Word idx="16">how(17,WRB): {how}</Word>
+		<Word idx="17">many(18,JJ): {many}</Word>
+		<Word idx="18">row(19,NNS): {rows}</Word>
+		<Word idx="19">will(20,MD): {will}</Word>
+		<Word idx="20">she(21,PRP): {she}</Word>
+		<Word idx="21">have(22,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

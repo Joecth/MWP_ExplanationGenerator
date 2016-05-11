@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Connie(1)},dobj={marble(4):nummod={39(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Connie(1,NNP): {Connie}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">39(3,CD): {39}</Word>
+		<Word idx="4">marble(4,NNS): {marbles}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x2]Juan(1)},dobj={marble(5):nummod={25(3)},amod={more(4)},nmod={[x1]Connie(7):case={than(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Juan(1,NNP): {Juan}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">25(3,CD): {25}</Word>
+		<Word idx="4">more(4,JJR): {more}</Word>
+		<Word idx="5">marble(5,NNS): {marbles}</Word>
+		<Word idx="6">than(6,IN): {than}</Word>
+		<Word idx="7">Connie(7,NNP): {Connie}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dobj={marble(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x2]Juan(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">marble(3,NNS): {marbles}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">Juan(5,NNP): {Juan}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

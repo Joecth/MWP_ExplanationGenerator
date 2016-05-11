@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={candy(4):nummod={88(3)},nmod={[x1]box(7):case={in(5)},det={a(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">88(3,CD): {88}</Word>
+		<Word idx="4">candy(4,NNS): {candies}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">box(7,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={Lisa(1)},dobj={candy(4):nummod={18(3)},nmod={bag(7):case={in(5)},det={a(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Lisa(1,NNP): {Lisa}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">18(3,CD): {18}</Word>
+		<Word idx="4">candy(4,NNS): {candies}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">bag(7,NN): {bag}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={Diana(1)},nmod={[x1]box(8):advmod={candy(4):nummod={6(3)},case={out(5)}},case={of(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Diana(1,NNP): {Diana}</Word>
+		<Word idx="2">take(2,VBZ): {takes}</Word>
+		<Word idx="3">6(3,CD): {6}</Word>
+		<Word idx="4">candy(4,NNS): {candies}</Word>
+		<Word idx="5">out(5,IN): {out}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">box(8,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(5):nsubjpass={candy(3):amod={many(2):advmod={how(1)}}},auxpass={be(4)},nmod={[x1]box(8):case={in(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">candy(3,NNS): {candies}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">leave(5,VBN): {left}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">box(8,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

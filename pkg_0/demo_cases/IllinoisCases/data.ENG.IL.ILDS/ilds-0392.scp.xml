@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={[x1]pig(4):nummod={64(3)},nmod={barn(7):case={in(5)},det={the(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">64(3,CD): {64}</Word>
+		<Word idx="4">pig(4,NNS): {pigs}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">barn(7,NN): {barn}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{more(2):det={some(1)},acl={come(3):xcomp={join(5):mark={to(4)},dobj={[x1]they(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">some(1,DT): {Some}</Word>
+		<Word idx="2">more(2,JJR): {more}</Word>
+		<Word idx="3">come(3,VBN): {come}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">join(5,VB): {join}</Word>
+		<Word idx="6">they(6,PRP): {them}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(3):advmod={now(1)},expl={there(2)},nsubj={pig(5):nummod={86(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">now(1,RB): {Now}</Word>
+		<Word idx="2">there(2,EX): {there}</Word>
+		<Word idx="3">be(3,VBP): {are}</Word>
+		<Word idx="4">86(4,CD): {86}</Word>
+		<Word idx="5">pig(5,NNS): {pigs}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{come(4):nsubj={pig(3):amod={many(2):advmod={how(1)}}},xcomp={join(6):mark={to(5)},dobj={[x1]they(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pig(3,NNS): {pigs}</Word>
+		<Word idx="4">come(4,VBD): {came}</Word>
+		<Word idx="5">to(5,TO): {to}</Word>
+		<Word idx="6">join(6,VB): {join}</Word>
+		<Word idx="7">they(7,PRP): {them}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

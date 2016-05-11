@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{stroll(2):nsubj={[x1]Jeremy(1)},dobj={kilometer(4):nummod={20(3)}},nmod={kilometer(7):case={at(5)},nummod={2(6)},nmod={hour(9):case={per(8)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jeremy(1,NNP): {Jeremy}</Word>
+		<Word idx="2">stroll(2,VBD): {strolled}</Word>
+		<Word idx="3">20(3,CD): {20}</Word>
+		<Word idx="4">kilometer(4,NNS): {kilometers}</Word>
+		<Word idx="5">at(5,IN): {at}</Word>
+		<Word idx="6">2(6,CD): {2}</Word>
+		<Word idx="7">kilometer(7,NNS): {kilometers}</Word>
+		<Word idx="8">per(8,IN): {per}</Word>
+		<Word idx="9">hour(9,NN): {hour}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{stroll(5):dep={long(2):advmod={how(1)}},aux={do(3)},nsubj={[x1]Jeremy(4)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">long(2,RB): {long}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">Jeremy(4,NNP): {Jeremy}</Word>
+		<Word idx="5">stroll(5,VB): {stroll}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">CommonDiv</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

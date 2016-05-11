@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={[x1]student(4):nummod={124(3)},acl={make(5):dobj={[x2]star(7):nummod={3(6)},dep={each(8)}},nmod={wall(12):case={for(9)},det={the(10)},compound={school(11)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">124(3,CD): {124}</Word>
+		<Word idx="4">student(4,NNS): {students}</Word>
+		<Word idx="5">make(5,VBG): {making}</Word>
+		<Word idx="6">3(6,CD): {3}</Word>
+		<Word idx="7">star(7,NNS): {stars}</Word>
+		<Word idx="8">each(8,DT): {each}</Word>
+		<Word idx="9">for(9,IN): {for}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">school(11,NN): {school}</Word>
+		<Word idx="12">wall(12,NN): {wall}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(6):dep={star(3):amod={many(2):advmod={how(1)}}},aux={will(4)},nsubj={[x1]they(5)},dobj={[x2]all(7)},advmod={together(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">star(3,NNS): {stars}</Word>
+		<Word idx="4">will(4,MD): {will}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">make(6,VB): {make}</Word>
+		<Word idx="7">all(7,DT): {all}</Word>
+		<Word idx="8">together(8,RB): {together}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

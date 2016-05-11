@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{hospital(5):nsubj={[x1]Mariela(1)},cop={be(2)},case={in(3)},det={the(4)},cc={and(6)},conj={get(8):nsubj={[x1]she(7)},ccomp={get(10):nsubj={403(9)},advmod={well(11):nmod_npmod={card(12)}},nmod={country(16):case={from(13)},case={around(14)},det={the(15)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mariela(1,NNP): {Mariela}</Word>
+		<Word idx="2">be(2,VBD): {was}</Word>
+		<Word idx="3">in(3,IN): {in}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">hospital(5,NN): {hospital}</Word>
+		<Word idx="6">and(6,CC): {and}</Word>
+		<Word idx="7">she(7,PRP): {she}</Word>
+		<Word idx="8">get(8,VBD): {got}</Word>
+		<Word idx="9">403(9,CD): {403}</Word>
+		<Word idx="10">get(10,VBP): {get}</Word>
+		<Word idx="11">well(11,RB): {well}</Word>
+		<Word idx="12">card(12,NNS): {cards}</Word>
+		<Word idx="13">from(13,IN): {from}</Word>
+		<Word idx="14">around(14,IN): {around}</Word>
+		<Word idx="15">the(15,DT): {the}</Word>
+		<Word idx="16">country(16,NN): {country}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(6):advcl={get(3):advmod={when(1)},nsubj={[x1]she(2)},dobj={home(4)}},nsubj={[x1]she(5)},dobj={card(9):nummod={287(7):advmod={more(8)}}},nmod={friend(11):case={from(10)},cc={and(12)},conj={family(13)}}}</SemRep>
+	<WordList>
+		<Word idx="1">when(1,WRB): {When}</Word>
+		<Word idx="2">she(2,PRP): {she}</Word>
+		<Word idx="3">get(3,VBD): {got}</Word>
+		<Word idx="4">home(4,NN): {home}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">get(6,VBD): {got}</Word>
+		<Word idx="7">287(7,CD): {287}</Word>
+		<Word idx="8">more(8,JJR): {more}</Word>
+		<Word idx="9">card(9,NNS): {cards}</Word>
+		<Word idx="10">from(10,IN): {from}</Word>
+		<Word idx="11">friend(11,NNS): {friends}</Word>
+		<Word idx="12">and(12,CC): {and}</Word>
+		<Word idx="13">family(13,NN): {family}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(3):dep={many(2):advmod={how(1)}},ccomp={do(6):nsubj={card(5):advmod={well(4)}}},nsubj={[x1]Mariela(7)},dep={get(8)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">get(3,VBP): {get}</Word>
+		<Word idx="4">well(4,RB): {well}</Word>
+		<Word idx="5">card(5,NNS): {cards}</Word>
+		<Word idx="6">do(6,VBD): {did}</Word>
+		<Word idx="7">Mariela(7,NNP): {Mariela}</Word>
+		<Word idx="8">get(8,VB): {get}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

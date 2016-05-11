@@ -1,0 +1,111 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 I)
+		(s1w6 retriever)
+		(s1w3 a)
+		(s1w4 pet)
+		(s1w5 golden)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w6)
+		(det n5 s1w3)
+		(compound n5 n6)
+		(head n6 s1w4)
+		(amod n5 s1w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 gain)
+		(s2w2 year)
+		(s2w1 each)
+		(s2w3 he)
+		(s2w6 pound)
+		(s2w5 11)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nmod_tmod v2 n1)
+		(head n1 s2w2)
+		(det n1 s2w1)
+		(nsubj v2 s2w3)
+		(dobj v2 n2)
+		(head n2 s2w6)
+		(nummod n2 s2w5)
+	)
+
+	(LF2
+		(= (quan q1 # s2w2) 1)(verb q1 s2w4)(role q1 nmod_tmod)
+		(= (quan q2 # s2w6) 11)(verb q2 s2w4)(role q2 dobj)
+		(q_map m1 q1 q2)(verb m1 s2w4)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w5 old)
+		(s3w1 he)
+		(s3w2 be)
+		(s3w4 year)
+		(s3w3 8)
+	)
+
+	(LF1
+		(HEAD x3 s3w5)
+		(nsubj x3 s3w1)
+		(verb x3 s3w2)
+		(nmod_npmod x3 n3)
+		(head n3 s3w4)
+		(nummod n3 s3w3)
+	)
+
+	(LF2
+		(= (quan q3 # s3w4) 8)(verb q3 s3w2)(role q3 nmod_npmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 weigh)
+		(s4w3 pound)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 do)
+		(s4w5 he)
+	)
+
+	(LF1
+		(verb v3 s4w6)
+		(dobj v3 n4)
+		(head n4 s4w3)
+		(amod n4 s4w2)
+		(advmod n4 s4w1)
+		(aux v3 s4w4)
+		(nsubj v3 s4w5)
+	)
+
+	(LF2
+		
+		(ASK ANS (Multiplication (quan q3 # s3w4) (Get (u_map ?m # s3w4 # s2w6) (COND (verb ?m s2w4)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

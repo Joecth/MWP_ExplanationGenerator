@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={student(4):nummod={10(3)},acl={ride(5):nmod={[x1]bus(9):case={on(6)},det={the(7)},compound={school(8)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBD): {were}</Word>
+		<Word idx="3">10(3,CD): {10}</Word>
+		<Word idx="4">student(4,NNS): {students}</Word>
+		<Word idx="5">ride(5,VBG): {riding}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">school(8,NN): {school}</Word>
+		<Word idx="9">bus(9,NN): {bus}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(8):nmod={stop(4):case={at(1)},det={the(2)},amod={first(3)}},nsubj={student(7):nummod={3(6)}},advmod={off(9)},nmod={[x1]bus(12):case={of(10)},det={the(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">at(1,IN): {At}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">first(3,JJ): {first}</Word>
+		<Word idx="4">stop(4,NN): {stop}</Word>
+		<Word idx="5">3(6,CD): {3}</Word>
+		<Word idx="6">student(7,NNS): {students}</Word>
+		<Word idx="7">get(8,VBD): {got}</Word>
+		<Word idx="8">off(9,RB): {off}</Word>
+		<Word idx="9">of(10,IN): {of}</Word>
+		<Word idx="10">the(11,DT): {the}</Word>
+		<Word idx="11">bus(12,NN): {bus}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(5):nsubjpass={student(3):amod={many(2):advmod={how(1)}}},auxpass={be(4)},nmod={[x1]bus(8):case={on(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">student(3,NNS): {students}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">leave(5,VBN): {left}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">bus(8,NN): {bus}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

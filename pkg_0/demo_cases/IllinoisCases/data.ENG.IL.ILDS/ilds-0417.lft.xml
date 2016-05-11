@@ -1,0 +1,115 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 get)
+		(s1w1 Paul)
+		(s1w4 box)
+		(s1w3 a)
+		(s1w7 crayon)
+		(s1w5 of)
+		(s1w6 479)
+		(s1w10 birthday)
+		(s1w8 for)
+		(s1w9 he)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 n4)
+		(head n4 s1w4)
+		(det n4 s1w3)
+		(nmod n4 n1)
+		(head n1 s1w7)
+		(case n1 s1w5)
+		(nummod n1 s1w6)
+		(nmod v1 n6)
+		(head n6 s1w10)
+		(case n6 s1w8)
+		(nmod_poss n6 s1w9)
+	)
+
+	(LF2
+		(= (quan q1 # s1w7) 479)(verb q1 s1w2)(role q1 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w10 have)
+		(s2w3 end)
+		(s2w1 at)
+		(s2w2 the)
+		(s2w6 school)
+		(s2w4 of)
+		(s2w5 the)
+		(s2w7 year)
+		(s2w8 he)
+		(s2w9 only)
+		(s2w11 134)
+		(s2w12 leave)
+	)
+
+	(LF1
+		(verb v2 s2w10)
+		(nmod v2 n7)
+		(head n7 s2w3)
+		(case n7 s2w1)
+		(det n7 s2w2)
+		(nmod n7 n8)
+		(head n8 s2w6)
+		(case n8 s2w4)
+		(det n8 s2w5)
+		(nmod_tmod v2 n9)
+		(head n9 s2w7)
+		(nsubj v2 s2w8)
+		(advmod v2 s2w9)
+		(dobj v2 s2w11)
+		(acl_relcl v2 s2w12)
+	)
+
+	(LF2
+		(= (quan q2 # s1w7) 134)(verb q2 s2w10)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 lose)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w3 crayon)
+		(s3w4 have)
+		(s3w5 be)
+		(s3w7 or)
+		(s3w8 give)
+		(s3w9 away)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dep v3 s3w2)
+		(advmod v3 s3w1)
+		(nsubjpass v3 n2)
+		(head n2 s3w3)
+		(aux v3 s3w4)
+		(auxpass v3 s3w5)
+		(cc v3 s3w7)
+		(conj v3 s3w8)
+		(compound_prt v3 s3w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 # s1w7) (quan q2 # s1w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

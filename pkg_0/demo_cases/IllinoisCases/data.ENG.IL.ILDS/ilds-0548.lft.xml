@@ -1,0 +1,142 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 make)
+		(s1w1 Omar)
+		(s1w2 and)
+		(s1w3 Karen)
+		(s1w6 roll)
+		(s1w5 egg)
+		(s1w8 share)
+		(s1w7 to)
+		(s1w12 potluck)
+		(s1w9 at)
+		(s1w10 the)
+		(s1w11 school)
+	)
+
+	(LF1
+		(HEAD v1 s1w4)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(cj_op j1 and)
+		(conj n3 n4)
+		(head n4 s1w3)
+		(dobj v1 n5)
+		(head n5 s1w6)
+		(compound n5 n6)
+		(head n6 s1w5)
+		(advcl v1 s1w8)
+		(mark v1 s1w7)
+		(nmod v1 n7)
+		(head n7 s1w12)
+		(case n7 s1w9)
+		(det n7 s1w10)
+		(compound n7 n8)
+		(head n8 s1w11)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 roll)
+		(s2w1 Omar)
+		(s2w5 roll)
+		(s2w3 219)
+		(s2w4 egg)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 n9)
+		(head n9 s2w1)
+		(dobj v2 n1)
+		(head n1 s2w5)
+		(nummod n1 s2w3)
+		(compound n1 n11)
+		(head n11 s2w4)
+	)
+
+	(LF2
+		(= (quan q1 # s2w5) 219)(verb q1 s2w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 roll)
+		(s3w1 Karen)
+		(s3w5 roll)
+		(s3w3 229)
+		(s3w4 egg)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(nsubj v3 n12)
+		(head n12 s3w1)
+		(dobj v3 n2)
+		(head n2 s3w5)
+		(nummod n2 s3w3)
+		(compound n2 n14)
+		(head n14 s3w4)
+	)
+
+	(LF2
+		(= (quan q2 # s3w5) 229)(verb q2 s3w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w1 what)
+		(s4w2 be)
+		(s4w5 number)
+		(s4w3 the)
+		(s4w4 total)
+		(s4w8 roll)
+		(s4w6 of)
+		(s4w7 egg)
+		(s4w12 roll)
+		(s4w9 Omar)
+		(s4w10 and)
+		(s4w11 Karen)
+	)
+
+	(LF1
+		(HEAD x4 s4w1)
+		(cop x4 s4w2)
+		(nsubj x4 n15)
+		(head n15 s4w5)
+		(det n15 s4w3)
+		(amod n15 s4w4)
+		(nmod n15 n16)
+		(head n16 s4w8)
+		(case n16 s4w6)
+		(compound n16 n17)
+		(head n17 s4w7)
+		(acl_relcl n15 s4w12)
+		(nsubj n15 n18)
+		(head n18 s4w9)
+		(cj_op j2 and)
+		(conj n18 n19)
+		(head n19 s4w11)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 # s2w5) (quan q2 # s3w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{want(2):nsubj={[x1]Jeffrey(1)},xcomp={split(4):mark={to(3)},dobj={collection(6):det={a(5)},nmod={cap(9):case={of(7)},compound={bottle(8)}}},nmod={group(11):case={into(10)},nmod={2(13):case={of(12)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jeffrey(1,NNP): {Jeffrey}</Word>
+		<Word idx="2">want(2,VBZ): {wants}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">split(4,VB): {split}</Word>
+		<Word idx="5">a(5,DT): {a}</Word>
+		<Word idx="6">collection(6,NN): {collection}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">bottle(8,NN): {bottle}</Word>
+		<Word idx="9">cap(9,NNS): {caps}</Word>
+		<Word idx="10">into(10,IN): {into}</Word>
+		<Word idx="11">group(11,NNS): {groups}</Word>
+		<Word idx="12">of(12,IN): {of}</Word>
+		<Word idx="13">2(13,CD): {2}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Jeffrey(1)},dobj={cap(5):nummod={12(3)},compound={bottle(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jeffrey(1,NNP): {Jeffrey}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">12(3,CD): {12}</Word>
+		<Word idx="4">bottle(4,NN): {bottle}</Word>
+		<Word idx="5">cap(5,NNS): {caps}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{create(6):dep={many(2):advmod={how(1)}},nsubjpass={group(3)},aux={will(4)},auxpass={be(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">group(3,NNS): {groups}</Word>
+		<Word idx="4">will(4,MD): {will}</Word>
+		<Word idx="5">be(5,VB): {be}</Word>
+		<Word idx="6">create(6,VBN): {created}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">CommonDiv</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

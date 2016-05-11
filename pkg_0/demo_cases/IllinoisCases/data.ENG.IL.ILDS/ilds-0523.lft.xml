@@ -1,0 +1,68 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 drive)
+		(s1w1 Brett)
+		(s1w4 mile)
+		(s1w3 55)
+		(s1w6 hour)
+		(s1w5 every)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(dep n1 n6)
+		(head n6 s1w6)
+		(det n6 s1w5)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 55)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 drive)
+		(s2w3 mile)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w4 would)
+		(s2w5 he)
+		(s2w9 hour)
+		(s2w7 in)
+		(s2w8 8)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(dobj v2 n2)
+		(head n2 s2w3)
+		(amod n2 s2w2)
+		(advmod n2 s2w1)
+		(aux v2 s2w4)
+		(nsubj v2 s2w5)
+		(nmod v2 n3)
+		(head n3 s2w9)
+		(case n3 s2w7)
+		(nummod n3 s2w8)
+	)
+
+	(LF2
+		(= (quan q3 # s2w9) 8)(verb q3 s2w6)(role q3 nmod)
+
+(ASK ANS (Multiplication (quan q3 # s2w9) (quan q1 # s1w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

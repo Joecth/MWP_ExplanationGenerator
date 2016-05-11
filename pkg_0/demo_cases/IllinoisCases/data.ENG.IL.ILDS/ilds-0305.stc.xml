@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{read(3):nsubj={Hilt(2):compound={Mrs.(1)}},dobj={book(5):nummod={5(4)},dep={day(7):det={a(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mrs.(1,NNP): {Mrs.}</Word>
+		<Word idx="2">Hilt(2,NNP): {Hilt}</Word>
+		<Word idx="3">read(3,VBZ): {reads}</Word>
+		<Word idx="4">5(4,CD): {5}</Word>
+		<Word idx="5">book(5,NNS): {books}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">day(7,NN): {day}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{read(6):dobj={book(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={she(5)},nmod={day(9):case={in(7)},nummod={3(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">book(3,NNS): {books}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">read(6,VB): {read}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">3(8,CD): {3}</Word>
+		<Word idx="9">day(9,NNS): {days}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

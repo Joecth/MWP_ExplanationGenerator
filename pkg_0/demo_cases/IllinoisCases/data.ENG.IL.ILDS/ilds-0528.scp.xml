@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{call(6):nsubj={recipe(5):det={a(1)},compound={chocolate(2)},compound={chip(3)},compound={cookie(4)}},nmod={cup(9):case={for(7)},nummod={2(8)},nmod={chip(12):case={of(10)},compound={chocolate(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">chocolate(2,NN): {chocolate}</Word>
+		<Word idx="3">chip(3,NN): {chip}</Word>
+		<Word idx="4">cookie(4,NN): {cookie}</Word>
+		<Word idx="5">recipe(5,NN): {recipe}</Word>
+		<Word idx="6">call(6,VBZ): {calls}</Word>
+		<Word idx="7">for(7,IN): {for}</Word>
+		<Word idx="8">2(8,CD): {2}</Word>
+		<Word idx="9">cup(9,NNS): {cups}</Word>
+		<Word idx="10">of(10,IN): {of}</Word>
+		<Word idx="11">chocolate(11,NN): {chocolate}</Word>
+		<Word idx="12">chip(12,NNS): {chips}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{want(2):nsubj={you(1)},xcomp={make(4):mark={to(3)},dobj={[x1]recipe(6):nummod={23(5)},nmod={sale(10):case={for(7)},det={a(8)},amod={bake(9)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">you(1,PRP): {You}</Word>
+		<Word idx="2">want(2,VBP): {want}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">make(4,VB): {make}</Word>
+		<Word idx="5">23(5,CD): {23}</Word>
+		<Word idx="6">recipe(6,NNS): {recipes}</Word>
+		<Word idx="7">for(7,IN): {for}</Word>
+		<Word idx="8">a(8,DT): {a}</Word>
+		<Word idx="9">bake(9,JJ): {bake}</Word>
+		<Word idx="10">sale(10,NN): {sale}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(9):nsubjpass={cup(3):amod={many(2):advmod={how(1)}},nmod={chip(6):case={of(4)},compound={chocolate(5)}}},aux={will(7)},auxpass={be(8)},xcomp={make(11):mark={to(10)},dobj={[x1]recipe(15):det_predet={all(12)},det={the(13)},compound={cookie(14)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">cup(3,NNS): {cups}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">chocolate(5,NN): {chocolate}</Word>
+		<Word idx="6">chip(6,NNS): {chips}</Word>
+		<Word idx="7">will(7,MD): {will}</Word>
+		<Word idx="8">be(8,VB): {be}</Word>
+		<Word idx="9">need(9,VBN): {needed}</Word>
+		<Word idx="10">to(10,TO): {to}</Word>
+		<Word idx="11">make(11,VB): {make}</Word>
+		<Word idx="12">all(12,PDT): {all}</Word>
+		<Word idx="13">the(13,DT): {the}</Word>
+		<Word idx="14">cookie(14,NN): {cookie}</Word>
+		<Word idx="15">recipe(15,NNS): {recipes}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

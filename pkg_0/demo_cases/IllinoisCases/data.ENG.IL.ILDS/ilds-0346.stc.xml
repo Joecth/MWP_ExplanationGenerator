@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={[x2]hair(3):nmod_poss={[x1]Isabella(1):case={'s(2)}}},advmod={long(7):nmod_npmod={inch(6):nummod={18(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Isabella(1,NNP): {Isabella}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">hair(3,NN): {hair}</Word>
+		<Word idx="4">be(4,VBZ): {is}</Word>
+		<Word idx="5">18(5,CD): {18}</Word>
+		<Word idx="6">inch(6,NNS): {inches}</Word>
+		<Word idx="7">long(7,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{cut(22):advcl={get(3):mark={if(1)},nsubj={[x1]she(2)},dobj={haircut(5):det={a(4)}},cc={and(6)},conj={be(10):advmod={now(7)},nsubj={hair(9):nmod_poss={[x1]she(8)}},advmod={long(13):nmod_npmod={inch(12):nummod={9(11)}}}}},nsubj={much(16):advmod={how(15)},nmod={[x2]hair(20):case={of(17)},nmod_poss={[x1]Isabella(18):case={'s(19)}}}},aux={get(21)},compound_prt={off(23)}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">she(2,PRP): {she}</Word>
+		<Word idx="3">get(3,VBZ): {gets}</Word>
+		<Word idx="4">a(4,DT): {a}</Word>
+		<Word idx="5">haircut(5,NN): {haircut}</Word>
+		<Word idx="6">and(6,CC): {and}</Word>
+		<Word idx="7">now(7,RB): {now}</Word>
+		<Word idx="8">she(8,PRPS): {her}</Word>
+		<Word idx="9">hair(9,NN): {hair}</Word>
+		<Word idx="10">be(10,VBZ): {is}</Word>
+		<Word idx="11">9(11,CD): {9}</Word>
+		<Word idx="12">inch(12,NNS): {inches}</Word>
+		<Word idx="13">long(13,RB): {long}</Word>
+		<Word idx="14">how(15,WRB): {how}</Word>
+		<Word idx="15">much(16,JJ): {much}</Word>
+		<Word idx="16">of(17,IN): {of}</Word>
+		<Word idx="17">Isabella(18,NNP): {Isabella}</Word>
+		<Word idx="18">'s(19,POS): {'s}</Word>
+		<Word idx="19">hair(20,NN): {hair}</Word>
+		<Word idx="20">get(21,VBD): {got}</Word>
+		<Word idx="21">cut(22,VBN): {cut}</Word>
+		<Word idx="22">off(23,RP): {off}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

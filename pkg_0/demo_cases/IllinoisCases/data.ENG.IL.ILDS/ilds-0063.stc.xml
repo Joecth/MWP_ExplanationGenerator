@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{remove(2):nsubj={David(1)},dobj={[x1]egg(4):nummod={7(3)}},nmod={[x2]jar(7):case={from(5)},det={a(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">David(1,NNP): {David}</Word>
+		<Word idx="2">remove(2,VBZ): {removes}</Word>
+		<Word idx="3">7(3,CD): {7}</Word>
+		<Word idx="4">egg(4,NNS): {eggs}</Word>
+		<Word idx="5">from(5,IN): {from}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">jar(7,NN): {jar}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},advmod={originally(3)},nsubj={[x1]egg(5):nummod={27(4)},nmod={[x2]jar(8):case={in(6)},det={the(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBD): {were}</Word>
+		<Word idx="3">originally(3,RB): {originally}</Word>
+		<Word idx="4">27(4,CD): {27}</Word>
+		<Word idx="5">egg(5,NNS): {eggs}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">jar(8,NN): {jar}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(5):nsubjpass={egg(3):amod={many(2):advmod={how(1)}}},auxpass={be(4)},nmod={[x2]jar(8):case={in(6)},det={the(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">egg(3,NNS): {eggs}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">leave(5,VBN): {left}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">jar(8,NN): {jar}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

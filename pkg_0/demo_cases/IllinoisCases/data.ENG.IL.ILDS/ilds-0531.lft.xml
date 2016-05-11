@@ -1,0 +1,100 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 walk)
+		(s1w1 I)
+		(s1w4 mile)
+		(s1w3 2)
+		(s1w7 hour)
+		(s1w5 in)
+		(s1w6 1)
+		(s1w9 Relay)
+		(s1w8 for)
+		(s1w11 Life)
+		(s1w10 for)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(nmod v1 n2)
+		(head n2 s1w7)
+		(case n2 s1w5)
+		(nummod n2 s1w6)
+		(nmod n2 n7)
+		(head n7 s1w9)
+		(case n7 s1w8)
+		(nmod v1 n8)
+		(head n8 s1w11)
+		(case n8 s1w10)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 2)(verb q1 s1w2)(role q1 dobj)
+		(= (quan q2 # s1w7) 1)(verb q2 s1w2)(role q2 nmod)
+		(q_map m1 q1 q2)(verb m1 s1w2)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w15 total)
+		(s2w3 maintain)
+		(s2w1 if)
+		(s2w2 I)
+		(s2w5 pace)
+		(s2w4 this)
+		(s2w9 hour)
+		(s2w6 for)
+		(s2w7 the)
+		(s2w8 8)
+		(s2w11 walk)
+		(s2w10 I)
+		(s2w14 mile)
+		(s2w13 many)
+		(s2w12 how)
+		(s2w18 walk)
+		(s2w16 will)
+		(s2w17 I)
+	)
+
+	(LF1
+		(verb v2 s2w15)
+		(verb v2 s2w3)
+		(mark v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n9)
+		(head n9 s2w5)
+		(det n9 s2w4)
+		(nmod n9 n3)
+		(head n3 s2w9)
+		(case n3 s2w6)
+		(det n3 s2w7)
+		(nummod n3 s2w8)
+		(acl_relcl n9 s2w11)
+		(nsubj n9 s2w10)
+		(nsubj v2 n4)
+		(head n4 s2w14)
+		(amod n4 s2w13)
+		(advmod n4 s2w12)
+		(advcl v2 s2w18)
+		(aux v2 s2w16)
+		(nsubj v2 s2w17)
+	)
+
+	(LF2
+		(= (quan q3 # s2w9) 8)(verb q3 s2w3)(role q3 nmod)
+
+		(ASK ANS (Multiplication (quan q3 # s2w9) (Get (u_map ?m # s2w9 # s1w4) (COND (verb ?m s1w2)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

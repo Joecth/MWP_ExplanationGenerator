@@ -1,0 +1,97 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 be)
+		(s1w1 there)
+		(s1w4 butterfly)
+		(s1w3 397)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(expl v1 s1w1)
+		(nsubj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 397)(verb q1 s1w2)(role q1 nsubj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 have)
+		(s2w2 butterfly)
+		(s2w1 each)
+		(s2w6 dot)
+		(s2w4 12)
+		(s2w5 black)
+		(s2w7 and)
+		(s2w10 dot)
+		(s2w8 17)
+		(s2w9 yellow)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n2)
+		(head n2 s2w2)
+		(det n2 s2w1)
+		(dobj v2 n3)
+		(head n3 s2w6)
+		(nummod n3 s2w4)
+		(amod n3 s2w5)
+		(cj_op j1 and)
+		(conj n3 n4)
+		(head n4 s2w10)
+		(nummod n4 s2w8)
+		(amod n4 s2w9)
+	)
+
+	(LF2
+		(= (quan q2 # s2w2) 1)(verb q2 s2w3)(role q2 nsubj)
+		(= (quan q3 # s2w6) 12)(verb q3 s2w3)(role q3 dobj)
+		(= (quan q4 # s2w10) 17)(verb q4 s2w3)(role q4 conj)
+		(q_map m1 q2 q3)(verb m1 s2w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w5 be)
+		(s3w4 dot)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w3 black)
+		(s3w6 there)
+		(s3w8 all)
+		(s3w7 in)
+	)
+
+	(LF1
+		(verb v3 s3w5)
+		(nsubj v3 n5)
+		(head n5 s3w4)
+		(amod n5 s3w2)
+		(advmod n5 s3w1)
+		(amod n5 s3w3)
+		(expl v3 s3w6)
+		(nmod v3 s3w8)
+		(case v3 s3w7)
+	)
+
+	(LF2
+		
+(ASK ANS (Multiplication (quan q4 # s2w10) (quan q1 # s1w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

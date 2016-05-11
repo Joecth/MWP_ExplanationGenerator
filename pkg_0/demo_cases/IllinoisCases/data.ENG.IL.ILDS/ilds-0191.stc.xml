@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(2):nsubj={[x1]Jenny(1)},dobj={[x2]box(4):nummod={24(3)},nmod={[x1]Trefoils(6):case={of(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jenny(1,NNP): {Jenny}</Word>
+		<Word idx="2">sell(2,VBD): {sold}</Word>
+		<Word idx="3">24(3,CD): {24}</Word>
+		<Word idx="4">box(4,NNS): {boxes}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">Trefoils(6,NNP): {Trefoils}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(13):dep={case(3):amod={many(2):advmod={how(1)}},nmod={box(6):case={of(4)},nummod={8(5)},cc={plus(8)},conj={[x2]box(10):amod={extra(9)}}}},aux={do(11)},nsubj={[x1]Jenny(12)},xcomp={deliver(15):mark={to(14)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">case(3,NNS): {cases}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">8(5,CD): {8}</Word>
+		<Word idx="6">box(6,NNS): {boxes}</Word>
+		<Word idx="7">plus(8,CC): {plus}</Word>
+		<Word idx="8">extra(9,JJ): {extra}</Word>
+		<Word idx="9">box(10,NNS): {boxes}</Word>
+		<Word idx="10">do(11,VBZ): {does}</Word>
+		<Word idx="11">Jenny(12,NNP): {Jenny}</Word>
+		<Word idx="12">need(13,VB): {need}</Word>
+		<Word idx="13">to(14,TO): {to}</Word>
+		<Word idx="14">deliver(15,VB): {deliver}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">CommonDiv</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

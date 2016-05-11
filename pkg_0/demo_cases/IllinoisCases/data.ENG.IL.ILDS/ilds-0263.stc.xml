@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={it(1)},iobj={[x1]Amanda(3)},dobj={hour(5):nummod={5(4)}},advcl={stroll(7):mark={to(6)},nmod={[x3]house(11):case={to(8)},nmod_poss={[x2]Kimberly(9):case={'s(10)}}},nmod={mile(14):case={at(12)},nummod={2(13)},nmod={hour(16):case={per(15)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">it(1,PRP): {It}</Word>
+		<Word idx="2">take(2,VBD): {took}</Word>
+		<Word idx="3">Amanda(3,NNP): {Amanda}</Word>
+		<Word idx="4">5(4,CD): {5}</Word>
+		<Word idx="5">hour(5,NNS): {hours}</Word>
+		<Word idx="6">to(6,TO): {to}</Word>
+		<Word idx="7">stroll(7,VB): {stroll}</Word>
+		<Word idx="8">to(8,TO): {to}</Word>
+		<Word idx="9">Kimberly(9,NNP): {Kimberly}</Word>
+		<Word idx="10">'s(10,POS): {'s}</Word>
+		<Word idx="11">house(11,NN): {house}</Word>
+		<Word idx="12">at(12,IN): {at}</Word>
+		<Word idx="13">2(13,CD): {2}</Word>
+		<Word idx="14">mile(14,NNS): {miles}</Word>
+		<Word idx="15">per(15,IN): {per}</Word>
+		<Word idx="16">hour(16,NN): {hour}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(3):advmod={far(2):advmod={how(1)}},nsubj={it(4):nmod={[x3]house(8):case={between(5)},nmod_poss={[x1]Amanda(6):case={'s(7)}},cc={and(9)},conj={[x3]house(12):nmod_poss={[x2]Kimberly(10):case={'s(11)}}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">far(2,RB): {far}</Word>
+		<Word idx="3">be(3,VBZ): {is}</Word>
+		<Word idx="4">it(4,PRP): {it}</Word>
+		<Word idx="5">between(5,IN): {between}</Word>
+		<Word idx="6">Amanda(6,NNP): {Amanda}</Word>
+		<Word idx="7">'s(7,POS): {'s}</Word>
+		<Word idx="8">house(8,NN): {house}</Word>
+		<Word idx="9">and(9,CC): {and}</Word>
+		<Word idx="10">Kimberly(10,NNP): {Kimberly}</Word>
+		<Word idx="11">'s(11,POS): {'s}</Word>
+		<Word idx="12">house(12,NN): {house}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

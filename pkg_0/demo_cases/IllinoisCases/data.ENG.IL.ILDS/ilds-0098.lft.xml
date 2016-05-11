@@ -1,0 +1,80 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Carlos)
+		(s1w4 block)
+		(s1w3 58)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n3)
+		(head n3 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 58)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 give)
+		(s2w1 he)
+		(s2w3 21)
+		(s2w5 Rachel)
+		(s2w4 to)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 s2w3)
+		(nmod v2 n5)
+		(head n5 s2w5)
+		(case n5 s2w4)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 21)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 have)
+		(s3w3 block)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 will)
+		(s3w5 Carlos)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dobj v3 n2)
+		(head n2 s3w3)
+		(amod n2 s3w2)
+		(advmod n2 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n7)
+		(head n7 s3w5)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 # s1w4) (quan q2 # s1w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

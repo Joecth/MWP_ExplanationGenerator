@@ -1,0 +1,77 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 bike)
+		(s1w1 Marie)
+		(s1w2 can)
+		(s1w6 speed)
+		(s1w4 at)
+		(s1w5 a)
+		(s1w9 mile)
+		(s1w7 of)
+		(s1w8 12)
+		(s1w11 hour)
+		(s1w10 a)
+	)
+
+	(LF1
+		(head n3 s1w3)
+		(nsubj n3 n4)
+		(head n4 s1w1)
+		(aux n3 s1w2)
+		(nmod n3 n5)
+		(head n5 s1w6)
+		(case n5 s1w4)
+		(det n5 s1w5)
+		(nmod n5 n1)
+		(head n1 s1w9)
+		(case n1 s1w7)
+		(nummod n1 s1w8)
+		(dep n1 n7)
+		(head n7 s1w11)
+		(det n7 s1w10)
+	)
+
+	(LF2
+		(= (quan q1 # s1w9) 12)(role q1 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w3 can)
+		(s2w1 how)
+		(s2w2 far)
+		(s2w5 bike)
+		(s2w4 she)
+		(s2w8 hour)
+		(s2w6 in)
+		(s2w7 31)
+	)
+
+	(LF1
+		(HEAD x1 s2w3)
+		(advmod x1 s2w1)
+		(advmod x1 s2w2)
+		(nsubj x1 n8)
+		(head n8 s2w5)
+		(dep n8 s2w4)
+		(nmod n8 n2)
+		(head n2 s2w8)
+		(case n2 s2w6)
+		(nummod n2 s2w7)
+	)
+
+	(LF2
+		(= (quan q2 # s2w8) 31)(role q2 nmod)
+
+(ASK ANS (Multiplication (quan q2 # s2w8) (quan q1 # s1w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

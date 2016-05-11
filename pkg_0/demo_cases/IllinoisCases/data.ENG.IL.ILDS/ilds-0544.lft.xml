@@ -1,0 +1,128 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 hospital)
+		(s1w1 Mariela)
+		(s1w2 be)
+		(s1w3 in)
+		(s1w4 the)
+		(s1w6 and)
+		(s1w8 get)
+		(s1w7 she)
+		(s1w10 get)
+		(s1w9 403)
+		(s1w11 well)
+		(s1w12 card)
+		(s1w16 country)
+		(s1w13 from)
+		(s1w14 around)
+		(s1w15 the)
+	)
+
+	(LF1
+		(head n1 s1w5)
+		(nsubj n1 n5)
+		(head n5 s1w1)
+		(cop n1 s1w2)
+		(case n1 s1w3)
+		(det n1 s1w4)
+		(cj_op j1 and)
+		(conj n1 s1w8)
+		(nsubj n1 s1w7)
+		(verb n1 s1w10)
+		(nsubj n1 s1w9)
+		(advmod n1 s1w11)
+		(nmod_npmod n1 n6)
+		(head n6 s1w12)
+		(nmod n1 n7)
+		(head n7 s1w16)
+		(case n7 s1w13)
+		(case n7 s1w14)
+		(det n7 s1w15)
+	)
+
+	(LF2
+		(= (quan q1 # s1w5) 403)(verb q1 s1w10)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w6 get)
+		(s2w3 get)
+		(s2w1 when)
+		(s2w2 she)
+		(s2w4 home)
+		(s2w5 she)
+		(s2w9 card)
+		(s2w7 287)
+		(s2w8 more)
+		(s2w11 friend)
+		(s2w10 from)
+		(s2w12 and)
+		(s2w13 family)
+	)
+
+	(LF1
+		(verb v1 s2w6)
+		(advcl v1 s2w3)
+		(advmod v1 s2w1)
+		(nsubj v1 s2w2)
+		(dobj v1 n8)
+		(head n8 s2w4)
+		(nsubj v1 s2w5)
+		(dobj v1 n2)
+		(head n2 s2w9)
+		(nummod n2 s2w7)
+		(advmod n2 s2w8)
+		(nmod v1 n10)
+		(head n10 s2w11)
+		(case n10 s2w10)
+		(cj_op j2 and)
+		(conj n10 n3)
+		(head n3 s2w13)
+	)
+
+	(LF2
+		(= (quan q2 # s2w9) 287)(verb q2 s2w6)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w3 get)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w6 do)
+		(s3w5 card)
+		(s3w4 well)
+		(s3w7 Mariela)
+		(s3w8 get)
+	)
+
+	(LF1
+		(verb v2 s3w3)
+		(dep v2 s3w2)
+		(advmod v2 s3w1)
+		(ccomp v2 s3w6)
+		(nsubj v2 n12)
+		(head n12 s3w5)
+		(advmod n12 s3w4)
+		(nsubj v2 n13)
+		(head n13 s3w7)
+		(dep v2 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 # s1w5) (quan q2 # s2w9)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>
