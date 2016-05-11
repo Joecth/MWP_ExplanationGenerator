@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>162(pencil/pencil)</CHUNK>
+          <CHUNK>OP_CommonDiv</CHUNK>
+            <CHUNK>648pencil</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>4pencil</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_147'>
+    162(pencil/pencil)
+    CommonDiv
+    <math ID='NULL'>
+      648pencil
+    </math>
+    <math ID='NULL'>
+      4pencil
+    </math>
+  </math>
+  <ctx ID='ctx_144'>
+    <__one_line_xml_ASK__ANS>162</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_143'>
+      ( CLUE::Input ( ASK ANS ( CommonDiv ( quan q1 # s1w4 ) ( quan q2 # s2w5 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_147'>
+      ( CLUE::Util ( CommonDiv 648 4 = 162 ) )
+      ( CLUE::Util ( Val1 ( m_real 648 ) ( m_fact ( quan q1 # s1w4 ) ( 648 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 4 ) ( m_fact ( quan q2 # s1w4 ) ( 4 ) ) ) )
+      <ctx ID='ctx_58'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w4 ) 648 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w4 ) 648 ) )
+        ( CLUE::Create-Fact ( quan q1 # s1w4 ) ( 648 ) )
+        <ctx ID='ctx_57'>
+          ( CLUE::Input ( = ( quan q1 # s1w4 ) 648 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_128'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w4 ) 4 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w4 ) 4 ) )
+        ( CLUE::Create-Fact ( quan q2 # s1w4 ) ( 4 ) )
+        <ctx ID='ctx_127'>
+          ( CLUE::Input ( = ( quan q2 # s2w5 ) 4 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

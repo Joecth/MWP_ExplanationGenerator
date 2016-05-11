@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>300</CHUNK>
+          <CHUNK>OP_Multiplication</CHUNK>
+            <CHUNK>5hour</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>60mph</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_185'>
+    300
+    Multiplication
+    <math ID='NULL'>
+      5hour
+    </math>
+    <math ID='NULL'>
+      60mph
+    </math>
+  </math>
+  <ctx ID='ctx_182'>
+    <__one_line_xml_ASK__ANS>300</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_181'>
+      ( CLUE::Input ( ASK ANS ( Multiplication ( quan q2 # s3w10 ) ( quan q1 # s2w8 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_185'>
+      ( CLUE::Util ( Multiplication 5 60 = 300 ) )
+      ( CLUE::Util ( Val1 ( m_real 5 ) ( m_fact ( quan q2 # s3w10 ) ( 5 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 60 ) ( m_fact ( quan q1 # s2w8 ) ( 60 ) ) ) )
+      <ctx ID='ctx_144'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s3w10 ) 5 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s3w10 ) 5 ) )
+        ( CLUE::Create-Fact ( quan q2 # s3w10 ) ( 5 ) )
+        <ctx ID='ctx_143'>
+          ( CLUE::Input ( = ( quan q2 # s3w10 ) 5 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_100'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 # s2w8 ) 60 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 # s2w8 ) 60 ) )
+        ( CLUE::Create-Fact ( quan q1 # s2w8 ) ( 60 ) )
+        <ctx ID='ctx_99'>
+          ( CLUE::Input ( = ( quan q1 # s2w8 ) 60 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>
