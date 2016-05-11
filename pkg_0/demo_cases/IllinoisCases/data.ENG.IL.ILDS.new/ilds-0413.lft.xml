@@ -1,0 +1,93 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 lake)
+		(s1w2 boat)
+		(s1w1 5)
+		(s1w3 be)
+		(s1w4 in)
+		(s1w5 the)
+	)
+
+	(LF1
+		(head n5 s1w6)
+		(nsubj n5 n1)
+		(head n1 s1w2)
+		(nummod n1 s1w1)
+		(verb n5 s1w3)
+		(case n5 s1w4)
+		(det n5 s1w5)
+	)
+
+	(LF2
+		(= (quan q1 # s1w2) 5)(verb q1 s1w3)(role q1 nsubj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 have)
+		(s2w2 boat)
+		(s2w1 each)
+		(s2w5 people)
+		(s2w4 3)
+	)
+
+	(LF1
+		(verb v1 s2w3)
+		(nsubj v1 n2)
+		(head n2 s2w2)
+		(det n2 s2w1)
+		(dobj v1 n3)
+		(head n3 s2w5)
+		(nummod n3 s2w4)
+	)
+
+	(LF2
+		(= (quan q2 # s2w2) 1)(verb q2 s2w3)(role q2 nsubj)
+		(= (quan q3 # s2w5) 3)(verb q3 s2w3)(role q3 dobj)
+		(q_map m1 q2 q3)(verb m1 s2w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 be)
+		(s3w3 people)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w6 boat)
+		(s3w5 on)
+		(s3w9 lake)
+		(s3w7 in)
+		(s3w8 the)
+	)
+
+	(LF1
+		(verb v2 s3w4)
+		(nsubj v2 n4)
+		(head n4 s3w3)
+		(amod n4 s3w2)
+		(advmod n4 s3w1)
+		(nmod v2 n10)
+		(head n10 s3w6)
+		(case n10 s3w5)
+		(nmod n10 n11)
+		(head n11 s3w9)
+		(case n11 s3w7)
+		(det n11 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Multiplication (quan q1 # s1w2) (Get (u_map ?m # s1w2 # s2w5) (COND (verb ?m s2w3)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

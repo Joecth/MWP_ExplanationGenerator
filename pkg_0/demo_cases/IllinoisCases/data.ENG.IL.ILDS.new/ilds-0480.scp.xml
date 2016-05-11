@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Iesha(1)},dobj={book(4):nummod={344(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Iesha(1,NNP): {Iesha}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">344(3,CD): {344}</Word>
+		<Word idx="4">book(4,NNS): {books}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{school(4):nsubj={136(1)},cop={be(2)},case={about(3)},cc={and(5)},conj={sport(10):nsubj={rest(7):det={the(6)}},cop={be(8)},case={about(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">136(1,CD): {136}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">about(3,IN): {about}</Word>
+		<Word idx="4">school(4,NN): {school}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">rest(7,NN): {rest}</Word>
+		<Word idx="8">be(8,VBP): {are}</Word>
+		<Word idx="9">about(9,IN): {about}</Word>
+		<Word idx="10">sport(10,NNS): {sports}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(8):dobj={book(3):amod={many(2):advmod={how(1)}},nmod={sport(5):case={about(4)}}},aux={do(6)},nsubj={[x1]Iesha(7)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">book(3,NNS): {books}</Word>
+		<Word idx="4">about(4,IN): {about}</Word>
+		<Word idx="5">sport(5,NNS): {sports}</Word>
+		<Word idx="6">do(6,VBZ): {does}</Word>
+		<Word idx="7">Iesha(7,NNP): {Iesha}</Word>
+		<Word idx="8">have(8,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

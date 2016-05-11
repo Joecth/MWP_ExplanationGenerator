@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Bryan(1)},dobj={skittle(4):nummod={50(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Bryan(1,NNP): {Bryan}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">50(3,CD): {50}</Word>
+		<Word idx="4">skittle(4,NNS): {skittles}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Ben(1)},dobj={[x1]m&m(4):nummod={[x1]20(3)},case={'s(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Ben(1,NNP): {Ben}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">20(3,CD): {20}</Word>
+		<Word idx="4">m&m(4,NN): {M&M}</Word>
+		<Word idx="5">'s(5,POS): {'s}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={who(1)},dobj={more(3)}}</SemRep>
+	<WordList>
+		<Word idx="1">who(1,WP): {Who}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">more(3,JJR): {more}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dep={more(3):dep={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]he(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">more(3,JJR): {more}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">he(5,PRP): {he}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

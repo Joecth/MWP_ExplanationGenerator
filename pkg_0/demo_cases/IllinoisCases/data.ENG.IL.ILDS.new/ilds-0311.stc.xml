@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(4):nsubj={[x1]teacher(3):nmod_poss={[x1]Shelby(1):case={'s(2)}}},compound_prt={out(5)},dobj={star(7):compound={gold(6)},nmod={work(11):case={for(8)},amod={great(9)},compound={math(10)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Shelby(1,NNP): {Shelby}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">teacher(3,NN): {teacher}</Word>
+		<Word idx="4">give(4,VBZ): {gives}</Word>
+		<Word idx="5">out(5,RP): {out}</Word>
+		<Word idx="6">gold(6,NN): {gold}</Word>
+		<Word idx="7">star(7,NNS): {stars}</Word>
+		<Word idx="8">for(8,IN): {for}</Word>
+		<Word idx="9">great(9,JJ): {great}</Word>
+		<Word idx="10">math(10,NN): {math}</Word>
+		<Word idx="11">work(11,NN): {work}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{earn(4):nmod_tmod={yesterday(1)},nsubj={[x1]Shelby(3)},dobj={star(7):nummod={4(5)},compound={gold(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">yesterday(1,NN): {Yesterday}</Word>
+		<Word idx="2">Shelby(3,NNP): {Shelby}</Word>
+		<Word idx="3">earn(4,VBD): {earned}</Word>
+		<Word idx="4">4(5,CD): {4}</Word>
+		<Word idx="5">gold(6,NN): {gold}</Word>
+		<Word idx="6">star(7,NNS): {stars}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{earn(4):nmod_tmod={today(1)},nsubj={[x1]she(3)},dobj={3(5):advmod={more(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">today(1,NN): {Today}</Word>
+		<Word idx="2">she(3,PRP): {she}</Word>
+		<Word idx="3">earn(4,VBD): {earned}</Word>
+		<Word idx="4">3(5,CD): {3}</Word>
+		<Word idx="5">more(6,JJR): {more}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{earn(7):dobj={gold(3):amod={many(2):advmod={how(1)}},dep={star(4)}},aux={do(5)},nsubj={[x1]Shelby(6)},nmod={all(9):case={in(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">gold(3,NN): {gold}</Word>
+		<Word idx="4">star(4,NNS): {stars}</Word>
+		<Word idx="5">do(5,VBD): {did}</Word>
+		<Word idx="6">Shelby(6,NNP): {Shelby}</Word>
+		<Word idx="7">earn(7,VB): {earn}</Word>
+		<Word idx="8">in(8,IN): {in}</Word>
+		<Word idx="9">all(9,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

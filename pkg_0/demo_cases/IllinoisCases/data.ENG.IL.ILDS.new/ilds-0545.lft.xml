@@ -1,0 +1,93 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 old)
+		(s1w1 Cody)
+		(s1w2 be)
+		(s1w4 year)
+		(s1w3 14)
+	)
+
+	(LF1
+		(HEAD x1 s1w5)
+		(nsubj x1 n3)
+		(head n3 s1w1)
+		(verb x1 s1w2)
+		(nmod_npmod x1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 14)(verb q1 s1w2)(role q1 nmod_npmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w7 old)
+		(s2w2 grandmother)
+		(s2w1 he)
+		(s2w3 be)
+		(s2w5 time)
+		(s2w4 6)
+		(s2w6 as)
+		(s2w10 be)
+		(s2w8 as)
+		(s2w9 he)
+	)
+
+	(LF1
+		(HEAD x2 s2w7)
+		(nsubj x2 n5)
+		(head n5 s2w2)
+		(nmod_poss n5 s2w1)
+		(verb x2 s2w3)
+		(advmod x2 n2)
+		(head n2 s2w5)
+		(nummod n2 s2w4)
+		(case n2 s2w6)
+		(advcl x2 s2w10)
+		(mark x2 s2w8)
+		(nsubj x2 s2w9)
+	)
+
+	(LF2
+		(= (quan q2 # s2w5) 6)(verb q2 s2w3)(role q2 advmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w3 be)
+		(s3w2 old)
+		(s3w1 how)
+		(s3w6 grandmother)
+		(s3w4 Cody)
+		(s3w5 's)
+	)
+
+	(LF1
+		(HEAD v1 s3w3)
+		(dep v1 s3w2)
+		(advmod v1 s3w1)
+		(nsubj v1 n7)
+		(head n7 s3w6)
+		(nmod_poss n7 n8)
+		(head n8 s3w4)
+		(case n8 s3w5)
+	)
+
+	(LF2
+		
+(ASK ANS (Multiplication (quan q2 # s2w5) (quan q1 # s1w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

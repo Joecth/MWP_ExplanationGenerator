@@ -1,0 +1,60 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 cost)
+		(s1w2 banana)
+		(s1w1 each)
+		(s1w5 5.00)
+		(s1w4 USD)
+	)
+
+	(LF1
+		(verb v1 s1w3)
+		(nsubj v1 n1)
+		(head n1 s1w2)
+		(det n1 s1w1)
+		(dobj v1 s1w5)
+		(dep v1 n2)
+		(head n2 s1w4)
+	)
+
+	(LF2
+		(= (quan q1 # s1w2) 1)(verb q1 s1w3)(role q1 nsubj)(= (attrib price q1 # s1w4) 5.00)
+		(= (quan q2 # s1w4) 5.00)(verb q2 s1w3)(role q2 dep)
+		(q_map m1 q1 q2)(verb m1 s1w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w6 cost)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w3 do)
+		(s2w5 banana)
+		(s2w4 4)
+	)
+
+	(LF1
+		(verb v2 s2w6)
+		(dep v2 s2w2)
+		(advmod v2 s2w1)
+		(aux v2 s2w3)
+		(nsubj v2 n3)
+		(head n3 s2w5)
+		(nummod n3 s2w4)
+	)
+
+	(LF2
+		(= (quan q4 # s2w5) 4)(verb q4 s2w6)(role q4 nsubj)
+
+(ASK ANS (Multiplication (quan q4 # s2w5) (Get (u_map ?m # s2w5 # s1w4) (COND (verb ?m s1w3)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

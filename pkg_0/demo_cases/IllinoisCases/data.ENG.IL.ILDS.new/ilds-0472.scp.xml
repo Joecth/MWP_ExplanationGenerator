@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x2]I(1)},dobj={[x1]pencil(4):nummod={648(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">I(1,PRP): {I}</Word>
+		<Word idx="2">have(2,VBP): {have}</Word>
+		<Word idx="3">648(3,CD): {648}</Word>
+		<Word idx="4">pencil(4,NNS): {pencils}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{fill(17):advcl={put(3):mark={if(1)},nsubj={I(2)},dobj={[x1]pencil(5):nummod={4(4)},nmod={box(9):case={in(6)},det={each(7)},compound={pencil(8)}}}},dobj={pencil(13):amod={many(12):advmod={how(11)}},dep={box(14)}},aux={will(15)},nsubj={[x2]I(16)}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">I(2,PRP): {I}</Word>
+		<Word idx="3">put(3,VBP): {put}</Word>
+		<Word idx="4">4(4,CD): {4}</Word>
+		<Word idx="5">pencil(5,NNS): {pencils}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">each(7,DT): {each}</Word>
+		<Word idx="8">pencil(8,NN): {pencil}</Word>
+		<Word idx="9">box(9,NN): {box}</Word>
+		<Word idx="10">how(11,WRB): {how}</Word>
+		<Word idx="11">many(12,JJ): {many}</Word>
+		<Word idx="12">pencil(13,NN): {pencil}</Word>
+		<Word idx="13">box(14,NNS): {boxes}</Word>
+		<Word idx="14">will(15,MD): {will}</Word>
+		<Word idx="15">I(16,PRP): {I}</Word>
+		<Word idx="16">fill(17,VB): {fill}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

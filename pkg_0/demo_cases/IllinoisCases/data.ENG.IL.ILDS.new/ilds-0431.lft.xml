@@ -1,0 +1,56 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s1w5 piece)
+		(s1w2 much)
+		(s1w1 how)
+		(s1w3 would)
+		(s1w4 136)
+		(s1w9 cost)
+		(s1w6 of)
+		(s1w7 bubble)
+		(s1w8 gum)
+		(s1w13 cost)
+		(s1w10 if)
+		(s1w12 piece)
+		(s1w11 each)
+		(s1w15 cent)
+		(s1w14 18)
+	)
+
+	(LF1
+		(head n1 s1w5)
+		(dep n1 s1w2)
+		(advmod n1 s1w1)
+		(aux n1 s1w3)
+		(nsubj n1 s1w4)
+		(nmod n1 n5)
+		(head n5 s1w9)
+		(case n5 s1w6)
+		(compound n5 n6)
+		(head n6 s1w7)
+		(compound n5 n7)
+		(head n7 s1w8)
+		(verb n1 s1w13)
+		(mark n1 s1w10)
+		(nsubj n1 n2)
+		(head n2 s1w12)
+		(det n2 s1w11)
+		(dobj n1 n3)
+		(head n3 s1w15)
+		(nummod n3 s1w14)
+	)
+
+	(LF2
+		(= (quan q2 # s1w5) 136)(verb q2 s1w13)
+(= (quan q3 # s1w12) 1)(verb q3 s1w13)(role q3 nsubj)
+(= (quan q4 # s1w15) 18)(verb q4 s1w13)(role q4 dobj)
+
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

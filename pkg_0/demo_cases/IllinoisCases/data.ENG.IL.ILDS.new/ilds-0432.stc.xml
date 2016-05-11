@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{put(11):nmod={play(5):case={for(1)},det={the(2)},amod={fifth(3)},compound={grade(4)}},nsubjpass={chair(8):det={the(7)}},aux={have(9)},auxpass={be(10)},nmod={row(14):case={into(12)},nummod={27(13)},nmod={chair(17):case={with(15)},nummod={16(16)},nmod={row(20):case={in(18)},det={each(19)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">for(1,IN): {For}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">fifth(3,JJ): {fifth}</Word>
+		<Word idx="4">grade(4,NN): {grade}</Word>
+		<Word idx="5">play(5,NN): {play}</Word>
+		<Word idx="6">the(7,DT): {the}</Word>
+		<Word idx="7">chair(8,NNS): {chairs}</Word>
+		<Word idx="8">have(9,VBP): {have}</Word>
+		<Word idx="9">be(10,VBN): {been}</Word>
+		<Word idx="10">put(11,VBN): {put}</Word>
+		<Word idx="11">into(12,IN): {into}</Word>
+		<Word idx="12">27(13,CD): {27}</Word>
+		<Word idx="13">row(14,NNS): {rows}</Word>
+		<Word idx="14">with(15,IN): {with}</Word>
+		<Word idx="15">16(16,CD): {16}</Word>
+		<Word idx="16">chair(17,NNS): {chairs}</Word>
+		<Word idx="17">in(18,IN): {in}</Word>
+		<Word idx="18">each(19,DT): {each}</Word>
+		<Word idx="19">row(20,NN): {row}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{put(6):nsubjpass={chair(3):amod={many(2):advmod={how(1)}}},aux={have(4)},auxpass={be(5)},compound_prt={out(7)},nmod={play(10):case={for(8)},det={the(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">chair(3,NNS): {chairs}</Word>
+		<Word idx="4">have(4,VBP): {have}</Word>
+		<Word idx="5">be(5,VBN): {been}</Word>
+		<Word idx="6">put(6,VBN): {put}</Word>
+		<Word idx="7">out(7,RP): {out}</Word>
+		<Word idx="8">for(8,IN): {for}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">play(10,NN): {play}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{go(2):nsubj={you(1)},compound_prt={out(3)},nmod={walk(7):case={for(4)},det={a(5)},amod={long(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">you(1,PRP): {You}</Word>
+		<Word idx="2">go(2,VBP): {go}</Word>
+		<Word idx="3">out(3,RP): {out}</Word>
+		<Word idx="4">for(4,IN): {for}</Word>
+		<Word idx="5">a(5,DT): {a}</Word>
+		<Word idx="6">long(6,JJ): {long}</Word>
+		<Word idx="7">walk(7,NN): {walk}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(2):nsubj={you(1)},dobj={mile(4):nummod={0.75(3)}},cc={and(5)},conj={sit(7):advmod={then(6)},compound_prt={down(8)},xcomp={take(10):mark={to(9)},dobj={rest(12):det={a(11)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">you(1,PRP): {You}</Word>
+		<Word idx="2">walk(2,VBP): {walk}</Word>
+		<Word idx="3">0.75(3,CD): {0.75}</Word>
+		<Word idx="4">mile(4,NN): {mile}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">then(6,RB): {then}</Word>
+		<Word idx="7">sit(7,VB): {sit}</Word>
+		<Word idx="8">down(8,RP): {down}</Word>
+		<Word idx="9">to(9,TO): {to}</Word>
+		<Word idx="10">take(10,VB): {take}</Word>
+		<Word idx="11">a(11,DT): {a}</Word>
+		<Word idx="12">rest(12,NN): {rest}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(3):advmod={then(1)},nsubj={[x1]you(2)},dobj={0.25(4):nmod={mile(7):case={of(5)},det={a(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">then(1,RB): {Then}</Word>
+		<Word idx="2">you(2,PRP): {you}</Word>
+		<Word idx="3">walk(3,VBP): {walk}</Word>
+		<Word idx="4">0.25(4,CD): {0.25}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">mile(7,NN): {mile}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{walk(5):advmod={far(2):advmod={how(1)}},aux={do(3)},nsubj={[x1]you(4)},advmod={altogether(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">far(2,RB): {far}</Word>
+		<Word idx="3">do(3,VBD): {did}</Word>
+		<Word idx="4">you(4,PRP): {you}</Word>
+		<Word idx="5">walk(5,VBP): {walk}</Word>
+		<Word idx="6">altogether(6,RB): {altogether}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

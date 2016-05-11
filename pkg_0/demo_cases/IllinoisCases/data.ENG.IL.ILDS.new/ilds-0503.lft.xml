@@ -1,0 +1,93 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Lucy)
+		(s1w4 aquarium)
+		(s1w3 a)
+		(s1w7 fish)
+		(s1w5 with)
+		(s1w6 212)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n5)
+		(head n5 s1w4)
+		(det n5 s1w3)
+		(nmod n5 n1)
+		(head n1 s1w7)
+		(case n1 s1w5)
+		(nummod n1 s1w6)
+	)
+
+	(LF2
+		(= (quan q1 # s1w7) 212)(verb q1 s1w2)(role q1 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 want)
+		(s2w1 she)
+		(s2w4 buy)
+		(s2w3 to)
+		(s2w7 fish)
+		(s2w5 68)
+		(s2w6 more)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 s2w1)
+		(verb v2 s2w4)
+		(mark v2 s2w3)
+		(dobj v2 n2)
+		(head n2 s2w7)
+		(nummod n2 s2w5)
+		(amod n2 s2w6)
+	)
+
+	(LF2
+		(= (quan q2 # s2w7) 68)(verb q2 s2w4)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 have)
+		(s3w3 fish)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 would)
+		(s3w5 Lucy)
+		(s3w7 then)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dobj v3 n3)
+		(head n3 s3w3)
+		(amod n3 s3w2)
+		(advmod n3 s3w1)
+		(aux v3 s3w4)
+		(nsubj v3 n9)
+		(head n9 s3w5)
+		(advmod v3 s3w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 # s1w7) (quan q2 # s2w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

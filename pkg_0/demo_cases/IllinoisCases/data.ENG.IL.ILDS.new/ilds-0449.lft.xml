@@ -1,0 +1,113 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 write)
+		(s1w1 Julian)
+		(s1w2 be)
+		(s1w6 book)
+		(s1w4 a)
+		(s1w5 comic)
+	)
+
+	(LF1
+		(HEAD v1 s1w3)
+		(nsubj v1 n5)
+		(head n5 s1w1)
+		(aux v1 s1w2)
+		(dobj v1 n6)
+		(head n6 s1w6)
+		(det n6 s1w4)
+		(amod n6 s1w5)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 have)
+		(s2w2 story)
+		(s2w1 he)
+		(s2w5 frame)
+		(s2w4 143)
+		(s2w7 all)
+		(s2w6 in)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n7)
+		(head n7 s2w2)
+		(nmod_poss n7 s2w1)
+		(dobj v2 n1)
+		(head n1 s2w5)
+		(nummod n1 s2w4)
+		(nmod n1 s2w7)
+		(case n1 s2w6)
+	)
+
+	(LF2
+		(= (quan q1 # s2w5) 143)(verb q1 s2w3)(role q1 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w17 have)
+		(s3w3 want)
+		(s3w1 if)
+		(s3w2 he)
+		(s3w5 put)
+		(s3w4 to)
+		(s3w8 frame)
+		(s3w6 exactly)
+		(s3w7 11)
+		(s3w9 on)
+		(s3w11 page)
+		(s3w10 each)
+		(s3w14 page)
+		(s3w13 many)
+		(s3w12 how)
+		(s3w15 would)
+		(s3w16 he)
+	)
+
+	(LF1
+		(verb v3 s3w17)
+		(advcl v3 s3w3)
+		(mark v3 s3w1)
+		(nsubj v3 s3w2)
+		(verb v3 s3w5)
+		(mark v3 s3w4)
+		(nmod v3 n2)
+		(head n2 s3w8)
+		(advmod n2 s3w6)
+		(nummod n2 s3w7)
+		(case n2 s3w9)
+		(dep n2 n3)
+		(head n3 s3w11)
+		(det n3 s3w10)
+		(dobj v3 n4)
+		(head n4 s3w14)
+		(amod n4 s3w13)
+		(advmod n4 s3w12)
+		(aux v3 s3w15)
+		(nsubj v3 s3w16)
+	)
+
+	(LF2
+		(= (quan q2 # s3w8) 11)(verb q2 s3w5)(role q2 nmod)
+(= (quan q3 # s3w11) 1)(verb q3 s3w5)(role q3 dep)
+
+(ASK ANS (CommonDiv (quan q1 # s2w5) (quan q2 # s3w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

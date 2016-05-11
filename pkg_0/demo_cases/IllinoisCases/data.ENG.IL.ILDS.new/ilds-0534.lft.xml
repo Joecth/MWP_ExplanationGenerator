@@ -1,0 +1,134 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 go)
+		(s1w2 student)
+		(s1w1 256)
+		(s1w3 be)
+		(s1w7 zoo)
+		(s1w5 to)
+		(s1w6 the)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubj v1 n1)
+		(head n1 s1w2)
+		(nummod n1 s1w1)
+		(aux v1 s1w3)
+		(nmod v1 n8)
+		(head n8 s1w7)
+		(case n8 s1w5)
+		(det n8 s1w6)
+	)
+
+	(LF2
+		(= (quan q1 # s1w2) 256)(verb q1 s1w4)(role q1 nsubj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 have)
+		(s2w1 they)
+		(s2w5 divide)
+		(s2w3 to)
+		(s2w4 be)
+		(s2w7 group)
+		(s2w6 into)
+		(s2w12 have)
+		(s2w8 so)
+		(s2w9 that)
+		(s2w11 teacher)
+		(s2w10 each)
+		(s2w14 group)
+		(s2w13 one)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 s2w1)
+		(xcomp v2 s2w5)
+		(mark v2 s2w3)
+		(auxpass v2 s2w4)
+		(nmod v2 n9)
+		(head n9 s2w7)
+		(case n9 s2w6)
+		(verb v2 s2w12)
+		(mark v2 s2w8)
+		(mwe v2 s2w9)
+		(nsubj v2 n2)
+		(head n2 s2w11)
+		(det n2 s2w10)
+		(dobj v2 n3)
+		(head n3 s2w14)
+		(nummod n3 s2w13)
+	)
+
+	(LF2
+		(= (quan q2 # s2w11) 1)(verb q2 s2w12)(role q2 nsubj)
+		(= (quan q3 # s2w14) 1)(verb q3 s2w12)(role q3 dobj)
+		(q_map m1 q2 q3)(verb m1 s2w12)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 be)
+		(s3w1 there)
+		(s3w4 teacher)
+		(s3w3 8)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(expl v3 s3w1)
+		(nsubj v3 n4)
+		(head n4 s3w4)
+		(nummod n4 s3w3)
+	)
+
+	(LF2
+		(= (quan q4 # s3w4) 8)(verb q4 s3w2)(role q4 nsubj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w8 group)
+		(s4w3 student)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 will)
+		(s4w5 be)
+		(s4w6 in)
+		(s4w7 each)
+	)
+
+	(LF1
+		(head n6 s4w8)
+		(nsubj n6 n5)
+		(head n5 s4w3)
+		(amod n5 s4w2)
+		(advmod n5 s4w1)
+		(aux n6 s4w4)
+		(verb n6 s4w5)
+		(case n6 s4w6)
+		(det n6 s4w7)
+	)
+
+	(LF2
+		(= (quan q6 # s4w8) 1)(verb q6 s4w5)
+
+(ASK ANS (CommonDiv (quan q1 # s1w2) (quan q4 # s3w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

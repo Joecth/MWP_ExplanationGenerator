@@ -1,0 +1,107 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w7 be)
+		(s1w5 house)
+		(s1w1 at)
+		(s1w3 Hilt)
+		(s1w2 Mrs.)
+		(s1w4 's)
+		(s1w6 there)
+		(s1w9 inch)
+		(s1w8 29)
+		(s1w11 snow)
+		(s1w10 of)
+		(s1w12 and)
+		(s1w16 receive)
+		(s1w15 School)
+		(s1w13 Brecknock)
+		(s1w14 Elementary)
+		(s1w18 inch)
+		(s1w17 17)
+		(s1w20 snow)
+		(s1w19 of)
+	)
+
+	(LF1
+		(verb v1 s1w7)
+		(nmod v1 n3)
+		(head n3 s1w5)
+		(case n3 s1w1)
+		(nmod_poss n3 n4)
+		(head n4 s1w3)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(case n4 s1w4)
+		(expl v1 s1w6)
+		(nsubj v1 n6)
+		(head n6 s1w9)
+		(nummod n6 s1w8)
+		(nmod n6 n1)
+		(head n1 s1w11)
+		(case n1 s1w10)
+		(cj_op j1 and)
+		(verb v1 s1w16)
+		(nsubj v1 n8)
+		(head n8 s1w15)
+		(compound n8 n9)
+		(head n9 s1w13)
+		(compound n8 n10)
+		(head n10 s1w14)
+		(dobj v1 n11)
+		(head n11 s1w18)
+		(nummod n11 s1w17)
+		(nmod n11 n2)
+		(head n2 s1w20)
+		(case n2 s1w19)
+	)
+
+	(LF2
+		(= (quan q1 s1w9 s1w11) 29)(verb q1 s1w7)(role q1 nmod)
+		(= (quan q2 s1w9 s1w20) 17)(verb q2 s1w16)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w10 have)
+		(s2w4 snow)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w3 more)
+		(s2w5 do)
+		(s2w9 house)
+		(s2w7 Hilt)
+		(s2w6 Mrs.)
+		(s2w8 's)
+	)
+
+	(LF1
+		(verb v2 s2w10)
+		(dobj v2 n13)
+		(head n13 s2w4)
+		(dep n13 s2w2)
+		(advmod n13 s2w1)
+		(amod n13 s2w3)
+		(aux v2 s2w5)
+		(nsubj v2 n14)
+		(head n14 s2w9)
+		(nmod_poss n14 n15)
+		(head n15 s2w7)
+		(compound n15 n16)
+		(head n16 s2w6)
+		(case n15 s2w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 s1w9 s1w11) (quan q2 s1w9 s1w20)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

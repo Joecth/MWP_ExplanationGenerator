@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{hold(4):nsubj={rack(3):det={each(1)},compound={CD(2)}},dobj={cd(6):nummod={8(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">each(1,DT): {Each}</Word>
+		<Word idx="2">CD(2,NNP): {CD}</Word>
+		<Word idx="3">rack(3,NN): {rack}</Word>
+		<Word idx="4">hold(4,VBZ): {holds}</Word>
+		<Word idx="5">8(5,CD): {8}</Word>
+		<Word idx="6">cd(6,NNS): {CDs}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{hold(4):nsubj={[x1]shelf(2):det={a(1)}},aux={can(3)},dobj={[x1]rack(6):nummod={4(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">shelf(2,NN): {shelf}</Word>
+		<Word idx="3">can(3,MD): {can}</Word>
+		<Word idx="4">hold(4,VB): {hold}</Word>
+		<Word idx="5">4(5,CD): {4}</Word>
+		<Word idx="6">rack(6,NNS): {racks}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{fit(6):nsubj={cd(4):amod={many(2):advmod={how(1)}},amod={total(3)}},aux={can(5)},nmod={[x1]shelf(9):case={on(7)},det={the(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">total(3,JJ): {total}</Word>
+		<Word idx="4">cd(4,NNS): {CDs}</Word>
+		<Word idx="5">can(5,MD): {can}</Word>
+		<Word idx="6">fit(6,VB): {fit}</Word>
+		<Word idx="7">on(7,IN): {on}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">shelf(9,NN): {shelf}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

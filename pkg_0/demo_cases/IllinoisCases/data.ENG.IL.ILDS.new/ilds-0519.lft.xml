@@ -1,0 +1,94 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 weigh)
+		(s1w2 box)
+		(s1w1 a)
+		(s1w4 book)
+		(s1w3 of)
+		(s1w7 pound)
+		(s1w6 42)
+	)
+
+	(LF1
+		(verb v1 s1w5)
+		(nsubj v1 n5)
+		(head n5 s1w2)
+		(det n5 s1w1)
+		(nmod n5 n6)
+		(head n6 s1w4)
+		(case n6 s1w3)
+		(dobj v1 n1)
+		(head n1 s1w7)
+		(nummod n1 s1w6)
+	)
+
+	(LF2
+		(= (quan q1 # s1w7) 42)(verb q1 s1w5)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 weigh)
+		(s2w2 book)
+		(s2w1 each)
+		(s2w5 pound)
+		(s2w4 3)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(nsubj v2 n2)
+		(head n2 s2w2)
+		(det n2 s2w1)
+		(dobj v2 n3)
+		(head n3 s2w5)
+		(nummod n3 s2w4)
+	)
+
+	(LF2
+		(= (quan q2 # s2w2) 1)(verb q2 s2w3)(role q2 nsubj)
+		(= (quan q3 # s2w5) 3)(verb q3 s2w3)(role q3 dobj)
+		(q_map m1 q2 q3)(verb m1 s2w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 be)
+		(s3w3 book)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 there)
+		(s3w8 box)
+		(s3w6 in)
+		(s3w7 the)
+	)
+
+	(LF1
+		(verb v3 s3w4)
+		(nsubj v3 n4)
+		(head n4 s3w3)
+		(amod n4 s3w2)
+		(advmod n4 s3w1)
+		(expl v3 s3w5)
+		(nmod v3 n11)
+		(head n11 s3w8)
+		(case n11 s3w6)
+		(det n11 s3w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (CommonDiv (quan q1 # s1w7) (Get (u_map ?m # s3w3 # s1w7) (COND (verb ?m s2w3)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

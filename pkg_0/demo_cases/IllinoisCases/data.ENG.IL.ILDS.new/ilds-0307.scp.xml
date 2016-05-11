@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(3):nsubj={Hilt(2):compound={Mrs.(1)}},dobj={cent(5):nummod={15(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mrs.(1,NNP): {Mrs.}</Word>
+		<Word idx="2">Hilt(2,NNP): {Hilt}</Word>
+		<Word idx="3">have(3,VBD): {had}</Word>
+		<Word idx="4">15(4,CD): {15}</Word>
+		<Word idx="5">cent(5,NNS): {cents}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(2):nsubj={she(1)},dobj={pencil(4):det={a(3)}},nmod={cent(7):case={for(5)},nummod={11(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">buy(2,VBD): {bought}</Word>
+		<Word idx="3">a(3,DT): {a}</Word>
+		<Word idx="4">pencil(4,NN): {pencil}</Word>
+		<Word idx="5">for(5,IN): {for}</Word>
+		<Word idx="6">11(6,CD): {11}</Word>
+		<Word idx="7">cent(7,NNS): {cents}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(7):dobj={money(3):amod={much(2):advmod={how(1)}}},aux={do(4)},nsubj={she(5)},aux={have(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">money(3,NN): {money}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+		<Word idx="7">leave(7,VBN): {left}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

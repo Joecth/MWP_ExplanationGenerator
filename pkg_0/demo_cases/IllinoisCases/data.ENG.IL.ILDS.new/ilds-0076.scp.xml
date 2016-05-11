@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={cap(5):nummod={[x1]16(3)},compound={bottle(4)},nmod={box(8):case={in(6)},det={a(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">16(3,CD): {16}</Word>
+		<Word idx="4">bottle(4,NN): {bottle}</Word>
+		<Word idx="5">cap(5,NNS): {caps}</Word>
+		<Word idx="6">in(6,IN): {in}</Word>
+		<Word idx="7">a(7,DT): {a}</Word>
+		<Word idx="8">box(8,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={Marvin(1)},dobj={cap(5):nummod={[x1]6(3)},compound={bottle(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Marvin(1,NNP): {Marvin}</Word>
+		<Word idx="2">take(2,VBZ): {takes}</Word>
+		<Word idx="3">6(3,CD): {6}</Word>
+		<Word idx="4">bottle(4,NN): {bottle}</Word>
+		<Word idx="5">cap(5,NNS): {caps}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(4):dep={many(2):advmod={how(1)}},auxpass={be(3)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">be(3,VBP): {are}</Word>
+		<Word idx="4">leave(4,VBN): {left}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

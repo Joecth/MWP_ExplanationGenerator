@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{go(2):nsubj={[x1]Kathleen(1)},nmod={[x2]store(5):case={to(3)},det={the(4)},nmod_tmod={time(7):nummod={5(6)}}},nmod_tmod={[x3]month(9):amod={last(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Kathleen(1,NNP): {Kathleen}</Word>
+		<Word idx="2">go(2,VBD): {went}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">store(5,NN): {store}</Word>
+		<Word idx="6">5(6,CD): {5}</Word>
+		<Word idx="7">time(7,NNS): {times}</Word>
+		<Word idx="8">last(8,JJ): {last}</Word>
+		<Word idx="9">month(9,NN): {month}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{go(9):dep={buy(2):nsubj={[x1]she(1)},dobj={cap(5):nummod={5(3)},compound={bottle(4)}},nmod_tmod={time(7):det={each(6)}}},nsubj={[x1]she(8)},nmod={[x2]store(12):case={to(10)},det={the(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">buy(2,VBZ): {buys}</Word>
+		<Word idx="3">5(3,CD): {5}</Word>
+		<Word idx="4">bottle(4,NN): {bottle}</Word>
+		<Word idx="5">cap(5,NNS): {caps}</Word>
+		<Word idx="6">each(6,DT): {each}</Word>
+		<Word idx="7">time(7,NN): {time}</Word>
+		<Word idx="8">she(8,PRP): {she}</Word>
+		<Word idx="9">go(9,VBZ): {goes}</Word>
+		<Word idx="10">to(10,TO): {to}</Word>
+		<Word idx="11">the(11,DT): {the}</Word>
+		<Word idx="12">store(12,NN): {store}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(7):dobj={cap(4):amod={many(2):advmod={how(1)}},compound={bottle(3)}},aux={do(5)},nsubj={[x1]Kathleen(6)},nmod_tmod={[x3]month(9):amod={last(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">bottle(3,NN): {bottle}</Word>
+		<Word idx="4">cap(4,NNS): {caps}</Word>
+		<Word idx="5">do(5,VBD): {did}</Word>
+		<Word idx="6">Kathleen(6,NNP): {Kathleen}</Word>
+		<Word idx="7">buy(7,VB): {buy}</Word>
+		<Word idx="8">last(8,JJ): {last}</Word>
+		<Word idx="9">month(9,NN): {month}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

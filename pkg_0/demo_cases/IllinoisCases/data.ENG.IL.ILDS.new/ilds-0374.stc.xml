@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(9):nmod={day(4):case={on(1)},det={the(2)},amod={first(3)},nmod={[x2]week(7):case={of(5)},det={the(6)}}},nsubj={[x1]Pat(8)},dobj={sticker(11):nummod={39(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">on(1,IN): {On}</Word>
+		<Word idx="2">the(2,DT): {the}</Word>
+		<Word idx="3">first(3,JJ): {first}</Word>
+		<Word idx="4">day(4,NN): {day}</Word>
+		<Word idx="5">of(5,IN): {of}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">week(7,NN): {week}</Word>
+		<Word idx="8">Pat(8,NNP): {Pat}</Word>
+		<Word idx="9">have(9,VBD): {had}</Word>
+		<Word idx="10">39(10,CD): {39}</Word>
+		<Word idx="11">sticker(11,NNS): {stickers}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{earn(2):nsubj={[x1]Pat(1)},dobj={22(3):advmod={more(4)}},nmod={[x2]week(7):case={during(5)},det={the(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Pat(1,NNP): {Pat}</Word>
+		<Word idx="2">earn(2,VBD): {earned}</Word>
+		<Word idx="3">22(3,CD): {22}</Word>
+		<Word idx="4">more(4,JJR): {more}</Word>
+		<Word idx="5">during(5,IN): {during}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">week(7,NN): {week}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dobj={sticker(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Pat(5)},nmod={end(9):case={at(7)},det={the(8)},nmod={[x2]week(12):case={of(10)},det={the(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">sticker(3,NNS): {stickers}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Pat(5,NNP): {Pat}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+		<Word idx="7">at(7,IN): {at}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">end(9,NN): {end}</Word>
+		<Word idx="10">of(10,IN): {of}</Word>
+		<Word idx="11">the(11,DT): {the}</Word>
+		<Word idx="12">week(12,NN): {week}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

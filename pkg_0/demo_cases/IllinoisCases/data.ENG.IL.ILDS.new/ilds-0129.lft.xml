@@ -1,0 +1,74 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 have)
+		(s1w2 child)
+		(s1w1 each)
+		(s1w5 pencil)
+		(s1w4 6)
+	)
+
+	(LF1
+		(verb v1 s1w3)
+		(nsubj v1 n1)
+		(head n1 s1w2)
+		(det n1 s1w1)
+		(dobj v1 n2)
+		(head n2 s1w5)
+		(nummod n2 s1w4)
+	)
+
+	(LF2
+		(= (quan q1 # s1w2) 1)(verb q1 s1w3)(role q1 nsubj)
+		(= (quan q2 # s1w5) 6)(verb q2 s1w3)(role q2 dobj)
+		(q_map m1 q1 q2)(verb m1 s1w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w9 be)
+		(s2w3 be)
+		(s2w1 if)
+		(s2w2 there)
+		(s2w5 child)
+		(s2w4 2)
+		(s2w8 pencil)
+		(s2w7 many)
+		(s2w6 how)
+		(s2w10 there)
+		(s2w12 total)
+		(s2w11 in)
+	)
+
+	(LF1
+		(verb v2 s2w9)
+		(verb v2 s2w3)
+		(mark v2 s2w1)
+		(expl v2 s2w2)
+		(nsubj v2 n3)
+		(head n3 s2w5)
+		(nummod n3 s2w4)
+		(dobj v2 n4)
+		(head n4 s2w8)
+		(amod n4 s2w7)
+		(advmod n4 s2w6)
+		(expl v2 s2w10)
+		(nmod v2 n9)
+		(head n9 s2w12)
+		(case n9 s2w11)
+	)
+
+	(LF2
+		(= (quan q3 # s2w5) 2)(verb q3 s2w3)(role q3 nsubj)
+
+		(ASK ANS (Multiplication (quan q3 # s2w5) (Get (u_map ?m # s2w5 # s1w5) (COND (verb ?m s1w3)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

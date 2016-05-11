@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={[x2]hair(3):nmod_poss={[x1]Isabella(1):case={'s(2)}}},advmod={long(7):nmod_npmod={cube(6):nummod={18(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Isabella(1,NNP): {Isabella}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">hair(3,NN): {hair}</Word>
+		<Word idx="4">be(4,VBZ): {is}</Word>
+		<Word idx="5">18(5,CD): {18}</Word>
+		<Word idx="6">cube(6,NNS): {cubes}</Word>
+		<Word idx="7">long(7,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(13):advcl={grow(4):mark={if(1)},nsubj={[x2]hair(3):nmod_poss={[x1]she(2)}},dobj={inch(7):nummod={4(5)},amod={more(6)}}},dep={long(10):advmod={how(9)}},aux={will(11)},nsubj={[x2]it(12)}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">she(2,PRPS): {her}</Word>
+		<Word idx="3">hair(3,NN): {hair}</Word>
+		<Word idx="4">grow(4,VBZ): {grows}</Word>
+		<Word idx="5">4(5,CD): {4}</Word>
+		<Word idx="6">more(6,JJR): {more}</Word>
+		<Word idx="7">inch(7,NNS): {inches}</Word>
+		<Word idx="8">how(9,WRB): {how}</Word>
+		<Word idx="9">long(10,RB): {long}</Word>
+		<Word idx="10">will(11,MD): {will}</Word>
+		<Word idx="11">it(12,PRP): {it}</Word>
+		<Word idx="12">be(13,VB): {be}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

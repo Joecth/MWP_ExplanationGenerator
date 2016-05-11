@@ -1,0 +1,92 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 require)
+		(s1w3 recipe)
+		(s1w1 a)
+		(s1w2 cake)
+		(s1w6 cup)
+		(s1w5 0.6)
+		(s1w8 sugar)
+		(s1w7 of)
+		(s1w11 frosting)
+		(s1w9 for)
+		(s1w10 the)
+		(s1w12 and)
+		(s1w14 cup)
+		(s1w13 0.2)
+		(s1w16 sugar)
+		(s1w15 of)
+		(s1w19 cake)
+		(s1w17 for)
+		(s1w18 the)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubj v1 n4)
+		(head n4 s1w3)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(dobj v1 n6)
+		(head n6 s1w6)
+		(nummod n6 s1w5)
+		(nmod n6 n1)
+		(head n1 s1w8)
+		(case n1 s1w7)
+		(nmod n1 n8)
+		(head n8 s1w11)
+		(case n8 s1w9)
+		(det n8 s1w10)
+		(cj_op j1 and)
+		(conj n1 n9)
+		(head n9 s1w14)
+		(nummod n9 s1w13)
+		(nmod n9 n2)
+		(head n2 s1w16)
+		(case n2 s1w15)
+		(nmod n2 n11)
+		(head n11 s1w19)
+		(case n11 s1w17)
+		(det n11 s1w18)
+	)
+
+	(LF2
+		(= (quan q1 s1w6 s1w8) 0.6)(verb q1 s1w4)(role q1 nmod)
+		(= (quan q2 s1w6 s1w16) 0.2)(verb q2 s1w4)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w5 that)
+		(s2w3 sugar)
+		(s2w2 much)
+		(s2w1 how)
+		(s2w4 be)
+		(s2w6 altogether)
+	)
+
+	(LF1
+		(HEAD x2 s2w5)
+		(dobj x2 n3)
+		(head n3 s2w3)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(verb x2 s2w4)
+		(advmod x2 s2w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 s1w6 s1w8) (quan q2 s1w6 s1w16)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

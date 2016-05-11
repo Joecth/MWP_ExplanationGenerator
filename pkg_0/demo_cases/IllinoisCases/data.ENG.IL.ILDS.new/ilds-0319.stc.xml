@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={Linda(1)},dobj={candy(4):nummod={34(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Linda(1,NNP): {Linda}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">34(3,CD): {34}</Word>
+		<Word idx="4">candy(4,NNS): {candies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={Chloe(1)},dobj={28(3)}}</SemRep>
+	<WordList>
+		<Word idx="1">Chloe(1,NNP): {Chloe}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">28(3,CD): {28}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dobj={candy(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={they(5)},nmod={all(8):case={in(7)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">candy(3,NNS): {candies}</Word>
+		<Word idx="4">do(4,VBP): {do}</Word>
+		<Word idx="5">they(5,PRP): {they}</Word>
+		<Word idx="6">have(6,VBP): {have}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">all(8,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

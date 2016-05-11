@@ -1,0 +1,150 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w6 drive)
+		(s1w2 Hilt)
+		(s1w1 Mrs.)
+		(s1w3 and)
+		(s1w5 sister)
+		(s1w4 she)
+		(s1w9 concert)
+		(s1w7 to)
+		(s1w8 a)
+		(s1w12 away)
+		(s1w11 mile)
+		(s1w10 78)
+	)
+
+	(LF1
+		(verb v1 s1w6)
+		(nsubj v1 n5)
+		(head n5 s1w2)
+		(compound n5 n6)
+		(head n6 s1w1)
+		(cj_op j1 and)
+		(conj n5 n7)
+		(head n7 s1w5)
+		(nmod_poss n7 s1w4)
+		(nmod v1 n8)
+		(head n8 s1w9)
+		(case n8 s1w7)
+		(det n8 s1w8)
+		(advmod n8 s1w12)
+		(nmod_npmod n8 n1)
+		(head n1 s1w11)
+		(nummod n1 s1w10)
+	)
+
+	(LF2
+		(= (quan q1 # s1w11) 78)(verb q1 s1w6)(role q1 nmod_npmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 drive)
+		(s2w1 they)
+		(s2w4 mile)
+		(s2w3 32)
+		(s2w5 and)
+		(s2w7 stop)
+		(s2w6 then)
+		(s2w9 gas)
+		(s2w8 for)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n2)
+		(head n2 s2w4)
+		(nummod n2 s2w3)
+		(cj_op j2 and)
+		(conj v2 s2w7)
+		(advmod v2 s2w6)
+		(nmod v2 n11)
+		(head n11 s2w9)
+		(case n11 s2w8)
+	)
+
+	(LF2
+		(= (quan q2 # s2w4) 32)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 put)
+		(s3w2 sister)
+		(s3w1 she)
+		(s3w5 gallon)
+		(s3w4 28)
+		(s3w7 gas)
+		(s3w6 of)
+		(s3w10 car)
+		(s3w8 in)
+		(s3w9 the)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(nsubj v3 n12)
+		(head n12 s3w2)
+		(nmod_poss n12 s3w1)
+		(dobj v3 n13)
+		(head n13 s3w5)
+		(nummod n13 s3w4)
+		(nmod n13 n3)
+		(head n3 s3w7)
+		(case n3 s3w6)
+		(nmod v3 n15)
+		(head n15 s3w10)
+		(case n15 s3w8)
+		(det n15 s3w9)
+	)
+
+	(LF2
+		(= (quan q3 s3w5 s3w7) 28)(verb q3 s3w3)(role q3 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w7 leave)
+		(s4w3 mile)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 do)
+		(s4w5 they)
+		(s4w6 have)
+		(s4w9 drive)
+		(s4w8 to)
+	)
+
+	(LF1
+		(verb v4 s4w7)
+		(dobj v4 n4)
+		(head n4 s4w3)
+		(amod n4 s4w2)
+		(advmod n4 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 s4w5)
+		(aux v4 s4w6)
+		(xcomp v4 s4w9)
+		(mark v4 s4w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 # s1w11) (quan q2 # s2w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

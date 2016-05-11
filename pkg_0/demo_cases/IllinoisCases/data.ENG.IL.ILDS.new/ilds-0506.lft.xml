@@ -1,0 +1,167 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 have)
+		(s1w2 Hound)
+		(s1w1 Harry)
+		(s1w7 yesterday)
+		(s1w4 a)
+		(s1w5 terrible)
+		(s1w6 earache)
+	)
+
+	(LF1
+		(HEAD v1 s1w3)
+		(nsubj v1 n4)
+		(head n4 s1w2)
+		(compound n4 n5)
+		(head n5 s1w1)
+		(nmod_tmod v1 n6)
+		(head n6 s1w7)
+		(det n6 s1w4)
+		(amod n6 s1w5)
+		(compound n6 n7)
+		(head n7 s1w6)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w9 find)
+		(s2w3 peer)
+		(s2w1 when)
+		(s2w2 I)
+		(s2w6 ear)
+		(s2w4 into)
+		(s2w5 he)
+		(s2w7 yesterday)
+		(s2w8 I)
+		(s2w12 flea)
+		(s2w10 36)
+		(s2w11 frisky)
+		(s2w13 have)
+		(s2w24 sleep)
+		(s2w15 party)
+		(s2w14 a)
+		(s2w19 ear)
+		(s2w16 in)
+		(s2w17 he)
+		(s2w18 right)
+		(s2w20 and)
+		(s2w23 flea)
+		(s2w21 85)
+		(s2w22 baby)
+		(s2w25 peacefully)
+		(s2w29 ear)
+		(s2w26 in)
+		(s2w27 he)
+		(s2w28 left)
+	)
+
+	(LF1
+		(verb v2 s2w9)
+		(advcl v2 s2w3)
+		(advmod v2 s2w1)
+		(nsubj v2 s2w2)
+		(nmod v2 n8)
+		(head n8 s2w6)
+		(case n8 s2w4)
+		(nmod_poss n8 s2w5)
+		(nmod_tmod v2 n9)
+		(head n9 s2w7)
+		(nsubj v2 s2w8)
+		(dobj v2 n1)
+		(head n1 s2w12)
+		(nummod n1 s2w10)
+		(amod n1 s2w11)
+		(xcomp v2 s2w13)
+		(verb v2 s2w24)
+		(nsubj v2 n11)
+		(head n11 s2w15)
+		(det n11 s2w14)
+		(nmod n11 n12)
+		(head n12 s2w19)
+		(case n12 s2w16)
+		(nmod_poss n12 s2w17)
+		(amod n12 s2w18)
+		(cj_op j1 and)
+		(conj n12 n2)
+		(head n2 s2w23)
+		(nummod n2 s2w21)
+		(compound n2 n14)
+		(head n14 s2w22)
+		(advmod v2 s2w25)
+		(nmod v2 n15)
+		(head n15 s2w29)
+		(case n15 s2w26)
+		(nmod_poss n15 s2w27)
+		(amod n15 s2w28)
+	)
+
+	(LF2
+		(= (quan q1 # s2w12) 36)(verb q1 s2w9)(role q1 dobj)
+		(= (quan q2 # s2w23) 85)(verb q2 s2w24)(role q2 conj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 clean)
+		(s3w1 I)
+		(s3w3 out)
+		(s3w7 ear)
+		(s3w5 Hound)
+		(s3w4 Harry)
+		(s3w6 's)
+	)
+
+	(LF1
+		(HEAD v3 s3w2)
+		(nsubj v3 s3w1)
+		(compound_prt v3 s3w3)
+		(dobj v3 n16)
+		(head n16 s3w7)
+		(nmod_poss n16 n17)
+		(head n17 s3w5)
+		(compound n17 n18)
+		(head n18 s3w4)
+		(case n17 s3w6)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w4 perish)
+		(s4w3 flea)
+		(s4w2 many)
+		(s4w1 how)
+	)
+
+	(LF1
+		(verb v4 s4w4)
+		(nsubj v4 n3)
+		(head n3 s4w3)
+		(amod n3 s4w2)
+		(advmod n3 s4w1)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 # s2w12) (quan q2 # s2w23)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

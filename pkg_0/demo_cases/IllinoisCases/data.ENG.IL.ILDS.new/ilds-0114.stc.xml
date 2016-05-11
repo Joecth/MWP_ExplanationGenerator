@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Jennifer(1)},dobj={card(4):nummod={72(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jennifer(1,NNP): {Jennifer}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">72(3,CD): {72}</Word>
+		<Word idx="4">card(4,NNS): {cards}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{eat(3):nsubjpass={[x1]61(1)},auxpass={be(2)},nmod={hippopotamus(6):case={by(4)},det={a(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">61(1,CD): {61}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">eat(3,VBN): {eaten}</Word>
+		<Word idx="4">by(4,IN): {by}</Word>
+		<Word idx="5">a(5,DT): {a}</Word>
+		<Word idx="6">hippopotamus(6,NN): {hippopotamus}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dobj={card(3):amod={many(2):advmod={how(1)}}},aux={will(4)},nsubj={[x1]Jennifer(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">card(3,NNS): {cards}</Word>
+		<Word idx="4">will(4,MD): {will}</Word>
+		<Word idx="5">Jennifer(5,NNP): {Jennifer}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

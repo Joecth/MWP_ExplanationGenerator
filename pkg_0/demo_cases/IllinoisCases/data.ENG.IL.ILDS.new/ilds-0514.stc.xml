@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{drive(2):nsubj={[x1]Tammy(1)},dobj={mile(4):nummod={55(3)}},nmod={hour(7):case={in(5)},nummod={one(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Tammy(1,NNP): {Tammy}</Word>
+		<Word idx="2">drive(2,VBD): {drove}</Word>
+		<Word idx="3">55(3,CD): {55}</Word>
+		<Word idx="4">mile(4,NNS): {miles}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">one(6,CD): {one}</Word>
+		<Word idx="7">hour(7,NN): {hour}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{drive(9):nmod={rate(3):case={at(1)},det={that(2)}},advmod={far(6):advmod={how(5)}},aux={can(7)},nsubj={[x1]she(8)},nmod={hour(12):case={in(10)},nummod={36(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">at(1,IN): {At}</Word>
+		<Word idx="2">that(2,DT): {that}</Word>
+		<Word idx="3">rate(3,NN): {rate}</Word>
+		<Word idx="4">how(5,WRB): {how}</Word>
+		<Word idx="5">far(6,RB): {far}</Word>
+		<Word idx="6">can(7,MD): {can}</Word>
+		<Word idx="7">she(8,PRP): {she}</Word>
+		<Word idx="8">drive(9,VB): {drive}</Word>
+		<Word idx="9">in(10,IN): {in}</Word>
+		<Word idx="10">36(11,CD): {36}</Word>
+		<Word idx="11">hour(12,NNS): {hours}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

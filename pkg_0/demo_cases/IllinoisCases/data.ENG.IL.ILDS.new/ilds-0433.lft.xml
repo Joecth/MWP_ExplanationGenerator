@@ -1,0 +1,112 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w7 have)
+		(s1w3 wheel)
+		(s1w1 the)
+		(s1w2 Ferris)
+		(s1w6 Park)
+		(s1w4 in)
+		(s1w5 Paradise)
+		(s1w9 seat)
+		(s1w8 14)
+	)
+
+	(LF1
+		(verb v1 s1w7)
+		(nsubj v1 n5)
+		(head n5 s1w3)
+		(det n5 s1w1)
+		(compound n5 n6)
+		(head n6 s1w2)
+		(nmod n5 n7)
+		(head n7 s1w6)
+		(case n7 s1w4)
+		(compound n7 n8)
+		(head n8 s1w5)
+		(dobj v1 n1)
+		(head n1 s1w9)
+		(nummod n1 s1w8)
+	)
+
+	(LF2
+		(= (quan q1 # s1w9) 14)(verb q1 s1w7)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 hold)
+		(s2w2 seat)
+		(s2w1 each)
+		(s2w3 can)
+		(s2w6 people)
+		(s2w5 6)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(nsubj v2 n2)
+		(head n2 s2w2)
+		(det n2 s2w1)
+		(aux v2 s2w3)
+		(dobj v2 n3)
+		(head n3 s2w6)
+		(nummod n3 s2w5)
+	)
+
+	(LF2
+		(= (quan q2 # s2w2) 1)(verb q2 s2w4)(role q2 nsubj)
+		(= (quan q3 # s2w6) 6)(verb q3 s2w4)(role q3 dobj)
+		(q_map m1 q2 q3)(verb m1 s2w4)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w5 ride)
+		(s3w3 people)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w4 can)
+		(s3w8 wheel)
+		(s3w6 the)
+		(s3w7 Ferris)
+		(s3w12 time)
+		(s3w9 at)
+		(s3w10 the)
+		(s3w11 same)
+	)
+
+	(LF1
+		(verb v3 s3w5)
+		(nsubj v3 n4)
+		(head n4 s3w3)
+		(amod n4 s3w2)
+		(advmod n4 s3w1)
+		(aux v3 s3w4)
+		(dobj v3 n13)
+		(head n13 s3w8)
+		(det n13 s3w6)
+		(compound n13 n14)
+		(head n14 s3w7)
+		(nmod v3 n15)
+		(head n15 s3w12)
+		(case n15 s3w9)
+		(det n15 s3w10)
+		(amod n15 s3w11)
+	)
+
+	(LF2
+		
+		(ASK ANS (Multiplication (quan q1 # s1w9) (Get (u_map ?m # s1w9 # s2w6) (COND (verb ?m s2w4)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

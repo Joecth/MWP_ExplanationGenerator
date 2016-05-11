@@ -1,0 +1,96 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 want)
+		(s1w1 Brenda)
+		(s1w4 split)
+		(s1w3 to)
+		(s1w6 collection)
+		(s1w5 a)
+		(s1w8 eraser)
+		(s1w7 of)
+		(s1w10 group)
+		(s1w9 into)
+		(s1w12 90)
+		(s1w11 of)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(verb v1 s1w4)
+		(mark v1 s1w3)
+		(dobj v1 n5)
+		(head n5 s1w6)
+		(det n5 s1w5)
+		(nmod n5 n6)
+		(head n6 s1w8)
+		(case n6 s1w7)
+		(nmod v1 n1)
+		(head n1 s1w10)
+		(case n1 s1w9)
+		(nmod n1 s1w12)
+		(case n1 s1w11)
+	)
+
+	(LF2
+		(= (quan q1 # s1w10) 90)(verb q1 s1w4)(role q1 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 have)
+		(s2w1 Brenda)
+		(s2w4 eraser)
+		(s2w3 270)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 n8)
+		(head n8 s2w1)
+		(dobj v2 n2)
+		(head n2 s2w4)
+		(nummod n2 s2w3)
+	)
+
+	(LF2
+		(= (quan q2 # s2w4) 270)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w6 create)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w3 group)
+		(s3w4 will)
+		(s3w5 be)
+	)
+
+	(LF1
+		(verb v3 s3w6)
+		(dep v3 s3w2)
+		(advmod v3 s3w1)
+		(nsubjpass v3 n3)
+		(head n3 s3w3)
+		(aux v3 s3w4)
+		(auxpass v3 s3w5)
+	)
+
+	(LF2
+		
+(ASK ANS (CommonDiv (quan q2 # s2w4) (quan q1 # s1w10)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

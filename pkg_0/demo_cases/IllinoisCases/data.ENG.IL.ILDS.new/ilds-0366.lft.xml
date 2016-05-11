@@ -1,0 +1,86 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Bobby)
+		(s1w4 book)
+		(s1w3 142)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 142)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 have)
+		(s2w1 Kristi)
+		(s2w4 book)
+		(s2w3 78)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 n6)
+		(head n6 s2w1)
+		(dobj v2 n2)
+		(head n2 s2w4)
+		(nummod n2 s2w3)
+	)
+
+	(LF2
+		(= (quan q2 # s2w4) 78)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w7 have)
+		(s3w4 book)
+		(s3w3 more)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w5 do)
+		(s3w6 Bobby)
+		(s3w9 Kristi)
+		(s3w8 than)
+	)
+
+	(LF1
+		(verb v3 s3w7)
+		(dobj v3 n3)
+		(head n3 s3w4)
+		(amod n3 s3w3)
+		(dep n3 s3w2)
+		(advmod n3 s3w1)
+		(aux v3 s3w5)
+		(nsubj v3 n9)
+		(head n9 s3w6)
+		(nmod v3 n10)
+		(head n10 s3w9)
+		(case n10 s3w8)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 # s1w4) (quan q2 # s2w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

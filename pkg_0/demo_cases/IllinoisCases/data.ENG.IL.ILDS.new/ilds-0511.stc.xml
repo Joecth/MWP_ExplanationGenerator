@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={Albert(1)},dobj={snake(4):nummod={two(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Albert(1,NNP): {Albert}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">two(3,CD): {two}</Word>
+		<Word idx="4">snake(4,NNS): {snakes}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={[x1]snake(3):det={the(1)},compound={garden(2)}},advmod={long(7):nmod_npmod={inch(6):nummod={10(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">garden(2,NN): {garden}</Word>
+		<Word idx="3">snake(3,NN): {snake}</Word>
+		<Word idx="4">be(4,VBZ): {is}</Word>
+		<Word idx="5">10(5,CD): {10}</Word>
+		<Word idx="6">inch(6,NNS): {inches}</Word>
+		<Word idx="7">long(7,RB): {long}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{longer(7):nsubj={[x2]constrictor(3):det={the(1)},compound={boa(2)}},cop={be(4)},nmod_npmod={time(6):nummod={7(5)}},nmod={[x1]snake(11):case={than(8)},det={the(9)},compound={garden(10)}}}</SemRep>
+	<WordList>
+		<Word idx="1">the(1,DT): {The}</Word>
+		<Word idx="2">boa(2,NN): {boa}</Word>
+		<Word idx="3">constrictor(3,NN): {constrictor}</Word>
+		<Word idx="4">be(4,VBZ): {is}</Word>
+		<Word idx="5">7(5,CD): {7}</Word>
+		<Word idx="6">time(6,NNS): {times}</Word>
+		<Word idx="7">longer(7,JJR): {longer}</Word>
+		<Word idx="8">than(8,IN): {than}</Word>
+		<Word idx="9">the(9,DT): {the}</Word>
+		<Word idx="10">garden(10,NN): {garden}</Word>
+		<Word idx="11">snake(11,NN): {snake}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(3):dep={long(2):advmod={how(1)}},nsubj={[x2]constrictor(6):det={the(4)},compound={boa(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">long(2,JJ): {long}</Word>
+		<Word idx="3">be(3,VBZ): {is}</Word>
+		<Word idx="4">the(4,DT): {the}</Word>
+		<Word idx="5">boa(5,NN): {boa}</Word>
+		<Word idx="6">constrictor(6,NN): {constrictor}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

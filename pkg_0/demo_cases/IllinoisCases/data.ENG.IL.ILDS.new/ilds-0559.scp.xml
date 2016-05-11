@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(2):nsubj={Jane(1)},dobj={apple(4):det={a(3)},nmod={0.75(7):case={for(5)},dep={USD(6)}}},cc={and(8)},conj={pay(9):nmod={bill(14):case={with(10)},det={a(11)},dep={USD(12)},nummod={5.00(13)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jane(1,NNP): {Jane}</Word>
+		<Word idx="2">buy(2,VBZ): {buys}</Word>
+		<Word idx="3">a(3,DT): {an}</Word>
+		<Word idx="4">apple(4,NN): {apple}</Word>
+		<Word idx="5">for(5,IN): {for}</Word>
+		<Word idx="6">USD(6,USD): {USD}</Word>
+		<Word idx="7">0.75(7,CD): {0.75}</Word>
+		<Word idx="8">and(8,CC): {and}</Word>
+		<Word idx="9">pay(9,VBZ): {pays}</Word>
+		<Word idx="10">with(10,IN): {with}</Word>
+		<Word idx="11">a(11,DT): {a}</Word>
+		<Word idx="12">USD(12,USD): {USD}</Word>
+		<Word idx="13">5.00(13,CD): {5.00}</Word>
+		<Word idx="14">bill(14,NN): {bill}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(6):dobj={much(2):advmod={how(1)},dep={change(3)}},aux={will(4)},nsubj={she(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">change(3,NN): {change}</Word>
+		<Word idx="4">will(4,MD): {will}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">get(6,VB): {get}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

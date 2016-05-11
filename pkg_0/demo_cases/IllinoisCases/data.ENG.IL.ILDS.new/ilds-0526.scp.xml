@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(4):nsubj={car(3):nmod_poss={[x2]Bob(1):case={'s(2)}}},dobj={kilometer(6):nummod={[x1]10(5)},amod={gallon(8):dep={per(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Bob(1,NNP): {Bob}</Word>
+		<Word idx="2">'s(2,POS): {'s}</Word>
+		<Word idx="3">car(3,NN): {car}</Word>
+		<Word idx="4">get(4,VBZ): {gets}</Word>
+		<Word idx="5">10(5,CD): {10}</Word>
+		<Word idx="6">kilometer(6,NNS): {kilometers}</Word>
+		<Word idx="7">per(7,IN): {per}</Word>
+		<Word idx="8">gallon(8,NN): {gallon}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{drive(5):advmod={far(2):advmod={how(1)}},aux={can(3)},nsubj={[x2]he(4)},nmod={gallon(8):case={on(6)},nummod={[x1]10(7)},nmod={gas(10):case={of(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">far(2,RB): {far}</Word>
+		<Word idx="3">can(3,MD): {can}</Word>
+		<Word idx="4">he(4,PRP): {he}</Word>
+		<Word idx="5">drive(5,VB): {drive}</Word>
+		<Word idx="6">on(6,IN): {on}</Word>
+		<Word idx="7">10(7,CD): {10}</Word>
+		<Word idx="8">gallon(8,NNS): {gallons}</Word>
+		<Word idx="9">of(9,IN): {of}</Word>
+		<Word idx="10">gas(10,NN): {gas}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

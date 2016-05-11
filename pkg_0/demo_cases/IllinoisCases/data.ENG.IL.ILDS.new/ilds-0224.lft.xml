@@ -1,0 +1,98 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Willie)
+		(s1w4 banana)
+		(s1w3 48)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 48)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 have)
+		(s2w1 Charles)
+		(s2w4 banana)
+		(s2w3 14)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 n6)
+		(head n6 s2w1)
+		(dobj v2 n2)
+		(head n2 s2w4)
+		(nummod n2 s2w3)
+	)
+
+	(LF2
+		(= (quan q2 # s2w4) 14)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w2 lose)
+		(s3w1 he)
+		(s3w3 35)
+	)
+
+	(LF1
+		(verb v3 s3w2)
+		(nsubj v3 s3w1)
+		(dobj v3 s3w3)
+	)
+
+	(LF2
+		(= (quan q3 # s2w4) 35)(verb q3 s3w2)(role q3 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 have)
+		(s4w3 banana)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w4 will)
+		(s4w5 Willie)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(dobj v4 n3)
+		(head n3 s4w3)
+		(amod n3 s4w2)
+		(advmod n3 s4w1)
+		(aux v4 s4w4)
+		(nsubj v4 n9)
+		(head n9 s4w5)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 # s1w4) (quan q2 # s2w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

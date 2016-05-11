@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={[x1]it(1)},dobj={minute(4):nummod={7(3)}},advcl={bake(6):mark={to(5)},dobj={pan(8):nummod={one(7)},nmod={[x2]cookie(10):case={of(9)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">it(1,PRP): {It}</Word>
+		<Word idx="2">take(2,VBZ): {takes}</Word>
+		<Word idx="3">7(3,CD): {7}</Word>
+		<Word idx="4">minute(4,NNS): {minutes}</Word>
+		<Word idx="5">to(5,TO): {to}</Word>
+		<Word idx="6">bake(6,VB): {bake}</Word>
+		<Word idx="7">one(7,CD): {one}</Word>
+		<Word idx="8">pan(8,NN): {pan}</Word>
+		<Word idx="9">of(9,IN): {of}</Word>
+		<Word idx="10">cookie(10,NNS): {cookies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(5):dep={long(2):advmod={how(1)}},aux={will(3)},nsubj={[x1]it(4)},xcomp={bake(7):mark={to(6)},dobj={pan(9):nummod={4(8)},nmod={[x2]cookie(11):case={of(10)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">long(2,RB): {long}</Word>
+		<Word idx="3">will(3,MD): {will}</Word>
+		<Word idx="4">it(4,PRP): {it}</Word>
+		<Word idx="5">take(5,VB): {take}</Word>
+		<Word idx="6">to(6,TO): {to}</Word>
+		<Word idx="7">bake(7,VB): {bake}</Word>
+		<Word idx="8">4(8,CD): {4}</Word>
+		<Word idx="9">pan(9,NNS): {pans}</Word>
+		<Word idx="10">of(10,IN): {of}</Word>
+		<Word idx="11">cookie(11,NNS): {cookies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

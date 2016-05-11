@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{fly(2):nsubj={[x1]Beka(1)},dobj={mile(4):nummod={873(3)}},advcl={visit(6):mark={to(5)},dobj={aunt(8):nmod_poss={[x1]she(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Beka(1,NNP): {Beka}</Word>
+		<Word idx="2">fly(2,VBD): {flew}</Word>
+		<Word idx="3">873(3,CD): {873}</Word>
+		<Word idx="4">mile(4,NNS): {miles}</Word>
+		<Word idx="5">to(5,TO): {to}</Word>
+		<Word idx="6">visit(6,VB): {visit}</Word>
+		<Word idx="7">she(7,PRPS): {her}</Word>
+		<Word idx="8">aunt(8,NN): {aunt}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{fly(2):nsubj={[x2]Jackson(1)},dobj={mile(4):nummod={563(3)}},advcl={visit(6):mark={to(5)},dobj={aunt(8):nmod_poss={[x2]he(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jackson(1,NNP): {Jackson}</Word>
+		<Word idx="2">fly(2,VBD): {flew}</Word>
+		<Word idx="3">563(3,CD): {563}</Word>
+		<Word idx="4">mile(4,NNS): {miles}</Word>
+		<Word idx="5">to(5,TO): {to}</Word>
+		<Word idx="6">visit(6,VB): {visit}</Word>
+		<Word idx="7">he(7,PRPS): {his}</Word>
+		<Word idx="8">aunt(8,NN): {aunt}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{fly(7):dobj={mile(4):amod={more(3):dep={many(2):advmod={how(1)}}}},aux={do(5)},nsubj={[x1]Beka(6)},nmod={[x2]Jackson(9):case={than(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">more(3,JJR): {more}</Word>
+		<Word idx="4">mile(4,NNS): {miles}</Word>
+		<Word idx="5">do(5,VBD): {did}</Word>
+		<Word idx="6">Beka(6,NNP): {Beka}</Word>
+		<Word idx="7">fly(7,VB): {fly}</Word>
+		<Word idx="8">than(8,IN): {than}</Word>
+		<Word idx="9">Jackson(9,NNP): {Jackson}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>
