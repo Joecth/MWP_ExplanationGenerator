@@ -1,20 +1,14 @@
 Traceback (most recent call last):
-  File "__init__.py", line 680, in <module>
-    (tense, modal, verb_bakup, how_pos, conj_pos) = stc_obj.get_info()
-  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/stc_analyzer.py", line 68, in get_info
+  File "__init__.py", line 739, in <module>
+    (tense, voice, modal, verb_st, how_pos, conj_pos, is_compare_q) = stc_obj.get_info() # verb_st : verb from stc file
+  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/stc_analyzer.py", line 179, in get_info
     assert(0)
 AssertionError
 Traceback (most recent call last):
-  File "__init__.py", line 680, in <module>
-    (tense, modal, verb_bakup, how_pos, conj_pos) = stc_obj.get_info()
-  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/stc_analyzer.py", line 68, in get_info
+  File "__init__.py", line 839, in <module>
+    explanation = answer_as_a_sentense(voice, explanation, subject, verb)
+  File "__init__.py", line 453, in answer_as_a_sentense
     assert(0)
-AssertionError
-Traceback (most recent call last):
-  File "__init__.py", line 706, in <module>
-    (lft_info_dict, pos_verb) = lft_obj.get_info()
-  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/logicform_analyzer.py", line 92, in get_info
-    assert("nsubjpass" in self.__LF1_dict) ## not sure LFT's all cases, thus set here for debuggint
 AssertionError
 
 ====================	start of case : ilds-0500	====================
@@ -30,7 +24,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 				 5__OP_CommonDiv
 					 6__17 chapters
 					 7__1 book
-Check the STC file
+Explanation : 
+ Ans: 
+	We got 17 chapters with every 1 book
+
+	Thus,  Mrs. Hilt  read	17 chapters * 4 books = 68.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0500	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -48,7 +46,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__144 bees
 Explanation : 
  Ans: 
-She  seed	3 times  144 bees  就是   3 * 144 = 432.
+She  saw	144 bees * 3 times = 432.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0501	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -64,7 +62,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Multiplication
 			 3__4 times
 			 4__30 feet
-Check the STC file
+Explanation : 
+ Ans: 
+Mrs. Hilt  will walk	30 feet * 4 times = 120.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0502	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -82,7 +82,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__68 fishes
 Explanation : 
  Ans: 
-Lucys  have	212 fishes + 68 fishes = 280 fishes.
+Lucy  would have	212 fishes + 68 fishes = 280 fishes.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0503	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -100,7 +100,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__212 fishes
 Explanation : 
  Ans: 
-She  has	280 fishes - 212 fishes = 68 fishes.
+She  needs to buyhave	280 fishes - 212 fishes = 68 fishes more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0504	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -134,9 +134,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__36 fleas
 			 4__85 fleas
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-How many flea  perished	36 fleas + 85 fleas = 121 fleas.
+	36 fleas + 85 fleas = 121 fleas.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0506	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -154,7 +155,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__327 bags
 Explanation : 
  Ans: 
-There are 	600 bags - 327 bags = 273 bags.
+There are	600 bags - 327 bags = 273 bags more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0507	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -172,7 +173,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__532 peoples
 Explanation : 
  Ans: 
-There are 	750 seats - 532 peoples = 218 seats.
+There are	750 seats - 532 peoples = 218 seats.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0508	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -193,9 +194,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 7__1 bag
 Explanation : 
  Ans: 
-	1 bagcontain23 poundoranges就是23 ÷ 1 = 23 poundoranges
+	We got 23 poundoranges with every 1 bag
 
-	Thus,  There are 	45 bags  23 poundoranges  就是   45 * 23 = 1035 pounds.
+	Thus,  There are	23 poundoranges * 45 bags = 1035 pounds.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0509	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -209,6 +210,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 0__ROOT
 Case has no Answer from IE! Check case!
 
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: .
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0510	^^^^^^^^^^^^^^^^^^^^
@@ -246,9 +248,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 7__1 row
 Explanation : 
  Ans: 
-	1 rowbe15 heads就是15 ÷ 1 = 15 heads
+	We got 15 heads with every 1 row
 
-	Thus,  Albert  has	12 rows  15 heads  就是   12 * 15 = 180.
+	Thus,  Albert  has	15 heads * 12 rows = 180.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0512	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -264,7 +266,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Multiplication
 			 3__31 hours
 			 4__12 miles
-Error! no Tense! Check case!
+No state found! : ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0513.stc.xml
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0513	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -283,7 +285,13 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 				 5__OP_CommonDiv
 					 6__55 miles
 					 7__1 hour
-Error! no Tense! Check case!
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+	We got 55 miles with every 1 hour
+
+	Thus,  She  can drive	55 miles * 36 hours = 1980.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0514	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -304,9 +312,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 7__1 pie
 Explanation : 
  Ans: 
-	1 pietake4 apples就是4 ÷ 1 = 4 apples
+	We got 4 apples with every 1 pie
 
-	Thus,  It  makes	504 pies  4 apples  就是   504 * 4 = 2016.
+	Thus,  It  takes to make	4 apples * 504 pies = 2016.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0515	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -322,7 +330,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_CommonDiv
 			 3__24 cookies
 			 4__6 peoples
-Error! no Tense! Check case!
+
+No Verb!
+
+Explanation : 
+ Ans: 
+Each person  would get	24 cookies/6 peoples = 4 cookies.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0516	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -338,7 +351,15 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_CommonDiv
 			 3__120 pages
 			 4__10 days
-Error! no Tense! Check case!
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
+
+No Verb!
+
+Explanation : 
+ Ans: 
+	120 pages/10 days = 12 pages.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0517	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -374,9 +395,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 7__1 book
 Explanation : 
  Ans: 
-	1 bookweigh3 pounds就是3 ÷ 1 = 3 pounds
+	We got 3 pounds with every 1 book
 
-	Thus,  There are 	3 poundsweigh42 pounds就是42 ÷ 3 = 14.
+	Thus,  There are	42 pounds/3 pounds = 14.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0519	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -395,7 +416,17 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 				 5__OP_CommonDiv
 					 6__3 cookies
 					 7__1 bag
-Error! no Tense! Check case!
+
+No Verb!
+
+
+No Verb!
+
+Explanation : 
+ Ans: 
+	We got 3 cookies with every 1 bag
+
+	Thus,  She  could fill	75 cookies/3 cookies = 25.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0520	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -413,7 +444,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__8 hours
 Explanation : 
  Ans: 
-He  worked	4 days  8 hours  就是   4 * 8 = 32.
+He  worked	8 hours * 4 days = 32.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0521	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -431,7 +462,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__60 mphs
 Explanation : 
  Ans: 
-The campground from they home  was	5 hours  60 mphs  就是   5 * 60 = 300.
+The campground from their home was	60 mphs * 5 hours = 300.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0522	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -447,7 +478,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Multiplication
 			 3__8 hours
 			 4__55 miles
-Error! no Tense! Check case!
+Explanation : 
+ Ans: 
+He  would drive	55 miles * 8 hours = 440.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0523	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -463,7 +496,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Multiplication
 			 3__3 games
 			 4__21 points
-Error! no Tense! Check case!
+Explanation : 
+ Ans: 
+You  would have	21 points * 3 games = 63.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0524	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -481,7 +516,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__20 miles
 Explanation : 
  Ans: 
-He  traveled	3 gallongases  20 miles  就是   3 * 20 = 60.
+He  traveled	20 miles * 3 gallongases = 60.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0525	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -497,7 +532,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Multiplication
 			 3__10 gallongases
 			 4__10 kilometers
-Error! no Tense! Check case!
+Explanation : 
+ Ans: 
+He  can drive	10 kilometers * 10 gallongases = 100.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0526	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -518,9 +555,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 7__1 cup
 Explanation : 
  Ans: 
-	1 cupcontain8 ounces就是8 ÷ 1 = 8 ounces
+	We got 8 ounces with every 1 cup
 
-	Thus,  There are 	33 cups  8 ounces  就是   33 * 8 = 264.
+	Thus,  There are	8 ounces * 33 cups = 264.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0527	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -536,9 +573,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Multiplication
 			 3__23 recipes
 			 4__2 cupchocolates
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-	23 recipes  2 cupchocolates  就是   23 * 2 = 46 were needed.
+	2 cupchocolates * 23 recipes = 46.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0528	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -559,9 +597,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 7__1 year
 Explanation : 
  Ans: 
-	1 yeargain11 pounds就是11 ÷ 1 = 11 pounds
+	We got 11 pounds with every 1 year
 
-	Thus,  He  weighs	8 years  11 pounds  就是   8 * 11 = 88.
+	Thus,  He  weighs	11 pounds * 8 years = 88.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0529	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -577,7 +615,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Multiplication
 			 3__14 gallongases
 			 4__20 miles
-Error! no Tense! Check case!
+Explanation : 
+ Ans: 
+She  can drive	20 miles * 14 gallongases = 280.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0530	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -596,11 +636,14 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 				 5__OP_CommonDiv
 					 6__2 miles
 					 7__1 hour
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-	1 hourwalk2 miles就是2 ÷ 1 = 2 miles
+	We got 2 miles with every 1 hour
 
-	Thus,  I  will walk	8 hours  2 miles  就是   8 * 2 = 16.
+	Thus,  	2 miles * 8 hours = 16.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0531	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -621,9 +664,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 7__1 mile
 Explanation : 
  Ans: 
-	1 milewalk15 minutes就是15 ÷ 1 = 15 minutes
+	We got 15 minutes with every 1 mile
 
-	Thus,  It  taked	3 miles  15 minutes  就是   3 * 15 = 45.
+	Thus,  It  took	15 minutes * 3 miles = 45.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0532	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -647,9 +690,9 @@ No Verb!
 
 Explanation : 
  Ans: 
-	1 school247 students就是247 ÷ 1 = 247 students
+	We got 247 students with every 1 school
 
-	Thus,  There are 	25 schools  247 students  就是   25 * 247 = 6175.
+	Thus,  There are	247 students * 25 schools = 6175.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0533	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -670,7 +713,7 @@ No Verb!
 
 Explanation : 
  Ans: 
-There are 	8 teachers256 students就是256 ÷ 8 = 32 students.
+There will be	256 students/8 teachers = 32 students.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0534	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -691,7 +734,7 @@ No Verb!
 
 Explanation : 
  Ans: 
-They  used	1 box10 boxes就是10 ÷ 1 = 10 boxes.
+They  used	10 boxes/1 box = 10 boxes.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0535	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -707,7 +750,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_CommonDiv
 			 3__455 cards
 			 4__5 friends
-Error! no Tense! Check case!
+
+No Verb!
+
+Explanation : 
+ Ans: 
+Each  would get	455 cards/5 friends = 91 cards.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0536	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -725,7 +773,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__17 Legoses
 Explanation : 
  Ans: 
-She  has	2080 Legoses - 17 Legoses = 2063 Legoses.
+She  has	2080 Legoses - 17 Legoses = 2063 Legoses now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0537	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -743,7 +791,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__115 muffins
 Explanation : 
  Ans: 
-James  baked	12 times  115 muffins  就是   12 * 115 = 1380.
+James  baked	115 muffins * 12 times = 1380.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0538	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -774,6 +822,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_CommonDiv
 			 3__219 peoples
 			 4__3 buses
+No nsubj. Check case's nsubj!
+Active w/o Subject : ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0540.lft.xml
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0540	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -789,7 +839,14 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_CommonDiv
 			 3__224 cents
 			 4__8 cents
-Error! no Tense! Check case!
+Warning: Inconsistent of how's posistion. 
+
+
+No Verb!
+
+Explanation : 
+ Ans: 
+I  can buy	224 cents/8 cents = 28 cents.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0541	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -823,7 +880,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__1209 dolls
 			 4__2186 dolls
-Error! no Tense! Check case!
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+They  would have	1209 dolls + 2186 dolls = 3395 dolls.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0543	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -841,7 +902,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__287 cards
 Explanation : 
  Ans: 
-Mariela  geted	403 hospitals + 287 cards = 690 hospitals.
+Mariela  did to get	403 hospitals + 287 cards = 690 hospitals.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0544	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -859,7 +920,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__14 years
 Explanation : 
  Ans: 
-Cody 's grandmother  is	6 times  14 years  就是   6 * 14 = 84.
+Cody 's grandmother is	14 years * 6 times = 84.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0545	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -875,9 +936,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__156 goals
 			 4__187 goals
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-Jorge  scoreded	156 goals + 187 goals = 343 goals.
+	156 goals + 187 goals = 343 goals.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0546	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -893,9 +955,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__563 books
 			 4__147 pages
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-He  have/has leaved	563 books - 147 pages = 416 books.
+	563 books - 147 pages = 416 books.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0547	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -911,9 +974,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__219 rolls
 			 4__229 rolls
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-Karen Omar  rolleded	219 rolls + 229 rolls = 448 rolls.
+	219 rolls + 229 rolls = 448 rolls.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0548	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -931,7 +995,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__563 miles
 Explanation : 
  Ans: 
-Beka  flyed	873 miles - 563 miles = 310 miles.
+Beka  flyed	873 miles - 563 miles = 310 miles more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0549	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -947,9 +1011,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__679 miles
 			 4__998 miles
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-Julia Darius  droved	679 miles + 998 miles = 1677 miles.
+	679 miles + 998 miles = 1677 miles.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0550	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -965,9 +1030,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__900 pieces
 			 4__156 pieces
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-She  have/has leaved	900 pieces - 156 pieces = 744 pieces.
+	900 pieces - 156 pieces = 744 pieces.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0551	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -985,7 +1051,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__212.3 miles
 Explanation : 
  Ans: 
-She  had	372.0 miles - 212.3 miles = 159.7 miles.
+She  had traveled	372.0 miles - 212.3 miles = 159.7 miles.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0552	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1001,12 +1067,14 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_CommonDiv
 			 3__2436 fans
 			 4__3 sets
+Warning: Inconsistent of how's posistion. 
+
 
 No Verb!
 
 Explanation : 
  Ans: 
-	3 sets2436 fans就是2436 ÷ 3 = 812 fans were seated.
+	2436 fans/3 sets = 812 fans were set.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0553	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1024,7 +1092,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.2 cupsugars
 Explanation : 
  Ans: 
-There are 	0.6 cupsugars + 0.2 cupsugars = 0.8 cupsugars.
+There is	0.6 cupsugars + 0.2 cupsugars = 0.8 cupsugars.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0555	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1040,6 +1108,9 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__0.625 cakes
 			 4__0.25 cakes
+Explanation : 
+ Ans: 
+	0.625 cakes - 0.25 cakes = 0.375 cakes is left.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0556	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1055,9 +1126,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.75 miles
 			 4__0.25 miles
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-You  walked	0.75 miles + 0.25 miles = 1 mile.
+	0.75 miles + 0.25 miles = 1 mile.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0557	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1075,7 +1147,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.75 USDs
 Explanation : 
  Ans: 
-He  needs	2.50 USDs - 0.75 USDs = 1.75 USDs.
+He  needs	2.50 USDs - 0.75 USDs = 1.75 USDs more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0558	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1111,7 +1183,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.4 miles
 Explanation : 
  Ans: 
-John  walks	0.7 miles - 0.4 miles = 0.3 miles.
+John  walks	0.7 miles - 0.4 miles = 0.3 miles more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0560	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1135,9 +1207,9 @@ No Verb!
 
 Explanation : 
  Ans: 
-	1 day2.5 hours就是2.5 ÷ 1 = 2.5 hours
+	We got 2.5 hours with every 1 day
 
-	Thus,  He  worked	3 days  2.5 hours  就是   3 * 2.5 = 7.5.
+	Thus,  He  worked	2.5 hours * 3 days = 7.5.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0562	^^^^^^^^^^^^^^^^^^^^
 
 

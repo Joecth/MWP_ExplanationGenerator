@@ -1,12 +1,4 @@
 
-====================	start of case : .ilds-0127	====================
-python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_1/.ilds-0127.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_1/.ilds-0127.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_1/.ilds-0127.stc.xml
-./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_1/.ilds-0127.trace.xml  Warning!! This file does NOT exist! 
-^^^^^^^^^^^^^^^^^^^^	end of case : .ilds-0127	^^^^^^^^^^^^^^^^^^^^
-
-
-
-
 ====================	start of case : ilds-0100	====================
 python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_1/ilds-0100.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_1/ilds-0100.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_1/ilds-0100.stc.xml
 ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
@@ -1941,7 +1933,7 @@ No Verb!
 
 Explanation : 
  Ans: 
-Each classmate  geted	15 apples/3 peoples = 5 apples.
+Each classmate  got	15 apples/3 peoples = 5 apples.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0189	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1964,7 +1956,7 @@ No Verb!
 
 Explanation : 
  Ans: 
-Skittles  geted	25 skittles/5 peoples = 5 skittles.
+Skittles  got	25 skittles/5 peoples = 5 skittles.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0190	^^^^^^^^^^^^^^^^^^^^
 
 
