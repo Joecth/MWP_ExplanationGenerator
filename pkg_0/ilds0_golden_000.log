@@ -1,0 +1,1807 @@
+
+====================	start of case : ilds-0001	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0001.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0001.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0001.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 caps
+		 2__OP_Addition
+			 3__7 caps
+			 4__7 caps
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Bottle caps are	7 caps + 7 caps = 14 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0001	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0002	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0002.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0002.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0002.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__9 caps
+		 2__OP_Addition
+			 3__7 caps
+			 4__2 caps
+Explanation : 
+ Ans: 
+Jose  ends with	7 caps + 2 caps = 9 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0002	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0003	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0003.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0003.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0003.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__8 Skittleses
+		 2__OP_Addition
+			 3__4 Skittleses
+			 4__4 Skittleses
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Bridget  will have	4 Skittleses + 4 Skittleses = 8 Skittleses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0003	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0004	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0004.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0004.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0004.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 Skittleses
+		 2__OP_Addition
+			 3__7 Skittleses
+			 4__8 Skittleses
+Explanation : 
+ Ans: 
+Brenda  ends with	7 Skittleses + 8 Skittleses = 15 Skittleses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0004	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0005	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0005.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0005.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0005.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7 cards
+		 2__OP_Addition
+			 3__4 cards
+			 4__3 cards
+No nsubj. Check case's nsubj!
+Explanation : 
+ Ans: 
+There are total	4 cards + 3 cards = 7 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0005	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0006	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0006.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0006.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0006.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 marbles
+		 2__OP_Addition
+			 3__4 marbles
+			 4__7 marbles
+No nsubj. Check case's nsubj!
+Explanation : 
+ Ans: 
+There are total	4 marbles + 7 marbles = 11 marbles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0006	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0007	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0007.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0007.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0007.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__16 oranges
+		 2__OP_Addition
+			 3__8 oranges
+			 4__8 oranges
+No nsubj. Check case's nsubj!
+Explanation : 
+ Ans: 
+There are total	8 oranges + 8 oranges = 16 oranges.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0007	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0008	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0008.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0008.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0008.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7 peanuts
+		 2__OP_Addition
+			 3__2 peanuts
+			 4__5 peanuts
+Explanation : 
+ Ans: 
+Carol  has	2 peanuts + 5 peanuts = 7 peanuts.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0008	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0009	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0009.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0009.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0009.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__13 cards
+		 2__OP_Addition
+			 3__9 cards
+			 4__4 cards
+No nsubj. Check case's nsubj!
+Explanation : 
+ Ans: 
+There are total	9 cards + 4 cards = 13 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0009	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0010	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0010.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0010.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0010.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 caps
+		 2__OP_Addition
+			 3__7 caps
+			 4__7 caps
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Bottle caps are	7 caps + 7 caps = 14 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0010	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0011	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0011.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0011.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0011.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__8 blocks
+		 2__OP_Addition
+			 3__2 blocks
+			 4__6 blocks
+Explanation : 
+ Ans: 
+Bobby  has	2 blocks + 6 blocks = 8 blocks.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0011	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0012	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0012.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0012.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0012.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 erasers
+		 2__OP_Addition
+			 3__8 erasers
+			 4__3 erasers
+Explanation : 
+ Ans: 
+Peter  ends with	8 erasers + 3 erasers = 11 erasers.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0012	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0013	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0013.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0013.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0013.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__13 crayons
+		 2__OP_Addition
+			 3__7 crayons
+			 4__6 crayons
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Crayons are	7 crayons + 6 crayons = 13 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0013	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0014	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0014.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0014.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0014.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 crayons
+		 2__OP_Addition
+			 3__2 crayons
+			 4__2 crayons
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Michelle  will have	2 crayons + 2 crayons = 4 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0014	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0015	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0015.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0015.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0015.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 blocks
+		 2__OP_Addition
+			 3__6 blocks
+			 4__8 blocks
+Explanation : 
+ Ans: 
+Anna  has	6 blocks + 8 blocks = 14 blocks.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0015	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0016	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0016.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0016.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0016.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__9 oranges
+		 2__OP_Addition
+			 3__4 oranges
+			 4__5 oranges
+Explanation : 
+ Ans: 
+Donald  has	4 oranges + 5 oranges = 9 oranges.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0016	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0017	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0017.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0017.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0017.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 eggs
+		 2__OP_Addition
+			 3__7 eggs
+			 4__4 eggs
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+There are	7 eggs + 4 eggs = 11 eggs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0017	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0018	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0018.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0018.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0018.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 blocks
+		 2__OP_Addition
+			 3__9 blocks
+			 4__6 blocks
+Explanation : 
+ Ans: 
+Wayne  has	9 blocks + 6 blocks = 15 blocks.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0018	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0019	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0019.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0019.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0019.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__8 Skittleses
+		 2__OP_Addition
+			 3__4 Skittleses
+			 4__4 Skittleses
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Bridget  will have	4 Skittleses + 4 Skittleses = 8 Skittleses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0019	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0020	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0020.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0020.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0020.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 cards
+		 2__OP_Addition
+			 3__4 cards
+			 4__8 cards
+Explanation : 
+ Ans: 
+Ralph  has	4 cards + 8 cards = 12 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0020	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0021	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0021.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0021.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0021.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__79 cards
+		 2__OP_Addition
+			 3__3 cards
+			 4__76 cards
+Explanation : 
+ Ans: 
+Martha  ends with	3 cards + 76 cards = 79 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0021	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0022	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0022.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0022.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0022.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__95 blocks
+		 2__OP_Addition
+			 3__86 blocks
+			 4__9 blocks
+No nsubj. Check case's nsubj!
+Explanation : 
+ Ans: 
+There are total	86 blocks + 9 blocks = 95 blocks.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0022	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0023	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0023.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0023.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0023.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__97 Skittleses
+		 2__OP_Addition
+			 3__8 Skittleses
+			 4__89 Skittleses
+Explanation : 
+ Ans: 
+Cheryl  ends with	8 Skittleses + 89 Skittleses = 97 Skittleses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0023	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0024	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0024.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0024.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0024.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__85 erasers
+		 2__OP_Addition
+			 3__76 erasers
+			 4__9 erasers
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Erasers are	76 erasers + 9 erasers = 85 erasers.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0024	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0025	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0025.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0025.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0025.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__62 peanuts
+		 2__OP_Addition
+			 3__7 peanuts
+			 4__55 peanuts
+Explanation : 
+ Ans: 
+Amy  ends with	7 peanuts + 55 peanuts = 62 peanuts.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0025	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0026	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0026.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0026.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0026.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__54 bananas
+		 2__OP_Addition
+			 3__52 bananas
+			 4__2 bananas
+Explanation : 
+ Ans: 
+Teresa  ends with	52 bananas + 2 bananas = 54 bananas.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0026	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0027	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0027.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0027.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0027.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__101 pencils
+		 2__OP_Addition
+			 3__2 pencils
+			 4__99 pencils
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Gloria  will have	2 pencils + 99 pencils = 101 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0027	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0028	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0028.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0028.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0028.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__79 oranges
+		 2__OP_Addition
+			 3__77 oranges
+			 4__2 oranges
+Explanation : 
+ Ans: 
+Mildred  has	77 oranges + 2 oranges = 79 oranges.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0028	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0029	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0029.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0029.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0029.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__91 candies
+		 2__OP_Addition
+			 3__5 candies
+			 4__86 candies
+Explanation : 
+ Ans: 
+Anna  ends with	5 candies + 86 candies = 91 candies.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0029	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0030	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0030.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0030.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0030.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__28 peanuts
+		 2__OP_Addition
+			 3__2 peanuts
+			 4__26 peanuts
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Martha  will have	2 peanuts + 26 peanuts = 28 peanuts.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0030	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0031	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0031.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0031.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0031.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__54 cards
+		 2__OP_Addition
+			 3__7 cards
+			 4__47 cards
+Explanation : 
+ Ans: 
+Kevin  ends with	7 cards + 47 cards = 54 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0031	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0032	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0032.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0032.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0032.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__47 caps
+		 2__OP_Addition
+			 3__40 caps
+			 4__7 caps
+Explanation : 
+ Ans: 
+Joshua  has	40 caps + 7 caps = 47 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0032	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0033	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0033.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0033.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0033.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__93 caps
+		 2__OP_Addition
+			 3__8 caps
+			 4__85 caps
+Explanation : 
+ Ans: 
+Nicholas  ends with	8 caps + 85 caps = 93 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0033	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0034	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0034.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0034.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0034.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__31 eggs
+		 2__OP_Addition
+			 3__27 eggs
+			 4__4 eggs
+Explanation : 
+ Ans: 
+Mary  ends with	27 eggs + 4 eggs = 31 eggs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0034	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0035	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0035.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0035.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0035.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__106 eggs
+		 2__OP_Addition
+			 3__98 eggs
+			 4__8 eggs
+Explanation : 
+ Ans: 
+Shirley  ends with	98 eggs + 8 eggs = 106 eggs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0035	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0036	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0036.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0036.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0036.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 tickets
+		 2__OP_Addition
+			 3__15 tickets
+			 4__3 tickets
+Explanation : 
+ Ans: 
+William  ends with	15 tickets + 3 tickets = 18 tickets.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0036	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0037	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0037.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0037.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0037.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__84 apples
+		 2__OP_Addition
+			 3__79 apples
+			 4__5 apples
+Explanation : 
+ Ans: 
+Harry  ends with	79 apples + 5 apples = 84 apples.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0037	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0038	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0038.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0038.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0038.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__27 candies
+		 2__OP_Addition
+			 3__9 candies
+			 4__18 candies
+Explanation : 
+ Ans: 
+Barbara  has	9 candies + 18 candies = 27 candies.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0038	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0039	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0039.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0039.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0039.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__57 pencils
+		 2__OP_Addition
+			 3__51 pencils
+			 4__6 pencils
+Explanation : 
+ Ans: 
+Eugene  has	51 pencils + 6 pencils = 57 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0039	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0040	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0040.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0040.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0040.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__65 pencils
+		 2__OP_Addition
+			 3__9 pencils
+			 4__56 pencils
+Explanation : 
+ Ans: 
+Anthony  has	9 pencils + 56 pencils = 65 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0040	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0041	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0041.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0041.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0041.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__70 eggs
+		 2__OP_Addition
+			 3__8 eggs
+			 4__62 eggs
+Explanation : 
+ Ans: 
+Andrew  ends with	8 eggs + 62 eggs = 70 eggs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0041	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0042	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0042.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0042.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0042.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__40 crayons
+		 2__OP_Addition
+			 3__4 crayons
+			 4__36 crayons
+Explanation : 
+ Ans: 
+Annie  ends with	4 crayons + 36 crayons = 40 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0042	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0043	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0043.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0043.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0043.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 tickets
+		 2__OP_Addition
+			 3__11 tickets
+			 4__4 tickets
+Explanation : 
+ Ans: 
+Angela  has	11 tickets + 4 tickets = 15 tickets.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0043	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0044	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0044.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0044.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0044.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__43 apples
+		 2__OP_Addition
+			 3__4 apples
+			 4__39 apples
+Explanation : 
+ Ans: 
+Charles  has	4 apples + 39 apples = 43 apples.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0044	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0045	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0045.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0045.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0045.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__99 bananas
+		 2__OP_Addition
+			 3__91 bananas
+			 4__8 bananas
+Explanation : 
+ Ans: 
+Lisa  ends with	91 bananas + 8 bananas = 99 bananas.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0045	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0046	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0046.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0046.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0046.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__81 caps
+		 2__OP_Addition
+			 3__18 caps
+			 4__63 caps
+Explanation : 
+ Ans: 
+Evelyn  ends with	18 caps + 63 caps = 81 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0046	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0047	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0047.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0047.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0047.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__71 apples
+		 2__OP_Addition
+			 3__34 apples
+			 4__37 apples
+Explanation : 
+ Ans: 
+Brenda  has	34 apples + 37 apples = 71 apples.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0047	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0048	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0048.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0048.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0048.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__105 candies
+		 2__OP_Addition
+			 3__67 candies
+			 4__38 candies
+Explanation : 
+ Ans: 
+Joseph  has	67 candies + 38 candies = 105 candies.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0048	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0049	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0049.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0049.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0049.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__152 apples
+		 2__OP_Addition
+			 3__57 apples
+			 4__95 apples
+Explanation : 
+ Ans: 
+Janet  has	57 apples + 95 apples = 152 apples.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0049	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0050	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0050.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0050.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0050.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__179 caps
+		 2__OP_Addition
+			 3__91 caps
+			 4__88 caps
+Explanation : 
+ Ans: 
+Nancy  ends with	91 caps + 88 caps = 179 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0050	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0051	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0051.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0051.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0051.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__69 marbles
+		 2__OP_Addition
+			 3__53 marbles
+			 4__16 marbles
+Explanation : 
+ Ans: 
+Harold  has	53 marbles + 16 marbles = 69 marbles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0051	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0052	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0052.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0052.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0052.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__41 bananas
+		 2__OP_Subtraction
+			 3__46 bananas
+			 4__5 bananas
+Explanation : 
+ Ans: 
+	46 bananas - 5 bananas = 41 bananas are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0052	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0053	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0053.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0053.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0053.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__83 pencils
+		 2__OP_Subtraction
+			 3__87 pencils
+			 4__4 pencils
+Explanation : 
+ Ans: 
+	87 pencils - 4 pencils = 83 pencils are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0053	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0054	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0054.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0054.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0054.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__23 apples
+		 2__OP_Subtraction
+			 3__75 apples
+			 4__52 apples
+Explanation : 
+ Ans: 
+Joyce  ends with	75 apples - 52 apples = 23 apples.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0054	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0055	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0055.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0055.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0055.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__40 caps
+		 2__OP_Subtraction
+			 3__87 caps
+			 4__47 caps
+Explanation : 
+ Ans: 
+	87 caps - 47 caps = 40 caps are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0055	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0056	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0056.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0056.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0056.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 pounds
+		 2__OP_Subtraction
+			 3__67 pounds
+			 4__52 pounds
+Explanation : 
+ Ans: 
+There is	67 pounds - 52 pounds = 15 pounds more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0056	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0057	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0057.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0057.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0057.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__5 pounds
+		 2__OP_Subtraction
+			 3__49 pounds
+			 4__44 pounds
+Explanation : 
+ Ans: 
+There is	49 pounds - 44 pounds = 5 pounds more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0057	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0058	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0058.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0058.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0058.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__35 apples
+		 2__OP_Subtraction
+			 3__57 apples
+			 4__22 apples
+Explanation : 
+ Ans: 
+	57 apples - 22 apples = 35 apples are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0058	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0059	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0059.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0059.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0059.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__93 eggs
+		 2__OP_Subtraction
+			 3__96 eggs
+			 4__3 eggs
+Explanation : 
+ Ans: 
+Virginia  ends with	96 eggs - 3 eggs = 93 eggs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0059	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0060	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0060.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0060.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0060.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 pounds
+		 2__OP_Subtraction
+			 3__69 pounds
+			 4__51 pounds
+Explanation : 
+ Ans: 
+There is	69 pounds - 51 pounds = 18 pounds more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0060	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0061	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0061.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0061.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0061.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__42 eggs
+		 2__OP_Subtraction
+			 3__47 eggs
+			 4__5 eggs
+Explanation : 
+ Ans: 
+	47 eggs - 5 eggs = 42 eggs are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0061	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0062	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0062.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0062.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0062.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__52 eggs
+		 2__OP_Subtraction
+			 3__92 eggs
+			 4__40 eggs
+Explanation : 
+ Ans: 
+Edward  ends with	92 eggs - 40 eggs = 52 eggs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0062	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0063	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0063.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0063.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0063.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__20 eggs
+		 2__OP_Subtraction
+			 3__27 eggs
+			 4__7 eggs
+Explanation : 
+ Ans: 
+	27 eggs - 7 eggs = 20 eggs are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0063	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0064	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0064.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0064.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0064.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__75 pencils
+		 2__OP_Subtraction
+			 3__79 pencils
+			 4__4 pencils
+Explanation : 
+ Ans: 
+	79 pencils - 4 pencils = 75 pencils are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0064	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0065	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0065.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0065.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0065.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__80 crayons
+		 2__OP_Subtraction
+			 3__87 crayons
+			 4__7 crayons
+Explanation : 
+ Ans: 
+Jane  ends with	87 crayons - 7 crayons = 80 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0065	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0066	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0066.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0066.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0066.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__92 candies
+		 2__OP_Subtraction
+			 3__95 candies
+			 4__3 candies
+Explanation : 
+ Ans: 
+Roger  will have	95 candies - 3 candies = 92 candies.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0066	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0067	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0067.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0067.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0067.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__51 oranges
+		 2__OP_Subtraction
+			 3__96 oranges
+			 4__45 oranges
+Explanation : 
+ Ans: 
+	96 oranges - 45 oranges = 51 oranges are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0067	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0068	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0068.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0068.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0068.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__53 erasers
+		 2__OP_Subtraction
+			 3__95 erasers
+			 4__42 erasers
+Explanation : 
+ Ans: 
+Marie  ends with	95 erasers - 42 erasers = 53 erasers.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0068	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0069	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0069.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0069.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0069.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 oranges
+		 2__OP_Subtraction
+			 3__22 oranges
+			 4__7 oranges
+Explanation : 
+ Ans: 
+	22 oranges - 7 oranges = 15 oranges are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0069	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0070	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0070.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0070.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0070.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__84 bananas
+		 2__OP_Subtraction
+			 3__88 bananas
+			 4__4 bananas
+Explanation : 
+ Ans: 
+Melissa  will have	88 bananas - 4 bananas = 84 bananas.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0070	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0071	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0071.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0071.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0071.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__58 cards
+		 2__OP_Subtraction
+			 3__67 cards
+			 4__9 cards
+Explanation : 
+ Ans: 
+Larry  will have	67 cards - 9 cards = 58 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0071	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0072	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0072.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0072.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0072.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__77 pounds
+		 2__OP_Subtraction
+			 3__81 pounds
+			 4__4 pounds
+Explanation : 
+ Ans: 
+There is	81 pounds - 4 pounds = 77 pounds more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0072	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0073	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0073.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0073.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0073.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__87 stickers
+		 2__OP_Subtraction
+			 3__93 stickers
+			 4__6 stickers
+Explanation : 
+ Ans: 
+Larry  ends with	93 stickers - 6 stickers = 87 stickers.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0073	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0074	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0074.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0074.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0074.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__36 bananas
+		 2__OP_Subtraction
+			 3__39 bananas
+			 4__3 bananas
+Explanation : 
+ Ans: 
+Carlos  ends with	39 bananas - 3 bananas = 36 bananas.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0074	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0075	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0075.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0075.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0075.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__71 candies
+		 2__OP_Subtraction
+			 3__76 candies
+			 4__5 candies
+Explanation : 
+ Ans: 
+Patricia  ends with	76 candies - 5 candies = 71 candies.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0075	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0076	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0076.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0076.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0076.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__10 caps
+		 2__OP_Subtraction
+			 3__16 caps
+			 4__6 caps
+Explanation : 
+ Ans: 
+	16 caps - 6 caps = 10 caps are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0076	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0077	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0077.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0077.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0077.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 crayons
+		 2__OP_Subtraction
+			 3__17 crayons
+			 4__6 crayons
+Explanation : 
+ Ans: 
+Ernest  ends with	17 crayons - 6 crayons = 11 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0077	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0078	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0078.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0078.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0078.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__50 pounds
+		 2__OP_Subtraction
+			 3__59 pounds
+			 4__9 pounds
+Explanation : 
+ Ans: 
+There is	59 pounds - 9 pounds = 50 pounds more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0078	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0079	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0079.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0079.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0079.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__61 caps
+		 2__OP_Subtraction
+			 3__65 caps
+			 4__4 caps
+Explanation : 
+ Ans: 
+Diana  ends with	65 caps - 4 caps = 61 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0079	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0080	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0080.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0080.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0080.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__8 apples
+		 2__OP_Subtraction
+			 3__63 apples
+			 4__55 apples
+Explanation : 
+ Ans: 
+Ruby  will have	63 apples - 55 apples = 8 apples.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0080	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0081	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0081.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0081.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0081.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__3 Skittleses
+		 2__OP_Subtraction
+			 3__5 Skittleses
+			 4__2 Skittleses
+Explanation : 
+ Ans: 
+Craig  ends with	5 Skittleses - 2 Skittleses = 3 Skittleses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0081	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0082	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0082.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0082.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0082.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__42 oranges
+		 2__OP_Subtraction
+			 3__46 oranges
+			 4__4 oranges
+Explanation : 
+ Ans: 
+Steve  will have	46 oranges - 4 oranges = 42 oranges.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0082	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0083	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0083.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0083.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0083.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__37 pounds
+		 2__OP_Subtraction
+			 3__39 pounds
+			 4__2 pounds
+Explanation : 
+ Ans: 
+There is	39 pounds - 2 pounds = 37 pounds more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0083	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0084	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0084.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0084.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0084.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__17 cards
+		 2__OP_Subtraction
+			 3__76 cards
+			 4__59 cards
+Explanation : 
+ Ans: 
+Brian  will have	76 cards - 59 cards = 17 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0084	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0085	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0085.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0085.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0085.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__10 crayons
+		 2__OP_Subtraction
+			 3__62 crayons
+			 4__52 crayons
+Explanation : 
+ Ans: 
+Billy  will have	62 crayons - 52 crayons = 10 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0085	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0086	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0086.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0086.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0086.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 caps
+		 2__OP_Subtraction
+			 3__30 caps
+			 4__26 caps
+Explanation : 
+ Ans: 
+Pamela  ends with	30 caps - 26 caps = 4 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0086	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0087	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0087.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0087.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0087.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__26 caps
+		 2__OP_Subtraction
+			 3__34 caps
+			 4__8 caps
+Explanation : 
+ Ans: 
+Katherine  will have	34 caps - 8 caps = 26 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0087	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0088	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0088.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0088.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0088.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__51 oranges
+		 2__OP_Subtraction
+			 3__70 oranges
+			 4__19 oranges
+Explanation : 
+ Ans: 
+Melissa  will have	70 oranges - 19 oranges = 51 oranges.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0088	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0089	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0089.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0089.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0089.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__2 bananas
+		 2__OP_Subtraction
+			 3__47 bananas
+			 4__45 bananas
+Explanation : 
+ Ans: 
+Norma  ends with	47 bananas - 45 bananas = 2 bananas.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0089	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0090	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0090.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0090.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0090.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__29 stickers
+		 2__OP_Subtraction
+			 3__36 stickers
+			 4__7 stickers
+Explanation : 
+ Ans: 
+Willie  ends with	36 stickers - 7 stickers = 29 stickers.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0090	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0091	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0091.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0091.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0091.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__47 erasers
+		 2__OP_Subtraction
+			 3__81 erasers
+			 4__34 erasers
+Explanation : 
+ Ans: 
+Aaron  ends with	81 erasers - 34 erasers = 47 erasers.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0091	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0092	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0092.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0092.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0092.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 Skittleses
+		 2__OP_Subtraction
+			 3__25 Skittleses
+			 4__7 Skittleses
+Explanation : 
+ Ans: 
+Charles  will have	25 Skittleses - 7 Skittleses = 18 Skittleses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0092	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0093	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0093.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0093.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0093.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 cards
+		 2__OP_Subtraction
+			 3__88 cards
+			 4__70 cards
+Explanation : 
+ Ans: 
+Norma  will have	88 cards - 70 cards = 18 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0093	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0094	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0094.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0094.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0094.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__43 skittles
+		 2__OP_Subtraction
+			 3__50 skittles
+			 4__7 skittles
+Explanation : 
+ Ans: 
+Pamela  will have	50 skittles - 7 skittles = 43 skittles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0094	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0095	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0095.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0095.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0095.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 Skittleses
+		 2__OP_Subtraction
+			 3__76 Skittleses
+			 4__72 Skittleses
+Explanation : 
+ Ans: 
+Evelyn  ends with	76 Skittleses - 72 Skittleses = 4 Skittleses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0095	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0096	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0096.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0096.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0096.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__73 cards
+		 2__OP_Subtraction
+			 3__82 cards
+			 4__9 cards
+Explanation : 
+ Ans: 
+Helen  ends with	82 cards - 9 cards = 73 cards.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0096	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0097	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0097.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0097.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0097.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__84 apples
+		 2__OP_Subtraction
+			 3__89 apples
+			 4__5 apples
+Explanation : 
+ Ans: 
+Ruth  ends with	89 apples - 5 apples = 84 apples.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0097	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0098	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0098.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0098.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0098.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__37 blocks
+		 2__OP_Subtraction
+			 3__58 blocks
+			 4__21 blocks
+Explanation : 
+ Ans: 
+Carlos  will have	58 blocks - 21 blocks = 37 blocks.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0098	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0099	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0099.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0099.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_0/ilds-0099.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__34 pencils
+		 2__OP_Subtraction
+			 3__78 pencils
+			 4__44 pencils
+Explanation : 
+ Ans: 
+Jesse  ends with	78 pencils - 44 pencils = 34 pencils.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0099	^^^^^^^^^^^^^^^^^^^^
+
+
+

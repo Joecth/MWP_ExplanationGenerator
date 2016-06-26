@@ -1,0 +1,1144 @@
+Traceback (most recent call last):
+  File "__init__.py", line 680, in <module>
+    (tense, modal, verb_bakup, how_pos, conj_pos) = stc_obj.get_info()
+  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/stc_analyzer.py", line 68, in get_info
+    assert(0)
+AssertionError
+Traceback (most recent call last):
+  File "__init__.py", line 680, in <module>
+    (tense, modal, verb_bakup, how_pos, conj_pos) = stc_obj.get_info()
+  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/stc_analyzer.py", line 68, in get_info
+    assert(0)
+AssertionError
+Traceback (most recent call last):
+  File "__init__.py", line 706, in <module>
+    (lft_info_dict, pos_verb) = lft_obj.get_info()
+  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/logicform_analyzer.py", line 92, in get_info
+    assert("nsubjpass" in self.__LF1_dict) ## not sure LFT's all cases, thus set here for debuggint
+AssertionError
+
+====================	start of case : ilds-0500	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0500.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0500.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0500.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__68
+		 2__OP_Multiplication
+			 3__4 books
+			 4__17 chapters
+				 5__OP_CommonDiv
+					 6__17 chapters
+					 7__1 book
+Check the STC file
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0500	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0501	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0501.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0501.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0501.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__432
+		 2__OP_Multiplication
+			 3__3 times
+			 4__144 bees
+Explanation : 
+ Ans: 
+She  seed	3 times  144 bees  就是   3 * 144 = 432.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0501	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0502	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0502.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0502.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0502.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__120
+		 2__OP_Multiplication
+			 3__4 times
+			 4__30 feet
+Check the STC file
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0502	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0503	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0503.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0503.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0503.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__280 fishes
+		 2__OP_Addition
+			 3__212 fishes
+			 4__68 fishes
+Explanation : 
+ Ans: 
+Lucys  have	212 fishes + 68 fishes = 280 fishes.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0503	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0504	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0504.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0504.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0504.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__68 fishes
+		 2__OP_Subtraction
+			 3__280 fishes
+			 4__212 fishes
+Explanation : 
+ Ans: 
+She  has	280 fishes - 212 fishes = 68 fishes.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0504	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0505	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0505.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0505.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0505.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__243 times
+		 2__OP_Addition
+			 3__157 times
+			 4__86 times
+Explanation : 
+ Ans: 
+They  jumped	157 times + 86 times = 243 times.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0505	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0506	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0506.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0506.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0506.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__121 fleas
+		 2__OP_Addition
+			 3__36 fleas
+			 4__85 fleas
+Explanation : 
+ Ans: 
+How many flea  perished	36 fleas + 85 fleas = 121 fleas.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0506	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0507	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0507.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0507.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0507.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__273 bags
+		 2__OP_Subtraction
+			 3__600 bags
+			 4__327 bags
+Explanation : 
+ Ans: 
+There are 	600 bags - 327 bags = 273 bags.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0507	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0508	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0508.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0508.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0508.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__218 seats
+		 2__OP_Subtraction
+			 3__750 seats
+			 4__532 peoples
+Explanation : 
+ Ans: 
+There are 	750 seats - 532 peoples = 218 seats.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0508	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0509	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0509.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0509.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0509.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__1035 pounds
+		 2__OP_Multiplication
+			 3__45 bags
+			 4__23 poundoranges
+				 5__OP_CommonDiv
+					 6__23 poundoranges
+					 7__1 bag
+Explanation : 
+ Ans: 
+	1 bagcontain23 poundoranges就是23 ÷ 1 = 23 poundoranges
+
+	Thus,  There are 	45 bags  23 poundoranges  就是   45 * 23 = 1035 pounds.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0509	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0510	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0510.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0510.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0510.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+Case has no Answer from IE! Check case!
+
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0510	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0511	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0511.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0511.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0511.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+Case has no Answer from IE! Check case!
+
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0511	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0512	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0512.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0512.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0512.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__180
+		 2__OP_Multiplication
+			 3__12 rows
+			 4__15 heads
+				 5__OP_CommonDiv
+					 6__15 heads
+					 7__1 row
+Explanation : 
+ Ans: 
+	1 rowbe15 heads就是15 ÷ 1 = 15 heads
+
+	Thus,  Albert  has	12 rows  15 heads  就是   12 * 15 = 180.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0512	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0513	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0513.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0513.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0513.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__372
+		 2__OP_Multiplication
+			 3__31 hours
+			 4__12 miles
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0513	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0514	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0514.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0514.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0514.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__1980
+		 2__OP_Multiplication
+			 3__36 hours
+			 4__55 miles
+				 5__OP_CommonDiv
+					 6__55 miles
+					 7__1 hour
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0514	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0515	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0515.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0515.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0515.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__2016
+		 2__OP_Multiplication
+			 3__504 pies
+			 4__4 apples
+				 5__OP_CommonDiv
+					 6__4 apples
+					 7__1 pie
+Explanation : 
+ Ans: 
+	1 pietake4 apples就是4 ÷ 1 = 4 apples
+
+	Thus,  It  makes	504 pies  4 apples  就是   504 * 4 = 2016.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0515	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0516	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0516.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0516.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0516.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4 cookies
+		 2__OP_CommonDiv
+			 3__24 cookies
+			 4__6 peoples
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0516	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0517	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0517.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0517.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0517.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 pages
+		 2__OP_CommonDiv
+			 3__120 pages
+			 4__10 days
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0517	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0518	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0518.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0518.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0518.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+Case has no Answer from IE! Check case!
+
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0518	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0519	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0519.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0519.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0519.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14
+		 2__OP_CommonDiv
+			 3__42 pounds
+			 4__3 pounds
+				 5__OP_CommonDiv
+					 6__3 pounds
+					 7__1 book
+Explanation : 
+ Ans: 
+	1 bookweigh3 pounds就是3 ÷ 1 = 3 pounds
+
+	Thus,  There are 	3 poundsweigh42 pounds就是42 ÷ 3 = 14.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0519	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0520	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0520.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0520.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0520.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__25
+		 2__OP_CommonDiv
+			 3__75 cookies
+			 4__3 cookies
+				 5__OP_CommonDiv
+					 6__3 cookies
+					 7__1 bag
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0520	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0521	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0521.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0521.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0521.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__32
+		 2__OP_Multiplication
+			 3__4 days
+			 4__8 hours
+Explanation : 
+ Ans: 
+He  worked	4 days  8 hours  就是   4 * 8 = 32.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0521	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0522	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0522.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0522.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0522.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__300
+		 2__OP_Multiplication
+			 3__5 hours
+			 4__60 mphs
+Explanation : 
+ Ans: 
+The campground from they home  was	5 hours  60 mphs  就是   5 * 60 = 300.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0522	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0523	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0523.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0523.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0523.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__440
+		 2__OP_Multiplication
+			 3__8 hours
+			 4__55 miles
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0523	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0524	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0524.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0524.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0524.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__63
+		 2__OP_Multiplication
+			 3__3 games
+			 4__21 points
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0524	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0525	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0525.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0525.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0525.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__60
+		 2__OP_Multiplication
+			 3__3 gallongases
+			 4__20 miles
+Explanation : 
+ Ans: 
+He  traveled	3 gallongases  20 miles  就是   3 * 20 = 60.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0525	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0526	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0526.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0526.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0526.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__100
+		 2__OP_Multiplication
+			 3__10 gallongases
+			 4__10 kilometers
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0526	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0527	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0527.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0527.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0527.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__264
+		 2__OP_Multiplication
+			 3__33 cups
+			 4__8 ounces
+				 5__OP_CommonDiv
+					 6__8 ounces
+					 7__1 cup
+Explanation : 
+ Ans: 
+	1 cupcontain8 ounces就是8 ÷ 1 = 8 ounces
+
+	Thus,  There are 	33 cups  8 ounces  就是   33 * 8 = 264.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0527	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0528	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0528.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0528.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0528.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__46
+		 2__OP_Multiplication
+			 3__23 recipes
+			 4__2 cupchocolates
+Explanation : 
+ Ans: 
+	23 recipes  2 cupchocolates  就是   23 * 2 = 46 were needed.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0528	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0529	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0529.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0529.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0529.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__88
+		 2__OP_Multiplication
+			 3__8 years
+			 4__11 pounds
+				 5__OP_CommonDiv
+					 6__11 pounds
+					 7__1 year
+Explanation : 
+ Ans: 
+	1 yeargain11 pounds就是11 ÷ 1 = 11 pounds
+
+	Thus,  He  weighs	8 years  11 pounds  就是   8 * 11 = 88.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0529	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0530	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0530.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0530.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0530.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__280
+		 2__OP_Multiplication
+			 3__14 gallongases
+			 4__20 miles
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0530	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0531	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0531.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0531.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0531.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__16
+		 2__OP_Multiplication
+			 3__8 hours
+			 4__2 miles
+				 5__OP_CommonDiv
+					 6__2 miles
+					 7__1 hour
+Explanation : 
+ Ans: 
+	1 hourwalk2 miles就是2 ÷ 1 = 2 miles
+
+	Thus,  I  will walk	8 hours  2 miles  就是   8 * 2 = 16.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0531	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0532	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0532.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0532.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0532.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__45
+		 2__OP_Multiplication
+			 3__3 miles
+			 4__15 minutes
+				 5__OP_CommonDiv
+					 6__15 minutes
+					 7__1 mile
+Explanation : 
+ Ans: 
+	1 milewalk15 minutes就是15 ÷ 1 = 15 minutes
+
+	Thus,  It  taked	3 miles  15 minutes  就是   3 * 15 = 45.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0532	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0533	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0533.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0533.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0533.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__6175
+		 2__OP_Multiplication
+			 3__25 schools
+			 4__247 students
+				 5__OP_CommonDiv
+					 6__247 students
+					 7__1 school
+
+No Verb!
+
+Explanation : 
+ Ans: 
+	1 school247 students就是247 ÷ 1 = 247 students
+
+	Thus,  There are 	25 schools  247 students  就是   25 * 247 = 6175.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0533	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0534	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0534.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0534.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0534.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__32 students
+		 2__OP_CommonDiv
+			 3__256 students
+			 4__8 teachers
+
+No Verb!
+
+Explanation : 
+ Ans: 
+There are 	8 teachers256 students就是256 ÷ 8 = 32 students.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0534	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0535	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0535.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0535.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0535.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__10 boxes
+		 2__OP_CommonDiv
+			 3__10 boxes
+			 4__1 box
+
+No Verb!
+
+Explanation : 
+ Ans: 
+They  used	1 box10 boxes就是10 ÷ 1 = 10 boxes.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0535	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0536	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0536.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0536.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0536.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__91 cards
+		 2__OP_CommonDiv
+			 3__455 cards
+			 4__5 friends
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0536	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0537	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0537.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0537.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0537.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__2063 Legoses
+		 2__OP_Subtraction
+			 3__2080 Legoses
+			 4__17 Legoses
+Explanation : 
+ Ans: 
+She  has	2080 Legoses - 17 Legoses = 2063 Legoses.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0537	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0538	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0538.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0538.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0538.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__1380
+		 2__OP_Multiplication
+			 3__12 times
+			 4__115 muffins
+Explanation : 
+ Ans: 
+James  baked	12 times  115 muffins  就是   12 * 115 = 1380.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0538	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0539	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0539.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0539.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0539.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+Case has no Answer from IE! Check case!
+
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0539	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0540	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0540.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0540.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0540.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__73 peoples
+		 2__OP_CommonDiv
+			 3__219 peoples
+			 4__3 buses
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0540	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0541	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0541.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0541.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0541.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__28 cents
+		 2__OP_CommonDiv
+			 3__224 cents
+			 4__8 cents
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0541	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0542	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0542.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0542.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0542.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__493 bones
+		 2__OP_Subtraction
+			 3__860 bones
+			 4__367 bones
+Explanation : 
+ Ans: 
+He  started	860 bones - 367 bones = 493 bones.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0542	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0543	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0543.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0543.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0543.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__3395 dolls
+		 2__OP_Addition
+			 3__1209 dolls
+			 4__2186 dolls
+Error! no Tense! Check case!
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0543	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0544	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0544.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0544.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0544.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__690 hospitals
+		 2__OP_Addition
+			 3__403 hospitals
+			 4__287 cards
+Explanation : 
+ Ans: 
+Mariela  geted	403 hospitals + 287 cards = 690 hospitals.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0544	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0545	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0545.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0545.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0545.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__84
+		 2__OP_Multiplication
+			 3__6 times
+			 4__14 years
+Explanation : 
+ Ans: 
+Cody 's grandmother  is	6 times  14 years  就是   6 * 14 = 84.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0545	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0546	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0546.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0546.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0546.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__343 goals
+		 2__OP_Addition
+			 3__156 goals
+			 4__187 goals
+Explanation : 
+ Ans: 
+Jorge  scoreded	156 goals + 187 goals = 343 goals.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0546	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0547	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0547.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0547.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0547.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__416 books
+		 2__OP_Subtraction
+			 3__563 books
+			 4__147 pages
+Explanation : 
+ Ans: 
+He  have/has leaved	563 books - 147 pages = 416 books.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0547	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0548	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0548.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0548.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0548.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__448 rolls
+		 2__OP_Addition
+			 3__219 rolls
+			 4__229 rolls
+Explanation : 
+ Ans: 
+Karen Omar  rolleded	219 rolls + 229 rolls = 448 rolls.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0548	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0549	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0549.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0549.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0549.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__310 miles
+		 2__OP_Subtraction
+			 3__873 miles
+			 4__563 miles
+Explanation : 
+ Ans: 
+Beka  flyed	873 miles - 563 miles = 310 miles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0549	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0550	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0550.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0550.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0550.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__1677 miles
+		 2__OP_Addition
+			 3__679 miles
+			 4__998 miles
+Explanation : 
+ Ans: 
+Julia Darius  droved	679 miles + 998 miles = 1677 miles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0550	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0551	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0551.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0551.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0551.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__744 pieces
+		 2__OP_Subtraction
+			 3__900 pieces
+			 4__156 pieces
+Explanation : 
+ Ans: 
+She  have/has leaved	900 pieces - 156 pieces = 744 pieces.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0551	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0552	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0552.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0552.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0552.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__159.7 miles
+		 2__OP_Subtraction
+			 3__372.0 miles
+			 4__212.3 miles
+Explanation : 
+ Ans: 
+She  had	372.0 miles - 212.3 miles = 159.7 miles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0552	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0553	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0553.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0553.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0553.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__812 fans
+		 2__OP_CommonDiv
+			 3__2436 fans
+			 4__3 sets
+
+No Verb!
+
+Explanation : 
+ Ans: 
+	3 sets2436 fans就是2436 ÷ 3 = 812 fans were seated.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0553	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0555	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0555.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0555.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0555.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.8 cupsugars
+		 2__OP_Addition
+			 3__0.6 cupsugars
+			 4__0.2 cupsugars
+Explanation : 
+ Ans: 
+There are 	0.6 cupsugars + 0.2 cupsugars = 0.8 cupsugars.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0555	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0556	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0556.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0556.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0556.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.375 cakes
+		 2__OP_Subtraction
+			 3__0.625 cakes
+			 4__0.25 cakes
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0556	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0557	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0557.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0557.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0557.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__1 mile
+		 2__OP_Addition
+			 3__0.75 miles
+			 4__0.25 miles
+Explanation : 
+ Ans: 
+You  walked	0.75 miles + 0.25 miles = 1 mile.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0557	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0558	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0558.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0558.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0558.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__1.75 USDs
+		 2__OP_Subtraction
+			 3__2.50 USDs
+			 4__0.75 USDs
+Explanation : 
+ Ans: 
+He  needs	2.50 USDs - 0.75 USDs = 1.75 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0558	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0559	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0559.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0559.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0559.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4.25 bills
+		 2__OP_Subtraction
+			 3__5.00 bills
+			 4__0.75 USDs
+Explanation : 
+ Ans: 
+She  will get	5.00 bills - 0.75 USDs = 4.25 bills.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0559	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0560	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0560.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0560.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0560.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.3 miles
+		 2__OP_Subtraction
+			 3__0.7 miles
+			 4__0.4 miles
+Explanation : 
+ Ans: 
+John  walks	0.7 miles - 0.4 miles = 0.3 miles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0560	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0562	====================
+python3 __init__.py -i ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0562.trace.xml -l ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0562.lft.xml -s ./demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_5/ilds-0562.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7.5
+		 2__OP_Multiplication
+			 3__3 days
+			 4__2.5 hours
+				 5__OP_CommonDiv
+					 6__2.5 hours
+					 7__1 day
+
+No Verb!
+
+Explanation : 
+ Ans: 
+	1 day2.5 hours就是2.5 ÷ 1 = 2.5 hours
+
+	Thus,  He  worked	3 days  2.5 hours  就是   3 * 2.5 = 7.5.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0562	^^^^^^^^^^^^^^^^^^^^
+
+
+

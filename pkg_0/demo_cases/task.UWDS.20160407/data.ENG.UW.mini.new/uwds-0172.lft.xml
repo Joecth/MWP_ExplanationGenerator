@@ -1,0 +1,149 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 repave)
+		(s1w3 company)
+		(s1w1 a)
+		(s1w2 construction)
+		(s1w4 be)
+		(s1w8 road)
+		(s1w6 a)
+		(s1w7 damage)
+	)
+
+	(LF1
+		(HEAD v1 s1w5)
+		(nsubj v1 n3)
+		(head n3 s1w3)
+		(det n3 s1w1)
+		(compound n3 n4)
+		(head n4 s1w2)
+		(aux v1 s1w4)
+		(dobj v1 n5)
+		(head n5 s1w8)
+		(det n5 s1w6)
+		(amod n5 s1w7)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w5 repave)
+		(s2w2 far)
+		(s2w1 so)
+		(s2w3 they)
+		(s2w4 have)
+		(s2w7 total)
+		(s2w6 a)
+		(s2w10 inch)
+		(s2w8 of)
+		(s2w9 4938)
+		(s2w13 road)
+		(s2w11 of)
+		(s2w12 the)
+	)
+
+	(LF1
+		(verb v2 s2w5)
+		(advmod v2 s2w2)
+		(advmod v2 s2w1)
+		(nsubj v2 s2w3)
+		(aux v2 s2w4)
+		(dobj v2 n6)
+		(head n6 s2w7)
+		(det n6 s2w6)
+		(nmod n6 n7)
+		(head n7 s2w10)
+		(case n7 s2w8)
+		(nummod n7 s2w9)
+		(nmod n7 n1)
+		(head n1 s2w13)
+		(case n1 s2w11)
+		(det n1 s2w12)
+	)
+
+	(LF2
+		(= (quan q2 s2w10 s2w13) 4938)(verb q2 s2w5)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 repave)
+		(s3w1 today)
+		(s3w2 they)
+		(s3w5 inch)
+		(s3w4 805)
+		(s3w8 road)
+		(s3w6 of)
+		(s3w7 the)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(nmod_tmod v3 n9)
+		(head n9 s3w1)
+		(nsubj v3 s3w2)
+		(dobj v3 n10)
+		(head n10 s3w5)
+		(nummod n10 s3w4)
+		(nmod n10 n2)
+		(head n2 s3w8)
+		(case n2 s3w6)
+		(det n2 s3w7)
+	)
+
+	(LF2
+		(= (quan q4 s2w10 s3w8) 805)(verb q4 s3w3)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w7 have)
+		(s4w3 inch)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w6 road)
+		(s4w4 of)
+		(s4w5 the)
+		(s4w9 repave)
+		(s4w8 they)
+		(s4w11 today)
+		(s4w10 before)
+	)
+
+	(LF1
+		(verb v4 s4w7)
+		(dobj v4 n12)
+		(head n12 s4w3)
+		(amod n12 s4w2)
+		(advmod n12 s4w1)
+		(nmod n12 n13)
+		(head n13 s4w6)
+		(case n13 s4w4)
+		(det n13 s4w5)
+		(ccomp v4 s4w9)
+		(nsubj v4 s4w8)
+		(nmod v4 n14)
+		(head n14 s4w11)
+		(case n14 s4w10)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q2 s2w10 s2w13) (quan q4 s2w10 s3w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,1054 @@
+Traceback (most recent call last):
+  File "__init__.py", line 739, in <module>
+    (tense, voice, modal, verb_st, how_pos, conj_pos, is_compare_q) = stc_obj.get_info() # verb_st : verb from stc file
+  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/stc_analyzer.py", line 179, in get_info
+    assert(0)
+AssertionError
+
+====================	start of case : ilds-0001	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0001.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0001.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0001.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 caps
+		 2__OP_Addition
+			 3__7 caps
+			 4__7 caps
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Bottle caps are	7 caps + 7 caps = 14 caps.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0001	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0013	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0013.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0013.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0013.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__13 crayons
+		 2__OP_Addition
+			 3__7 crayons
+			 4__6 crayons
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Crayons are	7 crayons + 6 crayons = 13 crayons.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0013	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0017	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0017.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0017.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0017.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11 eggs
+		 2__OP_Addition
+			 3__7 eggs
+			 4__4 eggs
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+There are	7 eggs + 4 eggs = 11 eggs.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0017	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0024	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0024.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0024.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0024.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__85 erasers
+		 2__OP_Addition
+			 3__76 erasers
+			 4__9 erasers
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+Erasers are	76 erasers + 9 erasers = 85 erasers.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0024	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0055	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0055.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0055.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0055.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__40 caps
+		 2__OP_Subtraction
+			 3__87 caps
+			 4__47 caps
+Explanation : 
+ Ans: 
+	87 caps - 47 caps = 40 caps are left.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0055	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0056	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0056.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0056.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0056.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 pounds
+		 2__OP_Subtraction
+			 3__67 pounds
+			 4__52 pounds
+Explanation : 
+ Ans: 
+There is	67 pounds - 52 pounds = 15 pounds more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0056	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0301	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0301.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0301.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0301.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__3 toucans
+		 2__OP_Addition
+			 3__2 toucans
+			 4__1 toucan
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+No nsubj. Check case's nsubj!
+Explanation : 
+ Ans: 
+	2 toucans + 1 toucan = 3 toucans.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0301	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0304	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0304.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0304.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0304.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 inchsnows
+		 2__OP_Subtraction
+			 3__29 inchsnows
+			 4__17 inchsnows
+Explanation : 
+ Ans: 
+Mrs. Hilt 's house  had	29 inchsnows - 17 inchsnows = 12 inchsnows more.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0304	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0306	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0306.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0306.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0306.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__1.5
+		 2__OP_Multiplication
+			 3__1 flower
+			 4__1.5 bugs
+				 5__OP_CommonDiv
+					 6__3 bugs
+					 7__2 flowers
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	We got 3 bugs with every 2 flowers
+
+	Thus,  	1.5 bugs * 1 flower = 1.5.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0306	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0309	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0309.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0309.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0309.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15
+		 2__OP_Multiplication
+			 3__3 hours
+			 4__5 apples
+Explanation : 
+ Ans: 
+She  had eaten	5 apples * 3 hours = 15.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0309	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0317	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0317.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0317.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0317.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__38 pages
+		 2__OP_Addition
+			 3__21 pages
+			 4__17 pages
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	21 pages + 17 pages = 38 pages.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0317	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0422	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0422.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0422.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0422.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__13 dollars
+		 2__OP_Subtraction
+			 3__47 dollars
+			 4__34 dollars
+Explanation : 
+ Ans: 
+She  has to earnhavebuy	47 dollars - 34 dollars = 13 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0422	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0431	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+Case has no Answer from IE! Check case!
+
+No state found! : ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.stc.xml
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0431	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0506	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0506.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0506.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0506.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__121 fleas
+		 2__OP_Addition
+			 3__36 fleas
+			 4__85 fleas
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	36 fleas + 85 fleas = 121 fleas.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0506	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0528	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0528.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0528.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0528.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__46
+		 2__OP_Multiplication
+			 3__23 recipes
+			 4__2 cupchocolates
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	2 cupchocolates * 23 recipes = 46.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0528	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0530	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0530.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0530.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0530.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__280
+		 2__OP_Multiplication
+			 3__14 gallongases
+			 4__20 miles
+Explanation : 
+ Ans: 
+She  can drive	20 miles * 14 gallongases = 280.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0530	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0544	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0544.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0544.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0544.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__690 hospitals
+		 2__OP_Addition
+			 3__403 hospitals
+			 4__287 cards
+Explanation : 
+ Ans: 
+Mariela  did to get	403 hospitals + 287 cards = 690 hospitals.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0544	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : ilds-0552	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0552.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0552.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0552.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__159.7 miles
+		 2__OP_Subtraction
+			 3__372.0 miles
+			 4__212.3 miles
+Explanation : 
+ Ans: 
+She  had traveled	372.0 miles - 212.3 miles = 159.7 miles.
+^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0552	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0001	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0001.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0001.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0001.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__43 seashells
+		 2__OP_Subtraction
+			 3__70 seashells
+			 4__27 seashells
+Explanation : 
+ Ans: 
+She  gave	70 seashells - 27 seashells = 43 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0001	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0002	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0002.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0002.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0002.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__26 bales
+		 2__OP_Subtraction
+			 3__54 bales
+			 4__28 bales
+Explanation : 
+ Ans: 
+He  stored	54 bales - 28 bales = 26 bales.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0002	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0003	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0003.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0003.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0003.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__6 cupflours
+		 2__OP_Subtraction
+			 3__8 cupflours
+			 4__2 cupflours
+Explanation : 
+ Ans: 
+She  needs to add	8 cupflours - 2 cupflours = 6 cupflours.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0003	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0005	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0005.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0005.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0005.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__33 trees
+		 2__OP_Subtraction
+			 3__55 trees
+			 4__22 trees
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
+Explanation : 
+ Ans: 
+	55 trees - 22 trees = 33 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0005	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0009	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0009.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0009.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0009.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__17 balloons
+		 2__OP_Addition
+			 3__9 balloons
+			 4__8 balloons
+Explanation : 
+ Ans: 
+They  have	9 balloons + 8 balloons = 17 balloons.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0009	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0010	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0010.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0010.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0010.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__10 trees
+		 2__OP_Addition
+			 3__4 trees
+			 4__6 trees
+Explanation : 
+ Ans: 
+The park  will have	4 trees + 6 trees = 10 trees.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0010	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0013	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0013.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0013.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0013.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__15 pizzas
+		 2__OP_Addition
+			 3__9 pizzas
+			 4__6 pizzas
+Explanation : 
+ Ans: 
+	9 pizzas + 6 pizzas = 15 pizzas were served today.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0013	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0014	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0014.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0014.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0014.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__5 pencils
+		 2__OP_Addition
+			 3__2 pencils
+			 4__3 pencils
+Explanation : 
+ Ans: 
+There are	2 pencils + 3 pencils = 5 pencils now.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0014	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0015	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0015.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0015.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0015.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14 seashells
+		 2__OP_Addition
+			 3__6 seashells
+			 4__8 seashells
+Explanation : 
+ Ans: 
+They  found	6 seashells + 8 seashells = 14 seashells.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0015	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0019	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0019.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0019.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0019.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__18 kittens
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0019	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0061	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0061.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0061.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0061.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__34 dollars
+		 2__OP_Subtraction
+			 3__67 dollars
+			 4__33 dollars
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+	67 dollars - 33 dollars = 34 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0061	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0063	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0063.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0063.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0063.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__12 dollars
+		 2__OP_Subtraction
+			 3__86 dollars
+			 4__74 dollars
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	86 dollars - 74 dollars = 12 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0063	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0068	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0068.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0068.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0068.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__3 seashells
+Explanation : 
+ Ans: .
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0068	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0126	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0126.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0126.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0126.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__21.95 USDs
+		 2__OP_Addition
+			 3__10.22 USDs
+			 4__11.73 USDs
+Explanation : 
+ Ans: 
+The total cost of Jessica 's purchases was	10.22 USDs + 11.73 USDs = 21.95 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0126	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0127	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0127.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0127.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0127.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__10.46 USDs
+		 2__OP_Addition
+			 3__5.36 USDs
+			 4__5.10 USDs
+Explanation : 
+ Ans: 
+The total of the lunch bill was	5.36 USDs + 5.10 USDs = 10.46 USDs.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0127	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0137	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0137.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0137.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0137.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__8564 poundhoneys
+		 2__OP_Addition
+			 3__2479 poundhoneys
+			 4__6085 poundhoneys
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
+Explanation : 
+ Ans: 
+	2479 poundhoneys + 6085 poundhoneys = 8564 poundhoneys.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0137	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0138	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0138.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0138.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0138.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__11687 literoils
+		 2__OP_Addition
+			 3__6522 literoils
+			 4__5165 literoils
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+	6522 literoils + 5165 literoils = 11687 literoils.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0138	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0141	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0141.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0141.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0141.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7092 books
+		 2__OP_Addition
+			 3__1986 books
+			 4__5106 books
+Explanation : 
+ Ans: 
+The libraries in Oak Grove  have	1986 books + 5106 books = 7092 books.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0141	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0154	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0154.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0154.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0154.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__574 houses
+		 2__OP_Subtraction
+			 3__2000 houses
+			 4__1426 houses
+Explanation : 
+ Ans: 
+Developers  built	2000 houses - 1426 houses = 574 houses.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0154	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0156	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0156.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0156.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0156.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__6279 poundfruits
+		 2__OP_Subtraction
+			 3__9792 poundfruits
+			 4__3513 poundfruits
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+	9792 poundfruits - 3513 poundfruits = 6279 poundfruits have been sold.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0156	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0158	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0158.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0158.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0158.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__5703 tickets
+		 2__OP_Subtraction
+			 3__9570 tickets
+			 4__3867 tickets
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+They  sold	9570 tickets - 3867 tickets = 5703 tickets.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0158	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0166	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0166.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0166.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0166.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__6699 customers
+		 2__OP_Subtraction
+			 3__7422 customers
+			 4__723 customers
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+	7422 customers - 723 customers = 6699 customers live.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0166	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0167	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0167.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0167.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0167.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__3220 eggs
+		 2__OP_Subtraction
+			 3__4636 eggs
+			 4__1416 eggs
+Explanation : 
+ Ans: 
+The farms  produced	4636 eggs - 1416 eggs = 3220 eggs more.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0167	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0172	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0172.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0172.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0172.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__4133 inchroads
+		 2__OP_Subtraction
+			 3__4938 inchroads
+			 4__805 inchroads
+Explanation : 
+ Ans: 
+They  had repaved	4938 inchroads - 805 inchroads = 4133 inchroads.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0172	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0177	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0177.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0177.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0177.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.333333 pies
+		 2__OP_Subtraction
+			 3__0.6666666666666666 pies
+			 4__0.3333333333333333 pies
+Explanation : 
+ Ans: 
+Erik  ate	0.6666666666666666 pies - 0.3333333333333333 pies = 0.333333 pies more.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0177	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0178	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0178.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0178.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0178.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.25 inchcuts
+		 2__OP_Subtraction
+			 3__0.75 inchcuts
+			 4__0.5 inchcuts
+Explanation : 
+ Ans: 
+The tailor  cut	0.75 inchcuts - 0.5 inchcuts = 0.25 inchcuts more.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0178	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0179	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0179.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0179.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0179.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.625 trunks
+		 2__OP_Addition
+			 3__0.375 trunks
+			 4__0.25 bikinis
+Explanation : 
+ Ans: 
+ The fraction is 	0.375 trunks + 0.25 bikinis = 0.625 trunks.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0179	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0183	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0183.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0183.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0183.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.25 scoopfoods
+		 2__OP_Addition
+			 3__0.125 scoopfoods
+			 4__0.125 scoopfoods
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+The 2 dogs  eat	0.125 scoopfoods + 0.125 scoopfoods = 0.25 scoopfoods.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0183	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0210	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0210.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0210.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0210.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.1 cats
+		 2__OP_Subtraction
+			 3__1 cat
+			 4__0.9 days
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	1 cat - 0.9 days = 0.1 cats.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0210	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0228	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0228.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0228.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0228.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__0.7 lights
+		 2__OP_Addition
+			 3__0.6 lights
+				 4__OP_Addition
+					 5__0.5 lights
+					 6__0.1 lights
+			 7__0.1 lights
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
+Explanation : 
+ Ans: 
+	0.5 lights + 0.1 lights = 0.6 lights
+
+	Thus,  	0.6 lights + 0.1 lights = 0.7 lights.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0228	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0242	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0242.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0242.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0242.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__9.8 gallonwaters
+		 2__OP_Addition
+			 3__3 gallonwaters
+			 4__6.8 gallonwaters
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+There will be	3 gallonwaters + 6.8 gallonwaters = 9.8 gallonwaters.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0242	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0253	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0253.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0253.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0253.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__14.75 gallonwaters
+		 2__OP_Addition
+			 3__7.75 gallonwaters
+			 4__7 gallonwaters
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+There will be	7.75 gallonwaters + 7 gallonwaters = 14.75 gallonwaters.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0253	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0273	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0273.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0273.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0273.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__7.26 feet
+		 2__OP_Addition
+			 3__4.4 feet
+			 4__2.86 feet
+Explanation : 
+ Ans: 
+Tori is	4.4 feet + 2.86 feet = 7.26 feet now.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0273	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0274	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0274.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0274.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0274.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__6.6 centimeters
+		 2__OP_Subtraction
+			 3__8.9 centimeters
+			 4__2.3 centimeters
+Explanation : 
+ Ans: 
+The piece of wood now is	8.9 centimeters - 2.3 centimeters = 6.6 centimeters now.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0274	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0329	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0329.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0329.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0329.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__95 dollars
+		 2__OP_Addition
+			 3__52 dollars
+			 4__43 dollars
+Explanation : 
+ Ans: 
+She  had	52 dollars + 43 dollars = 95 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0329	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0332	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0332.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0332.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0332.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__63 dollars
+		 2__OP_Subtraction
+			 3__86 dollars
+			 4__23 dollars
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	86 dollars - 23 dollars = 63 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0332	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0375	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0375.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0375.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0375.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__47 dollars
+		 2__OP_Subtraction
+			 3__79 dollars
+			 4__32 dollars
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
+Explanation : 
+ Ans: 
+	79 dollars - 32 dollars = 47 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0375	^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+====================	start of case : uwds-0380	====================
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0380.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0380.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/uwds-0380.stc.xml
+ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+
+0__ROOT
+	 1__63 dollars
+		 2__OP_Subtraction
+			 3__75 dollars
+			 4__12 dollars
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Explanation : 
+ Ans: 
+	75 dollars - 12 dollars = 63 dollars.
+^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0380	^^^^^^^^^^^^^^^^^^^^
+
+
+

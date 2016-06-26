@@ -1,0 +1,144 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w3 travel)
+		(s1w2 spaceship)
+		(s1w1 a)
+		(s1w5 light-year)
+		(s1w4 0.5)
+		(s1w7 Earth)
+		(s1w6 from)
+		(s1w10 x)
+		(s1w8 to)
+		(s1w9 planet)
+		(s1w11 and)
+		(s1w13 light-year)
+		(s1w12 0.1)
+		(s1w16 x)
+		(s1w14 from)
+		(s1w15 planet)
+		(s1w19 y)
+		(s1w17 to)
+		(s1w18 planet)
+	)
+
+	(LF1
+		(verb v1 s1w3)
+		(nsubj v1 n5)
+		(head n5 s1w2)
+		(det n5 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w5)
+		(nummod n1 s1w4)
+		(nmod n1 n7)
+		(head n7 s1w7)
+		(case n7 s1w6)
+		(nmod v1 n8)
+		(head n8 s1w10)
+		(case n8 s1w8)
+		(compound n8 n9)
+		(head n9 s1w9)
+		(cj_op j1 and)
+		(conj n8 n2)
+		(head n2 s1w13)
+		(nummod n2 s1w12)
+		(nmod v1 n11)
+		(head n11 s1w16)
+		(case n11 s1w14)
+		(compound n11 n12)
+		(head n12 s1w15)
+		(nmod v1 n13)
+		(head n13 s1w19)
+		(case n13 s1w17)
+		(compound n13 n14)
+		(head n14 s1w18)
+	)
+
+	(LF2
+		(= (quan q2 # s1w5) 0.5)(verb q2 s1w3)(role q2 dobj)
+		(= (quan q4 # s1w13) 0.1)(verb q4 s1w3)(role q4 conj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w3 travel)
+		(s2w1 then)
+		(s2w2 it)
+		(s2w5 light-year)
+		(s2w4 0.1)
+		(s2w8 y)
+		(s2w6 from)
+		(s2w7 planet)
+		(s2w11 Earth)
+		(s2w9 back)
+		(s2w10 to)
+	)
+
+	(LF1
+		(verb v2 s2w3)
+		(advmod v2 s2w1)
+		(nsubj v2 s2w2)
+		(dobj v2 n3)
+		(head n3 s2w5)
+		(nummod n3 s2w4)
+		(nmod v2 n16)
+		(head n16 s2w8)
+		(case n16 s2w6)
+		(compound n16 n17)
+		(head n17 s2w7)
+		(nmod v2 n18)
+		(head n18 s2w11)
+		(advmod n18 s2w9)
+		(case n18 s2w10)
+	)
+
+	(LF2
+		(= (quan q6 # s2w5) 0.1)(verb q6 s2w3)(role q6 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w4 do)
+		(s3w2 many)
+		(s3w1 how)
+		(s3w3 light-year)
+		(s3w7 travel)
+		(s3w5 the)
+		(s3w6 spaceship)
+		(s3w9 all)
+		(s3w8 in)
+	)
+
+	(LF1
+		(verb v3 s3w4)
+		(dep v3 s3w2)
+		(advmod v3 s3w1)
+		(nsubj v3 n4)
+		(head n4 s3w3)
+		(verb v3 n20)
+		(head n20 s3w7)
+		(det n20 s3w5)
+		(compound n20 n21)
+		(head n21 s3w6)
+		(nmod v3 s3w9)
+		(case v3 s3w8)
+	)
+
+	(LF2
+		
+		(= (quan q2 # s1w5) 0.5) (= (tvq v1 # s1w5 t0) (quan q2 # s1w5))
+		(= (quan q4 # s1w13) 0.1) (tvq_op v1 + q4 t0 t1)
+		(= (quan q6 # s2w5) 0.1) (tvq_op v1 + q6 t1 t2)
+		(ASK ANS (tvq v1 # s3w3 t2))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

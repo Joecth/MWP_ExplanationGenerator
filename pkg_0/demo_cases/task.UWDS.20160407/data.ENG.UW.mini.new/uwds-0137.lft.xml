@@ -1,0 +1,145 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 beekeeper)
+		(s1w1 Diane)
+		(s1w2 be)
+		(s1w3 a)
+	)
+
+	(LF1
+		(head n3 s1w4)
+		(nsubj n3 n4)
+		(head n4 s1w1)
+		(cop n3 s1w2)
+		(det n3 s1w3)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w4 harvest)
+		(s2w2 year)
+		(s2w1 last)
+		(s2w3 she)
+		(s2w6 pound)
+		(s2w5 2479)
+		(s2w8 honey)
+		(s2w7 of)
+	)
+
+	(LF1
+		(verb v1 s2w4)
+		(nmod_tmod v1 n5)
+		(head n5 s2w2)
+		(amod n5 s2w1)
+		(nsubj v1 s2w3)
+		(dobj v1 n6)
+		(head n6 s2w6)
+		(nummod n6 s2w5)
+		(nmod n6 n1)
+		(head n1 s2w8)
+		(case n1 s2w7)
+	)
+
+	(LF2
+		(= (quan q2 s2w6 s2w8) 2479)(verb q2 s2w4)(role q2 nmod)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w4 buy)
+		(s3w2 year)
+		(s3w1 this)
+		(s3w3 she)
+		(s3w7 hive)
+		(s3w5 some)
+		(s3w6 new)
+		(s3w8 and)
+		(s3w9 increase)
+		(s3w12 harvest)
+		(s3w10 she)
+		(s3w11 honey)
+		(s3w15 pound)
+		(s3w13 by)
+		(s3w14 6085)
+	)
+
+	(LF1
+		(HEAD v2 s3w4)
+		(nmod_tmod v2 n8)
+		(head n8 s3w2)
+		(det n8 s3w1)
+		(nsubj v2 s3w3)
+		(dobj v2 n9)
+		(head n9 s3w7)
+		(det n9 s3w5)
+		(amod n9 s3w6)
+		(cj_op j1 and)
+		(verb v2 s3w9)
+		(dobj v2 n10)
+		(head n10 s3w12)
+		(nmod_poss n10 s3w10)
+		(compound n10 n11)
+		(head n11 s3w11)
+		(nmod v2 n12)
+		(head n12 s3w15)
+		(case n12 s3w13)
+		(nummod n12 s3w14)
+	)
+
+	(LF2
+		(= (quan q4 s3w15 s2w8) 6085)(verb q4 s3w9)(dobj q4 s3w12)(role q4 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 do)
+		(s4w3 pound)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w5 honey)
+		(s4w4 of)
+		(s4w8 harvest)
+		(s4w7 Diane)
+		(s4w10 year)
+		(s4w9 this)
+	)
+
+	(LF1
+		(verb v3 s4w6)
+		(nsubj v3 n13)
+		(head n13 s4w3)
+		(amod n13 s4w2)
+		(advmod n13 s4w1)
+		(nmod n13 n2)
+		(head n2 s4w5)
+		(case n2 s4w4)
+		(verb v3 n15)
+		(head n15 s4w8)
+		(compound n15 n16)
+		(head n16 s4w7)
+		(nmod_tmod v3 n17)
+		(head n17 s4w10)
+		(det n17 s4w9)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q2 s2w6 s2w8) (quan q4 s3w15 s2w8)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

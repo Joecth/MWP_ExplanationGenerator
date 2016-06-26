@@ -1,0 +1,140 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 receive)
+		(s1w1 Benny)
+		(s1w4 dollar)
+		(s1w3 79)
+		(s1w5 and)
+		(s1w8 ticket)
+		(s1w6 9)
+		(s1w7 movie)
+		(s1w11 birthday)
+		(s1w9 for)
+		(s1w10 he)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(cj_op j1 and)
+		(conj n1 n2)
+		(head n2 s1w8)
+		(nummod n2 s1w6)
+		(compound n2 n7)
+		(head n7 s1w7)
+		(nmod v1 n8)
+		(head n8 s1w11)
+		(case n8 s1w9)
+		(nmod_poss n8 s1w10)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 79)(verb q2 s1w2)(role q2 dobj)
+		(= (quan q4 # s1w8) 9)(verb q4 s1w2)(role q4 conj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 go)
+		(s2w1 he)
+		(s2w7 store)
+		(s2w3 to)
+		(s2w4 a)
+		(s2w5 sport)
+		(s2w6 goods)
+		(s2w8 and)
+		(s2w9 buy)
+		(s2w12 glove)
+		(s2w10 a)
+		(s2w11 baseball)
+		(s2w13 baseball)
+		(s2w14 and)
+		(s2w15 bat)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 s2w1)
+		(nmod v2 n9)
+		(head n9 s2w7)
+		(case n9 s2w3)
+		(det n9 s2w4)
+		(dep n9 s2w5)
+		(dobj n9 n10)
+		(head n10 s2w6)
+		(cj_op j2 and)
+		(conj v2 s2w9)
+		(dobj v2 n11)
+		(head n11 s2w12)
+		(det n11 s2w10)
+		(compound n11 n12)
+		(head n12 s2w11)
+		(conj n11 n13)
+		(head n13 s2w13)
+		(cj_op j3 and)
+		(conj n11 n14)
+		(head n14 s2w15)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w8 do)
+		(s3w2 have)
+		(s3w1 he)
+		(s3w4 dollar)
+		(s3w3 32)
+		(s3w5 over)
+		(s3w7 much)
+		(s3w6 how)
+		(s3w10 spend)
+		(s3w9 he)
+		(s3w14 gear)
+		(s3w11 on)
+		(s3w12 the)
+		(s3w13 baseball)
+	)
+
+	(LF1
+		(HEAD v3 s3w8)
+		(verb v3 s3w2)
+		(nsubj v3 s3w1)
+		(dobj v3 n3)
+		(head n3 s3w4)
+		(nummod n3 s3w3)
+		(nmod v3 s3w5)
+		(nsubj v3 s3w7)
+		(advmod v3 s3w6)
+		(verb v3 s3w10)
+		(nsubj v3 s3w9)
+		(nmod v3 n16)
+		(head n16 s3w14)
+		(case n16 s3w11)
+		(det n16 s3w12)
+		(compound n16 n17)
+		(head n17 s3w13)
+	)
+
+	(LF2
+		(= (quan q6 # s3w4) 32)(verb q6 s3w2)(role q6 dobj)
+
+		(ASK ANS (Subtraction (quan q2 # s1w4) (quan q6 # s3w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(7):advmod={far(2):advmod={so(1)}},nsubj={[x1]orchard(5):det={a(4)}},aux={have(6)},dobj={total(10):det={a(8)},amod={combined(9)},nmod={pound(13):case={of(11)},nummod={9792(12)},nmod={fruit(18):case={of(14)},amod={fresh(15):cc={and(16)},conj={frozen(17)}}},nmod_tmod={season(20):det={this(19)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">so(1,RB): {So}</Word>
+		<Word idx="2">far(2,RB): {far}</Word>
+		<Word idx="3">a(4,DT): {an}</Word>
+		<Word idx="4">orchard(5,NN): {orchard}</Word>
+		<Word idx="5">have(6,VBZ): {has}</Word>
+		<Word idx="6">sell(7,VBN): {sold}</Word>
+		<Word idx="7">a(8,DT): {a}</Word>
+		<Word idx="8">combined(9,JJ): {combined}</Word>
+		<Word idx="9">total(10,NN): {total}</Word>
+		<Word idx="10">of(11,IN): {of}</Word>
+		<Word idx="11">9792(12,CD): {9792}</Word>
+		<Word idx="12">pound(13,NNS): {pounds}</Word>
+		<Word idx="13">of(14,IN): {of}</Word>
+		<Word idx="14">fresh(15,JJ): {fresh}</Word>
+		<Word idx="15">and(16,CC): {and}</Word>
+		<Word idx="16">frozen(17,JJ): {frozen}</Word>
+		<Word idx="17">fruit(18,NN): {fruit}</Word>
+		<Word idx="18">this(19,DT): {this}</Word>
+		<Word idx="19">season(20,NN): {season}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(19):advcl={sell(4):mark={if(1)},nsubj={[x1]they(2)},aux={have(3)},dobj={pound(6):nummod={3513(5)},nmod={fruit(9):case={of(7)},amod={frozen(8)}}}},nsubjpass={pound(13):amod={many(12):advmod={how(11)}},nmod={fruit(16):case={of(14)},amod={fresh(15)}}},aux={have(17)},auxpass={be(18)},advmod={far(21):advmod={so(20)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">they(2,PRP): {they}</Word>
+		<Word idx="3">have(3,VBP): {have}</Word>
+		<Word idx="4">sell(4,VBN): {sold}</Word>
+		<Word idx="5">3513(5,CD): {3513}</Word>
+		<Word idx="6">pound(6,NNS): {pounds}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">frozen(8,JJ): {frozen}</Word>
+		<Word idx="9">fruit(9,NN): {fruit}</Word>
+		<Word idx="10">how(11,WRB): {how}</Word>
+		<Word idx="11">many(12,JJ): {many}</Word>
+		<Word idx="12">pound(13,NNS): {pounds}</Word>
+		<Word idx="13">of(14,IN): {of}</Word>
+		<Word idx="14">fresh(15,JJ): {fresh}</Word>
+		<Word idx="15">fruit(16,NN): {fruit}</Word>
+		<Word idx="16">have(17,VBP): {have}</Word>
+		<Word idx="17">be(18,VBN): {been}</Word>
+		<Word idx="18">sell(19,VBN): {sold}</Word>
+		<Word idx="19">so(20,RB): {so}</Word>
+		<Word idx="20">far(21,RB): {far}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>
