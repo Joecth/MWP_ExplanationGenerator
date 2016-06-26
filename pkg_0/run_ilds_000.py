@@ -19,8 +19,7 @@ if __name__ == '__main__':
     #stdout, stdin = popen2.popen2('./run_ilds_1.py')
     #foo(3)
     #foo(1)
-    for tmp in range(1):
-        idx = tmp + 4 
+    for tmp in range(6):
+        idx = tmp 
         print ('Dir mini_%s :::'% idx)
         foo(idx)
-
