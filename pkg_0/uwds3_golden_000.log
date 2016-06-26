@@ -1973,11 +1973,7 @@ She  bought	87 books - 41 books = 46 books.
 
 
 ====================	start of case : uwds-0379	====================
-python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.Traceback (most recent call last):
-  File "__init__.py", line 878, in <module>
-    if "Verb" in lft_info_dict:
-NameError: name 'lft_info_dict' is not defined
-lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.stc.xml
+python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.DS3.new/uwds-0379.stc.xml
 ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 <Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
 
@@ -2186,6 +2182,8 @@ Case has no Answer from IE! Check case!
 Case's Question sentence may have no LF2!
 Case's Question sentence may have no LF2!
 Case's Question sentence may have no LF2!!
+Explanation : 
+ Ans:  today.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0390	^^^^^^^^^^^^^^^^^^^^
 
 

@@ -1623,11 +1623,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 3__0.125 bins
 			 4__0.125 bins
 			 5__0.5 bins
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Warning: Inconsistent of how's posistion. 
 
 Explanation : 
  Ans: 
-Totally Bins  would canned take	0.125 bins + 0.125 bins + 0.5 bins = 0.75 bins.
+Totally 	0.125 bins + 0.125 bins + 0.5 bins = 0.75 bins.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0221	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2113,7 +2114,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 3__1.25 inchlines
 			 4__5.25 inchlines
 Check case, no exactly tense and voice! Might be Stanford parser's issue!
-Active has no nsubj. Check case's nsubj!
+No nsubj. Check case's nsubj!
+Explanation : 
+ Ans: 
+	1.25 inchlines + 5.25 inchlines = 6.5 inchlines.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0245	^^^^^^^^^^^^^^^^^^^^
 
 
