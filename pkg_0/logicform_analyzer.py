@@ -108,14 +108,15 @@ class LogicFormAnalyzer:
                 '''EG : ret_subj V [EG Tree's explanation]. '''
                 key_lf0 = self.__LF1_dict.get("nsubj")
                 if not key_lf0:
-                    print("Active has no nsubj. Check case's nsubj!")
-                    sys.exit(2)
+                    print("No nsubj. Check case's nsubj!")
+                    # sys.exit(2)
+                    pass
                 # might be the case as demo/tmp.edemo.out.20160413/ex07.lft.xml
                 # (nsubj v4 n15)
                 # (head n15 s4w5),
                 # thus, we need to check one more layer
-
-                ret_subj, pos_noun_nouse = self.extract_lf1_encoded_info(key_lf0)
+                else:
+                    ret_subj, pos_noun_nouse = self.extract_lf1_encoded_info(key_lf0)
             # else: ## ilds-0145, handle LFT's error, it's verb is in sub-clause
                 ## regard this case as no 'verb' tag in LFT
                 # pass
@@ -254,19 +255,22 @@ class LogicFormAnalyzer:
                 #     elem = self.get_back_all_orig_lf0_keys(token)
                 #     lf0_keys.append(elem)
                 # lf0_keys.sort()
-                ret_1st_elem = decoded_lf0_keys[0]
-                for word in decoded_lf0_keys:
-                    basic_token = self.extract_lf1_encoded_info(word)[0]
-                    orig_token = basic2orig_dict.get(basic_token)
-                    if not orig_token: ## uwds-127, "'s" is mapped to None, we walk-around
-                        orig_token = basic_token
-                    ret_str += orig_token
-                    ret_str += " "
-                if ret_str[-1] == " ":
-                    ret_str = ret_str[:-1]
+                if decoded_lf0_keys:
+                    ret_1st_elem = decoded_lf0_keys[0]
+                    for word in decoded_lf0_keys:
+                        basic_token = self.extract_lf1_encoded_info(word)[0]
+                        orig_token = basic2orig_dict.get(basic_token)
+                        if not orig_token: ## uwds-127, "'s" is mapped to None, we walk-around
+                            orig_token = basic_token
+                        ret_str += orig_token
+                        ret_str += " "
+                    if ret_str[-1] == " ":
+                        ret_str = ret_str[:-1]
             else: # it's merely a string
+                orig_token = 'There' ##ilds-0017
                 basic_token = self.extract_lf1_encoded_info(key_lf0)[0]
-                orig_token = basic2orig_dict.get(basic_token)
+                if basic_token:
+                    orig_token = basic2orig_dict.get(basic_token)
                 ret_str += orig_token
                 # ret_str += self.extract_lf1_encoded_info(key_lf0)[0]
                 #str = self.__LF0_dict.get(key_lf0)

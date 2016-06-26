@@ -42,7 +42,7 @@ class STCAnalyzer:
         cargo = []
 
         # pat_basic_token = "\w+\(" # how(
-        pat_basic_token = "\w+[-|\w+]*\(" ##uw-228:light-year
+        pat_basic_token = "\w+[-|\w+|\.]*\(" ##uw-228:light-year  ##ilds-304 Mrs.
         pat_orig_token = "{.*}"
 
         ret_tense = None
@@ -150,6 +150,8 @@ class STCAnalyzer:
         s_tv = statemachine_tv(cargo)
         state, orig_verb = s_tv.go()
         ### TODO in uwds-0005, stanford parsing tree treat 'plant' as NN, thus state is Z3 state...
+        if not state: #ilds-0301
+            state = 'error_state'
         illegal_pat = 'Z\d'
         match = re.search(illegal_pat, state)
         if match:
@@ -173,7 +175,7 @@ class STCAnalyzer:
                     print('Illegal 1B state')
                     assert(0)
         else:
-            print('No state found!')
+            print('No state found! : ' + self.__input_file)
             assert(0)
 
         if int(ret_tense) >= 9: ## MD

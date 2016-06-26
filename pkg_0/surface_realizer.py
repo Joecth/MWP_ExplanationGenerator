@@ -105,7 +105,11 @@ def sr_CommonDiv(children, parent, verb):   ## 3
         q_right = extract_quan_from_quanstr(left)
         q_left  = extract_quan_from_quanstr(right)
 
-        template = "We got " + left + " with every " + right
+        import data20
+        if not data20.IS_LAST_IDX:
+            template = "We got " + left + " with every " + right
+        else:
+            template = left + '/' + right + ' = ' + parent
         # ret_set += left
         # ret_set += "is"
         ret_set += template
