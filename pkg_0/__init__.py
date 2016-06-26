@@ -45,8 +45,8 @@ from stc_analyzer import *
 # FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
 
 '''il cases'''
-# DIR = '0'
-# IDX = '0001'
+# DIR = '5'
+# IDX = '0548'
 # FILE_INPUT_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.trace.xml'
 # FILE_INPUT_LFT_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.lft.xml' #for Voice and Subject
 # FILE_INPUT_STC_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.stc.xml'
@@ -856,6 +856,9 @@ if ( __name__ == "__main__"):
                 tmp_v = verb_list[0]
 
             # explanation += sr(cdn_chunk, par_chunk, verb_list[0])
+            if i == last_idx:
+                import data20
+                data20.IS_LAST_IDX = True
             explanation += sr(cdn_chunk, par_chunk, tmp_v)
 
     if None != stc_obj:
@@ -874,23 +877,25 @@ if ( __name__ == "__main__"):
             if explanation[-1] == "\n":
                 explanation = explanation[:-1] # make "period sign" in the same line of last sentence
             # explanation += be_verb
+            if lft_obj:
+                if "Verb" in lft_info_dict:
+                    be_verb = " were "
+                    if int(quan_answer_final) == 1:
+                        be_verb = " was "
 
-            if "Verb" in lft_info_dict:
-                be_verb = " were "
-                if int(quan_answer_final) == 1:
-                    be_verb = " was "
+                    if explanation[-1] == "\n":
+                        explanation = explanation[:-1] # make "period sign" in the same line of last sentence
+                    explanation += be_verb
 
-                if explanation[-1] == "\n":
-                    explanation = explanation[:-1] # make "period sign" in the same line of last sentence
-                explanation += be_verb
-
-                verb = lft_info_dict.get("Verb")
-                morph_verb = morph_passive_verb(verb)
-                explanation += morph_verb
-            else:
-                # explanation += " WEIRD VERB "
-                explanation += " "
-                explanation += verb
+                    verb = lft_info_dict.get("Verb")
+                    morph_verb = morph_passive_verb(verb)
+                    explanation += morph_verb
+                else:
+                    # explanation += " WEIRD VERB "
+                    explanation += " "
+                    explanation += verb
+            else: # to prevent crash
+                pass
 
     ## POST handle
     if int(tense) >0:

@@ -89,11 +89,20 @@ verb_morph_dict = {"give": {"VBZ":"gives", "VBP":"give", "VBD":"gave", "VBN":"gi
                    "leave": {"VBZ":"leaves", "VBP":"leave", "VBD":"left", "VBN":"left"},
                    "end": {"VBZ":"ends with", "VBP":"end with", "VBD":"ended with", "VBN":"ended with"},
                    "eat": {"VBZ":"eats", "VBP":"eat", "VBD":"ate", "VBN":"eaten"},
+                   "get": {"VBZ":"gets", "VBP":"get", "VBD":"got", "VBN":"gotten"},
+                   "read": {"VBZ":"reads", "VBP":"read", "VBD":"read", "VBN":"read"},
+                   "see": {"VBZ":"sees", "VBP":"see", "VBD":"saw", "VBN":"seen"},
+                   "take": {"VBZ":"takes", "VBP":"take", "VBD":"took", "VBN":"taken"},
+                   "did": {"VBZ":"does", "VBP":"do", "VBD":"did", "VBN":"had"},
                   }
 
-stanford_issue_dict = {'have', 'find', 'sell', 'use', 'produce', 'eat', 'drink'}
+stanford_issue_dict = {'have', 'find', 'sell', 'use', 'produce', 'eat', 'drink', 'pick',
+                       'jump'}
 comparison_words_dict = {'more', 'than'}
 conj_set = ['while', 'While', 'if', 'If', 'when', 'When', 'before', 'after']
+
+IS_LAST_IDX = False
+
 global INF
 INF = 9999
 basic2orig_dict = {} #record question sentence's original words in STC, since LFT use basic form
