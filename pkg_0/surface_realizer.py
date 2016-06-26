@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+__author__ = 'JoeXPS13_AS'
 """
 surface_realizer.py,
 create template for fillers to make a sentence
@@ -21,65 +22,93 @@ def sr_Sum(children, parent):               ## 1
 
 def sr_Mul(children, parent):  ## 2   ## children is [obj1, obj2, ...]; parent is obj0
     # nf0 = ", 乘起來"
-    nf1 = "就是   "
-    nf2 = "="
-    ret_set = "\t"
 
-    for tmp in children:
-        ret_set += str(tmp)
-        ret_set += str("  ")
+    ret_set = None
+    ### TODO Refactor later
+    from data20 import IS_CHINESE_VERSION
+    if IS_CHINESE_VERSION:
+        ret_set = "\t"
+        nf1 = "就是   "
+        nf2 = "="
 
-    # ret_set += nf0
-    ret_set += nf1
+        for tmp in children:
+            ret_set += str(tmp)
+            ret_set += str("  ")
 
-    for i, tmp in enumerate(children):
-        # ret_set +=
-        tmp_quan = str(tmp)
-        get_quan = extract_quan_from_quanstr(tmp_quan) # need to get 3 from "3個"
-        if None == get_quan: # we need to get 1000 from "一仟元鈔票"
-            get_quan = chns_num_2_abra_num(tmp_quan)
+        # ret_set += nf0
+        ret_set += nf1
 
-        ret_set += str(get_quan)
-        if i is not len(children)-1:
-            ret_set += " * "
-        else:
-            ret_set += " = "
+        for i, tmp in enumerate(children):
+            # ret_set +=
+            tmp_quan = str(tmp)
+            get_quan = extract_quan_from_quanstr(tmp_quan) # need to get 3 from "3個"
+            if None == get_quan: # we need to get 1000 from "一仟元鈔票"
+                get_quan = chns_num_2_abra_num(tmp_quan)
 
-    # ret_set += nf2
-    ret_set += parent
+            ret_set += str(get_quan)
+            if i is not len(children)-1:
+                ret_set += " * "
+            else:
+                ret_set += " = "
+
+        # ret_set += nf2
+        ret_set += parent
+
+    else:
+        ret_set = "\t"
+        left  = str(children[0])
+        right = str(children[1])
+        q_right = extract_quan_from_quanstr(left)
+        q_left  = extract_quan_from_quanstr(right)
+
+        template = right + ' * ' + left + ' = ' + parent
+        ret_set +=template
 
     ret_set += "\n"
     return ret_set
 
 def sr_CommonDiv(children, parent, verb):   ## 3
     assert(2 == len(children))
-    ret_set = "\t"
-    ie  =   "就是"
-    # local_children = list(children)
-    # local_children.reverse()
-    ret_set += str(children[1])
-    ret_set += verb
-    ret_set += str(children[0])
+    ret_set = None
+    from data20 import IS_CHINESE_VERSION
+    ### TODO : refactor later
+    if IS_CHINESE_VERSION:
+        ret_set = "\t"
+        ie  =   "就是"
+        # local_children = list(children)
+        # local_children.reverse()
+        ret_set += str(children[1])
+        ret_set += verb
+        ret_set += str(children[0])
 
-    ret_set += ie
+        ret_set += ie
 
-    #TODO wrap extract_num API into function
-    for i, tmp in enumerate(children):
-        # ret_set +=
-        tmp_quan = str(tmp)
-        get_quan = extract_quan_from_quanstr(tmp_quan)
-        if None == get_quan:
-            get_quan = chns_num_2_abra_num(tmp_quan)
+        #TODO wrap extract_num API into function
+        for i, tmp in enumerate(children):
+            # ret_set +=
+            tmp_quan = str(tmp)
+            get_quan = extract_quan_from_quanstr(tmp_quan)
+            if None == get_quan:
+                get_quan = chns_num_2_abra_num(tmp_quan)
 
-        ret_set += str(get_quan)
-        if i is not len(children)-1:
-            ret_set += " ÷ "
-        else:
-            ret_set += " = "
+            ret_set += str(get_quan)
+            if i is not len(children)-1:
+                ret_set += " ÷ "
+            else:
+                ret_set += " = "
+        ret_set += parent
 
-    # for i, tmp in enumerate(children):
-    #     ret_set +=
-    ret_set += parent
+    else: ## English version now  ## ilds-119
+        ret_set = "\t"
+        left  = str(children[0])
+        right = str(children[1])
+        q_right = extract_quan_from_quanstr(left)
+        q_left  = extract_quan_from_quanstr(right)
+
+        template = "We got " + left + " with every " + right
+        # ret_set += left
+        # ret_set += "is"
+        ret_set += template
     ret_set += "\n"
     return ret_set
 
@@ -232,6 +261,7 @@ def find(pattern, string):
         print("not find")
 
 if (__name__ == "__main__"):
+    print("AAAAAA : "+str(IS_CHINESE_VERSION))
     print ("Hello srufacea_realizer.py!")
     cdn = ["2疊","一萬元鈔票"]
     par = "20000元"

@@ -47,7 +47,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2 cupflours
 Explanation : 
  Ans: 
-She  needs	8 cupflours - 2 cupflours = 6 cupflours.
+She  needs to add	8 cupflours - 2 cupflours = 6 cupflours.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0003	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -81,9 +81,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__55 trees
 			 4__22 trees
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-Walnut tree  did	55 trees - 22 trees = 33 trees.
+	55 trees - 22 trees = 33 trees.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0005	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -191,7 +192,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__7 dimes
 Explanation : 
  Ans: 
-Sam  has	9 dimes + 7 dimes = 16 dimes.
+Sam  has	9 dimes + 7 dimes = 16 dimes now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0011	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -209,7 +210,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__5 puppies
 Explanation : 
  Ans: 
-She  had	7 puppies + 5 puppies = 12 puppies.
+She  had to start	7 puppies + 5 puppies = 12 puppies.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0012	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -227,7 +228,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__6 pizzas
 Explanation : 
  Ans: 
-	9 pizzas + 6 pizzas = 15 pizzas were served.
+	9 pizzas + 6 pizzas = 15 pizzas were served today.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0013	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -245,7 +246,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 pencils
 Explanation : 
  Ans: 
-There are 	2 pencils + 3 pencils = 5 pencils.
+There are	2 pencils + 3 pencils = 5 pencils now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0014	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -281,7 +282,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 carrots
 Explanation : 
  Ans: 
-They  growed	6 carrots + 3 carrots = 9 carrots.
+They  grew	6 carrots + 3 carrots = 9 carrots.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0016	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -374,7 +375,7 @@ Explanation :
  Ans: 
 	7 dimes + 8 dimes = 15 dimes
 
-	Thus,  Melanie  has	15 dimes + 4 dimes = 19 dimes.
+	Thus,  Melanie  has	15 dimes + 4 dimes = 19 dimes now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0021	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -458,7 +459,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 5__9 onions
 Explanation : 
  Ans: 
-Totally They  growed	4 onions + 5 onions + 9 onions = 18 onions.
+Totally They  grew	4 onions + 5 onions + 9 onions = 18 onions.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0025	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -512,7 +513,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__28 watermelons
 Explanation : 
  Ans: 
-They  growed	23 watermelons + 28 watermelons = 51 watermelons.
+They  grew	23 watermelons + 28 watermelons = 51 watermelons.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0028	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -530,7 +531,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__14 rulers
 Explanation : 
  Ans: 
-There are 	11 rulers + 14 rulers = 25 rulers.
+There are	11 rulers + 14 rulers = 25 rulers now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0029	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -584,7 +585,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__25 quarters
 Explanation : 
  Ans: 
-He  has	49 quarters + 25 quarters = 74 quarters.
+He  has	49 quarters + 25 quarters = 74 quarters now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0032	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -674,7 +675,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__27 pencils
 Explanation : 
  Ans: 
-There are 	33 pencils + 27 pencils = 60 pencils.
+There are	33 pencils + 27 pencils = 60 pencils now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0037	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -692,7 +693,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__39 nickels
 Explanation : 
  Ans: 
-He  has	24 nickels + 39 nickels = 63 nickels.
+He  has	24 nickels + 39 nickels = 63 nickels now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0038	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -710,7 +711,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__47 turnips
 Explanation : 
  Ans: 
-They  growed	42 turnips + 47 turnips = 89 turnips.
+They  grew	42 turnips + 47 turnips = 89 turnips.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0039	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -746,7 +747,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__49 quarters
 Explanation : 
  Ans: 
-She  has	21 quarters + 49 quarters = 70 quarters.
+She  has	21 quarters + 49 quarters = 70 quarters now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0041	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -764,7 +765,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__30 pencils
 Explanation : 
  Ans: 
-There are 	41 pencils + 30 pencils = 71 pencils.
+There are	41 pencils + 30 pencils = 71 pencils now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0042	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -818,7 +819,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__44 cantelopes
 Explanation : 
  Ans: 
-They  growed	38 cantelopes + 44 cantelopes = 82 cantelopes.
+They  grew	38 cantelopes + 44 cantelopes = 82 cantelopes.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0045	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -934,7 +935,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 5__20 cantelopes
 Explanation : 
  Ans: 
-Totally They  growed	29 cantelopes + 16 cantelopes + 20 cantelopes = 65 cantelopes.
+Totally They  grew	29 cantelopes + 16 cantelopes + 20 cantelopes = 65 cantelopes.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0051	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -957,7 +958,7 @@ Explanation :
  Ans: 
 	19 dimes + 39 dimes = 58 dimes
 
-	Thus,  Melanie  has	58 dimes + 25 dimes = 83 dimes.
+	Thus,  Melanie  has	58 dimes + 25 dimes = 83 dimes now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0052	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -994,7 +995,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__20 cards
 Explanation : 
  Ans: 
-Sally  has	27 cards + 20 cards = 47 cards.
+Sally  has	27 cards + 20 cards = 47 cards now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0054	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1040,7 +1041,7 @@ Explanation :
  Ans: 
 	43 pencils + 19 pencils = 62 pencils
 
-	Thus,  There are 	62 pencils + 16 pencils = 78 pencils.
+	Thus,  There are	62 pencils + 16 pencils = 78 pencils now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0056	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1074,9 +1075,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__64 trees
 			 4__53 trees
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-How many maple tree  did	64 trees - 53 trees = 11 trees.
+	64 trees - 53 trees = 11 trees.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0058	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1128,9 +1130,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__67 dollars
 			 4__33 dollars
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-He  spent	67 dollars - 33 dollars = 34 dollars.
+	67 dollars - 33 dollars = 34 dollars.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0061	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1164,9 +1169,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__86 dollars
 			 4__74 dollars
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-He  made	86 dollars - 74 dollars = 12 dollars.
+	86 dollars - 74 dollars = 12 dollars.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0063	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1202,7 +1208,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__7 potatoes
 Explanation : 
  Ans: 
-They  growed	6 potatoes + 7 potatoes = 13 potatoes.
+They  grew	6 potatoes + 7 potatoes = 13 potatoes.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0065	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1220,7 +1226,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 crayons
 Explanation : 
  Ans: 
-There are 	9 crayons + 3 crayons = 12 crayons.
+There are	9 crayons + 3 crayons = 12 crayons now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0066	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1288,7 +1294,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__9 cakes
 Explanation : 
  Ans: 
-	6 cakes + 9 cakes = 15 cakes were served.
+	6 cakes + 9 cakes = 15 cakes were served today.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0070	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1306,7 +1312,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2 balloons
 Explanation : 
  Ans: 
-Joan  has	8 balloons - 2 balloons = 6 balloons.
+Joan  has	8 balloons - 2 balloons = 6 balloons now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0071	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1324,7 +1330,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 dimes
 Explanation : 
  Ans: 
-Fred  has	7 dimes - 3 dimes = 4 dimes.
+Fred  has	7 dimes - 3 dimes = 4 dimes now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0072	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1342,7 +1348,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2 kittens
 Explanation : 
  Ans: 
-She  has	8 kittens - 2 kittens = 6 kittens.
+She  has	8 kittens - 2 kittens = 6 kittens now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0073	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1378,7 +1384,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__45 pencils
 Explanation : 
  Ans: 
-There are 	27 pencils + 45 pencils = 72 pencils.
+There are	27 pencils + 45 pencils = 72 pencils now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0075	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1396,7 +1402,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__18 seashells
 Explanation : 
  Ans: 
-He  has	35 seashells - 18 seashells = 17 seashells.
+He  has	35 seashells - 18 seashells = 17 seashells now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0076	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1432,7 +1438,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__13 cards
 Explanation : 
  Ans: 
-Mike  has	87 cards - 13 cards = 74 cards.
+Mike  has	87 cards - 13 cards = 74 cards now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0078	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1450,7 +1456,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__23 pumpkins
 Explanation : 
  Ans: 
-They  growed	51 pumpkins + 23 pumpkins = 74 pumpkins.
+They  grew	51 pumpkins + 23 pumpkins = 74 pumpkins.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0079	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1486,7 +1492,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__14 marbles
 Explanation : 
  Ans: 
-He  has	64 marbles - 14 marbles = 50 marbles.
+He  has	64 marbles - 14 marbles = 50 marbles now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0081	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1522,7 +1528,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__22 scissorses
 Explanation : 
  Ans: 
-There are 	54 scissorses + 22 scissorses = 76 scissorses.
+There are	54 scissorses + 22 scissorses = 76 scissorses now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0083	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1558,7 +1564,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__93 pennies
 Explanation : 
  Ans: 
-He  has	98 pennies - 93 pennies = 5 pennies.
+He  has	98 pennies - 93 pennies = 5 pennies now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0085	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1576,7 +1582,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__63 seashells
 Explanation : 
  Ans: 
-She  has	79 seashells - 63 seashells = 16 seashells.
+She  has	79 seashells - 63 seashells = 16 seashells now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0086	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1630,7 +1636,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__418 quarters
 Explanation : 
  Ans: 
-She  has	760 quarters - 418 quarters = 342 quarters.
+She  has	760 quarters - 418 quarters = 342 quarters now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0089	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1648,7 +1654,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__113 turnips
 Explanation : 
  Ans: 
-They  growed	139 turnips + 113 turnips = 252 turnips.
+They  grew	139 turnips + 113 turnips = 252 turnips.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0090	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1666,7 +1672,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__224 cards
 Explanation : 
  Ans: 
-Jason  has	676 cards - 224 cards = 452 cards.
+Jason  has	676 cards - 224 cards = 452 cards now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0091	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1702,7 +1708,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__221 balloons
 Explanation : 
  Ans: 
-He  has	709 balloons - 221 balloons = 488 balloons.
+He  has	709 balloons - 221 balloons = 488 balloons now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0093	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1720,7 +1726,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__100 pencils
 Explanation : 
  Ans: 
-There are 	115 pencils + 100 pencils = 215 pencils.
+There are	115 pencils + 100 pencils = 215 pencils now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0094	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1738,7 +1744,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2 cards
 Explanation : 
  Ans: 
-Jason  has	3 cards - 2 cards = 1 card.
+Jason  has	3 cards - 2 cards = 1 card now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0095	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1756,7 +1762,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__4 marbles
 Explanation : 
  Ans: 
-He  has	8 marbles - 4 marbles = 4 marbles.
+He  has	8 marbles - 4 marbles = 4 marbles now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0096	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1774,7 +1780,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2 dimes
 Explanation : 
  Ans: 
-She  has	5 dimes - 2 dimes = 3 dimes.
+She  has	5 dimes - 2 dimes = 3 dimes now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0097	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1846,7 +1852,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__4 cards
 Explanation : 
  Ans: 
-He  had	9 cards + 4 cards = 13 cards.
+He  had to start	9 cards + 4 cards = 13 cards.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0101	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1864,7 +1870,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__5 nickels
 Explanation : 
  Ans: 
-Mary  has	7 nickels + 5 nickels = 12 nickels.
+Mary  has	7 nickels + 5 nickels = 12 nickels now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0102	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1882,7 +1888,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__9 turnips
 Explanation : 
  Ans: 
-They  growed	6 turnips + 9 turnips = 15 turnips.
+They  grew	6 turnips + 9 turnips = 15 turnips.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0103	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1918,7 +1924,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__4 carrots
 Explanation : 
  Ans: 
-They  growed	6 carrots + 4 carrots = 10 carrots.
+They  grew	6 carrots + 4 carrots = 10 carrots.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0105	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1936,7 +1942,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2 seashells
 Explanation : 
  Ans: 
-He  has	5 seashells - 2 seashells = 3 seashells.
+He  has	5 seashells - 2 seashells = 3 seashells now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0106	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1954,7 +1960,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 cards
 Explanation : 
  Ans: 
-Fred  has	5 cards - 3 cards = 2 cards.
+Fred  has	5 cards - 3 cards = 2 cards now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0107	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1972,7 +1978,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 potatoes
 Explanation : 
  Ans: 
-Mary  has	8 potatoes - 3 potatoes = 5 potatoes.
+Mary  has	8 potatoes - 3 potatoes = 5 potatoes now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0108	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2008,7 +2014,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 quarters
 Explanation : 
  Ans: 
-Jessica  has	8 quarters - 3 quarters = 5 quarters.
+Jessica  has	8 quarters - 3 quarters = 5 quarters now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0110	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2026,7 +2032,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 hamburgers
 Explanation : 
  Ans: 
-There are 	9 hamburgers - 3 hamburgers = 6 hamburgers.
+There were	9 hamburgers - 3 hamburgers = 6 hamburgers.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0111	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2044,7 +2050,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3 crayons
 Explanation : 
  Ans: 
-There are 	7 crayons - 3 crayons = 4 crayons.
+There are	7 crayons - 3 crayons = 4 crayons now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0112	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2062,7 +2068,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__4 limes
 Explanation : 
  Ans: 
-Dan  has	9 limes - 4 limes = 5 limes.
+Dan  has	9 limes - 4 limes = 5 limes now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0113	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2080,7 +2086,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2 balloons
 Explanation : 
  Ans: 
-Joan  has	9 balloons - 2 balloons = 7 balloons.
+Joan  has	9 balloons - 2 balloons = 7 balloons now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0114	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2098,7 +2104,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__27 apples
 Explanation : 
  Ans: 
-Joan  has	43 apples - 27 apples = 16 apples.
+Joan  has	43 apples - 27 apples = 16 apples now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0115	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2116,7 +2122,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__16 balloons
 Explanation : 
  Ans: 
-He  has	30 balloons - 16 balloons = 14 balloons.
+He  has	30 balloons - 16 balloons = 14 balloons now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0116	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2134,7 +2140,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__22 cards
 Explanation : 
  Ans: 
-Fred  has	40 cards - 22 cards = 18 cards.
+Fred  has	40 cards - 22 cards = 18 cards now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0117	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2152,7 +2158,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__25 seashells
 Explanation : 
  Ans: 
-He  has	47 seashells - 25 seashells = 22 seashells.
+He  has	47 seashells - 25 seashells = 22 seashells now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0118	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2188,7 +2194,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__26 books
 Explanation : 
  Ans: 
-Joan  has	33 books - 26 books = 7 books.
+Joan  has	33 books - 26 books = 7 books now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0120	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2206,7 +2212,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__25 rulers
 Explanation : 
  Ans: 
-There are 	46 rulers - 25 rulers = 21 rulers.
+There are	46 rulers - 25 rulers = 21 rulers now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0121	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2224,7 +2230,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__18 trees
 Explanation : 
  Ans: 
-There are 	33 trees - 18 trees = 15 trees.
+There will be	33 trees - 18 trees = 15 trees.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0122	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2276,6 +2282,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__5.71 USDs
 			 4__6.59 USDs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 Alyssa  spent	5.71 USDs + 6.59 USDs = 12.3 USDs.
@@ -2296,7 +2304,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__11.73 USDs
 Explanation : 
  Ans: 
-The total cost of Jessica 's purchase  was	10.22 USDs + 11.73 USDs = 21.95 USDs.
+The total cost of Jessica 's purchases was	10.22 USDs + 11.73 USDs = 21.95 USDs.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0126	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2314,7 +2322,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__5.10 USDs
 Explanation : 
  Ans: 
-The total of the lunch bill  was	5.36 USDs + 5.10 USDs = 10.46 USDs.
+The total of the lunch bill was	5.36 USDs + 5.10 USDs = 10.46 USDs.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0127	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2330,6 +2338,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__14.28 USDs
 			 4__4.74 USDs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 Jason  spent	14.28 USDs + 4.74 USDs = 19.02 USDs.
@@ -2348,6 +2358,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__12.08 USDs
 			 4__9.85 USDs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 Alyssa  spent	12.08 USDs + 9.85 USDs = 21.93 USDs.
@@ -2369,6 +2381,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__11.08 USDs
 					 6__14.33 USDs
 			 7__9.31 USDs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 	11.08 USDs + 14.33 USDs = 25.41 USDs
@@ -2461,6 +2475,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__9.050000000000001 USDs
 					 6__4.95 USDs
 			 7__6.52 USDs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 	9.050000000000001 USDs + 4.95 USDs = 14 USDs

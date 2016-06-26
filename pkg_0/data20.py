@@ -9,8 +9,10 @@ import os
 global ID ## in <Unit ID="">  tag
 DBG = False
 DBG_OUTPUT = False
+# global IS_CHINESE_VERSION
 IS_CHINESE_VERSION = False
-if "EG_Chinese" in os.environ :
+
+if "EG_Chinese" in os.environ:
     IS_CHINESE_VERSION = True
 
 verb_list = []
@@ -73,6 +75,7 @@ verb_morph_dict = {"give": {"VBZ":"gives", "VBP":"give", "VBD":"gave", "VBN":"gi
                    "go": {"VBZ":"goes", "VBP":"go", "VBD":"went", "VBN":"gone"},
                    "have": {"VBZ":"has", "VBP":"have", "VBD":"had", "VBN":"had"},
                    "find": {"VBZ":"finds", "VBP":"find", "VBD":"found", "VBN":"found"},
+                   "grow": {"VBZ":"grows", "VBP":"grow", "VBD":"grew", "VBN":"grown"},
                    "buy": {"VBZ":"buys", "VBP":"buy", "VBD":"bought", "VBN":"bought"},
                    "do": {"VBZ":"does", "VBP":"do", "VBD":"did", "VBN":"done"},
                    "make": {"VBZ":"makes", "VBP":"make", "VBD":"made", "VBN":"made"},
@@ -83,12 +86,18 @@ verb_morph_dict = {"give": {"VBZ":"gives", "VBP":"give", "VBD":"gave", "VBN":"gi
                    "put": {"VBZ":"puts", "VBP":"put", "VBD":"put", "VBN":"put"},
                    "run": {"VBZ":"runs", "VBP":"run", "VBD":"ran", "VBN":"run"},
                    "drink": {"VBZ":"drinks", "VBP":"drink", "VBD":"drank", "VBN":"drunk"},
+                   "leave": {"VBZ":"leaves", "VBP":"leave", "VBD":"left", "VBN":"left"},
+                   "end": {"VBZ":"ends with", "VBP":"end with", "VBD":"ended with", "VBN":"ended with"},
+                   "eat": {"VBZ":"eats", "VBP":"eat", "VBD":"ate", "VBN":"eaten"},
                   }
 
-conj_set = ['while', 'While', 'if', 'If', 'when', 'When']
+stanford_issue_dict = {'have', 'find', 'sell', 'use', 'produce', 'eat', 'drink'}
+comparison_words_dict = {'more', 'than'}
+conj_set = ['while', 'While', 'if', 'If', 'when', 'When', 'before', 'after']
 global INF
 INF = 9999
 basic2orig_dict = {} #record question sentence's original words in STC, since LFT use basic form
+
 
 if (__name__ == "__main__"):
     print ("Hello data20.py")

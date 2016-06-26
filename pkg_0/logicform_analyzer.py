@@ -15,7 +15,7 @@ FILE_OUTPUT_0       = 'lft_analyzer.out.xml'
 FILE_PARSING_LOG_0  = 'log.txt'
 
 class LogicFormAnalyzer:
-    def __init__(self, input_file, conj_pos):
+    def __init__(self, input_file, conj_pos, how_pos, voice):
         # print("Hello World")
         self.__input_file = input_file
         self.__log  = FILE_PARSING_LOG_0
@@ -24,6 +24,8 @@ class LogicFormAnalyzer:
         self.__LF1_dict = None
         self.__LF1_vm_dict = None #var mapping dictionary
         self.__conj_pos = conj_pos
+        self.__how_pos = how_pos
+        self.__voice = voice
         if (False == self.validate()):
             # print("Invalid LF!!")
             sys.exit(2)
@@ -65,39 +67,48 @@ class LogicFormAnalyzer:
         voice = None
         ret_subj = None
         ret_verb = None
-        pos_verb = None
+        position_verb = None
 
         '''checking Voice'''
+        voice = self.__voice
         if "be" == self.__LF0_dict.get(self.__LF1_dict.get("verb")):
+        # if voice == 'A':
             '''How many xxx "are" there ?'''
-            voice = "ThereBe"
+            pass
+            # voice = "ThereBe"
             # ret_verb = "are"
             '''EG : There are [EG Tree's explanation]''' ##TODO LF1 has no Tense info
+        # elif "be" == self.__LF0_dict.get(self.__LF1_dict.get("aux")):
+            ###TODO just a workaround here, need refactor in the futhre
+            '''WorkAround for a lexicon bug in UIUC's dataset, check ilds-0005,
+             which leads to Stanford to tag 'there' as VB'''
+            # voice = "ThereBe"
         else:
             '''Active or Passive'''
             ''' both need to get verb '''
             '''get verb'''
-            if "verb" in self.__LF1_dict:
-                key_lf0 = self.__LF1_dict.get("verb")
-                if not key_lf0:
-                    # print("Chcek case's verb!")
-                    sys.exit(2)
+            # if "verb" in self.__LF1_dict:
+            #     key_lf0 = self.__LF1_dict.get("verb")
+            #     if not key_lf0:
+            #         # print("Chcek case's verb!")
+            #         sys.exit(2)
+            #
+            #     ## TODO : make sure we no more need this
+            #     ret_verb, position_verb = self.extract_lf1_encoded_info(key_lf0)
 
-                # if not self.__LF0_dict.get(key_lf0):
-                #     # print("Check case!")
-                #     sys.exit(2)
-                ret_verb, pos_verb = self.extract_lf1_encoded_info(key_lf0)
-                # ret_verb = self.__LF0_dict.get(key_lf0)
-            if "auxpass" in self.__LF1_dict:
-                assert("nsubjpass" in self.__LF1_dict) ## not sure LFT's all cases, thus set here for debuggint
+
+            # if "auxpass" in self.__LF1_dict:
+            if "C" == voice:
+                # assert("nsubjpass" in self.__LF1_dict) <== ilds-0061 has only auxpass
                 voice = "Passive"
                 '''EG : [EG Tree's explanation] were/was Ved. '''
-            else:
-                voice = "Active"
+            if voice == 'B' or voice == 'D' or voice == 'B_VBP' or voice == 'B_VBZ'\
+                or "auxpass" not in self.__LF1_dict:
+                # voice = "Active"
                 '''EG : ret_subj V [EG Tree's explanation]. '''
                 key_lf0 = self.__LF1_dict.get("nsubj")
                 if not key_lf0:
-                    # print("Check case's nsubj!")
+                    print("Active has no nsubj. Check case's nsubj!")
                     sys.exit(2)
                 # might be the case as demo/tmp.edemo.out.20160413/ex07.lft.xml
                 # (nsubj v4 n15)
@@ -105,6 +116,9 @@ class LogicFormAnalyzer:
                 # thus, we need to check one more layer
 
                 ret_subj, pos_noun_nouse = self.extract_lf1_encoded_info(key_lf0)
+            # else: ## ilds-0145, handle LFT's error, it's verb is in sub-clause
+                ## regard this case as no 'verb' tag in LFT
+                # pass
 
 
         ret_dict = {}
@@ -112,7 +126,7 @@ class LogicFormAnalyzer:
         ret_dict["Subject"] = ret_subj
         if ret_verb:
             ret_dict["Verb"] = ret_verb
-        return ret_dict, pos_verb
+        return ret_dict, position_verb
 
 
         '''Build LF1 Hash'''
@@ -131,11 +145,30 @@ class LogicFormAnalyzer:
                 value = pair[-1]
 
                 match_lf1_value = re.search("s\d+w\d+", value)
-                if match_lf1_value:
+                match_lf0_value = re.search("s\d+w\d+", key)
+                if match_lf0_value:
+                    ## To clean infos not related to how's part
+                    word_ith = re.findall("\d+", match_lf0_value.group())[1]
+                    ## walk-around, ilds-0145,
+                    # how's position is not consistent between STC and LFT 'cause of punctuation
+                    # Therefore, we should get it again here instead of in STC... Damn...
+                    if value == "how" or value == "How" or value == "what" or value == "What":
+                        if int(self.__how_pos) != int(word_ith):
+                            print("Warning: Inconsistent of how's posistion. \n")
+                            self.__how_pos = word_ith
+                    if int(word_ith) < int(self.__how_pos):
+                        continue
+                    if int(word_ith) > int(self.__how_pos):
+                        if int(word_ith) >= int(self.__conj_pos):
+                            continue
+
+                    # ret_dict[key] = value
+
+                elif match_lf1_value:
                     ### TODO TODO solve clause issue
                     ## get the ith word of the Qsentence
                     ## to prevent the info in adv-clause from covering the main-clause info
-                    word_ith = re.findall("\d", match_lf1_value.group())[1]
+                    word_ith = re.findall("\d+", match_lf1_value.group())[1]
                     if int(word_ith) >= int(self.__conj_pos):
                         ## the Conjection is serving as 1st sentence, main clause's info hasn't be extracted
                         if "verb" not in ret_dict and "nsubj" not in ret_dict:
@@ -144,6 +177,7 @@ class LogicFormAnalyzer:
                             assert(0)
                         else:
                             break
+
                 ret_dict[key] = value
                 # print(ret_dict)
         return ret_dict
@@ -205,8 +239,10 @@ class LogicFormAnalyzer:
             re_mapping_key = self.__LF1_vm_dict.get(key_lf0)
             ## re_mapping_key should be n# or [s3w7, s3w8]
             if not re_mapping_key:
-                print("Remapping in LF1 failed, Check case!")
-                sys.exit(2)
+                ## ilds-0145, 'must' , problem is from lf's wrongly catched verb in sub-clause
+                # print("Warning: Remapping in LF1 failed, Check case!")
+                # sys.exit(2)
+                return [None, None]
 
             key_lf0 = re_mapping_key
 
@@ -220,12 +256,19 @@ class LogicFormAnalyzer:
                 # lf0_keys.sort()
                 ret_1st_elem = decoded_lf0_keys[0]
                 for word in decoded_lf0_keys:
-                    ret_str += self.extract_lf1_encoded_info(word)[0]
+                    basic_token = self.extract_lf1_encoded_info(word)[0]
+                    orig_token = basic2orig_dict.get(basic_token)
+                    if not orig_token: ## uwds-127, "'s" is mapped to None, we walk-around
+                        orig_token = basic_token
+                    ret_str += orig_token
                     ret_str += " "
                 if ret_str[-1] == " ":
                     ret_str = ret_str[:-1]
             else: # it's merely a string
-                ret_str += self.extract_lf1_encoded_info(key_lf0)[0]
+                basic_token = self.extract_lf1_encoded_info(key_lf0)[0]
+                orig_token = basic2orig_dict.get(basic_token)
+                ret_str += orig_token
+                # ret_str += self.extract_lf1_encoded_info(key_lf0)[0]
                 #str = self.__LF0_dict.get(key_lf0)
 
         return [ret_str, ret_1st_elem]
@@ -248,8 +291,13 @@ class LogicFormAnalyzer:
                     # assert(0)
                     # key = self.__LF1_vm_dict.get(re_map_lf0_key)
                     ret_val.append(re_map_lf0_key)
-        ret_val.sort()
-        return ret_val
+        ## solve uwds-138, walk around Stanford's issue: "In all, how many XXXX", I don't record "In all"
+        ret_val_new = []
+        for tmp in ret_val:
+            if tmp: ## to pop-out None object in this list
+                ret_val_new.append(tmp)
+        ret_val_new.sort()
+        return ret_val_new
 
 
 if(__name__ == "__main__"):

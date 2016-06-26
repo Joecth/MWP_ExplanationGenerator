@@ -9,9 +9,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__5973 toncargoes
 			 4__8723 tononboards
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-The ship  holds	5973 toncargoes + 8723 tononboards = 14696 toncargoes.
+	5973 toncargoes + 8723 tononboards = 14696 toncargoes.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0135	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -27,6 +28,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__1346 mufves
 			 4__6444 mufves
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 The customers  buy	1346 mufves + 6444 mufves = 7790 mufves.
@@ -45,9 +48,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__2479 poundhoneys
 			 4__6085 poundhoneys
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-How many pound of honey  Diane harvested	2479 poundhoneys + 6085 poundhoneys = 8564 poundhoneys.
+	2479 poundhoneys + 6085 poundhoneys = 8564 poundhoneys.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0137	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -63,9 +67,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__6522 literoils
 			 4__5165 literoils
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-In all how many liter of oil  have/has leaked	6522 literoils + 5165 literoils = 11687 literoils.
+	6522 literoils + 5165 literoils = 11687 literoils.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0138	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -83,7 +90,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2871 cars
 Explanation : 
  Ans: 
-There are 	3884 cars + 2871 cars = 6755 cars.
+There is	3884 cars + 2871 cars = 6755 cars.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0139	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -119,7 +126,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__5106 books
 Explanation : 
  Ans: 
-The library in Oak Groves  have	1986 books + 5106 books = 7092 books.
+The libraries in Oak Grove  have	1986 books + 5106 books = 7092 books.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0141	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -137,7 +144,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__97741 houses
 Explanation : 
  Ans: 
-There are 	20817 houses + 97741 houses = 118558 houses.
+There are	20817 houses + 97741 houses = 118558 houses now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0142	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -153,9 +160,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__48097 bushels
 			 4__684 bushels
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-How many bushel of wheat  the farmer harvests	48097 bushels + 684 bushels = 48781 bushels.
+	48097 bushels + 684 bushels = 48781 bushels.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0143	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -173,7 +181,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__26935 USDs
 Explanation : 
  Ans: 
-There are 	69 USDs + 26935 USDs = 27004 USDs.
+There was	69 USDs + 26935 USDs = 27004 USDs.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0144	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -189,9 +197,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__14507 passengers
 			 4__213 passengers
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-In all how many passenger  landed	14507 passengers + 213 passengers = 14720 passengers.
+	14507 passengers + 213 passengers = 14720 passengers.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0145	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -207,9 +218,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__64535 acres
 			 4__522 acres
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-How many acre  the prairie covers	64535 acres - 522 acres = 64013 acres.
+	64535 acres - 522 acres = 64013 acres.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0146	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -227,7 +239,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__54912 ladybugs
 Explanation : 
  Ans: 
-There are 	12170 ladybugs + 54912 ladybugs = 67082 ladybugs.
+There are	12170 ladybugs + 54912 ladybugs = 67082 ladybugs.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0147	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -243,9 +255,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__90171 peoples
 			 4__16320 peoples
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-How many new people  begined	90171 peoples + 16320 peoples = 106491 peoples.
+	90171 peoples + 16320 peoples = 106491 peoples.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0148	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -299,7 +312,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__63093 employees
 Explanation : 
  Ans: 
-How many employees  work	2041 employees + 63093 employees = 65134 employees.
+	2041 employees + 63093 employees = 65134 employees
+ work.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0151	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -315,9 +329,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__712261 males
 			 4__259378 salmons
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-How many salmon  made	712261 males + 259378 salmons = 971639 males.
+	712261 males + 259378 salmons = 971639 males.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0152	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -335,7 +350,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__4969 suits
 Explanation : 
  Ans: 
-There are 	14797 suits + 4969 suits = 19766 suits.
+There are	14797 suits + 4969 suits = 19766 suits.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0153	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -353,7 +368,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__1426 houses
 Explanation : 
  Ans: 
-Developer  built	2000 houses - 1426 houses = 574 houses.
+Developers  built	2000 houses - 1426 houses = 574 houses.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0154	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -371,7 +386,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__4221 cells
 Explanation : 
  Ans: 
-There are 	7341 cells - 4221 cells = 3120 cells.
+There were	7341 cells - 4221 cells = 3120 cells.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0155	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -387,9 +402,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__9792 poundfruits
 			 4__3513 poundfruits
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-	9792 poundfruits - 3513 poundfruits = 6279 poundfruits were sold.
+	9792 poundfruits - 3513 poundfruits = 6279 poundfruits have been sold.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0156	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -405,9 +422,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__1472 USDs
 			 4__12 USDs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-There are 	1472 USDs - 12 USDs = 1460 USDs.
+There is	1472 USDs - 12 USDs = 1460 USDs now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0157	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -423,6 +442,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__9570 tickets
 			 4__3867 tickets
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 They  sold	9570 tickets - 3867 tickets = 5703 tickets.
@@ -443,7 +464,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__600 bacteriums
 Explanation : 
  Ans: 
-There are 	8917 bacteriums - 600 bacteriums = 8317 bacteriums.
+There are	8917 bacteriums - 600 bacteriums = 8317 bacteriums more now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0159	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -459,6 +480,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__1576 pieces
 			 4__344 pieces
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 Tori  picked	1576 pieces - 344 pieces = 1232 pieces.
@@ -477,9 +500,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__1339 eggs
 			 4__816 eggs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-They  used	1339 eggs - 816 eggs = 523 eggs.
+They  used	1339 eggs - 816 eggs = 523 eggs today.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0161	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -497,7 +522,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__193 ones
 Explanation : 
  Ans: 
-There are 	6048 lambs - 193 ones = 5855 lambs.
+There are	6048 lambs - 193 ones = 5855 lambs.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0162	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -531,6 +556,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__6689 gallonpaints
 			 4__660 gallonpaints
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 The company  used	6689 gallonpaints - 660 gallonpaints = 6029 gallonpaints.
@@ -567,9 +594,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__7422 customers
 			 4__723 customers
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-Manys  live	7422 customers - 723 customers = 6699 customers.
+	7422 customers - 723 customers = 6699 customers live.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0166	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -587,7 +616,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__1416 eggs
 Explanation : 
  Ans: 
-The farm  produced	4636 eggs - 1416 eggs = 3220 eggs.
+The farms  produced	4636 eggs - 1416 eggs = 3220 eggs more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0167	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -603,9 +632,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__6206 gallonoils
 			 4__2475 gallonoils
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-How many gallon of oil  have/has leaked	6206 gallonoils - 2475 gallonoils = 3731 gallonoils.
+	6206 gallonoils - 2475 gallonoils = 3731 gallonoils.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0168	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -623,7 +653,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__45 gems
 Explanation : 
  Ans: 
-There are 	5155 gems - 45 gems = 5110 gems.
+There were	5155 gems - 45 gems = 5110 gems.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0169	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -639,6 +669,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__6310 gramjellies
 			 4__4518 gramjellies
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 They  have	6310 gramjellies - 4518 gramjellies = 1792 gramjellies.
@@ -677,7 +709,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__805 inchroads
 Explanation : 
  Ans: 
-They  had	4938 inchroads - 805 inchroads = 4133 inchroads.
+They  had repaved	4938 inchroads - 805 inchroads = 4133 inchroads.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0172	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -695,7 +727,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__809 plants
 Explanation : 
  Ans: 
-There are 	3263 plants - 809 plants = 2454 plants.
+There are	3263 plants - 809 plants = 2454 plants more now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0173	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -713,7 +745,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.25 mileschools
 Explanation : 
  Ans: 
-There are 	0.75 mileschools - 0.25 mileschools = 0.5 mileschools.
+There is	0.75 mileschools - 0.25 mileschools = 0.5 mileschools longer.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0174	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -767,7 +799,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.3333333333333333 pies
 Explanation : 
  Ans: 
-Erik  eated	0.6666666666666666 pies - 0.3333333333333333 pies = 0.333333 pies.
+Erik  ate	0.6666666666666666 pies - 0.3333333333333333 pies = 0.333333 pies more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0177	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -785,7 +817,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.5 inchcuts
 Explanation : 
  Ans: 
-The tailor  cut	0.75 inchcuts - 0.5 inchcuts = 0.25 inchcuts.
+The tailor  cut	0.75 inchcuts - 0.5 inchcuts = 0.25 inchcuts more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0178	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -803,7 +835,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.25 bikinis
 Explanation : 
  Ans: 
-Bikiniss  are	0.375 trunks + 0.25 bikinis = 0.625 trunks.
+ The fraction is 	0.375 trunks + 0.25 bikinis = 0.625 trunks.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0179	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -819,9 +851,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__0.875 laps
 			 4__0.75 laps
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-Much  Darnel sprinted	0.875 laps - 0.75 laps = 0.125 laps.
+	0.875 laps - 0.75 laps = 0.125 laps.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0180	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -839,7 +872,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.2 footfishes
 Explanation : 
  Ans: 
-There are 	0.3 footfishes - 0.2 footfishes = 0.1 footfishes.
+There was	0.3 footfishes - 0.2 footfishes = 0.1 footfishes longer.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0181	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -873,9 +906,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.125 scoopfoods
 			 4__0.125 scoopfoods
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-The 2 dogs  do	0.125 scoopfoods + 0.125 scoopfoods = 0.25 scoopfoods.
+The 2 dogs  eat	0.125 scoopfoods + 0.125 scoopfoods = 0.25 scoopfoods.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0183	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -893,7 +928,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.2 gallonwaters
 Explanation : 
  Ans: 
-There are 	0.8 gallonwaters - 0.2 gallonwaters = 0.6 gallonwaters.
+There is	0.8 gallonwaters - 0.2 gallonwaters = 0.6 gallonwaters.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0184	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -911,7 +946,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.5 tablespoons
 Explanation : 
  Ans: 
-Mandy  used	0.6666666666666666 tablespoons - 0.5 tablespoons = 0.166667 tablespoons.
+Mandy  used	0.6666666666666666 tablespoons - 0.5 tablespoons = 0.166667 tablespoons more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0185	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -927,6 +962,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.6 families
 			 4__0.2 groceries
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 Family the Montoya  spends	0.6 families + 0.2 groceries = 0.8 families.
@@ -945,9 +982,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.7 classes
 			 4__0.2 classes
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-What fraction of the student  receiveded	0.7 classes + 0.2 classes = 0.9 classes.
+	0.7 classes + 0.2 classes = 0.9 classes.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0187	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -963,9 +1001,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.16666666666666666 cupoils
 			 4__0.6666666666666666 cupoils
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-How much oil  will be	0.16666666666666666 cupoils + 0.6666666666666666 cupoils = 0.833333 cupoils.
+How much oil  will be measuring	0.16666666666666666 cupoils + 0.6666666666666666 cupoils = 0.833333 cupoils.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0188	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1001,7 +1041,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.2 miles
 Explanation : 
  Ans: 
-Stanley  ran	0.4 miles - 0.2 miles = 0.2 miles.
+Stanley  ran to walk	0.4 miles - 0.2 miles = 0.2 miles more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0190	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1019,7 +1059,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.25 cupsugars
 Explanation : 
  Ans: 
-Dina  used	0.625 cupflours - 0.25 cupsugars = 0.375 cupflours.
+Dina  used	0.625 cupflours - 0.25 cupsugars = 0.375 cupflours more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0191	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1055,7 +1095,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.4 miles
 Explanation : 
  Ans: 
-Jenny  ran	0.6 miles - 0.4 miles = 0.2 miles.
+Jenny  ran to walk	0.6 miles - 0.4 miles = 0.2 miles more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0193	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1073,7 +1113,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.125 sections
 Explanation : 
  Ans: 
-What fraction of the student in the bands  are	0.5 sections + 0.125 sections = 0.625 sections.
+ The fraction is 	0.5 sections + 0.125 sections = 0.625 sections.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0194	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1091,7 +1131,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.1 inchworms
 Explanation : 
  Ans: 
-There are 	0.8 inchworms - 0.1 inchworms = 0.7 inchworms.
+There was	0.8 inchworms - 0.1 inchworms = 0.7 inchworms longer.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0195	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1127,7 +1167,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.5 mileschools
 Explanation : 
  Ans: 
-There are 	0.625 mileschools - 0.5 mileschools = 0.125 mileschools.
+There is	0.625 mileschools - 0.5 mileschools = 0.125 mileschools longer.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0197	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1163,7 +1203,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.5 inchhairs
 Explanation : 
  Ans: 
-She   have/has cut	0.375 inchhairs + 0.5 inchhairs = 0.875 inchhairs.
+She  had to cut	0.375 inchhairs + 0.5 inchhairs = 0.875 inchhairs.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0199	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1181,7 +1221,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.3333333333333333 apartments
 Explanation : 
  Ans: 
-What fraction of the apartments  are	0.16666666666666666 apartments + 0.3333333333333333 apartments = 0.5 apartments.
+ The fraction is 	0.16666666666666666 apartments + 0.3333333333333333 apartments = 0.5 apartments.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0200	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1199,7 +1239,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.5 footsandcastles
 Explanation : 
  Ans: 
-There are 	0.8333333333333334 footsandcastles - 0.5 footsandcastles = 0.333333 footsandcastles.
+There was	0.8333333333333334 footsandcastles - 0.5 footsandcastles = 0.333333 footsandcastles more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0201	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1235,7 +1275,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.3 boxes
 Explanation : 
  Ans: 
-Kelly  had	0.4 boxes - 0.3 boxes = 0.1 boxes.
+Kelly  had	0.4 boxes - 0.3 boxes = 0.1 boxes more yesterday.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0203	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1269,9 +1309,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__0.4 acres
 			 4__0.1 acres
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-How many more acre  Greg harvested	0.4 acres - 0.1 acres = 0.3 acres.
+	0.4 acres - 0.1 acres = 0.3 acres.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0205	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1289,7 +1330,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.52 d Warning!! Weird Word from IE! 
 Explanation : 
  Ans: 
-Or 4d either size 2ds  are	0.254 d Warning!! Weird Word from IE!  + 0.52 d Warning!! Weird Word from IE!  = 0.754 d Warning!! Weird Word from IE! .
+ The fraction is 	0.254 d Warning!! Weird Word from IE!  + 0.52 d Warning!! Weird Word from IE!  = 0.754 d Warning!! Weird Word from IE! .
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0206	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1307,7 +1348,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.25 scoopsugars
 Explanation : 
  Ans: 
-Victor  used	0.625 scoopsugars - 0.25 scoopsugars = 0.375 scoopsugars.
+Victor  used	0.625 scoopsugars - 0.25 scoopsugars = 0.375 scoopsugars more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0207	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1325,7 +1366,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.6 miles
 Explanation : 
  Ans: 
-Eve  ran	0.7 miles - 0.6 miles = 0.1 miles.
+Eve  ran to walk	0.7 miles - 0.6 miles = 0.1 miles more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0208	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1359,9 +1400,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__1 cat
 			 4__0.9 days
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-	1 cat - 0.9 days = 0.1 cats were needed.
+	1 cat - 0.9 days = 0.1 cats.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0210	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1379,7 +1421,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.5 inchmornings
 Explanation : 
  Ans: 
-The total amount of snowfall  was	0.125 inchmornings + 0.5 inchmornings = 0.625 inchmornings.
+The total amount of snowfall was	0.125 inchmornings + 0.5 inchmornings = 0.625 inchmornings.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0211	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1395,9 +1437,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.2 bags
 			 4__0.1 bags
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-How many bag of flour  the bakery used	0.2 bags + 0.1 bags = 0.3 bags.
+	0.2 bags + 0.1 bags = 0.3 bags.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0212	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1415,7 +1458,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.5 gallonwaters
 Explanation : 
  Ans: 
-Water  have/has leaked	0.75 gallonwaters - 0.5 gallonwaters = 0.25 gallonwaters.
+Water  had leaked	0.75 gallonwaters - 0.5 gallonwaters = 0.25 gallonwaters.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0213	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1434,11 +1477,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__0.2 milecars
 					 6__0.4 milecars
 			 7__0.1 milecars
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
 	0.2 milecars + 0.4 milecars = 0.6000000000000001 milecars
 
-	Thus,  How many mile  Irwin 's family hiked	0.6000000000000001 milecars + 0.1 milecars = 0.7000000000000001 milecars.
+	Thus,  	0.6000000000000001 milecars + 0.1 milecars = 0.7000000000000001 milecars.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0214	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1476,6 +1520,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__0.25 bottletables
 					 6__0.25 bottletables
 			 7__0.375 bottletables
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 	0.25 bottletables + 0.25 bottletables = 0.5 bottletables
@@ -1577,9 +1623,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 3__0.125 bins
 			 4__0.125 bins
 			 5__0.5 bins
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-Totally Bin  have/has taked	0.125 bins + 0.125 bins + 0.5 bins = 0.75 bins.
+Totally Bins  would canned take	0.125 bins + 0.125 bins + 0.5 bins = 0.75 bins.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0221	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1598,11 +1646,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__0.3333333333333333 tonpieces
 					 6__0.3333333333333333 tonpieces
 			 7__0.08333333333333333 tonpieces
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
 	0.3333333333333333 tonpieces + 0.3333333333333333 tonpieces = 0.6666666666666666 tonpieces
 
-	Thus,  How many ton of marble  did	0.6666666666666666 tonpieces + 0.08333333333333333 tonpieces = 0.75 tonpieces.
+	Thus,  	0.6666666666666666 tonpieces + 0.08333333333333333 tonpieces = 0.75 tonpieces.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0222	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1644,11 +1693,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__0.1666666666666667 centimeters
 					 6__0.4166666666666667 centimeters
 			 7__0.08333333333333333 centimeters
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
 	0.1666666666666667 centimeters + 0.4166666666666667 centimeters = 0.5833333333333334 centimeters
 
-	Thus,  How many centimeter of rain  the class recorded	0.5833333333333334 centimeters + 0.08333333333333333 centimeters = 0.6666666666666667 centimeters.
+	Thus,  	0.5833333333333334 centimeters + 0.08333333333333333 centimeters = 0.6666666666666667 centimeters.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0224	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1688,9 +1738,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 3__0.16666666666666666 tonbricks
 			 4__0.5 tonstones
 			 5__0.16666666666666666 tonconcretes
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-Totally How many ton of material  the company ordered	0.16666666666666666 tonbricks + 0.5 tonstones + 0.16666666666666666 tonconcretes = 0.833333 u Warning!! Weird Word from IE! .
+Totally 	0.16666666666666666 tonbricks + 0.5 tonstones + 0.16666666666666666 tonconcretes = 0.833333 u Warning!! Weird Word from IE! .
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0226	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1728,11 +1779,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__0.5 lights
 					 6__0.1 lights
 			 7__0.1 lights
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
 	0.5 lights + 0.1 lights = 0.6 lights
 
-	Thus,  Light-year  the spaceship traveled	0.6 lights + 0.1 lights = 0.7 lights.
+	Thus,  	0.6 lights + 0.1 lights = 0.7 lights.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0228	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1793,11 +1845,12 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 					 5__0.25 pitcherlemonades
 					 6__0.4166666666666667 pitcherlemonades
 			 7__0.25 pitcherlemonades
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
 	0.25 pitcherlemonades + 0.4166666666666667 pitcherlemonades = 0.6666666666666667 pitcherlemonades
 
-	Thus,  Jonah  poured	0.6666666666666667 pitcherlemonades + 0.25 pitcherlemonades = 0.9166666666666667 pitcherlemonades.
+	Thus,  	0.6666666666666667 pitcherlemonades + 0.25 pitcherlemonades = 0.9166666666666667 pitcherlemonades.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0231	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1858,7 +1911,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 5__0.4166666666666667 ouncerings
 Explanation : 
  Ans: 
-Totally The total weight of the plastic ring  was	0.08333333333333333 ouncerings + 0.3333333333333333 ouncerings + 0.4166666666666667 ouncerings = 0.833333 u Warning!! Weird Word from IE! .
+Totally The total weight of the plastic rings was	0.08333333333333333 ouncerings + 0.3333333333333333 ouncerings + 0.4166666666666667 ouncerings = 0.833333 u Warning!! Weird Word from IE! .
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0234	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1912,7 +1965,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.16666666666666666 milebuses
 Explanation : 
  Ans: 
-Craig ride  walked	3.8333333333333335 milebuses - 0.16666666666666666 milebuses = 3.666667 milebuses.
+Craig ride  walked	3.8333333333333335 milebuses - 0.16666666666666666 milebuses = 3.666667 milebuses more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0237	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1928,9 +1981,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__7.125 poundtextbooks
 			 4__0.625 poundtextbooks
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-Much  does	7.125 poundtextbooks - 0.625 poundtextbooks = 6.5 poundtextbooks.
+	7.125 poundtextbooks - 0.625 poundtextbooks = 6.5 poundtextbooks.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0238	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -1964,9 +2018,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__1 bucketwater
 			 4__8.8 bucketwaters
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-Sam  poured	1 bucketwater + 8.8 bucketwaters = 9.8 bucketwaters.
+	1 bucketwater + 8.8 bucketwaters = 9.8 bucketwaters.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0240	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2000,9 +2055,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__3 gallonwaters
 			 4__6.8 gallonwaters
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-There  will be	3 gallonwaters + 6.8 gallonwaters = 9.8 gallonwaters.
+There will be	3 gallonwaters + 6.8 gallonwaters = 9.8 gallonwaters.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0242	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2036,9 +2093,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__11.166666666666666 poundirons
 			 4__0.8333333333333334 poundirons
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-The piece of iron  weighed	11.166666666666666 poundirons - 0.8333333333333334 poundirons = 10.333333 poundirons.
+	11.166666666666666 poundirons - 0.8333333333333334 poundirons = 10.333333 poundirons.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0244	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2054,6 +2112,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__1.25 inchlines
 			 4__5.25 inchlines
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
+Active has no nsubj. Check case's nsubj!
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0245	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2089,7 +2149,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2.3333333333333335 footsandcastles
 Explanation : 
  Ans: 
-There are 	3.6666666666666665 footsandcastles - 2.3333333333333335 footsandcastles = 1.333333 footsandcastles.
+There was	3.6666666666666665 footsandcastles - 2.3333333333333335 footsandcastles = 1.333333 footsandcastles more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0247	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2107,7 +2167,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__1.1666666666666667 inchcaterpillars
 Explanation : 
  Ans: 
-There are 	3 inchcaterpillars - 1.1666666666666667 inchcaterpillars = 1.833333 inchcaterpillars.
+There was	3 inchcaterpillars - 1.1666666666666667 inchcaterpillars = 1.833333 inchcaterpillars longer.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0248	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2125,7 +2185,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.25 pintcreams
 Explanation : 
  Ans: 
-They  eated	3.25 pintcreams + 0.25 pintcreams = 3.5 pintcreams.
+They  ate	3.25 pintcreams + 0.25 pintcreams = 3.5 pintcreams.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0249	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2161,7 +2221,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__1 footlamp
 Explanation : 
  Ans: 
-There are 	2.3333333333333335 footlamps - 1 footlamp = 1.333333 footlamps.
+There is	2.3333333333333335 footlamps - 1 footlamp = 1.333333 footlamps more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0251	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2179,7 +2239,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__3.3333333333333335 inchlines
 Explanation : 
  Ans: 
-There are 	7.666666666666667 inchlines - 3.3333333333333335 inchlines = 4.333333 inchlines.
+There was	7.666666666666667 inchlines - 3.3333333333333335 inchlines = 4.333333 inchlines longer.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0252	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2195,9 +2255,11 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__7.75 gallonwaters
 			 4__7 gallonwaters
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
-There  will be	7.75 gallonwaters + 7 gallonwaters = 14.75 gallonwaters.
+There will be	7.75 gallonwaters + 7 gallonwaters = 14.75 gallonwaters.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0253	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2215,7 +2277,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__9.166666666666666 milewendies
 Explanation : 
  Ans: 
-Wendy  ran	19.833333333333332 milewendies - 9.166666666666666 milewendies = 10.666667 milewendies.
+Wendy  ran to walk	19.833333333333332 milewendies - 9.166666666666666 milewendies = 10.666667 milewendies more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0254	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2233,7 +2295,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.4 poundblocks
 Explanation : 
  Ans: 
-The yellow block  weighed	0.6 poundblocks - 0.4 poundblocks = 0.2 poundblocks.
+The yellow block  weighed	0.6 poundblocks - 0.4 poundblocks = 0.2 poundblocks more.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0255	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2269,7 +2331,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__0.33 meters
 Explanation : 
  Ans: 
-The piece of wood now  is	0.41 meters - 0.33 meters = 0.08 meters.
+The piece of wood now is	0.41 meters - 0.33 meters = 0.08 meters now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0257	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2321,9 +2383,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__0.81 inches
 			 4__0.35 inches
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-It  did	0.81 inches - 0.35 inches = 0.46 inches.
+	0.81 inches - 0.35 inches = 0.46 inches.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0260	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2339,6 +2402,8 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__6 poundballs
 			 4__3.12 poundballs
+Warning: Inconsistent of how's posistion. 
+
 Explanation : 
  Ans: 
 The scale  will read	6 poundballs + 3.12 poundballs = 9.12 poundballs.
@@ -2357,9 +2422,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Subtraction
 			 3__0.9 inches
 			 4__0.7 inches
+Check case, no exactly tense and voice! Might be Stanford parser's issue!
 Explanation : 
  Ans: 
-It  did	0.9 inches - 0.7 inches = 0.2 inches.
+	0.9 inches - 0.7 inches = 0.2 inches.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0263	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2375,9 +2441,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.32 inches
 			 4__0.21 inches
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-It snow on Monday Tuesday  have/has combined	0.32 inches + 0.21 inches = 0.53 inches.
+	0.32 inches + 0.21 inches = 0.53 inches.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0264	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2429,9 +2496,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__0.2 inches
 			 4__0.4 inches
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-It rain on Saturday Sunday  have/has combined	0.2 inches + 0.4 inches = 0.6 inches.
+	0.2 inches + 0.4 inches = 0.6 inches.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0267	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2449,7 +2517,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__5.2 ouncesugars
 Explanation : 
  Ans: 
-There are 	9.8 ouncesugars - 5.2 ouncesugars = 4.6 ouncesugars.
+There is	9.8 ouncesugars - 5.2 ouncesugars = 4.6 ouncesugars.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0268	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2467,7 +2535,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2.2 poundfruits
 Explanation : 
  Ans: 
-There are 	3.42 poundfruits - 2.2 poundfruits = 1.22 poundfruits.
+There is	3.42 poundfruits - 2.2 poundfruits = 1.22 poundfruits.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0269	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2501,9 +2569,10 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 		 2__OP_Addition
 			 3__4 poundpumpkins
 			 4__8.7 poundpumpkins
+Check case, no exactly tense and voice! Might be problem's grammar issue or Stanford parser issue!
 Explanation : 
  Ans: 
-The 2 pumpkin  weighed	4 poundpumpkins + 8.7 poundpumpkins = 12.7 poundpumpkins.
+	4 poundpumpkins + 8.7 poundpumpkins = 12.7 poundpumpkins.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0271	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2539,7 +2608,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2.86 feet
 Explanation : 
  Ans: 
-Tori  is	4.4 feet + 2.86 feet = 7.26 feet.
+Tori is	4.4 feet + 2.86 feet = 7.26 feet now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0273	^^^^^^^^^^^^^^^^^^^^
 
 
@@ -2557,7 +2626,7 @@ ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
 			 4__2.3 centimeters
 Explanation : 
  Ans: 
-The piece of wood now  is	8.9 centimeters - 2.3 centimeters = 6.6 centimeters.
+The piece of wood now is	8.9 centimeters - 2.3 centimeters = 6.6 centimeters now.
 ^^^^^^^^^^^^^^^^^^^^	end of case : uwds-0274	^^^^^^^^^^^^^^^^^^^^
 
 

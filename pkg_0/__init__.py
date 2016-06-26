@@ -20,27 +20,36 @@ from stc_analyzer import *
 
 # '''Chinese case'''
 # IS_CHINESE_VERSION = True
-# IDX = '17'
+# IDX = '1'
 # FILE_INPUT_0        = 'problems/tmp.trace.Sample-' + IDX + '.xml'  ## try to get all from disk from shell
-# # FILE_INPUT_STC_0    = ''
-# # FILE_INPUT_LFT_0      = ''
-# # FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
+# FILE_INPUT_STC_0    = ''
+# FILE_INPUT_LFT_0      = ''
+# FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
 
 # '''online Chinese site'''
 # FNAME = 'EX9_TVQ'
 # FILE_INPUT_0        = 'problems/online/' + FNAME + '.trace.xml'
+
+# '''online English site'''
 
 # '''edemo case'''
 # FILE_INPUT_0        = 'demo_cases/tmp.edemo.out.20160413/ex01.trace.xml'  ## try to get all from disk from shell
 # FILE_INPUT_LFT_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.lft.xml' #for Voice and Subject
 # FILE_INPUT_STC_0        = 'demo_cases/tmp.edemo.out.20160413/ex07.stc.xml'
 
-# '''uw cases'''
-# DIR = '3'
-# IDX = '0316'
+'''uw cases'''
+# DIR = '1'
+# IDX = '0126'
 # FILE_INPUT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.trace.xml'
 # FILE_INPUT_LFT_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.lft.xml' #for Voice and Subject
 # FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
+
+'''il cases'''
+# DIR = '0'
+# IDX = '0001'
+# FILE_INPUT_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.trace.xml'
+# FILE_INPUT_LFT_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.lft.xml' #for Voice and Subject
+# FILE_INPUT_STC_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.stc.xml'
 
 ### ''' DO NOT COMMENT following lines '''
 FILE_OUTPUT_0       = 'output.xml'
@@ -336,12 +345,40 @@ def morph_SJ(subject_lama, tense):
 
 
 
-def morph_active_verb(verb, tense, is_modal):
+def morph_active_verb(verb, voice, tense, modal):
+    if tense != '1' and tense != '5': # check statemachine_tv.py, to know 1 is present basic; 5 is past basic
+        return verb
+
     morph_verb = verb
+    if tense == '1':  ## Present Basic
+        if voice == 'B_VBP':
+        # if verb == 'is' or 'are':
+        #     assert(0)
+        ## TODO distinguish VBZ and VBP
+            stanford_tense = 'VBP'
+        elif voice == 'B_VBZ':
+            stanford_tense = 'VBZ'
+        else:
+            return verb
+    # if tense == '5': ## Past Basic
+    elif tense == '5':
+        if voice == 'B' or voice == 'D':
+            stanford_tense = 'VBD'
+        else:
+            return verb
+    else:
+        assert(0)
+
+    is_phrase_verb = False
+    if len(verb.split()) > 1:
+        verb_tail = verb.split()[1:]
+        verb = verb.split()[0]  ### CAUTION!!!
+        is_phrase_verb = True
+
     if verb in verb_morph_dict:
-        if tense  in verb_morph_dict.get(verb):
-            morph_verb = verb_morph_dict.get(verb).get(tense)
-            if tense == "VBN":
+        if stanford_tense in verb_morph_dict.get(verb):
+            morph_verb = verb_morph_dict.get(verb).get(stanford_tense)
+            if stanford_tense == "VBN":
                 morph_verb = " have/has " + morph_verb
         else:
             if not modal:
@@ -352,18 +389,18 @@ def morph_active_verb(verb, tense, is_modal):
             # print("ERROR! check case!")
             # sys.exit(2)
     else:
-        if verb == 'was' or verb == 'were' or verb == 'is' or verb == 'are':
-            return morph_verb
-        if tense == "VBZ": ## if verb in present single
+        # if verb == 'was' or verb == 'were' or verb == 'is' or verb == 'are':
+        #     return morph_verb
+        if stanford_tense == "VBZ": ## if verb in present single
             morph_verb = verb + "s"
-        elif tense == "VBP": ## verb in present plural
+        elif stanford_tense == "VBP": ## verb in present plural
             morph_verb = verb
-        elif tense == "VBD": ## verb in past tense
+        elif stanford_tense == "VBD": ## verb in past tense
             if verb[-1] == "e": ## rules
                 morph_verb = verb + "d"
             else:
                 morph_verb = verb + "ed" ## for Active voice as default
-        elif tense == "VBN":
+        elif stanford_tense == "VBN":
             ### we don't have such test cases now
             if verb[-1] == "e": ## rules
                 morph_verb = verb + "d"
@@ -376,6 +413,12 @@ def morph_active_verb(verb, tense, is_modal):
                 assert(0)
             else:
                 morph_verb = tense + " " + verb
+
+    if is_phrase_verb:
+        tail = ""
+        for tmp in verb_tail:
+            tail += tmp
+        morph_verb = morph_verb + ' to ' + tail
     return morph_verb
     # print("Sub : ", lft_info_dict.get("Subject"))    
 
@@ -404,7 +447,7 @@ def capitalization(str):
     return ret_str
 
 def answer_as_a_sentense(voice, explanation, subject, verb):
-    if "Active" == voice:
+    if 'B'==voice or "B_VBP" == voice or 'B_VBZ' == voice:  ## B means Active
         if not subject:
             print("Active w/o Subject : " + FILE_INPUT_LFT_0 )
             assert(0)
@@ -412,11 +455,28 @@ def answer_as_a_sentense(voice, explanation, subject, verb):
             ## title() method : capitalized the 1st letter
         explanation += "  "
         explanation += verb
-    elif "ThereBe" == voice:
-        explanation += "There "
-        be_verb = "are "
-        explanation += be_verb
-    elif "Passive" == voice:
+    elif 'D' == voice: ## quan-subject case, check uwds-166
+        pass
+    elif "A" == voice: ## A means ThereBe
+        # if not subject:
+        if 'what' not in basic2orig_dict:
+            if not subject: ## uwds-273
+                explanation += "There "
+                # be_verb = "are "
+                be_verb = verb
+                explanation += be_verb
+            else:
+                explanation += capitalization(subject)
+                explanation += ' '
+                explanation += verb
+        else: ## as uw-0126, uw-0127, not "how", it 'What' question
+            if 'fraction' in basic2orig_dict:
+                explanation = explanation + ' The fraction is '
+            else:
+                explanation += capitalization(subject)
+                explanation += ' '
+                explanation += verb
+    elif "C" == voice: ## C means Passive
         pass
 
     return explanation
@@ -664,7 +724,7 @@ if ( __name__ == "__main__"):
     explanation = "Ans: \n"
 
 
-    '''Load STC file for Tense and Verb'''
+    '''Load STC file for Tense, Voice and Verb'''
     ##TODO after checking uwds-0126, verb_bakup should be from stc file when lft has no verb
     stc_obj = None
     try:
@@ -675,21 +735,24 @@ if ( __name__ == "__main__"):
 
 
     # print(stc_obj.get_info())
-    is_modal = False
     if None != stc_obj:
-        (tense, modal, verb_bakup, how_pos, conj_pos) = stc_obj.get_info()
+        (tense, voice, modal, verb_st, how_pos, conj_pos, is_compare_q) = stc_obj.get_info() # verb_st : verb from stc file
+        if tense == -1:
+            print('Check case, no exactly tense and voice! Might be Stanford parser\'s issue!')
+            pass  ### TODO solve this issue in the future, which is from Stanford parser
+        if tense == -2:
+            print('Check case, no exactly tense and voice! Might be problem\'s grammar issue or Stanford parser issue!')
+            pass  ### TODO solve this issue in the future, which is from Stanford parser
         if not tense:
-            if not modal:
-                print("Error! no Tense! Check case!")
-                sys.exit(2)
-        if modal: ## uwds-395, VPB can't be used, since it's following "will"
-            is_modal = True
-            tense = modal
+            print("Error! no Tense! Check case!")
+            # sys.exit(2)
+        if int(tense) >= 9:
+            assert(modal)
 
-    '''Load LFT file for Voice and Subject'''
+    '''Load LFT file for Subject only'''
     lft_obj = None
     try:
-        lft_obj = LogicFormAnalyzer(FILE_INPUT_LFT_0, conj_pos)
+        lft_obj = LogicFormAnalyzer(FILE_INPUT_LFT_0, conj_pos, how_pos, voice)
     except NameError as e:
         print("Warning: No LFT file for Subject and Voice.\n") ## TODO direct to web
         fp_o.write("Warning: No LFT file for Subject, Voice and Verb!\n")
@@ -698,33 +761,35 @@ if ( __name__ == "__main__"):
         fp_o.write("Case's Question sentence may have no LF2!\n")
     if DBG_OUTPUT:
         print(lft_obj.get_info())
-    voice = None
+    # voice = None
     subject = None
-    verb = None
+    # verb = None
     if None != lft_obj: ## means LFT file is also loaded
         '''Add Voice and Subject infos'''
-        (lft_info_dict, pos_verb) = lft_obj.get_info()
+        (lft_info_dict, position_verb) = lft_obj.get_info()
         if not lft_info_dict:
             print("lft_info_dict is None , Check case!")
             assert(lft_info_dict)
         # print("dict: ", lft_info_dict)
-        voice = lft_info_dict.get("Voice")
+        # voice = lft_info_dict.get("Voice")
         subject = lft_info_dict.get("Subject")
         if subject:
             subject = morph_SJ(subject, tense) # Subject-Verb agreement, since the subjects we get are always in lama form
-        verb = lft_info_dict.get("Verb")
+        # verb = lft_info_dict.get("Verb")  ## Starting from 20160516, we don't rely on the verb from lft...
+        '''Start from 20160516, we don't trust verb from lft, instead, we get it from Stanford's Tree'''
 
         ''' we use "how's position" to check whether this verb should be adopted'''
-        if verb:
-            verb_pos = re.findall("\d+", pos_verb)[1]
-            if  int(verb_pos) > int(how_pos):
-                pass
-            else:
-                verb = verb_bakup
-        else:
-            ### for uwds-126 and 127, we need to get verb_bakup
-            verb = verb_bakup
-        verb = morph_active_verb(verb, tense, is_modal)
+        # if verb:
+        #     verb_pos = re.findall("\d+", position_verb)[1]
+        #     if  int(verb_pos) > int(how_pos):
+        #         pass
+        #     else:
+        #         verb = verb_st
+        # else:
+        #     ### for uwds-126 and 127, we need to get verb_bakup
+        #     verb = verb_st
+
+    verb = morph_active_verb(verb_st, voice, tense, modal)
 
 
 
@@ -793,22 +858,56 @@ if ( __name__ == "__main__"):
             # explanation += sr(cdn_chunk, par_chunk, verb_list[0])
             explanation += sr(cdn_chunk, par_chunk, tmp_v)
 
-    if None != lft_obj:
-        verb = lft_info_dict.get("Verb")
-        if "Passive" == lft_info_dict.get("Voice"):
+    if None != stc_obj:
+    # if "Passive" == lft_info_dict.get("Voice"):
+        if 'D' == voice:
+            explanation += ' '
+            explanation += verb
+        if "C" == voice:
             ### TENSE doesn't affect verb morph
             ### for Passive form, verb are all VBN(p.p)
             ### instead of "past tense"
-            be_verb = " were "
-            if int(quan_answer_final) == 1:
-                be_verb = " was "
-
+            # be_verb = " were "
+            # if int(quan_answer_final) == 1:
+            #     be_verb = " was "
+            #
             if explanation[-1] == "\n":
                 explanation = explanation[:-1] # make "period sign" in the same line of last sentence
-            explanation += be_verb
+            # explanation += be_verb
 
-            morph_verb = morph_passive_verb(verb)
-            explanation += morph_verb
+            if "Verb" in lft_info_dict:
+                be_verb = " were "
+                if int(quan_answer_final) == 1:
+                    be_verb = " was "
+
+                if explanation[-1] == "\n":
+                    explanation = explanation[:-1] # make "period sign" in the same line of last sentence
+                explanation += be_verb
+
+                verb = lft_info_dict.get("Verb")
+                morph_verb = morph_passive_verb(verb)
+                explanation += morph_verb
+            else:
+                # explanation += " WEIRD VERB "
+                explanation += " "
+                explanation += verb
+
+    ## POST handle
+    if int(tense) >0:
+        if explanation[-1] == "\n":
+            explanation = explanation[:-1] # make "period sign" in the same line of last sentence
+
+        if 'longer' in basic2orig_dict:
+            explanation += ' longer'
+        elif ('more' in basic2orig_dict or 'than' in basic2orig_dict) and is_compare_q:
+            explanation += ' more'
+
+        if 'today' in basic2orig_dict:
+            explanation += ' today'
+        if 'yesterday' in basic2orig_dict:
+            explanation += ' yesterday'
+        if 'now' in basic2orig_dict:
+            explanation += ' now'
 
     if explanation[-1] == "\n":
         explanation = explanation[:-1] # make "period sign" in the same line of last sentence
