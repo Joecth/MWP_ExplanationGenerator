@@ -1,0 +1,103 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w5 have)
+		(s1w4 store)
+		(s1w1 a)
+		(s1w2 pet)
+		(s1w3 supply)
+		(s1w7 bag)
+		(s1w6 600)
+		(s1w10 food)
+		(s1w8 of)
+		(s1w9 dog)
+		(s1w11 and)
+		(s1w13 bag)
+		(s1w12 327)
+		(s1w16 food)
+		(s1w14 of)
+		(s1w15 cat)
+	)
+
+	(LF1
+		(verb v1 s1w5)
+		(nsubj v1 n4)
+		(head n4 s1w4)
+		(det n4 s1w1)
+		(compound n4 n5)
+		(head n5 s1w2)
+		(compound n4 n6)
+		(head n6 s1w3)
+		(dobj v1 n1)
+		(head n1 s1w7)
+		(nummod n1 s1w6)
+		(nmod n1 n8)
+		(head n8 s1w10)
+		(case n8 s1w8)
+		(compound n8 n9)
+		(head n9 s1w9)
+		(cj_op j1 and)
+		(conj n1 n2)
+		(head n2 s1w13)
+		(nummod n2 s1w12)
+		(nmod n2 n11)
+		(head n11 s1w16)
+		(case n11 s1w14)
+		(compound n11 n12)
+		(head n12 s1w15)
+	)
+
+	(LF2
+		(= (quan q1 # s1w7) 600)(verb q1 s1w5)(role q1 dobj)
+		(= (quan q2 # s1w13) 327)(verb q2 s1w5)(role q2 conj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w8 be)
+		(s2w4 bag)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w3 more)
+		(s2w7 food)
+		(s2w5 of)
+		(s2w6 dog)
+		(s2w9 there)
+		(s2w12 food)
+		(s2w10 than)
+		(s2w11 cat)
+	)
+
+	(LF1
+		(verb v2 s2w8)
+		(nsubj v2 n3)
+		(head n3 s2w4)
+		(amod n3 s2w2)
+		(advmod n3 s2w1)
+		(amod n3 s2w3)
+		(nmod n3 n14)
+		(head n14 s2w7)
+		(case n14 s2w5)
+		(compound n14 n15)
+		(head n15 s2w6)
+		(expl v2 s2w9)
+		(nmod v2 n16)
+		(head n16 s2w12)
+		(case n16 s2w10)
+		(compound n16 n17)
+		(head n17 s2w11)
+	)
+
+	(LF2
+		
+		(ASK ANS (Subtraction (quan q1 # s1w7) (quan q2 # s1w13)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

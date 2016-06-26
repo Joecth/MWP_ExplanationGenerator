@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{buy(4):nsubj={[x1]Heine(2):compound={Mrs.(1)}},aux={be(3)},ccomp={treat(8):nsubj={day(7):nmod_poss={Valentine(5):case={'s(6)}}},nmod={dog(12):case={for(9)},nmod_poss={[x1]she(10)},nummod={2(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mrs.(1,NNP): {Mrs.}</Word>
+		<Word idx="2">Heine(2,NNP): {Heine}</Word>
+		<Word idx="3">be(3,VBZ): {is}</Word>
+		<Word idx="4">buy(4,VBG): {buying}</Word>
+		<Word idx="5">Valentine(5,NNP): {Valentine}</Word>
+		<Word idx="6">'s(6,POS): {'s}</Word>
+		<Word idx="7">day(7,NN): {Day}</Word>
+		<Word idx="8">treat(8,VBZ): {treats}</Word>
+		<Word idx="9">for(9,IN): {for}</Word>
+		<Word idx="10">she(10,PRPS): {her}</Word>
+		<Word idx="11">2(11,CD): {2}</Word>
+		<Word idx="12">dog(12,NNS): {dogs}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(17):advcl={want(3):mark={if(1)},nsubj={[x1]she(2)},xcomp={buy(5):mark={to(4)},dobj={they(6)},nmod_tmod={biscuit(9):nummod={3(7)},compound={heart(8)},dep={each(10)}}}},dep={biscuit(14):amod={many(13):advmod={how(12)}}},aux={do(15)},nsubj={[x1]she(16)},xcomp={buy(19):mark={to(18)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">she(2,PRP): {she}</Word>
+		<Word idx="3">want(3,VBZ): {wants}</Word>
+		<Word idx="4">to(4,TO): {to}</Word>
+		<Word idx="5">buy(5,VB): {buy}</Word>
+		<Word idx="6">they(6,PRP): {them}</Word>
+		<Word idx="7">3(7,CD): {3}</Word>
+		<Word idx="8">heart(8,NN): {heart}</Word>
+		<Word idx="9">biscuit(9,NNS): {biscuits}</Word>
+		<Word idx="10">each(10,DT): {each}</Word>
+		<Word idx="11">how(12,WRB): {how}</Word>
+		<Word idx="12">many(13,JJ): {many}</Word>
+		<Word idx="13">biscuit(14,NNS): {biscuits}</Word>
+		<Word idx="14">do(15,VBZ): {does}</Word>
+		<Word idx="15">she(16,PRP): {she}</Word>
+		<Word idx="16">need(17,VB): {need}</Word>
+		<Word idx="17">to(18,TO): {to}</Word>
+		<Word idx="18">buy(19,VB): {buy}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

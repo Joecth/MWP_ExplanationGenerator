@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Kelly(1)},dobj={game(5):nummod={121(3)},compound={Nintendo(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Kelly(1,NNP): {Kelly}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">121(3,CD): {121}</Word>
+		<Word idx="4">Nintendo(4,NNP): {Nintendo}</Word>
+		<Word idx="5">game(5,NNS): {games}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(5):dep={many(2):advmod={how(1)}},aux={do(3)},nsubj={[x1]she(4)},xcomp={give(7):mark={to(6)},compound_prt={away(8)},advcl={have(13):mark={so(9):mwe={that(10)}},nsubj={[x1]she(11)},aux={will(12)},dobj={game(15):nummod={22(14)},acl={leave(16)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">do(3,VBZ): {does}</Word>
+		<Word idx="4">she(4,PRP): {she}</Word>
+		<Word idx="5">need(5,VB): {need}</Word>
+		<Word idx="6">to(6,TO): {to}</Word>
+		<Word idx="7">give(7,VB): {give}</Word>
+		<Word idx="8">away(8,RP): {away}</Word>
+		<Word idx="9">so(9,RB): {so}</Word>
+		<Word idx="10">that(10,IN): {that}</Word>
+		<Word idx="11">she(11,PRP): {she}</Word>
+		<Word idx="12">will(12,MD): {will}</Word>
+		<Word idx="13">have(13,VB): {have}</Word>
+		<Word idx="14">22(14,CD): {22}</Word>
+		<Word idx="15">game(15,NNS): {games}</Word>
+		<Word idx="16">leave(16,VBN): {left}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{want(2):nsubj={[x1]you(1)},xcomp={give(4):mark={to(3)},dobj={card(7):nmod_poss={[x1]you(5)},compound={baseball(6)}},nmod={friend(12):case={to(8)},nmod_poss={[x1]you(9)},nummod={5(10)},amod={best(11)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">you(1,PRP): {You}</Word>
+		<Word idx="2">want(2,VBP): {want}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">give(4,VB): {give}</Word>
+		<Word idx="5">you(5,PRPS): {your}</Word>
+		<Word idx="6">baseball(6,NN): {baseball}</Word>
+		<Word idx="7">card(7,NNS): {cards}</Word>
+		<Word idx="8">to(8,TO): {to}</Word>
+		<Word idx="9">you(9,PRPS): {your}</Word>
+		<Word idx="10">5(10,CD): {5}</Word>
+		<Word idx="11">best(11,JJS): {best}</Word>
+		<Word idx="12">friend(12,NNS): {friends}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x2]you(1)},dobj={card(5):nummod={455(3)},compound={baseball(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">you(1,PRP): {You}</Word>
+		<Word idx="2">have(2,VBP): {have}</Word>
+		<Word idx="3">455(3,CD): {455}</Word>
+		<Word idx="4">baseball(4,NN): {baseball}</Word>
+		<Word idx="5">card(5,NNS): {cards}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{get(5):dep={many(2):advmod={how(1)}},aux={would(3)},nsubj={each(4)},advcl={share(9):mark={if(7)},nsubj={[x2]you(8)},dobj={they(10)},advmod={equally(11)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">would(3,MD): {would}</Word>
+		<Word idx="4">each(4,DT): {each}</Word>
+		<Word idx="5">get(5,VB): {get}</Word>
+		<Word idx="6">if(7,IN): {if}</Word>
+		<Word idx="7">you(8,PRP): {you}</Word>
+		<Word idx="8">share(9,VBP): {share}</Word>
+		<Word idx="9">they(10,PRP): {them}</Word>
+		<Word idx="10">equally(11,RB): {equally}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">CommonDiv</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

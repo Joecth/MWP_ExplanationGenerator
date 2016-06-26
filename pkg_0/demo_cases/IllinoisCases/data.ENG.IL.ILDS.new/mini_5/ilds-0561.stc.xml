@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(3):nsubj={[x1]pencil(2):nummod={[x1]one(1)}},dobj={gram(5):nummod={[x1]28.3(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">one(1,CD): {One}</Word>
+		<Word idx="2">pencil(2,NN): {pencil}</Word>
+		<Word idx="3">weigh(3,VBZ): {weighs}</Word>
+		<Word idx="4">28.3(4,CD): {28.3}</Word>
+		<Word idx="5">gram(5,NNS): {grams}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(6):dep={much(2):advmod={how(1)}},aux={do(3)},nsubj={pencil(5):nummod={5(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,RB): {much}</Word>
+		<Word idx="3">do(3,VBP): {do}</Word>
+		<Word idx="4">5(4,CD): {5}</Word>
+		<Word idx="5">pencil(5,NNS): {pencils}</Word>
+		<Word idx="6">weigh(6,VB): {weigh}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sit(4):nsubj={bird(2):nummod={179(1)}},aux={be(3)},nmod={[x1]tree(7):case={in(5)},det={a(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">179(1,CD): {179}</Word>
+		<Word idx="2">bird(2,NNS): {birds}</Word>
+		<Word idx="3">be(3,VBD): {were}</Word>
+		<Word idx="4">sit(4,VBG): {sitting}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">tree(7,NN): {tree}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{fly(4):nsubj={bird(3):nummod={38(1)},amod={more(2)}},advmod={up(5):nmod={[x1]tree(8):case={to(6)},det={the(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">38(1,CD): {38}</Word>
+		<Word idx="2">more(2,JJR): {more}</Word>
+		<Word idx="3">bird(3,NNS): {birds}</Word>
+		<Word idx="4">fly(4,VBD): {flew}</Word>
+		<Word idx="5">up(5,RB): {up}</Word>
+		<Word idx="6">to(6,TO): {to}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">tree(8,NN): {tree}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={bird(3):amod={many(2):advmod={how(1)}}},expl={there(5)},nmod={[x1]tree(9):advmod={altogether(6)},case={in(7)},det={the(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">bird(3,NNS): {birds}</Word>
+		<Word idx="4">be(4,VBD): {were}</Word>
+		<Word idx="5">there(5,EX): {there}</Word>
+		<Word idx="6">altogether(6,RB): {altogether}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">tree(9,NN): {tree}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

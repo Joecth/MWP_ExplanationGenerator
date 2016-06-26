@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{hold(4):nsubj={[x2]box(3):det={a(1)},compound={cereal(2)}},dobj={[x1]cup(6):nummod={18(5)},nmod={cereal(8):case={of(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">cereal(2,NN): {cereal}</Word>
+		<Word idx="3">box(3,NN): {box}</Word>
+		<Word idx="4">hold(4,VBZ): {holds}</Word>
+		<Word idx="5">18(5,CD): {18}</Word>
+		<Word idx="6">cup(6,NNS): {cups}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">cereal(8,NN): {cereal}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{cup(5):nsubj={each(1):acl={serve(2)}},cop={be(3)},nummod={2(4)}}</SemRep>
+	<WordList>
+		<Word idx="1">each(1,DT): {Each}</Word>
+		<Word idx="2">serve(2,VBG): {serving}</Word>
+		<Word idx="3">be(3,VBZ): {is}</Word>
+		<Word idx="4">2(4,CD): {2}</Word>
+		<Word idx="5">cup(5,NNS): {cups}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{box(8):dep={many(2):advmod={how(1)}},nsubj={serving(3)},cop={be(4)},case={in(5)},det={the(6)},compound={whole(7)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">serving(3,NNS): {servings}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">whole(7,NN): {whole}</Word>
+		<Word idx="8">box(8,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">CommonDiv</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

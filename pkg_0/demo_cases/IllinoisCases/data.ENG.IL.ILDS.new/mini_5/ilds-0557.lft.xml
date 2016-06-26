@@ -1,0 +1,125 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 go)
+		(s1w1 you)
+		(s1w3 out)
+		(s1w7 walk)
+		(s1w4 for)
+		(s1w5 a)
+		(s1w6 long)
+	)
+
+	(LF1
+		(HEAD v1 s1w2)
+		(nsubj v1 s1w1)
+		(compound_prt v1 s1w3)
+		(nmod v1 n3)
+		(head n3 s1w7)
+		(case n3 s1w4)
+		(det n3 s1w5)
+		(amod n3 s1w6)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 walk)
+		(s2w1 you)
+		(s2w4 mile)
+		(s2w3 0.75)
+		(s2w5 and)
+		(s2w7 sit)
+		(s2w6 then)
+		(s2w8 down)
+		(s2w10 take)
+		(s2w9 to)
+		(s2w12 rest)
+		(s2w11 a)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n1)
+		(head n1 s2w4)
+		(nummod n1 s2w3)
+		(cj_op j1 and)
+		(conj v2 s2w7)
+		(advmod v2 s2w6)
+		(compound_prt v2 s2w8)
+		(xcomp v2 s2w10)
+		(mark v2 s2w9)
+		(dobj v2 n5)
+		(head n5 s2w12)
+		(det n5 s2w11)
+	)
+
+	(LF2
+		(= (quan q1 # s2w4) 0.75)(verb q1 s2w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 walk)
+		(s3w1 then)
+		(s3w2 you)
+		(s3w4 0.25)
+		(s3w7 mile)
+		(s3w5 of)
+		(s3w6 a)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(advmod v3 s3w1)
+		(nsubj v3 s3w2)
+		(dobj v3 s3w4)
+		(nmod v3 n2)
+		(head n2 s3w7)
+		(case n2 s3w5)
+		(det n2 s3w6)
+	)
+
+	(LF2
+		(= (quan q2 # s3w7) 0.25)(verb q2 s3w3)(role q2 nmod)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w5 walk)
+		(s4w2 far)
+		(s4w1 how)
+		(s4w3 do)
+		(s4w4 you)
+		(s4w6 altogether)
+	)
+
+	(LF1
+		(HEAD v4 s4w5)
+		(advmod v4 s4w2)
+		(advmod v4 s4w1)
+		(aux v4 s4w3)
+		(nsubj v4 s4w4)
+		(advmod v4 s4w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 # s2w4) (quan q2 # s3w7)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

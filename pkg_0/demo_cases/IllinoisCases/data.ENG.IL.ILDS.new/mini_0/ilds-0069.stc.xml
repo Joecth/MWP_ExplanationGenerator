@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={orange(4):nummod={22(3)},nmod={box(7):case={in(5)},det={a(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">22(3,CD): {22}</Word>
+		<Word idx="4">orange(4,NNS): {oranges}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">a(6,DT): {a}</Word>
+		<Word idx="7">box(7,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{take(2):nsubj={paula(1)},dobj={orange(4):nummod={7(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">paula(1,NN): {Paula}</Word>
+		<Word idx="2">take(2,VBZ): {takes}</Word>
+		<Word idx="3">7(3,CD): {7}</Word>
+		<Word idx="4">orange(4,NNS): {oranges}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(4):dep={many(2):advmod={how(1)}},auxpass={be(3)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">be(3,VBP): {are}</Word>
+		<Word idx="4">leave(4,VBN): {left}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

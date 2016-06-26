@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(3):nsubj={[x2]Snyder(2):compound={Mrs.(1)}},dobj={[x1]cookie(6):nummod={86(4)},compound={heart(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Mrs.(1,NNP): {Mrs.}</Word>
+		<Word idx="2">Snyder(2,NNP): {Snyder}</Word>
+		<Word idx="3">make(3,VBD): {made}</Word>
+		<Word idx="4">86(4,CD): {86}</Word>
+		<Word idx="5">heart(5,NN): {heart}</Word>
+		<Word idx="6">cookie(6,NNS): {cookies}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(2):nsubj={[x2]she(1)},ccomp={pink(10):nsubj={[x1]cookie(5):nummod={36(3)},amod={red(4)},cc={and(6)},conj={rest(8):det={the(7)}}},cop={be(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">make(2,VBD): {made}</Word>
+		<Word idx="3">36(3,CD): {36}</Word>
+		<Word idx="4">red(4,JJ): {red}</Word>
+		<Word idx="5">cookie(5,NNS): {cookies}</Word>
+		<Word idx="6">and(6,CC): {and}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">rest(8,NN): {rest}</Word>
+		<Word idx="9">be(9,VBP): {are}</Word>
+		<Word idx="10">pink(10,NN): {pink}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{make(7):dobj={cookie(4):amod={many(2):advmod={how(1)}},amod={pink(3)}},aux={do(5)},nsubj={[x2]she(6)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pink(3,JJ): {pink}</Word>
+		<Word idx="4">cookie(4,NNS): {cookies}</Word>
+		<Word idx="5">do(5,VBD): {did}</Word>
+		<Word idx="6">she(6,PRP): {she}</Word>
+		<Word idx="7">make(7,VB): {make}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

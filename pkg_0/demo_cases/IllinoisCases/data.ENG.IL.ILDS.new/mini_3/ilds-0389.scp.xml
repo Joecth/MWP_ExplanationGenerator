@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={Sean(1)},dobj={whistle(4):nummod={45(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Sean(1,NNP): {Sean}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">45(3,CD): {45}</Word>
+		<Word idx="4">whistle(4,NNS): {whistles}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]he(1)},dobj={whistle(5):nummod={32(3):advmod={more(4)}},acl_relcl={[x1]Charles(7):dep={that(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">he(1,PRP): {He}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">32(3,CD): {32}</Word>
+		<Word idx="4">more(4,JJR): {more}</Word>
+		<Word idx="5">whistle(5,NNS): {whistles}</Word>
+		<Word idx="6">that(6,WDT): {that}</Word>
+		<Word idx="7">Charles(7,NNP): {Charles}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dobj={whistle(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Charles(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">whistle(3,NNS): {whistles}</Word>
+		<Word idx="4">do(4,VBZ): {does}</Word>
+		<Word idx="5">Charles(5,NNP): {Charles}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

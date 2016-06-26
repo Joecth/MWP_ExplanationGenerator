@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{sell(5):nmod_tmod={Saturday(2):amod={last(1)}},nsubj={[x1]Marie(4)},dobj={magazine(7):nummod={425(6)},cc={and(8)},conj={newspaper(10):nummod={275(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">last(1,JJ): {Last}</Word>
+		<Word idx="2">Saturday(2,NNP): {Saturday}</Word>
+		<Word idx="3">Marie(4,NNP): {Marie}</Word>
+		<Word idx="4">sell(5,VBD): {sold}</Word>
+		<Word idx="5">425(6,CD): {425}</Word>
+		<Word idx="6">magazine(7,NNS): {magazines}</Word>
+		<Word idx="7">and(8,CC): {and}</Word>
+		<Word idx="8">275(9,CD): {275}</Word>
+		<Word idx="9">newspaper(10,NNS): {newspapers}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{what(1):cop={be(2)},nsubj={number(5):det={the(3)},amod={total(4)},nmod={material(8):case={of(6)},compound={reading(7)}},acl_relcl={sell(10):nsubj={[x1]she(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">what(1,WP): {What}</Word>
+		<Word idx="2">be(2,VBZ): {is}</Word>
+		<Word idx="3">the(3,DT): {the}</Word>
+		<Word idx="4">total(4,JJ): {total}</Word>
+		<Word idx="5">number(5,NN): {number}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">reading(7,NN): {reading}</Word>
+		<Word idx="8">material(8,NNS): {materials}</Word>
+		<Word idx="9">she(9,PRP): {she}</Word>
+		<Word idx="10">sell(10,VBD): {sold}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

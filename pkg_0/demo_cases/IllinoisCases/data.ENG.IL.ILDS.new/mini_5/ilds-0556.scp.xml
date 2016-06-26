@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(10):nmod={party(3):case={after(1)},det={a(2)}},nsubjpass={0.625(5):nmod={[x1]cake(8):case={of(6)},det={the(7)}}},auxpass={be(9)},compound_prt={over(11)}}</SemRep>
+	<WordList>
+		<Word idx="1">after(1,IN): {After}</Word>
+		<Word idx="2">a(2,DT): {a}</Word>
+		<Word idx="3">party(3,NN): {party}</Word>
+		<Word idx="4">0.625(5,CD): {0.625}</Word>
+		<Word idx="5">of(6,IN): {of}</Word>
+		<Word idx="6">the(7,DT): {the}</Word>
+		<Word idx="7">cake(8,NN): {cake}</Word>
+		<Word idx="8">be(9,VBZ): {is}</Word>
+		<Word idx="9">leave(10,VBN): {left}</Word>
+		<Word idx="10">over(11,RP): {over}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{eat(6):nmod_tmod={night(2):det={that(1)}},nsubj={brother(5):amod={big(4)}},dobj={0.25(7):nmod={[x1]cake(10):case={of(8)},det={the(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">that(1,DT): {That}</Word>
+		<Word idx="2">night(2,NN): {night}</Word>
+		<Word idx="3">big(4,JJ): {big}</Word>
+		<Word idx="4">brother(5,NN): {brother}</Word>
+		<Word idx="5">eat(6,VBZ): {eats}</Word>
+		<Word idx="6">0.25(7,CD): {0.25}</Word>
+		<Word idx="7">of(8,IN): {of}</Word>
+		<Word idx="8">the(9,DT): {the}</Word>
+		<Word idx="9">cake(10,NN): {cake}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{leave(4):dep={much(2):advmod={how(1)}},auxpass={be(3)},compound_prt={over(5)},nmod={[x1]that(7):case={after(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">be(3,VBZ): {is}</Word>
+		<Word idx="4">leave(4,VBN): {left}</Word>
+		<Word idx="5">over(5,RP): {over}</Word>
+		<Word idx="6">after(6,IN): {after}</Word>
+		<Word idx="7">that(7,DT): {that}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(2):expl={there(1)},nsubj={[x2]people(4):nummod={[x1]5(3)},nmod={team(11):case={on(5)},det={the(6)},compound={Green(7)},compound={Bay(8)},compound={High(9)},compound={track(10)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">there(1,EX): {There}</Word>
+		<Word idx="2">be(2,VBP): {are}</Word>
+		<Word idx="3">5(3,CD): {5}</Word>
+		<Word idx="4">people(4,NNS): {people}</Word>
+		<Word idx="5">on(5,IN): {on}</Word>
+		<Word idx="6">the(6,DT): {the}</Word>
+		<Word idx="7">Green(7,NNP): {Green}</Word>
+		<Word idx="8">Bay(8,NNP): {Bay}</Word>
+		<Word idx="9">High(9,NNP): {High}</Word>
+		<Word idx="10">track(10,NN): {track}</Word>
+		<Word idx="11">team(11,NN): {team}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(16):advcl={be(5):mark={if(1)},nsubj={race(4):det={a(2)},compound={relay(3)}},advmod={long(8):nmod_npmod={meter(7):nummod={[x1]150(6)}}}},advmod={far(11):advmod={how(10)}},aux={will(12)},nsubj={[x2]member(15):det={each(13)},compound={team(14)}},xcomp={run(18):mark={to(17)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">a(2,DT): {a}</Word>
+		<Word idx="3">relay(3,NN): {relay}</Word>
+		<Word idx="4">race(4,NN): {race}</Word>
+		<Word idx="5">be(5,VBZ): {is}</Word>
+		<Word idx="6">150(6,CD): {150}</Word>
+		<Word idx="7">meter(7,NNS): {meters}</Word>
+		<Word idx="8">long(8,RB): {long}</Word>
+		<Word idx="9">how(10,WRB): {how}</Word>
+		<Word idx="10">far(11,RB): {far}</Word>
+		<Word idx="11">will(12,MD): {will}</Word>
+		<Word idx="12">each(13,DT): {each}</Word>
+		<Word idx="13">team(14,NN): {team}</Word>
+		<Word idx="14">member(15,NN): {member}</Word>
+		<Word idx="15">have(16,VBP): {have}</Word>
+		<Word idx="16">to(17,TO): {to}</Word>
+		<Word idx="17">run(18,VB): {run}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

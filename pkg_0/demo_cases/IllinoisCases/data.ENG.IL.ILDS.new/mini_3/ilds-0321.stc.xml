@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(2):nsubj={lino(1)},compound_prt={up(3)},dobj={shell(5):nummod={292(4)}},nmod={seashore(8):case={at(6)},det={the(7)},nmod={morning(11):case={in(9)},det={the(10)},cc={and(12)},conj={shell(14):nummod={324(13)}}}},nmod={afternoon(17):case={in(15)},det={the(16)}}}</SemRep>
+	<WordList>
+		<Word idx="1">lino(1,NN): {Lino}</Word>
+		<Word idx="2">pick(2,VBD): {picked}</Word>
+		<Word idx="3">up(3,RP): {up}</Word>
+		<Word idx="4">292(4,CD): {292}</Word>
+		<Word idx="5">shell(5,NNS): {shells}</Word>
+		<Word idx="6">at(6,IN): {at}</Word>
+		<Word idx="7">the(7,DT): {the}</Word>
+		<Word idx="8">seashore(8,NN): {seashore}</Word>
+		<Word idx="9">in(9,IN): {in}</Word>
+		<Word idx="10">the(10,DT): {the}</Word>
+		<Word idx="11">morning(11,NN): {morning}</Word>
+		<Word idx="12">and(12,CC): {and}</Word>
+		<Word idx="13">324(13,CD): {324}</Word>
+		<Word idx="14">shell(14,NNS): {shells}</Word>
+		<Word idx="15">in(15,IN): {in}</Word>
+		<Word idx="16">the(16,DT): {the}</Word>
+		<Word idx="17">afternoon(17,NN): {afternoon}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{pick(6):dobj={shell(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={he(5)},compound_prt={up(7)},nmod={all(9):case={in(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">shell(3,NNS): {shells}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">he(5,PRP): {he}</Word>
+		<Word idx="6">pick(6,VB): {pick}</Word>
+		<Word idx="7">up(7,RP): {up}</Word>
+		<Word idx="8">in(8,IN): {in}</Word>
+		<Word idx="9">all(9,DT): {all}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Addition</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(4):nsubj={store(3):det={a(1)},compound={candy(2)}},dobj={[x1]box(6):nummod={6(5)},nmod={chocolate(8):case={of(7)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">a(1,DT): {A}</Word>
+		<Word idx="2">candy(2,NN): {candy}</Word>
+		<Word idx="3">store(3,NN): {store}</Word>
+		<Word idx="4">have(4,VBZ): {has}</Word>
+		<Word idx="5">6(5,CD): {6}</Word>
+		<Word idx="6">box(6,NNS): {boxes}</Word>
+		<Word idx="7">of(7,IN): {of}</Word>
+		<Word idx="8">chocolate(8,NNS): {chocolates}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(3):nsubj={box(2):det={each(1)}},dobj={[x1]piece(5):nummod={500(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">each(1,DT): {Each}</Word>
+		<Word idx="2">box(2,NN): {box}</Word>
+		<Word idx="3">have(3,VBZ): {has}</Word>
+		<Word idx="4">500(4,CD): {500}</Word>
+		<Word idx="5">piece(5,NNS): {pieces}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={piece(3):amod={many(2):advmod={how(1)}}},expl={there(5)},nmod={[x1]box(9):advmod={altogether(6)},case={in(7)},det={the(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">piece(3,NNS): {pieces}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">there(5,EX): {there}</Word>
+		<Word idx="6">altogether(6,RB): {altogether}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">the(8,DT): {the}</Word>
+		<Word idx="9">box(9,NNS): {boxes}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

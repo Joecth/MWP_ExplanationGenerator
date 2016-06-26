@@ -1,0 +1,71 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w1 Arthur)
+		(s1w4 muffin)
+		(s1w2 baked)
+		(s1w3 35)
+	)
+
+	(LF1
+		(head n4 s1w1)
+		(dep n4 n1)
+		(head n1 s1w4)
+		(amod n1 s1w2)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 35)(role q1 dep)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w7 have)
+		(s2w3 more)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w4 muffin)
+		(s2w5 do)
+		(s2w6 Arthur)
+		(s2w9 bake)
+		(s2w8 to)
+		(s2w11 have)
+		(s2w10 to)
+		(s2w13 muffin)
+		(s2w12 83)
+	)
+
+	(LF1
+		(verb v1 s2w7)
+		(dep v1 s2w3)
+		(amod v1 s2w2)
+		(advmod v1 s2w1)
+		(dep v1 n2)
+		(head n2 s2w4)
+		(aux v1 s2w5)
+		(nsubj v1 n7)
+		(head n7 s2w6)
+		(xcomp v1 s2w9)
+		(mark v1 s2w8)
+		(verb v1 s2w11)
+		(mark v1 s2w10)
+		(dobj v1 n3)
+		(head n3 s2w13)
+		(nummod n3 s2w12)
+	)
+
+	(LF2
+		(= (quan q3 # s2w13) 83)(verb q3 s2w11)(role q3 dobj)
+
+		(ASK ANS (Subtraction (quan q3 # s2w13) (quan q1 # s1w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

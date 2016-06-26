@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Joyce(1)},dobj={banana(4):nummod={40(3)},acl_relcl={put(8):nsubjpass={that(5)},aux={must(6)},auxpass={be(7)},compound_prt={away(9)},nmod={box(11):case={in(10)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Joyce(1,NNP): {Joyce}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">40(3,CD): {40}</Word>
+		<Word idx="4">banana(4,NNS): {bananas}</Word>
+		<Word idx="5">that(5,WDT): {that}</Word>
+		<Word idx="6">must(6,MD): {must}</Word>
+		<Word idx="7">be(7,VB): {be}</Word>
+		<Word idx="8">put(8,VBN): {put}</Word>
+		<Word idx="9">away(9,RP): {away}</Word>
+		<Word idx="10">in(10,IN): {in}</Word>
+		<Word idx="11">box(11,NNS): {boxes}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{come(2):nsubj={Fred(1)},xcomp={help(4):mark={to(3)}},cc={and(5)},conj={bring(6):dobj={cookie(8):nummod={18(7)}},advcl={share(10):mark={to(9)},nmod={[x1]Joyce(12):case={with(11)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Fred(1,NNP): {Fred}</Word>
+		<Word idx="2">come(2,VBZ): {comes}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">help(4,VB): {help}</Word>
+		<Word idx="5">and(5,CC): {and}</Word>
+		<Word idx="6">bring(6,VBZ): {brings}</Word>
+		<Word idx="7">18(7,CD): {18}</Word>
+		<Word idx="8">cookie(8,NNS): {cookies}</Word>
+		<Word idx="9">to(9,TO): {to}</Word>
+		<Word idx="10">share(10,VB): {share}</Word>
+		<Word idx="11">with(11,IN): {with}</Word>
+		<Word idx="12">Joyce(12,NNP): {Joyce}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{go(11):advcl={be(3):mark={if(1)},expl={there(2)},nsubj={box(5):nummod={10(4)}}},nsubj={banana(9):amod={many(8):advmod={how(7)}}},aux={must(10)},nmod={box(14):case={in(12)},det={each(13)}}}</SemRep>
+	<WordList>
+		<Word idx="1">if(1,IN): {If}</Word>
+		<Word idx="2">there(2,EX): {there}</Word>
+		<Word idx="3">be(3,VBP): {are}</Word>
+		<Word idx="4">10(4,CD): {10}</Word>
+		<Word idx="5">box(5,NNS): {boxes}</Word>
+		<Word idx="6">how(7,WRB): {how}</Word>
+		<Word idx="7">many(8,JJ): {many}</Word>
+		<Word idx="8">banana(9,NNS): {bananas}</Word>
+		<Word idx="9">must(10,MD): {must}</Word>
+		<Word idx="10">go(11,VB): {go}</Word>
+		<Word idx="11">in(12,IN): {in}</Word>
+		<Word idx="12">each(13,DT): {each}</Word>
+		<Word idx="13">box(14,NN): {box}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">CommonDiv</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

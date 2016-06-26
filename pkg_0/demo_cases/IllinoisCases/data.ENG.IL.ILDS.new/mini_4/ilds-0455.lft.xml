@@ -1,0 +1,82 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 take)
+		(s1w1 it)
+		(s1w4 minute)
+		(s1w3 7)
+		(s1w6 bake)
+		(s1w5 to)
+		(s1w8 pan)
+		(s1w7 one)
+		(s1w10 cookie)
+		(s1w9 of)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(verb v1 s1w6)
+		(mark v1 s1w5)
+		(dobj v1 n2)
+		(head n2 s1w8)
+		(nummod n2 s1w7)
+		(nmod n2 n6)
+		(head n6 s1w10)
+		(case n6 s1w9)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 7)(verb q1 s1w2)(role q1 dobj)
+		(= (quan q2 # s1w8) 1)(verb q2 s1w6)(role q2 dobj)
+		(q_map m1 q1 q2)(verb m1 s1w2)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w5 take)
+		(s2w2 long)
+		(s2w1 how)
+		(s2w3 will)
+		(s2w4 it)
+		(s2w7 bake)
+		(s2w6 to)
+		(s2w9 pan)
+		(s2w8 4)
+		(s2w11 cookie)
+		(s2w10 of)
+	)
+
+	(LF1
+		(HEAD v2 s2w5)
+		(dep v2 s2w2)
+		(advmod v2 s2w1)
+		(aux v2 s2w3)
+		(nsubj v2 s2w4)
+		(verb v2 s2w7)
+		(mark v2 s2w6)
+		(dobj v2 n3)
+		(head n3 s2w9)
+		(nummod n3 s2w8)
+		(nmod n3 n8)
+		(head n8 s2w11)
+		(case n8 s2w10)
+	)
+
+	(LF2
+		(= (quan q3 # s2w9) 4)(verb q3 s2w7)(role q3 dobj)
+
+(ASK ANS (Multiplication (quan q3 # s2w9) (Get (u_map ?m # s2w9 # s1w4) (COND (verb ?m s1w2)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

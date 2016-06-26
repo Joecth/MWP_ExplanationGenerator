@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Lucy(1)},dobj={[x2]fish(4):nummod={212(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Lucy(1,NNP): {Lucy}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">212(3,CD): {212}</Word>
+		<Word idx="4">fish(4,NN): {fish}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(7):dep={fish(4):amod={more(3):dep={many(2):advmod={how(1)}}}},aux={do(5)},nsubj={[x1]she(6)},xcomp={buy(9):mark={to(8)},xcomp={have(11):mark={to(10)},dobj={[x2]fish(13):nummod={280(12)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">more(3,JJR): {more}</Word>
+		<Word idx="4">fish(4,NN): {fish}</Word>
+		<Word idx="5">do(5,VBZ): {does}</Word>
+		<Word idx="6">she(6,PRP): {she}</Word>
+		<Word idx="7">need(7,VB): {need}</Word>
+		<Word idx="8">to(8,TO): {to}</Word>
+		<Word idx="9">buy(9,VB): {buy}</Word>
+		<Word idx="10">to(10,TO): {to}</Word>
+		<Word idx="11">have(11,VB): {have}</Word>
+		<Word idx="12">280(12,CD): {280}</Word>
+		<Word idx="13">fish(13,NN): {fish}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

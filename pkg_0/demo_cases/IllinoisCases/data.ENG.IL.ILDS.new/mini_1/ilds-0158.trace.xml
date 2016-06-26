@@ -1,0 +1,55 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>8(card/group)</CHUNK>
+          <CHUNK>OP_CommonDiv</CHUNK>
+            <CHUNK>72card</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>9group</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_157'>
+    8(card/group)
+    CommonDiv
+    <math ID='NULL'>
+      72card
+    </math>
+    <math ID='NULL'>
+      9group
+    </math>
+  </math>
+  <ctx ID='ctx_154'>
+    <__one_line_xml_ASK__ANS>8</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_153'>
+      ( CLUE::Input ( ASK ANS ( CommonDiv ( quan q1 # s1w4 ) ( quan q2 # s2w8 ) ) ) )
+    </ctx>
+    <ctx ID='ctx_157'>
+      ( CLUE::Util ( CommonDiv 72 9 = 8 ) )
+      ( CLUE::Util ( Val1 ( m_real 72 ) ( m_fact ( quan q1 # s1w4 ) ( 72 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 9 ) ( m_fact ( quan q2 # s2w8 ) ( 9 ) ) ) )
+      <ctx ID='ctx_82'>
+        ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w4 ) 72 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w4 ) 72 ) )
+        ( CLUE::Create-Fact ( quan q1 # s1w4 ) ( 72 ) )
+        <ctx ID='ctx_81'>
+          ( CLUE::Input ( = ( quan q1 # s1w4 ) 72 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_138'>
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s2w8 ) 9 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q2 # s2w8 ) 9 ) )
+        ( CLUE::Create-Fact ( quan q2 # s2w8 ) ( 9 ) )
+        <ctx ID='ctx_137'>
+          ( CLUE::Input ( = ( quan q2 # s2w8 ) 9 ) )
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

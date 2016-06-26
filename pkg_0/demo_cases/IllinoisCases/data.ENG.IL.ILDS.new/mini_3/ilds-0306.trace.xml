@@ -1,0 +1,121 @@
+<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<Traces>
+<Trace>
+  <CHUNK_TREE>
+      <CHUNK>V.eat</CHUNK>
+      <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>BeginTree</CHUNK>
+        <CHUNK>1.5</CHUNK>
+          <CHUNK>OP_Multiplication</CHUNK>
+            <CHUNK>1flower</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>1.5(bug/flower)</CHUNK>
+              <CHUNK>OP_CommonDiv</CHUNK>
+                <CHUNK>3bug</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+                <CHUNK>2flower</CHUNK>
+                <CHUNK>UPSCOPE</CHUNK>
+              <CHUNK>UPSCOPE</CHUNK>
+            <CHUNK>UPSCOPE</CHUNK>
+          <CHUNK>UPSCOPE</CHUNK>
+        <CHUNK>UPSCOPE</CHUNK>
+      <CHUNK>EndTree</CHUNK>
+  </CHUNK_TREE>
+  <math ID='ctx_149'>
+    1.5
+    Multiplication
+    <math ID='NULL'>
+      1flower
+    </math>
+    <math ID='ctx_111'>
+      1.5(bug/flower)
+      CommonDiv
+      <math ID='NULL'>
+        3bug
+      </math>
+      <math ID='NULL'>
+        2flower
+      </math>
+    </math>
+  </math>
+  <ctx ID='ctx_146'>
+    <__one_line_xml_ASK__ANS>1.5</__one_line_xml_ASK__ANS>
+    <ctx ID='ctx_145'>
+      ( CLUE::Input ( ASK ANS ( Multiplication ( quan q3 # s1w8 ) ( Get ( u_map ?m # s1w8 # s1w5 ) ( COND ( verb ?m s1w6 ) ) ) ) ) )
+    </ctx>
+    <ctx ID='ctx_149'>
+      ( CLUE::Util ( Multiplication 1 1.5 = 1.5 ) )
+      ( CLUE::Util ( Val1 ( m_real 1 ) ( m_fact ( quan q3 # s1w8 ) ( 1 ) ) ) )
+      ( CLUE::Util ( Val2 ( m_real 1.5 ) ( m_fact ( u_map m1 # s1w8 # s1w5 ) ( 1.5 ) ) ) )
+      <ctx ID='ctx_98'>
+        ( CLUE::EVAL::LF2 ( = ( quan q3 # s1w8 ) 1 ) )
+        ( CLUE::EVAL::LF2 ( = ( quan q3 # s1w8 ) 1 ) )
+        ( CLUE::Create-Fact ( quan q3 # s1w8 ) ( 1 ) )
+        <ctx ID='ctx_97'>
+          ( CLUE::Input ( = ( quan q3 # s1w8 ) 1 ) )
+        </ctx>
+      </ctx>
+      <ctx ID='ctx_148'>
+        ( CLUE::Bound-Facts ( u_map m1 # s1w8 # s1w5 ) ( verb m1 s1w6 ) )
+        <ctx ID='ctx_111'>
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 # s1w8 # s1w5 ) ( / ( quan q1 # s1w5 ) ( quan q2 # s1w8 ) ) ) )
+          ( CLUE::EVAL::LF2 ( = ( u_map m1 # s1w8 # s1w5 ) ( / 3 2 ) ) )
+          ( CLUE::Create-Fact ( u_map m1 # s1w8 # s1w5 ) ( 1.5 ) )
+          <ctx ID='ctx_110'>
+            ( CLUE::Rule ( => ( and ( q_map ?_1 ?_2 ?_3 ) ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ( = ( u_map ?_1 ?_6 ?_7 ?_4 ?_5 ) ( / ( quan ?_2 ?_4 ?_5 ) ( quan ?_3 ?_6 ?_7 ) ) ) ) )
+            ( CLUE::Bind ( ?_1 m1 ) ( ?_2 q1 ) ( ?_3 q2 ) ( ?_4 # ) ( ?_5 s1w5 ) ( ?_6 # ) ( ?_7 s1w8 ) )
+            ( CLUE::Premise ( q_map m1 q1 q2 ) ( quan q1 # s1w5 ) ( quan q2 # s1w8 ) )
+            ( CLUE::Conclusion ( = ( u_map m1 # s1w8 # s1w5 ) ( / ( quan q1 # s1w5 ) ( quan q2 # s1w8 ) ) ) )
+            ( CLUE::ExprVarMap ( $1_u_map ) ( $2_quan 3 ) ( $3_quan 2 ) )
+            <ctx ID='ctx_107'>
+              ( CLUE::Create-Fact ( q_map m1 q1 q2 ) ( ) )
+              <ctx ID='ctx_105'>
+                ( CLUE::Input ( q_map m1 q1 q2 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_82'>
+              ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w5 ) 3 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w5 ) 3 ) )
+              ( CLUE::Create-Fact ( quan q1 # s1w5 ) ( 3 ) )
+              <ctx ID='ctx_81'>
+                ( CLUE::Input ( = ( quan q1 # s1w5 ) 3 ) )
+              </ctx>
+            </ctx>
+            <ctx ID='ctx_90'>
+              ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w8 ) 2 ) )
+              ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w8 ) 2 ) )
+              ( CLUE::Create-Fact ( quan q2 # s1w8 ) ( 2 ) )
+              <ctx ID='ctx_89'>
+                ( CLUE::Input ( = ( quan q2 # s1w8 ) 2 ) )
+              </ctx>
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_82'>
+            ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w5 ) 3 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q1 # s1w5 ) 3 ) )
+            ( CLUE::Create-Fact ( quan q1 # s1w5 ) ( 3 ) )
+            <ctx ID='ctx_81'>
+              ( CLUE::Input ( = ( quan q1 # s1w5 ) 3 ) )
+            </ctx>
+          </ctx>
+          <ctx ID='ctx_90'>
+            ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w8 ) 2 ) )
+            ( CLUE::EVAL::LF2 ( = ( quan q2 # s1w8 ) 2 ) )
+            ( CLUE::Create-Fact ( quan q2 # s1w8 ) ( 2 ) )
+            <ctx ID='ctx_89'>
+              ( CLUE::Input ( = ( quan q2 # s1w8 ) 2 ) )
+            </ctx>
+          </ctx>
+        </ctx>
+        <ctx ID='ctx_114'>
+          ( CLUE::Create-Fact ( verb m1 s1w6 ) ( ) )
+          <ctx ID='ctx_112'>
+            ( CLUE::Input ( verb m1 s1w6 ) )
+          </ctx>
+        </ctx>
+      </ctx>
+    </ctx>
+  </ctx>
+</Trace>
+</Traces>
+</Unit>

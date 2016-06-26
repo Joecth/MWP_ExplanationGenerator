@@ -1,0 +1,118 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Diane)
+		(s1w4 crayon)
+		(s1w3 37)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n4)
+		(head n4 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 37)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 get)
+		(s2w1 she)
+		(s2w3 5)
+		(s2w4 more)
+		(s2w6 Frances)
+		(s2w5 from)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 s2w3)
+		(advmod v2 s2w4)
+		(nmod v2 n6)
+		(head n6 s2w6)
+		(case n6 s2w5)
+	)
+
+	(LF2
+		(= (quan q2 # s1w4) 5)(verb q2 s2w2)(role q2 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 buy)
+		(s3w1 later)
+		(s3w2 Diane)
+		(s3w5 card)
+		(s3w4 16)
+		(s3w8 store)
+		(s3w6 at)
+		(s3w7 the)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(advmod v3 s3w1)
+		(nsubj v3 n7)
+		(head n7 s3w2)
+		(dobj v3 n2)
+		(head n2 s3w5)
+		(nummod n2 s3w4)
+		(nmod n2 n9)
+		(head n9 s3w8)
+		(case n9 s3w6)
+		(det n9 s3w7)
+	)
+
+	(LF2
+		(= (quan q3 # s3w5) 16)(verb q3 s3w3)(role q3 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w6 have)
+		(s4w1 how)
+		(s4w3 crayon)
+		(s4w2 many)
+		(s4w4 do)
+		(s4w5 Diane)
+		(s4w8 all)
+		(s4w7 in)
+	)
+
+	(LF1
+		(verb v4 s4w6)
+		(advmod v4 s4w1)
+		(dep v4 n3)
+		(head n3 s4w3)
+		(amod n3 s4w2)
+		(aux v4 s4w4)
+		(nsubj v4 n11)
+		(head n11 s4w5)
+		(nmod v4 s4w8)
+		(case v4 s4w7)
+	)
+
+	(LF2
+		
+		(ASK ANS (Addition (quan q1 # s1w4) (quan q2 # s1w4)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

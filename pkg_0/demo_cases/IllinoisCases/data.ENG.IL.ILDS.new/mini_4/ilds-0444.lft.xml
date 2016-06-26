@@ -1,0 +1,110 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 have)
+		(s1w2 class)
+		(s1w1 you)
+		(s1w3 be)
+		(s1w7 party)
+		(s1w5 a)
+		(s1w6 pizza)
+	)
+
+	(LF1
+		(HEAD v1 s1w4)
+		(nsubj v1 n5)
+		(head n5 s1w2)
+		(nmod_poss n5 s1w1)
+		(aux v1 s1w3)
+		(dobj v1 n6)
+		(head n6 s1w7)
+		(det n6 s1w5)
+		(compound n6 n7)
+		(head n7 s1w6)
+	)
+
+	(LF2
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 buy)
+		(s2w1 you)
+		(s2w4 pizza)
+		(s2w3 5)
+	)
+
+	(LF1
+		(verb v2 s2w2)
+		(nsubj v2 s2w1)
+		(dobj v2 n1)
+		(head n1 s2w4)
+		(nummod n1 s2w3)
+	)
+
+	(LF2
+		(= (quan q1 # s2w4) 5)(verb q1 s2w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="3">
+	(LF0
+		(s3w3 have)
+		(s3w2 pizza)
+		(s3w1 each)
+		(s3w5 slice)
+		(s3w4 4)
+	)
+
+	(LF1
+		(verb v3 s3w3)
+		(nsubj v3 n2)
+		(head n2 s3w2)
+		(det n2 s3w1)
+		(dobj v3 n3)
+		(head n3 s3w5)
+		(nummod n3 s3w4)
+	)
+
+	(LF2
+		(= (quan q2 # s3w2) 1)(verb q2 s3w3)(role q2 nsubj)
+		(= (quan q3 # s3w5) 4)(verb q3 s3w3)(role q3 dobj)
+		(q_map m1 q2 q3)(verb m1 s3w3)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s4w4 be)
+		(s4w2 many)
+		(s4w1 how)
+		(s4w3 slice)
+		(s4w5 that)
+		(s4w6 altogether)
+	)
+
+	(LF1
+		(verb v4 s4w4)
+		(dep v4 s4w2)
+		(advmod v4 s4w1)
+		(nsubj v4 n4)
+		(head n4 s4w3)
+		(advmod v4 s4w5)
+		(advmod v4 s4w6)
+	)
+
+	(LF2
+		
+		(ASK ANS (Multiplication (quan q1 # s2w4) (Get (u_map ?m # s2w4 # s3w5) (COND (verb ?m s3w3)))))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

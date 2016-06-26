@@ -1,0 +1,123 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w4 go)
+		(s1w2 people)
+		(s1w1 219)
+		(s1w3 be)
+		(s1w7 zoo)
+		(s1w5 to)
+		(s1w6 the)
+		(s1w8 and)
+		(s1w10 be)
+		(s1w9 there)
+		(s1w12 bus)
+		(s1w11 3)
+		(s1w14 take)
+		(s1w13 to)
+		(s1w15 people)
+	)
+
+	(LF1
+		(verb v1 s1w4)
+		(nsubj v1 n1)
+		(head n1 s1w2)
+		(nummod n1 s1w1)
+		(aux v1 s1w3)
+		(nmod v1 n6)
+		(head n6 s1w7)
+		(case n6 s1w5)
+		(det n6 s1w6)
+		(cj_op j1 and)
+		(verb v1 s1w10)
+		(expl v1 s1w9)
+		(nsubj v1 n2)
+		(head n2 s1w12)
+		(nummod n2 s1w11)
+		(acl n2 s1w14)
+		(mark n2 s1w13)
+		(dobj n2 n3)
+		(head n3 s1w15)
+	)
+
+	(LF2
+		(= (quan q1 # s1w2) 219)(verb q1 s1w4)(role q1 nsubj)
+		(= (quan q2 # s1w12) 3)(verb q2 s1w10)(role q2 nsubj)
+		(q_map m1 q1 q2)(verb m1 s1w4)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s2w4 go)
+		(s2w2 many)
+		(s2w1 how)
+		(s2w3 will)
+		(s2w7 bus)
+		(s2w5 in)
+		(s2w6 each)
+		(s2w12 go)
+		(s2w8 if)
+		(s2w11 number)
+		(s2w9 the)
+		(s2w10 same)
+		(s2w15 one)
+		(s2w13 in)
+		(s2w14 each)
+		(s2w16 and)
+		(s2w21 go)
+		(s2w17 all)
+		(s2w20 people)
+		(s2w18 of)
+		(s2w19 the)
+		(s2w24 zoo)
+		(s2w22 to)
+		(s2w23 the)
+	)
+
+	(LF1
+		(verb v2 s2w4)
+		(dep v2 s2w2)
+		(advmod v2 s2w1)
+		(aux v2 s2w3)
+		(nmod v2 n4)
+		(head n4 s2w7)
+		(case n4 s2w5)
+		(det n4 s2w6)
+		(verb v2 s2w12)
+		(mark v2 s2w8)
+		(nsubj v2 n10)
+		(head n10 s2w11)
+		(det n10 s2w9)
+		(amod n10 s2w10)
+		(nmod v2 s2w15)
+		(case v2 s2w13)
+		(det v2 s2w14)
+		(cj_op j2 and)
+		(conj v2 s2w21)
+		(nsubj v2 s2w17)
+		(nmod v2 n11)
+		(head n11 s2w20)
+		(case n11 s2w18)
+		(det n11 s2w19)
+		(nmod v2 n12)
+		(head n12 s2w24)
+		(case n12 s2w22)
+		(det n12 s2w23)
+	)
+
+	(LF2
+		(= (quan q4 # s2w7) 1)(verb q4 s2w4)(role q4 nmod)
+(= (quan q5 # s1w15) 1)(verb q5 s2w12)(role q5 dobj)
+(= (quan q6 # s1w15) 1)(verb q6 s2w12)(role q6 dobj)
+
+(ASK ANS (CommonDiv (quan q1 # s1w2) (quan q2 # s1w12)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

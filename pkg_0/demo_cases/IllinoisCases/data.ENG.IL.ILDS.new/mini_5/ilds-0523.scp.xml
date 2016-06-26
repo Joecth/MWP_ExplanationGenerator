@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{drive(2):nsubj={[x1]Brett(1)},dobj={mile(4):nummod={55(3)},dep={hour(6):det={every(5)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">Brett(1,NNP): {Brett}</Word>
+		<Word idx="2">drive(2,VBD): {drove}</Word>
+		<Word idx="3">55(3,CD): {55}</Word>
+		<Word idx="4">mile(4,NNS): {miles}</Word>
+		<Word idx="5">every(5,DT): {every}</Word>
+		<Word idx="6">hour(6,NN): {hour}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{drive(6):dobj={mile(3):amod={many(2):advmod={how(1)}}},aux={would(4)},nsubj={[x1]he(5)},nmod={hour(9):case={in(7)},nummod={8(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">mile(3,NNS): {miles}</Word>
+		<Word idx="4">would(4,MD): {would}</Word>
+		<Word idx="5">he(5,PRP): {he}</Word>
+		<Word idx="6">drive(6,VB): {drive}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">8(8,CD): {8}</Word>
+		<Word idx="9">hour(9,NNS): {hours}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x2]Kim(1)},dobj={[x1]cousin(4):nummod={4(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Kim(1,NNP): {Kim}</Word>
+		<Word idx="2">have(2,VBZ): {has}</Word>
+		<Word idx="3">4(3,CD): {4}</Word>
+		<Word idx="4">cousin(4,NNS): {cousins}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{want(2):nsubj={[x2]she(1)},xcomp={give(4):mark={to(3)},iobj={[x1]cousin(6):det={each(5)}},dobj={piece(8):nummod={5(7)},nmod={gum(10):case={of(9)}}}}}</SemRep>
+	<WordList>
+		<Word idx="1">she(1,PRP): {She}</Word>
+		<Word idx="2">want(2,VBZ): {wants}</Word>
+		<Word idx="3">to(3,TO): {to}</Word>
+		<Word idx="4">give(4,VB): {give}</Word>
+		<Word idx="5">each(5,DT): {each}</Word>
+		<Word idx="6">cousin(6,NN): {cousin}</Word>
+		<Word idx="7">5(7,CD): {5}</Word>
+		<Word idx="8">piece(8,NNS): {pieces}</Word>
+		<Word idx="9">of(9,IN): {of}</Word>
+		<Word idx="10">gum(10,NN): {gum}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{need(6):dobj={gum(3):amod={much(2):advmod={how(1)}}},aux={will(4)},nsubj={[x2]she(5)}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">gum(3,NN): {gum}</Word>
+		<Word idx="4">will(4,MD): {will}</Word>
+		<Word idx="5">she(5,PRP): {she}</Word>
+		<Word idx="6">need(6,VB): {need}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

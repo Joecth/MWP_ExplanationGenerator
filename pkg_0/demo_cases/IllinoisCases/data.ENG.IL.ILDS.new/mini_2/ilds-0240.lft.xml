@@ -1,0 +1,128 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+		<Sent idx="1">
+	(LF0
+		(s1w2 have)
+		(s1w1 Marilyn)
+		(s1w4 banana)
+		(s1w3 40)
+		(s1w8 put)
+		(s1w5 that)
+		(s1w6 must)
+		(s1w7 be)
+		(s1w9 away)
+		(s1w11 box)
+		(s1w10 in)
+	)
+
+	(LF1
+		(verb v1 s1w2)
+		(nsubj v1 n6)
+		(head n6 s1w1)
+		(dobj v1 n1)
+		(head n1 s1w4)
+		(nummod n1 s1w3)
+		(acl_relcl n1 s1w8)
+		(nsubjpass n1 s1w5)
+		(aux n1 s1w6)
+		(auxpass n1 s1w7)
+		(compound_prt n1 s1w9)
+		(nmod n1 n8)
+		(head n8 s1w11)
+		(case n8 s1w10)
+	)
+
+	(LF2
+		(= (quan q1 # s1w4) 40)(verb q1 s1w2)(role q1 dobj)
+		
+	)
+
+		</Sent>
+		<Sent idx="2">
+	(LF0
+		(s2w2 come)
+		(s2w1 Daniel)
+		(s2w4 help)
+		(s2w3 to)
+		(s2w5 and)
+		(s2w6 bring)
+		(s2w8 cookie)
+		(s2w7 10)
+		(s2w10 share)
+		(s2w9 to)
+		(s2w12 Marilyn)
+		(s2w11 with)
+	)
+
+	(LF1
+		(HEAD v2 s2w2)
+		(nsubj v2 n9)
+		(head n9 s2w1)
+		(xcomp v2 s2w4)
+		(mark v2 s2w3)
+		(cj_op j1 and)
+		(verb v2 s2w6)
+		(dobj v2 n2)
+		(head n2 s2w8)
+		(nummod n2 s2w7)
+		(advcl v2 s2w10)
+		(mark v2 s2w9)
+		(nmod v2 n11)
+		(head n11 s2w12)
+		(case n11 s2w11)
+	)
+
+	(LF2
+		(= (quan q2 # s2w8) 10)(verb q2 s2w6)(role q2 dobj)
+		
+	)
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s3w10 go)
+		(s3w3 be)
+		(s3w1 if)
+		(s3w2 there)
+		(s3w5 box)
+		(s3w4 8)
+		(s3w8 banana)
+		(s3w7 many)
+		(s3w6 how)
+		(s3w9 must)
+		(s3w13 box)
+		(s3w11 in)
+		(s3w12 each)
+	)
+
+	(LF1
+		(verb v3 s3w10)
+		(verb v3 s3w3)
+		(mark v3 s3w1)
+		(expl v3 s3w2)
+		(nsubj v3 n3)
+		(head n3 s3w5)
+		(nummod n3 s3w4)
+		(nsubj v3 n4)
+		(head n4 s3w8)
+		(amod n4 s3w7)
+		(advmod n4 s3w6)
+		(aux v3 s3w9)
+		(nmod v3 n5)
+		(head n5 s3w13)
+		(case n5 s3w11)
+		(det n5 s3w12)
+	)
+
+	(LF2
+		(= (quan q3 # s3w5) 8)(verb q3 s3w3)(role q3 nsubj)
+(= (quan q5 # s3w13) 1)(verb q5 s3w10)(role q5 nmod)
+
+(ASK ANS (CommonDiv (quan q1 # s1w4) (quan q3 # s3w5)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

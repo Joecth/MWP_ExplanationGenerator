@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{contain(3):nsubj={cup(2):det={each(1)}},dobj={ounce(5):nummod={8(4)}}}</SemRep>
+	<WordList>
+		<Word idx="1">each(1,DT): {Each}</Word>
+		<Word idx="2">cup(2,NN): {cup}</Word>
+		<Word idx="3">contain(3,VBZ): {contains}</Word>
+		<Word idx="4">8(4,CD): {8}</Word>
+		<Word idx="5">ounce(5,NNS): {ounces}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):nsubj={ounce(3):amod={many(2):advmod={how(1)}}},nmod={cup(7):case={in(5)},nummod={33(6)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">ounce(3,NNS): {ounces}</Word>
+		<Word idx="4">be(4,VBP): {are}</Word>
+		<Word idx="5">in(5,IN): {in}</Word>
+		<Word idx="6">33(6,CD): {33}</Word>
+		<Word idx="7">cup(7,NNS): {cups}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

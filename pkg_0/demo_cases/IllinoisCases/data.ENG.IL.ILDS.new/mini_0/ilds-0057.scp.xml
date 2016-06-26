@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(2):nsubj={[x3]Jessica(1)},dobj={[x1]pound(4):nummod={49(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Jessica(1,NNP): {Jessica}</Word>
+		<Word idx="2">weigh(2,VBZ): {weighs}</Word>
+		<Word idx="3">49(3,CD): {49}</Word>
+		<Word idx="4">pound(4,NNS): {pounds}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{weigh(2):nsubj={[x2]Thomas(1)},dobj={[x1]pound(4):nummod={44(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Thomas(1,NNP): {Thomas}</Word>
+		<Word idx="2">weigh(2,VBZ): {weighs}</Word>
+		<Word idx="3">44(3,CD): {44}</Word>
+		<Word idx="4">pound(4,NNS): {pounds}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(4):dobj={much(2):advmod={how(1)},amod={heavier(3)}},nsubj={[x3]Jessica(5):nmod={[x2]Thomas(7):case={than(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">much(2,JJ): {much}</Word>
+		<Word idx="3">heavier(3,JJR): {heavier}</Word>
+		<Word idx="4">be(4,VBZ): {is}</Word>
+		<Word idx="5">Jessica(5,NNP): {Jessica}</Word>
+		<Word idx="6">than(6,IN): {than}</Word>
+		<Word idx="7">Thomas(7,NNP): {Thomas}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

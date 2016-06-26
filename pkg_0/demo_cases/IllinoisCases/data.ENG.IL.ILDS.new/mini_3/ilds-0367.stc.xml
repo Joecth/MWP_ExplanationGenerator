@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(2):nsubj={[x1]Tommy(1)},dobj={balloon(4):det={some(3)}}}</SemRep>
+	<WordList>
+		<Word idx="1">Tommy(1,NNP): {Tommy}</Word>
+		<Word idx="2">have(2,VBD): {had}</Word>
+		<Word idx="3">some(3,DT): {some}</Word>
+		<Word idx="4">balloon(4,NNS): {balloons}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="2">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{give(3):nsubj={mom(2):nmod_poss={[x1]he(1)}},iobj={[x1]he(4)},dobj={balloon(7):nummod={34(5)},amod={more(6)},nmod={birthday(10):case={for(8)},nmod_poss={[x1]he(9)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">he(1,PRPS): {His}</Word>
+		<Word idx="2">mom(2,NN): {mom}</Word>
+		<Word idx="3">give(3,VBD): {gave}</Word>
+		<Word idx="4">he(4,PRP): {him}</Word>
+		<Word idx="5">34(5,CD): {34}</Word>
+		<Word idx="6">more(6,JJR): {more}</Word>
+		<Word idx="7">balloon(7,NNS): {balloons}</Word>
+		<Word idx="8">for(8,IN): {for}</Word>
+		<Word idx="9">he(9,PRPS): {his}</Word>
+		<Word idx="10">birthday(10,NN): {birthday}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+		<Sent idx="3">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(4):advmod={then(1)},nsubj={[x1]Tommy(3)},dobj={balloon(6):nummod={60(5)}}}</SemRep>
+	<WordList>
+		<Word idx="1">then(1,RB): {Then}</Word>
+		<Word idx="2">Tommy(3,NNP): {Tommy}</Word>
+		<Word idx="3">have(4,VBD): {had}</Word>
+		<Word idx="4">60(5,CD): {60}</Word>
+		<Word idx="5">balloon(6,NNS): {balloons}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{have(6):dep={balloon(3):amod={many(2):advmod={how(1)}}},aux={do(4)},nsubj={[x1]Tommy(5)},xcomp={start(8):mark={to(7)},nmod={with(9)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">balloon(3,NNS): {balloons}</Word>
+		<Word idx="4">do(4,VBD): {did}</Word>
+		<Word idx="5">Tommy(5,NNP): {Tommy}</Word>
+		<Word idx="6">have(6,VB): {have}</Word>
+		<Word idx="7">to(7,TO): {to}</Word>
+		<Word idx="8">start(8,VB): {start}</Word>
+		<Word idx="9">with(9,IN): {with}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Subtraction</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>

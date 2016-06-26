@@ -1,0 +1,71 @@
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+	<Body>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+	(LF0
+		(s1w19 be)
+		(s1w3 be)
+		(s1w1 if)
+		(s1w2 there)
+		(s1w5 egg)
+		(s1w4 7)
+		(s1w8 box)
+		(s1w6 in)
+		(s1w7 a)
+		(s1w9 and)
+		(s1w11 put)
+		(s1w10 Daniel)
+		(s1w14 egg)
+		(s1w12 4)
+		(s1w13 more)
+		(s1w15 inside)
+		(s1w18 egg)
+		(s1w17 many)
+		(s1w16 how)
+		(s1w22 box)
+		(s1w20 in)
+		(s1w21 the)
+	)
+
+	(LF1
+		(verb v1 s1w19)
+		(verb v1 s1w3)
+		(mark v1 s1w1)
+		(expl v1 s1w2)
+		(nsubj v1 n1)
+		(head n1 s1w5)
+		(nummod n1 s1w4)
+		(nmod n1 n5)
+		(head n5 s1w8)
+		(case n5 s1w6)
+		(det n5 s1w7)
+		(cj_op j1 and)
+		(verb v1 s1w11)
+		(nsubj v1 n6)
+		(head n6 s1w10)
+		(dobj v1 n2)
+		(head n2 s1w14)
+		(nummod n2 s1w12)
+		(amod n2 s1w13)
+		(advmod v1 s1w15)
+		(dobj v1 n3)
+		(head n3 s1w18)
+		(amod n3 s1w17)
+		(advmod n3 s1w16)
+		(nmod v1 n9)
+		(head n9 s1w22)
+		(case n9 s1w20)
+		(det n9 s1w21)
+	)
+
+	(LF2
+		(= (quan q1 # s1w5) 7)(verb q1 s1w3)(role q1 nsubj)
+(= (quan q2 # s1w14) 4)(verb q2 s1w11)(role q2 dobj)
+
+		(ASK ANS (Addition (quan q1 # s1w5) (quan q2 # s1w14)))
+	)
+
+		</Sent>
+	</Ques>
+</Unit>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRconverter version="0.x">
+<ProcStatus code="0">Success</ProcStatus>
+<Phase name="logical_from">
+<Unit Code="XXXX-XX-XXXXXX" ID="IIS-MR-MATH-GRADEXX-XXXXXX">
+<UnitCand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<Body>
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{contain(3):nsubj={[x1]bag(2):det={each(1)}},dobj={pound(5):nummod={23(4)},nmod={orange(7):case={of(6)}}}}</SemRep>
+	<WordList>
+		<Word idx="1">each(1,DT): {Each}</Word>
+		<Word idx="2">bag(2,NN): {bag}</Word>
+		<Word idx="3">contain(3,VBZ): {contains}</Word>
+		<Word idx="4">23(4,CD): {23}</Word>
+		<Word idx="5">pound(5,NNS): {pounds}</Word>
+		<Word idx="6">of(6,IN): {of}</Word>
+		<Word idx="7">orange(7,NNS): {oranges}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Body>
+	<Ques idx="1">
+		<Sent idx="1">
+
+<Cand accScore="0.0" idx="1" inCandIdx="1" localScore="0.0">
+	<SemRep>{be(6):nsubj={pound(3):amod={many(2):advmod={how(1)}},nmod={orange(5):case={of(4)}}},nmod={[x1]bag(9):case={in(7)},nummod={45(8)}}}</SemRep>
+	<WordList>
+		<Word idx="1">how(1,WRB): {How}</Word>
+		<Word idx="2">many(2,JJ): {many}</Word>
+		<Word idx="3">pound(3,NNS): {pounds}</Word>
+		<Word idx="4">of(4,IN): {of}</Word>
+		<Word idx="5">orange(5,NNS): {oranges}</Word>
+		<Word idx="6">be(6,VBP): {are}</Word>
+		<Word idx="7">in(7,IN): {in}</Word>
+		<Word idx="8">45(8,CD): {45}</Word>
+		<Word idx="9">bag(9,NNS): {bags}</Word>
+	</WordList>
+</Cand>
+
+		</Sent>
+	</Ques>
+	<SolType>
+		<Cand accScore="0.0" idx="1" localScore="0.0">Multiplication</Cand>
+	</SolType>
+</UnitCand>
+</Unit>
+</Phase>
+</MRconverter>
