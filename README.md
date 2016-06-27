@@ -13,3 +13,5 @@ Math Word Problem - Explanation Generator
 3) ilds3_golden_000.log
 4) ilds4_golden_000.log
 5) ilds5_golden_000.log
+
+#### PLEASE REFER TO pkg_0/README.txt FOR FURTHER INFORMATION
