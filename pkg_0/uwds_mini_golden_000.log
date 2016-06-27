@@ -1,9 +1,3 @@
-Traceback (most recent call last):
-  File "__init__.py", line 739, in <module>
-    (tense, voice, modal, verb_st, how_pos, conj_pos, is_compare_q) = stc_obj.get_info() # verb_st : verb from stc file
-  File "/drives/c/eg/MWP_ExplanationGenerator/pkg_0/stc_analyzer.py", line 179, in get_info
-    assert(0)
-AssertionError
 
 ====================	start of case : ilds-0001	====================
 python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0001.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0001.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0001.stc.xml
@@ -234,20 +228,6 @@ Explanation :
  Ans: 
 She  has to earnhavebuy	47 dollars - 34 dollars = 13 dollars.
 ^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0422	^^^^^^^^^^^^^^^^^^^^
-
-
-
-
-====================	start of case : ilds-0431	====================
-python3 __init__.py -i ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.trace.xml -l ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.lft.xml -s ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.stc.xml
-ID ::  IIS-MR-MATH-GRADEXX-XXXXXX
-<Unit ID="IIS-MR-MATH-GRADEXX-XXXXXX">
-
-0__ROOT
-Case has no Answer from IE! Check case!
-
-No state found! : ./demo_cases/task.UWDS.20160407/data.ENG.UW.mini.new/ilds-0431.stc.xml
-^^^^^^^^^^^^^^^^^^^^	end of case : ilds-0431	^^^^^^^^^^^^^^^^^^^^
 
 
 
