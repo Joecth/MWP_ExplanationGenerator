@@ -19,12 +19,12 @@ from stc_analyzer import *
 # FILE_INPUT_0        = 'problems/online/crashcase/20160218102935.trace.xml'
 
 # '''Chinese case'''
-IS_CHINESE_VERSION = True
-IDX = '1'
-FILE_INPUT_0        = 'problems/tmp.trace.Sample-' + IDX + '.xml'  ## try to get all from disk from shell
-# FILE_INPUT_STC_0    = ''
-# FILE_INPUT_LFT_0      = ''
-# FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
+# IS_CHINESE_VERSION = True
+# IDX = '1'
+# FILE_INPUT_0        = 'problems/tmp.trace.Sample-' + IDX + '.xml'  ## try to get all from disk from shell
+# # FILE_INPUT_STC_0    = ''
+# # FILE_INPUT_LFT_0      = ''
+# # FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
 
 # '''online Chinese site'''
 # FNAME = 'EX9_TVQ'
