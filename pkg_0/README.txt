@@ -15,5 +15,10 @@ Reg 1)
     // script, run under shell; popen2 package cannot be found in PyCharm
     2. vi ./reg_output_new/report.xml
     // to see the diff of all cases in regression this run
-Reg 2)
+Reg 2) UW's dataset
     ./run_uwds_0.py
+Reg 3) UIUC's dataset
+    ./run_ilds_000.py
+
+#### Input Files location:
+under demo_cases/
