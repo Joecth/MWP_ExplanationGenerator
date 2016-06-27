@@ -2,7 +2,7 @@
 Math Word Problem - Explanation Generator
 
 #### EXPLANATION OF UW-395 DATASET ARE in pkg_0/
-1) uwds1_golden_000.log
+#1) uwds1_golden_000.log
 2) uwds2_golden_000.log
 3) uwds3_golden_000.log
 
