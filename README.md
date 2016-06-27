@@ -1,12 +1,12 @@
 # MWP_ExplanationGenerator
 Math Word Problem - Explanation Generator
 
-#### EXPLANATION OF UW-395 DATASET ARE in pkg_0/
+#### EXPLANATION TEXT OF UW-395 DATASET ARE in pkg_0/
 - uwds1_golden_000.log
 - uwds2_golden_000.log
 - uwds3_golden_000.log
 
-#### EXPLANATION OF UIUC-562 DATASET ARE in pkg_0/
+#### EXPLANATION TEXT OF UIUC-562 DATASET ARE in pkg_0/
 - ilds0_golden_000.log
 - ilds1_golden_000.log
 - ilds2_golden_000.log
