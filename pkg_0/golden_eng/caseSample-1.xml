@@ -8,11 +8,10 @@ Warning: No STC file for Tense and Verb_backup!
 Warning: No LFT file for Subject, Voice and Verb!
 			<Explanation>
 				Ans: 
-	2疊  一萬元鈔票  就是   2 * 10000 = 20000元
-	6張  千元鈔票  就是   6 * 1000 = 6000元
-	13張  百元鈔票  就是   13 * 100 = 1300元
-
-	Thus,  Totally 	20000元 + 6000元 + 1300元 = 27300元.
+	一萬元鈔票 * 2疊 = 20000元
+	千元鈔票 * 6張 = 6000元
+	百元鈔票 * 13張 = 1300元
+	所以,  共 付	20000元 + 6000元 + 1300元 = 27300元。
 			</Explanation>
 		</ANS>
 	</Ques>

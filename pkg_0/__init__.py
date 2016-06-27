@@ -19,9 +19,9 @@ from stc_analyzer import *
 # FILE_INPUT_0        = 'problems/online/crashcase/20160218102935.trace.xml'
 
 # '''Chinese case'''
-# IS_CHINESE_VERSION = True
-# IDX = '1'
-# FILE_INPUT_0        = 'problems/tmp.trace.Sample-' + IDX + '.xml'  ## try to get all from disk from shell
+IS_CHINESE_VERSION = True
+IDX = '1'
+FILE_INPUT_0        = 'problems/tmp.trace.Sample-' + IDX + '.xml'  ## try to get all from disk from shell
 # FILE_INPUT_STC_0    = ''
 # FILE_INPUT_LFT_0      = ''
 # FILE_INPUT_0        = 'problems/20151209105638.trace.xml'  ## try to get all from disk from shell
@@ -45,8 +45,8 @@ from stc_analyzer import *
 # FILE_INPUT_STC_0        = 'demo_cases/task.UWDS.20160407/data.ENG.UW.DS'+DIR+'.new/uwds-' + IDX + '.stc.xml'
 
 '''il cases'''
-# DIR = '5'
-# IDX = '0548'
+# DIR = '4'
+# IDX = '0431'
 # FILE_INPUT_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.trace.xml'
 # FILE_INPUT_LFT_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.lft.xml' #for Voice and Subject
 # FILE_INPUT_STC_0        = 'demo_cases/IllinoisCases/data.ENG.IL.ILDS.new/mini_'+DIR+'/ilds-' + IDX + '.stc.xml'
@@ -763,7 +763,7 @@ if ( __name__ == "__main__"):
         print(lft_obj.get_info())
     # voice = None
     subject = None
-    # verb = None
+    verb = None
     if None != lft_obj: ## means LFT file is also loaded
         '''Add Voice and Subject infos'''
         (lft_info_dict, position_verb) = lft_obj.get_info()
@@ -775,21 +775,24 @@ if ( __name__ == "__main__"):
         subject = lft_info_dict.get("Subject")
         if subject:
             subject = morph_SJ(subject, tense) # Subject-Verb agreement, since the subjects we get are always in lama form
-        # verb = lft_info_dict.get("Verb")  ## Starting from 20160516, we don't rely on the verb from lft...
+        verb = lft_info_dict.get("Verb")  ## Starting from 20160516, we don't rely on the verb from lft...
         '''Start from 20160516, we don't trust verb from lft, instead, we get it from Stanford's Tree'''
 
         ''' we use "how's position" to check whether this verb should be adopted'''
-        # if verb:
-        #     verb_pos = re.findall("\d+", position_verb)[1]
-        #     if  int(verb_pos) > int(how_pos):
-        #         pass
-        #     else:
-        #         verb = verb_st
-        # else:
-        #     ### for uwds-126 and 127, we need to get verb_bakup
-        #     verb = verb_st
+        if verb:
+            verb_pos = re.findall("\d+", position_verb)[1]
+            if  int(verb_pos) > int(how_pos):
+                pass
+            else:
+                verb = verb_st
+        else:
+            ### for uwds-126 and 127, we need to get verb_bakup
+            verb = verb_st
 
-    verb = morph_active_verb(verb_st, voice, tense, modal)
+    if stc_obj and lft_obj:
+        verb = morph_active_verb(verb_st, voice, tense, modal)
+    # else:
+        # verb = morph_active_verb(verb, 'B', tense, modal)
 
 
 
@@ -836,7 +839,8 @@ if ( __name__ == "__main__"):
                 else:
                     explanation += ""   ## 中文: 是
 
-            explanation = answer_as_a_sentense(voice, explanation, subject, verb)
+            if stc_obj and lft_obj:
+                explanation = answer_as_a_sentense(voice, explanation, subject, verb)
 
         ### get the required function as template
         sr = OP_func_map.get(op_type)  ### OP_func_map is in data20.py
@@ -898,7 +902,7 @@ if ( __name__ == "__main__"):
                 pass
 
     ## POST handle
-    if int(tense) >0:
+    if (stc_obj and lft_obj) and int(tense) >0:
         if explanation[-1] == "\n":
             explanation = explanation[:-1] # make "period sign" in the same line of last sentence
 
