@@ -15,7 +15,8 @@ Explanation Generator takes them (mainly labels directly from Stanford CoreNLP)
 to integrates explanation sentenses into a Math Word Problem.
 
 Issues such as Voice, Active/Passive, Pronoun etc in explanation are all solved in this Algorithm.
-For Tense, this project further adopts a standalone Context Free Grammar approach (in statemachine.py & statemachine_tv.py) 
+For Tense, this project further adopts a standalone Context Free Grammar approach (in 
+[statemachine.py](https://github.com/Joecth/MWP_ExplanationGenerator/blob/master/pkg_0/statemachine.py) & [statemachine_tv.py](https://github.com/Joecth/MWP_ExplanationGenerator/blob/master/pkg_0/statemachine_tv.py) 
 to build automata state-machine, classifying answering sentences into 12 tenses in English.
 
 Finally, plz kindly run `Regression Test` to get to know more!
